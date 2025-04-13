@@ -3490,15 +3490,24 @@ input::-moz-focus-inner {
 }
 
 .s-hero__bg {
-    background-image: url(../images/hero-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 36.5vw;
+    overflow: hidden;
+    z-index: 1; /* Background container */
+}
+
+.s-hero__bg video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0; /* Video behind overlays */
+    pointer-events: none; /* Just in case */
 }
 
 .s-hero__bg::after {
@@ -3511,6 +3520,7 @@ input::-moz-focus-inner {
     height: 100%;
     background: var(--color-black);
     opacity: .25;
+    z-index: 1; /* On top of video */
 }
 
 .s-hero__bg .gradient-overlay {
@@ -3520,9 +3530,9 @@ input::-moz-focus-inner {
     left: 0;
     width: 100%;
     height: 100%;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, black), to(rgba(0, 0, 0, 0)));
     background: linear-gradient(180deg, black 10%, rgba(0, 0, 0, 0) 100%);
     opacity: .35;
+    z-index: 2; /* On top of pseudo element */
 }
 
 
@@ -3537,6 +3547,7 @@ input::-moz-focus-inner {
     padding-top: 20vh;
     padding-bottom: 7vh;
     position: relative;
+    z-index: 3;
 }
 
 .s-hero__content h1 {
