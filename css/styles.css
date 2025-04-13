@@ -4207,6 +4207,11 @@ html.no-csstransitions .s-hero__content {
     background-image: url(../images/icons/services/SERVICE_ICON_TEAM_1.svg);
 }
 
+.service-layout {
+    table-layout: auto;
+    width: 100%;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * services
