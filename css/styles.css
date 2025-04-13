@@ -3631,6 +3631,7 @@ input::-moz-focus-inner {
     position: absolute;
     right: 10.4rem;
     bottom: 20vh;
+    z-index: 3;
 }
 
 .s-hero__video svg {
