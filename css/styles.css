@@ -1864,7 +1864,7 @@ hr.fancy {
 }
 
 hr.fancy::before {
-    content: "*****";
+    content: "ULTRA INSTINCT CREW";
     letter-spacing: .3em;
 }
 
@@ -2736,6 +2736,9 @@ input::-moz-focus-inner {
     content: "";
 }
 
+.skill-bars li .percent1 {
+    width: 1%;
+}
 .skill-bars li .percent5 {
     width: 5%;
 }
