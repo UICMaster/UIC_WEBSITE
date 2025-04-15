@@ -1,23 +1,30 @@
-async function fetchRankings() {
-    try {
-      const response = await fetch('https://riot-api-backend.onrender.com/api/rankings');
-      const data = await response.json();
+fetch('https://riot-api-backend.onrender.com/api/rankings')
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById('players-container');
 
-      data.forEach((player, index) => {
-        const elementId = `player${index + 1}`;
-        const element = document.getElementById(elementId);
+        data.forEach(player => {
+          const card = document.createElement('div');
+          card.className = 'player-card';
 
-        if (element) {
           if (player.error) {
-            element.textContent = `${player.gameName}#${player.tagLine}: ${player.error}`;
-          } else {
-            element.textContent = `${player.gameName}#${player.tagLine}: ${player.rank} (${player.lp} LP) - ${player.wins}W / ${player.losses}L`;
+            card.innerHTML = `<strong>${player.gameName}#${player.tagLine}</strong><br>Error: ${player.error}`;
+            container.appendChild(card);
+            return;
           }
-        }
-      });
-    } catch (error) {
-      console.error("Error fetching rankings:", error);
-    }
-  }
 
-  fetchRankings();
+          card.innerHTML = `
+            <div class="player-header">
+              <img id="${player.id}_summoner" src="https://ddragon.leagueoflegends.com/cdn/14.7.1/img/profileicon/${player.profileIconId}.png" alt="Icon" />
+              <div>
+                <strong>${player.gameName}#${player.tagLine}</strong><br>
+                Level <span id="${player.id}_level">${player.level}</span>
+              </div>
+            </div>
+            <p>ELO: <span id="${player.id}_elo">${player.rank}</span></p>
+            <p>Stats: <span id="${player.id}_stats">LP: ${player.lp}, Wins: ${player.wins}, Losses: ${player.losses}</span></p>
+          `;
+
+          container.appendChild(card);
+        });
+      });
