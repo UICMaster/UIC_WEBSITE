@@ -22,11 +22,12 @@ fetch('https://riot-api-backend.onrender.com/api/rankings')
     }
 
     if (elo) {
-      elo.textContent = player.rank;
+      //   elo.textContent = player.rank; 
+      elo.textContent = `${player.rank} (${player.lp} LP)`;
     }
 
     if (stats) {
-      stats.textContent = `LP: ${player.lp}, Wins: ${player.wins}, Losses: ${player.losses}`;
+      stats.textContent = `${player.wins} / ${player.losses}`;
     }
 
     if (level) {
