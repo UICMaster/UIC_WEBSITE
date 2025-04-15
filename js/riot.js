@@ -1,30 +1,39 @@
 fetch('https://riot-api-backend.onrender.com/api/rankings')
-      .then(res => res.json())
-      .then(data => {
-        const container = document.getElementById('players-container');
+.then(res => res.json())
+.then(data => {
+  data.forEach((player, index) => {
+    const num = index + 1;
+    const baseId = `player${num}`;
 
-        data.forEach(player => {
-          const card = document.createElement('div');
-          card.className = 'player-card';
+    if (player.error) {
+      document.getElementById(`${baseId}_elo`).innerText = 'Error';
+      document.getElementById(`${baseId}_stats`).innerText = player.error;
+      return;
+    }
 
-          if (player.error) {
-            card.innerHTML = `<strong>${player.gameName}#${player.tagLine}</strong><br>Error: ${player.error}`;
-            container.appendChild(card);
-            return;
-          }
+    // Fill in data
+    const icon = document.getElementById(`${baseId}_summoner`);
+    const elo = document.getElementById(`${baseId}_elo`);
+    const stats = document.getElementById(`${baseId}_stats`);
+    const level = document.getElementById(`${baseId}_level`);
 
-          card.innerHTML = `
-            <div class="player-header">
-              <img id="${player.id}_summoner" src="https://ddragon.leagueoflegends.com/cdn/14.7.1/img/profileicon/${player.profileIconId}.png" alt="Icon" />
-              <div>
-                <strong>${player.gameName}#${player.tagLine}</strong><br>
-                Level <span id="${player.id}_level">${player.level}</span>
-              </div>
-            </div>
-            <p>ELO: <span id="${player.id}_elo">${player.rank}</span></p>
-            <p>Stats: <span id="${player.id}_stats">LP: ${player.lp}, Wins: ${player.wins}, Losses: ${player.losses}</span></p>
-          `;
+    if (icon) {
+      icon.src = `https://ddragon.leagueoflegends.com/cdn/14.7.1/img/profileicon/${player.profileIconId}.png`;
+    }
 
-          container.appendChild(card);
-        });
-      });
+    if (elo) {
+      elo.textContent = player.rank;
+    }
+
+    if (stats) {
+      stats.textContent = `LP: ${player.lp}, Wins: ${player.wins}, Losses: ${player.losses}`;
+    }
+
+    if (level) {
+      level.textContent = player.summonerLevel;
+    }
+  });
+})
+.catch(error => {
+  console.error('Error fetching player data:', error);
+});
