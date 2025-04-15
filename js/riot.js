@@ -1,34 +1,30 @@
-const baseIconUrl = 'https://ddragon.leagueoflegends.com/cdn/14.8.1/img/profileicon/';
-
-    fetch('https://riot-api-backend.onrender.com/api/rankings')
-      .then(response => response.json())
+fetch('https://riot-api-backend.onrender.com/api/rankings')
+      .then(res => res.json())
       .then(data => {
-        data.forEach((player, index) => {
-          const playerId = index + 1;
+        const container = document.getElementById('players-container');
 
-          // Profile icon
-          const iconElement = document.getElementById(`player${playerId}_summoner`);
-          if (iconElement && player.profileIconId) {
-            iconElement.src = `${baseIconUrl}${player.profileIconId}.png`;
+        data.forEach(player => {
+          const card = document.createElement('div');
+          card.className = 'player-card';
+
+          if (player.error) {
+            card.innerHTML = `<strong>${player.gameName}#${player.tagLine}</strong><br>Error: ${player.error}`;
+            container.appendChild(card);
+            return;
           }
 
-          // Level
-          const levelElement = document.getElementById(`player${playerId}_level`);
-          if (levelElement) {
-            levelElement.innerText = `Level: ${player.summonerLevel ?? 'N/A'}`;
-          }
+          card.innerHTML = `
+            <div class="player-header">
+              <img id="${player.id}_summoner" src="https://ddragon.leagueoflegends.com/cdn/14.7.1/img/profileicon/${player.profileIconId}.png" alt="Icon" />
+              <div>
+                <strong>${player.gameName}#${player.tagLine}</strong><br>
+                Level <span id="${player.id}_level">${player.level}</span>
+              </div>
+            </div>
+            <p>ELO: <span id="${player.id}_elo">${player.rank}</span></p>
+            <p>Stats: <span id="${player.id}_stats">LP: ${player.lp}, Wins: ${player.wins}, Losses: ${player.losses}</span></p>
+          `;
 
-          // Elo/Rank
-          const eloElement = document.getElementById(`player${playerId}_elo`);
-          if (eloElement) {
-            eloElement.innerText = `Rank: ${player.rank}`;
-          }
-
-          // Stats
-          const statsElement = document.getElementById(`player${playerId}_stats`);
-          if (statsElement) {
-            statsElement.innerText = `LP: ${player.lp}, Wins: ${player.wins}, Losses: ${player.losses}`;
-          }
+          container.appendChild(card);
         });
-      })
-      .catch(error => console.error('Error fetching player data:', error));
+      });
