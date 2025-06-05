@@ -1,4 +1,4 @@
-fetch('https://riot-api-backend.onrender.com/api/rankings')
+fetch('https://riot-rank-api.ultrainstinctcrew-gaming.workers.dev/api/rankings')
 .then(res => res.json())
 .then(data => {
   data.forEach((player, index) => {
