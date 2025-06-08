@@ -222,7 +222,7 @@
     </section> <!-- end s-about -->
 
 
-    <!-- services
+    <!-- teams
     ================================================== -->
     <section id="services" class="s-services">
 
@@ -246,154 +246,267 @@
             </div>
         </div>
 
-        <div class="row block-large-1-2 block-tab-full s-services__services item-list">
-            <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--team-1"></span>
-                <h3 class="item-title">Team 1</h3>
-                <p data-aos="fade-up">
-                Prime League: Devision 5 <br>
-                </p>
-                <div class="services-layout">
-                    <table data-aos="fade-up">
+        <div class="row "> <!-- start team 1 -->
+
+            <h2>Team 1</h2>
+
+            <div class="column large-12">
+
+                <ul class="stats-tabs h-text-center">
+                    <li><a href="#0"><img id="player1_summoner" src="" alt="UIC Speedy Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC Speedy</em></a></li>
+                    <li><a href="#0"><img id="player2_summoner" src="" alt="UIC Otter Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>Otter</em></a></li>
+                    <li><a href="#0"><img id="player3_summoner" src="" alt="UIC Shenycrane Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>Shenycrane</em></a></li>
+                    <li><a href="#0"><img id="player4_summoner" src="" alt="UIC N1ghtm4reX Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC N1ghtm4reX</em></a></li>
+                    <li><a href="#0"><img id="player5_summoner" src="" alt="UIC Keygasza Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC Keygasza</em></a></li>
+                    <li><a href="#0"><img id="player6_summoner" src="" alt="UIC NiiiceOnex3 Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>NiiiceOnex3</em></a></li>
+                    <li><a href="#0"><img id="player7_summoner" src="" alt="UIC Gallagros Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC Gallagros</em></a></li>
+                    <li><a href="#0"><img id="player8_summoner" src="" alt="UIC Goku Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC Goku</em></a></li>
+                </ul>
+
+                <hr class="fancy">
+
+                <p>Das Team besteht aus <code>5</code> Stammspielern und <code>3</code> Ersatzspielern.</p>
+
+                <div class="table-responsive">
+
+                    <table>
                         <thead>
                             <tr>
-                                <th>Beschwörer</th>
+                                <th>#</th>
                                 <th>Name</th>
-                                <th>Rolle</th>
+                                <th>Role</th>
+                                <th>Elo</th>
+                                <th>S / N</th>
+
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td><img id="player1_summoner" src="" style="object-fit: cover;" /></td>
+                                <td>Stamm</td>
                                 <td>UIC Speedy#EUW</td>
                                 <td>Top</td>
+                                <td id="player1_elo">Loading...</td>
+                                <td id="player1_stats">Loading...</td>
                             </tr>
                             <tr>
-                                <td><img id="player2_summoner" src="" style="object-fit: cover;" /></td>
+                                <td>Stamm</td>
                                 <td>Otter#0812</td>
                                 <td>Jngl</td>
+                                <td id="player2_elo">Loading...</td>
+                                <td id="player2_stats">Loading...</td>                            
                             </tr>
                             <tr>
-                                <td><img id="player3_summoner" src="" style="object-fit: cover;" /></td>
+                                <td>Stamm</td>
                                 <td>Shenycrane#EUW</td>
                                 <td>Mid</td>
+                                <td id="player3_elo">Loading...</td>
+                                <td id="player3_stats">Loading...</td>                            
                             </tr>
                             <tr>
-                                <td><img id="player4_summoner" src="" style="object-fit: cover;" /></td>
+                                <td>Stamm</td>
                                 <td>UIC N1ghtm4reX#H96</td>
                                 <td>Bot</td>
+                                <td id="player4_elo">Loading...</td>
+                                <td id="player4_stats">Loading...</td>                            
                             </tr>
                             <tr>
-                                <td><img id="player5_summoner" src="" style="object-fit: cover;" /></td>
+                                <td>Stamm</td>
                                 <td>UIC Keygasza#1337</td>
                                 <td>Sup</td>
+                                <td id="player5_elo">Loading...</td>
+                                <td id="player5_stats">Loading...</td>                            
+                            </tr>
+                            <tr>
+                                <td>Ersatz</td>
+                                <td>NiiiceOnex3#EUW</td>
+                                <td>Jngl</td>
+                                <td id="player6_elo">Loading...</td>
+                                <td id="player6_stats">Loading...</td>                            
+                            </tr>
+                            <tr>
+                                <td>Ersatz</td>
+                                <td>UIC Gallagros#187</td>
+                                <td>Bot</td>
+                                <td id="player7_elo">Loading...</td>
+                                <td id="player7_stats">Loading...</td>                            
+                            </tr>
+                            <tr>
+                                <td>Ersatz</td>
+                                <td>UIC Goku#UIC</td>
+                                <td>Mid</td>
+                                <td id="player8_elo">Loading...</td>
+                                <td id="player8_stats">Loading...</td>                            
                             </tr>
                         </tbody>
                     </table>
+                    <figcaption>
+                        Swipe mich in der mobilen Ansicht
+                    </figcaption>
+
                 </div>
-                <p>
-                    <a class="btn h-full-width" href="team_1.html">Zur detail Ansicht</a>
-                </p>
+
             </div>
-            <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--team-2"></span>
-                <h3 class="item-title">Team 2</h3>
-                <p data-aos="fade-up">
-                Prime League: Devision 7 <br>
-                </p>
-                <div class="services-layout">
-                    <table data-aos="fade-up">
+            
+        </div> <!-- ende team 1 -->
+
+        <div class="row"> <!-- start team 2 -->
+
+            <div class="column large-12">
+
+                <ul class="stats-tabs h-text-center">
+                    <li><a href="#0"><img id="player9_summoner" src="" alt="UIC Boohunter Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC Boohunter</em></a></li>
+                    <li><a href="#0"><img id="player10_summoner" src="" alt="UIC Leann Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>Leann</em></a></li>
+                    <li><a href="#0"><img id="player11_summoner" src="" alt="UIC Nova Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC Nova</em></a></li>
+                    <li><a href="#0"><img id="player12_summoner" src="" alt="UIC Rhinoshield Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC Rhinoshield</em></a></li>
+                    <li><a href="#0"><img id="player13_summoner" src="" alt="UIC Dragonfly Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC Dragonfly</em></a></li>
+                </ul>
+
+                <hr class="fancy">
+
+                <p>Das Team besteht aus <code>5</code> Stammspielern.</p>
+
+                <div class="table-responsive">
+
+                    <table>
                         <thead>
                             <tr>
-                                <th>Beschwörer</th>
+                                <th>#</th>
                                 <th>Name</th>
-                                <th>Rolle</th>
+                                <th>Role</th>
+                                <th>Elo</th>
+                                <th>S / N</th>
+
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td><img id="player9_summoner" src="" style="object-fit: cover;" /></td>
+                                <td>Stamm</td>
                                 <td>UIC Boohunter#Boo</td>
                                 <td>Top</td>
+                                <td id="player9_elo">Loading...</td>
+                                <td id="player9_stats">Loading...</td>
                             </tr>
                             <tr>
-                                <td><img id="player10_summoner" src="" style="object-fit: cover;" /></td>
+                                <td>Stamm</td>
                                 <td>Leann#hahah</td>
                                 <td>Jngl</td>
+                                <td id="player10_elo">Loading...</td>
+                                <td id="player10_stats">Loading...</td>                            
                             </tr>
                             <tr>
-                                <td><img id="player11_summoner" src="" style="object-fit: cover;" /></td>
+                                <td>Stamm</td>
                                 <td>UIC Nova#old</td>
                                 <td>Mid</td>
+                                <td id="player11_elo">Loading...</td>
+                                <td id="player11_stats">Loading...</td>                            
                             </tr>
                             <tr>
-                                <td><img id="player12_summoner" src="" style="object-fit: cover;" /></td>
+                                <td>Stamm</td>
                                 <td>UIC Rhinoshield#RIN</td>
                                 <td>Bot</td>
+                                <td id="player12_elo">Loading...</td>
+                                <td id="player12_stats">Loading...</td>                            
                             </tr>
                             <tr>
-                                <td><img id="player13_summoner" src="" style="object-fit: cover;" /></td>
+                                <td>Stamm</td>
                                 <td>UIC Dragonfly#1299</td>
                                 <td>Sup</td>
+                                <td id="player13_elo">Loading...</td>
+                                <td id="player13_stats">Loading...</td>                            
                             </tr>
                         </tbody>
                     </table>
+                    <figcaption>
+                        Swipe mich in der mobilen Ansicht
+                    </figcaption>
+
                 </div>
-                <p>
-                    <a class="btn h-full-width" href="team_2.html">Zur detail Ansicht</a>
-                </p>
+
             </div>
-            <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--team-3"></span>
-                <h3 class="item-title">Team 3</h3>
-                <p data-aos="fade-up">
-                Prime League: Kalibirerungsphase <br>
-                </p>
-                <div class="services-layout">
-                    <table data-aos="fade-up">
+
+        </div> <!-- ende team 2 -->
+
+        <div class="row"> <!-- start team 3 -->
+            <div class="column large-12">
+
+                <ul class="stats-tabs h-text-center">
+                    <li><a href="#0"><img id="player14_summoner" src="" alt="UIC Akihi Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>Akihi</em></a></li>
+                    <li><a href="#0"><img id="player15_summoner" src="" alt="UIC Schuh Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>HGG Schuh</em></a></li>
+                    <li><a href="#0"><img id="player16_summoner" src="" alt="UIC rakehunt Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>rakehunt</em></a></li>
+                    <li><a href="#0"><img id="player17_summoner" src="" alt="UIC Cedo Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC Cedo</em></a></li>
+                    <li><a href="#0"><img id="player18_summoner" src="" alt="UIC ReCord Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC ReCord</em></a></li>
+                </ul>
+
+                <hr class="fancy">
+
+                <p data-aos="fade-up">Das Team besteht aus <code>5</code> Stammspielern.</p>
+
+                <div class="table-responsive" data-aos="fade-up">
+
+                    <table>
                         <thead>
                             <tr>
-                                <th>Beschwörer</th>
+                                <th>#</th>
                                 <th>Name</th>
-                                <th>Rolle</th>
+                                <th>Role</th>
+                                <th>Elo</th>
+                                <th>S / N</th>
+
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td><img id="player14_summoner" src="" style="object-fit: cover;" /></td>
-                                <td>Akihi#Lost</td>
+                                <td>Stamm</td>
+                                <td>UIC Akihi#Lost</td>
                                 <td>Top</td>
+                                <td id="player14_elo">Loading...</td>
+                                <td id="player14_stats">Loading...</td>
                             </tr>
                             <tr>
-                                <td><img id="player15_summoner" src="" style="object-fit: cover;" /></td>
+                                <td>Stamm</td>
                                 <td>HGG Schuh#Cedo</td>
                                 <td>Jngl</td>
+                                <td id="player15_elo">Loading...</td>
+                                <td id="player15_stats">Loading...</td>                            
                             </tr>
                             <tr>
-                                <td><img id="player16_summoner" src="" style="border-radius: 50%; width:25px;" /></td>
+                                <td>Stamm</td>
                                 <td>rakehunt#EUW</td>
                                 <td>Mid</td>
+                                <td id="player16_elo">Loading...</td>
+                                <td id="player16_stats">Loading...</td>                            
                             </tr>
                             <tr>
-                                <td><img id="player17_summoner" src="" style="object-fit: cover;" /></td>
+                                <td>Stamm</td>
                                 <td>UIC Cedo#EUW</td>
                                 <td>Bot</td>
+                                <td id="player17_elo">Loading...</td>
+                                <td id="player17_stats">Loading...</td>                            
                             </tr>
                             <tr>
-                                <td><img id="player18_summoner" src="" style="object-fit: cover;" /></td>
+                                <td>Stamm</td>
                                 <td>UIC ReCord#Cedo</td>
                                 <td>Sup</td>
+                                <td id="player18_elo">Loading...</td>
+                                <td id="player18_stats">Loading...</td>                            
                             </tr>
                         </tbody>
                     </table>
-                </div>
-                <p>
-                    <a class="btn h-full-width" href="team_3.html">Zur detail Ansicht</a>
-                </p>
-            </div>
-        </div>
+                    <figcaption>
+                        Swipe mich in der mobilen Ansicht
+                    </figcaption>
 
-    </section> <!-- end s-services -->
+                </div>
+
+            </div>
+
+        </div> <!-- ende team 3 -->
+
+        <div class="row"> <!-- start team 4 -->
+
+        </div> <!-- ende team 4 -->
+
+    </section> <!-- end s-teams -->
 
     <section id="portfolio" class="s-portfolio">
 
