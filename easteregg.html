@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>UIC | Ultra Instinct Crew</title>
+    <meta name="description" content="Die Beschreibung folgt">
+    <meta name="author" content="proStarII">
+    <link rel="canonical" href="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Rhitta">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+    <!-- Manifest
+    ================================================== -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0b0b0c">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/easteregg.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"/>
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script defer src="js/fontawesome/all.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <!-- Open Graph
+    ================================================== -->
+    <meta property="og:title" content="UIC | Ultra Instinct Crew">
+    <meta property="og:description" content="Try Rhitta to factor large numbers directly in your browser using high-performance algorithms.">
+    <meta property="og:image" content="https://rhitta.io/icon512_rounded.png">
+    <meta property="og:url" content="https://rhitta.io/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter
+    ================================================== -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="UIC | Ultra Instinct Crew">
+    <meta name="twitter:description" content="Try Rhitta to factor large numbers directly in your browser using high-performance algorithms.">
+    <meta name="twitter:image" content="https://rhitta.io/icon512_rounded.png">
+    <meta name="twitter:site" content="@xxxxxx">
+
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="startMenu">
+            <h1>Pong</h1>
+            <button id="startBtn">Start</button>
+        </div>
+        <div id="pauseMenu">
+            <h1>Pause</h1>
+            <button id="continueBtn">Continue</button>
+            <button id="restartBtn">Restart</button>
+        </div>
+        <div id="gameOverMenu">
+            <h1 id="gameMessage"></h1>
+            <button id="againBtn">Try again</button>
+        </div>
+        <div id="gameplay">
+            <canvas id="gameCanvas" width="800" height="600"></canvas>
+        </div>
+    </div>
+
+    <script src="js/easteregg.js"></script>
+</body>
+
+
+</html>

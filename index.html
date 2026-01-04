@@ -6,23 +6,28 @@
     ================================================== -->
     <meta charset="utf-8">
     <title>UIC | Ultra Instinct Crew</title>
-    <meta   name="description" 
-            content="   Ultra Instinct Crew ist eine professionelle Organisation mit dem Ziel, 
-                        talentierte Amateurspieler zu fördern, zu vermarkten und erfolgreich im E-Sport zu etablieren.
-                        Unser langfristiges Ziel ist der Aufstieg in die Division 1 der Prime League.
-                        Unter unserem Banner vereinen wir mehrere Teams,  von Division 5 bis hin zu Division 2 wir bieten ihnen 
-                        die nötige Unterstützung, um ihr volles Potenzial auszuschöpfen."
-    >
-    <meta name="author" content="UIC proStarII">
+    <meta name="description" content="Die Beschreibung folgt">
+    <meta name="author" content="proStarII">
+    <link rel="canonical" href="">
 
     <!-- mobile specific metas
     ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Rhitta">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+    <!-- Manifest
+    ================================================== -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0b0b0c">
 
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"/>
 
     <!-- script
     ================================================== -->
@@ -31,10 +36,24 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
+
+    <!-- Open Graph
+    ================================================== -->
+    <meta property="og:title" content="UIC | Ultra Instinct Crew">
+    <meta property="og:description" content="Try Rhitta to factor large numbers directly in your browser using high-performance algorithms.">
+    <meta property="og:image" content="https://rhitta.io/icon512_rounded.png">
+    <meta property="og:url" content="https://rhitta.io/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter
+    ================================================== -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="UIC | Ultra Instinct Crew">
+    <meta name="twitter:description" content="Try Rhitta to factor large numbers directly in your browser using high-performance algorithms.">
+    <meta name="twitter:image" content="https://rhitta.io/icon512_rounded.png">
+    <meta name="twitter:site" content="@xxxxxx">
 
 </head>
 
@@ -51,6 +70,35 @@
         </div>
     </div>
 
+    <!-- modal
+    ================================================== -->
+    <div id="modal" role="dialog" aria-modal="true" aria-labelledby="consent-title" tabindex="-1">
+        <div class="modal-container" role="document">
+            <div class="row">
+            <div class="column large-12">
+                <h4 id="consent-title">Datenschutzrichtlinien und Nutzungsbedingungen</h4>
+                <p>
+                Lesen Sie die
+                <a href="./easteregg.html" target="_blank" rel="noopener">Datenschutzrichtlinien</a> und 
+                <a href="https://blaueroktober.gitbook.io/rhitta-docs" target="_blank" rel="noopener">Nutzungsbedingungen</a> bevor Sie fortfahren.
+                </p>
+                <label class="h-add-bottom">
+                <input type="checkbox" id="consent-checkbox">
+                <span class="label-text">Ich habe die "Datenschutzrichtlinien" und "Nutzungsbedingungen" gelesen.</span>
+                </label>
+            </div>
+            </div>
+
+            <div class="row h-add-bottom">
+            <div class="column large-6 tab-12">
+                <input class="btn--primary h-full-width" id="accept-consent" type="button" value="Annehmen" disabled>
+            </div>
+            <div class="column large-6 tab-12">
+                <input class="btn--stroke h-full-width" id="decline-consent" type="button" value="Ablehnen">
+            </div>
+            </div>
+        </div>
+    </div>
 
     <!-- header
     ================================================== -->
@@ -58,7 +106,7 @@
 
         <div class="s-header__logo">
             <a href="index.html">
-                <img src="images/logo.svg" alt="Startseite">
+                <img src="images/logo.svg" alt="Homepage">
             </a>
         </div>
 
@@ -66,16 +114,17 @@
     
             <nav class="s-header__nav-wrap">
                 <ul class="s-header__nav">
-                    <li><a class="smoothscroll" href="#hero" title="Intro">Start</a></li>
-                    <li><a class="smoothscroll" href="#about" title="About">Oragnisation</a></li>
-                    <li><a class="smoothscroll" href="#services" title="Services">Teams</a></li>
-                    <li><a class="smoothscroll" href="#portfolio" title="Works">Höhepunkte</a></li>
+                    <li><a class="smoothscroll" href="#organisation" title="Organisation">Organisation</a></li>
+                    <li><a class="smoothscroll" href="#bewerbung" title="Bewerbung">Bewerbung</a></li>
+                    <li><a class="smoothscroll" href="#statistiken" title="Statistiken">Statistiken</a></li>
+                    <li><a class="smoothscroll" href="#spieler" title="Spieler">Spieler</a></li>
+                    <li><a class="smoothscroll" href="#kalender" title="Kalender">Kalender</a></li>
+                    <li><a class="smoothscroll" href="#kontact" title="Kontakt">Kontakt</a></li>
                 </ul>
             </nav> <!-- end s-header__nav-wrap -->
 
-            <a href="mailto:ultrainstinctcrew.gaming@gmail.com?subject=Bewerbung:%20Ultra%20Instinct%20Crew?body=Hey%20Goku%20und%20Racialle," class="btn btn--primary btn--small">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
-                Bewirb dich!
+            <a href="xxxxxx" class="btn btn--primary btn--small">
+                Mein Dashboard <i class="fas fa-sign-in-alt"></i>
             </a>
 
         </div> <!-- end header-content -->
@@ -84,32 +133,18 @@
 
     </header> <!-- end s-header -->
 
-
     <!-- hero
     ================================================== -->
     <section id="hero" class="s-hero target-section">
-
-        <div class="s-hero__bg">
-            <video autoplay muted loop playsinline class="bg-video">
-                <source src="video/UIC_HERO.webm" type="video/webm">
-                Your browser does not support the video tag.
-            </video>
-            <div class="gradient-overlay"></div>
-        </div>
 
         <div class="row s-hero__content">
             <div class="column">
 
                 <h1>UIC</h1>
                 <div class="s-hero__content-about">
-
                     <p>
-                    Wir sind ein Team! <br>
-                    Eine Organisation. <br>
-                    Mit Leidenschaft & <br>
-                    Begeisterung.
+                    Die Ultra Instict Crew ist eine League of Legends Organisation, die ihre Teams bei ihrer Entwicklung fördert und den Anspruch erhebt Spieler zu verbinden.
                     </p>
-    
                     <footer>
                         <div class="s-hero__content-social">
                             <a href="https://www.youtube.com/@UltraInstinctCrew"><i class="fab fa-youtube" aria-hidden="true"></i></a>
@@ -120,534 +155,271 @@
                         </div>
                     </footer>
                 </div>
-
             </div>
         </div>
 
-        <div class="s-hero__video">
-            <a class="s-hero__video-link" href="https://www.youtube.com/watch?v=0pqeo8DxNJE" data-lity="">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
-                <span class="s-hero__video-text">Video abspielen</span>
-            </a>
-        </div>
-
         <div class="s-hero__scroll">
-            <a href="#about" class="s-hero__scroll-link smoothscroll">
-                Wisch runter
+            <a href="#organisation" class="s-hero__scroll-link smoothscroll">
+                Scrollen
             </a>
         </div>
 
     </section> <!-- end s-hero -->
 
 
-    <!-- about
+    <!-- organisation
     ================================================== -->
-    <section id="about" class="s-about">
+    <section id="organisation" class="s-about">
 
         <div class="horizontal-line"></div>
 
         <div class="row">
-            <div class="column large-12">
 
-                <div class="section-title" data-num="01" data-aos="fade-up">
-                    <h3 class="h6">Wer sind wir</h3>
-                </div>
+            <div class="column large-12 intro">
 
-            </div>
+                <p class="h1">Organisation</p>
 
-            <div class="column large-6 w-900-stack s-about__intro-text">
-                <h1 class="display-1" data-aos="fade-up">
-                    Die Ultra Instinct Crew [UIC], hat das Ziel das Deutsche "Los Ratones" nach dem vorbild von Caedrel zu werden.
-                </h1>
+                <p class="lead">
+                    Die Ultra Instinct Crew ist eine moderne Gaming-Organisation, 
+                    die sich dem strukturierten Aufbau von Spielern, Teams und einer 
+                    starken Community verschrieben hat. Unser Anspruch ist es, 
+                    ambitionierten Gamerinnen und Gamern eine professionelle 
+                    Umgebung zu bieten, in der Leistung, Weiterentwicklung und 
+                    Teamgeist im Mittelpunkt stehen.                   
+                    <br><br>
 
-                <p class="lead" data-aos="fade-up">
-                    Ultra Instinct Crew ist eine professionelle Organisation mit dem Ziel, 
-                    talentierte Amateurspieler zu fördern, zu vermarkten und erfolgreich im E-Sport zu etablieren.
-                    Unser langfristiges Ziel ist der Aufstieg in die Division 1 der Prime League.
-                    Unter unserem Banner vereinen wir mehrere Teams,  von Division 5 bis hin zu Division 2 wir bieten ihnen 
-                    die nötige Unterstützung, um ihr volles Potenzial auszuschöpfen.
+                    UIC vereint Competitive-E-Sport, organisiertes Training und 
+                    eine aktive Community unter einem gemeinsamen Banner. 
+                    Dabei legen wir großen Wert auf klare Strukturen, 
+                    verlässliche Abläufe und respektvolles Miteinander – 
+                    sowohl im Spiel als auch außerhalb davon.
                 </p>
+                
             </div>
 
-            <div class="column large-6 w-900-stack s-about__photo-block">
-                <div class="s-about__photo" data-aos="fade-up"></div>
-            </div>
-        </div>
+        </div> <!-- end row -->
 
-        <div class="row block-large-1-2 block-tab-full s-about__process item-list">
-            <div class="column item item-process" data-aos="fade-up">
-                <h3 class="item-title">Streams</h3>
-                <p>
-                Ob soloQ oder flexQ squad im Stream sind wir live und mittendrin. 
-                Keine Pause, kein Respawn, nur der nächste Move zählt. 
-                Hier wird gelacht, getiltet und gecarried. Über 3 Teams 
-                verteilen sich 17 Spieler, immer mit Herzdabei. 
-                Im Chat, im Game, im Moment.
-                </p>
-            </div>
-            <div class="column item item-process" data-aos="fade-up">
-                <h3 class="item-title">Scrims</h3>
-                <p>
-                Scrims sind private Games zwischen zwei Teams, um besser zu werden. 
-                Kein Ranked, kein Druck – einfach üben, testen, Fehler machen, daraus lernen.
-                Man probiert neue Taktiken, übt Calls und checkt, was im Ernstfall funktioniert. 
-                Es geht nicht ums Gewinnen, sondern ums besser werden – als Team.
-                </p>
-            </div>
-            <div class="column item item-process" data-aos="fade-up">
-                <h3 class="item-title">Prime League [PL]</h3>
-                <p>
-                Die Prime League ist die offizielle LoL-Liga für Deutschland, 
-                Österreich und die Schweiz. Hier spielen Teams auf 
-                verschiedenen Levels – von Amateur bis Profi – und battlen 
-                sich um Aufstieg, Ruhm und die Chance, ganz nach oben zu kommen.
-                Ob du just for fun mit deinem Team zockst oder ernsthaft Competetive 
-                gehen willst – die Prime League gibt dir die Bühne dafür.
-                </p>
-            </div>
-            <div class="column item item-process" data-aos="fade-up">
-                <h3 class="item-title">Spieleabende</h3>
-                <p>
-                Manchmal wird nicht geschwitzt, sondern gelacht. 
-                Bei unseren Spieleabenden geht es um Spaß, Chaos und dumme 
-                Ideen – zum Beispiel bei Make It Meme, wo’s nicht ums Gewinnen geht, 
-                sondern darum, wer die wildesten Memes raushaut.
-                Und wenn gerade keiner Bock auf Games hat? Dann hängen wir 
-                einfach im #schnacken-Kanal auf Discord rum, quatschen, 
-                chillen oder labern Unsinn – alles kann, nix muss.
-                </p>
-            </div>
-        </div>
-
-    </section> <!-- end s-about -->
+    </section> <!-- end s-organisation -->
 
 
-    <!-- teams
+    <!-- bewerbung
     ================================================== -->
-    <section id="services" class="s-services">
+    <section id="bewerbung" class="s-about">
+
+        <div class="row">
+
+            <div class="column large-12 intro">
+
+                <p class="h1">Bewerbung</p>
+
+                <div class="row block-large-1-2 block-tab-full s-about__process item-list">
+                    <div class="column item item-process">
+                        <h3 class="item-title">Check deine Voraussetzungen</h3>
+                        <p class="lead">
+                        Bevor du dich bei der Ultra Instinct Crew bewirbst, 
+                        solltest du sicherstellen, dass du unsere grundlegenden 
+                        Voraussetzungen erfüllst. Dazu gehören ein angemessenes 
+                        Mindestalter, eine aktive und motivierte Einstellung 
+                        zum Spiel sowie die Bereitschaft, dich in ein Team 
+                        zu integrieren. Teamfähigkeit, Zuverlässigkeit und 
+                        ein respektvoller Umgang mit anderen Mitgliedern 
+                        sind für uns essenziell. Zudem setzen wir ein 
+                        funktionierendes Headset und die Nutzung von 
+                        Discord voraus, da Kommunikation ein zentraler Bestandteil 
+                        unseres Teamplays ist.
+                        </p>
+                    </div>
+                    <div class="column item item-process">
+                        <h3 class="item-title">Bewerbungsformular ausfüllen</h3>
+                        <p class="lead">
+                        Wenn du alle Voraussetzungen erfüllst, kannst du im 
+                        nächsten Schritt unser Bewerbungsformular ausfüllen. 
+                        Dabei ist es wichtig, dass du alle Angaben vollständig 
+                        und ehrlich machst. Neben deinem In-Game-Namen, Spiel, 
+                        Rolle und aktuellem Rang interessieren uns vor 
+                        allem deine Erfahrung, deine Ziele und deine 
+                        zeitliche Verfügbarkeit. Eine kurze persönliche 
+                        Vorstellung hilft uns, dich als Spieler und als 
+                        Mensch besser kennenzulernen.
+                        </p>
+                    </div>
+                    <div class="column item item-process">
+                        <h3 class="item-title">Absenden & warten</h3>
+                        <p class="lead">
+                        Nach dem Absenden deiner Bewerbung wird diese von unserem 
+                        Management-Team sorgfältig geprüft. Wir nehmen uns bewusst 
+                        Zeit, jede Bewerbung individuell zu bewerten, um sicherzustellen, 
+                        dass neue Mitglieder sowohl spielerisch als auch menschlich 
+                        zur Organisation passen. Die Bearbeitungszeit beträgt in der 
+                        Regel einige Tage. Bitte habe in dieser Phase etwas Geduld 
+                        und sieh von mehrfachen Nachfragen ab.
+                        </p>
+                    </div>
+                    <div class="column item item-process">
+                        <h3 class="item-title">Interview oder Tryout</h3>
+                        <p class="lead">
+                        Sollte deine Bewerbung einen positiven Eindruck hinterlassen, 
+                        laden wir dich zu einem persönlichen Gespräch auf unserem 
+                        Discord-Server ein. Alternativ oder zusätzlich kann ein 
+                        Tryout stattfinden, bei dem du gemeinsam mit einem unserer 
+                        Teams spielst. In diesem Schritt geht es nicht nur um deine 
+                        spielerische Leistung, sondern auch um Kommunikation, 
+                        Teamplay und Verhalten im Spiel. So lernen beide Seiten 
+                        sich besser kennen.
+                        </p>
+                    </div>
+                    <div class="column item item-process">
+                        <h3 class="item-title">Rückmeldung</h3>
+                        <p class="lead">
+                        Nach Abschluss des Gesprächs oder Tryouts treffen wir eine 
+                        interne Entscheidung und melden uns zeitnah bei dir zurück. 
+                        Im Falle einer Zusage wirst du offiziell in die Ultra Instinct Crew 
+                        aufgenommen und erhältst alle weiteren Informationen. 
+                        Sollte es aktuell nicht passen, informieren wir dich 
+                        ebenfalls transparent. In manchen Fällen nehmen wir 
+                        Bewerber auf eine Warteliste oder geben konstruktives 
+                        Feedback für eine mögliche spätere Bewerbung.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end row -->
+
+    </section> <!-- end s-bewerbung -->
+
+
+    <!-- spieler
+    ================================================== -->
+    <section id="jobs" class="s-services">
 
         <div class="row">
             <div class="column large-12">
-                <div class="section-title" data-num="02" data-aos="fade-up">
-                    <h3 class="h6">Unsere Teams</h3>
+
+                <p class="h1">Spieler</p>
+                <p>Aktive Spieler tätig für die Organisation Ultra Instrinct Crew.</p>
+
+                <div class="table-responsive">
+                <table id="ifaas_jobs">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Beschwörer</th>
+                        <th>Rolle</th>
+                        <th>Elo</th>
+                        <th>W/L</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <!-- Rows inserted by JS -->
+                    </tbody>
+                </table>
                 </div>
-            </div>
-            <div class="column large-6 w-900-stack">
-                <h1 class="display-1" data-aos="fade-up">
-                Erkämpfe dir einen Platz unter den Top 7 um Teil des Hauptteams zu werden! 
-                </h1>
-            </div>
-            <div class="column large-6 w-900-stack">
-                <p class="lead" data-aos="fade-up">
-                Unter unserer organisation vereinen wir mehrere Teams. 
-                Ihr könnt alleinen joinen und im einen Platz in "The Main" kämpfen oder zu 5. mit 
-                Freunden dazu kommen und euch unter unserer Organisationen einen Namen machen. 
-                </p>
             </div>
         </div>
 
-        <div class="row "> <!-- start team 1 -->
+        <hr class="fancy">
 
-            <h2>Team 1</h2>
+    </section> <!-- end s-spieler -->
 
+    <!-- statistics
+    ================================================== -->
+    <section id="statistics" class="s-services">
+
+        <div class="row">
             <div class="column large-12">
 
-                <ul class="stats-tabs h-text-center">
-                    <li><a href="#0"><img id="player1_summoner" src="" alt="UIC Speedy Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC Speedy</em></a></li>
-                    <li><a href="#0"><img id="player2_summoner" src="" alt="UIC Otter Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>Otter</em></a></li>
-                    <li><a href="#0"><img id="player3_summoner" src="" alt="UIC Shenycrane Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>Shenycrane</em></a></li>
-                    <li><a href="#0"><img id="player4_summoner" src="" alt="UIC N1ghtm4reX Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC N1ghtm4reX</em></a></li>
-                    <li><a href="#0"><img id="player5_summoner" src="" alt="UIC Keygasza Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC Keygasza</em></a></li>
-                    <li><a href="#0"><img id="player6_summoner" src="" alt="UIC NiiiceOnex3 Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>NiiiceOnex3</em></a></li>
-                    <li><a href="#0"><img id="player7_summoner" src="" alt="UIC Gallagros Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC Gallagros</em></a></li>
-                    <li><a href="#0"><img id="player8_summoner" src="" alt="UIC Goku Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC Goku</em></a></li>
+                <p class="h1">Statistics</p>
+                <p>See our Historical data: All Informations are verifiable and publicly available. </p>
+
+                <ul class="stats-tabs">
+                    <li><a href="#0" id="stas_jobs"> <em>Total Jobs</em></a></li>
+                    <li><a href="#0" id="stas_publications"> <em>Total Publications</em></a></li>
+                    <li><a href="#0" id="stas_solved"> <em>Total Solved</em></a></li>
+                    <li><a href="#0" id="stas_contested"> <em>Total Contested </em></a></li>
+                    <li><a href="#0" id="stas_awaiting"> <em>Total Awaiting</em></a></li>
                 </ul>
-
-                <hr class="fancy">
-
-                <p>Das Team besteht aus <code>5</code> Stammspielern und <code>3</code> Ersatzspielern.</p>
-
-                <div class="table-responsive">
-
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Name</th>
-                                <th>Role</th>
-                                <th>Elo</th>
-                                <th>S / N</th>
-
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Stamm</td>
-                                <td>UIC Speedy#EUW</td>
-                                <td>Top</td>
-                                <td id="player1_elo">Loading...</td>
-                                <td id="player1_stats">Loading...</td>
-                            </tr>
-                            <tr>
-                                <td>Stamm</td>
-                                <td>Otter#0812</td>
-                                <td>Jngl</td>
-                                <td id="player2_elo">Loading...</td>
-                                <td id="player2_stats">Loading...</td>                            
-                            </tr>
-                            <tr>
-                                <td>Stamm</td>
-                                <td>Shenycrane#EUW</td>
-                                <td>Mid</td>
-                                <td id="player3_elo">Loading...</td>
-                                <td id="player3_stats">Loading...</td>                            
-                            </tr>
-                            <tr>
-                                <td>Stamm</td>
-                                <td>UIC N1ghtm4reX#H96</td>
-                                <td>Bot</td>
-                                <td id="player4_elo">Loading...</td>
-                                <td id="player4_stats">Loading...</td>                            
-                            </tr>
-                            <tr>
-                                <td>Stamm</td>
-                                <td>UIC Keygasza#1337</td>
-                                <td>Sup</td>
-                                <td id="player5_elo">Loading...</td>
-                                <td id="player5_stats">Loading...</td>                            
-                            </tr>
-                            <tr>
-                                <td>Ersatz</td>
-                                <td>NiiiceOnex3#EUW</td>
-                                <td>Jngl</td>
-                                <td id="player6_elo">Loading...</td>
-                                <td id="player6_stats">Loading...</td>                            
-                            </tr>
-                            <tr>
-                                <td>Ersatz</td>
-                                <td>UIC Gallagros#187</td>
-                                <td>Bot</td>
-                                <td id="player7_elo">Loading...</td>
-                                <td id="player7_stats">Loading...</td>                            
-                            </tr>
-                            <tr>
-                                <td>Ersatz</td>
-                                <td>UIC Goku#UIC</td>
-                                <td>Mid</td>
-                                <td id="player8_elo">Loading...</td>
-                                <td id="player8_stats">Loading...</td>                            
-                            </tr>
-                        </tbody>
-                    </table>
-                    <figcaption>
-                        Swipe mich in der mobilen Ansicht
-                    </figcaption>
-
-                </div>
-
+                
             </div>
-            
-        </div> <!-- ende team 1 -->
+        </div>
 
-        <div class="row"> <!-- start team 2 -->
+    </section> <!-- end s-statistic -->
 
+    <!-- statistics
+    ================================================== -->
+    <section id="statistics" class="s-services">
+
+        <div class="row">
             <div class="column large-12">
 
-                <ul class="stats-tabs h-text-center">
-                    <li><a href="#0"><img id="player9_summoner" src="" alt="UIC Boohunter Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC Boohunter</em></a></li>
-                    <li><a href="#0"><img id="player10_summoner" src="" alt="UIC Leann Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>Leann</em></a></li>
-                    <li><a href="#0"><img id="player11_summoner" src="" alt="UIC Nova Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC Nova</em></a></li>
-                    <li><a href="#0"><img id="player12_summoner" src="" alt="UIC Rhinoshield Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC Rhinoshield</em></a></li>
-                    <li><a href="#0"><img id="player13_summoner" src="" alt="UIC Dragonfly Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC Dragonfly</em></a></li>
-                </ul>
+                <p class="h1">Kurze Pause gefällig?</p>
+                <p>Gönn dir eine kruze Pause bei eine Runde EasterE</p>
 
-                <hr class="fancy">
-
-                <p>Das Team besteht aus <code>5</code> Stammspielern.</p>
-
-                <div class="table-responsive">
-
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Name</th>
-                                <th>Role</th>
-                                <th>Elo</th>
-                                <th>S / N</th>
-
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Stamm</td>
-                                <td>UIC Boohunter#Boo</td>
-                                <td>Top</td>
-                                <td id="player9_elo">Loading...</td>
-                                <td id="player9_stats">Loading...</td>
-                            </tr>
-                            <tr>
-                                <td>Stamm</td>
-                                <td>Leann#hahah</td>
-                                <td>Jngl</td>
-                                <td id="player10_elo">Loading...</td>
-                                <td id="player10_stats">Loading...</td>                            
-                            </tr>
-                            <tr>
-                                <td>Stamm</td>
-                                <td>UIC Nova#old</td>
-                                <td>Mid</td>
-                                <td id="player11_elo">Loading...</td>
-                                <td id="player11_stats">Loading...</td>                            
-                            </tr>
-                            <tr>
-                                <td>Stamm</td>
-                                <td>UIC Rhinoshield#RIN</td>
-                                <td>Bot</td>
-                                <td id="player12_elo">Loading...</td>
-                                <td id="player12_stats">Loading...</td>                            
-                            </tr>
-                            <tr>
-                                <td>Stamm</td>
-                                <td>UIC Dragonfly#1299</td>
-                                <td>Sup</td>
-                                <td id="player13_elo">Loading...</td>
-                                <td id="player13_stats">Loading...</td>                            
-                            </tr>
-                        </tbody>
-                    </table>
-                    <figcaption>
-                        Swipe mich in der mobilen Ansicht
-                    </figcaption>
-
-                </div>
-
+                <button></button>
+                
             </div>
+        </div>
 
-        </div> <!-- ende team 2 -->
+    </section> <!-- end s-statistic -->
 
-        <div class="row"> <!-- start team 3 -->
+    <!-- kontakt
+    ================================================== -->
+    <section id="kontakt" class="s-services">
+
+        <div class="row">
             <div class="column large-12">
 
-                <ul class="stats-tabs h-text-center">
-                    <li><a href="#0"><img id="player14_summoner" src="" alt="UIC Akihi Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>Akihi</em></a></li>
-                    <li><a href="#0"><img id="player15_summoner" src="" alt="UIC Schuh Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>HGG Schuh</em></a></li>
-                    <li><a href="#0"><img id="player16_summoner" src="" alt="UIC rakehunt Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>rakehunt</em></a></li>
-                    <li><a href="#0"><img id="player17_summoner" src="" alt="UIC Cedo Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC Cedo</em></a></li>
-                    <li><a href="#0"><img id="player18_summoner" src="" alt="UIC ReCord Icon" style="border-radius: 50%; margin: auto; width:60px;" /> <em>UIC ReCord</em></a></li>
-                </ul>
+                <p class="h1">Kontakt</p>
 
-                <hr class="fancy">
+                <form method="POST" action="/api/contact">
+                    <div>
+                        <label for="contactEmail">Deine E-Mail</label>
+                        <input class="h-full-width" type="email" name="email" name="contactEmail" id="contactEmail" placeholder="your@mailbox.com" required>
+                    </div>
 
-                <p data-aos="fade-up">Das Team besteht aus <code>5</code> Stammspielern.</p>
+                    <div>
+                        <label for="contactReason">Grund für die Kontaktaufnahme</label>
+                        <div class="ss-custom-select">
+                            <select class="h-full-width" name="contactReason" id="contactReason" required>
+                                <option value="">-- Deine Auswahl --</option>
+                                <option value="questions">Allgemeine Frage</option>
+                                <option value="report">Beitritts anfrage</option>
+                                <option value="others">Partnerschaft</option>
+                                <option value="others">Spieler melden</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <label for="contactMessage">Nachricht</label>
+                    <textarea class="h-full-width" name="contactMessage" id="contactMessage" placeholder="Your message" required></textarea>
 
-                <div class="table-responsive" data-aos="fade-up">
+                    <label class="h-add-bottom">
+                        <input type="checkbox" name="copyToSelf">
+                        <span class="label-text">Kopie erhalten</span>
+                    </label>
 
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Name</th>
-                                <th>Role</th>
-                                <th>Elo</th>
-                                <th>S / N</th>
-
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Stamm</td>
-                                <td>UIC Akihi#Lost</td>
-                                <td>Top</td>
-                                <td id="player14_elo">Loading...</td>
-                                <td id="player14_stats">Loading...</td>
-                            </tr>
-                            <tr>
-                                <td>Stamm</td>
-                                <td>HGG Schuh#Cedo</td>
-                                <td>Jngl</td>
-                                <td id="player15_elo">Loading...</td>
-                                <td id="player15_stats">Loading...</td>                            
-                            </tr>
-                            <tr>
-                                <td>Stamm</td>
-                                <td>rakehunt#EUW</td>
-                                <td>Mid</td>
-                                <td id="player16_elo">Loading...</td>
-                                <td id="player16_stats">Loading...</td>                            
-                            </tr>
-                            <tr>
-                                <td>Stamm</td>
-                                <td>UIC Cedo#EUW</td>
-                                <td>Bot</td>
-                                <td id="player17_elo">Loading...</td>
-                                <td id="player17_stats">Loading...</td>                            
-                            </tr>
-                            <tr>
-                                <td>Stamm</td>
-                                <td>UIC ReCord#Cedo</td>
-                                <td>Sup</td>
-                                <td id="player18_elo">Loading...</td>
-                                <td id="player18_stats">Loading...</td>                            
-                            </tr>
-                        </tbody>
-                    </table>
-                    <figcaption>
-                        Swipe mich in der mobilen Ansicht
-                    </figcaption>
-
-                </div>
-
+                    <!-- Honeypot anti-spam field -->
+                    <div style="display: none;">
+                        <label for="website"></label>
+                        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                    </div>
+                    
+                    <button class="btn--primary h-full-width" type="submit" name="contactUs" value="contactUs">Senden</button>
+                </form>
             </div>
+        </div>
 
-        </div> <!-- ende team 3 -->
-
-        <div class="row"> <!-- start team 4 -->
-
-        </div> <!-- ende team 4 -->
-
-    </section> <!-- end s-teams -->
-
-    <section id="portfolio" class="s-portfolio">
-
-        <div class="row s-porfolio__top">
-            <div class="column large-6 w-900-stack">
-                <div class="section-title" data-num="03" data-aos="fade-up">
-                    <h3 class="h6">Unsere Höhepunkte</h3>
-                </div>
-            </div>
-            <div class="column large-6 w-900-stack">
-                <h1 class="display-1" data-aos="fade-up">
-                    Hier sind unglaubliche Spielzüge und Atem beraubende Momente Alltag
-                </h1>
-            </div>
-        </div> <!-- end s-portfolio__top-->
-
-        <div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
-
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/PG_5ER_ULT_BOOM.png" title="5er Ult boom!" data-size="1050x700">
-                            <img src="images/portfolio/P_5ER_ULT_BOOM.png" 
-                                 srcset="images/portfolio/P_5ER_ULT_BOOM.png 1x, images/portfolio/P_5ER_ULT_BOOM@2x.png 2x" alt="5er Ult boom!">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">UIC Speedy</div>
-                        <h4 class="folio-item__title">5er Ult boom!</h4>
-                    </div>
-                    <a href="https://www.twitch.tv/ultrainstinctcrew/clip/AlertFunCourgetteTF2John-i-RqdIhZhtB1oD8G" title="Zum Höhepunkt" class="folio-item__project-link">Zum Höhepunkt</a>
-                    <div class="folio-item__caption">
-                        <p>UIC Speedy - UIC Goku - UIC Galla - UIC RoyBl4cK - UIC ArdaGüler</p>
-                    </div>
-                </div>
-            </div> <!-- end column -->
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-music-life.jpg" title="Music Life" data-size="1050x700">
-                            <img src="images/portfolio/music-life.jpg" 
-                                 srcset="images/portfolio/music-life.jpg 1x, images/portfolio/music-life@2x.jpg 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">UIC Speedy</div>
-                        <h4 class="folio-item__title">Zed Outplay</h4>
-                    </div>
-                    <a href="https://www.behance.net/" title="Zum Höhepunkt" class="folio-item__project-link">Zum Höhepunkt</a>
-                    <div class="folio-item__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </div>
-                </div>
-            </div> <!-- end column -->
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-oi-logo.jpg" Title="OI Logo" data-size="1050x700">
-                            <img src="images/portfolio/oi-logo.jpg.jpg" 
-                                 srcset="images/portfolio/oi-logo.jpg 1x, images/portfolio/oi-logo@2x.jpg 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">Branding</div>
-                        <h4 class="folio-item__title">OI Logo</h4>
-                    </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
-                    <div class="folio-item__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </div>
-                </div>
-            </div> <!-- end column -->
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-corrugated-sheets.jpg" title="Corrugated Sheets" data-size="1050x700">
-                            <img src="images/portfolio/corrugated-sheets.jpg" 
-                                 srcset="images/portfolio/corrugated-sheets.jpg 1x, images/portfolio/corrugated-sheets@2x.jpg 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">Frontend Design</div>
-                        <h4 class="folio-item__title">Corrugated Sheets</h4>
-                    </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
-                    <div class="folio-item__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </div>
-                </div>
-            </div> <!-- end column -->
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-woodcraft.jpg" title="Sand Dunes" data-size="1050x700">
-                            <img src="images/portfolio/woodcraft.jpg" 
-                                 srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">Frontend Design</div>
-                        <h4 class="folio-item__title">Wooocraft</h4>
-                    </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">
-                        Project Link
-                    </a>
-                    <div class="folio-item__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </div>
-                </div>
-            </div> <!-- end column -->
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-lamp.jpg" title="The Lamp" data-size="1050x700">
-                            <img src="images/portfolio/lamp.jpg" 
-                                 srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">Frontend Design</div>
-                        <h4 class="folio-item__title">The Lamp</h4>
-                    </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
-                    <div class="folio-item__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </div>
-                </div>
-            </div> <!-- end column -->
-
-        </div> <!-- folio-list -->
-
-    </section> <!-- end s-portfolio -->
+    </section> <!-- end s-kontakt -->
 
 
-    <!-- clients
+
+    <!-- sozials
     ================================================== -->
     <div id="clients" class="section s-clients">
 
         <div class="row narrower s-clients__top h-text-center">
             <div class="column">
-                <h1 class="display-1" data-aos="fade-up">
+                <h1 class="display-1">
                 Folge uns auf Social Media und werde Teil der Ultra Instrinct Crew [UIC] Familie
                 </h1>
             </div>
@@ -655,16 +427,13 @@
 
         <div class="row clients-outer">
             <div class="column">
-                <div class="clients" data-aos="fade-up">
+                <div class="clients">
                     
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/dropbox.svg" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/atom.svg" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/github.svg" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/redhat.svg" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/medium.svg" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/messenger.svg" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/steam.svg" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/spotify.svg" /></a>
+                    <a href="https://www.youtube.com/@UltraInstinctCrew" title="youtube" class="clients__slide"><img src="images/icons/clients/youtube.svg" /></a>
+                    <a href="https://x.com/uic_gaming" title="x" class="clients__slide"><img src="images/icons/clients/x.svg" /></a>
+                    <a href="https://www.instagram.com/ultrainstinctcrew" title="instagram" class="clients__slide"><img src="images/icons/clients/instagram.svg" /></a>
+                    <a href="https://www.twitch.tv/ultrainstinctcrew" title="twitch" class="clients__slide"><img src="images/icons/clients/twitch.svg" /></a>
+                    <a href="https://discord.gg/Aq6EyqVgBG" title="discord" class="clients__slide"><img src="images/icons/clients/discord.svg" /></a>
                      
                 </div> <!-- end clients -->
             </div> <!-- end column -->
@@ -674,7 +443,7 @@
 
             <div class="column large-12">
 
-                <div class="testimonial-slider" data-aos="fade-up">
+                <div class="testimonial-slider">
 
                     <div class="testimonial-slider__slide">
                         <p>
@@ -728,26 +497,7 @@
         </div> <!-- end row -->
 
 
-    </div> <!-- end s-clients -->
-
-
-    <!-- contact
-    ================================================== -->
-    <section class="s-contact">
-
-        <div class="row narrower s-contact__top h-text-center">
-            <div class="column">
-                <h3 class="h6">Kontaktiert uns</h3>
-                <h1 class="display-1">
-                Ihr wollt einem Team oder mit einem Team beitreten und die UIC Mannschaft unterstützen?
-                Bewirb dich!
-                
-                </h1>
-            </div>
-        </div> <!-- s-footer__top -->
-
-    </section>  <!-- end s-contact -->
-
+    </div> <!-- end s-sozials -->
 
     <!-- footer
     ================================================== -->
@@ -756,22 +506,30 @@
 
             <div class="column large-8 medium-12">
                 <div class="row">
-
-                        <h4 class="h6">Haftungsauschuss </h4>
-
-                        UIC | Ultra Instinct Crew wird nicht von Riot Games unterstützt 
-                        und spiegelt weder die Ansichten noch Meinungen von Riot Games 
-                        oder von Personen wider, die offiziell an der Entwicklung oder 
-                        Verwaltung von Produkten von Riot Games beteiligt sind. Riot Games 
-                        und alle zugehörigen Marken sind Marken oder eingetragene 
-                        Marken von Riot Games, Inc.
-
+                    <div class="column large-7 tab-12 s-footer__block">
+                        <h4 class="h6">Vertretungsberechtigt</h4>
+        
+                        <p>
+                        Diamond Goku <br>
+                        Große Drakenburger 123 <br>
+                        696969 Lazy Town <br>
+                        N - Namek <br>
+                        </p>
+                    </div>
+        
+                    <div class="column large-5 tab-12 s-footer__block">
+                        <h4 class="h6">Haftungsausschuss</h4 class="h6">
+        
+                        <ul class="s-footer__list">
+                            <li><a href="xxxxxxxxx">Datenschutzrichtlinien</a></li>
+                            <li><a href="xxxxxxxxx">Nutzungsbedingungen</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
-            <div class="column large-4 medium-12">
-
-                <h4 class="h6">Lizenz</h4>
+            <div class="column large-4 medium-12 s-footer__block--end">
+                <a href="mailto:xxx" class="btn h-full-width">Contact us</a>
 
                 <div class="ss-copyright">
                     <span>Copyright Flare 2020</span> 
@@ -780,62 +538,24 @@
             </div>
 
             <div class="ss-go-top">
-                <a class="smoothscroll" title="Nach Oben" href="#top">
-                    <i class="fas fa-arrow-up"></i>
+                <a class="smoothscroll" title="Back to Top" href="#top">
+                    top
                 </a>
             </div> <!-- end ss-go-top -->
 
         </div>
     </footer>
-    
 
-    <!-- photoswipe background
+    <!-- Java Script - Small to Big Payload
     ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div> <!-- end photoSwipe background -->
-
-
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/riot.js"></script>
-
+    <script src="js/modal.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/banner.js"></script>
+    
 </body>
 
 </html>
