@@ -109,20 +109,20 @@
      * color-2(#eb5e55)
      * color-3(#f2d0a4)
      */
-    --color-1: hsla(193, 72%, 28%, 1);
+    --color-1: var(--color-gray-17);
     --color-2: hsla(4, 79%, 63%, 1);
     --color-3: hsla(34, 75%, 80%, 1);
 
     /* theme color variations
      */
-    --color-1-lighter: hsla(193, 100%, 59%, 1);
-    --color-1-light  : hsla(201, 100%, 59%, 1);
-    --color-1-dark   : hsla(193, 70%, 47%, 1);
-    --color-1-darker : hsla(193, 70%, 29%, 1);
-    --color-2-lighter: hsla(308, 100%, 50%, 1);
-    --color-2-light  : hsla(316, 100%, 50%, 1);
-    --color-2-dark   : hsla(316, 100%, 40%, 1);
-    --color-2-darker : hsla(317, 100%, 25%, 1);
+    --color-1-lighter: hsla(345, 93%, 64%, 1);
+    --color-1-light  : hsla(345, 93%, 54%, 1);
+    --color-1-dark   : hsla(345, 93%, 34%, 1);
+    --color-1-darker : hsla(345, 93%, 24%, 1);
+    --color-2-lighter: hsla(4, 79%, 83%, 1);
+    --color-2-light  : hsla(4, 79%, 73%, 1);
+    --color-2-dark   : hsla(4, 79%, 53%, 1);
+    --color-2-darker : hsla(4, 79%, 43%, 1);
 
     /* feedback colors
      * color-error(#ffd1d2), color-success(#c8e675), 
@@ -142,7 +142,7 @@
      * Tint & Shade Generator 
      * (https://maketintsandshades.com/)
      */
-    --color-black  : #000000;
+    --color-black  : hsla(0, 0%, 0%, 1);
     --color-gray-19: #0b0b0c;
     --color-gray-18: #161719;
     --color-gray-17: #202225;
@@ -170,7 +170,6 @@
     --color-text-dark  : var(--color-white);
     --color-text-light : var(--color-gray-12);
     --color-placeholder: var(--color-gray-11);
-    --color-UIC        : linear-gradient(to right bottom, #ff00ff, #7394ff, #00caff, #00eaff, #00ffff);
 
     /* buttons
      */
@@ -190,7 +189,7 @@
     /* others
      */
     --color-body  : var(--color-1);
-    --color-bg    : #14171B;
+    --color-bg    : var(--color-black);
     --color-border: var(--color-gray-17);
 }
 
@@ -337,9 +336,6 @@ main {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
-    background: var(--color-UIC);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1864,7 +1860,7 @@ hr.fancy {
 }
 
 hr.fancy::before {
-    content: "ULTRA INSTINCT CREW";
+    content: "UIC! UIC! UIC!";
     letter-spacing: .3em;
 }
 
@@ -2736,9 +2732,6 @@ input::-moz-focus-inner {
     content: "";
 }
 
-.skill-bars li .percent1 {
-    width: 1%;
-}
 .skill-bars li .percent5 {
     width: 5%;
 }
@@ -3140,8 +3133,8 @@ input::-moz-focus-inner {
 }
 
 .s-header__logo img {
-    width: 60px;
-    height: 60px;
+    width: 68px;
+    height: 10px;
     margin-bottom: 0;
 }
 
@@ -3483,8 +3476,8 @@ input::-moz-focus-inner {
  * # hero
  *
  * ------------------------------------------------------------------- */
-.s-hero {
-    background-color: #121417;
+ .s-hero {
+    background-color: var(--color-black);
     width: 100%;
     height: 100vh;
     min-height: calc(25.5 * var(--space));
@@ -3568,7 +3561,7 @@ input::-moz-focus-inner {
     content: "";
     height: 10rem;
     width: 20rem;
-    background-image: url(../images/dots.svg);
+    /* background-image: url(../images/dots.svg); */
     -webkit-transform: translateX(-4rem);
     transform: translateX(-4rem);
     opacity: .25;
@@ -3634,7 +3627,6 @@ input::-moz-focus-inner {
     position: absolute;
     right: 10.4rem;
     bottom: 20vh;
-    z-index: 3;
 }
 
 .s-hero__video svg {
@@ -4041,7 +4033,7 @@ html.no-csstransitions .s-hero__content {
     display: block;
     width: 28rem;
     height: 17.6rem;
-    background-image: url(../images/dots.svg);
+    /* background-image: url(../images/dots.svg); */
     opacity: .25;
     position: absolute;
     top: 0;
@@ -4060,7 +4052,7 @@ html.no-csstransitions .s-hero__content {
     content: "";
     display: block;
     width: 1px;
-    background-color: var(--color-1-darker);
+    background-color: var(--color-1);
     position: absolute;
     right: calc(50% + 1px);
     top: 0;
@@ -4076,7 +4068,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 .s-about__photo {
-    background-image: url(../images/UIC_RETRO_OUTLINE.png);
+    background-image: url(../images/about-photo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -4210,22 +4202,30 @@ html.no-csstransitions .s-hero__content {
     background-size: contain;
 }
 
-.service-icon--team-1 {
-    background-image: url(../images/icons/services/SERVICE_ICON_TEAM_1.svg);
+.service-icon--product-design {
+    background-image: url(../images/icons/services/icon-product-design.svg);
 }
 
-.service-icon--team-2 {
-    background-image: url(../images/icons/services/SERVICE_ICON_TEAM_1.svg);
+.service-icon--branding {
+    background-image: url(../images/icons/services/icon-branding.svg);
 }
 
-.service-icon--team-3 {
-    background-image: url(../images/icons/services/SERVICE_ICON_TEAM_1.svg);
+.service-icon--frontend {
+    background-image: url(../images/icons/services/icon-frontend.svg);
 }
 
-.service-layout {
-    table-layout: auto;
-    width: 100%;
+.service-icon--research {
+    background-image: url(../images/icons/services/icon-research.svg);
 }
+
+.service-icon--illustration {
+    background-image: url(../images/icons/services/icon-illustration.svg);
+}
+
+.service-icon--ecommerce {
+    background-image: url(../images/icons/services/icon-ecommerce.svg);
+}
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -4977,4 +4977,29 @@ html.no-csstransitions .s-hero__content {
     .ss-copyright {
         font-size: 1.4rem;
     }
+}
+
+/* ------------------------------------------------------------------- 
+ * ## modal
+ * ------------------------------------------------------------------- */
+body.modal-open {
+  overflow: hidden;
+}
+
+#modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+.modal-container {
+  background: var(--color-gray-19);
+  border-radius: 10px;
+  width: 90%;
+  max-width: 50rem;
+  padding: 2rem;
 }
