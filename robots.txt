@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rhitta.io/sitemap.xml
+Sitemap: https://ultrainstinctcrew.com/sitemap.xml

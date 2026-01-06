@@ -1,4 +1,4 @@
-const CACHE_NAME = 'rhitta-v2';
+const CACHE_NAME = 'UIC-Cacher';
 const PRECACHE_URLS = [
   '/',
   '/index.html',
