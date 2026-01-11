@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="de">
 <head>
-
-    <!--- basic page needs
+     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
     <title>UIC | Ultra Instinct Crew</title>
@@ -25,17 +24,16 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
 
-    <!-- script
+    <!-- typo
     ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script defer src="js/fontawesome/all.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
 
     <!-- favicons
     ================================================== -->
+    <link rel="icon" href="favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 
@@ -54,508 +52,686 @@
     <meta name="twitter:description" content="xxxxxxxxx">
     <meta name="twitter:image" content="https://ultrainstinctcrew.com/icon512_rounded.png">
     <meta name="twitter:site" content="@xxxxxx">
-
 </head>
+<body>
 
-<body id="top">
+    <nav class="navbar">
+        <div class="nav-container">
+            
+            <a href="#" class="logo">
+                <img src="assets/logo/logo.svg" alt="UIC Logo">
+                <span class="logo-text">UIC <small>GER</small></span>
+            </a>
 
+            <ul class="nav-links desktop-only">
+                <li><a href="#hero" class="nav-item">Home</a></li>
+                <li><a href="#about" class="nav-item">About Us</a></li>
+                <li><a href="#teams" class="nav-item">Teams</a></li>
+                <li><a href="#stats" class="nav-item">Stats</a></li>
+                <li><a href="#events" class="nav-item">Events</a></li>
+                <li><a href="#schedule" class="nav-item">Schedule</a></li>
+                <li><a href="#partners" class="nav-item">Partner</a></li>
+                
+                <li class="dropdown">
+                    <span class="nav-item">More +</span>
+                    <ul class="dropdown-menu">
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#news">News</a></li>
+                    </ul>
+                </li>
+            </ul>
 
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-fade">
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="nav-cta desktop-only">
+                <a href="#join" class="btn-primary">JOIN US</a>
+            </div>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="mobile-menu-overlay" onclick="toggleMenu()"></div>
+
+    <div class="mobile-nav-panel">
+        <div class="panel-header">
+            <span class="panel-title">MENU</span>
+            <button class="close-btn" onclick="toggleMenu()">&times;</button>
+        </div>
+        
+        <ul class="mobile-links">
+            <li><a href="#hero" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About Us</a></li>
+            <li><a href="#teams" onclick="toggleMenu()">Teams</a></li>
+            <li><a href="#stats" onclick="toggleMenu()">Stats</a></li>
+            <li><a href="#events" onclick="toggleMenu()">Events</a></li>
+            <li><a href="#streams" onclick="toggleMenu()">Streams</a></li>
+            <li><a href="#partners" onclick="toggleMenu()">Partner</a></li>
+            <li><a href="#faq" onclick="toggleMenu()">FAQ</a></li>
+            <li><a href="#news" onclick="toggleMenu()">News</a></li>
+        </ul>
+
+        <div class="panel-footer">
+            <p>&copy; 2026 Ultra Instinct Crew</p>
         </div>
     </div>
 
-    <!-- modal
-    ================================================== -->
-    <div id="modal" role="dialog" aria-modal="true" aria-labelledby="consent-title" tabindex="-1">
-        <div class="modal-container" role="document">
-            <div class="row">
-            <div class="column large-12">
-                <h4 id="consent-title">Datenschutzrichtlinien und Nutzungsbedingungen</h4>
-                <p>
-                Lesen Sie die
-                <a href="./easteregg.html" target="_blank" rel="noopener">Datenschutzrichtlinien</a> und 
-                <a href="https://blaueroktober.gitbook.io/rhitta-docs" target="_blank" rel="noopener">Nutzungsbedingungen</a> bevor Sie fortfahren.
+    <header id="hero" class="hero-section">
+        
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2670&auto=format&fit=crop" alt="Background">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            
+            <div class="hero-badge">SEASON 2026 // SPLIT 1</div>
+
+            <h1 class="glitch-text" data-text="ULTRA INSTINCT">
+                ULTRA <span class="outline-text">INSTINCT</span>
+            </h1>
+            
+            <p class="hero-sub">The new era of German League of Legends starts here.</p>
+            
+            <div class="hero-buttons">
+                <a href="#join" class="btn-primary">JOIN THE CREW</a>
+                <a href="#discord" class="btn-glass">DISCORD</a>
+            </div>
+        </div>
+
+        <div class="hero-footer">
+            <div class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <div class="line"></div>
+            </div>
+            <div class="social-mini">
+                <span>TW</span>
+                <span>IG</span>
+                <span>YT</span>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="about-container">
+            
+            <div class="about-content">
+                <h2 class="section-title">PROJECT <span class="highlight">UIC</span></h2>
+                <p class="about-lead">Forging the next generation of competitive excellence in the DACH region.</p>
+                <p class="about-text">
+                    Established in 2021, Ultra Instinct Crew is more than just an organization. We are a tactical ecosystem designed to provide League of Legends athletes with the structure, coaching, and community required to reach their maximum potential.
                 </p>
-                <label class="h-add-bottom">
-                <input type="checkbox" id="consent-checkbox">
-                <span class="label-text">Ich habe die "Datenschutzrichtlinien" und "Nutzungsbedingungen" gelesen.</span>
-                </label>
-            </div>
+                <div class="about-stats-mini">
+                    <div class="mini-box"><span>EST</span><br>2021</div>
+                    <div class="mini-box"><span>LOC</span><br>GERMANY</div>
+                    <div class="mini-box"><span>DIV</span><br>PRIME LEAGUE</div>
+                </div>
             </div>
 
-            <div class="row h-add-bottom">
-            <div class="column large-6 tab-12">
-                <input class="btn--primary h-full-width" id="accept-consent" type="button" value="Annehmen" disabled>
+            <div class="about-visual">
+                <div class="tactical-card">
+                    <div class="card-header">// SYSTEM_IDENTITY</div>
+                    <div class="card-body">
+                        <p><strong>NAME:</strong> ULTRA INSTINCT CREW</p>
+                        <p><strong>STATUS:</strong> ACTIVE_COMPETITIVE</p>
+                        <p><strong>MISSION:</strong> PLAYER_EVOLUTION</p>
+                        <div class="scanline"></div>
+                    </div>
+                    <div class="card-footer">UIC_INTEL_v1.0</div>
+                </div>
             </div>
-            <div class="column large-6 tab-12">
-                <input class="btn--stroke h-full-width" id="decline-consent" type="button" value="Ablehnen">
-            </div>
-            </div>
+
         </div>
-    </div>
+    </section>
 
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-
-        <div class="s-header__logo">
-            <a href="index.html">
-                <img src="images/logo.svg" alt="Homepage">
-            </a>
+    <section id="teams" class="teams-section">
+        <h2>OUR <span class="highlight">ROSTERS</span></h2>
+        
+        <div class="team-tabs">
+            <button class="tab-btn active" onclick="openTeam(event, 'prime')">PRIME</button>
+            <button class="tab-btn" onclick="openTeam(event, 'nova')">NOVA</button>
+            <button class="tab-btn" onclick="openTeam(event, 'luna')">LUNA</button>
+            <button class="tab-btn" onclick="openTeam(event, 'ember')">EMBER</button>
+            <button class="tab-btn" onclick="openTeam(event, 'spark')">SPARK</button>
+            <button class="tab-btn" onclick="openTeam(event, 'abyss')">ABYSS</button>
         </div>
 
-        <div class="s-header__content">
-    
-            <nav class="s-header__nav-wrap">
-                <ul class="s-header__nav">
-                    <li><a class="smoothscroll" href="#organisation" title="Organisation">Organisation</a></li>
-                    <li><a class="smoothscroll" href="#bewerbung" title="Bewerbung">Bewerbung</a></li>
-                    <li><a class="smoothscroll" href="#statistiken" title="Statistiken">Statistiken</a></li>
-                    <li><a class="smoothscroll" href="#spieler" title="Spieler">Spieler</a></li>
-                    <li><a class="smoothscroll" href="#kalender" title="Kalender">Kalender</a></li>
-                    <li><a class="smoothscroll" href="#kontact" title="Kontakt">Kontakt</a></li>
-                </ul>
-            </nav> <!-- end s-header__nav-wrap -->
-
-            <a href="xxxxxx" class="btn btn--primary btn--small">
-                Mein Dashboard <i class="fas fa-sign-in-alt"></i>
-            </a>
-
-        </div> <!-- end header-content -->
-
-        <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
-
-    </header> <!-- end s-header -->
-
-    <!-- hero
-    ================================================== -->
-    <section id="hero" class="s-hero target-section">
-
-        <div class="row s-hero__content">
-            <div class="column">
-
-                <h1>UIC</h1>
-                <div class="s-hero__content-about">
-                    <p>
-                    Die Ultra Instict Crew ist eine League of Legends Organisation, die ihre Teams bei ihrer Entwicklung fördert und den Anspruch erhebt Spieler zu verbinden.
-                    </p>
-                    <footer>
-                        <div class="s-hero__content-social">
-                            <a href="https://www.youtube.com/@UltraInstinctCrew"><i class="fab fa-youtube" aria-hidden="true"></i></a>
-                            <a href="https://x.com/uic_gaming"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                            <a href="https://www.instagram.com/ultrainstinctcrew"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                            <a href="https://www.twitch.tv/ultrainstinctcrew"><i class="fab fa-twitch" aria-hidden="true"></i></a>
-                            <a href="https://discord.gg/Aq6EyqVgBG"><i class="fab fa-discord" aria-hidden="true"></i></a>
-                        </div>
-                    </footer>
+        <div id="prime" class="team-content active">
+            <h3 class="team-title">Prime Division</h3>
+            <div class="roster-grid">
+                <div class="player-card">
+                    <div class="role-icon">TOP</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>Top Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">JGL</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>JGL Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">MID</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>MID Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">ADC</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>ADC Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">SUP</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>SUP Laner</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="s-hero__scroll">
-            <a href="#organisation" class="s-hero__scroll-link smoothscroll">
-                Scrollen
-            </a>
-        </div>
-
-    </section> <!-- end s-hero -->
-
-
-    <!-- organisation
-    ================================================== -->
-    <section id="organisation" class="s-about">
-
-        <div class="horizontal-line"></div>
-
-        <div class="row">
-
-            <div class="column large-12 intro">
-
-                <p class="h1">Organisation</p>
-
-                <p class="lead">
-                    Die Ultra Instinct Crew ist eine moderne Gaming-Organisation, 
-                    die sich dem strukturierten Aufbau von Spielern, Teams und einer 
-                    starken Community verschrieben hat. Unser Anspruch ist es, 
-                    ambitionierten Gamerinnen und Gamern eine professionelle 
-                    Umgebung zu bieten, in der Leistung, Weiterentwicklung und 
-                    Teamgeist im Mittelpunkt stehen.                   
-                    <br><br>
-
-                    UIC vereint Competitive-E-Sport, organisiertes Training und 
-                    eine aktive Community unter einem gemeinsamen Banner. 
-                    Dabei legen wir großen Wert auf klare Strukturen, 
-                    verlässliche Abläufe und respektvolles Miteinander – 
-                    sowohl im Spiel als auch außerhalb davon.
-                </p>
-                
-            </div>
-
-        </div> <!-- end row -->
-
-    </section> <!-- end s-organisation -->
-
-
-    <!-- bewerbung
-    ================================================== -->
-    <section id="bewerbung" class="s-about">
-
-        <div class="row">
-
-            <div class="column large-12 intro">
-
-                <p class="h1">Bewerbung</p>
-
-                <div class="row block-large-1-2 block-tab-full s-about__process item-list">
-                    <div class="column item item-process">
-                        <h3 class="item-title">Check deine Voraussetzungen</h3>
-                        <p class="lead">
-                        Bevor du dich bei der Ultra Instinct Crew bewirbst, 
-                        solltest du sicherstellen, dass du unsere grundlegenden 
-                        Voraussetzungen erfüllst. Dazu gehören ein angemessenes 
-                        Mindestalter, eine aktive und motivierte Einstellung 
-                        zum Spiel sowie die Bereitschaft, dich in ein Team 
-                        zu integrieren. Teamfähigkeit, Zuverlässigkeit und 
-                        ein respektvoller Umgang mit anderen Mitgliedern 
-                        sind für uns essenziell. Zudem setzen wir ein 
-                        funktionierendes Headset und die Nutzung von 
-                        Discord voraus, da Kommunikation ein zentraler Bestandteil 
-                        unseres Teamplays ist.
-                        </p>
+        <div id="nova" class="team-content">
+            <h3 class="team-title">Nova Division</h3>
+            <div class="roster-grid">
+                <div class="player-card">
+                    <div class="role-icon">TOP</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
                     </div>
-                    <div class="column item item-process">
-                        <h3 class="item-title">Bewerbungsformular ausfüllen</h3>
-                        <p class="lead">
-                        Wenn du alle Voraussetzungen erfüllst, kannst du im 
-                        nächsten Schritt unser Bewerbungsformular ausfüllen. 
-                        Dabei ist es wichtig, dass du alle Angaben vollständig 
-                        und ehrlich machst. Neben deinem In-Game-Namen, Spiel, 
-                        Rolle und aktuellem Rang interessieren uns vor 
-                        allem deine Erfahrung, deine Ziele und deine 
-                        zeitliche Verfügbarkeit. Eine kurze persönliche 
-                        Vorstellung hilft uns, dich als Spieler und als 
-                        Mensch besser kennenzulernen.
-                        </p>
-                    </div>
-                    <div class="column item item-process">
-                        <h3 class="item-title">Absenden & warten</h3>
-                        <p class="lead">
-                        Nach dem Absenden deiner Bewerbung wird diese von unserem 
-                        Management-Team sorgfältig geprüft. Wir nehmen uns bewusst 
-                        Zeit, jede Bewerbung individuell zu bewerten, um sicherzustellen, 
-                        dass neue Mitglieder sowohl spielerisch als auch menschlich 
-                        zur Organisation passen. Die Bearbeitungszeit beträgt in der 
-                        Regel einige Tage. Bitte habe in dieser Phase etwas Geduld 
-                        und sieh von mehrfachen Nachfragen ab.
-                        </p>
-                    </div>
-                    <div class="column item item-process">
-                        <h3 class="item-title">Interview oder Tryout</h3>
-                        <p class="lead">
-                        Sollte deine Bewerbung einen positiven Eindruck hinterlassen, 
-                        laden wir dich zu einem persönlichen Gespräch auf unserem 
-                        Discord-Server ein. Alternativ oder zusätzlich kann ein 
-                        Tryout stattfinden, bei dem du gemeinsam mit einem unserer 
-                        Teams spielst. In diesem Schritt geht es nicht nur um deine 
-                        spielerische Leistung, sondern auch um Kommunikation, 
-                        Teamplay und Verhalten im Spiel. So lernen beide Seiten 
-                        sich besser kennen.
-                        </p>
-                    </div>
-                    <div class="column item item-process">
-                        <h3 class="item-title">Rückmeldung</h3>
-                        <p class="lead">
-                        Nach Abschluss des Gesprächs oder Tryouts treffen wir eine 
-                        interne Entscheidung und melden uns zeitnah bei dir zurück. 
-                        Im Falle einer Zusage wirst du offiziell in die Ultra Instinct Crew 
-                        aufgenommen und erhältst alle weiteren Informationen. 
-                        Sollte es aktuell nicht passen, informieren wir dich 
-                        ebenfalls transparent. In manchen Fällen nehmen wir 
-                        Bewerber auf eine Warteliste oder geben konstruktives 
-                        Feedback für eine mögliche spätere Bewerbung.
-                        </p>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>Top Laner</p>
                     </div>
                 </div>
-            </div>
-
-        </div> <!-- end row -->
-
-    </section> <!-- end s-bewerbung -->
-
-
-    <!-- spieler
-    ================================================== -->
-    <section id="jobs" class="s-services">
-
-        <div class="row">
-            <div class="column large-12">
-
-                <p class="h1">Spieler</p>
-                <p>Aktive Spieler tätig für die Organisation Ultra Instrinct Crew.</p>
-
-                <div class="table-responsive">
-                <table id="ifaas_jobs">
-                    <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Beschwörer</th>
-                        <th>Rolle</th>
-                        <th>Elo</th>
-                        <th>W/L</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <!-- Rows inserted by JS -->
-                    </tbody>
-                </table>
+                <div class="player-card">
+                    <div class="role-icon">JGL</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>JGL Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">MID</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>MID Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">ADC</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>ADC Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">SUP</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>SUP Laner</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <hr class="fancy">
-
-    </section> <!-- end s-spieler -->
-
-    <!-- statistics
-    ================================================== -->
-    <section id="statistics" class="s-services">
-
-        <div class="row">
-            <div class="column large-12">
-
-                <p class="h1">Statistics</p>
-                <p>See our Historical data: All Informations are verifiable and publicly available. </p>
-
-                <ul class="stats-tabs">
-                    <li><a href="#0" id="stas_jobs"> <em>Total Jobs</em></a></li>
-                    <li><a href="#0" id="stas_publications"> <em>Total Publications</em></a></li>
-                    <li><a href="#0" id="stas_solved"> <em>Total Solved</em></a></li>
-                    <li><a href="#0" id="stas_contested"> <em>Total Contested </em></a></li>
-                    <li><a href="#0" id="stas_awaiting"> <em>Total Awaiting</em></a></li>
-                </ul>
-                
+        <div id="luna" class="team-content">
+            <h3 class="team-title">Luna Division</h3>
+            <div class="roster-grid">
+                <div class="player-card">
+                    <div class="role-icon">TOP</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>Top Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">JGL</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>JGL Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">MID</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>MID Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">ADC</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>ADC Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">SUP</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>SUP Laner</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-    </section> <!-- end s-statistic -->
-
-    <!-- statistics
-    ================================================== -->
-    <section id="statistics" class="s-services">
-
-        <div class="row">
-            <div class="column large-12">
-
-                <p class="h1">Kurze Pause gefällig?</p>
-                <p>Gönn dir eine kruze Pause bei eine Runde EasterE</p>
-
-                <button></button>
-                
+        <div id="ember" class="team-content">
+            <h3 class="team-title">Ember Division</h3>
+            <div class="roster-grid">
+                <div class="player-card">
+                    <div class="role-icon">TOP</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>JGL Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">JGL</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>Top Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">MID</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>MID Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">ADC</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>ADC Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">SUP</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>SUP Laner</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-    </section> <!-- end s-statistic -->
-
-    <!-- kontakt
-    ================================================== -->
-    <section id="kontakt" class="s-services">
-
-        <div class="row">
-            <div class="column large-12">
-
-                <p class="h1">Kontakt</p>
-
-                <form method="POST" action="/api/contact">
-                    <div>
-                        <label for="contactEmail">Deine E-Mail</label>
-                        <input class="h-full-width" type="email" name="email" name="contactEmail" id="contactEmail" placeholder="your@mailbox.com" required>
+        <div id="spark" class="team-content">
+            <h3 class="team-title">Spark Division</h3>
+            <div class="roster-grid">
+                <div class="player-card">
+                    <div class="role-icon">TOP</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
                     </div>
-
-                    <div>
-                        <label for="contactReason">Grund für die Kontaktaufnahme</label>
-                        <div class="ss-custom-select">
-                            <select class="h-full-width" name="contactReason" id="contactReason" required>
-                                <option value="">-- Deine Auswahl --</option>
-                                <option value="questions">Allgemeine Frage</option>
-                                <option value="report">Beitritts anfrage</option>
-                                <option value="others">Partnerschaft</option>
-                                <option value="others">Spieler melden</option>
-                            </select>
-                        </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>Top Laner</p>
                     </div>
-                    
-                    <label for="contactMessage">Nachricht</label>
-                    <textarea class="h-full-width" name="contactMessage" id="contactMessage" placeholder="Your message" required></textarea>
-
-                    <label class="h-add-bottom">
-                        <input type="checkbox" name="copyToSelf">
-                        <span class="label-text">Kopie erhalten</span>
-                    </label>
-
-                    <!-- Honeypot anti-spam field -->
-                    <div style="display: none;">
-                        <label for="website"></label>
-                        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">JGL</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
                     </div>
-                    
-                    <button class="btn--primary h-full-width" type="submit" name="contactUs" value="contactUs">Senden</button>
-                </form>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>JGL Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">MID</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>MID Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">ADC</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>ADC Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">SUP</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>SUP Laner</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-    </section> <!-- end s-kontakt -->
-
-
-
-    <!-- sozials
-    ================================================== -->
-    <div id="clients" class="section s-clients">
-
-        <div class="row narrower s-clients__top h-text-center">
-            <div class="column">
-                <h1 class="display-1">
-                Folge uns auf Social Media und werde Teil der Ultra Instrinct Crew [UIC] Familie
-                </h1>
-            </div>
-        </div> <!-- s-clients__top -->
-
-        <div class="row clients-outer">
-            <div class="column">
-                <div class="clients">
-                    
-                    <a href="https://www.youtube.com/@UltraInstinctCrew" title="youtube" class="clients__slide"><img src="images/icons/clients/youtube.svg" /></a>
-                    <a href="https://x.com/uic_gaming" title="x" class="clients__slide"><img src="images/icons/clients/x.svg" /></a>
-                    <a href="https://www.instagram.com/ultrainstinctcrew" title="instagram" class="clients__slide"><img src="images/icons/clients/instagram.svg" /></a>
-                    <a href="https://www.twitch.tv/ultrainstinctcrew" title="twitch" class="clients__slide"><img src="images/icons/clients/twitch.svg" /></a>
-                    <a href="https://discord.gg/Aq6EyqVgBG" title="discord" class="clients__slide"><img src="images/icons/clients/discord.svg" /></a>
-                     
-                </div> <!-- end clients -->
-            </div> <!-- end column -->
-        </div> <!-- end clients-outer -->
-
-        <div class="row testimonials collapse">
-
-            <div class="column large-12">
-
-                <div class="testimonial-slider">
-
-                    <div class="testimonial-slider__slide">
-                        <p>
-                        Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
-                        Explicabo a quaerat sint autem dolore ducimus ut consequatur neque.  Nisi dolores quaerat fuga rem nihil nostrum.
-                        Laudantium quia consequatur molestias delectus culpa.
-                        </p>
-                        <div class="testimonial-slider__author">
-                            <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonial-slider__avatar">
-                            <cite class="testimonial-slider__cite">
-                                <strong>UIC Speedy</strong>
-                                <span>Kapitän, Team 1</span>
-                            </cite>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-    
-                    <div class="testimonial-slider__slide">
-                        <p>
-                        Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                        Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
-                        Quasi voluptas eius distinctio. Atque eos maxime.
-                        </p>
-                        <div class="testimonial-slider__author">
-                            <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonial-slider__avatar">
-                            <cite class="testimonial-slider__cite">
-                                <strong>UIC Rhinoshield</strong>
-                                <span>Kapitän, Team 2</span>
-                            </cite>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-    
-                    <div class="testimonial-slider__slide">
-                        <p>
-                        Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
-                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
-                        Voluptatem dignissimos ut.
-                        </p>
-                        <div class="testimonial-slider__author">
-                            <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonial-slider__avatar">
-                            <cite class="testimonial-slider__cite">
-                                <strong>UIC Record</strong>
-                                <span>Kapitän, Team 3</span>
-                            </cite>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-
-                </div> <!-- end testimonial slider -->
-                
-            </div> <!-- end column -->
-
-        </div> <!-- end row -->
-
-
-    </div> <!-- end s-sozials -->
-
-    <!-- footer
-    ================================================== -->
-    <footer class="s-footer">
-        <div class="row row-y-top">
-
-            <div class="column large-8 medium-12">
-                <div class="row">
-                    <div class="column large-7 tab-12 s-footer__block">
-                        <h4 class="h6">Vertretungsberechtigt</h4>
-        
-                        <p>
-                        Diamond Goku <br>
-                        Tommorowland 123 <br>
-                        696969 Lazy Town <br>
-                        N - Namek <br>
-                        </p>
+        <div id="abyss" class="team-content">
+            <h3 class="team-title">Abyss Division</h3>
+            <div class="roster-grid">
+                <div class="player-card">
+                    <div class="role-icon">TOP</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/Abyss/top.png" alt="Placeholder">
                     </div>
-        
-                    <div class="column large-5 tab-12 s-footer__block">
-                        <h4 class="h6">Haftungsausschuss</h4 class="h6">
-        
-                        <ul class="s-footer__list">
-                            <li><a href="xxxxxxxxx">Datenschutzrichtlinien</a></li>
-                            <li><a href="xxxxxxxxx">Nutzungsbedingungen</a></li>
+                    <div class="card-info">
+                        <h3>UIC Dany</h3>
+                        <p>Top Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">JGL</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/Abyss/jgl.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>UIC Key</h3>
+                        <p>JGL Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">MID</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/Abyss/mid.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>UIC Goku</h3>
+                        <p>MID Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">ADC</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/Abyss/adc.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>UIC MC</h3>
+                        <p>ADC Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">SUP</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/Abyss/sup.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>UIC Eigeen</h3>
+                        <p>SUP Laner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stats" class="stats-section">
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-decoration top-left"></div>
+                <div class="stat-decoration bottom-right"></div>
+                <h3 id="stat-matches">142</h3>
+                <p>MATCHES PLAYED</p>
+            </div>
+            
+            <div class="stat-card highlight-card">
+                <div class="stat-decoration top-left"></div>
+                <div class="stat-decoration bottom-right"></div>
+                <h3 id="stat-wr">68%</h3>
+                <p>WIN RATE</p>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-decoration top-left"></div>
+                <div class="stat-decoration bottom-right"></div>
+                <h3 id="stat-players">30+</h3>
+                <p>ACTIVE LEGENDS</p>
+            </div>
+            
+             <div class="stat-card">
+                <div class="stat-decoration top-left"></div>
+                <div class="stat-decoration bottom-right"></div>
+                <h3 id="stat-cups">12</h3>
+                <p>TOURNAMENT WINS</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="events-section">
+        <div class="container">
+            <!-- <h2 class="section-title">Tactical <span class="highlight">Deployment</span></h2> -->
+            <div class="events-list">
+
+                <div class="event-row">
+                    <div class="event-meta">
+                        <span class="event-type">TOURNAMENT</span>
+                        <div class="event-date">JAN 24</div>
+                    </div>
+                    <div class="event-details">
+                        <h4>PRIME LEAGUE PLACEMENT</h4>
+                        <p>PLACEMENT MATCHES | LIVE ON TWITCH</p>
+                    </div>
+                    <div class="event-action">
+                        <a href="#" class="btn-glass">GO</a>
+                    </div>
+                </div>
+                <div class="event-row">
+                    <div class="event-meta">
+                        <span class="event-type">TOURNAMENT</span>
+                        <div class="event-date">JAN 24</div>
+                    </div>
+                    <div class="event-details">
+                        <h4>PRIME LEAGUE START</h4>
+                        <p>DEVISION 5 // 6 // 7 | LIVE ON TWITCH</p>
+                    </div>
+                    <div class="event-action">
+                        <a href="#" class="btn-glass">GO</a>
+                    </div>
+                </div>
+
+                <div class="event-row highlight-row">
+                    <div class="event-meta">
+                        <span class="event-type">ORGANIZATION</span>
+                        <div class="event-date">JAN 19</div>
+                    </div>
+                    <div class="event-details">
+                        <h4>ANNUAL TOWN HALL</h4>
+                        <p>YEARLY STRATEGY BRIEFING | ALL MEMBERS REQUIRED</p>
+                    </div>
+                    <div class="event-action">
+                        <a href="#" class="btn-glass">GO</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="streams" class="stream-section">
+        <div class="container">
+            <!-- <h2 class="section-title">Live <span class="highlight">Transmission</span></h2> -->
+            <div class="stream-terminal">
+                <div class="stream-info-panel">
+                    <div class="status-indicator"><span class="dot"></span> LIVE NOW</div>
+                    <h3>BROADCAST_DETAILS</h3>
+                    <div class="info-block">
+                        <label>HOST</label>
+                        <p>UIC_OFFICIAL</p>
+                    </div>
+                    <div class="info-block">
+                        <label>OBJECTIVE</label>
+                        <p>Prime League Division 5 - xxxxxxxx vs. xxxxxxx</p>
+                    </div>
+                    <div class="info-block">
+                        <label>SCHEDULE</label>
+                        <ul class="mini-schedule">
+                            <li>MON: 20:00 - Team A Scrims</li>
+                            <li>WED: 19:00 - Community Night</li>
+                            <li class="active-day">SUN: 18:00 - Matchday</li>
                         </ul>
                     </div>
                 </div>
-            </div>
 
-            <div class="column large-4 medium-12 s-footer__block--end">
-                <a href="mailto:xxx" class="btn h-full-width">Contact us</a>
-
-                <div class="ss-copyright">
-                    <span>Copyright Flare 2020</span> 
-                    <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">ThemeWagon</a></span>
+                <div class="stream-player-container">
+                    <div class="player-frame">
+                        <iframe 
+                            src="https://player.twitch.tv/?channel=ultrainstinctcrew&parent=ultrainstinctcrew.com" 
+                            frameborder="0" 
+                            allowfullscreen="true" 
+                            scrolling="no" 
+                            height="100%" 
+                            width="100%">
+                        </iframe>
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="ss-go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top">
-                    top
-                </a>
-            </div> <!-- end ss-go-top -->
+    <section id="partners" class="partners-section">
+        <div class="container">
+            <p class="section-subtitle">TRUSTED BY THE BEST</p>
+            
+            <div class="marquee-wrapper">
+                <div class="marquee-track">
+                    
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=LOGITECH" alt="Logitech">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=RED+BULL" alt="Red Bull">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=CORSAIR" alt="Corsair">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=INTEL" alt="Intel">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=SECRET+LAB" alt="Secret Lab">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=AMD" alt="AMD">
 
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=LOGITECH" alt="Logitech">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=RED+BULL" alt="Red Bull">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=CORSAIR" alt="Corsair">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=INTEL" alt="Intel">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=SECRET+LAB" alt="Secret Lab">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=AMD" alt="AMD">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <img src="assets/logo/logo.svg" alt="UIC Logo"> <span>UIC</span>
+                </div>
+                <p class="footer-desc">
+                    Ultra Instinct Crew.<br>
+                    Germany's Premier League of Legends Organisation.<br>
+                    #InstinctTakesOver
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h4>EXPLORE</h4>
+                <ul class="footer-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#teams">Teams</a></li>
+                    <li><a href="#stats">Stats</a></li>
+                    <li><a href="#partners">Partners</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>LEGAL</h4>
+                <ul class="footer-links">
+                    <li><a href="impressum.html">Impressum</a></li>
+                    <li><a href="privacy.html">Datenschutz</a></li>
+                    <li><a href="#join">Contact Support</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>CONNECT</h4>
+                <div class="social-links">
+                    <a href="#" class="social-btn">Discord</a>
+                    <a href="#" class="social-btn">Twitter</a>
+                    <a href="#" class="social-btn">Instagram</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Ultra Instinct Crew. All Rights Reserved.</p>
         </div>
     </footer>
 
-    <!-- Java Script - Small to Big Payload
-    ================================================== -->
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/modal.js"></script>
-    <script src="js/modernizr.js"></script>
-    <script src="js/banner.js"></script>
-    
+    <script src="js/script.js"></script>
 </body>
-
 </html>

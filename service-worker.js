@@ -1,18 +1,15 @@
-const CACHE_NAME = 'UIC-Cacher';
+const CACHE_NAME = 'UIC-Cache-v1';
+
+// THESE must match your actual file structure perfectly
 const PRECACHE_URLS = [
-  '/',
+'/',
   '/index.html',
+  '/css/style.css',
+  '/js/script.js',
+  '/favicon.ico',
   '/manifest.json',
-  '/css/styles.css',
-  '/css/vendor.css',
-  '/js/main.js',
-  '/js/modal.js',
-  '/js/modernizr.js',
-  '/js/bountys.js',
-  '/js/plugins.js',
-  '/js/calc_num.js',
-  '/icon512_rounded.png',
-  '/icon512_maskable.png'
+  '/icon512_maskable.png',       
+  '/android-chrome-512x512.png' 
 ];
 
 const RUNTIME_CDN_HOSTS = [

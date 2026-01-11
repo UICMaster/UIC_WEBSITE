@@ -1,0 +1,1120 @@
+:root {
+    --primary: #00F0FF; /* Cyan from logo top */
+    --secondary: #B026FF; /* Purple from logo bottom */
+    --bg-dark: #050505;
+    --bg-panel: #121212;
+    --text-white: #ffffff;
+    --font-head: 'Orbitron', sans-serif;
+    --font-body: 'Rajdhani', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; /* <--- ADD THIS LINE */
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-white);
+    font-family: var(--font-body);
+}
+
+/* Typography & Utilities */
+h1, h2, h3 { font-family: var(--font-head); text-transform: uppercase; }
+.highlight { color: var(--primary); text-shadow: 0 0 10px var(--primary); }
+
+.btn-primary {
+    background: linear-gradient(45deg, var(--secondary), var(--primary));
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    clip-path: polygon(10% 0, 100% 0, 100% 80%, 90% 100%, 0 100%, 0 20%); /* Cool gaming shape */
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 15px var(--primary);
+}
+
+/* Header */
+
+/* --- ROBUST NAVIGATION UPGRADE --- */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px; /* Fixed height for stability */
+    z-index: 9999;
+    
+    /* The "Glass" Material Look */
+    background: rgba(5, 5, 5, 0.85); /* Mostly black, slight transparency */
+    backdrop-filter: blur(12px); /* Blurs the content behind it */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Subtle edge */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.nav-container {
+    max-width: 1400px; /* Limits width on huge monitors */
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+/* Logo Styling */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.1); /* Divider line */
+    padding-right: 30px;
+}
+
+.logo img {
+    height: 45px;
+    width: auto;
+}
+
+.logo-text {
+    font-family: var(--font-head);
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.logo-text small {
+    display: block;
+    font-size: 0.6rem;
+    color: var(--primary);
+    letter-spacing: 4px;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 10px; /* Spacing handled by padding on links */
+}
+
+.nav-item {
+    position: relative;
+    color: #888;
+    text-decoration: none;
+    font-family: var(--font-head);
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+/* Hover Effect: The "Scanner" Light */
+.nav-item::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: var(--primary);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 10px var(--primary);
+}
+
+.nav-item:hover {
+    color: white;
+    text-shadow: 0 0 8px rgba(255,255,255,0.5);
+}
+
+.nav-item:hover::before {
+    width: 100%; /* Line grows from left to right */
+}
+
+/* Button Alignment */
+.nav-cta {
+    padding-left: 30px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1); /* Divider line */
+}
+
+/* Responsive Tweak for the new Robust Nav */
+@media (max-width: 900px) {
+    .navbar { height: auto; padding: 15px 0; }
+    .nav-container { flex-direction: column; gap: 20px; }
+    .logo, .nav-cta { border: none; padding: 0; }
+    .nav-links { flex-wrap: wrap; justify-content: center; }
+}
+
+/* --- HERO SECTION UPGRADE START --- */
+
+.hero-section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* Fix nav overlap */
+    margin-top: -80px; 
+    padding-top: 80px; 
+}
+
+/* 1. Background Handling */
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.hero-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6; /* Dim the image so text pops */
+}
+
+/* The "Cyber Grid" Texture Overlay */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), 
+        linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    background-size: 100% 2px, 3px 100%; /* Creates scanlines */
+    pointer-events: none;
+}
+
+/* 2. Typography & Content */
+.hero-content {
+    text-align: center;
+    z-index: 2;
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+.hero-badge {
+    display: inline-block;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    padding: 5px 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    background: rgba(0, 240, 255, 0.1);
+}
+
+.hero-content h1 {
+    font-size: 5rem; /* Massive Text */
+    line-height: 0.9;
+    margin-bottom: 20px;
+    letter-spacing: -2px;
+    font-weight: 900;
+}
+
+/* The "Hollow" Outline Effect */
+.outline-text {
+    color: transparent;
+    -webkit-text-stroke: 2px white; /* Outline only */
+    opacity: 0.8;
+}
+
+.hero-sub {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 40px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* 3. Buttons */
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Glass Button Variant */
+.btn-glass {
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: rgba(255, 255, 255, 0.05); /* Very see-through */
+    backdrop-filter: blur(5px); /* Blurs background behind it */
+    clip-path: polygon(10% 0, 100% 0, 100% 80%, 90% 100%, 0 100%, 0 20%);
+    transition: 0.3s;
+}
+
+.btn-glass:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: white;
+}
+
+/* 4. Floating Footer Elements */
+.hero-footer {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #666;
+    z-index: 2;
+}
+
+.scroll-indicator {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.scroll-indicator .line {
+    width: 50px;
+    height: 1px;
+    background: #444;
+}
+
+.social-mini span {
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-mini span:hover { color: var(--primary); }
+
+/* MOBILE ADJUSTMENT FOR NEW HERO */
+@media (max-width: 768px) {
+    .hero-content h1 { font-size: 3rem; }
+    .hero-footer { display: none; } /* Hide technical footer on mobile to save space */
+}
+
+/* --- HERO SECTION UPGRADE END --- */
+
+/* --- GLITCH EFFECT START --- */
+
+/* Base settings for the text */
+.glitch-text {
+    position: relative;
+    color: white;
+    /* Ensure the duplicate layers align perfectly */
+    display: inline-block; 
+}
+
+/* Create the two duplicate layers */
+.glitch-text::before,
+.glitch-text::after {
+    content: attr(data-text); /* Grabs the text from HTML automatically */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000; /* Matches background to hide main text momentarily */
+}
+
+/* Layer 1: The Cyan Shift */
+.glitch-text::before {
+    left: 2px;
+    text-shadow: -1px 0 var(--primary);
+    clip: rect(44px, 450px, 56px, 0);
+    animation: glitch-anim 5s infinite linear alternate-reverse;
+}
+
+/* Layer 2: The Purple Shift */
+.glitch-text::after {
+    left: -2px;
+    text-shadow: -1px 0 var(--secondary);
+    clip: rect(44px, 450px, 56px, 0);
+    animation: glitch-anim2 5s infinite linear alternate-reverse;
+}
+
+/* The Animation: Randomly slicing the text */
+@keyframes glitch-anim {
+    0% { clip: rect(30px, 9999px, 10px, 0); }
+    5% { clip: rect(80px, 9999px, 90px, 0); transform: skew(0.5deg); }
+    10% { clip: rect(10px, 9999px, 80px, 0); }
+    15% { clip: rect(60px, 9999px, 20px, 0); transform: skew(0.1deg); }
+    20% { clip: rect(10px, 9999px, 100px, 0); }
+    /* Pause for a while to not be annoying */
+    21% { clip: rect(0, 0, 0, 0); } 
+    90% { clip: rect(0, 0, 0, 0); }
+    100% { clip: rect(50px, 9999px, 60px, 0); }
+}
+
+@keyframes glitch-anim2 {
+    0% { clip: rect(10px, 9999px, 80px, 0); }
+    5% { clip: rect(90px, 9999px, 10px, 0); transform: skew(-0.5deg); }
+    10% { clip: rect(40px, 9999px, 20px, 0); }
+    15% { clip: rect(80px, 9999px, 60px, 0); transform: skew(-0.1deg); }
+    20% { clip: rect(30px, 9999px, 20px, 0); }
+    /* Pause */
+    21% { clip: rect(0, 0, 0, 0); }
+    90% { clip: rect(0, 0, 0, 0); }
+    100% { clip: rect(70px, 9999px, 90px, 0); }
+}
+/* --- GLITCH EFFECT END --- */
+
+/* Teams */
+.teams-section { padding: 80px 50px; text-align: center; }
+
+.team-tabs {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.tab-btn {
+    background: transparent;
+    border: 1px solid #333;
+    color: #888;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-family: var(--font-head);
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.tab-btn.active {
+    background: var(--primary);
+    color: black;
+    border-color: var(--primary);
+}
+
+.roster-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* --- ROSTER CARD STYLING START --- */
+
+.roster-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.player-card {
+    position: relative;
+    width: 220px;
+    background: linear-gradient(165deg, #1a1a1a 0%, #050505 100%); /* Dark diagonal gradient */
+    border: 1px solid #222;
+    /* The dual-neon border effect matching the logo */
+    border-top: 2px solid var(--primary);    /* Cyan Top */
+    border-bottom: 2px solid var(--secondary); /* Purple Bottom */
+    overflow: hidden; /* Keeps hover effects contained */
+    transition: all 0.3s ease;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 90% 100%, 0 100%); /* Subtle gaming corner cut */
+}
+
+/* HOVER STATE - Make it glow! */
+.player-card:hover {
+    transform: translateY(-7px); /* Lifts up slightly */
+    box-shadow: 0 -5px 15px rgba(0, 240, 255, 0.3), /* Top Cyan Glow */
+                0 5px 15px rgba(176, 38, 255, 0.3);  /* Bottom Purple Glow */
+    border-color: white; /* Borders turn bright white on hover */
+}
+
+/* The Role Icon (TOP, JGL, etc.) */
+.role-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.7);
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    padding: 4px 8px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    font-family: var(--font-head);
+    z-index: 2;
+    letter-spacing: 1px;
+}
+
+/* Image Area Styling */
+.card-image-placeholder {
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #222;
+}
+
+.card-image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+    opacity: 0.8;
+}
+
+/* Slight zoom effect on the image when hovering the card */
+.player-card:hover .card-image-placeholder img {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* Text Info Styling */
+.card-info {
+    padding: 15px;
+    text-align: left;
+}
+
+.card-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: white;
+    font-family: var(--font-head);
+}
+
+.card-info p {
+    color: #888;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Change text color on hover */
+.player-card:hover .card-info h3 {
+    color: var(--primary);
+}
+/* --- ROSTER CARD STYLING END --- */
+
+/* --- STATS SECTION FINAL VERSION --- */
+.stats-section {
+    position: relative;
+    /* Extra padding prevents content from being cut off by the diagonal slant */
+    padding: 140px 50px; 
+    
+    /* Pull the section up slightly to overlap the previous section's bottom */
+    margin-top: -80px; 
+    z-index: 10;
+    
+    /* 1. The Hexagon Mesh Background */
+    background-color: #0b0b0b;
+    background-image: 
+        radial-gradient(circle at 50% 50%, rgba(0, 240, 255, 0.03) 0%, transparent 50%),
+        linear-gradient(45deg, #111 25%, transparent 25%, transparent 75%, #111 75%, #111),
+        linear-gradient(45deg, #111 25%, transparent 25%, transparent 75%, #111 75%, #111);
+    background-size: 60px 60px; /* Size of the mesh pattern */
+    background-position: 0 0, 30px 30px;
+    
+    /* 2. The Diagonal Cut (Slant) */
+    /* This cuts the top-left and bottom-right corners diagonally */
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    
+    /* 3. Distinct Borders (Visual trick using pseudo-elements since clip-path cuts real borders) */
+}
+
+/* Add colored borders visually using ::before and ::after */
+.stats-section::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 5px;
+    background: linear-gradient(90deg, var(--secondary), transparent);
+    z-index: 11;
+}
+
+.stats-section::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; width: 100%; height: 5px;
+    background: linear-gradient(90deg, transparent, var(--primary));
+    z-index: 11;
+}
+
+/* Container */
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 12; /* Ensure text sits above the background */
+}
+
+/* Card Styling */
+.stat-card {
+    background: rgba(10, 10, 10, 0.9); /* Darker opacity for contrast */
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.stat-card:hover {
+    border-color: var(--primary);
+    transform: translateY(-7px) scale(1.02); /* Slight scale up */
+    background: rgba(20, 20, 20, 0.95);
+    box-shadow: 0 15px 35px rgba(0, 240, 255, 0.15);
+}
+
+/* Typography */
+.stat-card h3 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    font-family: var(--font-head);
+    font-weight: 900;
+    color: white;
+}
+
+.stat-card p {
+    color: #888;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Highlight Card (Win Rate) */
+.highlight-card h3 {
+    color: var(--primary);
+    text-shadow: 0 0 20px rgba(0, 240, 255, 0.5);
+}
+
+/* The "Tech Corners" Decorations */
+.stat-decoration {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: var(--secondary);
+    transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.stat-decoration.top-left { top: -1px; left: -1px; }
+.stat-decoration.bottom-right { bottom: -1px; right: -1px; background: var(--primary); }
+
+/* Corner Animation on Hover */
+.stat-card:hover .stat-decoration.top-left {
+    width: 30%; height: 2px; /* Shoots across top */
+}
+
+.stat-card:hover .stat-decoration.bottom-right {
+    width: 30%; height: 2px; /* Shoots across bottom */
+}
+
+/* Mobile Adjustment for the Slant */
+@media (max-width: 768px) {
+    .stats-section {
+        clip-path: none; /* Remove diagonal cut on mobile to save space */
+        padding: 60px 20px;
+        margin-top: 0;
+        border-top: 1px solid var(--secondary);
+    }
+}
+/* --- STATS SECTION FINAL VERSION END --- */
+
+/* Hide all team contents by default */
+.team-content {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Only show the one with the 'active' class */
+.team-content.active {
+    display: block;
+}
+
+/* Optional: Add a small animation for smooth switching */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.team-title {
+    margin-bottom: 20px;
+    color: var(--secondary);
+    font-size: 1.5rem;
+}
+
+/* FOOTER STYLING */
+.site-footer {
+    background-color: #0a0a0a;
+    border-top: 2px solid #222;
+    padding: 60px 0 20px;
+    margin-top: 50px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 40px;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 30px;
+}
+
+/* Brand Column */
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-logo img { height: 40px; }
+.footer-logo span { 
+    font-family: var(--font-head); 
+    font-size: 1.5rem; 
+    color: white; 
+}
+
+.footer-desc {
+    color: #888;
+    line-height: 1.6;
+    font-size: 0.9rem;
+}
+
+/* Headings */
+.footer-col h4 {
+    color: var(--primary);
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+/* Links */
+.footer-links {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: var(--secondary);
+    padding-left: 5px; /* Slight movement effect */
+}
+
+/* Social Buttons */
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-btn {
+    color: white;
+    text-decoration: none;
+    background: #1a1a1a;
+    padding: 8px 15px;
+    border-left: 3px solid var(--primary);
+    transition: 0.3s;
+}
+
+.social-btn:hover {
+    background: #222;
+    border-left: 3px solid var(--secondary);
+}
+
+/* Bottom Bar */
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #1a1a1a;
+    color: #555;
+    font-size: 0.8rem;
+}
+
+/* --- INFINITE SCROLL PARTNERS --- */
+.partners-section {
+    padding: 60px 0;
+    background: #000; /* Pure black to blend with logos */
+    border-top: 1px solid #1a1a1a;
+    overflow: hidden; /* Critical: Hides the logos when they move off screen */
+}
+
+.section-subtitle {
+    text-align: center;
+    color: #444;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+/* The Container that holds the moving track */
+.marquee-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /* Add fade masks on the sides for a premium look */
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+/* The Moving Track */
+.marquee-track {
+    display: flex;
+    gap: 60px; /* Space between logos */
+    width: max-content; /* Ensure track is wide enough for all logos */
+    animation: scroll-left 25s linear infinite; /* The infinite loop */
+}
+
+/* Logo Styling */
+.marquee-track img {
+    height: 40px; /* Fixed height for consistency */
+    width: auto;
+    opacity: 0.5; /* Dim them by default */
+    filter: grayscale(100%); /* Make them black & white */
+    transition: 0.3s;
+    cursor: pointer;
+    /* Ensure no button borders exist */
+    border: none;
+    background: none;
+}
+
+/* Hover Effect */
+.marquee-track img:hover {
+    opacity: 1;
+    filter: grayscale(0%); /* Color on hover */
+    transform: scale(1.1);
+}
+
+/* The Animation Keyframes */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        /* Move exactly 50% so the duplicate set replaces the first set seamlessly */
+        transform: translateX(-50%); 
+    }
+}
+
+/* Mobile Adjustment: Speed it up slightly on small screens */
+@media (max-width: 768px) {
+    .marquee-track {
+        gap: 30px;
+        animation-duration: 15s;
+    }
+}
+
+/* --- MOBILE RESPONSIVENESS (Add to bottom of style.css) --- */
+
+@media (max-width: 768px) {
+    
+    /* 1. Navigation: Stack it vertically */
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+        position: relative; /* Unstick it on mobile if content is tall */
+        background: #000;
+    }
+
+    .nav-links {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .btn-primary {
+        width: 100%; /* Full width button for easy tapping */
+        text-align: center;
+        display: block;
+    }
+
+    /* 2. Hero Section: Make text smaller */
+    .hero-content h1 {
+        font-size: 2.5rem; /* Shrink from 4rem */
+        line-height: 1.2;
+    }
+    
+    .hero-content p {
+        padding: 0 20px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0 40px;
+    }
+
+    /* 3. Team Tabs: Horizontal Scroll (App-like feel) */
+    .team-tabs {
+        justify-content: flex-start; /* Align start to allow scroll */
+        overflow-x: auto; /* Enable horizontal scrolling */
+        white-space: nowrap; /* Don't wrap buttons to next line */
+        padding-bottom: 10px; /* Space for scrollbar */
+        margin: 20px -20px; /* Negative margin to let it touch screen edges */
+        padding-left: 20px; /* Bring back padding */
+        
+        /* Hide Scrollbar for cleaner look */
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+    .team-tabs::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
+    }
+
+    .tab-btn {
+        flex: 0 0 auto; /* Don't shrink buttons */
+    }
+
+    /* 4. Stats: Stack vertically */
+    .stats-section {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .stat-box h3 {
+        font-size: 2.5rem;
+    }
+
+    /* 5. Footer: Stack columns */
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-logo {
+        justify-content: center;
+    }
+
+    .footer-col {
+        border-bottom: 1px solid #222;
+        padding-bottom: 20px;
+    }
+    
+    .footer-col:last-child {
+        border-bottom: none;
+    }
+    
+    .social-links {
+        align-items: center;
+    }
+    
+    .social-btn {
+        width: 100%;
+        max-width: 250px;
+        text-align: center;
+    }
+}
+
+/* --- FIXED MOBILE NAVIGATION & HAMBURGER --- */
+
+/* 1. Hamburger Icon Styling */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    z-index: 10002; /* Must be higher than the overlay */
+    padding: 10px; /* Bigger touch area */
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 6px 0;
+    background-color: white;
+    transition: all 0.3s ease-in-out; /* Smooth animation for the X */
+    border-radius: 2px;
+}
+
+/* 2. Hamburger Animation (The "X" Effect) */
+/* When the 'active' class is added by JS: */
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0; /* Middle bar vanishes */
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg); /* Top bar rotates down */
+    background-color: var(--primary); /* Optional: Change color when open */
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg); /* Bottom bar rotates up */
+    background-color: var(--primary);
+}
+
+/* 3. Mobile Layout Fixes */
+@media (max-width: 900px) {
+    
+    /* Ensure Nav stays sticky at the top */
+    .navbar {
+        position: fixed; 
+        top: 0;
+        width: 100%;
+        height: 70px; /* Fixed height is important for mobile stability */
+        padding: 0; /* Container handles padding */
+        background: rgba(0, 0, 0, 0.9); /* Darker background for readability */
+        backdrop-filter: blur(10px);
+    }
+
+    /* Fix Alignment: Keep Logo and Burger side-by-side */
+    .nav-container {
+        display: flex;
+        flex-direction: row; /* FORCE ROW */
+        justify-content: space-between; /* Push Logo Left, Burger Right */
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 0 20px; /* Safe distance from edges */
+    }
+
+    /* Hide Desktop Elements */
+    .desktop-only { 
+        display: none !important; 
+    }
+
+    /* Show Hamburger */
+    .hamburger { 
+        display: block; 
+    }
+    
+    /* Adjust Hero spacing so it doesn't hide behind the fixed nav */
+    .hero-section {
+        margin-top: 0;
+        padding-top: 70px; /* Match navbar height */
+    }
+}
+
+/* --- MISSING BASE STYLES FOR THE SLIDE-OUT MENU --- */
+
+/* 1. The Dark Overlay (Background Dimmer) */
+.mobile-menu-overlay {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    z-index: 9998; /* Just below the panel */
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.mobile-menu-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* 2. The Sliding Panel (The actual menu) */
+.mobile-nav-panel {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Hidden off-screen to the right */
+    width: 300px;  /* Width of the drawer */
+    height: 100vh;
+    background: #0a0a0a;
+    border-left: 2px solid var(--primary); /* Neon Border */
+    z-index: 10001; /* Above overlay, but below hamburger (10002) */
+    transition: 0.4s cubic-bezier(0.77, 0, 0.175, 1); /* Smooth slide */
+    box-shadow: -5px 0 30px rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+}
+
+/* 3. The "Open" State */
+.mobile-nav-panel.active {
+    right: 0; /* Slides it into view */
+}
+
+/* 4. Panel Internal Content Styling */
+.panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-bottom: 1px solid #222;
+}
+
+.panel-title {
+    font-family: var(--font-head);
+    color: var(--primary); /* Cyan Text */
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.mobile-links {
+    list-style: none;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mobile-links a {
+    color: #ccc;
+    text-decoration: none;
+    font-family: var(--font-head);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    display: block;
+    transition: 0.3s;
+}
+
+.mobile-links a:hover {
+    color: var(--primary);
+    transform: translateX(10px);
+}
+
+.highlight-link {
+    color: var(--secondary) !important;
+    font-weight: bold;
+}
+
+.panel-footer {
+    margin-top: auto;
+    padding: 20px;
+    text-align: center;
+    color: #444;
+    font-size: 0.8rem;
+    border-top: 1px solid #1a1a1a;
+}
