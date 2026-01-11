@@ -1,4 +1,4 @@
-const CACHE_NAME = 'UIC-Cache-v2';
+const CACHE_NAME = 'UIC-Cache-v3';
 
 // THESE must match your actual file structure perfectly
 const PRECACHE_URLS = [
