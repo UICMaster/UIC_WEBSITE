@@ -55,426 +55,522 @@
 </head>
 <body>
 
-    <input type="checkbox" id="nav-toggle" class="nav-toggle-state" style="display: none;">
-
     <nav class="navbar">
-        <div class="container nav-inner">
+        <div class="nav-container">
             
-            <a href="#hero" class="logo">
-                <span style="color: var(--primary);">UIC</span> // SYSTEM
+            <a href="#" class="logo">
+                <img src="assets/logo/logo.svg" alt="UIC Logo">
+                <span class="logo-text">UIC <small>GER</small></span>
             </a>
 
-            <label for="nav-toggle" class="nav-burger">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-            </label>
-
-            <div class="nav-menu">
-                <label for="nav-toggle" class="nav-close">&times;</label>
+            <ul class="nav-links desktop-only">
+                <li><a href="#hero" class="nav-item">Home</a></li>
+                <li><a href="#about" class="nav-item">About Us</a></li>
+                <li><a href="#teams" class="nav-item">Teams</a></li>
+                <li><a href="#stats" class="nav-item">Stats</a></li>
+                <li><a href="#events" class="nav-item">Events</a></li>
+                <li><a href="#schedule" class="nav-item">Schedule</a></li>
+                <li><a href="#partners" class="nav-item">Partner</a></li>
                 
-                <ul class="nav-list">
-                    <li><a href="#hero" class="nav-link">Home</a></li>
-                    <li><a href="#about" class="nav-link">Mission</a></li>
-                    <li><a href="#teams" class="nav-link">Teams</a></li>
-                    <li><a href="#stats" class="nav-link">Stats</a></li>
-                    <li><a href="#events" class="nav-link">Events</a></li>
-                    <li><a href="#stream" class="nav-link">Stream</a></li>
-                    
-                    <li><a href="#partners" class="nav-link">Partners</a></li>
-                    
-                    <li><a href="#join" class="btn btn-primary" style="margin-left: 1rem; padding: 0.5rem 1.5rem; font-size: 0.8rem;">Join</a></li>
-                </ul>
+                <li class="dropdown">
+                    <span class="nav-item">More +</span>
+                    <ul class="dropdown-menu">
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#news">News</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="nav-cta desktop-only">
+                <a href="#join" class="btn-primary">JOIN US</a>
+            </div>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
 
         </div>
     </nav>
 
-    <section id="hero" class="hero-section">
-        <div class="hero-overlay"></div>
+    <div class="mobile-menu-overlay" onclick="toggleMenu()"></div>
 
-        <div class="container h-100">
-            <div class="hero-content">
-                
-                <div class="hero-label">// SYSTEM_ONLINE</div>
-                
-                <h1 class="hero-title">
-                    ULTRA <span class="text-stroke">INSTINCT</span> <br>
-                    <span class="text-primary">CREW</span>
-                </h1>
-
-                <p class="hero-lead">
-                    Germany's Premier League of Legends Ecosystem. <br>
-                    Structure. Strategy. Success.
-                </p>
-
-                <div class="hero-actions">
-                    <a href="#teams" class="btn btn-primary">
-                        View Roster <span class="btn-icon">→</span>
-                    </a>
-                    <a href="#join" class="btn btn-outline">
-                        Join The Crew
-                    </a>
-                </div>
-
-            </div>
+    <div class="mobile-nav-panel">
+        <div class="panel-header">
+            <span class="panel-title">MENU</span>
+            <button class="close-btn" onclick="toggleMenu()">&times;</button>
         </div>
         
-        <a href="#about" class="scroll-indicator">
-            <span class="scroll-arrow"></span>
-        </a>
-    </section>
+        <ul class="mobile-links">
+            <li><a href="#hero" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About Us</a></li>
+            <li><a href="#teams" onclick="toggleMenu()">Teams</a></li>
+            <li><a href="#stats" onclick="toggleMenu()">Stats</a></li>
+            <li><a href="#events" onclick="toggleMenu()">Events</a></li>
+            <li><a href="#streams" onclick="toggleMenu()">Streams</a></li>
+            <li><a href="#partners" onclick="toggleMenu()">Partner</a></li>
+            <li><a href="#faq" onclick="toggleMenu()">FAQ</a></li>
+            <li><a href="#news" onclick="toggleMenu()">News</a></li>
+        </ul>
 
-    <section id="about" class="section-pad">
-        <div class="container">
-            <div class="grid-12">
-                
-                <div class="col-6">
-                    <div class="section-header">
-                        <span class="section-subtitle">// SYSTEM_IDENTITY</span>
-                        <h2 class="section-title">PROJECT <span class="text-highlight">UIC</span></h2>
-                    </div>
-                    
-                    <p class="lead-text">
-                        Forging the next generation of Esports athletes.
-                    </p>
-                    
-                    <p style="color: var(--text-muted); margin-bottom: var(--space-md);">
-                        Established in 2021, Ultra Instinct Crew is more than just an organization. 
-                        We are a tactical ecosystem designed to provide League of Legends athletes 
-                        with the structure, coaching, and community required to reach their maximum potential.
-                    </p>
+        <div class="panel-footer">
+            <p>&copy; 2026 Ultra Instinct Crew</p>
+        </div>
+    </div>
 
-                    <a href="#join" class="btn btn-primary">
-                        Initiate Sequence
-                    </a>
-                </div>
+    <header id="hero" class="hero-section">
+        
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2670&auto=format&fit=crop" alt="Background">
+            <div class="hero-overlay"></div>
+        </div>
 
-                <div class="col-6">
-                    <div class="card card--hud">
-                        <div style="display: flex; justify-content: space-between; margin-bottom: var(--space-md); border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;">
-                            <span class="card-meta">STATUS: ONLINE</span>
-                            <span class="card-meta">VER 4.0</span>
-                        </div>
+        <div class="hero-content">
+            
+            <div class="hero-badge">SEASON 2026 // SPLIT 1</div>
 
-                        <h3 class="card-title">TACTICAL ECOSYSTEM</h3>
-                        
-                        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: var(--space-md);">
-                            Operating within the Prime League structure. Focusing on talent development, macro-strategy, and mental resilience.
-                        </p>
-
-                        <ul style="list-style: none; color: white; font-family: var(--font-body);">
-                            <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
-                                <span style="color: var(--primary);">►</span> Structured Coaching
-                            </li>
-                            <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
-                                <span style="color: var(--primary);">►</span> Scrim Analysis
-                            </li>
-                            <li style="display: flex; align-items: center; gap: 10px;">
-                                <span style="color: var(--primary);">►</span> Tournament Support
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
+            <h1 class="glitch-text" data-text="ULTRA INSTINCT">
+                ULTRA <span class="outline-text">INSTINCT</span>
+            </h1>
+            
+            <p class="hero-sub">The new era of German League of Legends starts here.</p>
+            
+            <div class="hero-buttons">
+                <a href="#join" class="btn-primary">JOIN THE CREW</a>
+                <a href="#discord" class="btn-glass">DISCORD</a>
             </div>
         </div>
-    </section>
 
-    <section id="teams" class="section-pad" style="background: linear-gradient(180deg, var(--bg-dark) 0%, #080808 100%);">
-        <div class="container">
-            
-            <div class="section-header">
-                <span class="section-subtitle">// ACTIVE_UNITS</span>
-                <h2 class="section-title">CLAN <span class="text-highlight">ROSTER</span></h2>
+        <div class="hero-footer">
+            <div class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <div class="line"></div>
             </div>
-
-            <div class="team-tabs">
-                <button class="tab-btn active" onclick="openTeam(event, 'Prime')">UIC PRIME</button>
-                <button class="tab-btn" onclick="openTeam(event, 'Spark')">UIC SPARK</button>
-                <button class="tab-btn" onclick="openTeam(event, 'Ember')">UIC EMBER</button>
-                <button class="tab-btn" onclick="openTeam(event, 'Nova')">UIC NOVA</button>
-                <button class="tab-btn" onclick="openTeam(event, 'Abyss')">UIC ABYSS</button>
+            <div class="social-mini">
+                <span>TW</span>
+                <span>IG</span>
+                <span>YT</span>
             </div>
-
-            <div id="Prime" class="grid-auto team-grid active">
-                <div class="card card--interactive card--profile">
-                    <div class="role-badge">TOP</div>
-                    <img src="assets/profile/Prime/Speedy.png" alt="Top" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">UIC SPEEDY</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
-                    </div>
-                </div>
-                <div class="card card--interactive card--profile">
-                    <div class="role-badge">JGL</div>
-                    <img src="assets/profile/Prime/Niki.png" alt="JGL" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">UIC NIKI</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
-                    </div>
-                </div>
-                <div class="card card--interactive card--profile">
-                    <div class="role-badge">MID</div>
-                    <img src="assets/profile/Prime/Jannes.png" alt="MID" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">UIC SHANYCRANE</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
-                    </div>
-                </div>
-                <div class="card card--interactive card--profile">
-                    <div class="role-badge">ADC</div>
-                    <img src="images/t1_top.jpg" alt="ADC" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">UIC GIANI</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
-                    </div>
-                </div>
-                <div class="card card--interactive card--profile">
-                    <div class="role-badge">SUP</div>
-                    <img src="images/t1_top.jpg" alt="SUP" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">UIC NIGGO</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="Spark" class="grid-auto team-grid">
-                <div class="card card--interactive card--profile">
-                    <div class="role-badge">TOP</div>
-                    <img src="assets/profile/spark/top.png" alt="Top" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">UIC SPEEDY</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
-                    </div>
-                </div>
-                <div class="card card--interactive card--profile">
-                    <div class="role-badge">JGL</div>
-                    <img src="assets/profile/spark/jungle.png" alt="JGL" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">UIC SPEEDY</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
-                    </div>
-                </div>
-                <div class="card card--interactive card--profile">
-                    <div class="role-badge">MID</div>
-                    <img src="assets/profile/spark/mid.png" alt="MID" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">UIC SPEEDY</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
-                    </div>
-                </div>
-                <div class="card card--interactive card--profile">
-                    <div class="role-badge">ADC</div>
-                    <img src="assets/profile/spark/adc.png" alt="ADC" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">UIC SPEEDY</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
-                    </div>
-                </div>
-                <div class="card card--interactive card--profile">
-                    <div class="role-badge">SUP</div>
-                    <img src="assets/profile/Prime/Speedy.png" alt="SUP" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">UIC SPEEDY</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="Ember" class="grid-auto team-grid">
-                <div class="card card--interactive card--profile">
-                    <div class="role-badge">TOP</div>
-                    <img src="assets/profile/ember/Top.png" alt="Top" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">UIC SPEEDY</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
-                    </div>
-                </div>
-                <div class="card card--interactive card--profile">
-                    <div class="role-badge">JGL</div>
-                    <img src="assets/profile/ember/jungle.png" alt="JGL" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">UIC SPEEDY</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
-                    </div>
-                </div>
-                <div class="card card--interactive card--profile">
-                    <div class="role-badge">MID</div>
-                    <img src="assets/profile/ember/mid.png" alt="MID" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">UIC SPEEDY</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
-                    </div>
-                </div>
-                <div class="card card--interactive card--profile">
-                    <div class="role-badge">ADC</div>
-                    <img src="assets/profile/ember/adc.png" alt="ADC" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">UIC SPEEDY</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
-                    </div>
-                </div>
-                <div class="card card--interactive card--profile">
-                    <div class="role-badge">SUP</div>
-                    <img src="assets/profile/ember/support.png" alt="SUP" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">UIC SPEEDY</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
-                    </div>
-                </div>
-            </div>
-
         </div>
-    </section>
+    </header>
 
-    <section id="stats" class="section-pad">
-        <div class="container">
+    <section id="about" class="about-section">
+        <div class="about-container">
             
-            <div class="section-header">
-                <span class="section-subtitle">// DATA_STREAM</span>
-                <h2 class="section-title">SEASON <span class="text-highlight">STANDINGS</span></h2>
-                <p class="lead-text" style="max-width: 600px;">
-                    Live telemetry from the current Prime League Split.
+            <div class="about-content">
+                <h2 class="section-title">PROJECT <span class="highlight">UIC</span></h2>
+                <p class="about-lead">Forging the next generation of competitive excellence in the DACH region.</p>
+                <p class="about-text">
+                    Established in 2021, Ultra Instinct Crew is more than just an organization. We are a tactical ecosystem designed to provide League of Legends athletes with the structure, coaching, and community required to reach their maximum potential.
                 </p>
+                <div class="about-stats-mini">
+                    <div class="mini-box"><span>EST</span><br>2021</div>
+                    <div class="mini-box"><span>LOC</span><br>GERMANY</div>
+                    <div class="mini-box"><span>DIV</span><br>PRIME LEAGUE</div>
+                </div>
             </div>
 
-            <div class="table-scroll">
-                <div class="stats-grid">
-                    
-                    <div class="stats-header">
-                        <div>#</div>
-                        <div style="text-align: left;">TEAM UNIT</div>
-                        <div>MP</div> <div>W</div>  <div>L</div>  <div>PTS</div> </div>
-
-                    <div class="stats-row">
-                        <div class="rank-top">01</div>
-                        <div class="cell-team">
-                            <span style="color:var(--primary); margin-right:10px;">►</span> 
-                            UIC Alpha
-                        </div>
-                        <div>12</div>
-                        <div>10</div>
-                        <div>2</div>
-                        <div class="rank-top">30</div>
+            <div class="about-visual">
+                <div class="tactical-card">
+                    <div class="card-header">// SYSTEM_IDENTITY</div>
+                    <div class="card-body">
+                        <p><strong>NAME:</strong> ULTRA INSTINCT CREW</p>
+                        <p><strong>STATUS:</strong> ACTIVE_COMPETITIVE</p>
+                        <p><strong>MISSION:</strong> PLAYER_EVOLUTION</p>
+                        <div class="scanline"></div>
                     </div>
-
-                    <div class="stats-row">
-                        <div class="rank-top">02</div>
-                        <div class="cell-team">Enemy Team A</div>
-                        <div>12</div>
-                        <div>9</div>
-                        <div>3</div>
-                        <div class="rank-top">27</div>
-                    </div>
-
-                    <div class="stats-row">
-                        <div class="rank-top">03</div>
-                        <div class="cell-team">Enemy Team B</div>
-                        <div>12</div>
-                        <div>8</div>
-                        <div>4</div>
-                        <div class="rank-top">24</div>
-                    </div>
-
-                    <div class="stats-row">
-                        <div>04</div>
-                        <div class="cell-team">UIC Bravo</div>
-                        <div>12</div>
-                        <div>6</div>
-                        <div>6</div>
-                        <div>18</div>
-                    </div>
-
-                    <div class="stats-row">
-                        <div>05</div>
-                        <div class="cell-team">Enemy Team C</div>
-                        <div>12</div>
-                        <div>4</div>
-                        <div>8</div>
-                        <div>12</div>
-                    </div>
-
+                    <div class="card-footer">UIC_INTEL_v1.0</div>
                 </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="teams" class="teams-section">
+        <h2>OUR <span class="highlight">ROSTERS</span></h2>
+        
+        <div class="team-tabs">
+            <button class="tab-btn active" onclick="openTeam(event, 'prime')">PRIME</button>
+            <button class="tab-btn" onclick="openTeam(event, 'nova')">NOVA</button>
+            <button class="tab-btn" onclick="openTeam(event, 'luna')">LUNA</button>
+            <button class="tab-btn" onclick="openTeam(event, 'ember')">EMBER</button>
+            <button class="tab-btn" onclick="openTeam(event, 'spark')">SPARK</button>
+            <button class="tab-btn" onclick="openTeam(event, 'abyss')">ABYSS</button>
+        </div>
+
+        <div id="prime" class="team-content active">
+            <h3 class="team-title">Division 5</h3>
+            <div class="roster-grid">
+                <div class="player-card">
+                    <div class="role-icon">TOP</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/Prime/Speedy.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>Top Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">JGL</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/Prime/Niki.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>JGL Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">MID</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/Prime/Jannes.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>MID Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">ADC</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>ADC Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">SUP</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>SUP Laner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="nova" class="team-content">
+            <h3 class="team-title">Division 6</h3>
+            <div class="roster-grid">
+                <div class="player-card">
+                    <div class="role-icon">TOP</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/Nova/ExcellentC.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>Top Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">JGL</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/Nova/Simply.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>JGL Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">MID</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>MID Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">ADC</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>ADC Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">SUP</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>SUP Laner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="luna" class="team-content">
+            <h3 class="team-title">Coming soon</h3>
+            <div class="roster-grid">
+                <div class="player-card">
+                    <div class="role-icon">TOP</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>Top Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">JGL</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>JGL Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">MID</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>MID Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">ADC</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>ADC Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">SUP</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>SUP Laner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="ember" class="team-content">
+            <h3 class="team-title">Ember Division</h3>
+            <div class="roster-grid">
+                <div class="player-card">
+                    <div class="role-icon">TOP</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/ember/Top.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>JGL Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">JGL</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/ember/jungle.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>Top Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">MID</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/ember/mid.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>MID Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">ADC</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/ember/adc.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>ADC Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">SUP</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/ember/support.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>SUP Laner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="spark" class="team-content">
+            <h3 class="team-title">Division 6</h3>
+            <div class="roster-grid">
+                <div class="player-card">
+                    <div class="role-icon">TOP</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/spark/top.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>Top Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">JGL</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/spark/jungle.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>JGL Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">MID</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/spark/mid.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>MID Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">ADC</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/spark/adc.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>ADC Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">SUP</div>
+                    <div class="card-image-placeholder">
+                        <img src="https://placehold.co/150x150/1a1a1a/00F0FF?text=PLAYER" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>PLAYER NAME</h3>
+                        <p>SUP Laner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="abyss" class="team-content">
+            <h3 class="team-title">Abyss Division</h3>
+            <div class="roster-grid">
+                <div class="player-card">
+                    <div class="role-icon">TOP</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/Abyss/top.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>UIC Dany</h3>
+                        <p>Top Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">JGL</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/Abyss/jgl.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>UIC Key</h3>
+                        <p>JGL Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">MID</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/Abyss/mid.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>UIC Goku</h3>
+                        <p>MID Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">ADC</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/Abyss/adc.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>UIC MC</h3>
+                        <p>ADC Laner</p>
+                    </div>
+                </div>
+                <div class="player-card">
+                    <div class="role-icon">SUP</div>
+                    <div class="card-image-placeholder">
+                        <img src="./assets/profile/Abyss/sup.png" alt="Placeholder">
+                    </div>
+                    <div class="card-info">
+                        <h3>UIC Eigeen</h3>
+                        <p>SUP Laner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stats" class="stats-section">
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-decoration top-left"></div>
+                <div class="stat-decoration bottom-right"></div>
+                <h3 id="stat-matches">142</h3>
+                <p>MATCHES PLAYED</p>
             </div>
             
-            <div style="margin-top: var(--space-md); text-align: center;">
-                <a href="#" class="btn btn-outline">View Full Division Analysis</a>
+            <div class="stat-card highlight-card">
+                <div class="stat-decoration top-left"></div>
+                <div class="stat-decoration bottom-right"></div>
+                <h3 id="stat-wr">68%</h3>
+                <p>WIN RATE</p>
             </div>
 
-        </div>
-    </section>
-
-    <section id="partners" class="section-pad" style="background: var(--bg-panel);">
-        <div class="container">
-            <div class="section-header" style="text-align: center; margin: 0 auto var(--space-lg) auto;">
-                <span class="section-subtitle">// ALLIANCE_NETWORK</span>
-                <h2 class="section-title">OUR <span class="text-highlight">PARTNERS</span></h2>
+            <div class="stat-card">
+                <div class="stat-decoration top-left"></div>
+                <div class="stat-decoration bottom-right"></div>
+                <h3 id="stat-players">30+</h3>
+                <p>ACTIVE LEGENDS</p>
             </div>
-
-            <div class="partner-grid">
-                <img src="images/partner1.png" alt="Partner 1" class="partner-logo">
-                <img src="images/partner2.png" alt="Partner 2" class="partner-logo">
-                <img src="images/partner3.png" alt="Partner 3" class="partner-logo">
-                <img src="images/partner4.png" alt="Partner 4" class="partner-logo">
-                </div>
-        </div>
-    </section>
-
-    <section id="stream" class="section-pad">
-        <div class="container">
-            <div class="grid-12" style="align-items: center;">
-                
-                <div class="col-4">
-                    <div class="live-indicator">● LIVE TRANSMISSION</div>
-                    <h2 class="section-title" style="margin-top: 10px;">HQ <span class="text-highlight">FEED</span></h2>
-                    <p style="color: var(--text-muted); margin-bottom: var(--space-md);">
-                        Watch our main roster compete live in the Prime League. 
-                        Analysis, commentary, and high-level gameplay.
-                    </p>
-                    <a href="https://twitch.tv/YOUR_CHANNEL" target="_blank" class="btn btn-outline">
-                        Open Comms (Twitch)
-                    </a>
-                </div>
-
-                <div class="col-8">
-                    <div class="stream-frame">
-                        <div class="stream-embed">
-                            <span style="color: var(--text-muted);">// VIDEO_SIGNAL_OFFLINE</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="join" class="section-pad">
-        <div class="container">
-            <div class="cta-box">
-                <h2 class="section-title">READY TO <span class="text-highlight">DEPLOY?</span></h2>
-                <p class="lead-text" style="max-width: 600px; margin: 0 auto var(--space-md) auto; border: none;">
-                    We are always looking for talent. Whether you are a Challenger player, 
-                    a content creator, or a coach.
-                </p>
-                
-                <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-                    <a href="#" class="btn btn-primary">Apply Now</a>
-                    <a href="#" class="btn btn-outline">Join Discord</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="events" class="section-pad">
-        <div class="container">
             
-            <div class="section-header">
-                <span class="section-subtitle">// SCHEDULE_LOG</span>
-                <h2 class="section-title">TACTICAL <span class="text-highlight">DEPLOYMENT</span></h2>
+             <div class="stat-card">
+                <div class="stat-decoration top-left"></div>
+                <div class="stat-decoration bottom-right"></div>
+                <h3 id="stat-cups">12</h3>
+                <p>TOURNAMENT WINS</p>
             </div>
+        </div>
+    </section>
 
+    <section id="events" class="events-section">
+        <div class="container">
+            <!-- <h2 class="section-title">Tactical <span class="highlight">Deployment</span></h2> -->
             <div class="events-list">
 
                 <div class="event-row">
@@ -490,7 +586,6 @@
                         <a href="#" class="btn-glass">GO</a>
                     </div>
                 </div>
-
                 <div class="event-row">
                     <div class="event-meta">
                         <span class="event-type">TOURNAMENT</span>
@@ -498,7 +593,7 @@
                     </div>
                     <div class="event-details">
                         <h4>PRIME LEAGUE START</h4>
-                        <p>DIVISION 5 // 6 // 7 | LIVE ON TWITCH</p>
+                        <p>DEVISION 5 // 6 // 7 | LIVE ON TWITCH</p>
                     </div>
                     <div class="event-action">
                         <a href="#" class="btn-glass">GO</a>
@@ -507,7 +602,7 @@
 
                 <div class="event-row highlight-row">
                     <div class="event-meta">
-                        <span class="event-type" style="color: var(--secondary);">ORGANIZATION</span>
+                        <span class="event-type">ORGANIZATION</span>
                         <div class="event-date">JAN 19</div>
                     </div>
                     <div class="event-details">
@@ -515,62 +610,125 @@
                         <p>YEARLY STRATEGY BRIEFING | ALL MEMBERS REQUIRED</p>
                     </div>
                     <div class="event-action">
-                        <a href="#" class="btn-glass" style="border-color: var(--secondary); color: var(--secondary);">GO</a>
+                        <a href="#" class="btn-glass">GO</a>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-
-    <footer class="site-footer section-pad" style="background: var(--bg-panel); border-top: 1px solid rgba(255,255,255,0.05);">
+    <section id="streams" class="stream-section">
         <div class="container">
-            
-            <div class="grid-auto" style="--grid-gap: var(--space-lg);">
-                
-                <div class="footer-col">
-                    <a href="#" class="logo" style="font-size: 1.5rem; margin-bottom: 1rem; display: block; text-decoration: none; color: white;">
-                        UIC // <span style="color: var(--primary);">SYSTEM</span>
-                    </a>
-                    <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.9rem;">
-                        Forging the next generation of Esports athletes. <br>
-                        #InstinctTakesOver
-                    </p>
-                </div>
-
-                <div class="footer-col">
-                    <h4 class="footer-title">EXPLORE</h4>
-                    <ul class="footer-links">
-                        <li><a href="#hero">Home</a></li>
-                        <li><a href="#teams">Teams</a></li>
-                        <li><a href="#stats">Stats</a></li>
-                        <li><a href="#partners">Partners</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4 class="footer-title">LEGAL</h4>
-                    <ul class="footer-links">
-                        <li><a href="impressum.html">Impressum</a></li>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                        <li><a href="#join">Support</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4 class="footer-title">CONNECT</h4>
-                    <div class="social-links">
-                        <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Discord</a>
-                        <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Twitter</a>
+            <!-- <h2 class="section-title">Live <span class="highlight">Transmission</span></h2> -->
+            <div class="stream-terminal">
+                <div class="stream-info-panel">
+                    <div class="status-indicator"><span class="dot"></span> LIVE NOW</div>
+                    <h3>BROADCAST_DETAILS</h3>
+                    <div class="info-block">
+                        <label>HOST</label>
+                        <p>UIC_OFFICIAL</p>
+                    </div>
+                    <div class="info-block">
+                        <label>OBJECTIVE</label>
+                        <p>Prime League Division 5 - xxxxxxxx vs. xxxxxxx</p>
+                    </div>
+                    <div class="info-block">
+                        <label>SCHEDULE</label>
+                        <ul class="mini-schedule">
+                            <li>MON: 20:00 - Team A Scrims</li>
+                            <li>WED: 19:00 - Community Night</li>
+                            <li class="active-day">SUN: 18:00 - Matchday</li>
+                        </ul>
                     </div>
                 </div>
 
+                <div class="stream-player-container">
+                    <div class="player-frame">
+                        <iframe 
+                            src="https://player.twitch.tv/?channel=ultrainstinctcrew&parent=ultrainstinctcrew.com" 
+                            frameborder="0" 
+                            allowfullscreen="true" 
+                            scrolling="no" 
+                            height="100%" 
+                            width="100%">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners" class="partners-section">
+        <div class="container">
+            <p class="section-subtitle">TRUSTED BY THE BEST</p>
+            
+            <div class="marquee-wrapper">
+                <div class="marquee-track">
+                    
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=LOGITECH" alt="Logitech">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=RED+BULL" alt="Red Bull">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=CORSAIR" alt="Corsair">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=INTEL" alt="Intel">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=SECRET+LAB" alt="Secret Lab">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=AMD" alt="AMD">
+
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=LOGITECH" alt="Logitech">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=RED+BULL" alt="Red Bull">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=CORSAIR" alt="Corsair">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=INTEL" alt="Intel">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=SECRET+LAB" alt="Secret Lab">
+                    <img src="https://placehold.co/150x50/000000/FFFFFF/png?text=AMD" alt="AMD">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <img src="assets/logo/logo.svg" alt="UIC Logo"> <span>UIC</span>
+                </div>
+                <p class="footer-desc">
+                    Ultra Instinct Crew.<br>
+                    Germany's Premier League of Legends Organisation.<br>
+                    #InstinctTakesOver
+                </p>
             </div>
 
-            <div style="border-top: 1px solid rgba(255,255,255,0.05); margin-top: var(--space-lg); padding-top: var(--space-md); text-align: center; color: var(--text-muted); font-size: 0.8rem;">
-                <p>&copy; 2024 Ultra Instinct Crew. All Systems Operational.</p>
+            <div class="footer-col">
+                <h4>EXPLORE</h4>
+                <ul class="footer-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#teams">Teams</a></li>
+                    <li><a href="#stats">Stats</a></li>
+                    <li><a href="#partners">Partners</a></li>
+                </ul>
             </div>
+
+            <div class="footer-col">
+                <h4>LEGAL</h4>
+                <ul class="footer-links">
+                    <li><a href="impressum.html">Impressum</a></li>
+                    <li><a href="privacy.html">Datenschutz</a></li>
+                    <li><a href="#join">Contact Support</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>CONNECT</h4>
+                <div class="social-links">
+                    <a href="#" class="social-btn">Discord</a>
+                    <a href="#" class="social-btn">Twitter</a>
+                    <a href="#" class="social-btn">Instagram</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Ultra Instinct Crew. All Rights Reserved.</p>
         </div>
     </footer>
 
