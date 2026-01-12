@@ -251,14 +251,25 @@ html {
     justify-content: space-between;
 }
 
-/* C. The Logo */
+/* C. The Logo (Updated for SVG Path) */
 .logo {
-    font-family: var(--font-head);
-    font-size: 1.8rem;
-    font-weight: 700;
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    color: var(--text-white);
-    letter-spacing: 2px;
+    height: 100%; /* Spans the navbar height */
+    transition: transform 0.3s ease;
+}
+
+.logo img {
+    height: 50px; /* Adjust this based on your logo's proportions */
+    width: auto;
+    display: block;
+}
+
+/* Optional: Hover effect for the logo */
+.logo:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 8px var(--primary));
 }
 
 /* D. Desktop Menu (Default State) */
@@ -388,7 +399,7 @@ html {
     display: flex;
     align-items: center; /* Vertically center the content */
     /* Add your background image path here */
-    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    background: url('https://images.unsplash.com/photo-1560419015-7c427e8ae5ba?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
     padding-top: 80px; /* Offset for the Fixed Navbar so content isn't hidden */
     overflow: hidden;
 }
@@ -490,54 +501,104 @@ html {
 
 .site-footer {
     background: var(--bg-panel);
-    border-top: 1px solid rgba(255,255,255,0.05);
-    font-size: 0.9rem; /* Slightly smaller text for footer */
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    font-size: 0.9rem;
 }
 
-/* Footer Typography & Links */
+/* Footer Brand/Logo Area */
+.footer-col .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--space-md);
+    text-decoration: none;
+}
+
+.footer-col .logo img {
+    height: 40px; /* Slightly smaller than header logo */
+    width: auto;
+    filter: drop-shadow(0 0 5px rgba(0, 240, 255, 0.2));
+}
+
+/* Footer Typography & Titles */
 .footer-title {
     font-family: var(--font-head);
     color: var(--text-white);
-    margin-bottom: var(--space-sm);
-    letter-spacing: 1px;
-    font-size: 1.1rem;
+    margin-bottom: var(--space-md);
+    letter-spacing: 2px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+/* A decorative line under footer titles */
+.footer-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background: var(--primary);
 }
 
 .footer-links {
-    list-style: none; /* Removes bullet points */
+    list-style: none;
 }
 
 .footer-links li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
 }
 
 .footer-links a {
     color: var(--text-muted);
     text-decoration: none;
-    transition: all 0.2s ease;
+    font-family: var(--font-body);
+    transition: all 0.3s ease;
     display: inline-block;
+    position: relative;
 }
 
+/* Hover effect: Glow and slight movement */
 .footer-links a:hover {
     color: var(--primary);
-    transform: translateX(5px); /* Subtle slide to the right */
+    transform: translateX(8px);
+    text-shadow: 0 0 8px var(--primary);
 }
 
 /* Social Buttons Group */
 .social-links {
     display: flex;
-    gap: 10px;
+    gap: 12px;
     flex-wrap: wrap;
+    margin-top: var(--space-sm);
 }
 
 /* Copyright Bar at the very bottom */
 .footer-bottom {
-    border-top: 1px solid rgba(255,255,255,0.05);
-    margin-top: var(--space-lg);
-    padding-top: var(--space-md);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    margin-top: var(--space-xl);
+    padding: var(--space-md) 0;
     text-align: center;
     color: var(--text-muted);
-    font-size: 0.8rem;
+    font-size: 0.75rem;
+    font-family: var(--font-body);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Ensure the grid-auto in the footer behaves well on tiny screens */
+@media (max-width: 480px) {
+    .site-footer {
+        text-align: center;
+    }
+    .footer-title::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .social-links {
+        justify-content: center;
+    }
 }
 
 /* =========================================
