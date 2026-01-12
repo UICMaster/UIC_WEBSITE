@@ -1,32 +1,30 @@
+/* =========================================
+   TEAM TAB SWITCHER
+   ========================================= */
 function openTeam(evt, teamName) {
-    // 1. Get all elements with class="team-content" and hide them
-    var teamContents = document.getElementsByClassName("team-content");
-    for (var i = 0; i < teamContents.length; i++) {
-        teamContents[i].classList.remove("active");
+    // 1. Hide all elements with class="team-grid"
+    var teamGrids = document.getElementsByClassName("team-grid");
+    for (var i = 0; i < teamGrids.length; i++) {
+        teamGrids[i].classList.remove("active");
     }
 
-    // 2. Get all buttons with class="tab-btn" and remove the class "active"
+    // 2. Remove "active" class from all tab buttons
     var tabLinks = document.getElementsByClassName("tab-btn");
     for (var i = 0; i < tabLinks.length; i++) {
         tabLinks[i].classList.remove("active");
     }
 
-    // 3. Show the current tab, and add an "active" class to the button that opened the tab
+    // 3. Show the current team, and make the clicked button active
     document.getElementById(teamName).classList.add("active");
     evt.currentTarget.classList.add("active");
 }
 
-function toggleMenu() {
-    // Select all the elements we need to change
-    const hamburger = document.querySelector('.hamburger');
-    const overlay = document.querySelector('.mobile-menu-overlay');
-    const panel = document.querySelector('.mobile-nav-panel');
-    
-    // Toggle the 'active' class on ALL of them
-    hamburger.classList.toggle('active'); // Triggers the X animation
-    overlay.classList.toggle('active');   // Shows the dark background
-    panel.classList.toggle('active');     // Slides the menu in
-}
+// Close mobile menu when a link is clicked
+document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+        document.getElementById('nav-toggle').checked = false;
+    });
+});
 
 /* --- STATS COUNTER ANIMATION --- */
 const statsSection = document.querySelector('.stats-section');
