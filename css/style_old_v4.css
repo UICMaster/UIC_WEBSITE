@@ -223,19 +223,22 @@ html {
 }
 
 /* =========================================
-   5. NAVIGATION: THE OBSIDIAN RAIL (FIXED)
+   5. NAVIGATION ENGINE (Refined HUD)
    ========================================= */
 
-/* --- A. CHASSIS (The Bar) --- */
+/* A. The "Ghost" Controller */
+.nav-toggle-state { display: none; }
+
+/* B. The Navbar Container */
 .navbar {
     position: fixed;
     top: 0; left: 0;
     width: 100%;
     height: 90px;
     z-index: 9000;
-    background: rgba(8, 8, 10, 0.95); /* Nearly solid for better contrast */
-    backdrop-filter: blur(16px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(5, 5, 5, 0.95);
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .nav-inner {
@@ -245,167 +248,152 @@ html {
     justify-content: space-between;
 }
 
-/* --- B. LOGO MODULE --- */
-.logo-module {
+/* C. The Logo (With Floating Separator) */
+.logo {
+    position: relative;
     display: flex;
     align-items: center;
-    gap: 12px;
     text-decoration: none;
     height: 100%;
-    z-index: 9002;
+    margin-right: auto;
+    padding-right: 40px; /* Space for the line */
 }
 
-.logo-icon { height: 48px; width: auto; transition: 0.3s; }
-.logo-module:hover .logo-icon { transform: scale(1.1); filter: drop-shadow(0 0 8px var(--primary)); }
+.logo img {
+    height: 55px;
+    width: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
 
-.logo-text { display: flex; flex-direction: column; line-height: 1; }
-.brand-name { font-family: var(--font-head); font-weight: 800; font-size: 1.4rem; color: #fff; letter-spacing: 1px; }
-.brand-sub { font-size: 0.7rem; color: var(--primary); letter-spacing: 3px; font-weight: 700; }
+.logo:hover img {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 10px var(--primary));
+}
 
-/* --- C. SEPARATORS (Desktop Only) --- */
-.nav-separator {
+/* Logo Separator Line (Centered & Subtle) */
+.logo::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 40px;
     width: 1px;
-    height: 32px;
     background: rgba(255, 255, 255, 0.15);
-    margin: 0 25px;
 }
 
-/* --- D. NAVIGATION LINKS (Desktop Layout) --- */
-.nav-deck {
+/* D. Desktop Menu */
+.nav-menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-grow: 1;
+    height: 100%;
 }
 
 .nav-list {
     display: flex;
     list-style: none;
-    gap: 5px;
-    margin-left: auto;
-    margin-right: 20px;
+    align-items: center;
+    gap: 1.5rem;
+    height: 100%;
 }
 
+/* --- TEXT LINKS --- */
 .nav-link {
-    position: relative;
-    color: var(--text-muted);
+    color: var(--text-white);
     text-decoration: none;
-    font-family: var(--font-head);
-    font-weight: 600;
+    font-family: var(--font-body);
+    font-weight: 700;
     text-transform: uppercase;
-    font-size: 0.9rem;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    text-align: center;
+    
+    position: relative;
     padding: 10px 15px;
-    transition: 0.3s;
+    transition: color 0.3s ease;
 }
 
-.nav-link:hover { color: #fff; }
-
-/* Bracket Hover Effect (Desktop Only) */
-.nav-link::before, .nav-link::after {
-    content: ''; position: absolute; top: 50%;
-    width: 6px; height: 6px;
-    border: 2px solid var(--primary);
-    opacity: 0; transition: 0.3s;
-    transform: translateY(-50%);
-}
-.nav-link::before { left: 0; border-right: none; border-bottom: none; }
-.nav-link::after { right: 0; border-left: none; border-top: none; }
-
-.nav-link:hover::before { opacity: 1; transform: translateY(-50%) translateX(5px); }
-.nav-link:hover::after { opacity: 1; transform: translateY(-50%) translateX(-5px); }
-
-/* --- E. CTA BUTTON --- */
-.nav-cta { display: flex; align-items: center; }
-
-.btn-obsidian {
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 5px; left: 0;
+    width: 0%; height: 2px;
     background: var(--primary);
-    color: #000;
-    text-decoration: none;
-    font-family: var(--font-head);
-    font-weight: 800;
-    padding: 10px 24px;
-    font-size: 0.9rem;
-    letter-spacing: 1px;
-    clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
-    transition: 0.3s;
+    box-shadow: 0 0 10px var(--primary);
+    transition: width 0.3s ease;
 }
-.btn-obsidian:hover { box-shadow: 0 0 20px rgba(0, 240, 255, 0.4); transform: translateY(-2px); }
 
-.nav-burger { display: none; }
+.nav-link:hover { color: var(--primary); }
+.nav-link:hover::after { width: 100%; }
+
+/* --- THE JOIN BUTTON (Balanced Size) --- */
+.nav-list li:last-child {
+    position: relative;
+    padding-left: 40px; /* Space for separator */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Separator before Button */
+.nav-list li:last-child::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 40px;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* Button Overrides */
+.nav-list .btn-primary {
+    /* Adjusted Size: Smaller than before, but still punchy */
+    padding: 0.8rem 2.5rem; 
+    font-size: 0.95rem;     
+    letter-spacing: 2px;
+    white-space: nowrap;    /* Prevents text from wrapping */
+}
+
+/* Mobile Toggles */
+.nav-burger, .nav-close { display: none; }
 
 /* =========================================
-   MOBILE MODE (< 1100px) - FIXED
+   MOBILE ADAPTATION (< 1200px)
    ========================================= */
-@media (max-width: 1100px) {
-    
-    /* 1. ELEMENTS TO HIDE */
-    .desktop-only { display: none; }
-    .nav-link::before, .nav-link::after { display: none; } /* No brackets on mobile */
+@media (max-width: 1200px) {
+    /* Remove Desktop Separators */
+    .logo::after { display: none; }
+    .nav-list li:last-child::before { display: none; }
+    .nav-list li:last-child { padding-left: 0; margin-left: 0; }
+    .logo { padding-right: 0; }
 
-    /* 2. BURGER BUTTON (Visible) */
     .nav-burger {
         display: flex; flex-direction: column; gap: 6px;
-        cursor: pointer; padding: 10px; z-index: 9005;
-        margin-left: auto; /* Pushes it to the far right */
+        cursor: pointer; padding: 10px; z-index: 9001;
     }
     .nav-burger .line {
-        width: 32px; height: 2px; background: #fff;
-        transition: 0.3s ease-in-out;
+        width: 30px; height: 2px; background: var(--primary); transition: 0.3s;
     }
 
-    /* 3. MOBILE MENU CONTAINER (The Fix) */
-    .nav-deck {
-        position: fixed;
-        top: 90px; /* Starts exactly below the header */
-        left: 0;
-        width: 100%;
-        height: calc(100vh - 90px); /* Fills rest of screen */
-        
-        background: #050505; /* SOLID BLACK - No transparency issues */
-        border-top: 1px solid rgba(255,255,255,0.1);
-        
-        flex-direction: column; /* Stack items vertically */
-        justify-content: flex-start;
-        align-items: center;
-        padding-top: 40px;
-        gap: 30px;
-        
-        /* Animation Logic */
-        transform: translateX(100%); /* Hidden to the right */
-        transition: transform 0.4s ease;
-        overflow-y: auto;
-    }
-
-    /* 4. MOBILE LINKS */
-    .nav-list {
-        flex-direction: column;
-        width: 100%;
-        margin: 0;
-        align-items: center;
-        gap: 25px;
-    }
-
-    .nav-link {
-        font-size: 1.4rem; /* Big readable text */
-        padding: 10px;
-        display: block;
-        text-align: center;
+    .nav-menu {
+        position: fixed; top: 0; right: -100%;
+        width: 80%; max-width: 350px; height: 100vh;
+        background: var(--bg-panel);
+        border-left: 1px solid var(--primary);
+        flex-direction: column; justify-content: center;
+        transition: right 0.4s ease;
+        box-shadow: -10px 0 30px rgba(0,0,0,0.8);
     }
     
-    .nav-cta {
-        margin-bottom: 50px; /* Space at bottom */
-    }
-
-    /* 5. ACTIVE STATE (Slide In) */
-    #nav-toggle:checked ~ .navbar .nav-deck {
-        transform: translateX(0);
-    }
-
-    /* 6. BURGER ANIMATION */
-    #nav-toggle:checked ~ .navbar .nav-burger .line:nth-child(1) { transform: translateY(8px) rotate(45deg); background: var(--primary); }
-    #nav-toggle:checked ~ .navbar .nav-burger .line:nth-child(2) { opacity: 0; }
-    #nav-toggle:checked ~ .navbar .nav-burger .line:nth-child(3) { transform: translateY(-8px) rotate(-45deg); background: var(--primary); }
+    .nav-list { flex-direction: column; gap: 1.5rem; height: auto; }
+    
+    .nav-toggle-state:checked ~ .navbar .nav-menu { right: 0; }
+    .nav-toggle-state:checked ~ .navbar .nav-burger .line:nth-child(1) { transform: rotate(45deg) translate(5px, 6px); }
+    .nav-toggle-state:checked ~ .navbar .nav-burger .line:nth-child(2) { opacity: 0; }
+    .nav-toggle-state:checked ~ .navbar .nav-burger .line:nth-child(3) { transform: rotate(-45deg) translate(5px, -6px); }
 }
 
 /* =========================================
@@ -516,44 +504,30 @@ html {
 }
 
 /* =========================================
-   7. FOOTER SECTION (Obsidian Theme)
+   7. FOOTER SECTION (System Anchor)
    ========================================= */
 
 .site-footer {
-    background: #050505; /* Solid dark base to match Nav Overlay */
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    background: var(--bg-panel);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
     font-size: 0.9rem;
-    position: relative;
 }
 
-/* --- FOOTER BRANDING (Matches Nav Module) --- */
-.footer-logo-module {
+/* Footer Brand/Logo Area */
+.footer-col .logo {
     display: flex;
     align-items: center;
-    gap: 12px;
+    margin-bottom: var(--space-md);
     text-decoration: none;
-    margin-bottom: 1rem;
 }
 
-.footer-logo-icon {
-    height: 45px;
+.footer-col .logo img {
+    height: 40px; /* Slightly smaller than header logo */
     width: auto;
     filter: drop-shadow(0 0 5px rgba(0, 240, 255, 0.2));
-    transition: 0.3s;
 }
 
-.footer-logo-module:hover .footer-logo-icon {
-    transform: scale(1.1);
-    filter: drop-shadow(0 0 10px var(--primary));
-}
-
-.footer-logo-text { display: flex; flex-direction: column; line-height: 1; }
-/* Reusing Nav Font Styles */
-.footer-logo-text .brand-name { font-family: var(--font-head); font-weight: 800; font-size: 1.4rem; color: #fff; letter-spacing: 1px; }
-.footer-logo-text .brand-sub { font-size: 0.7rem; color: var(--primary); letter-spacing: 3px; font-weight: 700; }
-
-
-/* --- TITLES & TYPOGRAPHY --- */
+/* Footer Typography & Titles */
 .footer-title {
     font-family: var(--font-head);
     color: var(--text-white);
@@ -562,91 +536,53 @@ html {
     font-size: 1rem;
     text-transform: uppercase;
     position: relative;
-    padding-bottom: 12px;
+    padding-bottom: 10px;
 }
 
-/* Cyan Underline Accent */
+/* A decorative line under footer titles */
 .footer-title::after {
     content: '';
-    position: absolute; bottom: 0; left: 0;
-    width: 20px; height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 2px;
     background: var(--primary);
-    box-shadow: 0 0 8px var(--primary);
 }
 
+.footer-links {
+    list-style: none;
+}
 
-/* --- LINKS (With Bracket Animation) --- */
-.footer-links { list-style: none; padding: 0; margin: 0; }
-.footer-links li { margin-bottom: 0.6rem; }
+.footer-links li {
+    margin-bottom: 0.8rem;
+}
 
 .footer-links a {
     color: var(--text-muted);
     text-decoration: none;
     font-family: var(--font-body);
-    font-weight: 500;
     transition: all 0.3s ease;
     display: inline-block;
     position: relative;
-    padding-left: 0;
 }
 
+/* Hover effect: Glow and slight movement */
 .footer-links a:hover {
-    color: var(--text-white);
-    transform: translateX(10px); /* Slide right */
-    text-shadow: 0 0 5px rgba(255,255,255,0.5);
-}
-
-/* The Bracket [ ] Effect on Hover */
-.footer-links a::before {
-    content: '[';
-    opacity: 0;
-    margin-right: 5px;
     color: var(--primary);
-    transition: 0.3s;
-    font-weight: 700;
+    transform: translateX(8px);
+    text-shadow: 0 0 8px var(--primary);
 }
-.footer-links a:hover::before { opacity: 1; }
 
-
-/* --- CONNECT BUTTONS (Ghost Version) --- */
+/* Social Buttons Group */
 .social-links {
     display: flex;
+    gap: 12px;
     flex-wrap: wrap;
-    gap: 10px;
+    margin-top: var(--space-sm);
 }
 
-.btn-obsidian-ghost {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px 16px;
-    
-    background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    color: var(--text-muted);
-    
-    font-family: var(--font-head);
-    font-weight: 700;
-    font-size: 0.8rem;
-    letter-spacing: 1px;
-    text-decoration: none;
-    text-transform: uppercase;
-    
-    /* Tactical Clip Path */
-    clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
-    transition: 0.3s;
-}
-
-.btn-obsidian-ghost:hover {
-    border-color: var(--primary);
-    background: rgba(0, 240, 255, 0.1);
-    color: #fff;
-    box-shadow: 0 0 15px rgba(0, 240, 255, 0.2);
-    transform: translateY(-2px);
-}
-
-
-/* --- BOTTOM BAR --- */
+/* Copyright Bar at the very bottom */
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.05);
     margin-top: var(--space-xl);
@@ -657,22 +593,20 @@ html {
     font-family: var(--font-body);
     letter-spacing: 1px;
     text-transform: uppercase;
-    opacity: 0.6;
 }
 
-
-/* --- MOBILE ADAPTATIONS --- */
-@media (max-width: 768px) {
-    .site-footer { text-align: center; }
-    
-    /* Center the title underlines */
-    .footer-title::after { left: 50%; transform: translateX(-50%); }
-    
-    /* Center the branding */
-    .footer-logo-module { justify-content: center; margin-bottom: 1.5rem; }
-    
-    /* Center the social buttons */
-    .social-links { justify-content: center; margin-bottom: 1.5rem; }
+/* Ensure the grid-auto in the footer behaves well on tiny screens */
+@media (max-width: 480px) {
+    .site-footer {
+        text-align: center;
+    }
+    .footer-title::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .social-links {
+        justify-content: center;
+    }
 }
 
 /* =========================================

@@ -1,0 +1,986 @@
+/* =========================================
+   1. SYSTEM CONFIGURATION (The Digital HUD Core)
+   ========================================= */
+:root {
+    /* --- Brand Identity --- */
+    --primary: #00F0FF;   /* Cyan (HUD Active) */
+    --secondary: #B026FF; /* Purple (HUD Accent) */
+    
+    /* --- Surfaces --- */
+    --bg-dark: #050505;   /* Deep Void */
+    --bg-panel: #0a0a0a;  /* Panel Background */
+    --bg-glass: rgba(10, 10, 10, 0.7); /* Frosted Glass */
+
+    /* --- Spacing Scale (The "Rhythm") --- */
+    --space-xs: 0.5rem;  /* 8px */
+    --space-sm: 1rem;    /* 16px */
+    --space-md: 2rem;    /* 32px */
+    --space-lg: 4rem;    /* 64px */
+    --space-xl: 8rem;    /* 128px */
+    
+    /* --- Layout Constraints --- */
+    --container-width: 1400px;
+    --grid-gap: clamp(1rem, 3vw, 2rem); /* Fluid Gap */
+    
+    /* --- Typography --- */
+    --font-head: 'Orbitron', sans-serif;
+    --font-body: 'Rajdhani', sans-serif;
+}
+
+/* =========================================
+   2. RESET & GLOBAL STYLES
+   ========================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-white);
+    font-family: var(--font-body);
+    overflow-x: hidden; /* Prevent horizontal scroll from animations */
+}
+
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+img { max-width: 100%; display: block; }
+
+/* Utilities */
+.highlight { 
+    color: var(--primary); 
+    text-shadow: 0 0 10px rgba(0, 240, 255, 0.5); 
+}
+
+/* Common Buttons */
+.btn-primary {
+    display: inline-block;
+    background: linear-gradient(45deg, var(--secondary), var(--primary));
+    padding: 10px 25px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    clip-path: polygon(10% 0, 100% 0, 100% 80%, 90% 100%, 0 100%, 0 20%);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.4);
+    transform: translateY(-2px);
+}
+
+/* =========================================
+   3. THE LAYOUT ENGINE (Grid & Container)
+   ========================================= */
+
+/* The Universal Container */
+.container {
+    width: 100%;
+    max-width: var(--container-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+}
+
+/* The 12-Column Tactical Grid (Desktop) */
+.grid-12 {
+    display: grid;
+    gap: var(--grid-gap);
+    /* Mobile First: 1 column by default */
+    grid-template-columns: 1fr; 
+}
+
+/* Desktop Expansion */
+@media (min-width: 900px) {
+    .grid-12 {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    
+    /* Column Spans - "How much space does this module take?" */
+    .col-3 { grid-column: span 3; }
+    .col-4 { grid-column: span 4; }
+    .col-6 { grid-column: span 6; } /* Half Width */
+    .col-8 { grid-column: span 8; }
+    .col-12 { grid-column: span 12; } /* Full Width */
+}
+
+/* The Auto-Grid (Perfect for Rosters/Cards) */
+.grid-auto {
+    display: grid;
+    gap: var(--grid-gap);
+    /* Magically fits items based on min-width (e.g. 300px) */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+/* Standardized Section Padding */
+.section-pad {
+    padding-top: var(--space-lg);
+    padding-bottom: var(--space-lg);
+}
+
+/* =========================================
+   4. UNIFIED COMPONENT: THE HUD CARD
+   ========================================= */
+
+/* The Base "Glass" Chassis */
+.card {
+    background: var(--bg-glass);
+    border: 1px solid rgba(0, 240, 255, 0.1); /* Subtle Cyan Border */
+    backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    height: 100%; /* Ensures equal height in grids */
+}
+
+/* Modifier: Interactive (For Rosters/Links) */
+.card--interactive:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary);
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.2);
+}
+
+/* Modifier: Profile (For Players) */
+.card--profile {
+    display: flex;
+    flex-direction: column;
+}
+.card--profile .card-img {
+    width: 100%;
+    aspect-ratio: 1/1; /* Perfect Square */
+    object-fit: cover;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Modifier: HUD (For Stats/About) */
+.card--hud {
+    padding: var(--space-md);
+    border-left: 2px solid var(--primary); /* Tactical accent */
+}
+.card--hud::before {
+    /* The "Corner Bracket" Decoration */
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    width: 20px; height: 20px;
+    border-top: 2px solid var(--primary);
+    border-right: 2px solid var(--primary);
+}
+
+/* Content Helpers */
+.card-content { padding: var(--space-sm); }
+
+.card-title {
+    font-family: var(--font-head);
+    color: var(--text-white);
+    margin-bottom: var(--space-xs);
+    font-size: 1.2rem;
+}
+.card-meta {
+    font-family: var(--font-body);
+    color: var(--primary);
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* =========================================
+   4. HERO SECTION
+   ========================================= */
+.hero-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* Offset for fixed header */
+    margin-top: -80px; 
+    padding-top: 80px; 
+    overflow: hidden;
+}
+
+.hero-bg, .hero-overlay {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+}
+
+.hero-bg { z-index: var(--z-back); }
+.hero-bg img { width: 100%; height: 100%; object-fit: cover; opacity: 0.6; }
+
+.hero-overlay {
+    z-index: 0;
+    background: 
+        linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),
+        linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+}
+
+.hero-content { 
+    z-index: var(--z-content); 
+    max-width: 1000px; 
+    padding: 0 20px; 
+    display: flex;             
+    flex-direction: column; 
+    align-items: center;
+}
+
+.hero-badge {
+    display: inline-block;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    background: rgba(0, 240, 255, 0.1);
+    padding: 6px 18px;
+    font-size: 0.8rem; font-weight: bold; letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+.hero-content h1 {
+    /* Fluid Typography: Scales automatically between 2.5rem and 5rem */
+    font-size: clamp(2.5rem, 5vw + 1rem, 5.5rem); 
+    line-height: 0.95;
+    margin-bottom: 25px;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+
+/* Glitch Text Effect */
+.glitch-text { position: relative; display: inline-block; color: white; }
+.outline-text { color: transparent; -webkit-text-stroke: 1px white; opacity: 0.7; }
+
+.glitch-text::before, .glitch-text::after {
+    content: attr(data-text);
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    background: #000;
+    will-change: clip;
+}
+.glitch-text::before {
+    left: 2px; text-shadow: -1px 0 var(--primary);
+    animation: glitch-anim 5s infinite linear alternate-reverse;
+}
+.glitch-text::after {
+    left: -2px; text-shadow: -1px 0 var(--secondary);
+    animation: glitch-anim2 5s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-anim {
+    0% { clip: rect(30px, 9999px, 10px, 0); }
+    5% { clip: rect(80px, 9999px, 90px, 0); }
+    10% { clip: rect(10px, 9999px, 80px, 0); }
+    21%, 100% { clip: rect(0, 0, 0, 0); }
+}
+@keyframes glitch-anim2 {
+    0% { clip: rect(10px, 9999px, 80px, 0); }
+    5% { clip: rect(90px, 9999px, 10px, 0); }
+    10% { clip: rect(40px, 9999px, 20px, 0); }
+    21%, 100% { clip: rect(0, 0, 0, 0); }
+}
+
+.hero-sub { font-size: 1.2rem; color: #ccc; margin-bottom: 40px; font-weight: 300; letter-spacing: 1px; }
+
+.hero-buttons { display: flex; gap: 20px; justify-content: center; }
+
+/* Glass Button */
+.btn-glass {
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    clip-path: polygon(10% 0, 100% 0, 100% 80%, 90% 100%, 0 100%, 0 20%);
+    transition: 0.3s;
+}
+.btn-glass:hover { background: rgba(255, 255, 255, 0.15); border-color: white; }
+
+/* Hero Footer Decor */
+.hero-footer {
+    position: absolute; bottom: 40px; width: 100%;
+    padding: 0 50px;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 0.8rem; color: #666;
+    z-index: var(--z-content);
+}
+.scroll-indicator { display: flex; align-items: center; gap: 15px; }
+.scroll-indicator .line { width: 50px; height: 1px; background: #444; }
+
+
+/* =========================================
+   5. ROSTER SECTION
+   ========================================= */
+.teams-section { padding: 80px 50px; text-align: center; }
+
+.team-tabs {
+    margin: 40px 0;
+    display: flex; justify-content: center; gap: 15px;
+    /* Enable scroll on mobile */
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.tab-btn {
+    flex: 0 0 auto;
+    background: transparent;
+    border: 1px solid #333;
+    color: #888;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-family: var(--font-head);
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+    transition: 0.3s;
+}
+
+.tab-btn.active { background: var(--primary); color: black; border-color: var(--primary); }
+
+.team-content { display: none; animation: fadeIn 0.6s cubic-bezier(0.2, 0.8, 0.2, 1); }
+.team-content.active { display: block; }
+.team-title { margin-bottom: 30px; color: var(--secondary); font-size: 1.5rem; }
+
+@keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+
+
+.role-icon {
+    position: absolute; top: 10px; right: 10px;
+    background: rgba(0,0,0,0.8);
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    padding: 4px 8px; font-size: 0.75rem; font-weight: bold;
+    z-index: 2;
+}
+
+/* =========================================
+   5. NAVIGATION ENGINE (Zero-JS)
+   ========================================= */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: var(--z-nav);
+    background: rgba(5, 5, 5, 0.8);
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.nav-inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: var(--font-head);
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--text-white);
+    letter-spacing: 2px;
+}
+
+/* --- Desktop Menu (Default) --- */
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+.nav-link {
+    color: var(--text-white);
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.nav-link:hover {
+    color: var(--primary);
+    text-shadow: 0 0 8px var(--primary);
+}
+
+.nav-burger, .nav-close {
+    display: none; /* Hidden on desktop */
+}
+
+/* =========================================
+   MOBILE MODE (Triggered by Media Query)
+   ========================================= */
+@media (max-width: 900px) {
+    
+    /* 1. Show the Hamburger */
+    .nav-burger {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        cursor: pointer;
+        padding: 10px;
+    }
+    .nav-burger .line {
+        width: 30px;
+        height: 2px;
+        background: var(--primary);
+        transition: 0.3s;
+    }
+
+    /* 2. Hide the Menu by default (Off-screen) */
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%; /* Push off screen */
+        width: 80%;
+        max-width: 400px;
+        height: 100vh;
+        background: var(--bg-panel);
+        border-left: 1px solid var(--primary);
+        flex-direction: column;
+        justify-content: center;
+        transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: -10px 0 30px rgba(0,0,0,0.8);
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: var(--space-lg);
+    }
+
+    /* 3. The "Checkbox Hack" Logic 
+       If checkbox is CHECKED, slide the menu in */
+    .nav-toggle-state:checked ~ .navbar .nav-menu {
+        right: 0; /* Slide in */
+    }
+    
+    /* Hamburger Animation when checked */
+    .nav-toggle-state:checked ~ .navbar .nav-burger .line:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 6px);
+    }
+    .nav-toggle-state:checked ~ .navbar .nav-burger .line:nth-child(2) {
+        opacity: 0;
+    }
+    .nav-toggle-state:checked ~ .navbar .nav-burger .line:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -6px);
+    }
+    
+    /* Show Close Button inside menu */
+    .nav-close {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 2rem;
+        color: var(--text-muted);
+        cursor: pointer;
+    }
+}
+
+/* =========================================
+   6. HERO SECTION (The Command Center)
+   ========================================= */
+
+.hero-section {
+    position: relative;
+    /* Forces the section to be at least the full height of the screen */
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    padding-top: 80px; /* Offset for the Fixed Navbar */
+    overflow: hidden;
+}
+
+/* The Dark Overlay */
+.hero-overlay {
+    position: absolute;
+    inset: 0; /* Short for top:0; right:0; bottom:0; left:0 */
+    background: linear-gradient(
+        180deg, 
+        rgba(5,5,5,0.4) 0%, 
+        rgba(5,5,5,0.9) 100%
+    );
+    z-index: 1;
+}
+
+/* Ensure content sits above the overlay */
+.hero-section .container {
+    z-index: 2;
+    position: relative;
+}
+
+/* Typography & Layout */
+.hero-content {
+    max-width: 800px; /* Prevents text from stretching too wide */
+}
+
+.hero-label {
+    font-family: var(--font-body);
+    color: var(--primary);
+    letter-spacing: 4px;
+    font-size: 0.9rem;
+    margin-bottom: var(--space-sm);
+    font-weight: 700;
+}
+
+.hero-title {
+    font-family: var(--font-head);
+    font-weight: 800;
+    line-height: 1.1;
+    color: var(--text-white);
+    /* FLUID TYPOGRAPHY: Scales between 3rem and 6rem based on screen width */
+    font-size: clamp(3rem, 8vw, 6rem); 
+    margin-bottom: var(--space-md);
+}
+
+.text-stroke {
+    /* Creates the "hollow" text effect */
+    -webkit-text-stroke: 1px rgba(255,255,255,0.8);
+    color: transparent;
+}
+
+.hero-lead {
+    font-family: var(--font-body);
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    color: #cccccc;
+    margin-bottom: var(--space-lg);
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+/* Button Group */
+.hero-actions {
+    display: flex;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+}
+
+/* Scroll Indicator Animation */
+.scroll-indicator {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    animation: bounce 2s infinite;
+    opacity: 0.7;
+}
+
+.scroll-arrow {
+    width: 20px;
+    height: 20px;
+    border-right: 2px solid var(--primary);
+    border-bottom: 2px solid var(--primary);
+    transform: rotate(45deg);
+    display: block;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-10px);}
+    60% {transform: translateY(-5px);}
+}
+
+/* =========================================
+   6. STATS SECTION (Tactical Grid)
+   ========================================= */
+.stats-section {
+    position: relative;
+    padding: 140px 50px;
+    margin-top: -80px; /* Overlap effect */
+    z-index: var(--z-content);
+    background-color: #0b0b0b;
+    /* Hex Pattern */
+    background-image: 
+        radial-gradient(circle at 50% 50%, rgba(0, 240, 255, 0.03) 0%, transparent 50%),
+        linear-gradient(45deg, #111 25%, transparent 25%, transparent 75%, #111 75%, #111),
+        linear-gradient(45deg, #111 25%, transparent 25%, transparent 75%, #111 75%, #111);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    
+    /* Diagonal Slice */
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+
+/* Pseudo-borders for the diagonal cut */
+.stats-section::before, .stats-section::after {
+    content: ''; position: absolute; left: 0; width: 100%; height: 5px; z-index: 11;
+}
+.stats-section::before { top: 0; background: linear-gradient(90deg, var(--secondary), transparent); }
+.stats-section::after { bottom: 0; background: linear-gradient(90deg, transparent, var(--primary)); }
+
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative; z-index: 12;
+}
+
+.stat-card {
+    background: rgba(10, 10, 10, 0.9);
+    padding: 40px 20px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    transition: 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    position: relative;
+}
+
+.stat-card:hover {
+    border-color: var(--primary);
+    transform: translateY(-7px) scale(1.02);
+    background: rgba(20, 20, 20, 0.95);
+    box-shadow: 0 15px 35px rgba(0, 240, 255, 0.15);
+}
+
+.stat-card h3 { font-size: 3.5rem; margin-bottom: 10px; font-weight: 900; }
+.stat-card p { color: #888; letter-spacing: 2px; font-size: 0.85rem; font-weight: bold; }
+.highlight-card h3 { color: var(--primary); text-shadow: 0 0 20px rgba(0, 240, 255, 0.5); }
+
+/* Decoration Corners */
+.stat-decoration {
+    position: absolute; width: 8px; height: 8px; background: var(--secondary);
+    transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.stat-decoration.top-left { top: -1px; left: -1px; }
+.stat-decoration.bottom-right { bottom: -1px; right: -1px; background: var(--primary); }
+.stat-card:hover .stat-decoration.top-left { width: 30%; height: 2px; }
+.stat-card:hover .stat-decoration.bottom-right { width: 30%; height: 2px; }
+
+
+/* =========================================
+   7. UNIFIED BUTTONS
+   ========================================= */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2.5rem;
+    font-family: var(--font-head);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    cursor: pointer;
+    clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+}
+
+/* Primary Button (Solid Cyan) */
+.btn-primary {
+    background: var(--primary);
+    color: var(--bg-dark);
+}
+.btn-primary:hover {
+    background: var(--text-white);
+    box-shadow: 0 0 20px var(--primary);
+}
+
+/* Outline Button (Transparent with Border) */
+.btn-outline {
+    border-color: rgba(255,255,255,0.3);
+    color: var(--text-white);
+    background: transparent;
+}
+.btn-outline:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+/* =========================================
+   7. PARTNERS (Infinite Marquee)
+   ========================================= */
+.partners-section {
+    padding: 60px 0;
+    background: #000;
+    border-top: 1px solid #1a1a1a;
+    overflow: hidden;
+}
+
+.section-subtitle { text-align: center; color: #444; font-size: 0.8rem; letter-spacing: 3px; margin-bottom: 40px; text-transform: uppercase; }
+
+.marquee-wrapper {
+    width: 100%; overflow: hidden; position: relative;
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.marquee-track {
+    display: flex; gap: 60px; width: max-content;
+    animation: scroll-left 25s linear infinite;
+    will-change: transform;
+}
+
+.marquee-track img {
+    height: 40px; width: auto; opacity: 0.5; filter: grayscale(100%);
+    transition: 0.3s; cursor: pointer;
+}
+
+.marquee-track img:hover { opacity: 1; filter: grayscale(0%); transform: scale(1.1); }
+
+@keyframes scroll-left { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+
+
+/* =========================================
+   8. FOOTER STYLES
+   ========================================= */
+.footer-title {
+    font-family: var(--font-head);
+    color: var(--text-white);
+    margin-bottom: var(--space-sm);
+    letter-spacing: 1px;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: var(--primary);
+    padding-left: 5px; /* Subtle sliding effect */
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* =========================================
+   9. ABOUT US SECTION (TACTICAL SPLIT)
+   ========================================= */
+
+
+/* Text Content */
+.about-lead {
+    font-size: 1.5rem;
+    color: var(--primary);
+    font-family: var(--font-head);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.about-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-muted);
+    margin-bottom: 40px;
+}
+
+.about-stats-mini {
+    display: flex;
+    gap: 20px;
+}
+
+.mini-box {
+    border-left: 2px solid var(--secondary);
+    padding-left: 15px;
+    font-family: var(--font-head);
+    font-size: 0.9rem;
+}
+
+.mini-box span {
+    color: var(--secondary);
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+}
+
+.card-header {
+    color: var(--primary);
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+.card-body p {
+    font-family: 'Courier New', monospace; /* Tech feel */
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    color: #eee;
+}
+
+.card-body strong { color: var(--primary); }
+
+.card-footer {
+    margin-top: 30px;
+    font-size: 0.6rem;
+    color: #444;
+    text-align: right;
+}
+
+/* Scanline animation for the card */
+.scanline {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 2px;
+    background: rgba(0, 240, 255, 0.1);
+    animation: scan 4s linear infinite;
+}
+
+@keyframes scan {
+    0% { top: 0; }
+    100% { top: 100%; }
+}
+
+/* Mobile Responsive */
+@media (max-width: 900px) {
+
+    .about-stats-mini { justify-content: center; }
+}
+
+/* =========================================
+   10. ABOUT US SECTION (TACTICAL SPLIT)
+   ========================================= */
+.events-section { padding: 100px 20px; background: var(--bg-dark); }
+
+.events-list {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.event-row {
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    align-items: center;
+    background: rgba(15, 15, 15, 0.8);
+    border-left: 2px solid #333;
+    padding: 20px 30px;
+    transition: 0.3s;
+    clip-path: polygon(0 0, 98% 0, 100% 30%, 100% 100%, 2% 100%, 0 70%);
+}
+
+.event-row:hover {
+    border-left-color: var(--primary);
+    background: rgba(20, 20, 20, 1);
+    transform: translateX(5px);
+}
+
+.highlight-row {
+    border-left-color: var(--secondary);
+    background: rgba(176, 38, 255, 0.05);
+}
+
+.event-type {
+    display: block;
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    letter-spacing: 2px;
+}
+
+.event-date {
+    font-family: var(--font-head);
+    font-size: 1.4rem;
+    color: var(--text-white);
+}
+
+.event-details h4 { color: var(--primary); margin-bottom: 5px; letter-spacing: 1px; }
+.event-details p { color: #888; font-size: 0.9rem; }
+
+/* =========================================
+   11. ABOUT US SECTION (TACTICAL SPLIT)
+   ========================================= */
+.stream-terminal {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 2px; /* Small gap to show background as a line */
+    background: #222; /* Line color */
+    border: 1px solid #222;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.stream-info-panel {
+    background: #0a0a0a;
+    padding: 40px;
+}
+
+.stream-player-container {
+    background: #000;
+    aspect-ratio: 16 / 9;
+    position: relative;
+}
+
+.status-indicator {
+    color: #ff4d4d;
+    font-family: var(--font-head);
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.status-indicator .dot {
+    width: 8px; height: 8px;
+    background: #ff4d4d;
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+}
+
+.info-block { margin-bottom: 25px; }
+.info-block label {
+    display: block;
+    font-size: 0.7rem;
+    color: var(--primary);
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+
+.mini-schedule { padding-top: 10px; }
+.mini-schedule li {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 8px;
+    padding-left: 10px;
+    border-left: 1px solid #333;
+}
+
+.mini-schedule .active-day {
+    color: var(--text-white);
+    border-left-color: var(--secondary);
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+
+/* Mobile Tweak */
+@media (max-width: 900px) {
+    .stream-terminal { grid-template-columns: 1fr; }
+    .event-row { grid-template-columns: 1fr; text-align: center; gap: 15px; }
+}
