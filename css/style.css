@@ -904,73 +904,141 @@ html {
 }
 
 /* =========================================
-   11. STATS DATA GRID (The Readout)
+   11. STATS SECTION (Tactical Grid)
    ========================================= */
 
-/* Mobile Scroll Wrapper - Allows swiping on phones */
-.table-scroll {
-    overflow-x: auto;
-    padding-bottom: var(--space-sm);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    background: var(--bg-panel);
-}
-
-/* The Grid Container */
 .stats-grid {
     display: grid;
-    /* Define Columns: Rank (Small) | Team (Wide) | 4 Stat Columns (Equal) */
-    grid-template-columns: 60px 2fr repeat(4, 1fr); 
-    min-width: 600px; /* Forces scroll on small screens */
-    font-family: var(--font-body);
+    /* Two-column layout using the site's standard gap */
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--grid-gap);
+    width: 100%;
 }
 
-/* Header Row styling */
-.stats-header {
-    display: contents; /* Removes the wrapper div from the grid flow */
+.stats-node {
+    background: var(--bg-glass);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    padding: 2rem;
+    position: relative;
+    transition: all 0.3s ease;
+    /* Corner cut consistent with the HUD design language */
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
 }
 
-.stats-header div {
-    background: rgba(0, 240, 255, 0.1); /* Low opacity Cyan */
-    color: var(--primary);
-    font-weight: 700;
-    padding: 1rem;
-    text-align: center;
-    letter-spacing: 1px;
-    border-bottom: 2px solid var(--primary);
+.stats-node:hover {
+    border-color: var(--primary);
+    background: rgba(0, 240, 255, 0.03);
+    transform: translateY(-5px);
 }
 
-/* Data Rows styling */
-.stats-row {
-    display: contents;
-    transition: background 0.2s;
+.node-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 1rem;
 }
 
-.stats-row div {
-    padding: 1rem;
-    border-bottom: 1px solid rgba(255,255,255,0.05);
+.node-title {
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 12px;
+}
+
+.node-title h3 {
+    font-family: var(--font-head);
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin: 0;
+    color: var(--text-white);
+}
+
+.node-meta {
+    font-size: 0.65rem;
+    color: var(--primary);
+    opacity: 0.6;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+
+.node-rank {
+    text-align: right;
+}
+
+.rank-label {
+    display: block;
+    font-family: var(--font-head);
+    font-size: 0.6rem;
     color: var(--text-muted);
+    letter-spacing: 1px;
 }
 
-/* Left-align the team name specifically */
-.stats-row .cell-team {
-    justify-content: flex-start;
+.rank-value {
+    font-family: var(--font-head);
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: var(--primary);
+    line-height: 1;
+}
+
+/* 4-column breakdown within the card */
+.node-data-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.data-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.data-label {
+    font-family: var(--font-head);
+    font-size: 0.65rem;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.data-value {
+    font-family: var(--font-head);
+    font-size: 1.3rem;
     color: var(--text-white);
-    font-weight: 600;
 }
 
-/* Row Hover Effect */
-.stats-row:hover div {
-    background: rgba(255,255,255,0.05);
-    color: var(--text-white);
+.node-progress {
+    margin-top: 2rem;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.05);
+    width: 100%;
 }
 
-/* Highlight the Top 3 Ranks */
-.rank-top {
-    color: var(--primary) !important;
-    font-weight: 700;
+.progress-bar {
+    height: 100%;
+    background: var(--primary);
+    box-shadow: 0 0 15px var(--primary);
+}
+
+.status-pulse {
+    width: 4px;
+    height: 16px;
+    background: var(--primary);
+    animation: tech-pulse 2s infinite ease-in-out;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 1100px) {
+    .stats-grid {
+        grid-template-columns: 1fr; /* Switch to single column for tablets */
+    }
+}
+
+@media (max-width: 600px) {
+    .node-data-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2x2 grid on mobile */
+    }
 }
 
 /* =========================================
@@ -1326,14 +1394,253 @@ html {
 .hidden { display: none; }
 
 /* --- MOBILE LAYOUT --- */
+/* Ensure the icon is centered and visible only when needed */
+.mobile-music-icon { 
+    display: none; 
+    align-items: center;
+    justify-content: center;
+}
+
 @media (max-width: 768px) {
+    /* --- SHARED TRANSITION CONFIG --- */
     .command-deck {
-        right: 0; left: 0; bottom: 0;
-        width: 100%; /* Full Width */
-        border: none;
-        border-top: 2px solid var(--primary);
+        transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        border-radius: 30px; /* Start as rounded */
     }
-    
-    .command-deck.collapsed { height: 80px; } /* Taller touch target */
-    .command-deck:not(.collapsed) { height: 350px; }
+
+    /* --- STATE 1: COLLAPSED (The Circle FAB) --- */
+    .command-deck.collapsed {
+        bottom: 20px;
+        right: 20px;
+        left: calc(100% - 80px); /* Forces calculation for smooth sliding */
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 2px solid var(--primary);
+        background: rgba(5, 5, 5, 0.98);
+        box-shadow: 0 0 20px rgba(0, 240, 255, 0.4);
+    }
+
+    /* Center the icon in the circle */
+    .command-deck.collapsed .deck-status-bar {
+        width: 60px;
+        height: 60px;
+        padding: 0;
+        justify-content: center;
+        background: transparent;
+    }
+
+    /* Robust Hiding for Circle State */
+    .command-deck.collapsed .status-info,
+    .command-deck.collapsed .live-visualizer,
+    .command-deck.collapsed .btn-deck-toggle {
+        display: none !important;
+    }
+
+    /* Show and Animate the Music Icon */
+    .command-deck.collapsed .mobile-music-icon {
+        display: flex;
+        color: var(--primary);
+        animation: glowPulse 2s infinite ease-in-out;
+    }
+
+    /* --- STATE 2: EXPANDED (Full Bottom Bar) --- */
+    .command-deck:not(.collapsed) {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 380px; /* Taller for mobile thumbs */
+        border-radius: 0;
+        border-top: 2px solid var(--primary);
+        background: rgba(5, 5, 5, 0.95);
+    }
+
+    .command-deck:not(.collapsed) .mobile-music-icon {
+        display: none;
+    }
+
+    .command-deck:not(.collapsed) .deck-status-bar {
+        width: 100%;
+        height: 70px;
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+
+    .command-deck:not(.collapsed) .status-info,
+    .command-deck:not(.collapsed) .live-visualizer,
+    .command-deck:not(.collapsed) .btn-deck-toggle {
+        display: flex !important;
+    }
+
+    /* Touch Optimization for Buttons */
+    .cmd-btn.btn-main {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/* Specific FAB Animation */
+@keyframes glowPulse {
+    0% { filter: drop-shadow(0 0 2px var(--primary)); transform: scale(1); }
+    50% { filter: drop-shadow(0 0 10px var(--primary)); transform: scale(1.1); }
+    100% { filter: drop-shadow(0 0 2px var(--primary)); transform: scale(1); }
+}
+
+/* =========================================
+   17. Brand-Kit & Media Vault
+   ========================================= */
+
+/* --- Card Base --- */
+#media-vault .card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 340px;
+}
+
+/* --- Media Preview Area --- */
+.media-preview {
+    height: 160px;
+    background: rgba(0, 0, 0, 0.4);
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 240, 255, 0.1);
+    position: relative;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 20px 100%, 0 calc(100% - 20px));
+}
+
+.preview-icon {
+    width: 50px;
+    height: 50px;
+    color: var(--primary);
+    opacity: 0.3;
+    transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card--hud:hover .preview-icon {
+    opacity: 1;
+    transform: translateY(-5px) scale(1.1);
+    filter: drop-shadow(0 0 10px var(--primary));
+}
+
+/* --- Scanline Animation --- */
+.media-card-scanline {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--primary), transparent);
+    position: absolute;
+    top: -10%;
+    left: 0;
+    opacity: 0.2;
+    animation: mediaScan 4s infinite linear;
+}
+
+@keyframes mediaScan {
+    0% { top: -10%; }
+    100% { top: 110%; }
+}
+
+/* --- Download Button --- */
+.btn-media-download {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 240, 255, 0.05);
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    font-family: var(--font-head);
+    font-size: 0.7rem;
+    padding: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+}
+
+.btn-media-download:hover {
+    background: var(--primary);
+    color: var(--bg-dark);
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.4);
+    transform: translateY(-2px);
+}
+
+/* --- Brand Specs Row --- */
+.brand-specs-row {
+    margin-top: var(--space-lg);
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    gap: var(--space-md);
+    background: var(--bg-glass);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    padding: var(--space-md);
+}
+
+.spec-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 240, 255, 0.1);
+    padding-bottom: 8px;
+}
+
+.spec-label {
+    font-family: var(--font-head);
+    font-size: 0.65rem;
+    color: var(--primary);
+    letter-spacing: 2px;
+}
+
+.spec-value {
+    font-family: var(--font-head);
+    font-size: 0.55rem;
+    color: var(--text-muted);
+}
+
+.color-specs, .font-specs { display: flex; gap: 30px; }
+.color-item { display: flex; align-items: center; gap: 15px; }
+
+.color-swatch {
+    width: 32px;
+    height: 32px;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 70% 100%, 0 100%);
+}
+
+.color-name { font-family: var(--font-head); font-size: 0.7rem; color: var(--text-white); }
+.color-hex { font-family: var(--font-head); font-size: 0.6rem; color: var(--primary); opacity: 0.8; }
+
+.font-preview { font-size: 1.4rem; color: var(--text-white); letter-spacing: 2px; line-height: 1; }
+.font-usage { font-family: var(--font-head); font-size: 0.55rem; color: var(--primary); margin-top: 5px; }
+
+.spec-divider {
+    background: linear-gradient(to bottom, transparent, var(--primary), transparent);
+    width: 1px;
+    height: 80%;
+    opacity: 0.2;
+    align-self: center;
+}
+
+/* --- Responsive Layout --- */
+@media (max-width: 991px) {
+    .brand-specs-row { grid-template-columns: 1fr; }
+    .spec-divider { display: none; }
+    .color-specs, .font-specs { flex-direction: column; gap: 20px; }
+}
+
+.pulse-dot {
+    width: 6px; height: 6px; background: var(--primary);
+    border-radius: 50%; display: inline-block; margin-left: 8px;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 1; box-shadow: 0 0 0 0 rgba(0, 240, 255, 0.7); }
+    70% { transform: scale(1.2); opacity: 0; box-shadow: 0 0 0 10px rgba(0, 240, 255, 0); }
+    100% { transform: scale(1); opacity: 0; }
 }
