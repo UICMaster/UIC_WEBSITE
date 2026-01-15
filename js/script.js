@@ -1,23 +1,40 @@
 /* =========================================
-   TEAM TAB SWITCHER
+   TEAM TAB SYSTEM
    ========================================= */
 function openTeam(evt, teamName) {
     // 1. Hide all elements with class="team-grid"
-    var teamGrids = document.getElementsByClassName("team-grid");
-    for (var i = 0; i < teamGrids.length; i++) {
+    const teamGrids = document.getElementsByClassName("team-grid");
+    for (let i = 0; i < teamGrids.length; i++) {
         teamGrids[i].classList.remove("active");
     }
 
     // 2. Remove "active" class from all tab buttons
-    var tabLinks = document.getElementsByClassName("tab-btn");
-    for (var i = 0; i < tabLinks.length; i++) {
+    const tabLinks = document.getElementsByClassName("tab-btn");
+    for (let i = 0; i < tabLinks.length; i++) {
         tabLinks[i].classList.remove("active");
     }
 
     // 3. Show the current team, and make the clicked button active
-    document.getElementById(teamName).classList.add("active");
+    const selectedTeam = document.getElementById(teamName);
+    if (selectedTeam) {
+        selectedTeam.classList.add("active");
+    }
+    
+    // Add active class to the button that was clicked
     evt.currentTarget.classList.add("active");
 }
+
+// Initializer: Ensure the first team is visible on load
+document.addEventListener("DOMContentLoaded", () => {
+    // We target the button marked 'active' in your HTML
+    const activeBtn = document.querySelector(".tab-btn.active");
+    if (activeBtn) {
+        // Extract 'Prime' from the onclick="openTeam(event, 'Prime')"
+        const teamId = activeBtn.getAttribute('onclick').split("'")[3]; 
+        const defaultGrid = document.getElementById(teamId);
+        if (defaultGrid) defaultGrid.classList.add("active");
+    }
+});
 
 // Close mobile menu when a link is clicked
 document.querySelectorAll('.nav-link').forEach(link => {
