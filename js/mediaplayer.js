@@ -63,16 +63,16 @@ document.addEventListener('DOMContentLoaded', () => {
         audioEngine.muted = locked;
 
         if (locked) {
-            statusText.innerText = "SYSTEM MUTED";
+            statusText.innerText = "AUDIO STUMM";
             statusText.classList.add('blink-warning');
             statusText.style.color = ""; // Reset color
-            btnMute.innerText = "UNLOCK AUDIO SYSTEM";
+            btnMute.innerText = "VERSTUMMUNG AUFHEBEN";
             btnMute.classList.remove('unlocked');
         } else {
-            statusText.innerText = "AUDIO ONLINE";
+            statusText.innerText = "AUDIO LÄUFT";
             statusText.classList.remove('blink-warning');
             statusText.style.color = "var(--primary)";
-            btnMute.innerText = "MUTE AUDIO";
+            btnMute.innerText = "AUDIO STUMMEN";
             btnMute.classList.add('unlocked');
         }
     }
