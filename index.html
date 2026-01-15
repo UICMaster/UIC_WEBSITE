@@ -26,10 +26,14 @@
     ================================================== -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- typo
+    <!-- Fonts
     ================================================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Scripts
+    ================================================== -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- favicons
     ================================================== -->
@@ -85,6 +89,7 @@
                     <li><a href="#events" class="nav-link">Events</a></li>
                     <li><a href="#stream" class="nav-link">Stream</a></li>
                     <li><a href="#partners" class="nav-link">Partner</a></li>
+                    <li><a href="#media-vault" class="nav-link">Marke</a></li>
                 </ul>
 
                 <div class="nav-cta">
@@ -572,94 +577,83 @@
         <div class="container">
             
             <div class="section-header">
-                <span class="section-subtitle"># BEYOND INSTINCT </span>
-                <h2 class="section-title">Aktuelle <span class="text-highlight">Statistiken</span></h2>
-                <p class="lead-text" style="max-width: 600px;">
-                    Aktuelle Statistiken zur laufenden Prime League Season.
-                </p>
+                <span class="section-subtitle"># INNER INSTINCT</span>
+                <h2 class="section-title">TEAM <span class="text-highlight">STATISTIKEN</span></h2>
             </div>
 
-            <div class="table-scroll">
-                <div class="stats-grid">
-                    
-                    <div class="stats-header">
-                        <div>Div</div>
-                        <div style="text-align: left;">Team</div>
-                        <div>Spiele</div> <div>Siege</div>  <div>Niederlagen</div>  <div>Punkte</div> </div>
-
-                    <div class="stats-row">
-                        <div class="rank-top">01</div>
-                        <div class="cell-team">
-                            UIC PRIME
+            <div class="stats-grid">
+                
+                <div class="stats-node card--hud" data-team-id="prime">
+                    <div class="node-header">
+                        <div class="node-title">
+                            <span class="status-pulse"></span>
+                            <h3>UIC PRIME <span class="node-meta">// DIV_3.4</span></h3>
                         </div>
-                        <div>12</div>
-                        <div>10</div>
-                        <div>2</div>
-                        <div class="rank-top">30</div>
+                        <div class="node-rank">
+                            <span class="rank-label">RANG</span>
+                            <span class="rank-value">01</span>
+                        </div>
                     </div>
 
-                    <div class="stats-row">
-                        <div class="rank-top">02</div>
-                        <div class="cell-team">UIC SPARK</div>
-                        <div>12</div>
-                        <div>9</div>
-                        <div>3</div>
-                        <div class="rank-top">27</div>
+                    <div class="node-data-grid">
+                        <div class="data-item">
+                            <span class="data-label">SPIELE</span>
+                            <span class="data-value">12</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label text-primary">SIEGE</span>
+                            <span class="data-value">10</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label text-secondary">NIEDERLAGE</span>
+                            <span class="data-value">02</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">PUNKTE</span>
+                            <span class="data-value text-highlight">30</span>
+                        </div>
+                    </div>
+                    
+                    <div class="node-progress">
+                        <div class="progress-bar" style="width: 83%;"></div>
+                    </div>
+                </div> <div class="stats-node card--hud" data-team-id="spark">
+                    <div class="node-header">
+                        <div class="node-title">
+                            <span class="status-pulse"></span>
+                            <h3>UIC SPARK <span class="node-meta">// DIV_4.12</span></h3>
+                        </div>
+                        <div class="node-rank">
+                            <span class="rank-label">RANG</span>
+                            <span class="rank-value">03</span>
+                        </div>
                     </div>
 
-                    <div class="stats-row">
-                        <div class="rank-top">03</div>
-                        <div class="cell-team">UIC EMBER</div>
-                        <div>12</div>
-                        <div>8</div>
-                        <div>4</div>
-                        <div class="rank-top">24</div>
+                    <div class="node-data-grid">
+                        <div class="data-item">
+                            <span class="data-label">SPIELE</span>
+                            <span class="data-value">12</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label text-primary">SIEGE</span>
+                            <span class="data-value">08</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label text-secondary">NIEDERLAGE</span>
+                            <span class="data-value">04</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">PUNKTE</span>
+                            <span class="data-value text-highlight">24</span>
+                        </div>
                     </div>
-
-                    <div class="stats-row">
-                        <div>04</div>
-                        <div class="cell-team">UIC NOVA</div>
-                        <div>12</div>
-                        <div>6</div>
-                        <div>6</div>
-                        <div>18</div>
+                    
+                    <div class="node-progress">
+                        <div class="progress-bar" style="width: 66%;"></div>
                     </div>
-
-                    <div class="stats-row">
-                        <div>05</div>
-                        <div class="cell-team">UIC ABYSS</div>
-                        <div>12</div>
-                        <div>4</div>
-                        <div>8</div>
-                        <div>12</div>
-                    </div>
-
-                    <div class="stats-row">
-                        <div>05</div>
-                        <div class="cell-team">UIC NIGHT</div>
-                        <div>12</div>
-                        <div>4</div>
-                        <div>8</div>
-                        <div>12</div>
-                    </div>
-
-                    <div class="stats-row">
-                        <div>05</div>
-                        <div class="cell-team">UIC FREEZER</div>
-                        <div>12</div>
-                        <div>4</div>
-                        <div>8</div>
-                        <div>12</div>
-                    </div>
-
-                </div>
-            </div>
-            
-            <div style="margin-top: var(--space-md); text-align: center;">
-                <a href="" class="btn btn-outline">[Work in Progress]</a>
-            </div>
-
-        </div>
+                </div> 
+            </div> 
+        </div> 
     </section>
 
     <section id="events" class="section-pad">
@@ -760,6 +754,119 @@
         </div>
     </section>
 
+    <section id="media-vault" class="section-pad">
+        <div class="container">
+            
+            <div class="section-header">
+                <span class="section-subtitle"># BE THE INSTINCT <span class="pulse-dot"></span></span>
+                <h2 class="section-title">MARKEN <span class="text-highlight">VERZEICHNIS</span></h2>
+                <p class="lead-text">Offizielle Ultra Instinct Crew Medien für Streamer, Partner und Creator.</p>
+            </div>
+
+            <div class="grid-auto">
+                <div class="card card--interactive card--hud card--scan">
+                    <div class="hud-header">
+                        <span class="card-meta">ID: STRM_HUD_V1</span>
+                        <h3 class="card-title">LOL_OVERLAY_SET</h3>
+                    </div>
+                    <div class="media-preview">
+                        <div class="media-card-scanline"></div>
+                        <svg class="preview-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="2" y="3" width="20" height="14" rx="2" stroke-dasharray="2 2"/>
+                            <path d="M7 17v4M17 17v4M10 21h4"/>
+                            <rect x="15" y="6" width="4" height="4" fill="rgba(0,240,255,0.1)"/>
+                        </svg>
+                    </div>
+                    <div class="hud-footer">
+                        <a href="#" class="btn-media-download">INITIALIZE_DL</a>
+                    </div>
+                </div>
+
+                <div class="card card--interactive card--hud card--scan">
+                    <div class="hud-header">
+                        <span class="card-meta">TYPE: VECTOR_H</span>
+                        <h3 class="card-title">LOGO_HORIZONTAL</h3>
+                    </div>
+                    <div class="media-preview">
+                        <div class="media-card-scanline"></div>
+                        <svg class="preview-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="8" width="18" height="8"/>
+                            <circle cx="7" cy="12" r="2" fill="var(--primary)"/>
+                            <line x1="11" y1="11" x2="19" y2="11" />
+                            <line x1="11" y1="13" x2="16" y2="13" />
+                        </svg>
+                    </div>
+                    <div class="hud-footer">
+                        <a href="#" class="btn-media-download">INITIALIZE_DL</a>
+                    </div>
+                </div>
+
+                <div class="card card--interactive card--hud card--scan">
+                    <div class="hud-header">
+                        <span class="card-meta">TYPE: VECTOR_S</span>
+                        <h3 class="card-title">LOGO_STACKED</h3>
+                    </div>
+                    <div class="media-preview">
+                        <div class="media-card-scanline"></div>
+                        <svg class="preview-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="7" y="3" width="10" height="18"/>
+                            <circle cx="12" cy="8" r="3" fill="var(--primary)"/>
+                            <line x1="10" y1="14" x2="14" y2="14" />
+                        </svg>
+                    </div>
+                    <div class="hud-footer">
+                        <a href="#" class="btn-media-download">INITIALIZE_DL</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="brand-specs-row card--hud">
+                <div class="spec-group">
+                    <div class="spec-header">
+                        <span class="spec-label">BRAND_PALETTE</span>
+                        <span class="spec-value">HEX_CODE_READOUT</span>
+                    </div>
+                    <div class="color-specs">
+                        <div class="color-item">
+                            <div class="color-swatch" style="background: var(--primary); box-shadow: 0 0 15px var(--primary);"></div>
+                            <div class="color-meta">
+                                <span class="color-name">CYAN_ACTIVE</span>
+                                <span class="color-hex">#00F0FF</span>
+                            </div>
+                        </div>
+                        <div class="color-item">
+                            <div class="color-swatch" style="background: var(--secondary); box-shadow: 0 0 15px var(--secondary);"></div>
+                            <div class="color-meta">
+                                <span class="color-name">PURPLE_ACCENT</span>
+                                <span class="color-hex">#B026FF</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spec-divider"></div>
+
+                <div class="spec-group">
+                    <div class="spec-header">
+                        <span class="spec-label">TYPOGRAPHY_SYSTEM</span>
+                        <span class="spec-value">ENGINE: VARIABLE_V2</span>
+                    </div>
+                    <div class="font-specs">
+                        <div class="font-item">
+                            <span class="font-preview" style="font-family: var(--font-head);">ORBITRON</span>
+                            <span class="font-usage">UI_&_HEADINGS</span>
+                        </div>
+                        <div class="font-item">
+                            <span class="font-preview" style="font-family: var(--font-body);">RAJDHANI</span>
+                            <span class="font-usage">DATA_&_READOUTS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
     <section id="join" class="section-pad">
         <div class="container">
             <div class="cta-box">
@@ -809,6 +916,7 @@
                         <li><a href="#events">Veranstaltungen</a></li>
                         <li><a href="#stream">Stream</a></li>
                         <li><a href="#partners">Partner</a></li>
+                        <li><a href="#media-vault">Marke</a></li>
                     </ul>
                 </div>
 
@@ -841,9 +949,14 @@
         
         <div id="deck-trigger" class="deck-status-bar">
             <div class="status-left">
+                <div class="mobile-music-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+                </div>
+                
                 <div class="live-visualizer">
                     <span class="vis-bar"></span><span class="vis-bar"></span><span class="vis-bar"></span><span class="vis-bar"></span>
                 </div>
+
                 <div class="status-info">
                     <span id="deck-status-text" class="status-label blink-warning">AUDIO STUMM</span>
                     <span id="deck-track-mini" class="track-label">INITIALISIEREN...</span>
