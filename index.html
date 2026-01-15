@@ -60,9 +60,15 @@
     <nav class="navbar">
         <div class="container nav-inner">
             
-            <a href="#hero" class="logo">
-                <img src="assets/logo/logo.svg" alt="UIC Logo">
+            <a href="#hero" class="logo-module">
+                <img src="assets/logo/logo.svg" alt="UIC" class="logo-icon">
+                <div class="logo-text">
+                    <span class="brand-name">UIC</span>
+                    <span class="brand-sub">GER</span>
+                </div>
             </a>
+
+            <div class="nav-separator desktop-only"></div>
 
             <label for="nav-toggle" class="nav-burger">
                 <span class="line"></span>
@@ -70,21 +76,23 @@
                 <span class="line"></span>
             </label>
 
-            <div class="nav-menu">
-                <label for="nav-toggle" class="nav-close">&times;</label>
-                
+            <div class="nav-deck">
                 <ul class="nav-list">
-                    <li><a href="#hero" class="nav-link">Home</a></li>
-                    <li><a href="#about" class="nav-link">Mission</a></li>
+                    <li><a href="#hero" class="nav-link">Start</a></li>
+                    <li><a href="#about" class="nav-link">Projekt</a></li>
                     <li><a href="#teams" class="nav-link">Teams</a></li>
-                    <li><a href="#stats" class="nav-link">Stats</a></li>
-                    <li><a href="#events" class="nav-link">Events</a></li>
+                    <li><a href="#stats" class="nav-link">Statistiken</a></li>
+                    <li><a href="#events" class="nav-link">Veranstaltungen</a></li>
                     <li><a href="#stream" class="nav-link">Stream</a></li>
-                    <li><a href="#partners" class="nav-link">Partners</a></li>
-                    
-                    <li><a href="#join" class="btn btn-primary" style="margin-left: 1rem; padding: 0.5rem 1.5rem; font-size: 0.8rem;">Join</a></li>
+                    <li><a href="#partners" class="nav-link">Partner</a></li>
                 </ul>
+
+                <div class="nav-cta">
+                    <div class="nav-separator desktop-only"></div>
+                    <a href="#join" class="btn-obsidian">BEWIRB DICH</a>
+                </div>
             </div>
+            
         </div>
     </nav>
 
@@ -533,28 +541,34 @@
     </section>
 
 
-    <footer class="site-footer section-pad" style="background: var(--bg-panel); border-top: 1px solid rgba(255,255,255,0.05);">
+    <footer class="site-footer section-pad">
         <div class="container">
             
             <div class="grid-auto" style="--grid-gap: var(--space-lg);">
                 
                 <div class="footer-col">
-                    <a href="#hero" class="logo" style="margin-bottom: 1.5rem; display: block;">
-                        <img src="assets/logo/logo.svg" alt="UIC Logo" style="height: 40px; width: auto;">
+                    <a href="#hero" class="footer-logo-module">
+                        <img src="assets/logo/logo.svg" alt="UIC Logo" class="footer-logo-icon">
+                        <div class="footer-logo-text">
+                            <span class="brand-name">UIC</span>
+                            <span class="brand-sub">GER</span>
+                        </div>
                     </a>
-                    <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.9rem;">
-                        Forging the next generation of Esports athletes. <br>
-                        #InstinctTakesOver
+                    <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.9rem; margin-top: 1rem;">
+                        Forging the next generation of Esports athletes.<br>
+                        <span style="color: var(--primary);">#InstinctTakesOver</span>
                     </p>
                 </div>
 
                 <div class="footer-col">
                     <h4 class="footer-title">EXPLORE</h4>
                     <ul class="footer-links">
-                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#hero">Start</a></li>
                         <li><a href="#teams">Teams</a></li>
-                        <li><a href="#stats">Stats</a></li>
-                        <li><a href="#events">Events</a></li> <li><a href="#stream">Stream</a></li> <li><a href="#partners">Partners</a></li>
+                        <li><a href="#stats">Statistiken</a></li>
+                        <li><a href="#events">Veranstaltungen</a></li>
+                        <li><a href="#stream">Stream</a></li>
+                        <li><a href="#partners">Partner</a></li>
                     </ul>
                 </div>
 
@@ -570,14 +584,14 @@
                 <div class="footer-col">
                     <h4 class="footer-title">CONNECT</h4>
                     <div class="social-links">
-                        <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Discord</a>
-                        <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Twitter</a>
+                        <a href="#" class="btn-obsidian-ghost">DISCORD</a>
+                        <a href="#" class="btn-obsidian-ghost">TWITTER</a>
                     </div>
                 </div>
 
             </div>
 
-            <div style="border-top: 1px solid rgba(255,255,255,0.05); margin-top: var(--space-lg); padding-top: var(--space-md); text-align: center; color: var(--text-muted); font-size: 0.8rem;">
+            <div class="footer-bottom">
                 <p>&copy; 2024 Ultra Instinct Crew. All Systems Operational.</p>
             </div>
         </div>
