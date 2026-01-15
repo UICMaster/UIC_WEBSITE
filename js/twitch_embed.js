@@ -5,5 +5,5 @@
         layout: "video", // use "video-with-chat" if you want the chat included
         autoplay: true,
         muted: true, // Auto-play often requires starting muted
-        parent: ["https://ultrainstinctcrew.com/"] 
+        parent: ["ultrainstinctcrew.com"] 
     });
