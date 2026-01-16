@@ -98,4 +98,38 @@ async function start() {
     fs.writeFileSync('data.json', JSON.stringify(finalData, null, 2));
 }
 
-start();
+async function start() {
+    let finalData = {};
+    console.log("Starting fetch process...");
+
+    for (const [teamName, players] of Object.entries(teams)) {
+        console.log(`Processing team: ${teamName}`);
+        for (let i = 0; i < players.length; i++) {
+            console.log(`Fetching player: ${players[i].name}#${players[i].tag}`);
+            
+            const stats = await getPlayerData(players[i]);
+            
+            if (stats) {
+                const key = `${teamName}_${roles[i]}`;
+                finalData[key] = stats;
+                console.log(`Successfully fetched stats for ${key}`);
+            } else {
+                console.warn(`Failed to get data for ${players[i].name}`);
+            }
+            
+            // Rate limit safety
+            await sleep(1200);
+        }
+    }
+
+    const dataString = JSON.stringify(finalData, null, 2);
+    console.log("Final Data Object:", dataString); // This will show the result in logs
+
+    if (Object.keys(finalData).length === 0) {
+        console.error("CRITICAL: finalData is empty! Check API Key and Riot IDs.");
+    }
+
+    fs.writeFileSync('data.json', dataString);
+    console.log("File data.json written to disk.");
+}
+
