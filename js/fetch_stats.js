@@ -55,27 +55,19 @@ async function getPlayerData(player) {
         const name = encodeURIComponent(player.gameName);
         const tag = encodeURIComponent(player.tagLine);
         
-        // 1. Account-V1 (Always 'europe' for EUW)
+        // 1. Account-V1
         const accRes = await fetch(`https://europe.api.riotgames.com/riot/account/v1/accounts/by-riot-id/${name}/${tag}?api_key=${API_KEY}`);
         const accData = await accRes.json();
-        
-        if (!accData.puuid) {
-            console.error(`❌ Account Not Found: ${player.gameName}#${player.tagLine}`);
-            return null;
-        }
+        if (!accData.puuid) return null;
 
-        const puuid = accData.puuid;
-        // 2. Summoner-V4 (Querying EUW1 using the PUUID)
-        const summRes = await fetch(`https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-puuid/${puuid}?api_key=${API_KEY}`);
+        // 2. Summoner-V4
+        const summRes = await fetch(`https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-puuid/${accData.puuid}?api_key=${API_KEY}`);
         const summData = await summRes.json();
         
-        if (!summData.id) {
-            // LOG THE FULL RESPONSE TO SEE WHY IT'S NOT FOUND
-            console.error(`❌ Summoner lookup failed for ${player.gameName}. PUUID: ${puuid.substring(0, 10)}... Response:`, JSON.stringify(summData));
-            return null;
-        }
+        // Use summData.id (the encrypted Summoner ID) for the League query
+        if (!summData.id) return null;
 
-        // 3. League-V4 (Querying EUW1 for Rank)
+        // 3. League-V4
         const leagueRes = await fetch(`https://euw1.api.riotgames.com/lol/league/v4/entries/by-summoner/${summData.id}?api_key=${API_KEY}`);
         const leagueData = await leagueRes.json();
 
@@ -88,39 +80,36 @@ async function getPlayerData(player) {
         return {
             name: player.gameName,
             level: summData.summonerLevel,
-            rank: `${soloQ.tier} ${soloQ.rank}`.trim(),
+            rank: soloQ.tier === 'UNRANKED' ? 'UNRANKED' : `${soloQ.tier} ${soloQ.rank}`,
             wl: `${soloQ.wins}/${soloQ.losses}`,
             icon: `https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/${summData.profileIconId}.png`
         };
     } catch (e) {
-        console.error(`⚠️ Network Error for ${player.gameName}:`, e.message);
         return null;
     }
 }
 
 async function start() {
     let finalData = {};
-    console.log("Starting fetch process...");
+    console.log("🚀 Starting Production Fetch...");
 
     for (const [teamName, players] of Object.entries(teams)) {
-        console.log(`--- Processing team: ${teamName} ---`);
+        console.log(`Processing ${teamName}...`);
         for (let i = 0; i < players.length; i++) {
             const stats = await getPlayerData(players[i]);
             if (stats) {
                 const key = `${teamName}_${roles[i]}`;
                 finalData[key] = stats;
-                console.log(`✅ Success: ${key}`);
+                console.log(`✅ ${key} updated.`);
+            } else {
+                console.log(`❌ ${players[i].gameName} failed.`);
             }
-            // Increase sleep to be extremely safe during debugging
-            await sleep(1500); 
+            await sleep(1200); 
         }
     }
 
     fs.writeFileSync('data.json', JSON.stringify(finalData, null, 2));
-    console.log("Finished. data.json updated.");
+    console.log("🎉 All teams processed. data.json is ready.");
 }
 
 start();
-
-start();
-
