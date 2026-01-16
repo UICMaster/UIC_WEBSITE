@@ -8,35 +8,35 @@ const teams = {
         { gameName: 'UIC Shenycrane', tagLine: 'Vugel' },
         { gameName: 'UIC Giani', tagLine: '999' },
         { gameName: 'UIC Baguetto', tagLine: 'R3kt' }
-    ], // Added comma
+    ],
     "spark": [
         { gameName: 'skanpy', tagLine: '3005' },
         { gameName: 'UIC Lenno', tagLine: 'UIC' },
         { gameName: 'UIC Rhinoshield', tagLine: 'RIN' },
         { gameName: 'UIC Flare', tagLine: 'JND' },
         { gameName: 'UIC Dragonfly', tagLine: '1299' }
-    ], // Added comma
+    ],
     "ember": [
         { gameName: 'SilasX', tagLine: 'EUWde' },
         { gameName: 'UIC Shederen', tagLine: 'Ger' },
         { gameName: 'ResetHoe', tagLine: 'Kata' },
         { gameName: 'UIC DontMethWith', tagLine: 'AMB' },
         { gameName: 'UIC Envy', tagLine: 'UIC' }
-    ], // Added comma
+    ],
     "nova": [
         { gameName: 'UIC adedier', tagLine: 'EUWE' },
         { gameName: 'UIC Rubix Qube', tagLine: 'MÖP' },
         { gameName: 'Apathy', tagLine: 'Azir' },
         { gameName: 'UIC Simply', tagLine: '666' },
         { gameName: 'UIC Excellent C', tagLine: '1997' }
-    ], // Added comma
+    ],
     "abyss": [
         { gameName: 'Dany', tagLine: 'RFA40' },
         { gameName: 'UIC Keygasza', tagLine: '1337' },
         { gameName: 'UIC Goku', tagLine: 'UIC' },
         { gameName: 'UIC N1ghtm4reX', tagLine: 'H96' },
         { gameName: 'TheEigeeen', tagLine: 'EIGI' }
-    ], // Added comma
+    ],
     "night": [
         { gameName: 'UIC proStarII', tagLine: 'UIC' },
         { gameName: 'Shekar', tagLine: '5ONiT' },
@@ -52,32 +52,38 @@ async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 async function getPlayerData(player) {
     try {
-        // FIX: Use player.gameName and player.tagLine to match your object structure
         const name = encodeURIComponent(player.gameName);
         const tag = encodeURIComponent(player.tagLine);
         
-        console.log(`Requesting: ${player.gameName}#${player.tagLine}`);
-
         // 1. Account-V1
-        const accUrl = `https://europe.api.riotgames.com/riot/account/v1/accounts/by-riot-id/${name}/${tag}?api_key=${API_KEY}`;
-        const accRes = await fetch(accUrl);
+        const accRes = await fetch(`https://europe.api.riotgames.com/riot/account/v1/accounts/by-riot-id/${name}/${tag}?api_key=${API_KEY}`);
         const accData = await accRes.json();
-        
         if (!accData.puuid) {
-            console.error(`PUUID not found for ${player.gameName}. Response:`, accData);
+            console.error(`❌ Account Error [${player.gameName}]: ${accData.status?.message || 'Not Found'}`);
             return null;
         }
 
         // 2. Summoner-V4
-        const summUrl = `https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-puuid/${accData.puuid}?api_key=${API_KEY}`;
-        const summRes = await fetch(summUrl);
+        const summRes = await fetch(`https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-puuid/${accData.puuid}?api_key=${API_KEY}`);
         const summData = await summRes.json();
+        if (!summData.id) {
+            console.error(`❌ Summoner Error [${player.gameName}]: ${summData.status?.message || 'Not Found'}`);
+            return null;
+        }
 
         // 3. League-V4
-        const leagueUrl = `https://euw1.api.riotgames.com/lol/league/v4/entries/by-summoner/${summData.id}?api_key=${API_KEY}`;
-        const leagueRes = await fetch(leagueUrl);
+        const leagueRes = await fetch(`https://euw1.api.riotgames.com/lol/league/v4/entries/by-summoner/${summData.id}?api_key=${API_KEY}`);
         const leagueData = await leagueRes.json();
-        const soloQ = leagueData.find(m => m.queueType === 'RANKED_SOLO_5x5') || { tier: 'UNRANKED', rank: '', wins: 0, losses: 0 };
+
+        // Check if leagueData is actually an array before searching
+        let soloQ = { tier: 'UNRANKED', rank: '', wins: 0, losses: 0 };
+        if (Array.isArray(leagueData)) {
+            const found = leagueData.find(m => m.queueType === 'RANKED_SOLO_5x5');
+            if (found) soloQ = found;
+        } else {
+            console.error(`❌ League Error [${player.gameName}]: ${leagueData.status?.message || 'Invalid Response'}`);
+            return null;
+        }
 
         return {
             name: player.gameName,
@@ -87,7 +93,7 @@ async function getPlayerData(player) {
             icon: `https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/${summData.profileIconId}.png`
         };
     } catch (e) {
-        console.error(`Error for ${player.gameName}:`, e.message);
+        console.error(`⚠️ Network Exception [${player.gameName}]:`, e.message);
         return null;
     }
 }
@@ -100,22 +106,17 @@ async function start() {
         console.log(`--- Processing team: ${teamName} ---`);
         for (let i = 0; i < players.length; i++) {
             const stats = await getPlayerData(players[i]);
-            
             if (stats) {
                 const key = `${teamName}_${roles[i]}`;
                 finalData[key] = stats;
                 console.log(`✅ Success: ${key}`);
-            } else {
-                console.warn(`❌ Failed: ${players[i].gameName}`);
             }
-            await sleep(1200); // Respecting rate limits
+            await sleep(1200); 
         }
     }
 
-    const dataString = JSON.stringify(finalData, null, 2);
-    fs.writeFileSync('data.json', dataString);
+    fs.writeFileSync('data.json', JSON.stringify(finalData, null, 2));
     console.log("Finished. data.json updated.");
 }
 
 start();
-
