@@ -21,6 +21,7 @@ async function run() {
   const results = {};
 
   for (const p of players) {
+    if (p.puuid === "PASTE_PUUID_HERE") continue;
     try {
       console.log(`Updating ${p.name}...`);
       // 1. Get Summoner ID from PUUID
@@ -32,10 +33,11 @@ async function run() {
       const solo = ranks.find(r => r.queueType === 'RANKED_SOLO_5x5');
       results[p.name.toUpperCase()] = solo ? `${solo.tier} ${solo.rank} (${solo.leaguePoints} LP)` : 'UNRANKED';
       
-      await new Promise(r => setTimeout(r, 1200)); // Be nice to the API
+      // Delay to avoid rate limiting
+      await new Promise(r => setTimeout(r, 1200)); 
     } catch (e) {
       console.error(`Failed for ${p.name}:`, e.message);
-      results[p.name.toUpperCase()] = 'ERROR';
+      results[p.name.toUpperCase()] = 'DATA ERROR';
     }
   }
 
