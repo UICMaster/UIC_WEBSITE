@@ -1,19 +1,19 @@
-name: Update Ranks
+name: Update Player Ranks
 on:
   schedule:
-    - cron: '0 * * * *'
-  workflow_dispatch:
+    - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch: # Allows manual run
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Run Update
+      - name: Fetch Data
         run: node update_ranks.js ${{ secrets.RIOT_API_KEY }}
-      - name: Commit
+      - name: Save Data
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add data.json
-          git commit -m "Update player ranks" || exit 0
+          git commit -m "Auto-update ranks" || exit 0
           git push
