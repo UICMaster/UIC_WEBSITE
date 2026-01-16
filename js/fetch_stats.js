@@ -49,6 +49,13 @@ const teams = {
         { gameName: 'RatHairedShanks', tagLine: 'NoPie' },
         { gameName: 'Cedopanya', tagLine: 'EUW' },
         { gameName: 'UIC ReCord', tagLine: 'Cedo' }
+    ],
+    "freezer": [
+        { gameName: 'Rayando07', tagLine: 'grag' },
+        { gameName: 'BlauerKlaus', tagLine: 'Qvy心' },
+        { gameName: 'UIC FrozenHands', tagLine: 'MID' },
+        { gameName: 'RG AutumnLeaf', tagLine: 'Moo' },
+        { gameName: 'RG Ryu Copeland', tagLine: '117' }
     ]
 };
 
@@ -125,3 +132,4 @@ async function start() {
 }
 
 start();
+
