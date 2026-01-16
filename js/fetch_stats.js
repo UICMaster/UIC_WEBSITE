@@ -52,50 +52,44 @@ async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 async function getPlayerData(player) {
     try {
-        // 1. Account-V1 (PUUID)
-        const accUrl = `https://europe.api.riotgames.com/riot/account/v1/accounts/by-riot-id/${encodeURIComponent(player.name)}/${encodeURIComponent(player.tag)}?api_key=${API_KEY}`;
+        // FIX: Use player.gameName and player.tagLine to match your object structure
+        const name = encodeURIComponent(player.gameName);
+        const tag = encodeURIComponent(player.tagLine);
+        
+        console.log(`Requesting: ${player.gameName}#${player.tagLine}`);
+
+        // 1. Account-V1
+        const accUrl = `https://europe.api.riotgames.com/riot/account/v1/accounts/by-riot-id/${name}/${tag}?api_key=${API_KEY}`;
         const accRes = await fetch(accUrl);
         const accData = await accRes.json();
-        if (!accData.puuid) return null;
+        
+        if (!accData.puuid) {
+            console.error(`PUUID not found for ${player.gameName}. Response:`, accData);
+            return null;
+        }
 
-        // 2. Summoner-V4 (ID & Level)
+        // 2. Summoner-V4
         const summUrl = `https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-puuid/${accData.puuid}?api_key=${API_KEY}`;
         const summRes = await fetch(summUrl);
         const summData = await summRes.json();
 
-        // 3. League-V4 (Ranked Stats)
+        // 3. League-V4
         const leagueUrl = `https://euw1.api.riotgames.com/lol/league/v4/entries/by-summoner/${summData.id}?api_key=${API_KEY}`;
         const leagueRes = await fetch(leagueUrl);
         const leagueData = await leagueRes.json();
         const soloQ = leagueData.find(m => m.queueType === 'RANKED_SOLO_5x5') || { tier: 'UNRANKED', rank: '', wins: 0, losses: 0 };
 
         return {
-            name: player.name,
+            name: player.gameName,
             level: summData.summonerLevel,
             rank: `${soloQ.tier} ${soloQ.rank}`.trim(),
             wl: `${soloQ.wins}/${soloQ.losses}`,
             icon: `https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/${summData.profileIconId}.png`
         };
     } catch (e) {
-        console.error(`Error for ${player.name}:`, e.message);
+        console.error(`Error for ${player.gameName}:`, e.message);
         return null;
     }
-}
-
-async function start() {
-    let finalData = {};
-    for (const [teamName, players] of Object.entries(teams)) {
-        for (let i = 0; i < players.length; i++) {
-            const stats = await getPlayerData(players[i]);
-            if (stats) {
-                const key = `${teamName}_${roles[i]}`;
-                finalData[key] = stats;
-            }
-            // Rate limit safety: 1.2s delay between players (3 calls each = ~100 calls/2 mins)
-            await sleep(1200);
-        }
-    }
-    fs.writeFileSync('data.json', JSON.stringify(finalData, null, 2));
 }
 
 async function start() {
@@ -103,33 +97,25 @@ async function start() {
     console.log("Starting fetch process...");
 
     for (const [teamName, players] of Object.entries(teams)) {
-        console.log(`Processing team: ${teamName}`);
+        console.log(`--- Processing team: ${teamName} ---`);
         for (let i = 0; i < players.length; i++) {
-            console.log(`Fetching player: ${players[i].name}#${players[i].tag}`);
-            
             const stats = await getPlayerData(players[i]);
             
             if (stats) {
                 const key = `${teamName}_${roles[i]}`;
                 finalData[key] = stats;
-                console.log(`Successfully fetched stats for ${key}`);
+                console.log(`✅ Success: ${key}`);
             } else {
-                console.warn(`Failed to get data for ${players[i].name}`);
+                console.warn(`❌ Failed: ${players[i].gameName}`);
             }
-            
-            // Rate limit safety
-            await sleep(1200);
+            await sleep(1200); // Respecting rate limits
         }
     }
 
     const dataString = JSON.stringify(finalData, null, 2);
-    console.log("Final Data Object:", dataString); // This will show the result in logs
-
-    if (Object.keys(finalData).length === 0) {
-        console.error("CRITICAL: finalData is empty! Check API Key and Riot IDs.");
-    }
-
     fs.writeFileSync('data.json', dataString);
-    console.log("File data.json written to disk.");
+    console.log("Finished. data.json updated.");
 }
+
+start();
 
