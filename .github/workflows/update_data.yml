@@ -19,7 +19,7 @@ jobs:
       - name: Fetch Riot Data
         env:
           RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
-        run: node scripts/fetch_stats.js
+        run: node js/fetch_stats.js
 
       - name: Commit and Push Changes
         run: |
