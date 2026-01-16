@@ -1,1 +1,212 @@
-{}
+{
+  "prime_top": {
+    "name": "UIC Speedy",
+    "level": 1138,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7026.png"
+  },
+  "prime_jgl": {
+    "name": "UIC Niki",
+    "level": 999,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4380.png"
+  },
+  "prime_mid": {
+    "name": "UIC Shenycrane",
+    "level": 616,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/5913.png"
+  },
+  "prime_bot": {
+    "name": "UIC Giani",
+    "level": 708,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3398.png"
+  },
+  "prime_sup": {
+    "name": "UIC Baguetto",
+    "level": 968,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4096.png"
+  },
+  "spark_top": {
+    "name": "skanpy",
+    "level": 313,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/934.png"
+  },
+  "spark_jgl": {
+    "name": "UIC Lenno",
+    "level": 763,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/2073.png"
+  },
+  "spark_mid": {
+    "name": "UIC Rhinoshield",
+    "level": 923,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6783.png"
+  },
+  "spark_bot": {
+    "name": "UIC Flare",
+    "level": 619,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/626.png"
+  },
+  "spark_sup": {
+    "name": "UIC Dragonfly",
+    "level": 554,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/1597.png"
+  },
+  "ember_top": {
+    "name": "SilasX",
+    "level": 514,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6989.png"
+  },
+  "ember_jgl": {
+    "name": "UIC Shederen",
+    "level": 275,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7035.png"
+  },
+  "ember_mid": {
+    "name": "ResetHoe",
+    "level": 853,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4793.png"
+  },
+  "ember_bot": {
+    "name": "UIC DontMethWith",
+    "level": 1279,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6988.png"
+  },
+  "ember_sup": {
+    "name": "UIC Envy",
+    "level": 294,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7037.png"
+  },
+  "nova_top": {
+    "name": "UIC adedier",
+    "level": 593,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4379.png"
+  },
+  "nova_jgl": {
+    "name": "UIC Rubix Qube",
+    "level": 464,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3592.png"
+  },
+  "nova_mid": {
+    "name": "Apathy",
+    "level": 366,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/660.png"
+  },
+  "nova_bot": {
+    "name": "UIC Simply",
+    "level": 418,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6388.png"
+  },
+  "nova_sup": {
+    "name": "UIC Excellent C",
+    "level": 539,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/661.png"
+  },
+  "abyss_top": {
+    "name": "Dany",
+    "level": 528,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3157.png"
+  },
+  "abyss_jgl": {
+    "name": "UIC Keygasza",
+    "level": 448,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4087.png"
+  },
+  "abyss_mid": {
+    "name": "UIC Goku",
+    "level": 454,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/538.png"
+  },
+  "abyss_bot": {
+    "name": "UIC N1ghtm4reX",
+    "level": 631,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6330.png"
+  },
+  "abyss_sup": {
+    "name": "TheEigeeen",
+    "level": 637,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6037.png"
+  },
+  "night_top": {
+    "name": "UIC proStarII",
+    "level": 529,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/939.png"
+  },
+  "night_jgl": {
+    "name": "Shekar",
+    "level": 585,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3231.png"
+  },
+  "night_mid": {
+    "name": "RatHairedShanks",
+    "level": 365,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/785.png"
+  },
+  "night_bot": {
+    "name": "Cedopanya",
+    "level": 174,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6631.png"
+  },
+  "night_sup": {
+    "name": "UIC ReCord",
+    "level": 423,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3804.png"
+  }
+}
