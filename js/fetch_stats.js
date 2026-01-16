@@ -59,7 +59,7 @@ const teams = {
     ]
 };
 
-const roles = ["top", "jgl", "mid", "bot", "sup"];
+const roles = ["top", "jgl", "mid", "bot", "sup", "coach"];
 
 async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
@@ -132,4 +132,5 @@ async function start() {
 }
 
 start();
+
 
