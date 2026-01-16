@@ -903,6 +903,59 @@ html {
     display: block;
 }
 
+/* Container for the Icon and Name */
+.player-identity {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(0, 240, 255, 0.1);
+}
+
+/* The circular Riot Icon */
+.mini-riot-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--primary);
+    box-shadow: 0 0 8px rgba(0, 240, 255, 0.3);
+    object-fit: cover;
+}
+
+.name-box {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Level indicator with tactical styling */
+.player-level {
+    font-size: 0.65rem;
+    color: var(--primary);
+    font-weight: 800;
+    letter-spacing: 1px;
+    background: rgba(0, 240, 255, 0.05);
+    padding: 2px 5px;
+    width: fit-content;
+    margin-top: 2px;
+}
+
+/* Rank Text */
+.card-meta {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-white);
+    text-transform: uppercase;
+}
+
+/* Stats (W/L) */
+.card-stats {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    font-family: var(--font-body);
+    margin-top: 4px;
+}
+
 /* =========================================
    11. STATS SECTION (Tactical Grid)
    ========================================= */
