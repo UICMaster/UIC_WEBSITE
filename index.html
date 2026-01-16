@@ -314,40 +314,85 @@
                     <div class="role-badge">TOP</div>
                     <img src="assets/profile/spark/spark_top.png" alt="Top" class="card-img">
                     <div class="card-body">
-                        <h3 class="card-title">UIC SKANPY</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
+                        <div class="player-identity">
+                            <img id="spark_top_icon" src="assets/profile/placeholder.png" class="mini-riot-icon">
+                            <div class="name-box">
+                                <h3 id="spark_top_name" class="card-title">Loading...</h3>
+                                <span class="player-level">LVL <span id="spark_top_level">--</span></span>
+                            </div>
+                        </div>
+                        <div class="player-status">
+                            <div id="spark_top_rank" class="card-meta">Fetching Rank...</div>
+                            <div id="spark_top_wl" class="card-stats"></div>
+                        </div>
                     </div>
                 </div>
                 <div class="card card--interactive card--profile">
                     <div class="role-badge">JGL</div>
                     <img src="assets/profile/spark/spark_jungle.png" alt="JGL" class="card-img">
                     <div class="card-body">
-                        <h3 class="card-title">UIC LENNO</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
+                        <div class="player-identity">
+                            <img id="spark_jgl_icon" src="assets/profile/placeholder.png" class="mini-riot-icon">
+                            <div class="name-box">
+                                <h3 id="spark_jgl_name" class="card-title">Loading...</h3>
+                                <span class="player-level">LVL <span id="spark_jgl_level">--</span></span>
+                            </div>
+                        </div>
+                        <div class="player-status">
+                            <div id="spark_jgl_rank" class="card-meta">Fetching Rank...</div>
+                            <div id="spark_jgl_wl" class="card-stats"></div>
+                        </div>
                     </div>
                 </div>
                 <div class="card card--interactive card--profile">
                     <div class="role-badge">MID</div>
                     <img src="assets/profile/spark/spark_mid.png" alt="MID" class="card-img">
                     <div class="card-body">
-                        <h3 class="card-title">UIC ON1R</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
+                        <div class="player-identity">
+                            <img id="spark_mid_icon" src="assets/profile/placeholder.png" class="mini-riot-icon">
+                            <div class="name-box">
+                                <h3 id="spark_mid_name" class="card-title">Loading...</h3>
+                                <span class="player-level">LVL <span id="spark_mid_level">--</span></span>
+                            </div>
+                        </div>
+                        <div class="player-status">
+                            <div id="spark_mid_rank" class="card-meta">Fetching Rank...</div>
+                            <div id="spark_mid_wl" class="card-stats"></div>
+                        </div>
                     </div>
                 </div>
                 <div class="card card--interactive card--profile">
-                    <div class="role-badge">ADC</div>
-                    <img src="assets/profile/spark/spark_adc.png" alt="ADC" class="card-img">
+                    <div class="role-badge">BOT</div>
+                    <img src="assets/profile/spark/spark_adc.png" alt="BOT" class="card-img">
                     <div class="card-body">
-                        <h3 class="card-title">UIC FLARE</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
+                        <div class="player-identity">
+                            <img id="spark_bot_icon" src="assets/profile/placeholder.png" class="mini-riot-icon">
+                            <div class="name-box">
+                                <h3 id="spark_bot_name" class="card-title">Loading...</h3>
+                                <span class="player-level">LVL <span id="spark_bot_level">--</span></span>
+                            </div>
+                        </div>
+                        <div class="player-status">
+                            <div id="spark_bot_rank" class="card-meta">Fetching Rank...</div>
+                            <div id="spark_bot_wl" class="card-stats"></div>
+                        </div>
                     </div>
                 </div>
                 <div class="card card--interactive card--profile">
                     <div class="role-badge">SUP</div>
-                    <img src="assets/profile/night/night_top.png" alt="SUP" class="card-img">
+                    <img src="assets/profile/spark/spark_support.png" alt="SUP" class="card-img">
                     <div class="card-body">
-                        <h3 class="card-title">OPEN SPOT</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
+                        <div class="player-identity">
+                            <img id="spark_sup_icon" src="assets/profile/placeholder.png" class="mini-riot-icon" style="display:none;">
+                            <div class="name-box">
+                                <h3 id="spark_sup_name" class="card-title">OPEN SPOT</h3>
+                                <span class="player-level">LVL <span id="spark_sup_level">0</span></span>
+                            </div>
+                        </div>
+                        <div class="player-status">
+                            <div id="spark_sup_rank" class="card-meta">RECRUITING</div>
+                            <div id="spark_sup_wl" class="card-stats"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -574,48 +619,6 @@
                     </div>
                 </div>
             </div>
-
-           <!-- <script>
-                async function loadData() {
-                    try {
-                        // 1. Fetch the data generated by the GitHub Action
-                        const res = await fetch('./data.json');
-                        
-                        // Safety check: if the action hasn't run yet, data.json might not exist
-                        if (!res.ok) throw new Error("Data file not found");
-                        
-                        const data = await res.json();
-
-                        // 2. Update the DOM elements
-                        for (const [idPrefix, stats] of Object.entries(data)) {
-                            const nameEl = document.getElementById(`${idPrefix}_name`);
-                            const rankEl = document.getElementById(`${idPrefix}_rank`);
-                            const wlEl   = document.getElementById(`${idPrefix}_wl`);
-                            const iconEl = document.getElementById(`${idPrefix}_icon`);
-
-                            if (nameEl) nameEl.innerText = stats.name;
-                            if (rankEl) rankEl.innerText = stats.rank;
-                            if (wlEl)   wlEl.innerText   = `W/L: ${stats.wl}`; // Added label for clarity
-                            
-                            if (iconEl) {
-                                iconEl.src = stats.icon;
-                                // Handle broken images individually
-                                iconEl.onerror = function() {
-                                    this.src = 'assets/profile/placeholder.png';
-                                    this.onerror = null; // Prevent infinite loops
-                                };
-                            }
-                        }
-                    } catch (e) {
-                        console.error("Could not load player data:", e);
-                        // Optional: Show a message on the UI that stats are currently offline
-                    }
-                }
-
-                // Initialize when the page is ready
-                document.addEventListener('DOMContentLoaded', loadData);
-            </script> -->
-
         </div>
     </section>
 
@@ -1059,52 +1062,52 @@
     <script src="js/mediaplayer.js"></script>
 
     <script>
-    async function updateUI() {
-        try {
-            // Fetch the data.json created by GitHub Actions
-            const response = await fetch('./data.json');
-            if (!response.ok) throw new Error("Data file not found");
-            const data = await response.json();
+        async function loadData() {
+            try {
+                const res = await fetch('./data.json');
+                if (!res.ok) throw new Error("Data file not found");
+                const data = await res.json();
 
-            // The roles we used in fetch_stats.js
-            const roles = ["top", "jgl", "mid", "bot", "sup"];
-            const teams = ["prime", "spark", "ember", "nova", "abyss", "night"];
+                const teams = ["prime", "spark", "ember", "nova", "abyss", "night"];
+                const roles = ["top", "jgl", "mid", "bot", "sup"];
 
-            teams.forEach(team => {
-                roles.forEach(role => {
-                    const key = `${team}_${role}`;
-                    const player = data[key];
+                teams.forEach(team => {
+                    roles.forEach(role => {
+                        const key = `${team}_${role}`;
+                        const stats = data[key];
 
-                    if (player) {
-                        // Update Name
-                        const nameEl = document.getElementById(`${key}_name`);
-                        if (nameEl) nameEl.innerText = player.name;
+                        // Target elements
+                        const nameEl  = document.getElementById(`${key}_name`);
+                        const rankEl  = document.getElementById(`${key}_rank`);
+                        const wlEl    = document.getElementById(`${key}_wl`);
+                        const iconEl  = document.getElementById(`${key}_icon`);
+                        const lvlEl   = document.getElementById(`${key}_level`);
 
-                        // Update Rank
-                        const rankEl = document.getElementById(`${key}_rank`);
-                        if (rankEl) rankEl.innerText = player.rank;
-
-                        // Update Wins/Losses
-                        const wlEl = document.getElementById(`${key}_wl`);
-                        if (wlEl) wlEl.innerText = `W/L: ${player.wl}`;
-
-                        // Update Icon
-                        const iconEl = document.getElementById(`${key}_icon`);
-                        if (iconEl) {
-                            iconEl.src = player.icon;
-                            iconEl.onerror = () => iconEl.src = 'assets/profile/placeholder.png';
+                        if (stats) {
+                            if (nameEl) nameEl.innerText = stats.name;
+                            if (rankEl) rankEl.innerText = stats.rank;
+                            if (wlEl)   wlEl.innerText   = `W/L: ${stats.wl}`;
+                            if (lvlEl)  lvlEl.innerText  = stats.level;
+                            if (iconEl) {
+                                iconEl.src = stats.icon;
+                                iconEl.style.display = "block"; // Ensure icon is visible
+                            }
+                        } else {
+                            // Handle Open Spots / Missing Data
+                            if (nameEl) nameEl.innerText = "OPEN SPOT";
+                            if (rankEl) rankEl.innerText = "RECRUITING";
+                            if (wlEl)   wlEl.innerHTML   = "&nbsp;";
+                            if (lvlEl)  lvlEl.innerText  = "0";
+                            if (iconEl) iconEl.style.display = "none"; // Hide icon for open spots
                         }
-                    }
+                    });
                 });
-            });
-            console.log("UI successfully populated with player data.");
-        } catch (error) {
-            console.error("UI update failed:", error);
+            } catch (e) {
+                console.error("Could not load player data", e);
+            }
         }
-    }
 
-    // Run as soon as the page is loaded
-    document.addEventListener('DOMContentLoaded', updateUI);
+        document.addEventListener('DOMContentLoaded', loadData);
     </script>
 
 </body>
