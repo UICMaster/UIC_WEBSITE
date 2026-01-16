@@ -262,12 +262,31 @@
             </div>
 
             <div id="Prime" class="grid-auto team-grid active">
+                <!-- <div class="card card--interactive card--profile">
+                    <div class="role-badge">TOP</div>
+                    <img id="prime_top_icon" src="assets/profile/placeholder.png" alt="Top" class="card-img">
+                    <div class="card-body">
+                        <h3 id="prime_top_name" class="card-title">Loading...</h3>
+                        <div id="prime_top_rank" class="card-meta">Fetching Rank...</div>
+                        <div id="prime_top_wl" class="card-stats"></div>
+                    </div>
+                </div> -->
+                <div class="card card--interactive card--profile">
+                    <div class="role-badge">TOP</div>
+                    <img id="prime_top_icon" src="placeholder.png" class="card-img">
+                    <div class="card-body">
+                        <h3 id="prime_top_name" class="card-title">...</h3>
+                        <div id="prime_top_rank" class="card-meta">Loading...</div>
+                        <div id="prime_top_wl" class="card-stats"></div>
+                    </div>
+                </div>
                 <div class="card card--interactive card--profile">
                     <div class="role-badge">TOP</div>
                     <img src="assets/profile/prime/prime_top.png" alt="Top" class="card-img">
                     <div class="card-body">
-                        <h3 class="card-title">UIC SPEEDY</h3>
-                        <div class="card-meta">PLACEHOLDER ELO</div>
+                        <h3 id="prime_top_name" class="card-title">Loading...</h3>
+                        <div id="prime_top_rank" class="card-meta">Fetching Rank...</div>
+                        <div id="prime_top_wl" class="card-stats"></div>
                     </div>
                 </div>
                 <div class="card card--interactive card--profile">
@@ -287,7 +306,7 @@
                     </div>
                 </div>
                 <div class="card card--interactive card--profile">
-                    <div class="role-badge">ADC</div>
+                    <div class="role-badge">BOT</div>
                     <img src="assets/profile/prime/prime_adc.png" alt="ADC" class="card-img">
                     <div class="card-body">
                         <h3 class="card-title">UIC GIANI</h3>
@@ -548,7 +567,7 @@
                     <div class="role-badge">ADC</div>
                     <img src="assets/profile/freezer/freezer_adc.png" alt="ADC" class="card-img">
                     <div class="card-body">
-                        <h3 class="card-title">OPEN SPOT</h3>
+                        <h3 class="card-title">UIC AUTUMNLEAF</h3>
                         <div class="card-meta">PLACEHOLDER ELO</div>
                     </div>
                 </div>
@@ -569,6 +588,31 @@
                     </div>
                 </div>
             </div>
+
+            <script>
+                async function loadData() {
+                    try {
+                        // Fetch the generated JSON file
+                        const res = await fetch('./data.json');
+                        const data = await res.json();
+
+                        // Loop through the IDs in data.json and update DOM
+                        for (const [idPrefix, stats] of Object.entries(data)) {
+                            if (document.getElementById(`${idPrefix}_name`)) 
+                                document.getElementById(`${idPrefix}_name`).innerText = stats.name;
+                            if (document.getElementById(`${idPrefix}_rank`)) 
+                                document.getElementById(`${idPrefix}_rank`).innerText = stats.rank;
+                            if (document.getElementById(`${idPrefix}_wl`)) 
+                                document.getElementById(`${idPrefix}_wl`).innerText = stats.wl;
+                            if (document.getElementById(`${idPrefix}_icon`)) 
+                                document.getElementById(`${idPrefix}_icon`).src = stats.icon;
+                        }
+                    } catch (e) {
+                        console.error("Could not load player data", e);
+                    }
+                }
+                loadData();
+            </script>
 
         </div>
     </section>
