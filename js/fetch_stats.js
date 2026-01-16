@@ -55,34 +55,34 @@ async function getPlayerData(player) {
         const name = encodeURIComponent(player.gameName);
         const tag = encodeURIComponent(player.tagLine);
         
-        // 1. Account-V1
+        // 1. Account-V1 (Always 'europe' for EUW)
         const accRes = await fetch(`https://europe.api.riotgames.com/riot/account/v1/accounts/by-riot-id/${name}/${tag}?api_key=${API_KEY}`);
         const accData = await accRes.json();
+        
         if (!accData.puuid) {
-            console.error(`❌ Account Error [${player.gameName}]: ${accData.status?.message || 'Not Found'}`);
+            console.error(`❌ Account Not Found: ${player.gameName}#${player.tagLine}`);
             return null;
         }
 
-        // 2. Summoner-V4
-        const summRes = await fetch(`https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-puuid/${accData.puuid}?api_key=${API_KEY}`);
+        const puuid = accData.puuid;
+        // 2. Summoner-V4 (Querying EUW1 using the PUUID)
+        const summRes = await fetch(`https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-puuid/${puuid}?api_key=${API_KEY}`);
         const summData = await summRes.json();
+        
         if (!summData.id) {
-            console.error(`❌ Summoner Error [${player.gameName}]: ${summData.status?.message || 'Not Found'}`);
+            // LOG THE FULL RESPONSE TO SEE WHY IT'S NOT FOUND
+            console.error(`❌ Summoner lookup failed for ${player.gameName}. PUUID: ${puuid.substring(0, 10)}... Response:`, JSON.stringify(summData));
             return null;
         }
 
-        // 3. League-V4
+        // 3. League-V4 (Querying EUW1 for Rank)
         const leagueRes = await fetch(`https://euw1.api.riotgames.com/lol/league/v4/entries/by-summoner/${summData.id}?api_key=${API_KEY}`);
         const leagueData = await leagueRes.json();
 
-        // Check if leagueData is actually an array before searching
         let soloQ = { tier: 'UNRANKED', rank: '', wins: 0, losses: 0 };
         if (Array.isArray(leagueData)) {
             const found = leagueData.find(m => m.queueType === 'RANKED_SOLO_5x5');
             if (found) soloQ = found;
-        } else {
-            console.error(`❌ League Error [${player.gameName}]: ${leagueData.status?.message || 'Invalid Response'}`);
-            return null;
         }
 
         return {
@@ -93,7 +93,7 @@ async function getPlayerData(player) {
             icon: `https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/${summData.profileIconId}.png`
         };
     } catch (e) {
-        console.error(`⚠️ Network Exception [${player.gameName}]:`, e.message);
+        console.error(`⚠️ Network Error for ${player.gameName}:`, e.message);
         return null;
     }
 }
@@ -111,7 +111,8 @@ async function start() {
                 finalData[key] = stats;
                 console.log(`✅ Success: ${key}`);
             }
-            await sleep(1200); 
+            // Increase sleep to be extremely safe during debugging
+            await sleep(1500); 
         }
     }
 
@@ -120,3 +121,6 @@ async function start() {
 }
 
 start();
+
+start();
+
