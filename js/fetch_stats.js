@@ -55,7 +55,7 @@ const teams = {
         { gameName: 'BlauerKlaus', tagLine: 'Qvy心' },
         { gameName: 'UIC FrozenHands', tagLine: 'MID' },
         { gameName: 'RG AutumnLeaf', tagLine: 'Moo' },
-        { gameName: 'RG Ryu Copeland', tagLine: '117' }
+        { gameName: 'UIC Ryu Copeland', tagLine: '117' }
     ]
 };
 
@@ -132,5 +132,6 @@ async function start() {
 }
 
 start();
+
 
 
