@@ -20,7 +20,7 @@ const teams = {
         { gameName: 'UIC Lenno', tagLine: 'UIC' },
         { gameName: 'UIC Rhinoshield', tagLine: 'RIN' },
         { gameName: 'UIC Flare', tagLine: 'JND' },
-        { gameName: 'UIC Dragonfly', tagLine: '1299' }
+        { gameName: '', tagLine: '' }
     ],
     "ember": [
         { gameName: 'SilasX', tagLine: 'EUWde' },
@@ -132,6 +132,7 @@ async function start() {
 }
 
 start();
+
 
 
 
