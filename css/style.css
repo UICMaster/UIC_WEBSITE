@@ -881,9 +881,12 @@ html {
     height: 42px;
     border-radius: 50%;
     border: 1px solid var(--primary);
-    padding: 2px;
-    background: var(--bg-dark);
-    box-shadow: 0 0 10px rgba(0, 240, 255, 0.2);
+    background-color: var(--bg-dark);
+    /* This background image acts as a "permanent" placeholder behind the real icon */
+    background-image: url('assets/profile/placeholder.png');
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
 }
 
 .name-box {
