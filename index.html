@@ -904,22 +904,28 @@
 <section id="stats" class="section-pad">
     <div class="container">
         <div class="section-header">
-            <span class="section-subtitle"># LEAGUE_INTEL</span>
-            <h2 class="section-title">TEAM <span class="text-highlight">READOUT</span></h2>
+            <span class="section-subtitle"># SYSTEM_INTEGRITY</span>
+            <h2 class="section-title">LEAGUE <span class="text-highlight">TELEMETRY</span></h2>
         </div>
 
         <div class="hud-terminal">
             <div class="terminal-header">
-                <div>Identity</div>
-                <div>Division</div>
-                <div>Rank</div>
-                <div>Record (W/L)</div>
-                <div>Pts</div>
-                <div>Success_Rate</div>
+                <div class="col-team">IDENT_NAME</div>
+                <div class="col-div">DIV</div>
+                <div class="col-rank">RANK</div>
+                <div class="col-stats">RECORD</div>
+                <div class="col-pts">PTS</div>
+                <div class="col-progress">WIN_RATE_ACCURACY</div>
             </div>
             
             <div id="terminal-body">
-                </div>
+                <div class="terminal-loader">INITIALIZING_DATA_STREAM...</div>
+            </div>
+
+            <div class="terminal-footer">
+                <span>STATUS: ENCRYPTED_CONNECTION_STABLE</span>
+                <span id="last-update">REFRESH_RATE: 3600s</span>
+            </div>
         </div>
     </div>
 </section>
@@ -1349,35 +1355,51 @@
     </script>
 
     <script>
-    async function loadPrimeStats() {
-        try {
-            const res = await fetch('./prime_stats.json?t=' + Date.now());
-            const data = await res.json();
-            const teams = ["prime", "spark", "ember", "nova", "abyss", "night", "freezer"];
-            const container = document.getElementById('terminal-body');
-            
-            container.innerHTML = ''; // Reset
+async function loadPrimeStats() {
+    try {
+        const res = await fetch('./prime_stats.json?t=' + Date.now());
+        if (!res.ok) throw new Error("Stats not available");
+        const data = await res.json();
 
-            teams.forEach(key => {
-                const s = data[key];
-                if (s) {
-                    const wr = s.games > 0 ? (s.wins / s.games) * 100 : 0;
-                    container.insertAdjacentHTML('beforeend', `
-                        <div class="terminal-row">
-                            <div class="col-team"><span class="status-pulse"></span> UIC ${key.toUpperCase()}</div>
-                            <div class="col-div">${s.division}</div>
-                            <div class="col-rank">${s.rank.toString().padStart(2, '0')}</div>
-                            <div class="col-val">${s.wins}W - ${s.losses}L</div>
-                            <div class="col-val">${s.points}</div>
-                            <div class="col-progress">
-                                <div class="mini-bar"><div class="mini-bar-fill" style="width:${wr}%"></div></div>
+        const teams = ["prime", "spark", "ember", "nova", "abyss", "night", "freezer"];
+        const container = document.getElementById('terminal-body');
+        
+        if (!container) return;
+        container.innerHTML = ''; // Clear loading message
+
+        teams.forEach(key => {
+            const s = data[key];
+            if (s) {
+                const wr = s.games > 0 ? (s.wins / s.games) * 100 : 0;
+                
+                const row = `
+                    <div class="terminal-row">
+                        <div class="col-team">
+                            <span class="status-pulse-mini"></span>
+                            UIC ${key.toUpperCase()}
+                        </div>
+                        <div class="col-div">${s.division}</div>
+                        <div class="col-rank">${s.rank.toString().padStart(2, '0')}</div>
+                        <div class="col-stats">${s.wins}W - ${s.losses}L</div>
+                        <div class="col-pts">${s.points}</div>
+                        <div class="col-progress">
+                            <div class="mini-progress">
+                                <div class="mini-progress-fill" style="width: ${wr}%"></div>
                             </div>
                         </div>
-                    `);
-                }
-            });
-        } catch (e) { console.warn("Stats terminal offline."); }
+                    </div>
+                `;
+                container.insertAdjacentHTML('beforeend', row);
+            }
+        });
+    } catch (e) {
+        document.getElementById('terminal-body').innerHTML = 
+            `<div class="terminal-row" style="color: var(--secondary)">⚠️ DATA_STREAM_OFFLINE: ${e.message}</div>`;
     }
+}
+
+// Call on load
+document.addEventListener('DOMContentLoaded', loadPrimeStats);
     </script>
 
 
