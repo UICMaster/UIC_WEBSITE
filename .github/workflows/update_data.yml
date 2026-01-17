@@ -20,6 +20,9 @@ jobs:
         env:
           RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
         run: node js/fetch_stats.js
+      
+      - name: Fetch Prime League Data
+        run: node js/fetch_prime_stats.js
 
       - name: Commit and Push Changes
         run: |
