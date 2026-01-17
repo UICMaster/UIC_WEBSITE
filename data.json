@@ -236,5 +236,12 @@
     "rank": "DIAMOND IV",
     "wl": "6/6",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6631.png"
+  },
+  "freezer_coach": {
+    "name": "UIC Loonzi",
+    "level": 123,
+    "rank": "PLATINUM II",
+    "wl": "34/33",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4895.png"
   }
 }
