@@ -108,14 +108,14 @@
     "name": "UIC Rubix Qube",
     "level": 464,
     "rank": "GOLD III",
-    "wl": "14/10",
+    "wl": "14/11",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3592.png"
   },
   "nova_mid": {
     "name": "Apathy",
     "level": 366,
     "rank": "PLATINUM IV",
-    "wl": "12/13",
+    "wl": "12/14",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/660.png"
   },
   "nova_bot": {
@@ -128,8 +128,8 @@
   "nova_sup": {
     "name": "UIC Excellent C",
     "level": 540,
-    "rank": "GOLD III",
-    "wl": "12/7",
+    "rank": "GOLD II",
+    "wl": "13/7",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/661.png"
   },
   "abyss_top": {
