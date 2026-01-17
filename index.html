@@ -903,62 +903,62 @@
 
     <section id="stats" class="section-pad">
         <div class="container">
+            
             <div class="section-header">
                 <span class="section-subtitle"># INNER INSTINCT</span>
                 <h2 class="section-title">TEAM <span class="text-highlight">STATISTIKEN</span></h2>
             </div>
 
             <div class="stats-grid">
-                </div>
-        </div>
-    </section>
-
-    <script>
-        // Generate Stats Nodes for all 7 teams
-        const plTeams = ["Prime", "Spark", "Ember", "Nova", "Abyss", "Night", "Freezer"];
-        const statsContainer = document.querySelector('.stats-grid');
-        
-        plTeams.forEach(name => {
-            const id = name.toLowerCase();
-            const html = `
-                <div class="stats-node card--hud" id="node_${id}">
-                    <div class="node-header">
-                        <div class="node-title">
-                            <span class="status-pulse"></span>
-                            <h3>UIC ${name.toUpperCase()} <span class="node-meta" id="${id}_pl_div">// --</span></h3>
-                        </div>
-                        <div class="node-rank">
-                            <span class="rank-label">RANG</span>
-                            <span class="rank-value" id="${id}_pl_rank">--</span>
-                        </div>
-                    </div>
-
-                    <div class="node-data-grid">
-                        <div class="data-item">
-                            <span class="data-label">SPIELE</span>
-                            <span class="data-value" id="${id}_pl_games">0</span>
-                        </div>
-                        <div class="data-item">
-                            <span class="data-label text-primary">SIEGE</span>
-                            <span class="data-value" id="${id}_pl_wins">0</span>
-                        </div>
-                        <div class="data-item">
-                            <span class="data-label text-secondary">NIEDERLAGE</span>
-                            <span class="data-value" id="${id}_pl_losses">0</span>
-                        </div>
-                        <div class="data-item">
-                            <span class="data-label">PUNKTE</span>
-                            <span class="data-value text-highlight" id="${id}_pl_points">0</span>
-                        </div>
-                    </div>
+                <script>
+                    // This single script handles the generation for all 7 teams
+                    const statsTeams = ["Prime", "Spark", "Ember", "Nova", "Abyss", "Night", "Freezer"];
+                    const container = document.querySelector('.stats-grid');
                     
-                    <div class="node-progress">
-                        <div class="progress-bar" id="${id}_pl_bar" style="width: 0%;"></div>
-                    </div>
-                </div>`;
-            statsContainer.insertAdjacentHTML('beforeend', html);
-        });
-    </script>
+                    statsTeams.forEach(name => {
+                        const id = name.toLowerCase();
+                        container.insertAdjacentHTML('beforeend', `
+                            <div class="stats-node card--hud" id="node_${id}">
+                                <div class="node-header">
+                                    <div class="node-title">
+                                        <span class="status-pulse"></span>
+                                        <h3>UIC ${name.toUpperCase()} <span class="node-meta" id="${id}_pl_div">// FETCHING...</span></h3>
+                                    </div>
+                                    <div class="node-rank">
+                                        <span class="rank-label">RANG</span>
+                                        <span class="rank-value" id="${id}_pl_rank">--</span>
+                                    </div>
+                                </div>
+
+                                <div class="node-data-grid">
+                                    <div class="data-item">
+                                        <span class="data-label">SPIELE</span>
+                                        <span class="data-value" id="${id}_pl_games">0</span>
+                                    </div>
+                                    <div class="data-item">
+                                        <span class="data-label text-primary">SIEGE</span>
+                                        <span class="data-value" id="${id}_pl_wins">0</span>
+                                    </div>
+                                    <div class="data-item">
+                                        <span class="data-label text-secondary">NIEDERLAGE</span>
+                                        <span class="data-value" id="${id}_pl_losses">0</span>
+                                    </div>
+                                    <div class="data-item">
+                                        <span class="data-label">PUNKTE</span>
+                                        <span class="data-value text-highlight" id="${id}_pl_points">0</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="node-progress">
+                                    <div class="progress-bar" id="${id}_pl_bar" style="width: 0%;"></div>
+                                </div>
+                            </div>
+                        `);
+                    });
+                </script>
+            </div> 
+        </div> 
+    </section>
 
     <section id="events" class="section-pad">
         <div class="container">
@@ -1385,54 +1385,47 @@
     </script>
 
     <script>
-        async function loadPrimeStats() {
-            try {
-                const res = await fetch('./prime_stats.json');
-                if (!res.ok) return;
-                const data = await res.json();
+    async function loadPrimeStats() {
+        try {
+            const res = await fetch('./prime_stats.json');
+            if (!res.ok) return;
+            const data = await res.json();
 
-                const teamKeys = ["prime", "spark", "ember", "nova", "abyss", "night", "freezer"];
+            const teamKeys = ["prime", "spark", "ember", "nova", "abyss", "night", "freezer"];
 
-                teamKeys.forEach(key => {
-                    const team = data[key];
-                    if (team) {
-                        // Division & Rank
-                        const divEl = document.getElementById(`${key}_pl_div`);
-                        const rankEl = document.getElementById(`${key}_pl_rank`);
-                        if (divEl) divEl.innerText = `// ${team.division}`;
-                        if (rankEl) rankEl.innerText = team.rank.toString().padStart(2, '0');
+            teamKeys.forEach(key => {
+                const stats = data[key];
+                if (stats) {
+                    // Update UI elements using your pl_ suffixes
+                    const divEl = document.getElementById(`${key}_pl_div`);
+                    const rankEl = document.getElementById(`${key}_pl_rank`);
+                    const gamesEl = document.getElementById(`${key}_pl_games`);
+                    const winsEl = document.getElementById(`${key}_pl_wins`);
+                    const lossesEl = document.getElementById(`${key}_pl_losses`);
+                    const pointsEl = document.getElementById(`${key}_pl_points`);
+                    const barEl = document.getElementById(`${key}_pl_bar`);
 
-                        // Counters
-                        const elements = {
-                            games: document.getElementById(`${key}_pl_games`),
-                            wins: document.getElementById(`${key}_pl_wins`),
-                            losses: document.getElementById(`${key}_pl_losses`),
-                            points: document.getElementById(`${key}_pl_points`),
-                            bar: document.getElementById(`${key}_pl_bar`)
-                        };
+                    if (divEl) divEl.innerText = `// ${stats.division}`;
+                    if (rankEl) rankEl.innerText = stats.rank.toString().padStart(2, '0');
+                    if (gamesEl) gamesEl.innerText = stats.games;
+                    if (winsEl) winsEl.innerText = stats.wins;
+                    if (lossesEl) lossesEl.innerText = stats.losses;
+                    if (pointsEl) pointsEl.innerText = stats.points;
 
-                        if (elements.games) elements.games.innerText = team.games;
-                        if (elements.wins) elements.wins.innerText = team.wins;
-                        if (elements.losses) elements.losses.innerText = team.losses;
-                        if (elements.points) elements.points.innerText = team.points;
-
-                        // Win Rate Logic
-                        if (elements.bar) {
-                            const winRate = team.games > 0 ? (team.wins / team.games) * 100 : 0;
-                            elements.bar.style.width = `${winRate}%`;
-                        }
+                    // Win Rate Bar calculation
+                    if (barEl) {
+                        const winRate = stats.games > 0 ? (stats.wins / stats.games) * 100 : 0;
+                        barEl.style.width = `${winRate}%`;
                     }
-                });
-            } catch (e) {
-                console.error("Prime Stats Sync Error:", e);
-            }
+                }
+            });
+        } catch (e) {
+            console.error("Prime Stats Sync Error:", e);
         }
+    }
 
-        // Add to your existing Initializer
-        document.addEventListener('DOMContentLoaded', () => {
-            loadData();       // Your Player Cards (Riot)
-            loadPrimeStats(); // Your Team Stats (Prime League)
-        });
+    // Ensure it runs after DOM load
+    document.addEventListener('DOMContentLoaded', loadPrimeStats);
     </script>
 
 
