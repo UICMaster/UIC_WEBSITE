@@ -1,0 +1,58 @@
+{
+  "prime": {
+    "division": "DIV ?",
+    "rank": "0",
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "points": 0
+  },
+  "spark": {
+    "division": "DIV ?",
+    "rank": "0",
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "points": 0
+  },
+  "ember": {
+    "division": "DIV ?",
+    "rank": "0",
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "points": 0
+  },
+  "nova": {
+    "division": "DIV ?",
+    "rank": "0",
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "points": 0
+  },
+  "abyss": {
+    "division": "DIV ?",
+    "rank": "0",
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "points": 0
+  },
+  "night": {
+    "division": "DIV ?",
+    "rank": "0",
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "points": 0
+  },
+  "freezer": {
+    "division": "DIV ?",
+    "rank": "0",
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "points": 0
+  }
+}
