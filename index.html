@@ -903,86 +903,62 @@
 
     <section id="stats" class="section-pad">
         <div class="container">
-            
             <div class="section-header">
                 <span class="section-subtitle"># INNER INSTINCT</span>
                 <h2 class="section-title">TEAM <span class="text-highlight">STATISTIKEN</span></h2>
             </div>
 
             <div class="stats-grid">
-                
-                <div class="stats-node card--hud" data-team-id="prime">
-                    <div class="node-header">
-                        <div class="node-title">
-                            <span class="status-pulse"></span>
-                            <h3>UIC PRIME <span class="node-meta">// DIV_3.4</span></h3>
-                        </div>
-                        <div class="node-rank">
-                            <span class="rank-label">RANG</span>
-                            <span class="rank-value">01</span>
-                        </div>
-                    </div>
-
-                    <div class="node-data-grid">
-                        <div class="data-item">
-                            <span class="data-label">SPIELE</span>
-                            <span class="data-value">12</span>
-                        </div>
-                        <div class="data-item">
-                            <span class="data-label text-primary">SIEGE</span>
-                            <span class="data-value">10</span>
-                        </div>
-                        <div class="data-item">
-                            <span class="data-label text-secondary">NIEDERLAGE</span>
-                            <span class="data-value">02</span>
-                        </div>
-                        <div class="data-item">
-                            <span class="data-label">PUNKTE</span>
-                            <span class="data-value text-highlight">30</span>
-                        </div>
-                    </div>
-                    
-                    <div class="node-progress">
-                        <div class="progress-bar" style="width: 83%;"></div>
-                    </div>
-                </div> <div class="stats-node card--hud" data-team-id="spark">
-                    <div class="node-header">
-                        <div class="node-title">
-                            <span class="status-pulse"></span>
-                            <h3>UIC SPARK <span class="node-meta">// DIV_4.12</span></h3>
-                        </div>
-                        <div class="node-rank">
-                            <span class="rank-label">RANG</span>
-                            <span class="rank-value">03</span>
-                        </div>
-                    </div>
-
-                    <div class="node-data-grid">
-                        <div class="data-item">
-                            <span class="data-label">SPIELE</span>
-                            <span class="data-value">12</span>
-                        </div>
-                        <div class="data-item">
-                            <span class="data-label text-primary">SIEGE</span>
-                            <span class="data-value">08</span>
-                        </div>
-                        <div class="data-item">
-                            <span class="data-label text-secondary">NIEDERLAGE</span>
-                            <span class="data-value">04</span>
-                        </div>
-                        <div class="data-item">
-                            <span class="data-label">PUNKTE</span>
-                            <span class="data-value text-highlight">24</span>
-                        </div>
-                    </div>
-                    
-                    <div class="node-progress">
-                        <div class="progress-bar" style="width: 66%;"></div>
-                    </div>
-                </div> 
-            </div> 
-        </div> 
+                </div>
+        </div>
     </section>
+
+    <script>
+        // Generate Stats Nodes for all 7 teams
+        const plTeams = ["Prime", "Spark", "Ember", "Nova", "Abyss", "Night", "Freezer"];
+        const statsContainer = document.querySelector('.stats-grid');
+        
+        plTeams.forEach(name => {
+            const id = name.toLowerCase();
+            const html = `
+                <div class="stats-node card--hud" id="node_${id}">
+                    <div class="node-header">
+                        <div class="node-title">
+                            <span class="status-pulse"></span>
+                            <h3>UIC ${name.toUpperCase()} <span class="node-meta" id="${id}_pl_div">// --</span></h3>
+                        </div>
+                        <div class="node-rank">
+                            <span class="rank-label">RANG</span>
+                            <span class="rank-value" id="${id}_pl_rank">--</span>
+                        </div>
+                    </div>
+
+                    <div class="node-data-grid">
+                        <div class="data-item">
+                            <span class="data-label">SPIELE</span>
+                            <span class="data-value" id="${id}_pl_games">0</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label text-primary">SIEGE</span>
+                            <span class="data-value" id="${id}_pl_wins">0</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label text-secondary">NIEDERLAGE</span>
+                            <span class="data-value" id="${id}_pl_losses">0</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">PUNKTE</span>
+                            <span class="data-value text-highlight" id="${id}_pl_points">0</span>
+                        </div>
+                    </div>
+                    
+                    <div class="node-progress">
+                        <div class="progress-bar" id="${id}_pl_bar" style="width: 0%;"></div>
+                    </div>
+                </div>`;
+            statsContainer.insertAdjacentHTML('beforeend', html);
+        });
+    </script>
 
     <section id="events" class="section-pad">
         <div class="container">
@@ -1407,6 +1383,58 @@
         // Initialize HUD on Page Load
         document.addEventListener('DOMContentLoaded', loadData);
     </script>
+
+    <script>
+        async function loadPrimeStats() {
+            try {
+                const res = await fetch('./prime_stats.json');
+                if (!res.ok) return;
+                const data = await res.json();
+
+                const teamKeys = ["prime", "spark", "ember", "nova", "abyss", "night", "freezer"];
+
+                teamKeys.forEach(key => {
+                    const team = data[key];
+                    if (team) {
+                        // Division & Rank
+                        const divEl = document.getElementById(`${key}_pl_div`);
+                        const rankEl = document.getElementById(`${key}_pl_rank`);
+                        if (divEl) divEl.innerText = `// ${team.division}`;
+                        if (rankEl) rankEl.innerText = team.rank.toString().padStart(2, '0');
+
+                        // Counters
+                        const elements = {
+                            games: document.getElementById(`${key}_pl_games`),
+                            wins: document.getElementById(`${key}_pl_wins`),
+                            losses: document.getElementById(`${key}_pl_losses`),
+                            points: document.getElementById(`${key}_pl_points`),
+                            bar: document.getElementById(`${key}_pl_bar`)
+                        };
+
+                        if (elements.games) elements.games.innerText = team.games;
+                        if (elements.wins) elements.wins.innerText = team.wins;
+                        if (elements.losses) elements.losses.innerText = team.losses;
+                        if (elements.points) elements.points.innerText = team.points;
+
+                        // Win Rate Logic
+                        if (elements.bar) {
+                            const winRate = team.games > 0 ? (team.wins / team.games) * 100 : 0;
+                            elements.bar.style.width = `${winRate}%`;
+                        }
+                    }
+                });
+            } catch (e) {
+                console.error("Prime Stats Sync Error:", e);
+            }
+        }
+
+        // Add to your existing Initializer
+        document.addEventListener('DOMContentLoaded', () => {
+            loadData();       // Your Player Cards (Riot)
+            loadPrimeStats(); // Your Team Stats (Prime League)
+        });
+    </script>
+
 
 </body>
 </html>
