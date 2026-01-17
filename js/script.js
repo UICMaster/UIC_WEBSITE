@@ -1,38 +1,98 @@
-/* =========================================
-   TEAM TAB SYSTEM
-   ========================================= */
+//* =========================================
+//  1. TEAM TAB SYSTEM (Cyber-Switch)
+//  ========================================= */
 function openTeam(evt, teamName) {
-    // 1. Hide all elements with class="team-grid"
+    // Hide all grids
     const teamGrids = document.getElementsByClassName("team-grid");
     for (let i = 0; i < teamGrids.length; i++) {
         teamGrids[i].classList.remove("active");
     }
 
-    // 2. Remove "active" class from all tab buttons
+    // Deactivate all buttons
     const tabLinks = document.getElementsByClassName("tab-btn");
     for (let i = 0; i < tabLinks.length; i++) {
         tabLinks[i].classList.remove("active");
     }
 
-    // 3. Show the current team, and make the clicked button active
+    // Activate selected grid & button
     const selectedTeam = document.getElementById(teamName);
     if (selectedTeam) {
         selectedTeam.classList.add("active");
     }
-    
-    // Add active class to the button that was clicked
     evt.currentTarget.classList.add("active");
+
+    // Mobile: Center the button in the scrollable tab bar
+    evt.currentTarget.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
 }
 
-// Initializer: Ensure the first team is visible on load
+//* =========================================
+//  2. TACTICAL HUD DATA LOADER
+//  ========================================= */
+async function loadData() {
+    try {
+        const res = await fetch('./data.json');
+        if (!res.ok) throw new Error("Data file not found");
+        const data = await res.json();
+
+        const teams = ["prime", "spark", "ember", "nova", "abyss", "night", "freezer"];
+        const roles = ["top", "jgl", "mid", "bot", "sup", "coach"];
+
+        teams.forEach(team => {
+            roles.forEach(role => {
+                const key = `${team}_${role}`;
+                const stats = data[key];
+
+                const nameEl = document.getElementById(`${key}_name`);
+                const rankEl = document.getElementById(`${key}_rank`);
+                const wlEl   = document.getElementById(`${key}_wl`);
+                const iconEl = document.getElementById(`${key}_icon`);
+                const lvlEl  = document.getElementById(`${key}_level`);
+
+                if (stats) {
+                    if (nameEl) nameEl.innerText = stats.name;
+                    if (rankEl) rankEl.innerText = stats.rank;
+                    if (wlEl)   wlEl.innerText   = `W/L: ${stats.wl}`;
+                    if (lvlEl)  lvlEl.innerText  = stats.level;
+
+                    if (iconEl) {
+                        // Prevents broken icon visuals
+                        iconEl.onerror = function() {
+                            this.src = 'assets/profile/placeholder.png';
+                            this.onerror = null; 
+                        };
+                        iconEl.src = stats.icon;
+                        iconEl.style.display = "block";
+                    }
+                } else {
+                    // Open Spot Logic
+                    if (nameEl) nameEl.innerText = "OPEN SPOT";
+                    if (rankEl) rankEl.innerText = "RECRUITING";
+                    if (wlEl)   wlEl.innerHTML   = "&nbsp;";
+                    if (lvlEl)  lvlEl.innerText  = "0";
+                    if (iconEl) iconEl.style.display = "none";
+                }
+            });
+        });
+    } catch (e) {
+        console.error("HUD Sync Error:", e);
+    }
+}
+
+//* =========================================
+//  3. INITIALIZER
+//  ========================================= */
 document.addEventListener("DOMContentLoaded", () => {
-    // We target the button marked 'active' in your HTML
+    loadData(); // Sync Riot Data
+
+    // Automatically show the first active team grid
     const activeBtn = document.querySelector(".tab-btn.active");
     if (activeBtn) {
-        // Extract 'Prime' from the onclick="openTeam(event, 'Prime')"
-        const teamId = activeBtn.getAttribute('onclick').split("'")[3]; 
-        const defaultGrid = document.getElementById(teamId);
-        if (defaultGrid) defaultGrid.classList.add("active");
+        // Find team name from onclick="openTeam(event, 'TeamID')"
+        const match = activeBtn.getAttribute('onclick').match(/'([^']+)'/);
+        if (match && match[1]) {
+            const defaultGrid = document.getElementById(match[1]);
+            if (defaultGrid) defaultGrid.classList.add("active");
+        }
     }
 });
 
