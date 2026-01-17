@@ -988,141 +988,102 @@ html {
 }
 
 /* =========================================
-   11. STATS SECTION (Tactical Grid)
+   11. STATS SECTION (Unified HUD Terminal)
    ========================================= */
 
-.stats-grid {
-    display: grid;
-    /* Two-column layout using the site's standard gap */
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--grid-gap);
-    width: 100%;
-}
-
-.stats-node {
+.hud-terminal {
     background: var(--bg-glass);
-    backdrop-filter: blur(10px);
-    border: 1px solid var(--glass-border);
-    padding: 2rem;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(0, 240, 255, 0.2);
     position: relative;
-    transition: all 0.3s ease;
-    /* Corner cut consistent with the HUD design language */
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+    padding: 5px; /* Creates a small inner gap for the tactical border */
 }
 
-.stats-node:hover {
-    border-color: var(--primary);
-    background: rgba(0, 240, 255, 0.03);
-    transform: translateY(-5px);
+/* Tactical Corner Brackets */
+.hud-terminal::before, .hud-terminal::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
+/* Top Left Bracket */
+.hud-terminal::before {
+    top: -2px; left: -2px;
+    border-top: 3px solid var(--primary);
+    border-left: 3px solid var(--primary);
+}
+/* Bottom Right Bracket */
+.hud-terminal::after {
+    bottom: -2px; right: -2px;
+    border-bottom: 3px solid var(--primary);
+    border-right: 3px solid var(--primary);
 }
 
-.node-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 2rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    padding-bottom: 1rem;
-}
-
-.node-title {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.node-title h3 {
-    font-family: var(--font-head);
-    font-size: 1.2rem;
-    letter-spacing: 2px;
-    margin: 0;
-    color: var(--text-white);
-}
-
-.node-meta {
-    font-size: 0.65rem;
-    color: var(--primary);
-    opacity: 0.6;
-    margin-left: 5px;
-    text-transform: uppercase;
-}
-
-.node-rank {
-    text-align: right;
-}
-
-.rank-label {
-    display: block;
-    font-family: var(--font-head);
-    font-size: 0.6rem;
-    color: var(--text-muted);
-    letter-spacing: 1px;
-}
-
-.rank-value {
-    font-family: var(--font-head);
-    font-size: 1.8rem;
-    font-weight: 900;
-    color: var(--primary);
-    line-height: 1;
-}
-
-/* 4-column breakdown within the card */
-.node-data-grid {
+/* Terminal Column Layout */
+.terminal-row, .terminal-header {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1.5fr;
+    gap: 10px;
+    align-items: center;
+    padding: 12px 20px;
 }
 
-.data-item {
-    display: flex;
-    flex-direction: column;
-}
-
-.data-label {
+.terminal-header {
+    background: rgba(0, 240, 255, 0.1);
     font-family: var(--font-head);
-    font-size: 0.65rem;
-    letter-spacing: 1px;
-    margin-bottom: 5px;
+    font-size: 0.7rem;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 1px solid rgba(0, 240, 255, 0.3);
 }
 
-.data-value {
-    font-family: var(--font-head);
-    font-size: 1.3rem;
-    color: var(--text-white);
+.terminal-row {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    transition: background 0.2s ease;
 }
 
-.node-progress {
-    margin-top: 2rem;
-    height: 2px;
-    background: rgba(255, 255, 255, 0.05);
+.terminal-row:hover {
+    background: rgba(0, 240, 255, 0.04);
+}
+
+/* Typography Clarity */
+.col-team { font-family: var(--font-head); color: #fff; font-size: 1rem; display: flex; align-items: center; gap: 12px; }
+.col-div { font-family: var(--font-body); color: var(--primary); font-size: 0.8rem; opacity: 0.8; }
+.col-rank { font-family: var(--font-head); color: var(--primary); font-size: 1.2rem; font-weight: 800; }
+.col-val { font-family: var(--font-head); color: #fff; font-size: 1.1rem; }
+
+/* Pulse Indicator (Simplified) */
+.status-pulse {
+    width: 3px;
+    height: 14px;
+    background: var(--primary);
+    box-shadow: 0 0 8px var(--primary);
+}
+
+/* Win Rate Bar */
+.mini-bar {
+    height: 4px;
+    background: rgba(255, 255, 255, 0.1);
     width: 100%;
+    position: relative;
 }
-
-.progress-bar {
+.mini-bar-fill {
     height: 100%;
     background: var(--primary);
-    box-shadow: 0 0 15px var(--primary);
+    box-shadow: 0 0 10px var(--primary);
+    transition: width 1s ease-in-out;
 }
 
-.status-pulse {
-    width: 4px;
-    height: 16px;
-    background: var(--primary);
-    animation: tech-pulse 2s infinite ease-in-out;
-}
-
-/* --- Responsive Adjustments --- */
-@media (max-width: 1100px) {
-    .stats-grid {
-        grid-template-columns: 1fr; /* Switch to single column for tablets */
+/* Mobile Responsiveness */
+@media (max-width: 900px) {
+    .terminal-header { display: none; }
+    .terminal-row {
+        grid-template-columns: 1fr 1fr;
+        padding: 15px;
     }
-}
-
-@media (max-width: 600px) {
-    .node-data-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2x2 grid on mobile */
-    }
+    .col-team { grid-column: 1 / span 2; border-bottom: 1px solid rgba(0, 240, 255, 0.1); padding-bottom: 8px; }
 }
 
 /* =========================================
