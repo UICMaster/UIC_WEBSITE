@@ -904,27 +904,13 @@
 <section id="stats" class="section-pad">
     <div class="container">
         <div class="section-header">
-            <span class="section-subtitle"># SYSTEM_INTEGRITY</span>
-            <h2 class="section-title">LEAGUE <span class="text-highlight">TELEMETRY</span></h2>
+            <span class="section-subtitle"># LEAGUE_TELEMETRY</span>
+            <h2 class="section-title">TEAM <span class="text-highlight">STATISTIKEN</span></h2>
         </div>
 
-        <div class="hud-terminal">
-            <div class="terminal-header">
-                <div class="col-team">IDENT_NAME</div>
-                <div class="col-div">DIV</div>
-                <div class="col-rank">RANK</div>
-                <div class="col-stats">RECORD</div>
-                <div class="col-pts">PTS</div>
-                <div class="col-progress">WIN_RATE_ACCURACY</div>
-            </div>
-            
-            <div id="terminal-body">
-                <div class="terminal-loader">INITIALIZING_DATA_STREAM...</div>
-            </div>
-
-            <div class="terminal-footer">
-                <span>STATUS: ENCRYPTED_CONNECTION_STABLE</span>
-                <span id="last-update">REFRESH_RATE: 3600s</span>
+        <div id="stats-telemetry-list" class="stats-list">
+            <div class="terminal-loader" style="color: var(--primary); font-family: var(--font-head); padding: 20px;">
+                INITIALIZING_SYNC...
             </div>
         </div>
     </div>
@@ -1355,51 +1341,62 @@
     </script>
 
     <script>
-async function loadPrimeStats() {
-    try {
-        const res = await fetch('./prime_stats.json?t=' + Date.now());
-        if (!res.ok) throw new Error("Stats not available");
-        const data = await res.json();
+        async function loadPrimeStats() {
+            try {
+                const res = await fetch('./prime_stats.json?t=' + Date.now());
+                if (!res.ok) throw new Error("File Load Error");
+                const data = await res.json();
 
-        const teams = ["prime", "spark", "ember", "nova", "abyss", "night", "freezer"];
-        const container = document.getElementById('terminal-body');
-        
-        if (!container) return;
-        container.innerHTML = ''; // Clear loading message
-
-        teams.forEach(key => {
-            const s = data[key];
-            if (s) {
-                const wr = s.games > 0 ? (s.wins / s.games) * 100 : 0;
+                const teams = ["prime", "spark", "ember", "nova", "abyss", "night", "freezer"];
+                const container = document.getElementById('stats-telemetry-list');
                 
-                const row = `
-                    <div class="terminal-row">
-                        <div class="col-team">
-                            <span class="status-pulse-mini"></span>
-                            UIC ${key.toUpperCase()}
-                        </div>
-                        <div class="col-div">${s.division}</div>
-                        <div class="col-rank">${s.rank.toString().padStart(2, '0')}</div>
-                        <div class="col-stats">${s.wins}W - ${s.losses}L</div>
-                        <div class="col-pts">${s.points}</div>
-                        <div class="col-progress">
-                            <div class="mini-progress">
-                                <div class="mini-progress-fill" style="width: ${wr}%"></div>
-                            </div>
-                        </div>
-                    </div>
-                `;
-                container.insertAdjacentHTML('beforeend', row);
-            }
-        });
-    } catch (e) {
-        document.getElementById('terminal-body').innerHTML = 
-            `<div class="terminal-row" style="color: var(--secondary)">⚠️ DATA_STREAM_OFFLINE: ${e.message}</div>`;
-    }
-}
+                if (!container) return;
+                container.innerHTML = ''; // Clear loader
 
-// Call on load
-document.addEventListener('DOMContentLoaded', loadPrimeStats);
+                teams.forEach(key => {
+                    const s = data[key];
+                    if (s) {
+                        const row = `
+                            <div class="stats-row">
+                                <div class="stats-rank-box">
+                                    <span class="rank-label">RANG</span>
+                                    <span class="rank-number">${s.rank.toString().padStart(2, '0')}</span>
+                                </div>
+                                
+                                <div class="stats-info">
+                                    <h4>UIC ${key.toUpperCase()}</h4>
+                                    <span class="stats-div-tag">// ${s.division}</span>
+                                </div>
+
+                                <div class="stats-data-group">
+                                    <div class="data-point">
+                                        <span class="label">Matches</span>
+                                        <span class="value">${s.games}</span>
+                                    </div>
+                                    <div class="data-point">
+                                        <span class="label text-primary">Wins</span>
+                                        <span class="value">${s.wins}</span>
+                                    </div>
+                                    <div class="data-point">
+                                        <span class="label text-secondary">Loss</span>
+                                        <span class="value">${s.losses}</span>
+                                    </div>
+                                    <div class="data-point">
+                                        <span class="label">Points</span>
+                                        <span class="value pts-highlight">${s.points}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        container.insertAdjacentHTML('beforeend', row);
+                    }
+                });
+            } catch (e) {
+                console.error("Stats Sync Failed:", e);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', loadPrimeStats);
     </script>
 
 
