@@ -1,7 +1,6 @@
 const fs = require('fs');
 
-// REPLACE THE IDs with your actual Prime League Team IDs
-const teams = {
+const teamIds = {
     "prime":   "116908", 
     "spark":   "208694",
     "ember":   "211165",
@@ -11,39 +10,35 @@ const teams = {
     "freezer": "131594"
 };
 
-async function getPrimeStats(teamId) {
+async function getTeamStats(teamName, id) {
     try {
-        const response = await fetch(`https://primebot.me/api/v1/team/${teamId}`);
+        const response = await fetch(`https://primebot.me/api/v1/team/${id}`);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const data = await response.json();
         
-        // PrimeBot API typically returns standing data in a 'match' or 'team' object
-        // We extract the essentials: Rank, Wins, Losses, Division
+        const wins = data.wins || 0;
+        const losses = data.losses || 0;
+
         return {
             division: data.division_name || "N/A",
             rank: data.position || "--",
-            games: (data.wins + data.losses) || 0,
-            wins: data.wins || 0,
-            losses: data.losses || 0,
-            points: (data.wins * 3) // Standard Prime League points logic
+            games: wins + losses,
+            wins: wins,
+            losses: losses,
+            points: (wins * 3) // Standard PL Points
         };
     } catch (e) {
-        console.error(`Error fetching Prime ID ${teamId}:`, e.message);
+        console.error(`❌ Error fetching ${teamName}:`, e.message);
         return null;
     }
 }
 
 async function start() {
-    console.log("🚀 Syncing Prime League Standings...");
     let results = {};
-
-    for (const [name, id] of Object.entries(teams)) {
-        const stats = await getPrimeStats(id);
-        if (stats) {
-            results[name] = stats;
-            console.log(`✅ ${name.toUpperCase()} data retrieved.`);
-        }
+    for (const [name, id] of Object.entries(teamIds)) {
+        const stats = await getTeamStats(name, id);
+        if (stats) results[name] = stats;
     }
-
     fs.writeFileSync('prime_stats.json', JSON.stringify(results, null, 2));
     console.log("🎉 prime_stats.json updated.");
 }
