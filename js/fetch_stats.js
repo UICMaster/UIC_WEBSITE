@@ -20,14 +20,16 @@ const teams = {
         { gameName: 'UIC Lenno', tagLine: 'UIC' },
         { gameName: 'UIC Rhinoshield', tagLine: 'RIN' },
         { gameName: 'UIC Flare', tagLine: 'JND' },
-        { gameName: '', tagLine: '' }
+        { gameName: '', tagLine: '' }, 
+        { gameName: 'soulrender', tagLine: 'fent' }
     ],
     "ember": [
         { gameName: 'SilasX', tagLine: 'EUWde' },
         { gameName: 'UIC Shederen', tagLine: 'Ger' },
         { gameName: 'ResetHoe', tagLine: 'Kata' },
         { gameName: 'UIC DontMethWith', tagLine: 'AMB' },
-        { gameName: 'UIC Envy', tagLine: 'UIC' }
+        { gameName: 'UIC Envy', tagLine: 'UIC' }, 
+        { gameName: 'RatHairedShanks', tagLine: 'NoPie' }
     ],
     "nova": [
         { gameName: 'TAS Kaetaya', tagLine: 'XwX' },

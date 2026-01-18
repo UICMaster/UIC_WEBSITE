@@ -8,7 +8,7 @@ const teams = {
     "nova":    "203447",
     "abyss":   "204924",
     "night":   "212047",
-    "freezer": "131594"
+    "freezer": "203146"
 };
 
 async function getPrimeStats(teamName, id) {
