@@ -1,169 +1,176 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // --- 1. CONFIGURATION ---
+    // --- 1. CONFIGURATION: YOUR PLAYLIST ---
     const playlist = [
-        { title: "UIC HYMNE - 2025", src: "assets/audio/ULTRA_INSTINCT_CREW_AUDIO_2025.mp3" },
-        { title: "UIC HYMNE - 2026", src: "assets/audio/ULTRA_INSTINCT_CREW_AUDIO_2026.mp3" }
+        { 
+            title: "UIC ANTHEM - 2025", 
+            src: "assets/audio/ULTRA_INSTINCT_CREW_AUDIO_2025.mp3"
+        },
+        { 
+            title: "UIC ANTHEM - 2026",    
+            src: "assets/audio/ULTRA_INSTINCT_CREW_AUDIO_2026.mp3" 
+        }
     ];
 
     // --- 2. UI ELEMENTS ---
     const audioEngine = document.getElementById('audio-engine');
-    const deck         = document.getElementById('command-deck');
-    const trigger      = document.getElementById('deck-trigger');
-    const progressContainer = document.getElementById('deck-progress-bar');
-    const progressFill = document.getElementById('deck-progress-fill');
-    const visualizer   = document.getElementById('visualizer');
+    const deck = document.getElementById('command-deck');
+    const trigger = document.getElementById('deck-trigger');
     
-    const trackMini    = document.getElementById('deck-track-mini');
-    const trackFull    = document.getElementById('deck-track-full');
-    const statusText   = document.getElementById('deck-status-text');
+    const trackMini = document.getElementById('deck-track-mini');
+    const trackFull = document.getElementById('deck-track-full');
+    const statusText = document.getElementById('deck-status-text');
     
-    const btnPlay      = document.getElementById('cmd-play');
-    const iconPlay     = document.getElementById('icon-play');
-    const iconPause    = document.getElementById('icon-pause');
-    const btnMute      = document.getElementById('cmd-mute-toggle');
+    const btnPlay = document.getElementById('cmd-play');
+    const iconPlay = document.getElementById('icon-play');
+    const iconPause = document.getElementById('icon-pause');
+    
+    const btnNext = document.getElementById('cmd-next');
+    const btnPrev = document.getElementById('cmd-prev');
+    const btnMute = document.getElementById('cmd-mute-toggle');
+    const progress = document.getElementById('deck-progress-fill');
 
-    // --- 3. STATE ---
+    // --- 3. STATE VARIABLES ---
     let currentIdx = 0;
-    let isUnlocked = false; // Tracks if user has interacted to allow sound
+    let isSystemLocked = true; // Browser default state is locked/muted
 
-    // --- 4. CORE FUNCTIONS ---
+    // --- 4. FUNCTIONS ---
 
     function loadTrack(index) {
-        // Wrap index
+        // Ensure index wraps around correctly
         if (index < 0) index = playlist.length - 1;
         if (index >= playlist.length) index = 0;
         
+        audioEngine.src = playlist[index].src;
+        trackMini.innerText = playlist[index].title;
+        trackFull.innerText = playlist[index].title;
         currentIdx = index;
-        const track = playlist[index];
-        
-        audioEngine.src = track.src;
-        trackMini.textContent = track.title;
-        trackFull.textContent = track.title;
-        
-        // Reset progress UI
-        progressFill.style.width = "0%";
     }
 
-    function togglePlayback() {
-        if (audioEngine.paused) {
-            audioEngine.play().catch(e => console.warn("Playback blocked: Need user interaction."));
-            updateUI(true);
+    function updateIcons(isPlaying) {
+        if (isPlaying) {
+            iconPlay.classList.add('hidden');
+            iconPause.classList.remove('hidden');
         } else {
-            audioEngine.pause();
-            updateUI(false);
+            iconPlay.classList.remove('hidden');
+            iconPause.classList.add('hidden');
         }
     }
 
-    function updateUI(isPlaying) {
-        // Toggle Play/Pause Icons
-        iconPlay.classList.toggle('hidden', isPlaying);
-        iconPause.classList.toggle('hidden', !isPlaying);
+    // Handles the Mute/Unmute UI and Logic
+    function setSystemState(locked) {
+        isSystemLocked = locked;
+        audioEngine.muted = locked;
+
+        if (locked) {
+            statusText.innerText = "AUDIO STUMM";
+            statusText.classList.add('blink-warning');
+            statusText.style.color = ""; // Reset color
+            btnMute.innerText = "VERSTUMMUNG AUFHEBEN";
+            btnMute.classList.remove('unlocked');
+        } else {
+            statusText.innerText = "AUDIO LÄUFT";
+            statusText.classList.remove('blink-warning');
+            statusText.style.color = "var(--primary)";
+            btnMute.innerText = "AUDIO STUMMEN";
+            btnMute.classList.add('unlocked');
+        }
+    }
+
+    // --- 5. INITIALIZATION SEQUENCE ---
+    function initAudio() {
+        loadTrack(0);
+        audioEngine.volume = 0.5; 
+        audioEngine.muted = true; // Start muted to allow Autoplay
         
-        // Visualizer Animation Control
-        if (visualizer) {
-            visualizer.style.animationPlayState = isPlaying ? 'running' : 'paused';
-            visualizer.querySelectorAll('.vis-bar').forEach(bar => {
-                bar.style.animationPlayState = isPlaying ? 'running' : 'paused';
+        // Try to play immediately
+        let playPromise = audioEngine.play();
+
+        if (playPromise !== undefined) {
+            playPromise.then(_ => {
+                // Audio is playing (but muted)
+                updateIcons(true);
+            }).catch(error => {
+                // Auto-play blocked entirely
+                console.log("Auto-play blocked. Waiting for user.");
+                updateIcons(false);
             });
         }
     }
 
-    function setMuteState(muted) {
-        audioEngine.muted = muted;
-        if (!muted) {
-            isUnlocked = true;
-            statusText.textContent = "AUDIO LÄUFT";
-            statusText.classList.remove('blink-warning');
-            statusText.style.color = "var(--primary)";
-            btnMute.textContent = "AUDIO STUMMEN";
-            btnMute.classList.add('unlocked');
-        } else {
-            statusText.textContent = "AUDIO STUMM";
-            statusText.classList.add('blink-warning');
-            statusText.style.color = "";
-            btnMute.textContent = "VERSTUMMUNG AUFHEBEN";
-            btnMute.classList.remove('unlocked');
-        }
-    }
+    // --- 6. EVENT LISTENERS ---
 
-    // --- 5. INTERACTIVE EVENTS ---
-
-    // Toggle Deck Expansion
+    // EXPAND & UNLOCK
     trigger.addEventListener('click', () => {
         deck.classList.toggle('collapsed');
-        const isExpanded = !deck.classList.contains('collapsed');
-        trigger.setAttribute('aria-expanded', isExpanded);
     });
 
-    // Master Play Button
-    btnPlay.addEventListener('click', (e) => {
-        e.stopPropagation();
-        if (!isUnlocked) setMuteState(false);
-        togglePlayback();
+    // PLAY / PAUSE
+    btnPlay.addEventListener('click', () => {
+        if (audioEngine.paused) {
+            audioEngine.play();
+            updateIcons(true);
+        } else {
+            audioEngine.pause();
+            updateIcons(false);
+        }
+        
+        // Any interaction on the main button should unlock audio
+        if (isSystemLocked) setSystemState(false);
     });
 
-    // Mute/Unlock Button
-    btnMute.addEventListener('click', (e) => {
-        e.stopPropagation();
-        setMuteState(!audioEngine.muted);
-        if (!audioEngine.muted && audioEngine.paused) togglePlayback();
+    // UNLOCK / MUTE BUTTON
+    btnMute.addEventListener('click', () => {
+        if (isSystemLocked) {
+            setSystemState(false); // Unmute
+            audioEngine.play(); // Ensure it plays
+            updateIcons(true);
+        } else {
+            setSystemState(true); // Mute
+        }
     });
 
-    // Next/Prev
-    document.getElementById('cmd-next').addEventListener('click', () => {
+    // NEXT
+    btnNext.addEventListener('click', () => {
         loadTrack(currentIdx + 1);
-        audioEngine.play();
-        updateUI(true);
+        if (!isSystemLocked) audioEngine.play();
+        updateIcons(!audioEngine.paused);
     });
 
-    document.getElementById('cmd-prev').addEventListener('click', () => {
+    // PREV
+    btnPrev.addEventListener('click', () => {
         loadTrack(currentIdx - 1);
-        audioEngine.play();
-        updateUI(true);
+        if (!isSystemLocked) audioEngine.play();
+        updateIcons(!audioEngine.paused);
     });
 
-    // Progress Bar: Update
+    // PROGRESS BAR
     audioEngine.addEventListener('timeupdate', () => {
         if (audioEngine.duration) {
             const percent = (audioEngine.currentTime / audioEngine.duration) * 100;
-            progressFill.style.width = `${percent}%`;
+            progress.style.width = percent + "%";
         }
     });
 
-    // Progress Bar: Scrubbing (Click to skip)
-    progressContainer.addEventListener('click', (e) => {
-        const width = progressContainer.clientWidth;
-        const clickX = e.offsetX;
-        const duration = audioEngine.duration;
-        if (duration) {
-            audioEngine.currentTime = (clickX / width) * duration;
-        }
-    });
-
-    // Auto-advance
+    // AUTO NEXT
     audioEngine.addEventListener('ended', () => {
+        // 1. Load the next track (Math handled in loadTrack function)
         loadTrack(currentIdx + 1);
-        audioEngine.play();
-    });
-
-    // --- 6. INITIALIZATION ---
-    function init() {
-        loadTrack(0);
-        audioEngine.volume = 0.5;
         
-        // Start muted to comply with Autoplay Policies
-        audioEngine.muted = true; 
+        // 2. Play immediately
+        let playPromise = audioEngine.play();
         
-        const autoPlayPromise = audioEngine.play();
-        if (autoPlayPromise !== undefined) {
-            autoPlayPromise.then(() => {
-                updateUI(true); // Visualizer starts moving, but silent
-            }).catch(() => {
-                updateUI(false); // Fully blocked, wait for click
+        // 3. Ensure UI reflects "Playing" state
+        if (playPromise !== undefined) {
+            playPromise.then(_ => {
+                updateIcons(true);
+            }).catch(error => {
+                console.log("Auto-play blocked by browser.");
             });
         }
-    }
+    });
 
-    init();
+    // --- START ---
+    initAudio();
+
 });
