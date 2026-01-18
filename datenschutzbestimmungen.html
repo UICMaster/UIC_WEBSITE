@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutzerklärung</title>
+    <meta name="robots" content="noindex">
+    <style>
+        /* --- Minimal Modern CSS Start (Basis ist identisch zum Impressum) --- */
+        :root {
+            --bg-color: #f9fafb;
+            --text-color: #1f2937;
+            --heading-color: #111827;
+            --accent-color: #2563eb;
+            --container-width: 800px;
+            --border-radius: 8px;
+        }
+
+        *, *::before, *::after { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            padding: 0 20px;
+        }
+
+        header, main, footer {
+            max-width: var(--container-width);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        header {
+            padding: 2rem 0;
+            border-bottom: 1px solid #e5e7eb;
+            margin-bottom: 2rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 1rem 0;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        nav a:hover { color: var(--accent-color); }
+
+        h1, h2 { color: var(--heading-color); margin-top: 0; }
+        h1 { font-size: 2.25rem; letter-spacing: -0.025em; }
+        h2 { font-size: 1.5rem; margin-bottom: 1rem; margin-top: 2rem; }
+        
+        a { color: var(--accent-color); }
+        a:hover { text-decoration: none; }
+        address { font-style: normal; line-height: 1.8; }
+
+        /* --- Spezielles Styling für Datenschutz-Akkordeon --- */
+        
+        /* Der Container für einen ausklappbaren Bereich */
+        details {
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: var(--border-radius);
+            margin-bottom: 1rem;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); /* Subtiler Schatten für Tiefe */
+            overflow: hidden; /* Wichtig für runde Ecken beim Ausklappen */
+        }
+
+        /* Die klickbare Überschrift */
+        summary {
+            padding: 1rem 1.25rem;
+            cursor: pointer;
+            font-weight: 600;
+            background-color: #ffffff;
+            transition: background-color 0.2s;
+            outline: none; /* Entfernt Standard-Fokus-Rahmen */
+        }
+        summary:hover { background-color: #f3f4f6; }
+        /* Accessible Focus State für Tastaturnutzer */
+        summary:focus { box-shadow: inset 0 0 0 2px var(--accent-color); }
+
+        /* Styling wenn ausgeklappt */
+        details[open] summary {
+            border-bottom: 1px solid #e5e7eb;
+            background-color: #f9fafb;
+        }
+
+        /* Der Inhalt im ausgeklappten Bereich */
+        details > p, details > address {
+            padding: 1.25rem;
+            margin: 0;
+            background-color: #fff;
+            color: #374151; /* Leicht hellerer Text für den Inhalt */
+        }
+
+        footer { margin-top: 3rem; padding-bottom: 2rem; text-align: center; color: #6b7280; }
+        hr { border: 0; border-top: 1px solid #e5e7eb; margin: 2rem 0; }
+        /* --- Minimal Modern CSS End --- */
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="impressum.html">Impressum</a></li>
+            </ul>
+        </nav>
+        <h1>Datenschutzerklärung</h1>
+    </header>
+
+    <main>
+        <article>
+            <p style="color: #6b7280;"><strong>Stand: Januar 2024</strong></p>
+            
+            <section>
+                <h2>1. Datenschutz auf einen Blick</h2>
+                <details open>
+                    <summary>Allgemeine Hinweise</summary>
+                    <p>Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können.</p>
+                </details>
+                
+                <details>
+                    <summary>Datenerfassung auf dieser Website</summary>
+                    <p><strong>Wer ist verantwortlich für die Datenerfassung auf dieser Website?</strong><br>
+                    Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen.</p>
+                    
+                    <p><strong>Wie erfassen wir Ihre Daten?</strong><br>
+                    Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen (z. B. Kontaktformular). Andere Daten werden automatisch beim Besuch der Website durch unsere IT-Systeme erfasst (z. B. Browser, Uhrzeit).</p>
+                </details>
+            </section>
+
+            <section>
+                <h2>2. Hosting und Content Delivery Networks (CDN)</h2>
+                <details>
+                    <summary>Externes Hosting</summary>
+                    <p>Diese Website wird bei einem externen Dienstleister gehostet (Hoster). Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich v. a. um IP-Adressen, Meta- und Kommunikationsdaten handeln.</p>
+                </details>
+            </section>
+
+            <section>
+                <h2>3. Allgemeine Hinweise und Pflichtinformationen</h2>
+                
+                <details>
+                    <summary>Datenschutz</summary>
+                    <p>Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.</p>
+                </details>
+
+                <details>
+                    <summary>Hinweis zur verantwortlichen Stelle</summary>
+                    <address>
+                        Musterfirma GmbH<br>
+                        Musterstraße 1<br>
+                        12345 Musterstadt
+                    </address>
+                </details>
+
+                <details>
+                    <summary>Widerruf Ihrer Einwilligung zur Datenverarbeitung</summary>
+                    <p>Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns.</p>
+                </details>
+
+                <details>
+                    <summary>Recht auf Beschwerde bei der zuständigen Aufsichtsbehörde</summary>
+                    <p>Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde zu.</p>
+                </details>
+
+                <details>
+                    <summary>Recht auf Datenübertragbarkeit</summary>
+                    <p>Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen.</p>
+                </details>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <hr>
+        <p><small>&copy; 2024 Musterfirma GmbH</small></p>
+    </footer>
+
+</body>
+</html>
