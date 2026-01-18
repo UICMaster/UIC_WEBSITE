@@ -30,9 +30,9 @@ const teams = {
         { gameName: 'UIC Envy', tagLine: 'UIC' }
     ],
     "nova": [
-        { gameName: 'UIC adedier', tagLine: 'EUWE' },
+        { gameName: 'TAS Kaetaya', tagLine: 'XwX' },
         { gameName: 'UIC Rubix Qube', tagLine: 'MÖP' },
-        { gameName: 'Apathy', tagLine: 'Azir' },
+        { gameName: 'UIC adedier', tagLine: 'EUWE' },
         { gameName: 'UIC Simply', tagLine: '666' },
         { gameName: 'UIC Excellent C', tagLine: '1997' }
     ],
