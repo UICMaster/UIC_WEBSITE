@@ -45,14 +45,14 @@
     "name": "UIC Lenno",
     "level": 764,
     "rank": "GOLD I",
-    "wl": "14/6",
+    "wl": "15/6",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/2073.png"
   },
   "spark_mid": {
     "name": "UIC Rhinoshield",
     "level": 924,
-    "rank": "PLATINUM II",
-    "wl": "32/27",
+    "rank": "PLATINUM I",
+    "wl": "33/27",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6783.png"
   },
   "spark_bot": {
@@ -108,7 +108,7 @@
     "name": "UIC Rubix Qube",
     "level": 466,
     "rank": "GOLD III",
-    "wl": "20/21",
+    "wl": "21/21",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -120,9 +120,9 @@
   },
   "nova_bot": {
     "name": "UIC Simply",
-    "level": 418,
+    "level": 419,
     "rank": "GOLD II",
-    "wl": "4/6",
+    "wl": "5/6",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6388.png"
   },
   "nova_sup": {
@@ -213,7 +213,7 @@
     "name": "BlauerKlaus",
     "level": 1121,
     "rank": "DIAMOND II",
-    "wl": "25/25",
+    "wl": "25/26",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7049.png"
   },
   "freezer_mid": {
