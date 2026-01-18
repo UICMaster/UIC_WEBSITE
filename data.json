@@ -10,7 +10,7 @@
     "name": "UIC Niki",
     "level": 999,
     "rank": "DIAMOND II",
-    "wl": "16/12",
+    "wl": "17/13",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4380.png"
   },
   "prime_mid": {
@@ -38,14 +38,14 @@
     "name": "skanpy",
     "level": 313,
     "rank": "PLATINUM I",
-    "wl": "25/17",
+    "wl": "26/17",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7068.png"
   },
   "spark_jgl": {
     "name": "UIC Lenno",
     "level": 764,
     "rank": "GOLD I",
-    "wl": "13/5",
+    "wl": "14/5",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/2073.png"
   },
   "spark_mid": {
@@ -93,8 +93,8 @@
   "ember_sup": {
     "name": "UIC Envy",
     "level": 295,
-    "rank": "PLATINUM IV",
-    "wl": "49/44",
+    "rank": "PLATINUM III",
+    "wl": "50/44",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6924.png"
   },
   "nova_top": {
@@ -108,7 +108,7 @@
     "name": "UIC Rubix Qube",
     "level": 465,
     "rank": "GOLD III",
-    "wl": "18/16",
+    "wl": "18/17",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -127,9 +127,9 @@
   },
   "nova_sup": {
     "name": "UIC Excellent C",
-    "level": 540,
+    "level": 541,
     "rank": "GOLD II",
-    "wl": "14/8",
+    "wl": "15/8",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/661.png"
   },
   "abyss_top": {
