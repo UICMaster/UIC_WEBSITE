@@ -23,15 +23,15 @@
   "prime_bot": {
     "name": "UIC Giani",
     "level": 708,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "DIAMOND IV",
+    "wl": "5/0",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3398.png"
   },
   "prime_sup": {
     "name": "UIC Baguetto",
     "level": 969,
-    "rank": "EMERALD I",
-    "wl": "31/13",
+    "rank": "DIAMOND IV",
+    "wl": "33/13",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4096.png"
   },
   "spark_top": {
@@ -45,7 +45,7 @@
     "name": "UIC Lenno",
     "level": 764,
     "rank": "GOLD I",
-    "wl": "14/5",
+    "wl": "14/6",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/2073.png"
   },
   "spark_mid": {
@@ -108,7 +108,7 @@
     "name": "UIC Rubix Qube",
     "level": 465,
     "rank": "GOLD III",
-    "wl": "18/17",
+    "wl": "19/17",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -129,7 +129,7 @@
     "name": "UIC Excellent C",
     "level": 541,
     "rank": "GOLD II",
-    "wl": "15/8",
+    "wl": "15/9",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/661.png"
   },
   "abyss_top": {
