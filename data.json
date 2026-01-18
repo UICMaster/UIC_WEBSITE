@@ -36,9 +36,9 @@
   },
   "spark_top": {
     "name": "skanpy",
-    "level": 313,
+    "level": 314,
     "rank": "PLATINUM I",
-    "wl": "26/18",
+    "wl": "26/19",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7068.png"
   },
   "spark_jgl": {
@@ -59,7 +59,7 @@
     "name": "UIC Flare",
     "level": 620,
     "rank": "EMERALD IV",
-    "wl": "14/17",
+    "wl": "14/18",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/626.png"
   },
   "ember_top": {
@@ -73,7 +73,7 @@
     "name": "UIC Shederen",
     "level": 276,
     "rank": "EMERALD IV",
-    "wl": "36/32",
+    "wl": "36/33",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -212,22 +212,22 @@
   "freezer_jgl": {
     "name": "BlauerKlaus",
     "level": 1121,
-    "rank": "DIAMOND II",
-    "wl": "27/27",
+    "rank": "DIAMOND I",
+    "wl": "28/27",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7049.png"
   },
   "freezer_mid": {
     "name": "UIC FrozenHands",
     "level": 626,
     "rank": "EMERALD I",
-    "wl": "10/4",
+    "wl": "10/5",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6811.png"
   },
   "freezer_bot": {
     "name": "RG AutumnLeaf",
     "level": 821,
     "rank": "EMERALD I",
-    "wl": "17/19",
+    "wl": "17/20",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6373.png"
   },
   "freezer_sup": {
