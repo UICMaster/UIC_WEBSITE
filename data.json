@@ -52,7 +52,7 @@
     "name": "UIC Rhinoshield",
     "level": 924,
     "rank": "PLATINUM I",
-    "wl": "37/29",
+    "wl": "37/30",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4068.png"
   },
   "spark_bot": {
@@ -61,6 +61,13 @@
     "rank": "EMERALD IV",
     "wl": "14/18",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/626.png"
+  },
+  "spark_coach": {
+    "name": "soulrender",
+    "level": 297,
+    "rank": "DIAMOND III",
+    "wl": "38/49",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7028.png"
   },
   "ember_top": {
     "name": "SilasX",
@@ -96,6 +103,13 @@
     "rank": "PLATINUM III",
     "wl": "50/44",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6924.png"
+  },
+  "ember_coach": {
+    "name": "RatHairedShanks",
+    "level": 365,
+    "rank": "UNRANKED",
+    "wl": "0/0",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/785.png"
   },
   "nova_top": {
     "name": "TAS Kaetaya",
