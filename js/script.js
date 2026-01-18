@@ -1,42 +1,39 @@
-/**
- * 1. TEAM TAB SYSTEM (Cyber-Switch)
- * Handles tab switching and smooth scrolling for mobile.
- */
+//* =========================================
+//  1. TEAM TAB SYSTEM (Cyber-Switch)
+//  ========================================= */
 function openTeam(evt, teamName) {
-    // 1. Reset all grids and buttons using modern selectors
-    document.querySelectorAll(".team-grid").forEach(grid => grid.classList.remove("active"));
-    document.querySelectorAll(".tab-btn").forEach(btn => btn.classList.remove("active"));
+    // Hide all grids
+    const teamGrids = document.getElementsByClassName("team-grid");
+    for (let i = 0; i < teamGrids.length; i++) {
+        teamGrids[i].classList.remove("active");
+    }
 
-    // 2. Activate target elements
+    // Deactivate all buttons
+    const tabLinks = document.getElementsByClassName("tab-btn");
+    for (let i = 0; i < tabLinks.length; i++) {
+        tabLinks[i].classList.remove("active");
+    }
+
+    // Activate selected grid & button
     const selectedTeam = document.getElementById(teamName);
     if (selectedTeam) {
         selectedTeam.classList.add("active");
     }
-    
-    // Add active class to clicked button
     evt.currentTarget.classList.add("active");
 
-    // 3. Mobile UX: Center the button in the scrollable tab bar
-    evt.currentTarget.scrollIntoView({ 
-        behavior: 'smooth', 
-        block: 'nearest', 
-        inline: 'center' 
-    });
+    // Mobile: Center the button in the scrollable tab bar
+    evt.currentTarget.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
 }
 
-/**
- * 2. TACTICAL HUD DATA LOADER
- * Fetches JSON data and injects it into the DOM based on player IDs.
- */
+//* =========================================
+//  2. TACTICAL HUD DATA LOADER
+//  ========================================= */
 async function loadData() {
-    const DATA_PATH = './data.json';
-    const PLACEHOLDER = 'assets/profile/placeholder.png';
-
     try {
-        const res = await fetch(DATA_PATH);
-        if (!res.ok) throw new Error("Tactical Data file not found");
-        
+        const res = await fetch('./data.json');
+        if (!res.ok) throw new Error("Data file not found");
         const data = await res.json();
+
         const teams = ["prime", "spark", "ember", "nova", "abyss", "night", "freezer"];
         const roles = ["top", "jgl", "mid", "bot", "sup", "coach"];
 
@@ -45,105 +42,126 @@ async function loadData() {
                 const key = `${team}_${role}`;
                 const stats = data[key];
 
-                // Target Elements
-                const elements = {
-                    name:  document.getElementById(`${key}_name`),
-                    rank:  document.getElementById(`${key}_rank`),
-                    wl:    document.getElementById(`${key}_wl`),
-                    icon:  document.getElementById(`${key}_icon`),
-                    level: document.getElementById(`${key}_level`)
-                };
+                const nameEl = document.getElementById(`${key}_name`);
+                const rankEl = document.getElementById(`${key}_rank`);
+                const wlEl   = document.getElementById(`${key}_wl`);
+                const iconEl = document.getElementById(`${key}_icon`);
+                const lvlEl  = document.getElementById(`${key}_level`);
 
                 if (stats) {
-                    // Inject Active Player Data
-                    if (elements.name)  elements.name.textContent = stats.name;
-                    if (elements.rank)  elements.rank.textContent = stats.rank;
-                    if (elements.wl)    elements.wl.textContent   = `W/L: ${stats.wl}`;
-                    if (elements.level) elements.level.textContent  = stats.level;
+                    if (nameEl) nameEl.innerText = stats.name;
+                    if (rankEl) rankEl.innerText = stats.rank;
+                    if (wlEl)   wlEl.innerText   = `W/L: ${stats.wl}`;
+                    if (lvlEl)  lvlEl.innerText  = stats.level;
 
-                    if (elements.icon) {
-                        elements.icon.src = stats.icon;
-                        elements.icon.style.display = "block";
-                        // Error handling for missing local assets
-                        elements.icon.onerror = () => {
-                            elements.icon.src = PLACEHOLDER;
-                            elements.icon.onerror = null;
+                    if (iconEl) {
+                        // Prevents broken icon visuals
+                        iconEl.onerror = function() {
+                            this.src = 'assets/profile/placeholder.png';
+                            this.onerror = null; 
                         };
+                        iconEl.src = stats.icon;
+                        iconEl.style.display = "block";
                     }
                 } else {
-                    // Inject Recruitment / Open Spot Logic
-                    if (elements.name)  elements.name.textContent = "OPEN SPOT";
-                    if (elements.rank)  elements.rank.textContent = "RECRUITING";
-                    if (elements.wl)    elements.wl.innerHTML   = "&nbsp;";
-                    if (elements.level) elements.level.textContent  = "0";
-                    if (elements.icon)  elements.icon.style.display = "none";
+                    // Open Spot Logic
+                    if (nameEl) nameEl.innerText = "OPEN SPOT";
+                    if (rankEl) rankEl.innerText = "RECRUITING";
+                    if (wlEl)   wlEl.innerHTML   = "&nbsp;";
+                    if (lvlEl)  lvlEl.innerText  = "0";
+                    if (iconEl) iconEl.style.display = "none";
                 }
             });
         });
-        console.log("HUD Data Sync: Complete");
-    } catch (error) {
-        console.error("Critical HUD Sync Error:", error);
+    } catch (e) {
+        console.error("HUD Sync Error:", e);
     }
 }
 
-/**
- * 3. STATS COUNTER ANIMATION
- * Visual number ticking when section enters the viewport.
- */
-function initStatsObserver() {
-    const statsSection = document.querySelector('.section-pad'); // Or specific container
-    const statConfig = [
-        { id: 'stat-matches', endValue: 142, suffix: '' },
-        { id: 'stat-wr', endValue: 68, suffix: '%' },
-        { id: 'stat-players', endValue: 30, suffix: '+' },
-        { id: 'stat-cups', endValue: 12, suffix: '' }
-    ];
-
-    const startCounting = () => {
-        statConfig.forEach(stat => {
-            const el = document.getElementById(stat.id);
-            if (!el) return;
-
-            let startTime = null;
-            const duration = 2000;
-
-            const animate = (timestamp) => {
-                if (!startTime) startTime = timestamp;
-                const progress = Math.min((timestamp - startTime) / duration, 1);
-                
-                // Ease out quadratic effect for smoother feel
-                const easeOut = 1 - Math.pow(1 - progress, 3);
-                el.textContent = Math.floor(easeOut * stat.endValue) + stat.suffix;
-
-                if (progress < 1) requestAnimationFrame(animate);
-            };
-            requestAnimationFrame(animate);
-        });
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-        if (entries[0].isIntersecting) {
-            startCounting();
-            observer.disconnect(); // Run only once to save resources
-        }
-    }, { threshold: 0.3 });
-
-    if (statsSection) observer.observe(statsSection);
-}
-
-/**
- * 4. SYSTEM INITIALIZER
- */
+//* =========================================
+//  3. INITIALIZER
+//  ========================================= */
 document.addEventListener("DOMContentLoaded", () => {
-    // 1. Sync Roster Data
-    loadData();
+    loadData(); // Sync Riot Data
 
-    // 2. Init Stats Animation
-    initStatsObserver();
-
-    // 3. Handle PWA / Service Worker
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/service-worker.js')
-            .catch(err => console.warn('PWA Sync Offline:', err));
+    // Automatically show the first active team grid
+    const activeBtn = document.querySelector(".tab-btn.active");
+    if (activeBtn) {
+        // Find team name from onclick="openTeam(event, 'TeamID')"
+        const match = activeBtn.getAttribute('onclick').match(/'([^']+)'/);
+        if (match && match[1]) {
+            const defaultGrid = document.getElementById(match[1]);
+            if (defaultGrid) defaultGrid.classList.add("active");
+        }
     }
 });
+
+// Close mobile menu when a link is clicked
+document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+        document.getElementById('nav-toggle').checked = false;
+    });
+});
+
+/* --- STATS COUNTER ANIMATION --- */
+const statsSection = document.querySelector('.stats-section');
+const statNumbers = [
+    { id: 'stat-matches', endValue: 142, suffix: '' },
+    { id: 'stat-wr', endValue: 68, suffix: '%' },
+    { id: 'stat-players', endValue: 30, suffix: '+' },
+    { id: 'stat-cups', endValue: 12, suffix: '' } // Ensure you added this ID in HTML
+];
+
+let started = false; // Ensure animation only runs once
+
+function startCounting() {
+    if (started) return; // Stop if already ran
+    started = true;
+
+    statNumbers.forEach(stat => {
+        const element = document.getElementById(stat.id);
+        if (!element) return; // Skip if ID not found
+
+        let startValue = 0;
+        let duration = 2000; // 2 seconds
+        let startTime = null;
+
+        function step(timestamp) {
+            if (!startTime) startTime = timestamp;
+            const progress = Math.min((timestamp - startTime) / duration, 1);
+            
+            // Calculate current number
+            element.innerText = Math.floor(progress * stat.endValue) + stat.suffix;
+
+            if (progress < 1) {
+                window.requestAnimationFrame(step);
+            }
+        }
+        
+        window.requestAnimationFrame(step);
+    });
+}
+
+// Trigger animation when Stats Section is visible
+const observer = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting) {
+        startCounting();
+    }
+}, { threshold: 0.5 }); // Start when 50% of section is visible
+
+if (statsSection) {
+    observer.observe(statsSection);
+}
+
+/* --- PWA SERVICE WORKER REGISTRATION --- */
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js')
+            .then(registration => {
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            })
+            .catch(err => {
+                console.log('ServiceWorker registration failed: ', err);
+            });
+    });
+}
