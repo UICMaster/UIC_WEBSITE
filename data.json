@@ -10,7 +10,7 @@
     "name": "UIC Niki",
     "level": 999,
     "rank": "DIAMOND II",
-    "wl": "16/11",
+    "wl": "16/12",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4380.png"
   },
   "prime_mid": {
@@ -38,14 +38,14 @@
     "name": "skanpy",
     "level": 313,
     "rank": "PLATINUM I",
-    "wl": "24/17",
+    "wl": "25/17",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7068.png"
   },
   "spark_jgl": {
     "name": "UIC Lenno",
     "level": 764,
-    "rank": "GOLD II",
-    "wl": "12/5",
+    "rank": "GOLD I",
+    "wl": "13/5",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/2073.png"
   },
   "spark_mid": {
@@ -59,7 +59,7 @@
     "name": "UIC Flare",
     "level": 620,
     "rank": "EMERALD IV",
-    "wl": "12/14",
+    "wl": "12/15",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/626.png"
   },
   "ember_top": {
@@ -78,7 +78,7 @@
   },
   "ember_mid": {
     "name": "ResetHoe",
-    "level": 853,
+    "level": 854,
     "rank": "UNRANKED",
     "wl": "0/0",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4793.png"
@@ -87,14 +87,14 @@
     "name": "UIC DontMethWith",
     "level": 1281,
     "rank": "EMERALD IV",
-    "wl": "29/38",
+    "wl": "30/38",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6988.png"
   },
   "ember_sup": {
     "name": "UIC Envy",
     "level": 295,
-    "rank": "PLATINUM III",
-    "wl": "49/43",
+    "rank": "PLATINUM IV",
+    "wl": "49/44",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6924.png"
   },
   "nova_top": {
@@ -212,8 +212,8 @@
   "freezer_jgl": {
     "name": "BlauerKlaus",
     "level": 1121,
-    "rank": "DIAMOND III",
-    "wl": "23/25",
+    "rank": "DIAMOND II",
+    "wl": "25/25",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7049.png"
   },
   "freezer_mid": {
@@ -241,7 +241,7 @@
     "name": "UIC Loonzi",
     "level": 124,
     "rank": "PLATINUM II",
-    "wl": "35/37",
+    "wl": "36/39",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4895.png"
   }
 }
