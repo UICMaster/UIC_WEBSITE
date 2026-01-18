@@ -3,12 +3,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 1. CONFIGURATION: YOUR PLAYLIST ---
     const playlist = [
         { 
-            title: "UIC ANTHEM - 2025", 
+            title: "UIC HYMNE - 2025", 
             src: "assets/audio/ULTRA_INSTINCT_CREW_AUDIO_2025.mp3"
         },
         { 
-            title: "UIC ANTHEM - 2026",    
-            src: "assets/audio/ULTRA_INSTINCT_CREW_AUDIO_2026.mp3" 
+            title: "UIC HYMNE - 2026",    
+            src: "assets/audio/ULTRA_INSTINCT_CREW_AUDIO_2026.mp3"
         }
     ];
 
