@@ -227,7 +227,7 @@
     "name": "BlauerKlaus",
     "level": 1122,
     "rank": "DIAMOND I",
-    "wl": "34/31",
+    "wl": "34/32",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7049.png"
   },
   "freezer_mid": {
@@ -252,10 +252,10 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6631.png"
   },
   "freezer_coach": {
-    "name": "UIC Loonzi",
-    "level": 124,
-    "rank": "PLATINUM II",
-    "wl": "38/40",
+    "name": "UIC Loonz",
+    "level": 780,
+    "rank": "UNRANKED",
+    "wl": "0/0",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4895.png"
   }
 }
