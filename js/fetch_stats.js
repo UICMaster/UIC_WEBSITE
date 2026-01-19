@@ -13,14 +13,15 @@ const teams = {
         { gameName: 'UIC Niki', tagLine: 'AMB' },
         { gameName: 'UIC Shenycrane', tagLine: 'Vugel' },
         { gameName: 'UIC Giani', tagLine: '999' },
-        { gameName: 'UIC Baguetto', tagLine: 'R3kt' }
+        { gameName: 'UIC Baguetto', tagLine: 'R3kt' },
+        { gameName: '', tagLine: '' }
     ],
     "spark": [
         { gameName: 'skanpy', tagLine: '3005' },
         { gameName: 'UIC Lenno', tagLine: 'UIC' },
-        { gameName: 'UIC Rhinoshield', tagLine: 'RIN' },
+        { gameName: 'Lenlusz', tagLine: 'EAZ' },
         { gameName: 'UIC Flare', tagLine: 'JND' },
-        { gameName: '', tagLine: '' }, 
+        { gameName: 'UIC Rhinoshield', tagLine: 'RIN' }, 
         { gameName: 'soulrender', tagLine: 'fent' }
     ],
     "ember": [
@@ -36,21 +37,24 @@ const teams = {
         { gameName: 'UIC Rubix Qube', tagLine: 'MÖP' },
         { gameName: 'UIC adedier', tagLine: 'EUWE' },
         { gameName: 'UIC Simply', tagLine: '666' },
-        { gameName: 'UIC Excellent C', tagLine: '1997' }
+        { gameName: 'UIC Excellent C', tagLine: '1997' },
+        { gameName: '', tagLine: '' }
     ],
     "abyss": [
         { gameName: 'Dany', tagLine: 'RFA40' },
         { gameName: 'UIC Keygasza', tagLine: '1337' },
         { gameName: 'UIC Goku', tagLine: 'UIC' },
         { gameName: 'UIC N1ghtm4reX', tagLine: 'H96' },
-        { gameName: 'TheEigeeen', tagLine: 'EIGI' }
+        { gameName: 'TheEigeeen', tagLine: 'EIGI' },
+        { gameName: '', tagLine: '' }
     ],
     "night": [
         { gameName: 'UIC proStarII', tagLine: 'UIC' },
         { gameName: 'Shekar', tagLine: '5ONiT' },
         { gameName: 'RatHairedShanks', tagLine: 'NoPie' },
         { gameName: 'Cedopanya', tagLine: 'EUW' },
-        { gameName: 'UIC ReCord', tagLine: 'Cedo' }
+        { gameName: 'UIC ReCord', tagLine: 'Cedo' },
+        { gameName: '', tagLine: '' }
     ],
     "freezer": [
         { gameName: 'Rayando07', tagLine: 'grag' },
