@@ -15,9 +15,9 @@
   },
   "prime_mid": {
     "name": "UIC Shenycrane",
-    "level": 616,
+    "level": 617,
     "rank": "DIAMOND IV",
-    "wl": "10/10",
+    "wl": "10/12",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6387.png"
   },
   "prime_bot": {
@@ -65,8 +65,8 @@
   "spark_sup": {
     "name": "UIC Rhinoshield",
     "level": 925,
-    "rank": "PLATINUM II",
-    "wl": "37/34",
+    "rank": "PLATINUM I",
+    "wl": "39/34",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4068.png"
   },
   "spark_coach": {
@@ -80,7 +80,7 @@
     "name": "SilasX",
     "level": 514,
     "rank": "EMERALD III",
-    "wl": "12/9",
+    "wl": "13/9",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6989.png"
   },
   "ember_jgl": {
@@ -128,8 +128,8 @@
   "nova_jgl": {
     "name": "UIC Rubix Qube",
     "level": 466,
-    "rank": "GOLD III",
-    "wl": "22/24",
+    "rank": "GOLD II",
+    "wl": "24/24",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -149,8 +149,8 @@
   "nova_sup": {
     "name": "UIC Excellent C",
     "level": 541,
-    "rank": "GOLD II",
-    "wl": "16/9",
+    "rank": "GOLD I",
+    "wl": "18/9",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/661.png"
   },
   "abyss_top": {
