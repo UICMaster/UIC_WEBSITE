@@ -30,8 +30,7 @@
 
     <!-- Fonts
     ================================================== -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+    
 
     <!-- Scripts
     ================================================== -->
@@ -62,6 +61,34 @@
     <meta name="twitter:site" content="@uic_gaming">
 </head>
 <body>
+
+    <div id="legal-overlay" class="legal-overlay">
+        <div class="legal-box">
+            <h3 class="legal-title">Datenschutz und Impressum</h3>
+            
+            <p class="legal-text">
+                Um fortzufahren, bestätigen Sie bitte die Kenntnisnahme unserer Datenschutzrichtlinien.
+                Wir nutzen lokale Ressourcen und externe Einbindungen gemäß DSGVO.
+            </p>
+
+            <div class="legal-links">
+                <a href="datenschutzbestimmungen.html" target="_blank">Datenschutzbestimmungen</a>
+                <span class="separator">|</span>
+                <a href="impressum.html" target="_blank">Impressum</a>
+            </div>
+
+            <div class="legal-confirm">
+                <input type="checkbox" id="legal-check">
+                <label for="legal-check">
+                    Ich habe die Datenschutzbestimmungen gelesen und akzeptiere diese.
+                </label>
+            </div>
+
+            <button id="accept-legal" class="btn btn-primary" disabled style="width: 100%;">
+                Eintritt
+            </button>
+        </div>
+    </div>
 
     <input type="checkbox" id="nav-toggle" class="nav-toggle-state" style="display: none;">
 
@@ -1122,7 +1149,17 @@
 
                 <div class="col-8">
                     <div class="stream-frame">
-                        <div id="twitch-embed"></div>
+                            <div id="twitch-embed" class="twitch-placeholder">
+                                <div class="twitch-overlay">
+                                    <h3 style="color: #fff; margin-bottom: 10px;">Twitch Stream laden?</h3>
+                                    <p style="font-size: 0.9rem; color: #ccc; margin-bottom: 20px; max-width: 400px; margin-left: auto; margin-right: auto;">
+                                        Zum Schutz deiner Daten wird der Stream erst geladen, wenn du klickst. Dabei werden Daten an Twitch übermittelt.
+                                    </p>
+                                    <button id="load-twitch-btn" class="btn btn-primary" style="cursor: pointer;">
+                                        STREAM STARTEN
+                                    </button>
+                                </div>
+                            </div>
                     </div>
                 </div>
 
@@ -1284,19 +1321,24 @@
             <div class="grid-auto" style="--grid-gap: var(--space-lg);">
                 
                 <div class="footer-col">
-                    <a href="#hero" class="footer-logo-module">
-                        <img src="assets/logo/logo.svg" alt="UIC Logo" class="footer-logo-icon">
-                        <div class="footer-logo-text">
-                            <span class="brand-name">UIC</span>
-                            <span class="brand-sub">GER</span>
-                        </div>
-                    </a>
-                    <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.9rem; margin-top: 1rem;">
-                        Die Ultra Instinct Crew wurde 2018 gegründet und ist mehr als nur eine Organisation. 
-                        Wir sind eine Community, das darauf ausgelegt ist, League of Legends Athleten 
-                        die Struktur, das Coaching und den Spaß zu bieten, die sie benötigen, um ihr maximales Potenzial auszuschöpfen.<br>
-                        <span style="color: var(--primary);">#InstinctTakesOver</span>
-                    </p>
+                    <h4 class="footer-title">Haftungsausschluss</h4>
+                        <h3 style="color: var(--text-white);">
+                            Riot Games
+                        </h3>
+                        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.9rem; margin-top: 1rem;">
+                        Ultra Instinct Crew wird nicht von Riot Games unterstützt und spiegelt nicht die Ansichten oder 
+                        Meinungen von Riot Games oder anderen Personen wider, die offiziell an der 
+                        Herstellung oder Verwaltung von League of Legends beteiligt sind. League of 
+                        Legends und Riot Games sind Marken oder eingetragene Marken von Riot Games, 
+                        Inc. League of Legends © Riot Games, Inc.
+                        </p>
+                        <h3 style="color: var(--text-white); margin-top: 1rem;">
+                            PrimeBot
+                        </h3>
+                        <p style="color: var(--text-muted); line-height: 1.6; font-size: 0.9rem; margin-top: 1rem;">
+                        Zur Darstellung unserer sportlichen Erfolge nutzen wir Daten der <strong>Unofficial Prime League API (primebot.me)</strong>. 
+                        Der Abruf dieser Daten erfolgt automatisiert über einen serverseitigen Prozess.
+                        </p>
                 </div>
 
                 <div class="footer-col">
@@ -1313,7 +1355,7 @@
                 </div>
 
                 <div class="footer-col">
-                    <h4 class="footer-title">RECHTLICH</h4>
+                    <h4 class="footer-title">Kontakt & Rechtliches</h4>
                     <ul class="footer-links">
                         <li><a target="_blank" href="impressum.html">Impressum</a></li>
                         <li><a target="_blank" href="datenschutzbestimmungen.html">Datenschutzbestimmungen</a></li>
@@ -1329,9 +1371,8 @@
                 </div>
 
             </div>
-
             <div class="footer-bottom">
-                <p>&copy; 2018 - 2026 Ultra Instinct Crew. All Systems Operational.</p>
+                <p>&copy; 2018 - 2026 Ultra Instinct Crew.</p>
             </div>
         </div>
     </footer>

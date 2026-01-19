@@ -3,165 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Impressum</title>
-    <meta name="description" content="Rechtliche Angaben und Impressum">
+    <title>Impressum - Ultra Instinct Crew</title>
     <style>
-        /* --- Minimal Modern CSS Start --- */
-        :root {
-            --bg-color: #f9fafb; /* Sehr helles Grau/Weiß für den Hintergrund */
-            --text-color: #1f2937; /* Weiches Schwarz für Text */
-            --heading-color: #111827; /* Stärkeres Schwarz für Überschriften */
-            --accent-color: #2563eb; /* Modernes Blau für Links */
-            --container-width: 800px; /* Optimale Lesebreite auf Desktop */
-            --spacing: 1.5rem;
-            --border-radius: 8px;
-        }
-
-        /* Grundlegendes Reset für konsistentes Verhalten */
-        *, *::before, *::after { box-sizing: border-box; }
-
+        /* Absolute Reduktion: Schwarzer Text / Weißer Grund / Arial */
         body {
-            margin: 0;
-            /* Verwendet die native Systemschriftart für beste Performance und Lesbarkeit */
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-family: Arial, Helvetica, sans-serif;
             line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            padding: 0 20px; /* Wichtiger Seitenabstand auf Smartphones */
+            color: #000;
+            background: #fff;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
         }
 
-        /* Zentriertes Layout-Container */
-        header, main, footer {
-            max-width: var(--container-width);
-            margin-left: auto;
-            margin-right: auto;
+        h1 {
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+            font-size: 24pt;
         }
 
-        /* Header & Navigation Styling */
-        header {
-            padding: 2rem 0;
-            border-bottom: 1px solid #e5e7eb;
-            margin-bottom: 2rem;
+        h2 {
+            margin-top: 30px;
+            font-size: 16pt;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
         }
 
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0 0 1rem 0;
-            display: flex;
-            gap: 1.5rem; /* Abstand zwischen Menüpunkten */
+        h3 {
+            font-size: 13pt;
+            margin-top: 20px;
+            margin-bottom: 5px;
         }
 
-        nav a {
+        p, li {
+            font-size: 11pt;
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #0000ff;
+            text-decoration: underline;
+        }
+
+        .back-link {
+            display: block;
+            margin-bottom: 30px;
             text-decoration: none;
-            color: var(--text-color);
-            font-weight: 600;
-            font-size: 0.95rem;
+            font-weight: bold;
+            color: #000;
         }
-        nav a:hover { color: var(--accent-color); }
 
-        /* Typografie */
-        h1, h2 { color: var(--heading-color); margin-top: 0; }
-        h1 { font-size: 2.25rem; letter-spacing: -0.025em; }
-        h2 { font-size: 1.5rem; margin-bottom: 1rem; margin-top: 2rem; }
-        
-        /* Links allgemein */
-        a { color: var(--accent-color); text-decoration-thickness: 1px; }
-        a:hover { text-decoration: none; }
+        .legal-footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
+            font-size: 10pt;
+            color: #333;
+        }
 
-        /* Adressen lesbarer machen */
-        address { font-style: normal; line-height: 1.8; }
-
-        /* Footer */
-        footer { margin-top: 3rem; padding-bottom: 2rem; text-align: center; color: #6b7280; }
-        hr { border: 0; border-top: 1px solid #e5e7eb; margin: 2rem 0; }
-        /* --- Minimal Modern CSS End --- */
+        @media (max-width: 600px) {
+            body { margin: 20px auto; }
+            h1 { font-size: 20pt; }
+        }
     </style>
 </head>
 <body>
 
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Startseite</a></li>
-                <li><a href="datenschutzbestimmungen.html">Datenschutz</a></li>
-            </ul>
-        </nav>
-        <h1>Impressum</h1>
-    </header>
+    <a href="index.html" class="back-link">&larr; Zurück zur Website</a>
 
-    <main>
-        <section>
-            <h2>Angaben gemäß § 5 TMG</h2>
-            <address>
-                <strong>Musterfirma GmbH</strong><br>
-                Musterstraße 1<br>
-                12345 Musterstadt<br>
-            </address>
-        </section>
+    <h1>Impressum</h1>
 
-        <section>
-            <h2>Kontakt</h2>
-            <p>
-                Telefon: +49 (0) 123 44 55 66<br>
-                E-Mail: <a href="mailto:info@musterfirma.de">info@musterfirma.de</a>
-            </p>
-        </section>
+    <h2>Angaben gemäß § 5 TMG</h2>
+    <p>
+        <strong>Ultra Instinct Crew</strong><br>
+        Kolwiede 5<br>
+        31582 Nienburg/Weser<br>
+        Deutschland
+    </p>
 
-        <section>
-            <h2>Vertreten durch</h2>
-            <p>
-                Max Mustermann (Geschäftsführer)
-            </p>
-        </section>
+    <h3>Vertreten durch die Gesellschafter:</h3>
+    <p>
+        Mathias Meli<br>
+        Mahsun Baydak
+    </p>
 
-        <section>
-            <h2>Registereintrag</h2>
-            <p>
-                Eintragung im Handelsregister.<br>
-                Registergericht: Amtsgericht Musterstadt<br>
-                Registernummer: HRB 12345
-            </p>
-        </section>
+    <h3>Kontakt</h3>
+    <p>
+        Telefon: +49 152 374285<br>
+        E-Mail: <a href="mailto:support@ultrainstinctcrew.com">support@ultrainstinctcrew.com</a>
+    </p>
 
-        <section>
-            <h2>Umsatzsteuer-ID</h2>
-            <p>
-                Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br>
-                <strong>DE123456789</strong>
-            </p>
-        </section>
+    <h2>Social Media und andere Präsenzen</h2>
+    <p>Dieses Impressum gilt auch für unsere Auftritte auf:</p>
+    <ul>
+        <li>Twitch</li>
+        <li>Twitter (X)</li>
+        <li>Discord</li>
+    </ul>
 
-        <section>
-            <h2>Redaktionell verantwortlich</h2>
-            <p>
-                Max Mustermann<br>
-                Musterstraße 1<br>
-                12345 Musterstadt
-            </p>
-        </section>
+    <h2>Rechtliche Hinweise zu genutzten Daten</h2>
+    
+    <h3>Riot Games Disclaimer</h3>
+    <p>
+        Ultra Instinct Crew wird nicht von Riot Games unterstützt und spiegelt nicht die Ansichten oder 
+        Meinungen von Riot Games oder anderen Personen wider, die offiziell an der 
+        Herstellung oder Verwaltung von League of Legends beteiligt sind. League of 
+        Legends und Riot Games sind Marken oder eingetragene Marken von Riot Games, 
+        Inc. League of Legends © Riot Games, Inc.
+    </p>
 
-        <section>
-            <h2>EU-Streitschlichtung</h2>
-            <p>
-                Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: 
-                <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/consumers/odr/</a>.<br>
-                Unsere E-Mail-Adresse finden Sie oben im Impressum.
-            </p>
-        </section>
+    <h3>Turnierdaten (PrimeBot)</h3>
+    <p>
+        Zur Darstellung unserer sportlichen Erfolge nutzen wir Daten der Unofficial Prime League API von 
+        <a href="https://primebot.me" target="_blank">primebot.me</a>. 
+        Der Abruf dieser Daten erfolgt automatisiert über einen serverseitigen Prozess.
+    </p>
 
-        <section>
-            <h2>Verbraucherstreitbeilegung / Universalschlichtungsstelle</h2>
-            <p>
-                Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
-            </p>
-        </section>
-    </main>
+    <div class="legal-footer">
+        <h2>Allgemeine Haftungsausschlüsse</h2>
+        
+        <h3>Haftung für Inhalte</h3>
+        <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen.</p>
 
-    <footer>
-        <hr>
-        <p><small>&copy; 2024 Musterfirma GmbH</small></p>
-    </footer>
+        <h3>Haftung für Links</h3>
+        <p>Unser Angebot enthält Links zu externen Websites Dritter. Auf deren Inhalte haben wir keinen Einfluss, weshalb wir für diese fremden Inhalte auch keine Gewähr übernehmen können. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.</p>
+        
+        <h3>Urheberrecht</h3>
+        <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.</p>
+    </div>
+
+    <p style="margin-top: 50px;"><small>Stand: Januar 2026</small></p>
 
 </body>
 </html>
