@@ -49,11 +49,11 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/2073.png"
   },
   "spark_mid": {
-    "name": "UIC Rhinoshield",
-    "level": 925,
-    "rank": "PLATINUM I",
-    "wl": "37/33",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4068.png"
+    "name": "Lenlusz",
+    "level": 741,
+    "rank": "EMERALD IV",
+    "wl": "29/29",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7047.png"
   },
   "spark_bot": {
     "name": "UIC Flare",
@@ -61,6 +61,13 @@
     "rank": "EMERALD IV",
     "wl": "14/18",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/626.png"
+  },
+  "spark_sup": {
+    "name": "UIC Rhinoshield",
+    "level": 925,
+    "rank": "PLATINUM I",
+    "wl": "37/33",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4068.png"
   },
   "spark_coach": {
     "name": "soulrender",
@@ -190,9 +197,9 @@
   },
   "night_jgl": {
     "name": "Shekar",
-    "level": 585,
+    "level": 586,
     "rank": "MASTER I",
-    "wl": "71/73",
+    "wl": "72/73",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3231.png"
   },
   "night_mid": {
@@ -234,14 +241,14 @@
     "name": "UIC FrozenHands",
     "level": 626,
     "rank": "EMERALD I",
-    "wl": "11/7",
+    "wl": "12/7",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6811.png"
   },
   "freezer_bot": {
     "name": "RG AutumnLeaf",
     "level": 822,
     "rank": "DIAMOND IV",
-    "wl": "18/22",
+    "wl": "19/22",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6373.png"
   },
   "freezer_sup": {
