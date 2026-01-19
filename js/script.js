@@ -165,3 +165,67 @@ if ('serviceWorker' in navigator) {
             });
     });
 }
+
+/* =========================================
+    SYSTEM LOGIC: UI INTERACTION
+    ========================================= */
+
+// 1. Mobile Scroll Lock
+const navToggle = document.getElementById('nav-toggle');
+const body = document.body;
+
+if (navToggle) {
+    navToggle.addEventListener('change', function() {
+        if (this.checked) {
+            // Menü offen -> Scrollen verbieten
+            body.style.overflow = 'hidden';
+        } else {
+            // Menü zu -> Scrollen erlauben
+            body.style.overflow = '';
+        }
+    });
+}
+
+// Fix: Schließt das Menü, wenn man auf einen Link klickt
+document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+        navToggle.checked = false;
+        body.style.overflow = '';
+    });
+});
+
+// =========================================
+    // 2. LEGAL GATEKEEPER LOGIC (New Version)
+    // =========================================
+    const legalOverlay = document.getElementById('legal-overlay');
+    const legalBtn = document.getElementById('accept-legal');
+    const legalCheck = document.getElementById('legal-check');
+    const storageKey = 'Zustimmung_DATENSCHUTZ_IMPRESSUM';
+
+    // A. Beim Laden prüfen
+    window.addEventListener('load', () => {
+        if (!localStorage.getItem(storageKey)) {
+            legalOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden'; // Scroll-Sperre
+        }
+    });
+
+    // B. Checkbox Logik (Button freischalten)
+    if (legalCheck) {
+        legalCheck.addEventListener('change', function() {
+            if (this.checked) {
+                legalBtn.disabled = false; // Button aktivieren
+            } else {
+                legalBtn.disabled = true;  // Button sperren
+            }
+        });
+    }
+
+    // C. Akzeptieren & Schließen
+    if (legalBtn) {
+        legalBtn.addEventListener('click', () => {
+            localStorage.setItem(storageKey, 'true');
+            legalOverlay.classList.remove('active');
+            document.body.style.overflow = ''; // Scrollen erlauben
+        });
+    }
