@@ -45,7 +45,7 @@
     "name": "UIC Lenno",
     "level": 765,
     "rank": "PLATINUM IV",
-    "wl": "17/12",
+    "wl": "17/14",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/2073.png"
   },
   "spark_mid": {
@@ -66,7 +66,7 @@
     "name": "UIC Rhinoshield",
     "level": 926,
     "rank": "PLATINUM II",
-    "wl": "42/40",
+    "wl": "43/41",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4068.png"
   },
   "spark_coach": {
@@ -86,8 +86,8 @@
   "ember_jgl": {
     "name": "UIC Shederen",
     "level": 277,
-    "rank": "EMERALD IV",
-    "wl": "42/40",
+    "rank": "EMERALD III",
+    "wl": "43/40",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -101,14 +101,14 @@
     "name": "UIC DontMethWith",
     "level": 1282,
     "rank": "EMERALD IV",
-    "wl": "32/42",
+    "wl": "33/42",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6988.png"
   },
   "ember_sup": {
     "name": "UIC Envy",
     "level": 296,
     "rank": "PLATINUM III",
-    "wl": "52/47",
+    "wl": "53/47",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6924.png"
   },
   "ember_coach": {
@@ -194,13 +194,6 @@
     "rank": "UNRANKED",
     "wl": "0/0",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/939.png"
-  },
-  "night_jgl": {
-    "name": "Shekar",
-    "level": 586,
-    "rank": "MASTER I",
-    "wl": "74/73",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3231.png"
   },
   "night_mid": {
     "name": "RatHairedShanks",
