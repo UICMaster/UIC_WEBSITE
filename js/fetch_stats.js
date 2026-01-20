@@ -50,7 +50,7 @@ const teams = {
     ],
     "night": [
         { gameName: 'UIC proStarII', tagLine: 'UIC' },
-        { gameName: 'Shekar', tagLine: '5ONiT' },
+        { gameName: 'UIC Shekar', tagLine: '5ONiT' },
         { gameName: 'RatHairedShanks', tagLine: 'NoPie' },
         { gameName: 'Cedopanya', tagLine: 'EUW' },
         { gameName: 'UIC ReCord', tagLine: 'Cedo' },
