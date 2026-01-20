@@ -45,7 +45,7 @@
     "name": "UIC Lenno",
     "level": 765,
     "rank": "PLATINUM IV",
-    "wl": "17/11",
+    "wl": "17/12",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/2073.png"
   },
   "spark_mid": {
@@ -65,8 +65,8 @@
   "spark_sup": {
     "name": "UIC Rhinoshield",
     "level": 926,
-    "rank": "PLATINUM I",
-    "wl": "42/39",
+    "rank": "PLATINUM II",
+    "wl": "42/40",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4068.png"
   },
   "spark_coach": {
@@ -79,15 +79,15 @@
   "ember_top": {
     "name": "SilasX",
     "level": 514,
-    "rank": "EMERALD III",
-    "wl": "13/9",
+    "rank": "EMERALD II",
+    "wl": "14/9",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6989.png"
   },
   "ember_jgl": {
     "name": "UIC Shederen",
     "level": 277,
     "rank": "EMERALD IV",
-    "wl": "41/40",
+    "wl": "42/40",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -99,16 +99,16 @@
   },
   "ember_bot": {
     "name": "UIC DontMethWith",
-    "level": 1281,
+    "level": 1282,
     "rank": "EMERALD IV",
-    "wl": "31/41",
+    "wl": "32/42",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6988.png"
   },
   "ember_sup": {
     "name": "UIC Envy",
-    "level": 295,
+    "level": 296,
     "rank": "PLATINUM III",
-    "wl": "52/45",
+    "wl": "52/47",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6924.png"
   },
   "ember_coach": {
@@ -136,7 +136,7 @@
     "name": "UIC adedier",
     "level": 594,
     "rank": "GOLD II",
-    "wl": "6/5",
+    "wl": "7/5",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4379.png"
   },
   "nova_bot": {
@@ -150,7 +150,7 @@
     "name": "UIC Excellent C",
     "level": 542,
     "rank": "GOLD I",
-    "wl": "18/10",
+    "wl": "19/10",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/661.png"
   },
   "abyss_top": {
@@ -199,7 +199,7 @@
     "name": "Shekar",
     "level": 586,
     "rank": "MASTER I",
-    "wl": "73/73",
+    "wl": "74/73",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3231.png"
   },
   "night_mid": {
