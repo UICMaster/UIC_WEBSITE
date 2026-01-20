@@ -10,14 +10,14 @@
     "name": "UIC Niki",
     "level": 1000,
     "rank": "DIAMOND II",
-    "wl": "18/15",
+    "wl": "18/16",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4380.png"
   },
   "prime_mid": {
     "name": "UIC Shenycrane",
     "level": 617,
-    "rank": "DIAMOND IV",
-    "wl": "11/14",
+    "rank": "DIAMOND III",
+    "wl": "13/14",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6387.png"
   },
   "prime_bot": {
@@ -38,7 +38,7 @@
     "name": "skanpy",
     "level": 314,
     "rank": "PLATINUM I",
-    "wl": "26/19",
+    "wl": "26/20",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7068.png"
   },
   "spark_jgl": {
@@ -66,7 +66,7 @@
     "name": "UIC Rhinoshield",
     "level": 926,
     "rank": "PLATINUM I",
-    "wl": "44/41",
+    "wl": "45/41",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4068.png"
   },
   "spark_coach": {
@@ -86,8 +86,8 @@
   "ember_jgl": {
     "name": "UIC Shederen",
     "level": 278,
-    "rank": "EMERALD III",
-    "wl": "45/40",
+    "rank": "EMERALD II",
+    "wl": "47/40",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -100,8 +100,8 @@
   "ember_bot": {
     "name": "UIC DontMethWith",
     "level": 1282,
-    "rank": "EMERALD IV",
-    "wl": "35/42",
+    "rank": "EMERALD III",
+    "wl": "37/42",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6988.png"
   },
   "ember_sup": {
@@ -220,7 +220,7 @@
     "name": "Rayando07",
     "level": 426,
     "rank": "DIAMOND IV",
-    "wl": "7/3",
+    "wl": "8/3",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7048.png"
   },
   "freezer_jgl": {
@@ -248,7 +248,7 @@
     "name": "UIC Ryu Copeland",
     "level": 970,
     "rank": "DIAMOND IV",
-    "wl": "7/7",
+    "wl": "8/7",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6631.png"
   },
   "freezer_coach": {
