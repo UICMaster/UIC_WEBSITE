@@ -8,16 +8,16 @@
   },
   "prime_jgl": {
     "name": "UIC Niki",
-    "level": 999,
+    "level": 1000,
     "rank": "DIAMOND II",
-    "wl": "18/13",
+    "wl": "18/15",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4380.png"
   },
   "prime_mid": {
     "name": "UIC Shenycrane",
     "level": 617,
     "rank": "DIAMOND IV",
-    "wl": "10/13",
+    "wl": "11/14",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6387.png"
   },
   "prime_bot": {
@@ -64,9 +64,9 @@
   },
   "spark_sup": {
     "name": "UIC Rhinoshield",
-    "level": 925,
+    "level": 926,
     "rank": "PLATINUM I",
-    "wl": "40/36",
+    "wl": "42/38",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4068.png"
   },
   "spark_coach": {
@@ -171,7 +171,7 @@
     "name": "UIC Goku",
     "level": 455,
     "rank": "EMERALD III",
-    "wl": "29/25",
+    "wl": "30/25",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/538.png"
   },
   "abyss_bot": {
