@@ -38,7 +38,7 @@
     "name": "skanpy",
     "level": 314,
     "rank": "PLATINUM I",
-    "wl": "29/22",
+    "wl": "30/23",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7068.png"
   },
   "spark_jgl": {
@@ -65,8 +65,8 @@
   "spark_sup": {
     "name": "UIC Rhinoshield",
     "level": 927,
-    "rank": "PLATINUM I",
-    "wl": "47/44",
+    "rank": "PLATINUM II",
+    "wl": "47/46",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4068.png"
   },
   "spark_coach": {
@@ -101,7 +101,7 @@
     "name": "UIC DontMethWith",
     "level": 1282,
     "rank": "EMERALD III",
-    "wl": "38/42",
+    "wl": "39/43",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6988.png"
   },
   "ember_sup": {
@@ -128,8 +128,8 @@
   "nova_jgl": {
     "name": "UIC Rubix Qube",
     "level": 467,
-    "rank": "GOLD III",
-    "wl": "25/28",
+    "rank": "GOLD II",
+    "wl": "26/28",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -150,7 +150,7 @@
     "name": "UIC Excellent C",
     "level": 542,
     "rank": "GOLD I",
-    "wl": "19/12",
+    "wl": "20/12",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/661.png"
   },
   "abyss_top": {
@@ -176,16 +176,16 @@
   },
   "abyss_bot": {
     "name": "UIC N1ghtm4reX",
-    "level": 631,
+    "level": 632,
     "rank": "EMERALD I",
-    "wl": "14/11",
+    "wl": "15/12",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6330.png"
   },
   "abyss_sup": {
     "name": "TheEigeeen",
     "level": 639,
     "rank": "EMERALD III",
-    "wl": "11/9",
+    "wl": "12/10",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6037.png"
   },
   "night_top": {
@@ -194,6 +194,13 @@
     "rank": "UNRANKED",
     "wl": "0/0",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/939.png"
+  },
+  "night_jgl": {
+    "name": "UIC Shekar",
+    "level": 587,
+    "rank": "MASTER I",
+    "wl": "81/79",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3231.png"
   },
   "night_mid": {
     "name": "RatHairedShanks",
