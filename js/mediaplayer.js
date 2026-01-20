@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         { 
             title: "UIC HYMNE - 2026",    
-            src: "assets/audio/ULTRA_INSTINCT_CREW_ORGA_HYMNE_2026.mp3",
-            type: "audio",
+            src: "assets/video/ULTRA_INSTINCT_CREW_ORGA_HYMNE_VIDEO_2026.webm",
+            type: "video",
             art: "",
             artist: "Ultra Instinct Crew"
         },
