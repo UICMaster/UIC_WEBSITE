@@ -1,27 +1,76 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const loadBtn = document.getElementById("load-twitch-btn");
-    const container = document.getElementById("twitch-embed");
+    // --- CONFIGURATION ---
+    const config = {
+        buttonId: "load-twitch-btn",
+        containerId: "twitch-embed",
+        channel: "ultrainstinctcrew",
+        // Valid domains for Twitch Parent policy (add localhost for testing if needed)
+        parents: ["ultrainstinctcrew.com", "uicmaster.github.io"],
+        storageKey: "twitch-consent-given"
+    };
 
-    // Prüfen ob die Elemente existieren
-    if (loadBtn && container) {
-        loadBtn.addEventListener("click", function() {
-            
-            // 1. Overlay entfernen
-            container.innerHTML = ""; 
-            
-            // 2. Klasse für Styling anpassen (optional, falls nötig)
-            container.classList.remove("twitch-placeholder");
+    const loadBtn = document.getElementById(config.buttonId);
+    const container = document.getElementById(config.containerId);
 
-            // 3. Twitch Player laden
-            new Twitch.Embed("twitch-embed", {
-                width: "100%",
-                height: 500,
-                channel: "ultrainstinctcrew",
-                layout: "video", 
-                autoplay: true, // Jetzt darf es autostarten, weil User geklickt hat
-                muted: false,
-                parent: ["ultrainstinctcrew.com", "uicmaster.github.io"] // BEIDE Domains wichtig für GitHub Pages!
-            });
+    // 1. Helper: Dynamically load Twitch Script
+    function loadTwitchLib(callback) {
+        // If script is already there, just run callback
+        if (window.Twitch && window.Twitch.Embed) {
+            callback();
+            return;
+        }
+        
+        // Create script tag
+        const script = document.createElement("script");
+        script.setAttribute("src", "https://embed.twitch.tv/embed/v1.js");
+        script.onload = callback; // Run callback when loaded
+        document.body.appendChild(script);
+    }
+
+    // 2. Helper: Build the Player
+    function renderPlayer() {
+        if (!container) return;
+
+        // Clear the overlay text/button
+        container.innerHTML = "";
+        
+        // Remove the placeholder styling (background/border)
+        // Note: min-height in CSS keeps the size stable
+        container.classList.remove("twitch-placeholder");
+
+        // Initialize Twitch
+        new Twitch.Embed(config.containerId, {
+            width: "100%",
+            height: "100%", // Fills the CSS min-height
+            channel: config.channel,
+            layout: "video", 
+            autoplay: true, // Auto-plays only AFTER user explicitly clicked "Start"
+            muted: false,
+            parent: config.parents
+        });
+    }
+
+    // 3. Main Action
+    function activateTwitch() {
+        // Save consent to Session (clears when browser closes)
+        sessionStorage.setItem(config.storageKey, "true");
+        
+        // Load Lib -> Then Render
+        loadTwitchLib(renderPlayer);
+    }
+
+    // --- LOGIC ---
+    
+    // A. Check if user already allowed it in this session
+    if (sessionStorage.getItem(config.storageKey) === "true") {
+        activateTwitch();
+    }
+
+    // B. Wait for click
+    if (loadBtn) {
+        loadBtn.addEventListener("click", function(e) {
+            e.preventDefault();
+            activateTwitch();
         });
     }
 });
