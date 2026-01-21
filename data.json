@@ -65,8 +65,8 @@
   "spark_sup": {
     "name": "UIC Rhinoshield",
     "level": 928,
-    "rank": "PLATINUM II",
-    "wl": "49/48",
+    "rank": "PLATINUM I",
+    "wl": "50/48",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4068.png"
   },
   "spark_coach": {
@@ -101,14 +101,14 @@
     "name": "UIC DontMethWith",
     "level": 1283,
     "rank": "EMERALD III",
-    "wl": "41/45",
+    "wl": "41/46",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6988.png"
   },
   "ember_sup": {
     "name": "UIC Envy",
     "level": 296,
-    "rank": "PLATINUM III",
-    "wl": "54/49",
+    "rank": "PLATINUM IV",
+    "wl": "54/50",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6924.png"
   },
   "ember_coach": {
@@ -234,7 +234,7 @@
     "name": "BlauerKlaus",
     "level": 1122,
     "rank": "MASTER I",
-    "wl": "36/32",
+    "wl": "36/34",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7049.png"
   },
   "freezer_mid": {
