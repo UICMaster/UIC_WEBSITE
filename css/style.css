@@ -107,7 +107,7 @@
     --space-xl: 8rem;    /* 128px */
     
     /* --- Layout Constraints --- */
-    --container-width: 1400px;
+    --container-width: 1600px;
     --grid-gap: clamp(1rem, 3vw, 2rem); /* Grows with screen size */
     
     /* --- Typography --- */
@@ -185,6 +185,9 @@ img {
     display: block;
 }
 
+.hidden {
+    display: none !important;
+}
 
 /* =========================================
    3. THE LAYOUT ENGINE (Grid & Container)
@@ -573,18 +576,20 @@ img {
 }
 
 /* =========================================
-   6. HERO SECTION (Optical Focus Animation)
+   6. HERO SECTION (Clean & Stable)
    ========================================= */
 
 .hero-section {
     position: relative;
+    /* 'dvh' verhindert Probleme mit mobilen Adressleisten, sonst Fallback auf vh */
     height: 100vh;
+    height: 100dvh; 
     min-height: 600px;
     display: flex;
     align-items: center;
-    /* background: url('../assets/images/hero-bg.jpg') no-repeat center center/cover; */
     padding-top: 80px;
     overflow: hidden;
+    background-color: var(--bg-dark); /* Sicherstellung des Hintergrunds */
 }
 
 /* --- BACKGROUND LAYERS --- */
@@ -600,16 +605,28 @@ img {
         linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
     background-size: 50px 50px;
+    /* Original Maske wiederhergestellt */
     mask-image: radial-gradient(circle at center, black 40%, transparent 100%);
+    -webkit-mask-image: radial-gradient(circle at center, black 40%, transparent 100%);
     pointer-events: none;
+}
+
+/* --- LAYOUT CONTAINER (Ersetzt h-100 & inline styles) --- */
+.hero-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 3; /* Wichtig: Über dem Grid (z-index 2) */
 }
 
 /* --- CONTENT --- */
 .hero-content {
-    position: relative; z-index: 3;
+    position: relative;
     max-width: 900px;
     padding-left: 20px;
-    border-left: 2px solid var(--primary); /* Tactical Line */
+    border-left: 2px solid var(--primary);
 }
 
 .hero-label {
@@ -622,7 +639,7 @@ img {
     text-shadow: 0 0 10px rgba(0, 240, 255, 0.4);
 }
 
-/* --- THE MAIN ANIMATION: HOLO-FOCUS --- */
+/* --- TITLE & ANIMATION --- */
 .hero-title {
     font-family: var(--font-head);
     font-weight: 900;
@@ -631,16 +648,12 @@ img {
     font-size: clamp(3rem, 7vw, 6rem); 
     margin-bottom: var(--space-md);
     position: relative;
-    /* Keeps the scanner contained */
     display: inline-block; 
 }
 
-/* The Individual Words */
 .holo-text {
     display: inline-block;
-    opacity: 0; /* Starts hidden */
-    
-    /* The Focus Animation */
+    opacity: 0;
     animation: holoFocus 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
@@ -648,19 +661,18 @@ img {
     0% {
         filter: blur(15px);
         opacity: 0;
-        letter-spacing: 20px; /* Starts Expanded */
+        letter-spacing: 20px;
         transform: scale(1.1);
     }
     100% {
         filter: blur(0);
         opacity: 1;
-        letter-spacing: 0px; /* Snaps into place */
+        letter-spacing: 0px;
         transform: scale(1);
     }
 }
 
-/* --- IDLE EFFECT: THE SCANNER --- */
-/* This adds the light beam AFTER the text loads */
+/* Scanner Line Effect */
 .hero-title::after {
     content: '';
     position: absolute;
@@ -670,10 +682,8 @@ img {
     box-shadow: 0 0 15px var(--primary), 0 0 30px var(--primary);
     opacity: 0;
     pointer-events: none;
-    
-    /* Runs forever */
     animation: scanline 6s ease-in-out infinite;
-    animation-delay: 2s; /* Waits for entrance to finish */
+    animation-delay: 2s;
 }
 
 @keyframes scanline {
@@ -683,7 +693,7 @@ img {
     100% { top: 110%; opacity: 0; }
 }
 
-/* --- TEXT STYLES --- */
+/* --- TEXT VARIANTS --- */
 .text-stroke {
     -webkit-text-stroke: 1px rgba(255,255,255,0.8);
     color: transparent;
@@ -705,8 +715,7 @@ img {
 
 .hero-actions { display: flex; gap: 20px; flex-wrap: wrap; }
 
-
-/* --- STANDARD FADE ANIMATION (For non-title items) --- */
+/* --- ANIMATIONS & SCROLL --- */
 .fade-in {
     opacity: 0;
     transform: translateY(20px);
@@ -715,15 +724,13 @@ img {
 
 @keyframes simpleFade { to { opacity: 1; transform: translateY(0); } }
 
-/* --- TIMING CONTROL --- */
 .delay-1 { animation-delay: 0.2s; }
-.delay-2 { animation-delay: 0.3s; } /* Ultra */
-.delay-3 { animation-delay: 0.5s; } /* Instinct */
-.delay-4 { animation-delay: 0.7s; } /* Crew */
-.delay-5 { animation-delay: 1.0s; } /* Lead Text */
-.delay-6 { animation-delay: 1.2s; } /* Buttons */
+.delay-2 { animation-delay: 0.3s; }
+.delay-3 { animation-delay: 0.5s; }
+.delay-4 { animation-delay: 0.7s; }
+.delay-5 { animation-delay: 1.0s; }
+.delay-6 { animation-delay: 1.2s; }
 
-/* --- SCROLL ARROW --- */
 .scroll-indicator {
     position: absolute; bottom: 40px; left: 50%;
     transform: translateX(-50%); z-index: 10;
@@ -1305,29 +1312,49 @@ img {
     100% { opacity: 1; text-shadow: 0 0 10px #ff0055; }
 }
 
-/* --- Twitch Privacy Wrapper --- */
-.twitch-placeholder {
+/* =========================================
+   TWITCH PRIVACY WRAPPER
+   ========================================= */
+
+/* 1. Permanent Layout Container (Prevents Jumping) */
+#twitch-embed {
     width: 100%;
-    max-width: 1000px; /* Oder deine container-width */
-    height: 500px;     /* Höhe des Players */
-    background-color: #000;
+    max-width: 1000px; 
     margin: 0 auto;
+    /* CRITICAL: Enforce height so content doesn't jump when iframe loads */
+    min-height: 500px; 
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid var(--primary);
-    box-shadow: 0 0 15px rgba(0, 240, 255, 0.1);
+    position: relative;
+}
+
+/* 2. Placeholder State (Only visible BEFORE click) */
+.twitch-placeholder {
+    background-color: var(--bg-dark);
     background-image: radial-gradient(circle, #1a1a1a 0%, #000 100%);
 }
 
+/* 3. The Overlay Box */
 .twitch-overlay {
     text-align: center;
     padding: 2rem;
-    background: rgba(0, 0, 0, 0.8);
+    background-color: var(--bg-dark);
     border: 1px solid #333;
     border-radius: 8px;
     backdrop-filter: blur(5px);
+    z-index: 10;
 }
+
+/* 4. Stream Frame Wrapper (Your existing style) */
+.stream-frame {
+    border: 1px solid var(--primary);
+    background: rgba(0,0,0,0.5);
+    padding: 5px;
+    box-shadow: 0 0 30px rgba(0, 240, 255, 0.1);
+}
+
+
 
 /* =========================================
    14. RECRUITMENT (CTA)
@@ -1600,7 +1627,18 @@ img {
 .track-time { font-size: 0.75rem; color: var(--text-muted); font-family: monospace; }
 .actions-row { display: flex; justify-content: space-between; align-items: center; }
 .playback-group, .secondary-group { display: flex; align-items: center; gap: 15px; }
-.btn-icon-small, .btn-icon, .btn-ctrl { background: none; border: none; color: #fff; cursor: pointer; transition: 0.2s; }
+.media-component .btn-icon-small, 
+.media-component .btn-icon, 
+.media-component .btn-ctrl { 
+    background: none; 
+    border: none; 
+    color: #fff; 
+    cursor: pointer; 
+    transition: 0.2s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 .btn-icon-small:hover, .btn-ctrl:hover { color: var(--primary); }
 .btn-play { color: var(--primary); transform: scale(1.1); }
 .volume-box { display: flex; align-items: center; gap: 5px; width: 100px; }
