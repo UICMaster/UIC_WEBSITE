@@ -28,13 +28,9 @@
     ================================================== -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Fonts
-    ================================================== -->
-    
-
     <!-- Scripts
     ================================================== -->
-    <script src="https://cdn.tailwindcss.com"></script>
+
 
     <!-- favicons
     ================================================== -->
@@ -134,44 +130,44 @@
         </div>
     </nav>
 
-    <section id="hero" class="hero-section">
-        <div class="hero-overlay"></div>
-        <div class="hero-grid-pattern"></div>
+<section id="hero" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-grid-pattern"></div>
 
-        <div class="container h-100" style="display:flex; align-items:center;">
-            <div class="hero-content">
-                
-                <div class="hero-label fade-in delay-1">
-                    # INSTINCT TAKES OVER
-                </div>
-                
-                <h1 class="hero-title">
-                    <span class="holo-text delay-2">ULTRA</span> 
-                    <span class="holo-text text-stroke delay-3">INSTINCT</span> <br>
-                    <span class="holo-text text-primary delay-4">CREW</span>
-                </h1>
-
-                <p class="hero-lead fade-in delay-5">
-                    Deutsche Gaming Organisation in der Prime League <br>
-                    <span style="color: var(--primary); font-weight:700;">Community. Kompetition. Ehrgeiz.</span>
-                </p>
-
-                <div class="hero-actions fade-in delay-6">
-                    <a href="#teams" class="btn btn-primary">
-                        Unser Kader <span class="btn-icon">→</span>
-                    </a>
-                    <a href="#join" class="btn btn-outline">
-                        Tritt der Crew bei
-                    </a>
-                </div>
-
+    <div class="container hero-container">
+        <div class="hero-content">
+            
+            <div class="hero-label fade-in delay-1">
+                # INSTINCT TAKES OVER
             </div>
+            
+            <h1 class="hero-title">
+                <span class="holo-text delay-2">ULTRA</span> 
+                <span class="holo-text text-stroke delay-3">INSTINCT</span> <br>
+                <span class="holo-text text-primary delay-4">CREW</span>
+            </h1>
+
+            <p class="hero-lead fade-in delay-5">
+                Deutsche Gaming Organisation in der Prime League <br>
+                <span style="color: var(--primary); font-weight:700;">Community. Kompetition. Ehrgeiz.</span>
+            </p>
+
+            <div class="hero-actions fade-in delay-6">
+                <a href="#teams" class="btn btn-primary">
+                    Unser Kader <span class="btn-icon">→</span>
+                </a>
+                <a href="#join" class="btn btn-outline">
+                    Tritt der Crew bei
+                </a>
+            </div>
+
         </div>
-        
-        <a href="#about" class="scroll-indicator fade-in delay-6">
-            <span class="scroll-arrow"></span>
-        </a>
-    </section>
+    </div>
+    
+    <a href="#about" class="scroll-indicator fade-in delay-6">
+        <span class="scroll-arrow"></span>
+    </a>
+</section>
 
     <section id="about" class="section-pad">
         <div class="container">
@@ -1149,17 +1145,23 @@
 
                 <div class="col-8">
                     <div class="stream-frame">
-                            <div id="twitch-embed" class="twitch-placeholder">
-                                <div class="twitch-overlay">
-                                    <h3 style="color: #fff; margin-bottom: 10px;">Twitch Stream laden?</h3>
-                                    <p style="font-size: 0.9rem; color: #ccc; margin-bottom: 20px; max-width: 400px; margin-left: auto; margin-right: auto;">
-                                        Zum Schutz deiner Daten wird der Stream erst geladen, wenn du klickst. Dabei werden Daten an Twitch übermittelt.
-                                    </p>
-                                    <button id="load-twitch-btn" class="btn btn-primary" style="cursor: pointer;">
-                                        STREAM STARTEN
-                                    </button>
-                                </div>
+                        <div id="twitch-embed" class="twitch-placeholder">
+                            
+                            <div class="twitch-overlay">
+                                <h3 style="color: #fff; margin-bottom: 10px;">Twitch Stream laden?</h3>
+                                <p style="font-size: 0.9rem; color: #ccc; margin-bottom: 20px; max-width: 400px; margin-left: auto; margin-right: auto;">
+                                    Zum Schutz deiner Daten wird der Stream erst geladen, wenn du klickst. Dabei werden Daten an Twitch übermittelt.
+                                </p>
+                                <button id="load-twitch-btn" class="btn btn-primary" style="cursor: pointer;">
+                                    STREAM STARTEN
+                                </button>
+                                <br>
+                                <small style="margin-top: 15px; display: block; font-size: 0.7rem; color: #777;">
+                                    <a href="/datenschutz" target="_blank" style="color: #888; text-decoration: underline;">Datenschutzerklärung</a>
+                                </small>
                             </div>
+
+                        </div>
                     </div>
                 </div>
 
@@ -1377,210 +1379,86 @@
         </div>
     </footer>
 
-<div id="media-component" class="media-component collapsed">
+    <div id="media-component" class="media-component collapsed">
 
-    <div class="mini-ui" id="mini-ui">
-        <div class="mobile-circle-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
-        </div>
-        <div class="desktop-bar-info">
-            <div class="mini-visual"><div class="mini-beat-circle"></div></div>
-            <span class="mini-title" id="mini-track-title">SYSTEM READY</span>
-            <button class="btn-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"/></svg></button>
-        </div>
-    </div>
-
-    <div class="main-deck">
-        <div class="deck-header">
-            <span class="deck-brand">UIC GILL</span>
-            <div class="header-actions">
-                <button id="btn-cinema-mode" class="btn-icon-small" title="Cinema Mode">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg>
-                </button>
-                <button id="btn-collapse" class="btn-icon-small" title="Minimize">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 13H5v-2h14v2z"/></svg>
-                </button>
+        <div class="mini-ui" id="mini-ui">
+            <div class="mobile-circle-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+            </div>
+            <div class="desktop-bar-info">
+                <div class="mini-visual"><div class="mini-beat-circle"></div></div>
+                <span class="mini-title" id="mini-track-title">SYSTEM READY</span>
+                <button class="btn-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"/></svg></button>
             </div>
         </div>
 
-        <div class="deck-visual-stage" id="visual-stage">
-            <video id="media-engine" class="media-engine" playsinline muted autoplay></video>
-            <img id="track-art" class="track-art" src="" alt="">
-            
-            <div id="fallback-visualizer" class="fallback-visualizer hidden">
-                <div class="cyber-ring"></div><div class="cyber-ring ring-2"></div><div class="cyber-core"></div>
-            </div>
-            
-            <div id="overlay-unmute" class="visual-overlay">
-                <div class="overlay-icon-box">
-                    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73 4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>
-                    <span>TAP TO UNMUTE</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="deck-controls">
-            <div class="progress-wrap" id="progress-container">
-                <div class="progress-bg"><div id="progress-fill" class="progress-fill"></div></div>
-            </div>
-            <div class="meta-row">
-                <div class="marquee-wrapper"><span id="track-title-full" class="track-title">INITIALIZING...</span></div>
-                <span id="track-time" class="track-time">0:00</span>
-            </div>
-            <div class="actions-row">
-                <div class="playback-group">
-                    <button id="cmd-prev" class="btn-ctrl"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg></button>
-                    <button id="cmd-play" class="btn-ctrl btn-play">
-                        <svg id="icon-play" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-                        <svg id="icon-pause" class="hidden" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+        <div class="main-deck">
+            <div class="deck-header">
+                <span class="deck-brand">UIC GILL</span>
+                <div class="header-actions">
+                    <button id="btn-cinema-mode" class="btn-icon-small" title="Cinema Mode">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg>
                     </button>
-                    <button id="cmd-next" class="btn-ctrl"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg></button>
-                </div>
-                <div class="secondary-group">
-                    <div class="volume-box">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg>
-                        <input type="range" id="volume-slider" min="0" max="1" step="0.05" value="0.5">
-                    </div>
-                    <button id="cmd-playlist-toggle" class="btn-icon-small"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg></button>
+                    <button id="btn-collapse" class="btn-icon-small" title="Minimize">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 13H5v-2h14v2z"/></svg>
+                    </button>
                 </div>
             </div>
-            <div id="playlist-drawer" class="playlist-internal"></div>
+
+            <div class="deck-visual-stage" id="visual-stage">
+                <video id="media-engine" class="media-engine" playsinline muted autoplay></video>
+                <img id="track-art" class="track-art" src="" alt="">
+                
+                <div id="fallback-visualizer" class="fallback-visualizer hidden">
+                    <div class="cyber-ring"></div><div class="cyber-ring ring-2"></div><div class="cyber-core"></div>
+                </div>
+                
+                <div id="overlay-unmute" class="visual-overlay">
+                    <div class="overlay-icon-box">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73 4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>
+                        <span>TAP TO UNMUTE</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="deck-controls">
+                <div class="progress-wrap" id="progress-container">
+                    <div class="progress-bg"><div id="progress-fill" class="progress-fill"></div></div>
+                </div>
+                <div class="meta-row">
+                    <div class="marquee-wrapper"><span id="track-title-full" class="track-title">INITIALIZING...</span></div>
+                    <span id="track-time" class="track-time">0:00</span>
+                </div>
+                <div class="actions-row">
+                    <div class="playback-group">
+                        <button id="cmd-prev" class="btn-ctrl"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg></button>
+                        <button id="cmd-play" class="btn-ctrl btn-play">
+                            <svg id="icon-play" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                            <svg id="icon-pause" class="hidden" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                        </button>
+                        <button id="cmd-next" class="btn-ctrl"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg></button>
+                    </div>
+                    <div class="secondary-group">
+                        <div class="volume-box">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg>
+                            <input type="range" id="volume-slider" min="0" max="1" step="0.05" value="0.5">
+                        </div>
+                        <button id="cmd-playlist-toggle" class="btn-icon-small"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg></button>
+                    </div>
+                </div>
+                <div id="playlist-drawer" class="playlist-internal"></div>
+            </div>
         </div>
     </div>
-</div>
 
+
+    <!-- Scripts
+    ================================================== -->
     <script src="js/script.js"></script>
-    <script src="https://embed.twitch.tv/embed/v1.js"></script>
-    <script src="js/twitch_embed.js"></script>
     <script src="js/mediaplayer.js"></script>
-
-    <script>
-        async function loadData() {
-            try {
-                // 1. Fetch the data generated by your GitHub Action
-                const res = await fetch('./data.json');
-                if (!res.ok) throw new Error("Data file not found");
-                const data = await res.json();
-
-                const teams = ["prime", "spark", "ember", "nova", "abyss", "night", "freezer"];
-                const roles = ["top", "jgl", "mid", "bot", "sup", "coach"];
-
-                teams.forEach(team => {
-                    roles.forEach(role => {
-                        const key = `${team}_${role}`;
-                        const stats = data[key];
-
-                        // Target UI Elements
-                        const nameEl = document.getElementById(`${key}_name`);
-                        const rankEl = document.getElementById(`${key}_rank`);
-                        const wlEl   = document.getElementById(`${key}_wl`);
-                        const iconEl = document.getElementById(`${key}_icon`);
-                        const lvlEl  = document.getElementById(`${key}_level`);
-
-                        if (stats) {
-                            // Update Text Data
-                            if (nameEl) nameEl.innerText = stats.name;
-                            if (rankEl) rankEl.innerText = stats.rank;
-                            if (wlEl)   wlEl.innerText   = `W/L: ${stats.wl}`;
-                            if (lvlEl)  lvlEl.innerText  = stats.level;
-
-                            // Update Riot Icon with "Broken Image" fix
-                            if (iconEl) {
-                                // PRIMING THE ERROR HANDLER: 
-                                // We set this before the .src to catch immediate load failures.
-                                iconEl.onerror = function() {
-                                    this.src = 'assets/profile/placeholder.png';
-                                    this.onerror = null; // Prevents infinite loops if placeholder is missing
-                                };
-                                
-                                iconEl.src = stats.icon;
-                                iconEl.style.display = "block";
-                            }
-                        } else {
-                            // Handle "OPEN SPOT" / Missing Data Logic
-                            if (nameEl) nameEl.innerText = "OPEN SPOT";
-                            if (rankEl) rankEl.innerText = "RECRUITING";
-                            if (wlEl)   wlEl.innerHTML   = "&nbsp;";
-                            if (lvlEl)  lvlEl.innerText  = "0";
-                            
-                            if (iconEl) {
-                                // Option: Set to placeholder or hide. 
-                                // Since we want a clean HUD, hiding is usually best for open spots.
-                                iconEl.style.display = "none"; 
-                                iconEl.src = "";
-                            }
-                        }
-                    });
-                });
-                console.log("HUD Data Sync: Successful");
-            } catch (e) {
-                console.error("Tactical HUD Error: Could not load data.json", e);
-            }
-        }
-
-        // Initialize HUD on Page Load
-        document.addEventListener('DOMContentLoaded', loadData);
-    </script>
-
-    <script>
-        async function loadPrimeStats() {
-            try {
-                const res = await fetch('./prime_stats.json?t=' + Date.now());
-                if (!res.ok) throw new Error("File Load Error");
-                const data = await res.json();
-
-                const teams = ["prime", "spark", "ember", "nova", "abyss", "night", "freezer"];
-                const container = document.getElementById('stats-telemetry-list');
-                
-                if (!container) return;
-                container.innerHTML = ''; // Clear loader
-
-                teams.forEach(key => {
-                    const s = data[key];
-                    if (s) {
-                        const row = `
-                            <div class="stats-row">
-                                <div class="stats-rank-box">
-                                    <span class="rank-label">RANG</span>
-                                    <span class="rank-number">${s.rank.toString().padStart(2, '0')}</span>
-                                </div>
-                                
-                                <div class="stats-info">
-                                    <h4>UIC ${key.toUpperCase()}</h4>
-                                    <span class="stats-div-tag">// ${s.division}</span>
-                                </div>
-
-                                <div class="stats-data-group">
-                                    <div class="data-point">
-                                        <span class="label">SPIELE</span>
-                                        <span class="value">${s.games}</span>
-                                    </div>
-                                    <div class="data-point">
-                                        <span class="label text-primary">SIEGE</span>
-                                        <span class="value">${s.wins}</span>
-                                    </div>
-                                    <div class="data-point">
-                                        <span class="label text-secondary">NIEDERLAGEN</span>
-                                        <span class="value">${s.losses}</span>
-                                    </div>
-                                    <div class="data-point">
-                                        <span class="label">PUNKTE</span>
-                                        <span class="value pts-highlight">${s.points}</span>
-                                    </div>
-                                </div>
-                            </div>
-                        `;
-                        container.insertAdjacentHTML('beforeend', row);
-                    }
-                });
-            } catch (e) {
-                console.error("Stats Sync Failed:", e);
-            }
-        }
-
-        document.addEventListener('DOMContentLoaded', loadPrimeStats);
-    </script>
-
+    <script src="js/insert_fetch_stats.js"></script>
+    <script src="js/insert_fetch_prime_stats.js"></script>
+    <script src="js/twitch_embed.js"></script>
 
 </body>
 </html>
