@@ -55,13 +55,13 @@ async function loadData() {
                     if (lvlEl)  lvlEl.innerText  = stats.level;
 
                     if (iconEl) {
-                        // Prevents broken icon visuals
                         iconEl.onerror = function() {
                             this.src = 'assets/profile/placeholder.png';
                             this.onerror = null; 
                         };
                         iconEl.src = stats.icon;
-                        iconEl.style.display = "block";
+                        // Nutze Klasse statt direktem Style für bessere CSS-Kontrolle
+                        iconEl.classList.remove('hidden');
                     }
                 } else {
                     // Open Spot Logic
@@ -69,7 +69,7 @@ async function loadData() {
                     if (rankEl) rankEl.innerText = "RECRUITING";
                     if (wlEl)   wlEl.innerHTML   = "&nbsp;";
                     if (lvlEl)  lvlEl.innerText  = "0";
-                    if (iconEl) iconEl.style.display = "none";
+                    if (iconEl) iconEl.classList.add('hidden');
                 }
             });
         });
@@ -79,7 +79,7 @@ async function loadData() {
 }
 
 //* =========================================
-//  3. INITIALIZER
+//  3. INITIALIZER & CORE EVENTS
 //  ========================================= */
 document.addEventListener("DOMContentLoaded", () => {
     loadData(); // Sync Riot Data
@@ -87,7 +87,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Automatically show the first active team grid
     const activeBtn = document.querySelector(".tab-btn.active");
     if (activeBtn) {
-        // Find team name from onclick="openTeam(event, 'TeamID')"
         const match = activeBtn.getAttribute('onclick').match(/'([^']+)'/);
         if (match && match[1]) {
             const defaultGrid = document.getElementById(match[1]);
@@ -96,136 +95,135 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-// Close mobile menu when a link is clicked
-document.querySelectorAll('.nav-link').forEach(link => {
-    link.addEventListener('click', () => {
-        document.getElementById('nav-toggle').checked = false;
-    });
-});
-
-/* --- STATS COUNTER ANIMATION --- */
-const statsSection = document.querySelector('.stats-section');
-const statNumbers = [
-    { id: 'stat-matches', endValue: 142, suffix: '' },
-    { id: 'stat-wr', endValue: 68, suffix: '%' },
-    { id: 'stat-players', endValue: 30, suffix: '+' },
-    { id: 'stat-cups', endValue: 12, suffix: '' } // Ensure you added this ID in HTML
-];
-
-let started = false; // Ensure animation only runs once
-
-function startCounting() {
-    if (started) return; // Stop if already ran
-    started = true;
-
-    statNumbers.forEach(stat => {
-        const element = document.getElementById(stat.id);
-        if (!element) return; // Skip if ID not found
-
-        let startValue = 0;
-        let duration = 2000; // 2 seconds
-        let startTime = null;
-
-        function step(timestamp) {
-            if (!startTime) startTime = timestamp;
-            const progress = Math.min((timestamp - startTime) / duration, 1);
-            
-            // Calculate current number
-            element.innerText = Math.floor(progress * stat.endValue) + stat.suffix;
-
-            if (progress < 1) {
-                window.requestAnimationFrame(step);
-            }
-        }
-        
-        window.requestAnimationFrame(step);
-    });
-}
-
-// Trigger animation when Stats Section is visible
-const observer = new IntersectionObserver((entries) => {
-    if (entries[0].isIntersecting) {
-        startCounting();
-    }
-}, { threshold: 0.5 }); // Start when 50% of section is visible
-
-if (statsSection) {
-    observer.observe(statsSection);
-}
-
-/* --- PWA SERVICE WORKER REGISTRATION --- */
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/service-worker.js')
-            .then(registration => {
-                console.log('ServiceWorker registration successful with scope: ', registration.scope);
-            })
-            .catch(err => {
-                console.log('ServiceWorker registration failed: ', err);
-            });
-    });
-}
-
-/* =========================================
-    SYSTEM LOGIC: UI INTERACTION
-    ========================================= */
-
-// 1. Mobile Scroll Lock
+//* =========================================
+//  4. NAVIGATION & MOBILE MENU
+//  ========================================= */
 const navToggle = document.getElementById('nav-toggle');
 const body = document.body;
 
 if (navToggle) {
     navToggle.addEventListener('change', function() {
         if (this.checked) {
-            // Menü offen -> Scrollen verbieten
-            body.style.overflow = 'hidden';
+            body.style.overflow = 'hidden'; // Scroll-Sperre bei offenem Menü
         } else {
-            // Menü zu -> Scrollen erlauben
             body.style.overflow = '';
         }
     });
 }
 
-// Fix: Schließt das Menü, wenn man auf einen Link klickt
+// Schließt das Menü bei Klick auf einen Link
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', () => {
-        navToggle.checked = false;
-        body.style.overflow = '';
+        if (navToggle) {
+            navToggle.checked = false;
+            body.style.overflow = '';
+        }
     });
 });
 
-// =========================================
-    // 2. LEGAL GATEKEEPER LOGIC (New Version)
-    // =========================================
-    const legalOverlay = document.getElementById('legal-overlay');
-    const legalBtn = document.getElementById('accept-legal');
-    const legalCheck = document.getElementById('legal-check');
-    const storageKey = 'Zustimmung_DATENSCHUTZ_IMPRESSUM';
+//* =========================================
+//  5. STATS COUNTER ANIMATION (Intersection Observer)
+//  ========================================= */
+const statsSection = document.querySelector('.stats-section');
+const statNumbers = [
+    { id: 'stat-matches', endValue: 142, suffix: '' },
+    { id: 'stat-wr', endValue: 68, suffix: '%' },
+    { id: 'stat-players', endValue: 30, suffix: '+' },
+    { id: 'stat-cups', endValue: 12, suffix: '' }
+];
 
-    // A. Beim Laden prüfen
-    window.addEventListener('load', () => {
-        if (!localStorage.getItem(storageKey)) {
-            legalOverlay.classList.add('active');
-            document.body.style.overflow = 'hidden'; // Scroll-Sperre
-        }
-    });
+let started = false; 
 
-    // B. Checkbox Logik (Button freischalten)
-    if (legalCheck) {
-        legalCheck.addEventListener('change', function() {
-            if (this.checked) {
-                legalBtn.disabled = false; // Button aktivieren
-            } else {
-                legalBtn.disabled = true;  // Button sperren
+function startCounting() {
+    if (started) return; 
+    started = true;
+
+    statNumbers.forEach(stat => {
+        const element = document.getElementById(stat.id);
+        if (!element) return; 
+
+        let startValue = 0;
+        let duration = 2000; 
+        let startTime = null;
+
+        function step(timestamp) {
+            if (!startTime) startTime = timestamp;
+            const progress = Math.min((timestamp - startTime) / duration, 1);
+            element.innerText = Math.floor(progress * stat.endValue) + stat.suffix;
+
+            if (progress < 1) {
+                window.requestAnimationFrame(step);
             }
-        });
-    }
+        }
+        window.requestAnimationFrame(step);
+    });
+}
 
-    // C. Akzeptieren & Schließen
-    if (legalBtn) {
-        legalBtn.addEventListener('click', () => {
-            localStorage.setItem(storageKey, 'true');
-            legalOverlay.classList.remove('active');
-            document.body.style.overflow = ''; // Scrollen erlauben
-        });
+const observer = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting) {
+        startCounting();
     }
+}, { threshold: 0.5 });
+
+if (statsSection) {
+    observer.observe(statsSection);
+}
+
+//* =========================================
+//  6. LEGAL GATEKEEPER (DSGVO Overlay)
+//  ========================================= */
+const legalOverlay = document.getElementById('legal-overlay');
+const legalBtn = document.getElementById('accept-legal');
+const legalCheck = document.getElementById('legal-check');
+const storageKey = 'Zustimmung_DATENSCHUTZ_IMPRESSUM';
+
+// Beim Laden prüfen
+window.addEventListener('load', () => {
+    if (!localStorage.getItem(storageKey)) {
+        if (legalOverlay) {
+            legalOverlay.classList.add('active');
+            body.style.overflow = 'hidden'; 
+        }
+    }
+});
+
+// Checkbox Logik
+if (legalCheck) {
+    legalCheck.addEventListener('change', function() {
+        if (legalBtn) legalBtn.disabled = !this.checked;
+    });
+}
+
+// Akzeptieren & Schließen
+if (legalBtn) {
+    legalBtn.addEventListener('click', () => {
+        localStorage.setItem(storageKey, 'true');
+        if (legalOverlay) legalOverlay.classList.remove('active');
+        body.style.overflow = ''; 
+    });
+}
+
+//* =========================================
+//  7. PWA SERVICE WORKER REGISTRATION
+//  ========================================= */
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js')
+            .then(registration => {
+                console.log('UIC-PWA: Registration successful (Scope: ', registration.scope, ')');
+                
+                // Lauschen auf Updates vom Service Worker
+                registration.addEventListener('updatefound', () => {
+                    const newWorker = registration.installing;
+                    newWorker.addEventListener('statechange', () => {
+                        if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                            console.log('UIC-System: Neues Update verfügbar. Bitte Seite neu laden.');
+                        }
+                    });
+                });
+            })
+            .catch(err => {
+                console.log('UIC-PWA: Registration failed: ', err);
+            });
+    });
+}
