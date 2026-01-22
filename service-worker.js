@@ -1,174 +1,83 @@
-const CACHE_NAME = 'UIC-Cache-v17';
+const CACHE_NAME = 'UIC-System-v18';
 
-// THESE must match your actual file structure perfectly
+
 const PRECACHE_URLS = [
-'/',
-  // '/index.html',
-  // '/css/style.css',
-  // '/js/script.js',
-  // '/favicon.ico',
-  // '/manifest.json',
-  // '/icon512_maskable.png',       
-  // '/android-chrome-512x512.png' 
+    '/',
+    '/index.html',
+    '/css/style.css',
+    '/js/script.js',
+    '/js/mediaplayer.js',
+    '/js/twitch_embed.js',
+    '/manifest.json',
+    '/favicon.ico',
+    // Lokale Fonts (Sehr wichtig für dein HUD-Design!)
+    '/fonts/orbitron/orbitron-v35-latin-regular.woff2',
+    '/fonts/rajdhani/rajdhani-v17-latin-regular.woff2',
+    // Icons
+    '/icon512_maskable.png',
+    '/android-chrome-512x512.png'
 ];
 
 const RUNTIME_CDN_HOSTS = [
-  'cdn.datatables.net',
-  'code.jquery.com',
-  'js/fontawesome'
+    'player.twitch.tv',
+    'embed.twitch.tv'
 ];
 
-// Install event - precache
+// 1. INSTALLATION: Alles in den Cache schaufeln
 self.addEventListener('install', event => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => cache.addAll(PRECACHE_URLS))
-  );
-  self.skipWaiting(); // Activate new SW ASAP
+    event.waitUntil(
+        caches.open(CACHE_NAME).then(cache => {
+            console.log('UIC-System: Pre-Caching initialisiert');
+            return cache.addAll(PRECACHE_URLS);
+        })
+    );
+    self.skipWaiting();
 });
 
-// Activate event - clean old caches + notify clients
+// 2. AKTIVIERUNG: Alte Caches löschen, damit Platz für Neues ist
 self.addEventListener('activate', event => {
-  event.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(
-        keys.map(key => key !== CACHE_NAME && caches.delete(key))
-      )
-    ).then(() => self.clients.claim())
-  );
-
-  // Notify clients about the new service worker activation
-  event.waitUntil(
-    self.clients.matchAll().then(clients => {
-      clients.forEach(client => {
-        client.postMessage({ type: 'NEW_VERSION_AVAILABLE' });
-      });
-    })
-  );
+    const cacheWhitelist = [CACHE_NAME, 'cdn-cache'];
+    event.waitUntil(
+        caches.keys().then(keys =>
+            Promise.all(
+                keys.map(key => {
+                    if (!cacheWhitelist.includes(key)) {
+                        return caches.delete(key);
+                    }
+                })
+            )
+        ).then(() => self.clients.claim())
+    );
 });
 
-// Fetch event - handle runtime caching & fallback
+// 3. FETCH: Die "Strategie"
 self.addEventListener('fetch', event => {
-  const request = event.request;
-  const url = new URL(request.url);
+    const url = new URL(event.request.url);
 
-  if (request.method !== 'GET') return;
+    // Nur GET-Anfragen cachen
+    if (event.request.method !== 'GET') return;
 
-  // Runtime caching for CDN assets with stale-while-revalidate
-  if (RUNTIME_CDN_HOSTS.some(host => url.hostname.includes(host))) {
+    // SPEZIAL-STRATEGIE für CDNs/Twitch: Stale-While-Revalidate
+    // (Zeige altes Bild/Skript sofort, lade im Hintergrund das neue)
+    if (RUNTIME_CDN_HOSTS.some(host => url.hostname.includes(host))) {
+        event.respondWith(
+            caches.open('cdn-cache').then(cache => {
+                return cache.match(event.request).then(response => {
+                    const fetchPromise = fetch(event.request).then(networkResponse => {
+                        cache.put(event.request, networkResponse.clone());
+                        return networkResponse;
+                    });
+                    return response || fetchPromise;
+                });
+            })
+        );
+        return;
+    }
+
+    // STANDARD-STRATEGIE für UIC-Dateien: Cache First
     event.respondWith(
-      caches.open('cdn-cache').then(cache =>
-        cache.match(request).then(response => {
-          const fetchPromise = fetch(request).then(networkResponse => {
-            cache.put(request, networkResponse.clone());
-            return networkResponse;
-          });
-          return response || fetchPromise;
+        caches.match(event.request).then(response => {
+            return response || fetch(event.request);
         })
-      )
     );
-    return;
-  }
-
-  // App shell fallback for navigation (SPA)
-  if (request.mode === 'navigate') {
-    event.respondWith(
-      caches.match('/index.html').then(response => response || fetch(request))
-    );
-    return;
-  }
-
-  // Default cache-first strategy
-  event.respondWith(
-    caches.match(request).then(response => response || fetch(request))
-  );
 });
-
-
-
-
-/* const CACHE_NAME = 'rhitta-v1';
-const PRECACHE_URLS = [
-  '/', // fallback route for SPA
-  '/index.html',
-  '/manifest.json',
-  '/css/styles.css',
-  '/css/vendor.css',
-  '/js/main.js',
-  '/js/modal.js',
-  '/js/modernizr.js',
-  '/js/bountys.js',
-  '/js/plugins.js',
-  '/js/calc_num.js',
-  '/icon512_rounded.png',
-  '/icon512_maskable.png'
-];
-
-const RUNTIME_CDN_HOSTS = [
-  'cdn.datatables.net',
-  'code.jquery.com',
-  'js/fontawesome'
-];
-
-// Install: precache static assets
-self.addEventListener('install', event => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => cache.addAll(PRECACHE_URLS))
-  );
-  self.skipWaiting();
-});
-
-// Activate: clean old cache
-self.addEventListener('activate', event => {
-  event.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(
-        keys.map(key => {
-          if (key !== CACHE_NAME) {
-            return caches.delete(key);
-          }
-        })
-      )
-    )
-  );
-  self.clients.claim();
-});
-
-// Fetch: cache-first, then runtime fallback
-self.addEventListener('fetch', event => {
-  const request = event.request;
-  const url = new URL(request.url);
-
-  // Only GET requests are handled
-  if (request.method !== 'GET') return;
-
-  // Runtime caching for CDN assets
-  if (RUNTIME_CDN_HOSTS.some(host => url.hostname.includes(host))) {
-    event.respondWith(
-      caches.open('cdn-cache').then(cache =>
-        cache.match(request).then(response => {
-          const fetchPromise = fetch(request).then(networkResponse => {
-            cache.put(request, networkResponse.clone());
-            return networkResponse;
-          });
-          return response || fetchPromise;
-        })
-      )
-    );
-    return;
-  }
-
-  // App shell routing: fallback to index.html for navigation
-  if (request.mode === 'navigate') {
-    event.respondWith(
-      caches.match('/index.html').then(response => response || fetch(request))
-    );
-    return;
-  }
-
-  // Cache-first strategy for static files
-  event.respondWith(
-    caches.match(request).then(response => {
-      return response || fetch(request);
-    })
-  );
-}); */
