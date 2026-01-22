@@ -23,15 +23,15 @@
   "prime_bot": {
     "name": "UIC Giani",
     "level": 709,
-    "rank": "DIAMOND III",
-    "wl": "9/2",
+    "rank": "DIAMOND II",
+    "wl": "10/2",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3398.png"
   },
   "prime_sup": {
     "name": "UIC Baguetto",
     "level": 970,
     "rank": "DIAMOND III",
-    "wl": "37/15",
+    "wl": "38/15",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4096.png"
   },
   "spark_top": {
@@ -66,14 +66,14 @@
     "name": "UIC Rhinoshield",
     "level": 929,
     "rank": "PLATINUM I",
-    "wl": "55/51",
+    "wl": "56/52",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4068.png"
   },
   "spark_coach": {
     "name": "soulrender",
     "level": 297,
     "rank": "DIAMOND III",
-    "wl": "39/52",
+    "wl": "40/52",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7028.png"
   },
   "ember_top": {
@@ -92,9 +92,9 @@
   },
   "ember_mid": {
     "name": "ResetHoe",
-    "level": 854,
+    "level": 855,
     "rank": "PLATINUM III",
-    "wl": "1/6",
+    "wl": "1/8",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4793.png"
   },
   "ember_bot": {
@@ -108,7 +108,7 @@
     "name": "UIC Envy",
     "level": 297,
     "rank": "PLATINUM IV",
-    "wl": "59/58",
+    "wl": "60/58",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6924.png"
   },
   "ember_coach": {
@@ -199,7 +199,7 @@
     "name": "UIC Shekar",
     "level": 589,
     "rank": "MASTER I",
-    "wl": "90/92",
+    "wl": "90/93",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3231.png"
   },
   "night_mid": {
