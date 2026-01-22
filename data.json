@@ -38,7 +38,7 @@
     "name": "skanpy",
     "level": 315,
     "rank": "PLATINUM I",
-    "wl": "32/27",
+    "wl": "32/28",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7068.png"
   },
   "spark_jgl": {
@@ -66,7 +66,7 @@
     "name": "UIC Rhinoshield",
     "level": 929,
     "rank": "PLATINUM I",
-    "wl": "57/54",
+    "wl": "58/54",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4068.png"
   },
   "spark_coach": {
@@ -128,13 +128,13 @@
   "nova_jgl": {
     "name": "UIC Rubix Qube",
     "level": 468,
-    "rank": "GOLD II",
-    "wl": "29/33",
+    "rank": "GOLD III",
+    "wl": "29/34",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3592.png"
   },
   "nova_mid": {
     "name": "UIC adedier",
-    "level": 594,
+    "level": 595,
     "rank": "GOLD II",
     "wl": "7/6",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4379.png"
@@ -150,8 +150,8 @@
     "name": "UIC Excellent C",
     "level": 543,
     "rank": "PLATINUM IV",
-    "wl": "25/16",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/661.png"
+    "wl": "25/17",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7064.png"
   },
   "abyss_top": {
     "name": "Dany",
@@ -171,7 +171,7 @@
     "name": "UIC Goku",
     "level": 456,
     "rank": "EMERALD III",
-    "wl": "33/29",
+    "wl": "34/29",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/538.png"
   },
   "abyss_bot": {
@@ -190,16 +190,16 @@
   },
   "night_top": {
     "name": "UIC proStarII",
-    "level": 530,
+    "level": 531,
     "rank": "UNRANKED",
     "wl": "0/0",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/939.png"
   },
   "night_jgl": {
     "name": "UIC Shekar",
-    "level": 589,
+    "level": 590,
     "rank": "MASTER I",
-    "wl": "95/94",
+    "wl": "95/96",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3231.png"
   },
   "night_mid": {
