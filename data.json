@@ -3,7 +3,7 @@
     "name": "UIC Speedy",
     "level": 1138,
     "rank": "DIAMOND IV",
-    "wl": "9/14",
+    "wl": "10/14",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7026.png"
   },
   "prime_jgl": {
@@ -22,16 +22,16 @@
   },
   "prime_bot": {
     "name": "UIC Giani",
-    "level": 709,
+    "level": 710,
     "rank": "DIAMOND III",
-    "wl": "10/4",
+    "wl": "10/6",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3398.png"
   },
   "prime_sup": {
     "name": "UIC Baguetto",
     "level": 970,
-    "rank": "DIAMOND III",
-    "wl": "38/17",
+    "rank": "DIAMOND IV",
+    "wl": "38/19",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4096.png"
   },
   "spark_top": {
@@ -79,15 +79,15 @@
   "ember_top": {
     "name": "SilasX",
     "level": 515,
-    "rank": "EMERALD II",
-    "wl": "17/11",
+    "rank": "EMERALD I",
+    "wl": "18/11",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6989.png"
   },
   "ember_jgl": {
     "name": "UIC Shederen",
     "level": 279,
     "rank": "EMERALD III",
-    "wl": "50/44",
+    "wl": "51/45",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -107,8 +107,8 @@
   "ember_sup": {
     "name": "UIC Envy",
     "level": 299,
-    "rank": "PLATINUM IV",
-    "wl": "66/63",
+    "rank": "PLATINUM III",
+    "wl": "68/63",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6924.png"
   },
   "ember_coach": {
@@ -123,7 +123,7 @@
     "level": 840,
     "rank": "UNRANKED",
     "wl": "0/0",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/5916.png"
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4666.png"
   },
   "nova_jgl": {
     "name": "UIC Rubix Qube",
@@ -211,9 +211,9 @@
   },
   "night_bot": {
     "name": "Cedopanya",
-    "level": 174,
+    "level": 175,
     "rank": "EMERALD III",
-    "wl": "25/23",
+    "wl": "25/24",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6631.png"
   },
   "night_sup": {
