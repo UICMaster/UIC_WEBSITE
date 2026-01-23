@@ -23,22 +23,22 @@
   "prime_bot": {
     "name": "UIC Giani",
     "level": 710,
-    "rank": "DIAMOND II",
-    "wl": "12/8",
+    "rank": "DIAMOND III",
+    "wl": "12/10",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3398.png"
   },
   "prime_sup": {
     "name": "UIC Baguetto",
     "level": 971,
-    "rank": "DIAMOND III",
-    "wl": "40/21",
+    "rank": "DIAMOND IV",
+    "wl": "40/23",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4096.png"
   },
   "spark_top": {
     "name": "skanpy",
     "level": 315,
     "rank": "PLATINUM I",
-    "wl": "33/29",
+    "wl": "33/30",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7068.png"
   },
   "spark_jgl": {
@@ -86,8 +86,8 @@
   "ember_jgl": {
     "name": "UIC Shederen",
     "level": 279,
-    "rank": "EMERALD III",
-    "wl": "53/47",
+    "rank": "EMERALD II",
+    "wl": "54/47",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -108,7 +108,7 @@
     "name": "UIC Envy",
     "level": 299,
     "rank": "PLATINUM III",
-    "wl": "68/63",
+    "wl": "69/63",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6924.png"
   },
   "ember_coach": {
@@ -213,7 +213,7 @@
     "name": "Cedopanya",
     "level": 175,
     "rank": "EMERALD II",
-    "wl": "28/26",
+    "wl": "28/27",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6631.png"
   },
   "night_sup": {
