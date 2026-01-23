@@ -3,14 +3,14 @@
     "name": "UIC Speedy",
     "level": 1138,
     "rank": "DIAMOND IV",
-    "wl": "9/12",
+    "wl": "9/14",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7026.png"
   },
   "prime_jgl": {
     "name": "UIC Niki",
     "level": 1000,
-    "rank": "DIAMOND II",
-    "wl": "20/17",
+    "rank": "DIAMOND I",
+    "wl": "21/17",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4380.png"
   },
   "prime_mid": {
@@ -24,14 +24,14 @@
     "name": "UIC Giani",
     "level": 709,
     "rank": "DIAMOND III",
-    "wl": "10/3",
+    "wl": "10/4",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3398.png"
   },
   "prime_sup": {
     "name": "UIC Baguetto",
     "level": 970,
     "rank": "DIAMOND III",
-    "wl": "38/16",
+    "wl": "38/17",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4096.png"
   },
   "spark_top": {
@@ -71,9 +71,9 @@
   },
   "spark_coach": {
     "name": "soulrender",
-    "level": 297,
+    "level": 298,
     "rank": "DIAMOND III",
-    "wl": "42/52",
+    "wl": "43/52",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7070.png"
   },
   "ember_top": {
@@ -106,9 +106,9 @@
   },
   "ember_sup": {
     "name": "UIC Envy",
-    "level": 298,
+    "level": 299,
     "rank": "PLATINUM IV",
-    "wl": "66/62",
+    "wl": "66/63",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6924.png"
   },
   "ember_coach": {
@@ -213,7 +213,7 @@
     "name": "Cedopanya",
     "level": 174,
     "rank": "EMERALD III",
-    "wl": "24/23",
+    "wl": "25/23",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6631.png"
   },
   "night_sup": {
