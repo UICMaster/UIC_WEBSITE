@@ -64,9 +64,9 @@
   },
   "spark_sup": {
     "name": "UIC Rhinoshield",
-    "level": 929,
+    "level": 930,
     "rank": "PLATINUM I",
-    "wl": "59/55",
+    "wl": "59/57",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4068.png"
   },
   "spark_coach": {
@@ -170,8 +170,8 @@
   "abyss_mid": {
     "name": "UIC Goku",
     "level": 456,
-    "rank": "EMERALD III",
-    "wl": "35/30",
+    "rank": "EMERALD II",
+    "wl": "37/30",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/538.png"
   },
   "abyss_bot": {
@@ -232,9 +232,9 @@
   },
   "freezer_jgl": {
     "name": "BlauerKlaus",
-    "level": 1122,
-    "rank": "MASTER I",
-    "wl": "36/35",
+    "level": 1123,
+    "rank": "DIAMOND I",
+    "wl": "36/36",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7049.png"
   },
   "freezer_mid": {
