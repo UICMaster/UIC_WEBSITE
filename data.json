@@ -22,16 +22,16 @@
   },
   "prime_bot": {
     "name": "UIC Giani",
-    "level": 710,
-    "rank": "DIAMOND II",
-    "wl": "15/10",
+    "level": 711,
+    "rank": "DIAMOND I",
+    "wl": "16/10",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3398.png"
   },
   "prime_sup": {
     "name": "UIC Baguetto",
     "level": 971,
-    "rank": "DIAMOND III",
-    "wl": "45/24",
+    "rank": "DIAMOND II",
+    "wl": "46/24",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4096.png"
   },
   "spark_top": {
@@ -86,8 +86,8 @@
   "ember_jgl": {
     "name": "UIC Shederen",
     "level": 280,
-    "rank": "EMERALD III",
-    "wl": "57/52",
+    "rank": "EMERALD II",
+    "wl": "59/52",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -100,15 +100,15 @@
   "ember_bot": {
     "name": "UIC DontMethWith",
     "level": 1285,
-    "rank": "EMERALD IV",
-    "wl": "49/58",
+    "rank": "EMERALD III",
+    "wl": "51/58",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6988.png"
   },
   "ember_sup": {
     "name": "UIC Envy",
     "level": 300,
     "rank": "PLATINUM IV",
-    "wl": "72/68",
+    "wl": "72/69",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/5917.png"
   },
   "ember_coach": {
@@ -120,7 +120,7 @@
   },
   "nova_top": {
     "name": "TAS Kaetaya",
-    "level": 840,
+    "level": 841,
     "rank": "UNRANKED",
     "wl": "0/0",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/5917.png"
@@ -148,7 +148,7 @@
   },
   "nova_sup": {
     "name": "UIC Excellent C",
-    "level": 543,
+    "level": 544,
     "rank": "PLATINUM IV",
     "wl": "27/18",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7064.png"
@@ -184,8 +184,8 @@
   "abyss_sup": {
     "name": "TheEigeeen",
     "level": 640,
-    "rank": "EMERALD III",
-    "wl": "15/15",
+    "rank": "EMERALD II",
+    "wl": "16/15",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6037.png"
   },
   "night_top": {
@@ -199,7 +199,7 @@
     "name": "UIC Shekar",
     "level": 590,
     "rank": "MASTER I",
-    "wl": "100/96",
+    "wl": "100/97",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3231.png"
   },
   "night_mid": {
@@ -248,7 +248,7 @@
     "name": "RG AutumnLeaf",
     "level": 823,
     "rank": "DIAMOND I",
-    "wl": "31/25",
+    "wl": "32/25",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6373.png"
   },
   "freezer_sup": {
