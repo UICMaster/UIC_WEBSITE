@@ -30,15 +30,15 @@
   "prime_sup": {
     "name": "UIC Baguetto",
     "level": 971,
-    "rank": "DIAMOND IV",
-    "wl": "40/23",
+    "rank": "DIAMOND III",
+    "wl": "42/24",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4096.png"
   },
   "spark_top": {
     "name": "skanpy",
     "level": 315,
     "rank": "PLATINUM I",
-    "wl": "33/30",
+    "wl": "34/30",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7068.png"
   },
   "spark_jgl": {
@@ -92,9 +92,9 @@
   },
   "ember_mid": {
     "name": "ResetHoe",
-    "level": 855,
+    "level": 856,
     "rank": "PLATINUM III",
-    "wl": "4/12",
+    "wl": "5/13",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4793.png"
   },
   "ember_bot": {
@@ -108,7 +108,7 @@
     "name": "UIC Envy",
     "level": 299,
     "rank": "PLATINUM III",
-    "wl": "69/63",
+    "wl": "70/65",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6924.png"
   },
   "ember_coach": {
