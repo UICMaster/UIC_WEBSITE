@@ -39,41 +39,41 @@
     "level": 315,
     "rank": "PLATINUM I",
     "wl": "34/30",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7068.png"
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6296.png"
   },
   "spark_jgl": {
     "name": "UIC Lenno",
     "level": 767,
     "rank": "PLATINUM IV",
-    "wl": "17/17",
+    "wl": "18/17",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/2073.png"
   },
   "spark_mid": {
     "name": "Lenlusz",
     "level": 741,
     "rank": "EMERALD IV",
-    "wl": "29/30",
+    "wl": "30/30",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7047.png"
   },
   "spark_bot": {
     "name": "UIC Flare",
     "level": 621,
     "rank": "EMERALD III",
-    "wl": "21/26",
+    "wl": "22/26",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/626.png"
   },
   "spark_sup": {
     "name": "UIC Rhinoshield",
     "level": 930,
-    "rank": "PLATINUM II",
-    "wl": "62/61",
+    "rank": "PLATINUM I",
+    "wl": "63/61",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4068.png"
   },
   "spark_coach": {
     "name": "soulrender",
     "level": 298,
     "rank": "DIAMOND II",
-    "wl": "44/52",
+    "wl": "45/52",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7070.png"
   },
   "ember_top": {
@@ -86,8 +86,8 @@
   "ember_jgl": {
     "name": "UIC Shederen",
     "level": 280,
-    "rank": "EMERALD II",
-    "wl": "56/49",
+    "rank": "EMERALD III",
+    "wl": "56/50",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -100,16 +100,16 @@
   "ember_bot": {
     "name": "UIC DontMethWith",
     "level": 1285,
-    "rank": "EMERALD III",
-    "wl": "48/55",
+    "rank": "EMERALD IV",
+    "wl": "48/56",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6988.png"
   },
   "ember_sup": {
     "name": "UIC Envy",
-    "level": 299,
-    "rank": "PLATINUM IV",
-    "wl": "70/66",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6924.png"
+    "level": 300,
+    "rank": "PLATINUM III",
+    "wl": "71/66",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/5917.png"
   },
   "ember_coach": {
     "name": "RatHairedShanks",
@@ -123,7 +123,7 @@
     "level": 840,
     "rank": "UNRANKED",
     "wl": "0/0",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6589.png"
+    "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/5917.png"
   },
   "nova_jgl": {
     "name": "UIC Rubix Qube",
@@ -255,7 +255,7 @@
     "name": "UIC Ryu Copeland",
     "level": 971,
     "rank": "DIAMOND IV",
-    "wl": "10/10",
+    "wl": "10/12",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6631.png"
   },
   "freezer_coach": {
