@@ -3,7 +3,7 @@
     "name": "UIC Speedy",
     "level": 1139,
     "rank": "DIAMOND IV",
-    "wl": "13/20",
+    "wl": "13/22",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7026.png"
   },
   "prime_jgl": {
@@ -16,22 +16,22 @@
   "prime_mid": {
     "name": "UIC Shenycrane",
     "level": 619,
-    "rank": "DIAMOND II",
-    "wl": "19/18",
+    "rank": "DIAMOND I",
+    "wl": "20/18",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6387.png"
   },
   "prime_bot": {
     "name": "UIC Giani",
     "level": 711,
     "rank": "DIAMOND I",
-    "wl": "19/10",
+    "wl": "19/11",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3398.png"
   },
   "prime_sup": {
     "name": "UIC Baguetto",
     "level": 972,
     "rank": "DIAMOND II",
-    "wl": "49/24",
+    "wl": "49/25",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4096.png"
   },
   "spark_top": {
@@ -66,7 +66,7 @@
     "name": "UIC Rhinoshield",
     "level": 932,
     "rank": "EMERALD IV",
-    "wl": "74/67",
+    "wl": "74/68",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4068.png"
   },
   "spark_coach": {
@@ -94,7 +94,7 @@
     "name": "ResetHoe",
     "level": 857,
     "rank": "PLATINUM I",
-    "wl": "11/18",
+    "wl": "12/18",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4793.png"
   },
   "ember_bot": {
@@ -121,8 +121,8 @@
   "nova_top": {
     "name": "TAS Kaetaya",
     "level": 841,
-    "rank": "PLATINUM III",
-    "wl": "5/5",
+    "rank": "PLATINUM II",
+    "wl": "6/5",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/6589.png"
   },
   "nova_jgl": {
@@ -190,7 +190,7 @@
   },
   "night_top": {
     "name": "UIC proStarII",
-    "level": 531,
+    "level": 532,
     "rank": "UNRANKED",
     "wl": "0/0",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/939.png"
