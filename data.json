@@ -24,14 +24,14 @@
     "name": "UIC Giani",
     "level": 711,
     "rank": "DIAMOND I",
-    "wl": "19/12",
+    "wl": "20/12",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3398.png"
   },
   "prime_sup": {
     "name": "UIC Baguetto",
     "level": 972,
     "rank": "DIAMOND II",
-    "wl": "49/26",
+    "wl": "50/26",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4096.png"
   },
   "spark_top": {
@@ -52,7 +52,7 @@
     "name": "Lenlusz",
     "level": 743,
     "rank": "EMERALD III",
-    "wl": "38/37",
+    "wl": "38/38",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7047.png"
   },
   "spark_bot": {
@@ -66,14 +66,14 @@
     "name": "UIC Rhinoshield",
     "level": 933,
     "rank": "EMERALD IV",
-    "wl": "75/69",
+    "wl": "75/70",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/4068.png"
   },
   "spark_coach": {
     "name": "soulrender",
     "level": 298,
-    "rank": "DIAMOND II",
-    "wl": "49/53",
+    "rank": "DIAMOND I",
+    "wl": "50/53",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7070.png"
   },
   "ember_top": {
@@ -128,8 +128,8 @@
   "nova_jgl": {
     "name": "UIC Rubix Qube",
     "level": 469,
-    "rank": "GOLD II",
-    "wl": "35/36",
+    "rank": "GOLD I",
+    "wl": "36/36",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -149,8 +149,8 @@
   "nova_sup": {
     "name": "UIC Excellent C",
     "level": 545,
-    "rank": "PLATINUM IV",
-    "wl": "30/23",
+    "rank": "PLATINUM III",
+    "wl": "31/23",
     "icon": "https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/7064.png"
   },
   "abyss_top": {
