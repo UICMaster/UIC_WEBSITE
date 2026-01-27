@@ -108,7 +108,7 @@ async function getPlayerData(player) {
             level: summData.summonerLevel || 0,
             rank: soloQ.tier === 'UNRANKED' ? 'UNRANKED' : `${soloQ.tier} ${soloQ.rank}`,
             wl: `${soloQ.wins}/${soloQ.losses}`,
-            icon: `https://ddragon.leagueoflegends.com/cdn/13.24.1/img/profileicon/${summData.profileIconId || 0}.png`
+            icon: `https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/${summData.profileIconId || 0}.png`
         };
     } catch (e) {
         console.error(`⚠️ Failed to fetch ${player.gameName}: ${e.message}`);
