@@ -15,9 +15,9 @@
   },
   "prime_mid": {
     "name": "UIC Shenycrane",
-    "level": 619,
-    "rank": "DIAMOND I",
-    "wl": "23/21",
+    "level": 620,
+    "rank": "MASTER I",
+    "wl": "24/21",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6387.png"
   },
   "prime_bot": {
@@ -43,7 +43,7 @@
   },
   "spark_jgl": {
     "name": "UIC Lenno",
-    "level": 768,
+    "level": 769,
     "rank": "PLATINUM III",
     "wl": "23/20",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
@@ -86,8 +86,8 @@
   "ember_jgl": {
     "name": "UIC Shederen",
     "level": 283,
-    "rank": "EMERALD I",
-    "wl": "75/63",
+    "rank": "EMERALD II",
+    "wl": "75/64",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -148,9 +148,9 @@
   },
   "nova_sup": {
     "name": "UIC Excellent C",
-    "level": 545,
+    "level": 546,
     "rank": "PLATINUM IV",
-    "wl": "31/26",
+    "wl": "32/27",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7064.png"
   },
   "abyss_top": {
