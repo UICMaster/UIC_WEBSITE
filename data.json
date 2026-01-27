@@ -38,7 +38,7 @@
     "name": "skanpy",
     "level": 316,
     "rank": "PLATINUM I",
-    "wl": "37/32",
+    "wl": "37/33",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3864.png"
   },
   "spark_jgl": {
@@ -127,9 +127,9 @@
   },
   "nova_jgl": {
     "name": "UIC Rubix Qube",
-    "level": 469,
-    "rank": "GOLD I",
-    "wl": "37/37",
+    "level": 470,
+    "rank": "GOLD II",
+    "wl": "37/38",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -149,8 +149,8 @@
   "nova_sup": {
     "name": "UIC Excellent C",
     "level": 546,
-    "rank": "PLATINUM III",
-    "wl": "35/30",
+    "rank": "PLATINUM IV",
+    "wl": "35/31",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7064.png"
   },
   "abyss_top": {
@@ -239,9 +239,9 @@
   },
   "freezer_mid": {
     "name": "UIC FrozenHands",
-    "level": 626,
+    "level": 627,
     "rank": "EMERALD I",
-    "wl": "12/8",
+    "wl": "13/8",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6811.png"
   },
   "freezer_bot": {
