@@ -38,7 +38,7 @@
     "name": "skanpy",
     "level": 316,
     "rank": "PLATINUM I",
-    "wl": "39/35",
+    "wl": "40/35",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3864.png"
   },
   "spark_jgl": {
@@ -66,7 +66,7 @@
     "name": "UIC Rhinoshield",
     "level": 935,
     "rank": "EMERALD III",
-    "wl": "86/76",
+    "wl": "88/76",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5350.png"
   },
   "spark_coach": {
@@ -129,7 +129,7 @@
     "name": "UIC Rubix Qube",
     "level": 470,
     "rank": "GOLD I",
-    "wl": "39/39",
+    "wl": "40/39",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -148,9 +148,9 @@
   },
   "nova_sup": {
     "name": "UIC Excellent C",
-    "level": 546,
+    "level": 547,
     "rank": "PLATINUM IV",
-    "wl": "35/31",
+    "wl": "35/32",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7064.png"
   },
   "abyss_top": {
@@ -170,8 +170,8 @@
   "abyss_mid": {
     "name": "UIC Goku",
     "level": 458,
-    "rank": "EMERALD IV",
-    "wl": "39/39",
+    "rank": "EMERALD III",
+    "wl": "40/39",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/538.png"
   },
   "abyss_bot": {
