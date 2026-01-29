@@ -38,21 +38,21 @@
     "name": "skanpy",
     "level": 317,
     "rank": "EMERALD IV",
-    "wl": "44/40",
+    "wl": "44/41",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3864.png"
   },
   "spark_jgl": {
     "name": "UIC Lenno",
     "level": 770,
     "rank": "PLATINUM III",
-    "wl": "27/25",
+    "wl": "28/26",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
   },
   "spark_mid": {
     "name": "Lenlusz",
-    "level": 744,
+    "level": 745,
     "rank": "EMERALD III",
-    "wl": "44/43",
+    "wl": "45/44",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
   },
   "spark_bot": {
@@ -94,14 +94,14 @@
     "name": "ResetHoe",
     "level": 858,
     "rank": "PLATINUM I",
-    "wl": "12/20",
+    "wl": "13/20",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4793.png"
   },
   "ember_bot": {
     "name": "UIC DontMethWith",
     "level": 1288,
     "rank": "EMERALD II",
-    "wl": "68/68",
+    "wl": "69/68",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
@@ -127,9 +127,9 @@
   },
   "nova_jgl": {
     "name": "UIC Rubix Qube",
-    "level": 470,
+    "level": 471,
     "rank": "GOLD I",
-    "wl": "43/43",
+    "wl": "44/44",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -148,9 +148,9 @@
   },
   "nova_sup": {
     "name": "UIC Excellent C",
-    "level": 547,
+    "level": 548,
     "rank": "PLATINUM IV",
-    "wl": "38/37",
+    "wl": "39/38",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7064.png"
   },
   "abyss_top": {
