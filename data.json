@@ -38,7 +38,7 @@
     "name": "skanpy",
     "level": 317,
     "rank": "EMERALD IV",
-    "wl": "44/42",
+    "wl": "45/42",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3864.png"
   },
   "spark_jgl": {
@@ -51,8 +51,8 @@
   "spark_mid": {
     "name": "Lenlusz",
     "level": 745,
-    "rank": "EMERALD III",
-    "wl": "47/44",
+    "rank": "EMERALD II",
+    "wl": "48/44",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
   },
   "spark_bot": {
@@ -66,7 +66,7 @@
     "name": "UIC Rhinoshield",
     "level": 936,
     "rank": "EMERALD III",
-    "wl": "92/81",
+    "wl": "93/82",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5350.png"
   },
   "spark_coach": {
@@ -241,7 +241,7 @@
     "name": "UIC FrozenHands",
     "level": 627,
     "rank": "DIAMOND IV",
-    "wl": "15/10",
+    "wl": "15/11",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6811.png"
   },
   "freezer_bot": {
