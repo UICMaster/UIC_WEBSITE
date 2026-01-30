@@ -31,7 +31,7 @@
     "name": "UIC Baguetto",
     "level": 973,
     "rank": "DIAMOND II",
-    "wl": "54/30",
+    "wl": "54/31",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4096.png"
   },
   "spark_top": {
@@ -52,7 +52,7 @@
     "name": "Lenlusz",
     "level": 745,
     "rank": "EMERALD II",
-    "wl": "50/45",
+    "wl": "51/45",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
   },
   "spark_bot": {
@@ -86,8 +86,8 @@
   "ember_jgl": {
     "name": "UIC Shederen",
     "level": 284,
-    "rank": "EMERALD I",
-    "wl": "82/70",
+    "rank": "EMERALD II",
+    "wl": "82/71",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
