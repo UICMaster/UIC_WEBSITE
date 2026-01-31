@@ -52,14 +52,14 @@
     "name": "Lenlusz",
     "level": 747,
     "rank": "DIAMOND IV",
-    "wl": "63/51",
+    "wl": "63/52",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
   },
   "spark_bot": {
     "name": "UIC Flare",
     "level": 623,
     "rank": "EMERALD III",
-    "wl": "30/32",
+    "wl": "30/33",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -85,9 +85,9 @@
   },
   "ember_jgl": {
     "name": "UIC Shederen",
-    "level": 285,
+    "level": 286,
     "rank": "EMERALD I",
-    "wl": "87/75",
+    "wl": "88/76",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -101,7 +101,7 @@
     "name": "UIC DontMethWith",
     "level": 1289,
     "rank": "EMERALD II",
-    "wl": "71/74",
+    "wl": "72/75",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
@@ -120,7 +120,7 @@
   },
   "nova_top": {
     "name": "TAS Kaetaya",
-    "level": 842,
+    "level": 843,
     "rank": "PLATINUM II",
     "wl": "7/7",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5917.png"
@@ -129,7 +129,7 @@
     "name": "UIC Rubix Qube",
     "level": 471,
     "rank": "GOLD I",
-    "wl": "48/49",
+    "wl": "49/49",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
