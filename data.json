@@ -80,7 +80,7 @@
     "name": "SilasX",
     "level": 516,
     "rank": "EMERALD I",
-    "wl": "22/18",
+    "wl": "22/20",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6989.png"
   },
   "ember_jgl": {
@@ -100,8 +100,8 @@
   "ember_bot": {
     "name": "UIC DontMethWith",
     "level": 1289,
-    "rank": "EMERALD II",
-    "wl": "73/76",
+    "rank": "EMERALD III",
+    "wl": "73/77",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
@@ -177,15 +177,15 @@
   "abyss_bot": {
     "name": "UIC N1ghtm4reX",
     "level": 269,
-    "rank": "EMERALD IV",
-    "wl": "10/9",
+    "rank": "EMERALD III",
+    "wl": "11/9",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3398.png"
   },
   "abyss_sup": {
     "name": "TheEigeeen",
     "level": 641,
-    "rank": "EMERALD II",
-    "wl": "22/22",
+    "rank": "EMERALD I",
+    "wl": "23/22",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6037.png"
   },
   "night_top": {
@@ -211,9 +211,9 @@
   },
   "night_bot": {
     "name": "Cedopanya",
-    "level": 176,
-    "rank": "EMERALD II",
-    "wl": "32/32",
+    "level": 177,
+    "rank": "EMERALD III",
+    "wl": "32/33",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6631.png"
   },
   "night_sup": {
