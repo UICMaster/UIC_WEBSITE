@@ -43,7 +43,7 @@
   },
   "spark_jgl": {
     "name": "UIC Lenno",
-    "level": 771,
+    "level": 772,
     "rank": "PLATINUM II",
     "wl": "36/32",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
@@ -121,8 +121,8 @@
   "nova_top": {
     "name": "TAS Kaetaya",
     "level": 844,
-    "rank": "PLATINUM II",
-    "wl": "10/10",
+    "rank": "PLATINUM I",
+    "wl": "12/10",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6022.png"
   },
   "nova_jgl": {
@@ -164,7 +164,7 @@
     "name": "UIC Keygasza",
     "level": 449,
     "rank": "EMERALD II",
-    "wl": "8/18",
+    "wl": "8/20",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4087.png"
   },
   "abyss_mid": {
