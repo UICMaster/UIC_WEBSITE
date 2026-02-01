@@ -45,7 +45,7 @@
     "name": "UIC Lenno",
     "level": 771,
     "rank": "PLATINUM II",
-    "wl": "33/28",
+    "wl": "34/28",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
   },
   "spark_mid": {
@@ -72,8 +72,8 @@
   "spark_coach": {
     "name": "soulrender",
     "level": 299,
-    "rank": "DIAMOND II",
-    "wl": "54/58",
+    "rank": "DIAMOND I",
+    "wl": "55/58",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7070.png"
   },
   "ember_top": {
@@ -87,21 +87,21 @@
     "name": "UIC Shederen",
     "level": 286,
     "rank": "EMERALD I",
-    "wl": "89/77",
+    "wl": "90/77",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
     "name": "ResetHoe",
     "level": 860,
     "rank": "EMERALD III",
-    "wl": "21/25",
+    "wl": "21/26",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4793.png"
   },
   "ember_bot": {
     "name": "UIC DontMethWith",
     "level": 1290,
-    "rank": "EMERALD II",
-    "wl": "77/80",
+    "rank": "EMERALD III",
+    "wl": "77/81",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
