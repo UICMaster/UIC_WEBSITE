@@ -71,7 +71,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-02T23:07:06.101Z"
+    "last_updated": "2026-02-02T23:17:16.284Z"
   },
   "spark": {
     "division": "TBD",
@@ -133,7 +133,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-02T23:07:06.130Z"
+    "last_updated": "2026-02-02T23:17:16.275Z"
   },
   "ember": {
     "division": "TBD",
@@ -195,7 +195,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-02T23:07:06.287Z"
+    "last_updated": "2026-02-02T23:17:16.484Z"
   },
   "nova": {
     "division": "TBD",
@@ -275,7 +275,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-02T23:07:06.098Z"
+    "last_updated": "2026-02-02T23:17:16.317Z"
   },
   "abyss": {
     "division": "TBD",
@@ -319,7 +319,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-02T23:07:06.205Z"
+    "last_updated": "2026-02-02T23:17:16.419Z"
   },
   "night": {
     "division": "TBD",
@@ -381,7 +381,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-02T23:07:06.261Z"
+    "last_updated": "2026-02-02T23:17:16.388Z"
   },
   "freezer": {
     "division": "TBD",
@@ -449,6 +449,6 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-02T23:07:06.125Z"
+    "last_updated": "2026-02-02T23:17:16.315Z"
   }
 }
