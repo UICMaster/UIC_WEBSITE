@@ -1,58 +1,72 @@
 {
   "prime": {
-    "division": "DIV ?",
-    "rank": "0",
-    "games": 0,
-    "wins": 0,
+    "division": "TBD",
+    "rank": "-",
+    "games": 1,
+    "wins": 1,
     "losses": 0,
-    "points": 0
+    "draws": 0,
+    "points": 3,
+    "last_updated": "2026-02-02T17:30:05.979Z"
   },
   "spark": {
-    "division": "DIV ?",
-    "rank": "0",
-    "games": 0,
-    "wins": 0,
+    "division": "TBD",
+    "rank": "-",
+    "games": 1,
+    "wins": 1,
     "losses": 0,
-    "points": 0
+    "draws": 0,
+    "points": 3,
+    "last_updated": "2026-02-02T17:30:05.989Z"
   },
   "ember": {
-    "division": "DIV ?",
-    "rank": "0",
-    "games": 0,
-    "wins": 0,
-    "losses": 0,
-    "points": 0
+    "division": "TBD",
+    "rank": "-",
+    "games": 9,
+    "wins": 7,
+    "losses": 2,
+    "draws": 0,
+    "points": 21,
+    "last_updated": "2026-02-02T17:30:06.161Z"
   },
   "nova": {
-    "division": "DIV ?",
-    "rank": "0",
+    "division": "TBD",
+    "rank": "-",
     "games": 0,
     "wins": 0,
     "losses": 0,
-    "points": 0
+    "draws": 0,
+    "points": 0,
+    "last_updated": "2026-02-02T17:30:05.953Z"
   },
   "abyss": {
-    "division": "DIV ?",
-    "rank": "0",
-    "games": 0,
-    "wins": 0,
-    "losses": 0,
-    "points": 0
+    "division": "TBD",
+    "rank": "-",
+    "games": 9,
+    "wins": 7,
+    "losses": 2,
+    "draws": 0,
+    "points": 21,
+    "last_updated": "2026-02-02T17:30:06.134Z"
   },
   "night": {
-    "division": "DIV ?",
-    "rank": "0",
-    "games": 0,
-    "wins": 0,
-    "losses": 0,
-    "points": 0
+    "division": "TBD",
+    "rank": "-",
+    "games": 9,
+    "wins": 5,
+    "losses": 4,
+    "draws": 0,
+    "points": 15,
+    "last_updated": "2026-02-02T17:30:06.094Z"
   },
   "freezer": {
-    "division": "DIV ?",
-    "rank": "0",
+    "division": "TBD",
+    "rank": "-",
     "games": 0,
     "wins": 0,
     "losses": 0,
-    "points": 0
+    "draws": 0,
+    "points": 0,
+    "last_updated": "2026-02-02T17:30:05.956Z"
   }
 }
