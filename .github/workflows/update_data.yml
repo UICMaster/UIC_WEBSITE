@@ -1,14 +1,15 @@
-name: Update Team Data
+name: Update Prime Data
+
 on:
   schedule:
     - cron: '0 * * * *' # Every hour
-  workflow_dispatch:      # Manual trigger
+  workflow_dispatch:      # Manual trigger button
 
 permissions:
-  contents: write         # Allows the bot to push changes
+  contents: write         # Required to push changes back to repo
 
 jobs:
-  fetch-and-save:
+  update-stats:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -19,36 +20,22 @@ jobs:
         with:
           node-version: '20'
 
-      # Step A: Riot API
-      - name: Fetch Riot Data
-        if: ${{ hashFiles('js/fetch_stats.js') != '' }}
-        env:
-          RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
-        continue-on-error: true # Continues even if Riot fails
-        run: node js/fetch_stats.js
-      
-      # Step B: Prime League API
-      - name: Fetch Prime Data
+      - name: Fetch Prime League Data
         run: node js/fetch_prime_stats.js
 
-      # Step C: Save Changes (FIXED)
       - name: Commit and Push
         run: |
           git config --global user.name "HUD-Sync-Bot"
           git config --global user.email "bot@noreply.github.com"
           
-          # 1. Stage ALL changes (Fixes the rebase error)
-          git add -A
+          # Stage the specific file we care about
+          git add prime_stats.json
           
-          # 2. Check if there is anything to commit
+          # Check for changes before committing
           if [[ -n $(git status -s) ]]; then
-            git commit -m "🤖 HUD Sync: Telemetry Update [$(date +'%Y-%m-%d %H:%M')]"
-            
-            # 3. Pull latest changes safely
+            git commit -m "🤖 Telemetry Update: $(date +'%Y-%m-%d %H:%M')"
             git pull --rebase
-            
-            # 4. Push
             git push
           else
-            echo "No changes to commit."
+            echo "No data changes detected."
           fi
