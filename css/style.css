@@ -1247,6 +1247,84 @@ img {
     }
 }
 
+--------------------------
+
+/* --- COMPACT BAR LAYOUT --- */
+.stats-row {
+    display: grid;
+    /* WinRate | Identity + NextMatch | Stats | Expand Button */
+    grid-template-columns: 90px 1fr auto 50px; 
+    align-items: center;
+    gap: var(--space-md);
+    cursor: pointer; /* Whole row is clickable */
+}
+
+/* Next Match Indicator (New) */
+.next-match-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-left: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nm-label { font-size: 0.6rem; color: var(--text-muted); text-transform: uppercase; }
+.nm-vs { font-size: 0.8rem; font-weight: bold; color: #fff; }
+.nm-time { font-size: 0.75rem; color: var(--primary); font-family: monospace; }
+
+/* Expand Button */
+.stats-expand-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    transition: transform 0.3s ease;
+}
+
+/* --- EXPANSION BAY (Hidden by default) --- */
+.stats-bay {
+    max-height: 0;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.2);
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.stats-bay-content {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); /* Roster Grid */
+    gap: 10px;
+}
+
+/* Player Card */
+.player-card {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.player-card.captain { border-color: var(--primary); }
+.p-name { display: block; font-size: 0.9rem; color: #eee; font-weight: bold; }
+.p-role { display: block; font-size: 0.7rem; color: #888; text-transform: uppercase; }
+
+/* Active State (When clicked) */
+.stats-wrapper.active .stats-row { background: rgba(255, 255, 255, 0.05); }
+.stats-wrapper.active .stats-expand-btn { transform: rotate(180deg); color: var(--primary); }
+.stats-wrapper.active .stats-bay { max-height: 500px; /* Arbitrary large height */ }
+
+/* Mobile Fix */
+@media (max-width: 900px) {
+    .stats-row { grid-template-columns: 80px 1fr 40px; } /* Hide stats on very small screens? Or stack them */
+    .stats-data-group { display: none; } /* Hide raw stats on mobile to keep it sleek */
+    .next-match-badge { display: none; } /* Hide next match on mobile if too crowded */
+}
+
 /* =========================================
    12. PARTNERS SECTION (The Alliance)
    ========================================= */
