@@ -1,8 +1,11 @@
-name: Update Player Data
+name: Update Team Data
 on:
   schedule:
-    - cron: '0 * * * *' # Every hour
-  workflow_dispatch: # Allows manual trigger for testing
+    - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch:      # Allows manual trigger
+
+permissions:
+  contents: write         # <--- CRITICAL: Allows the bot to push changes
 
 jobs:
   fetch-and-save:
@@ -16,18 +19,35 @@ jobs:
         with:
           node-version: '20'
 
+      # Step A: Riot API (Isolated)
+      # Uses continue-on-error so Prime stats still run if Riot fails
       - name: Fetch Riot Data
+        if: ${{ hashFiles('js/fetch_stats.js') != '' }}
         env:
           RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
+        continue-on-error: true 
         run: node js/fetch_stats.js
       
-      - name: Fetch Prime League Data
+      # Step B: Prime League API
+      - name: Fetch Prime Data
         run: node js/fetch_prime_stats.js
 
+      # Step C: Save Changes
       - name: Commit and Push
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json prime_stats.json  # <--- EXPLICITLY ADD BOTH FILES
-          git commit -m "🤖 HUD Sync: Updated Riot and Prime League data" || echo "No changes to commit"
-          git push
+          git config --global user.name "HUD-Sync-Bot"
+          git config --global user.email "bot@noreply.github.com"
+          
+          # Check if there are changes before committing
+          if [[ -n $(git status -s) ]]; then
+            git add prime_stats.json
+            # git add data.json (Uncomment if Riot data is also saved)
+            
+            git commit -m "🤖 HUD Sync: Telemetry Update [$(date +'%Y-%m-%d %H:%M')]"
+            
+            # Rebase prevents conflicts if you pushed code manually
+            git pull --rebase
+            git push
+          else
+            echo "No changes to commit."
+          fi
