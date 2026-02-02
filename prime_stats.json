@@ -7,7 +7,7 @@
     "losses": 0,
     "draws": 0,
     "points": 3,
-    "last_updated": "2026-02-02T17:36:40.017Z"
+    "last_updated": "2026-02-02T18:17:34.017Z"
   },
   "spark": {
     "division": "TBD",
@@ -17,17 +17,17 @@
     "losses": 0,
     "draws": 0,
     "points": 3,
-    "last_updated": "2026-02-02T17:36:40.015Z"
+    "last_updated": "2026-02-02T18:17:34.014Z"
   },
   "ember": {
     "division": "TBD",
     "rank": "-",
-    "games": 9,
-    "wins": 7,
-    "losses": 2,
+    "games": 1,
+    "wins": 1,
+    "losses": 0,
     "draws": 0,
-    "points": 21,
-    "last_updated": "2026-02-02T17:36:40.179Z"
+    "points": 3,
+    "last_updated": "2026-02-02T18:17:34.126Z"
   },
   "nova": {
     "division": "TBD",
@@ -37,27 +37,27 @@
     "losses": 0,
     "draws": 0,
     "points": 0,
-    "last_updated": "2026-02-02T17:36:40.051Z"
+    "last_updated": "2026-02-02T18:17:34.049Z"
   },
   "abyss": {
     "division": "TBD",
     "rank": "-",
-    "games": 9,
-    "wins": 7,
-    "losses": 2,
+    "games": 1,
+    "wins": 0,
+    "losses": 1,
     "draws": 0,
-    "points": 21,
-    "last_updated": "2026-02-02T17:36:40.219Z"
+    "points": 0,
+    "last_updated": "2026-02-02T18:17:34.187Z"
   },
   "night": {
     "division": "TBD",
     "rank": "-",
-    "games": 9,
-    "wins": 5,
-    "losses": 4,
+    "games": 1,
+    "wins": 0,
+    "losses": 1,
     "draws": 0,
-    "points": 15,
-    "last_updated": "2026-02-02T17:36:40.183Z"
+    "points": 0,
+    "last_updated": "2026-02-02T18:17:34.172Z"
   },
   "freezer": {
     "division": "TBD",
@@ -67,6 +67,6 @@
     "losses": 0,
     "draws": 0,
     "points": 0,
-    "last_updated": "2026-02-02T17:36:40.019Z"
+    "last_updated": "2026-02-02T18:17:34.041Z"
   }
 }
