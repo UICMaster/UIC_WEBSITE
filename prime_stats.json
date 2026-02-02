@@ -7,7 +7,7 @@
     "losses": 0,
     "draws": 0,
     "points": 3,
-    "last_updated": "2026-02-02T18:17:34.017Z"
+    "last_updated": "2026-02-02T18:27:33.707Z"
   },
   "spark": {
     "division": "TBD",
@@ -17,7 +17,7 @@
     "losses": 0,
     "draws": 0,
     "points": 3,
-    "last_updated": "2026-02-02T18:17:34.014Z"
+    "last_updated": "2026-02-02T18:27:33.758Z"
   },
   "ember": {
     "division": "TBD",
@@ -27,7 +27,7 @@
     "losses": 0,
     "draws": 0,
     "points": 3,
-    "last_updated": "2026-02-02T18:17:34.126Z"
+    "last_updated": "2026-02-02T18:27:33.871Z"
   },
   "nova": {
     "division": "TBD",
@@ -37,7 +37,7 @@
     "losses": 0,
     "draws": 0,
     "points": 0,
-    "last_updated": "2026-02-02T18:17:34.049Z"
+    "last_updated": "2026-02-02T18:27:33.709Z"
   },
   "abyss": {
     "division": "TBD",
@@ -47,7 +47,7 @@
     "losses": 1,
     "draws": 0,
     "points": 0,
-    "last_updated": "2026-02-02T18:17:34.187Z"
+    "last_updated": "2026-02-02T18:27:33.824Z"
   },
   "night": {
     "division": "TBD",
@@ -57,7 +57,7 @@
     "losses": 1,
     "draws": 0,
     "points": 0,
-    "last_updated": "2026-02-02T18:17:34.172Z"
+    "last_updated": "2026-02-02T18:27:33.866Z"
   },
   "freezer": {
     "division": "TBD",
@@ -67,6 +67,6 @@
     "losses": 0,
     "draws": 0,
     "points": 0,
-    "last_updated": "2026-02-02T18:17:34.041Z"
+    "last_updated": "2026-02-02T18:27:33.791Z"
   }
 }
