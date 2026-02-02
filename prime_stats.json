@@ -1,6 +1,8 @@
 {
   "prime": {
-    "division": "TBD",
+    "id": "116908",
+    "name": "Ultra Instinct Crew",
+    "division": "Placement",
     "games": 1,
     "wins": 1,
     "losses": 0,
@@ -54,10 +56,12 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-02T23:28:35.024Z"
+    "last_updated": "2026-02-02T23:52:26.801Z"
   },
   "spark": {
-    "division": "TBD",
+    "id": "208694",
+    "name": "Ultra Instinct Crew Spark",
+    "division": "Placement",
     "games": 1,
     "wins": 1,
     "losses": 0,
@@ -111,10 +115,12 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-02T23:28:35.048Z"
+    "last_updated": "2026-02-02T23:52:27.187Z"
   },
   "ember": {
-    "division": "TBD",
+    "id": "211165",
+    "name": "Ultra Instinct Crew Ember",
+    "division": "Placement",
     "games": 1,
     "wins": 1,
     "losses": 0,
@@ -163,10 +169,12 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-02T23:28:35.138Z"
+    "last_updated": "2026-02-02T23:52:27.736Z"
   },
   "nova": {
-    "division": "TBD",
+    "id": "203447",
+    "name": "UIC Nova",
+    "division": "Placement",
     "games": 0,
     "wins": 0,
     "losses": 0,
@@ -230,10 +238,12 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-02T23:28:35.081Z"
+    "last_updated": "2026-02-02T23:52:28.125Z"
   },
   "abyss": {
-    "division": "TBD",
+    "id": "204924",
+    "name": "Ultra Instinct Crew Abyss",
+    "division": "Placement",
     "games": 1,
     "wins": 0,
     "losses": 1,
@@ -267,10 +277,12 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-02T23:28:35.184Z"
+    "last_updated": "2026-02-02T23:52:28.685Z"
   },
   "night": {
-    "division": "TBD",
+    "id": "212047",
+    "name": "Ultra Instinct Crew Night",
+    "division": "Placement",
     "games": 1,
     "wins": 0,
     "losses": 1,
@@ -319,10 +331,12 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-02T23:28:35.175Z"
+    "last_updated": "2026-02-02T23:52:29.361Z"
   },
   "freezer": {
-    "division": "TBD",
+    "id": "203146",
+    "name": "Ultra Instinct Crew Freezer",
+    "division": "Placement",
     "games": 0,
     "wins": 0,
     "losses": 0,
@@ -376,6 +390,6 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-02T23:28:35.022Z"
+    "last_updated": "2026-02-02T23:52:29.746Z"
   }
 }
