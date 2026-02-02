@@ -1,454 +1,381 @@
 {
   "prime": {
     "division": "TBD",
-    "stats": {
-      "games": 1,
-      "wins": 1,
-      "losses": 0,
-      "draws": 0,
-      "points": 3,
-      "win_rate": 100
-    },
+    "games": 1,
+    "wins": 1,
+    "losses": 0,
+    "draws": 0,
+    "points": 3,
+    "win_rate": 100,
     "next_match": {
       "opponent": "Poggers Gaming",
       "tag": "POG",
-      "date": "2026-02-08T17:00:00+01:00",
-      "day": 2
+      "date": "2026-02-08T17:00:00+01:00"
     },
     "roster": [
       {
         "name": "Shenycrane",
         "summoner": "UIC Shenycrane",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "Baumi123",
         "summoner": "Baumi",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "NikiLothra",
         "summoner": "UIC Niki",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "piapiob",
         "summoner": "piapiob",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "HGG SPEEDY",
         "summoner": "UIC Speedy",
-        "role": "Player",
         "is_captain": true
       },
       {
         "name": "R3ktByBaguette",
         "summoner": "UIC Baguetto",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "GianiMoski",
         "summoner": "UIC Giani",
-        "role": "Player",
         "is_captain": false
-      },
-      {
-        "name": "DiamondGoku",
-        "summoner": "UIC Goku",
-        "role": "Player",
-        "is_captain": true
       },
       {
         "name": "Keygasza",
         "summoner": "UIC Keygasza",
-        "role": "Player",
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-02T23:17:16.284Z"
+    "last_updated": "2026-02-02T23:28:35.024Z"
   },
   "spark": {
     "division": "TBD",
-    "stats": {
-      "games": 1,
-      "wins": 1,
-      "losses": 0,
-      "draws": 0,
-      "points": 3,
-      "win_rate": 100
-    },
+    "games": 1,
+    "wins": 1,
+    "losses": 0,
+    "draws": 0,
+    "points": 3,
+    "win_rate": 100,
     "next_match": {
       "opponent": "eSportRN",
       "tag": "ERN",
-      "date": "2026-02-08T19:00:00+01:00",
-      "day": 2
+      "date": "2026-02-08T19:00:00+01:00"
     },
     "roster": [
       {
         "name": "JDFlare",
         "summoner": "UIC Flare",
-        "role": "Player",
         "is_captain": true
       },
       {
         "name": "PCG Dragonfly",
         "summoner": "UIC Dragonfly",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "EXC Firehand",
         "summoner": "Firehand",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "Lenderkek",
         "summoner": "Lenlusz",
-        "role": "Player",
         "is_captain": false
+      },
+      {
+        "name": "DiamondGoku",
+        "summoner": "UIC Goku",
+        "is_captain": true
       },
       {
         "name": "UIC Shockwave",
         "summoner": "UIC Shockwave",
-        "role": "Player",
         "is_captain": true
       },
       {
         "name": "7Lenno",
         "summoner": "UIC Lenno",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "skanpyy",
         "summoner": "skanpy",
-        "role": "Player",
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-02T23:17:16.275Z"
+    "last_updated": "2026-02-02T23:28:35.048Z"
   },
   "ember": {
     "division": "TBD",
-    "stats": {
-      "games": 1,
-      "wins": 1,
-      "losses": 0,
-      "draws": 0,
-      "points": 3,
-      "win_rate": 100
-    },
+    "games": 1,
+    "wins": 1,
+    "losses": 0,
+    "draws": 0,
+    "points": 3,
+    "win_rate": 100,
     "next_match": {
       "opponent": "Crimson Void",
       "tag": "CV",
-      "date": "2026-02-08T19:00:00+01:00",
-      "day": 2
+      "date": "2026-02-08T19:00:00+01:00"
     },
     "roster": [
       {
         "name": "Michelinmann",
         "summoner": "ResetHoe",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "JaxusMaximus",
         "summoner": "GNZ ソニック",
-        "role": "Player",
         "is_captain": true
       },
       {
         "name": "Dankaban",
         "summoner": "UIC Envy",
-        "role": "Player",
         "is_captain": true
       },
       {
         "name": "SilasX",
         "summoner": "SilasX",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "DontMethWithMe",
         "summoner": "UIC DontMethWith",
-        "role": "Player",
         "is_captain": true
       },
       {
         "name": "MichelZockt92",
         "summoner": "UIC FreeLP",
-        "role": "Player",
         "is_captain": true
       },
       {
         "name": "Shederen",
         "summoner": "UIC Shederen",
-        "role": "Player",
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-02T23:17:16.484Z"
+    "last_updated": "2026-02-02T23:28:35.138Z"
   },
   "nova": {
     "division": "TBD",
-    "stats": {
-      "games": 0,
-      "wins": 0,
-      "losses": 0,
-      "draws": 0,
-      "points": 0,
-      "win_rate": 0
-    },
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "draws": 0,
+    "points": 0,
+    "win_rate": 0,
     "next_match": {
       "opponent": "Tropical Vibez",
       "tag": "TRVBZ",
-      "date": "2026-02-08T19:00:00+01:00",
-      "day": 2
+      "date": "2026-02-08T19:00:00+01:00"
     },
     "roster": [
       {
         "name": ".Apathy",
         "summoner": "Apathy",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "Kaanto",
         "summoner": "UIC Kaanto",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "Rubix Qube",
         "summoner": "UIC Rubix Qube",
-        "role": "Player",
         "is_captain": true
       },
       {
         "name": "WLK Kaetaya",
         "summoner": "TAS Kaetaya",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "Excellent C",
         "summoner": "UIC Excellent C",
-        "role": "Player",
         "is_captain": true
       },
       {
         "name": "Der Muffinmann",
         "summoner": "Sea of Lavender",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "SimplySideStep",
         "summoner": "UIC Simply",
-        "role": "Player",
         "is_captain": true
       },
       {
         "name": "JacksonE",
         "summoner": "UIC adedier",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "MuhMiau",
         "summoner": "Muh",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "Rhamuthra",
         "summoner": "Rhamuthra",
-        "role": "Player",
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-02T23:17:16.317Z"
+    "last_updated": "2026-02-02T23:28:35.081Z"
   },
   "abyss": {
     "division": "TBD",
-    "stats": {
-      "games": 1,
-      "wins": 0,
-      "losses": 1,
-      "draws": 0,
-      "points": 0,
-      "win_rate": 0
-    },
+    "games": 1,
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "points": 0,
+    "win_rate": 0,
     "next_match": {
       "opponent": "Black Lion Unleashed",
       "tag": "BL",
-      "date": "2026-02-04T19:00:00+01:00",
-      "day": 2
+      "date": "2026-02-04T19:00:00+01:00"
     },
     "roster": [
       {
         "name": "Shampo0o",
         "summoner": "Shampooo",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "osdgesperrt",
         "summoner": "Dany",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "N1ghtm4reX",
         "summoner": "UIC M Character",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "TheEigeeen",
         "summoner": "TheEigeeen",
-        "role": "Player",
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-02T23:17:16.419Z"
+    "last_updated": "2026-02-02T23:28:35.184Z"
   },
   "night": {
     "division": "TBD",
-    "stats": {
-      "games": 1,
-      "wins": 0,
-      "losses": 1,
-      "draws": 0,
-      "points": 0,
-      "win_rate": 0
-    },
+    "games": 1,
+    "wins": 0,
+    "losses": 1,
+    "draws": 0,
+    "points": 0,
+    "win_rate": 0,
     "next_match": {
       "opponent": "Bloodline",
       "tag": "BLD",
-      "date": "2026-02-08T19:00:00+01:00",
-      "day": 2
+      "date": "2026-02-08T19:00:00+01:00"
     },
     "roster": [
       {
         "name": "RatHairedShanks",
         "summoner": "RatHairedShanks",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "HGG Schuh",
         "summoner": "HGG Schuh",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "Mazin L9",
         "summoner": "MaZiN",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "alexpenner",
         "summoner": "ривен",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "UIC ReCord",
         "summoner": "UIC ReCord",
-        "role": "Player",
         "is_captain": true
       },
       {
         "name": "UIC proStarII",
         "summoner": "UIC proStarII",
-        "role": "Player",
         "is_captain": true
       },
       {
         "name": "HGS Cedo",
         "summoner": "UIC Cedo",
-        "role": "Player",
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-02T23:17:16.388Z"
+    "last_updated": "2026-02-02T23:28:35.175Z"
   },
   "freezer": {
     "division": "TBD",
-    "stats": {
-      "games": 0,
-      "wins": 0,
-      "losses": 0,
-      "draws": 0,
-      "points": 0,
-      "win_rate": 0
-    },
+    "games": 0,
+    "wins": 0,
+    "losses": 0,
+    "draws": 0,
+    "points": 0,
+    "win_rate": 0,
     "next_match": {
       "opponent": "Assassins and Greed SNC",
       "tag": "AG",
-      "date": "2026-02-06T19:00:00+01:00",
-      "day": 2
+      "date": "2026-02-06T19:00:00+01:00"
     },
     "roster": [
       {
         "name": "Einbrecherkadse",
         "summoner": "Einbrecherkadse",
-        "role": "Player",
         "is_captain": true
       },
       {
         "name": "GLT Rayando07",
         "summoner": "Rayando07",
-        "role": "Player",
         "is_captain": false
       },
       {
         "name": "UIC Cerberus",
         "summoner": "RG Cerberus",
-        "role": "Player",
         "is_captain": true
       },
       {
         "name": "LoonzInLove",
         "summoner": "UIC Loonz",
-        "role": "Player",
         "is_captain": true
       },
       {
         "name": "BlauerKlaus",
         "summoner": "BlauerKlaus",
-        "role": "Player",
         "is_captain": true
       },
       {
         "name": "Ryu Copeland",
         "summoner": "UIC Ryu Copeland",
-        "role": "Player",
         "is_captain": true
       },
       {
         "name": "L0rdMo",
         "summoner": "RG AutumnLeaf",
-        "role": "Player",
         "is_captain": true
       },
       {
         "name": "TiT BrokenHands",
         "summoner": "UIC FrozenHands",
-        "role": "Player",
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-02T23:17:16.315Z"
+    "last_updated": "2026-02-02T23:28:35.022Z"
   }
 }
