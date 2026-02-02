@@ -29,13 +29,13 @@ async function getPrimeStats(teamName, id) {
         let nextMatch = null;
 
         if (data.matches && Array.isArray(data.matches)) {
-            // Sort matches by date to find the next one correctly
+            // Sort to find the correct next match
             const sortedMatches = data.matches.sort((a, b) => new Date(a.begin) - new Date(b.begin));
 
             sortedMatches.forEach(m => {
                 const matchDate = new Date(m.begin);
                 
-                // A. Find Stats (Only League games that have happened)
+                // A. Calculate Stats (League Only + Past Games)
                 if (m.match_type === 'league' && m.result && matchDate < now) {
                     if (m.result.includes(':')) {
                         const parts = m.result.split(':');
@@ -49,13 +49,12 @@ async function getPrimeStats(teamName, id) {
                     }
                 }
 
-                // B. Find Next Match (First match in the future)
+                // B. Find Next Match (Future)
                 if (!nextMatch && matchDate > now) {
                     nextMatch = {
                         opponent: m.enemy_team ? m.enemy_team.name : "TBD",
                         tag: m.enemy_team ? m.enemy_team.team_tag : "???",
-                        date: m.begin, // ISO String
-                        day: m.match_day
+                        date: m.begin
                     };
                 }
             });
@@ -65,21 +64,21 @@ async function getPrimeStats(teamName, id) {
         const winRate = totalGames > 0 ? Math.round((wins / totalGames) * 100) : 0;
 
         // 2. ROSTER LOGIC
-        const roster = data.players.map(p => ({
+        const roster = data.players ? data.players.map(p => ({
             name: p.name,
-            summoner: p.summoner_name.split('#')[0], // Clean name
-            role: "Player", // API doesn't give role, unfortunately
+            summoner: p.summoner_name.split('#')[0],
             is_captain: p.is_leader
-        }));
+        })) : [];
 
+        // RETURN FLATTENED OBJECT (Fixes "Undefined" issue)
         return {
             division: data.division || "TBD",
-            stats: {
-                games: totalGames,
-                wins, losses, draws,
-                points: (wins * 3) + draws,
-                win_rate: winRate
-            },
+            games: totalGames,
+            wins: wins,
+            losses: losses,
+            draws: draws,
+            points: (wins * 3) + draws,
+            win_rate: winRate,
             next_match: nextMatch,
             roster: roster,
             last_updated: now.toISOString()
@@ -95,7 +94,6 @@ async function start() {
     console.log("🚀 HUD SYNC: Upgrading Telemetry...");
     let currentData = {};
     
-    // Safety Net: Read old file
     if (fs.existsSync(JSON_PATH)) {
         try { currentData = JSON.parse(fs.readFileSync(JSON_PATH, 'utf8')); } catch (e) {}
     }
