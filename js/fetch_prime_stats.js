@@ -1,10 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-// Defined path relative to this script
 const JSON_PATH = path.join(__dirname, '../prime_stats.json');
 
-// Your Teams
 const teams = {
     "prime":   "116908", 
     "spark":   "208694",
@@ -21,76 +19,87 @@ async function getPrimeStats(teamName, id) {
             headers: { 'User-Agent': 'HUD-Sync-Bot/1.0' }
         });
         
-        if (!response.ok) {
-            console.warn(`⚠️ [${teamName.toUpperCase()}] API Error: ${response.status}`);
-            return null;
-        }
+        if (!response.ok) return null;
         
         const data = await response.json();
+        const now = new Date();
         
-        let wins = 0;
-        let losses = 0;
-        let draws = 0;
+        // 1. STATS LOGIC
+        let wins = 0, losses = 0, draws = 0;
+        let nextMatch = null;
 
-        // --- SCHEMA BASED LOGIC ---
         if (data.matches && Array.isArray(data.matches)) {
-            data.matches.forEach(m => {
-                
-                // FILTER: Only count "league" matches (Ignore 'group'/calibration)
-                // If you want to count EVERYTHING, remove this "if" check.
-                if (m.match_type === 'league') {
+            // Sort matches by date to find the next one correctly
+            const sortedMatches = data.matches.sort((a, b) => new Date(a.begin) - new Date(b.begin));
 
-                    // Check if result is valid string (e.g. "2:0")
-                    if (m.result && typeof m.result === 'string' && m.result.includes(':')) {
+            sortedMatches.forEach(m => {
+                const matchDate = new Date(m.begin);
+                
+                // A. Find Stats (Only League games that have happened)
+                if (m.match_type === 'league' && m.result && matchDate < now) {
+                    if (m.result.includes(':')) {
                         const parts = m.result.split(':');
                         const myScore = parseInt(parts[0], 10);
                         const enemyScore = parseInt(parts[1], 10);
-
-                        if (!isNaN(myScore) && !isNaN(enemyScore)) {
+                        if (!isNaN(myScore)) {
                             if (myScore > enemyScore) wins++;
                             else if (myScore < enemyScore) losses++;
-                            else draws++; // 1:1 is a draw
+                            else draws++;
                         }
                     }
+                }
+
+                // B. Find Next Match (First match in the future)
+                if (!nextMatch && matchDate > now) {
+                    nextMatch = {
+                        opponent: m.enemy_team ? m.enemy_team.name : "TBD",
+                        tag: m.enemy_team ? m.enemy_team.team_tag : "???",
+                        date: m.begin, // ISO String
+                        day: m.match_day
+                    };
                 }
             });
         }
 
+        const totalGames = wins + losses + draws;
+        const winRate = totalGames > 0 ? Math.round((wins / totalGames) * 100) : 0;
+
+        // 2. ROSTER LOGIC
+        const roster = data.players.map(p => ({
+            name: p.name,
+            summoner: p.summoner_name.split('#')[0], // Clean name
+            role: "Player", // API doesn't give role, unfortunately
+            is_captain: p.is_leader
+        }));
+
         return {
-            division: data.division || "TBD", // Schema allows null
-            
-            // Schema confirms 'position' does not exist in TeamDetail. 
-            // We return "-" so the frontend displays a placeholder.
-            rank: "-", 
-            
-            games: wins + losses + draws,
-            wins: wins,
-            losses: losses,
-            draws: draws,
-            points: (wins * 3) + (draws * 1),
-            last_updated: new Date().toISOString()
+            division: data.division || "TBD",
+            stats: {
+                games: totalGames,
+                wins, losses, draws,
+                points: (wins * 3) + draws,
+                win_rate: winRate
+            },
+            next_match: nextMatch,
+            roster: roster,
+            last_updated: now.toISOString()
         };
 
     } catch (e) {
-        console.error(`❌ [${teamName.toUpperCase()}] Network Error:`, e.message);
+        console.error(`❌ [${teamName}] Error:`, e.message);
         return null;
     }
 }
 
 async function start() {
-    console.log("🚀 HUD SYNC: Starting Prime League Telemetry...");
-    
-    // 1. Read Old Data
+    console.log("🚀 HUD SYNC: Upgrading Telemetry...");
     let currentData = {};
+    
+    // Safety Net: Read old file
     if (fs.existsSync(JSON_PATH)) {
-        try {
-            currentData = JSON.parse(fs.readFileSync(JSON_PATH, 'utf8'));
-        } catch (e) {
-            console.error("⚠️ Corrupt JSON. Starting fresh.");
-        }
+        try { currentData = JSON.parse(fs.readFileSync(JSON_PATH, 'utf8')); } catch (e) {}
     }
 
-    // 2. Fetch All
     const updates = await Promise.all(
         Object.entries(teams).map(async ([name, id]) => {
             const stats = await getPrimeStats(name, id);
@@ -99,34 +108,17 @@ async function start() {
     );
 
     let changesCount = 0;
-
-    // 3. Merge
     updates.forEach(({ name, stats }) => {
         if (stats) {
             currentData[name] = stats;
             changesCount++;
-            console.log(`✅ [${name.toUpperCase()}] Synced. (W/L: ${stats.wins}/${stats.losses})`);
-        } else {
-            // Failure Fallback
-            if (currentData[name]) {
-                console.log(`⚠️ [${name.toUpperCase()}] Failed. Keeping cached data.`);
-            } else {
-                console.error(`⛔ [${name.toUpperCase()}] Failed & no cache!`);
-            }
+            console.log(`✅ [${name.toUpperCase()}] Synced.`);
         }
     });
 
-    // 4. Save
     if (changesCount > 0) {
-        try {
-            fs.writeFileSync(JSON_PATH, JSON.stringify(currentData, null, 2));
-            console.log(`\n🎉 SUCCESS: Data saved to ${JSON_PATH}`);
-        } catch (err) {
-            console.error("❌ Write Error:", err.message);
-            process.exit(1);
-        }
-    } else {
-        console.log("\n🤷 No new data.");
+        fs.writeFileSync(JSON_PATH, JSON.stringify(currentData, null, 2));
+        console.log(`\n🎉 SUCCESS: Saved ${changesCount} teams.`);
     }
 }
 
