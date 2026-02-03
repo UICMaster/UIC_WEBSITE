@@ -1,4 +1,4 @@
-name: Update Prime Data
+name: Update HUD Telemetry
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write         # Required to push changes back to repo
 
 jobs:
-  update-stats:
+  sync-telemetry:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -20,22 +20,31 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Fetch Prime League Data
+      # 1. Fetch Riot Data (Standard Player Stats)
+      - name: Fetch Riot Data
+        env:
+          RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
+        run: node js/fetch_stats.js
+        continue-on-error: true # Prevents Prime Data from failing if Riot API is down
+
+      # 2. Fetch Prime League Data (Team Stats)
+      - name: Fetch Prime Data
         run: node js/fetch_prime_stats.js
 
+      # 3. Unified Commit and Push
       - name: Commit and Push
         run: |
           git config --global user.name "HUD-Sync-Bot"
           git config --global user.email "bot@noreply.github.com"
           
-          # Stage the specific file we care about
-          git add prime_stats.json
+          # Stage both database files
+          git add data.json prime_stats.json
           
-          # Check for changes before committing
+          # Check for changes before committing to avoid empty commit errors
           if [[ -n $(git status -s) ]]; then
             git commit -m "🤖 Telemetry Update: $(date +'%Y-%m-%d %H:%M')"
             git pull --rebase
             git push
           else
-            echo "No data changes detected."
+            echo "No changes detected in Riot or Prime data."
           fi
