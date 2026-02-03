@@ -11,42 +11,39 @@ function escapeHTML(str) {
         }[tag]));
 }
 
+// ... (Keep your escapeHTML helper)
+
 async function loadPrimeStats() {
     const container = document.getElementById('stats-telemetry-list');
     if (!container) return;
 
     try {
-        // Cache bust with timestamp
         const response = await fetch(`./prime_stats.json?t=${Date.now()}`);
-        if (!response.ok) throw new Error("Database Offline");
-        
         const data = await response.json();
         const teamsOrder = ["prime", "spark", "ember", "nova", "abyss", "night", "freezer"];
         
-        let fullHTML = ''; // Build string in memory first
+        let fullHTML = '';
 
         teamsOrder.forEach(key => {
             const s = data[key];
             if (!s) return;
 
-            // 1. Next Match Logic
+            // 1. Next Match Link Injection
             let nextMatchHTML = '';
             if (s.next_match) {
                 const dateObj = new Date(s.next_match.date);
                 const dateStr = dateObj.toLocaleDateString('de-DE', { weekday: 'short' }) + 
-                                " " + 
-                                dateObj.toLocaleTimeString('de-DE', { hour: '2-digit', minute:'2-digit' });
+                                " " + dateObj.toLocaleTimeString('de-DE', { hour: '2-digit', minute:'2-digit' });
                 
                 nextMatchHTML = `
-                    <div class="next-match-badge">
+                    <a href="${s.next_match.link}" target="_blank" class="next-match-badge clickable">
                         <span class="nm-label">NEXT</span>
                         <span class="nm-vs">vs ${escapeHTML(s.next_match.tag)}</span>
                         <span class="nm-time">// ${dateStr}</span>
-                    </div>
+                    </a>
                 `;
             }
 
-            // 2. Roster Logic
             const rosterHTML = s.roster.map(p => `
                 <div class="player-card ${p.is_captain ? 'captain' : ''}">
                     <span class="p-name">${escapeHTML(p.summoner)}</span>
@@ -54,53 +51,44 @@ async function loadPrimeStats() {
                 </div>
             `).join('');
 
-            // 3. Visuals
-            const wrColor = s.win_rate >= 50 ? "var(--accent-green, #4ade80)" : "#fff";
-            const teamName = key.toUpperCase();
+            const wrColor = s.win_rate >= 50 ? "var(--primary)" : "#fff";
 
-            // 4. Construct Row
             fullHTML += `
                 <div class="stats-wrapper" id="team-${key}">
-                    <div class="stats-row" onclick="toggleStats('${key}')" role="button" tabindex="0">
+                    <div class="stats-row">
                         
-                        <div class="stats-rank-box">
-                            <span class="rank-label">WIN RATE</span>
-                            <span class="rank-number" style="color:${wrColor}">${s.win_rate}%</span>
+                        <div class="stats-rank-box" onclick="toggleStats('${key}')">
+                            <img src="${s.logo || 'assets/default-team.png'}" class="team-logo-img" alt="Logo">
+                            <span class="rank-number" style="color:${wrColor}; font-size: 1rem;">${s.win_rate}%</span>
                         </div>
 
                         <div class="stats-info">
-                            <div class="stats-header-group">
-                                <h4>UIC ${teamName}</h4>
+                            <div class="stats-header-group" onclick="toggleStats('${key}')">
+                                <h4>UIC ${key.toUpperCase()}</h4>
                                 ${nextMatchHTML}
                             </div>
-                            <span class="stats-div-tag">// ${escapeHTML(s.division)}</span>
+                            <a href="${s.team_link}" target="_blank" class="stats-div-tag link-hover">
+                                // ${escapeHTML(s.division)} <i class="external-icon">↗</i>
+                            </a>
                         </div>
 
-                        <div class="stats-data-group">
-                            <div class="data-point">
-                                <span class="label">GAMES</span>
-                                <span class="value">${s.games}</span>
-                            </div>
-                            <div class="data-point">
-                                <span class="label">WINS</span>
-                                <span class="value" style="color:#4ade80;">${s.wins}</span>
-                            </div>
-                            <div class="data-point">
-                                <span class="label">PTS</span>
-                                <span class="value pts-highlight">${s.points}</span>
-                            </div>
+                        <div class="stats-data-group" onclick="toggleStats('${key}')">
+                            <div class="data-point"><span class="label">GAMES</span><span class="value">${s.games}</span></div>
+                            <div class="data-point"><span class="label">WINS</span><span class="value" style="color:var(--primary);">${s.wins}</span></div>
+                            <div class="data-point"><span class="label">PTS</span><span class="value pts-highlight">${s.points}</span></div>
                         </div>
 
-                        <div class="stats-expand-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
+                        <div class="stats-expand-icon" onclick="toggleStats('${key}')">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
                         </div>
                     </div>
 
                     <div class="stats-bay">
                         <div class="stats-bay-content">
-                            <h5 class="roster-header">ACTIVE ROSTER</h5>
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px;">
+                                <h5 class="roster-header" style="margin:0;">ACTIVE ROSTER</h5>
+                                <a href="${s.team_link}" target="_blank" class="action-btn">VIEW FULL PROFILE</a>
+                            </div>
                             <div class="roster-grid">
                                 ${rosterHTML}
                             </div>
@@ -111,11 +99,7 @@ async function loadPrimeStats() {
         });
 
         container.innerHTML = fullHTML;
-
-    } catch (e) {
-        console.error("Stats Error:", e);
-        container.innerHTML = `<div class="error-msg">Telemetry Offline.</div>`;
-    }
+    } catch (e) { /* Error handling */ }
 }
 
 // Global Toggle Function

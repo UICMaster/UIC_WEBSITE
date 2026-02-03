@@ -18,49 +18,43 @@ const TEAMS = {
 
 const HEADERS = { 'User-Agent': 'HUD-Sync-Bot/1.0' };
 
+// ... (Your existing constants and headers)
+
 async function getPrimeStats(teamName, id) {
     try {
         const response = await fetch(`https://primebot.me/api/v1/teams/${id}/`, { headers: HEADERS });
-        if (!response.ok) {
-            console.warn(`⚠️ [${teamName}] API Error: ${response.status}`);
-            return null;
-        }
+        if (!response.ok) return null;
         
         const data = await response.json();
         const now = new Date();
         
-        // 1. Stats Calculation
         let wins = 0, losses = 0, draws = 0;
         let nextMatch = null;
 
         if (data.matches && Array.isArray(data.matches)) {
-            // Sort matches by date (oldest to newest)
             const sortedMatches = data.matches.sort((a, b) => new Date(a.begin) - new Date(b.begin));
 
             sortedMatches.forEach(m => {
                 const matchDate = new Date(m.begin);
                 
-                // A. Past Games (League Only)
+                // Past Games Logic
                 if (m.match_type === 'league' && m.result && matchDate < now) {
-                    if (m.result.includes(':')) {
-                        const [scoreA, scoreB] = m.result.split(':').map(Number);
-                        
-                        // Ensure scores are valid numbers
-                        if (!isNaN(scoreA) && !isNaN(scoreB)) {
-                            if (scoreA > scoreB) wins++;
-                            else if (scoreA < scoreB) losses++;
-                            else draws++;
-                        }
+                    const [scoreA, scoreB] = m.result.split(':').map(Number);
+                    if (!isNaN(scoreA) && !isNaN(scoreB)) {
+                        if (scoreA > scoreB) wins++;
+                        else if (scoreA < scoreB) losses++;
+                        else draws++;
                     }
                 }
 
-                // B. Next Match (First match in the future)
+                // Next Match Logic - NOW WITH LINKS
                 if (!nextMatch && matchDate > now) {
                     nextMatch = {
                         opponent: m.enemy_team ? m.enemy_team.name : "TBD",
                         tag: m.enemy_team ? m.enemy_team.team_tag : "???",
                         logo: m.enemy_team ? m.enemy_team.logo_url : null,
-                        date: m.begin
+                        date: m.begin,
+                        link: m.prime_league_link // New: Specific Match Link
                     };
                 }
             });
@@ -69,34 +63,32 @@ async function getPrimeStats(teamName, id) {
         const totalGames = wins + losses + draws;
         const winRate = totalGames > 0 ? Math.round((wins / totalGames) * 100) : 0;
 
-        // 2. Roster Processing
-        const roster = data.players ? data.players.map(p => ({
-            name: p.name,
-            summoner: p.summoner_name ? p.summoner_name.split('#')[0] : "Unknown",
-            is_captain: p.is_leader
-        })) : [];
-
-        // 3. Return Clean Object
         return {
             id: id,
-            name: data.name, // Real team name from API
+            name: data.name,
+            logo: data.logo_url, // New: Team Logo
+            team_link: data.prime_league_link, // New: Prime League Profile
             division: data.division || "Placement",
             games: totalGames,
             wins,
             losses,
             draws,
-            points: (wins * 3) + draws, // Standard Prime League Points (3 for win, 1 for draw)
+            points: (wins * 3) + draws,
             win_rate: winRate,
             next_match: nextMatch,
-            roster: roster,
+            roster: data.players ? data.players.map(p => ({
+                name: p.name,
+                summoner: p.summoner_name ? p.summoner_name.split('#')[0] : "Unknown",
+                is_captain: p.is_leader
+            })) : [],
             last_updated: now.toISOString()
         };
-
     } catch (e) {
-        console.error(`❌ [${teamName}] Critical Failure:`, e.message);
+        console.error(`❌ [${teamName}] Failure:`, e.message);
         return null;
     }
 }
+// ... (Rest of your start function)
 
 async function start() {
     console.log(`🚀 HUD SYNC: Starting... Target: ${JSON_PATH}`);
