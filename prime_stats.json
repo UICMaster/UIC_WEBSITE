@@ -54,7 +54,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-03T20:23:25.973Z"
+    "last_updated": "2026-02-03T21:24:04.893Z"
   },
   "spark": {
     "id": "208694",
@@ -96,11 +96,6 @@
         "is_captain": false
       },
       {
-        "name": "DiamondGoku",
-        "summoner": "UIC Goku",
-        "is_captain": true
-      },
-      {
         "name": "UIC Shockwave",
         "summoner": "UIC Shockwave",
         "is_captain": true
@@ -116,7 +111,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-03T20:23:26.322Z"
+    "last_updated": "2026-02-03T21:24:05.289Z"
   },
   "ember": {
     "id": "211165",
@@ -173,7 +168,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-03T20:23:26.801Z"
+    "last_updated": "2026-02-03T21:24:05.861Z"
   },
   "nova": {
     "id": "203447",
@@ -245,7 +240,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-03T20:23:27.150Z"
+    "last_updated": "2026-02-03T21:24:06.256Z"
   },
   "abyss": {
     "id": "204924",
@@ -272,6 +267,11 @@
         "is_captain": false
       },
       {
+        "name": "DiamondGoku",
+        "summoner": "UIC Goku",
+        "is_captain": true
+      },
+      {
         "name": "osdgesperrt",
         "summoner": "UIC DANY",
         "is_captain": false
@@ -292,7 +292,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-03T20:23:27.626Z"
+    "last_updated": "2026-02-03T21:24:06.824Z"
   },
   "night": {
     "id": "212047",
@@ -349,7 +349,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-03T20:23:28.106Z"
+    "last_updated": "2026-02-03T21:24:07.393Z"
   },
   "freezer": {
     "id": "203146",
@@ -411,6 +411,6 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-03T20:23:28.460Z"
+    "last_updated": "2026-02-03T21:24:07.787Z"
   }
 }
