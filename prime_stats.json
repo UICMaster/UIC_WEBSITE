@@ -2,6 +2,8 @@
   "prime": {
     "id": "116908",
     "name": "Ultra Instinct Crew",
+    "logo": "https://cdn0.gamesports.net/league_team_logos/116000/116908.jpg?1768526642",
+    "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
     "division": "Placement",
     "games": 1,
     "wins": 1,
@@ -12,7 +14,8 @@
     "next_match": {
       "opponent": "Poggers Gaming",
       "tag": "POG",
-      "date": "2026-02-08T17:00:00+01:00"
+      "date": "2026-02-08T17:00:00+01:00",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1153903"
     },
     "roster": [
       {
@@ -49,13 +52,20 @@
         "name": "GianiMoski",
         "summoner": "UIC Giani",
         "is_captain": false
+      },
+      {
+        "name": "DiamondGoku",
+        "summoner": "UIC Goku",
+        "is_captain": true
       }
     ],
-    "last_updated": "2026-02-03T14:37:21.251Z"
+    "last_updated": "2026-02-03T15:13:32.585Z"
   },
   "spark": {
     "id": "208694",
     "name": "Ultra Instinct Crew Spark",
+    "logo": "https://cdn0.gamesports.net/league_team_logos/208000/208694.jpg?1765150033",
+    "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
     "division": "Placement",
     "games": 1,
     "wins": 1,
@@ -66,7 +76,8 @@
     "next_match": {
       "opponent": "eSportRN",
       "tag": "ERN",
-      "date": "2026-02-08T19:00:00+01:00"
+      "date": "2026-02-08T19:00:00+01:00",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1155319"
     },
     "roster": [
       {
@@ -105,11 +116,13 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-03T14:37:21.603Z"
+    "last_updated": "2026-02-03T15:13:32.923Z"
   },
   "ember": {
     "id": "211165",
     "name": "Ultra Instinct Crew Ember",
+    "logo": "https://cdn0.gamesports.net/league_team_logos/211000/211165.jpg?1765449081",
+    "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
     "division": "Placement",
     "games": 1,
     "wins": 1,
@@ -120,7 +133,8 @@
     "next_match": {
       "opponent": "Crimson Void",
       "tag": "CV",
-      "date": "2026-02-08T19:00:00+01:00"
+      "date": "2026-02-08T19:00:00+01:00",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1155066"
     },
     "roster": [
       {
@@ -159,11 +173,13 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-03T14:37:22.080Z"
+    "last_updated": "2026-02-03T15:13:33.379Z"
   },
   "nova": {
     "id": "203447",
     "name": "UIC Nova",
+    "logo": "https://cdn0.gamesports.net/league_team_logos/203000/203447.jpg?1768386652",
+    "team_link": "https://www.primeleague.gg/de/leagues/teams/203447",
     "division": "Placement",
     "games": 0,
     "wins": 0,
@@ -174,7 +190,8 @@
     "next_match": {
       "opponent": "Tropical Vibez",
       "tag": "TRVBZ",
-      "date": "2026-02-08T19:00:00+01:00"
+      "date": "2026-02-08T19:00:00+01:00",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1155521"
     },
     "roster": [
       {
@@ -228,11 +245,13 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-03T14:37:22.429Z"
+    "last_updated": "2026-02-03T15:13:33.713Z"
   },
   "abyss": {
     "id": "204924",
     "name": "Ultra Instinct Crew Abyss",
+    "logo": "https://cdn0.gamesports.net/league_team_logos/204000/204924.jpg?1765838352",
+    "team_link": "https://www.primeleague.gg/de/leagues/teams/204924",
     "division": "Placement",
     "games": 1,
     "wins": 0,
@@ -243,18 +262,14 @@
     "next_match": {
       "opponent": "Black Lion Unleashed",
       "tag": "BL",
-      "date": "2026-02-04T19:00:00+01:00"
+      "date": "2026-02-04T19:00:00+01:00",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1154170"
     },
     "roster": [
       {
         "name": "Shampo0o",
         "summoner": "Shampooo",
         "is_captain": false
-      },
-      {
-        "name": "DiamondGoku",
-        "summoner": "UIC Goku",
-        "is_captain": true
       },
       {
         "name": "osdgesperrt",
@@ -277,11 +292,13 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-03T14:37:22.903Z"
+    "last_updated": "2026-02-03T15:13:34.167Z"
   },
   "night": {
     "id": "212047",
     "name": "Ultra Instinct Crew Night",
+    "logo": "https://cdn0.gamesports.net/league_team_logos/212000/212047.jpg?1768386989",
+    "team_link": "https://www.primeleague.gg/de/leagues/teams/212047",
     "division": "Placement",
     "games": 1,
     "wins": 0,
@@ -292,7 +309,8 @@
     "next_match": {
       "opponent": "Bloodline",
       "tag": "BLD",
-      "date": "2026-02-08T19:00:00+01:00"
+      "date": "2026-02-08T19:00:00+01:00",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1154451"
     },
     "roster": [
       {
@@ -331,11 +349,13 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-03T14:37:23.375Z"
+    "last_updated": "2026-02-03T15:13:34.617Z"
   },
   "freezer": {
     "id": "203146",
     "name": "Ultra Instinct Crew Freezer",
+    "logo": "https://cdn0.gamesports.net/league_team_logos/203000/203146.jpg?1768840480",
+    "team_link": "https://www.primeleague.gg/de/leagues/teams/203146",
     "division": "Placement",
     "games": 0,
     "wins": 0,
@@ -346,7 +366,8 @@
     "next_match": {
       "opponent": "Assassins and Greed SNC",
       "tag": "AG",
-      "date": "2026-02-06T19:00:00+01:00"
+      "date": "2026-02-06T19:00:00+01:00",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1154394"
     },
     "roster": [
       {
@@ -390,6 +411,6 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-03T14:37:23.718Z"
+    "last_updated": "2026-02-03T15:13:34.952Z"
   }
 }
