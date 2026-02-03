@@ -51,7 +51,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-03T01:04:23.576Z"
+    "last_updated": "2026-02-03T04:04:57.982Z"
   },
   "spark": {
     "id": "208694",
@@ -90,11 +90,6 @@
         "is_captain": false
       },
       {
-        "name": "DiamondGoku",
-        "summoner": "UIC Goku",
-        "is_captain": true
-      },
-      {
         "name": "UIC Shockwave",
         "summoner": "UIC Shockwave",
         "is_captain": true
@@ -110,7 +105,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-03T01:04:23.924Z"
+    "last_updated": "2026-02-03T04:04:58.362Z"
   },
   "ember": {
     "id": "211165",
@@ -164,7 +159,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-03T01:04:24.402Z"
+    "last_updated": "2026-02-03T04:04:58.907Z"
   },
   "nova": {
     "id": "203447",
@@ -233,7 +228,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-03T01:04:24.759Z"
+    "last_updated": "2026-02-03T04:04:59.292Z"
   },
   "abyss": {
     "id": "204924",
@@ -270,9 +265,14 @@
         "name": "TheEigeeen",
         "summoner": "TheEigeeen",
         "is_captain": false
+      },
+      {
+        "name": "Keygasza",
+        "summoner": "UIC Keygasza",
+        "is_captain": true
       }
     ],
-    "last_updated": "2026-02-03T01:04:25.234Z"
+    "last_updated": "2026-02-03T04:04:59.836Z"
   },
   "night": {
     "id": "212047",
@@ -311,6 +311,11 @@
         "is_captain": false
       },
       {
+        "name": "DiamondGoku",
+        "summoner": "UIC Goku",
+        "is_captain": true
+      },
+      {
         "name": "UIC ReCord",
         "summoner": "UIC ReCord",
         "is_captain": true
@@ -326,7 +331,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-03T01:04:25.707Z"
+    "last_updated": "2026-02-03T04:05:00.388Z"
   },
   "freezer": {
     "id": "203146",
@@ -385,6 +390,6 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-03T01:04:26.054Z"
+    "last_updated": "2026-02-03T04:05:00.770Z"
   }
 }
