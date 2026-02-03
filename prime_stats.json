@@ -59,7 +59,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-03T15:38:37.329Z"
+    "last_updated": "2026-02-03T16:38:57.973Z"
   },
   "spark": {
     "id": "208694",
@@ -116,7 +116,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-03T15:38:37.727Z"
+    "last_updated": "2026-02-03T16:38:58.318Z"
   },
   "ember": {
     "id": "211165",
@@ -173,7 +173,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-03T15:38:38.300Z"
+    "last_updated": "2026-02-03T16:38:58.795Z"
   },
   "nova": {
     "id": "203447",
@@ -245,7 +245,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-03T15:38:38.697Z"
+    "last_updated": "2026-02-03T16:38:59.145Z"
   },
   "abyss": {
     "id": "204924",
@@ -292,7 +292,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-03T15:38:39.267Z"
+    "last_updated": "2026-02-03T16:38:59.625Z"
   },
   "night": {
     "id": "212047",
@@ -349,7 +349,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-03T15:38:39.835Z"
+    "last_updated": "2026-02-03T16:39:00.099Z"
   },
   "freezer": {
     "id": "203146",
@@ -411,6 +411,6 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-03T15:38:40.228Z"
+    "last_updated": "2026-02-03T16:39:00.446Z"
   }
 }
