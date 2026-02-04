@@ -14,7 +14,7 @@
     "next_match": {
       "opponent": "Poggers Gaming",
       "tag": "POG",
-      "date": "2026-02-08T17:00:00+01:00",
+      "date": "2026-02-08T20:00:00+01:00",
       "link": "https://www.primeleague.gg/de/leagues/matches/1153903"
     },
     "roster": [
@@ -54,7 +54,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-04T15:31:29.823Z"
+    "last_updated": "2026-02-04T16:32:35.906Z"
   },
   "spark": {
     "id": "208694",
@@ -116,7 +116,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-04T15:31:30.169Z"
+    "last_updated": "2026-02-04T16:32:36.306Z"
   },
   "ember": {
     "id": "211165",
@@ -173,7 +173,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-04T15:31:30.645Z"
+    "last_updated": "2026-02-04T16:32:36.887Z"
   },
   "nova": {
     "id": "203447",
@@ -245,7 +245,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-04T15:31:30.989Z"
+    "last_updated": "2026-02-04T16:32:37.290Z"
   },
   "abyss": {
     "id": "204924",
@@ -292,7 +292,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-04T15:31:31.459Z"
+    "last_updated": "2026-02-04T16:32:37.870Z"
   },
   "night": {
     "id": "212047",
@@ -349,7 +349,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-04T15:31:31.932Z"
+    "last_updated": "2026-02-04T16:32:38.448Z"
   },
   "freezer": {
     "id": "203146",
@@ -411,6 +411,6 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-04T15:31:32.281Z"
+    "last_updated": "2026-02-04T16:32:38.845Z"
   }
 }

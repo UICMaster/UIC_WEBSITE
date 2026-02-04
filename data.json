@@ -38,7 +38,7 @@
     "name": "skanpy",
     "level": 319,
     "rank": "EMERALD IV",
-    "wl": "54/48",
+    "wl": "55/49",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6296.png"
   },
   "spark_jgl": {
@@ -80,7 +80,7 @@
     "name": "SilasX",
     "level": 516,
     "rank": "EMERALD I",
-    "wl": "23/20",
+    "wl": "23/21",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6989.png"
   },
   "ember_jgl": {
@@ -233,8 +233,8 @@
   "freezer_mid": {
     "name": "UIC FrozenHands",
     "level": 628,
-    "rank": "DIAMOND IV",
-    "wl": "19/16",
+    "rank": "DIAMOND III",
+    "wl": "20/16",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6811.png"
   },
   "freezer_bot": {
