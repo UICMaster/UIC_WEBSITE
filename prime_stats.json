@@ -54,7 +54,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-04T18:33:04.694Z"
+    "last_updated": "2026-02-04T19:32:10.294Z"
   },
   "spark": {
     "id": "208694",
@@ -116,7 +116,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-04T18:33:05.039Z"
+    "last_updated": "2026-02-04T19:32:10.644Z"
   },
   "ember": {
     "id": "211165",
@@ -173,7 +173,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-04T18:33:05.521Z"
+    "last_updated": "2026-02-04T19:32:11.133Z"
   },
   "nova": {
     "id": "203447",
@@ -245,7 +245,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-04T18:33:05.873Z"
+    "last_updated": "2026-02-04T19:32:11.483Z"
   },
   "abyss": {
     "id": "204924",
@@ -253,9 +253,9 @@
     "logo": "https://cdn0.gamesports.net/league_team_logos/204000/204924.jpg?1765838352",
     "team_link": "https://www.primeleague.gg/de/leagues/teams/204924",
     "division": "Placement",
-    "games": 1,
+    "games": 2,
     "wins": 0,
-    "losses": 1,
+    "losses": 2,
     "draws": 0,
     "points": 0,
     "win_rate": 0,
@@ -292,7 +292,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-04T18:33:06.363Z"
+    "last_updated": "2026-02-04T19:32:11.963Z"
   },
   "night": {
     "id": "212047",
@@ -349,7 +349,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-04T18:33:06.838Z"
+    "last_updated": "2026-02-04T19:32:12.442Z"
   },
   "freezer": {
     "id": "203146",
@@ -411,6 +411,6 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-04T18:33:07.186Z"
+    "last_updated": "2026-02-04T19:32:12.792Z"
   }
 }
