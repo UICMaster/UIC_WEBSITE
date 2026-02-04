@@ -54,7 +54,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-04T17:37:00.048Z"
+    "last_updated": "2026-02-04T18:33:04.694Z"
   },
   "spark": {
     "id": "208694",
@@ -116,7 +116,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-04T17:37:00.390Z"
+    "last_updated": "2026-02-04T18:33:05.039Z"
   },
   "ember": {
     "id": "211165",
@@ -173,7 +173,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-04T17:37:00.862Z"
+    "last_updated": "2026-02-04T18:33:05.521Z"
   },
   "nova": {
     "id": "203447",
@@ -245,7 +245,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-04T17:37:01.211Z"
+    "last_updated": "2026-02-04T18:33:05.873Z"
   },
   "abyss": {
     "id": "204924",
@@ -260,10 +260,10 @@
     "points": 0,
     "win_rate": 0,
     "next_match": {
-      "opponent": "Black Lion Unleashed",
-      "tag": "BL",
-      "date": "2026-02-04T19:00:00+01:00",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1154170"
+      "opponent": "Deutsch Jahrndorf Five",
+      "tag": "DJ5",
+      "date": "2026-02-15T17:00:00+01:00",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1154173"
     },
     "roster": [
       {
@@ -289,10 +289,10 @@
       {
         "name": "Keygasza",
         "summoner": "UIC Keygasza",
-        "is_captain": true
+        "is_captain": false
       }
     ],
-    "last_updated": "2026-02-04T17:37:01.679Z"
+    "last_updated": "2026-02-04T18:33:06.363Z"
   },
   "night": {
     "id": "212047",
@@ -349,7 +349,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-04T17:37:02.158Z"
+    "last_updated": "2026-02-04T18:33:06.838Z"
   },
   "freezer": {
     "id": "203146",
@@ -411,6 +411,6 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-04T17:37:02.503Z"
+    "last_updated": "2026-02-04T18:33:07.186Z"
   }
 }
