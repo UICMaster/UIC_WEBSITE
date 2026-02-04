@@ -52,9 +52,14 @@
         "name": "GianiMoski",
         "summoner": "UIC Giani",
         "is_captain": false
+      },
+      {
+        "name": "DiamondGoku",
+        "summoner": "UIC Goku",
+        "is_captain": true
       }
     ],
-    "last_updated": "2026-02-04T03:30:43.445Z"
+    "last_updated": "2026-02-04T05:04:30.271Z"
   },
   "spark": {
     "id": "208694",
@@ -96,11 +101,6 @@
         "is_captain": false
       },
       {
-        "name": "DiamondGoku",
-        "summoner": "UIC Goku",
-        "is_captain": true
-      },
-      {
         "name": "UIC Shockwave",
         "summoner": "UIC Shockwave",
         "is_captain": true
@@ -116,7 +116,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-04T03:30:43.785Z"
+    "last_updated": "2026-02-04T05:04:30.613Z"
   },
   "ember": {
     "id": "211165",
@@ -173,7 +173,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-04T03:30:44.247Z"
+    "last_updated": "2026-02-04T05:04:31.073Z"
   },
   "nova": {
     "id": "203447",
@@ -245,7 +245,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-04T03:30:44.585Z"
+    "last_updated": "2026-02-04T05:04:31.418Z"
   },
   "abyss": {
     "id": "204924",
@@ -292,7 +292,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-04T03:30:45.046Z"
+    "last_updated": "2026-02-04T05:04:31.883Z"
   },
   "night": {
     "id": "212047",
@@ -349,7 +349,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-04T03:30:45.508Z"
+    "last_updated": "2026-02-04T05:04:32.343Z"
   },
   "freezer": {
     "id": "203146",
@@ -370,11 +370,6 @@
       "link": "https://www.primeleague.gg/de/leagues/matches/1154394"
     },
     "roster": [
-      {
-        "name": "Einbrecherkadse",
-        "summoner": "Einbrecherkadse",
-        "is_captain": true
-      },
       {
         "name": "GLT Rayando07",
         "summoner": "Rayando07",
@@ -411,6 +406,6 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-04T03:30:45.848Z"
+    "last_updated": "2026-02-04T05:04:32.684Z"
   }
 }
