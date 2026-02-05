@@ -54,7 +54,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T20:20:29.539Z"
+    "last_updated": "2026-02-05T21:19:04.218Z"
   },
   "spark": {
     "id": "208694",
@@ -116,7 +116,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T20:20:29.881Z"
+    "last_updated": "2026-02-05T21:19:04.617Z"
   },
   "ember": {
     "id": "211165",
@@ -173,7 +173,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T20:20:30.341Z"
+    "last_updated": "2026-02-05T21:19:05.182Z"
   },
   "nova": {
     "id": "203447",
@@ -190,7 +190,7 @@
     "next_match": {
       "opponent": "Tropical Vibez",
       "tag": "TRVBZ",
-      "date": "2026-02-08T19:00:00+01:00",
+      "date": "2026-02-07T20:00:00+01:00",
       "link": "https://www.primeleague.gg/de/leagues/matches/1155521"
     },
     "roster": [
@@ -245,7 +245,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T20:20:30.683Z"
+    "last_updated": "2026-02-05T21:19:05.578Z"
   },
   "abyss": {
     "id": "204924",
@@ -287,7 +287,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-05T20:20:31.137Z"
+    "last_updated": "2026-02-05T21:19:06.145Z"
   },
   "night": {
     "id": "212047",
@@ -344,7 +344,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-05T20:20:31.596Z"
+    "last_updated": "2026-02-05T21:19:06.712Z"
   },
   "freezer": {
     "id": "203146",
@@ -406,6 +406,6 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-05T20:20:31.936Z"
+    "last_updated": "2026-02-05T21:19:07.102Z"
   }
 }
