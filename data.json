@@ -65,8 +65,8 @@
   "spark_sup": {
     "name": "UIC Rhinoshield",
     "level": 938,
-    "rank": "EMERALD IV",
-    "wl": "98/89",
+    "rank": "EMERALD III",
+    "wl": "99/89",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5350.png"
   },
   "spark_coach": {
@@ -94,7 +94,7 @@
     "name": "ResetHoe",
     "level": 861,
     "rank": "EMERALD II",
-    "wl": "29/33",
+    "wl": "29/34",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4793.png"
   },
   "ember_bot": {
@@ -218,7 +218,7 @@
   },
   "freezer_top": {
     "name": "Rayando07",
-    "level": 433,
+    "level": 434,
     "rank": "DIAMOND I",
     "wl": "22/19",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7070.png"
