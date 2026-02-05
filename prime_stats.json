@@ -1,411 +1,334 @@
 {
   "prime": {
     "id": "116908",
-    "name": "Ultra Instinct Crew",
-    "logo": "https://cdn0.gamesports.net/league_team_logos/116000/116908.jpg?1768526642",
-    "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
-    "division": "Placement",
-    "games": 1,
-    "wins": 1,
-    "losses": 0,
-    "draws": 0,
-    "points": 3,
-    "win_rate": 100,
+    "key": "prime",
+    "meta": {
+      "name": "Ultra Instinct Crew",
+      "div": "Prime League"
+    },
+    "stats": {
+      "wins": 2,
+      "losses": 0,
+      "points": 2,
+      "games": 2,
+      "win_rate": 100,
+      "form": [
+        "W"
+      ]
+    },
     "next_match": {
-      "opponent": "Poggers Gaming",
-      "tag": "POG",
       "date": "2026-02-08T20:00:00+01:00",
+      "tag": "POG",
       "link": "https://www.primeleague.gg/de/leagues/matches/1153903"
     },
     "roster": [
       {
-        "name": "NikiLothra",
-        "summoner": "UIC Niki",
+        "summoner": "UIC Baguetto#R3kt",
+        "is_captain": false
+      },
+      {
+        "summoner": "UIC Shenycrane#Vugel",
+        "is_captain": false
+      },
+      {
+        "summoner": "UIC Niki#AMB",
         "is_captain": true
       },
       {
-        "name": "Shenycrane",
-        "summoner": "UIC Shenycrane",
-        "is_captain": false
-      },
-      {
-        "name": "Baumi123",
-        "summoner": "Baumi",
-        "is_captain": false
-      },
-      {
-        "name": "piapiob",
-        "summoner": "piapiob",
-        "is_captain": false
-      },
-      {
-        "name": "HGG SPEEDY",
-        "summoner": "UIC Speedy",
+        "summoner": "UIC Speedy#EUW",
         "is_captain": true
       },
       {
-        "name": "R3ktByBaguette",
-        "summoner": "UIC Baguetto",
-        "is_captain": false
-      },
-      {
-        "name": "GianiMoski",
-        "summoner": "UIC Giani",
+        "summoner": "UIC Giani#999",
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T22:15:57.695Z"
+    "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
+    "logo": "https://cdn0.gamesports.net/league_team_logos/116000/116908.jpg?1768526642"
   },
   "spark": {
     "id": "208694",
-    "name": "Ultra Instinct Crew Spark",
-    "logo": "https://cdn0.gamesports.net/league_team_logos/208000/208694.jpg?1765150033",
-    "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
-    "division": "Placement",
-    "games": 1,
-    "wins": 1,
-    "losses": 0,
-    "draws": 0,
-    "points": 3,
-    "win_rate": 100,
+    "key": "spark",
+    "meta": {
+      "name": "Ultra Instinct Crew Spark",
+      "div": "Prime League"
+    },
+    "stats": {
+      "wins": 2,
+      "losses": 0,
+      "points": 2,
+      "games": 2,
+      "win_rate": 100,
+      "form": [
+        "W"
+      ]
+    },
     "next_match": {
-      "opponent": "eSportRN",
-      "tag": "ERN",
       "date": "2026-02-08T19:00:00+01:00",
+      "tag": "ERN",
       "link": "https://www.primeleague.gg/de/leagues/matches/1155319"
     },
     "roster": [
       {
-        "name": "JDFlare",
-        "summoner": "UIC Flare",
+        "summoner": "UIC Flare#JND",
         "is_captain": true
       },
       {
-        "name": "PCG Dragonfly",
-        "summoner": "UIC Dragonfly",
+        "summoner": "UIC Lenno#UIC",
         "is_captain": false
       },
       {
-        "name": "EXC Firehand",
-        "summoner": "Firehand",
+        "summoner": "Lenlusz#EAZ",
         "is_captain": false
       },
       {
-        "name": "Lenderkek",
-        "summoner": "Lenlusz",
+        "summoner": "skanpy#3005",
         "is_captain": false
       },
       {
-        "name": "DiamondGoku",
-        "summoner": "UIC Goku",
-        "is_captain": true
-      },
-      {
-        "name": "UIC Shockwave",
-        "summoner": "UIC Shockwave",
-        "is_captain": true
-      },
-      {
-        "name": "7Lenno",
-        "summoner": "UIC Lenno",
-        "is_captain": false
-      },
-      {
-        "name": "skanpyy",
-        "summoner": "skanpy",
+        "summoner": "Firehand#1337",
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T22:15:58.055Z"
+    "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
+    "logo": "https://cdn0.gamesports.net/league_team_logos/208000/208694.jpg?1765150033"
   },
   "ember": {
     "id": "211165",
-    "name": "Ultra Instinct Crew Ember",
-    "logo": "https://cdn0.gamesports.net/league_team_logos/211000/211165.jpg?1765449081",
-    "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
-    "division": "Placement",
-    "games": 1,
-    "wins": 1,
-    "losses": 0,
-    "draws": 0,
-    "points": 3,
-    "win_rate": 100,
+    "key": "ember",
+    "meta": {
+      "name": "Ultra Instinct Crew Ember",
+      "div": "Prime League"
+    },
+    "stats": {
+      "wins": 8,
+      "losses": 2,
+      "points": 8,
+      "games": 10,
+      "win_rate": 80,
+      "form": [
+        "L",
+        "W",
+        "W",
+        "W",
+        "W"
+      ]
+    },
     "next_match": {
-      "opponent": "Crimson Void",
-      "tag": "CV",
       "date": "2026-02-08T17:30:00+01:00",
+      "tag": "CV",
       "link": "https://www.primeleague.gg/de/leagues/matches/1155066"
     },
     "roster": [
       {
-        "name": "Michelinmann",
-        "summoner": "ResetHoe",
+        "summoner": "UIC DontMethWith#AMB",
+        "is_captain": true
+      },
+      {
+        "summoner": "UIC Envy#UIC",
+        "is_captain": true
+      },
+      {
+        "summoner": "UIC Shederen#Ger",
         "is_captain": false
       },
       {
-        "name": "JaxusMaximus",
-        "summoner": "GNZ ソニック",
-        "is_captain": true
-      },
-      {
-        "name": "Dankaban",
-        "summoner": "UIC Envy",
-        "is_captain": true
-      },
-      {
-        "name": "SilasX",
-        "summoner": "SilasX",
+        "summoner": "SilasX#EUWde",
         "is_captain": false
       },
       {
-        "name": "DontMethWithMe",
-        "summoner": "UIC DontMethWith",
-        "is_captain": true
-      },
-      {
-        "name": "MichelZockt92",
-        "summoner": "UIC FreeLP",
-        "is_captain": true
-      },
-      {
-        "name": "Shederen",
-        "summoner": "UIC Shederen",
+        "summoner": "ResetHoe#Kata",
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T22:15:58.551Z"
+    "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
+    "logo": "https://cdn0.gamesports.net/league_team_logos/211000/211165.jpg?1765449081"
   },
   "nova": {
     "id": "203447",
-    "name": "UIC Nova",
-    "logo": "https://cdn0.gamesports.net/league_team_logos/203000/203447.jpg?1768386652",
-    "team_link": "https://www.primeleague.gg/de/leagues/teams/203447",
-    "division": "Placement",
-    "games": 0,
-    "wins": 0,
-    "losses": 0,
-    "draws": 0,
-    "points": 0,
-    "win_rate": 0,
+    "key": "nova",
+    "meta": {
+      "name": "UIC Nova",
+      "div": "Prime League"
+    },
+    "stats": {
+      "wins": 0,
+      "losses": 0,
+      "points": 0,
+      "games": 0,
+      "win_rate": 0,
+      "form": []
+    },
     "next_match": {
-      "opponent": "Tropical Vibez",
-      "tag": "TRVBZ",
       "date": "2026-02-07T20:00:00+01:00",
+      "tag": "TRVBZ",
       "link": "https://www.primeleague.gg/de/leagues/matches/1155521"
     },
     "roster": [
       {
-        "name": ".Apathy",
-        "summoner": "UIC Apathy",
-        "is_captain": false
-      },
-      {
-        "name": "Kaanto",
-        "summoner": "UIC Kaanto",
-        "is_captain": false
-      },
-      {
-        "name": "Rubix Qube",
-        "summoner": "UIC Rubix Qube",
+        "summoner": "UIC Rubix Qube#MÖP",
         "is_captain": true
       },
       {
-        "name": "WLK Kaetaya",
-        "summoner": "TAS Kaetaya",
+        "summoner": "Rhamuthra#4444",
         "is_captain": false
       },
       {
-        "name": "Excellent C",
-        "summoner": "UIC Excellent C",
+        "summoner": "Muh#KATZE",
+        "is_captain": false
+      },
+      {
+        "summoner": "UIC Simply#666",
         "is_captain": true
       },
       {
-        "name": "Der Muffinmann",
-        "summoner": "Sea of Lavender",
-        "is_captain": false
-      },
-      {
-        "name": "SimplySideStep",
-        "summoner": "UIC Simply",
+        "summoner": "UIC Excellent C#1997",
         "is_captain": true
-      },
-      {
-        "name": "JacksonE",
-        "summoner": "UIC adedier",
-        "is_captain": false
-      },
-      {
-        "name": "MuhMiau",
-        "summoner": "Muh",
-        "is_captain": false
-      },
-      {
-        "name": "Rhamuthra",
-        "summoner": "Rhamuthra",
-        "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T22:15:58.909Z"
+    "team_link": "https://www.primeleague.gg/de/leagues/teams/203447",
+    "logo": "https://cdn0.gamesports.net/league_team_logos/203000/203447.jpg?1768386652"
   },
   "abyss": {
     "id": "204924",
-    "name": "Ultra Instinct Crew Abyss",
-    "logo": "https://cdn0.gamesports.net/league_team_logos/204000/204924.jpg?1765838352",
-    "team_link": "https://www.primeleague.gg/de/leagues/teams/204924",
-    "division": "Placement",
-    "games": 2,
-    "wins": 0,
-    "losses": 2,
-    "draws": 0,
-    "points": 0,
-    "win_rate": 0,
+    "key": "abyss",
+    "meta": {
+      "name": "Ultra Instinct Crew Abyss",
+      "div": "Prime League"
+    },
+    "stats": {
+      "wins": 7,
+      "losses": 5,
+      "points": 7,
+      "games": 12,
+      "win_rate": 58,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "L",
+        "L"
+      ]
+    },
     "next_match": {
-      "opponent": "Deutsch Jahrndorf Five",
-      "tag": "DJ5",
       "date": "2026-02-15T17:00:00+01:00",
+      "tag": "DJ5",
       "link": "https://www.primeleague.gg/de/leagues/matches/1154173"
     },
     "roster": [
       {
-        "name": "osdgesperrt",
-        "summoner": "UIC DANY",
+        "summoner": "UIC DANY#RFA40",
         "is_captain": false
       },
       {
-        "name": "N1ghtm4reX",
-        "summoner": "UIC M Character",
+        "summoner": "TheEigeeen#EIGI",
         "is_captain": false
       },
       {
-        "name": "TheEigeeen",
-        "summoner": "TheEigeeen",
+        "summoner": "UIC FrozenHands#MID",
+        "is_captain": true
+      },
+      {
+        "summoner": "UIC Keygasza#1337",
+        "is_captain": true
+      },
+      {
+        "summoner": "UIC Goku#UIC",
+        "is_captain": true
+      },
+      {
+        "summoner": "UIC M Character#UIC",
         "is_captain": false
       },
       {
-        "name": "Keygasza",
-        "summoner": "UIC Keygasza",
+        "summoner": "UIC Speedy#EUW",
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-05T22:15:59.401Z"
+    "team_link": "https://www.primeleague.gg/de/leagues/teams/204924",
+    "logo": "https://cdn0.gamesports.net/league_team_logos/204000/204924.jpg?1765838352"
   },
   "night": {
     "id": "212047",
-    "name": "Ultra Instinct Crew Night",
-    "logo": "https://cdn0.gamesports.net/league_team_logos/212000/212047.jpg?1768386989",
-    "team_link": "https://www.primeleague.gg/de/leagues/teams/212047",
-    "division": "Placement",
-    "games": 1,
-    "wins": 0,
-    "losses": 1,
-    "draws": 0,
-    "points": 0,
-    "win_rate": 0,
+    "key": "night",
+    "meta": {
+      "name": "Ultra Instinct Crew Night",
+      "div": "Prime League"
+    },
+    "stats": {
+      "wins": 5,
+      "losses": 5,
+      "points": 5,
+      "games": 10,
+      "win_rate": 50,
+      "form": [
+        "L",
+        "W",
+        "L",
+        "W",
+        "L"
+      ]
+    },
     "next_match": {
-      "opponent": "Bloodline",
-      "tag": "BLD",
       "date": "2026-02-08T19:00:00+01:00",
+      "tag": "BLD",
       "link": "https://www.primeleague.gg/de/leagues/matches/1154451"
     },
     "roster": [
       {
-        "name": "RatHairedShanks",
-        "summoner": "RatHairedShanks",
-        "is_captain": false
-      },
-      {
-        "name": "HGG Schuh",
-        "summoner": "HGG Schuh",
-        "is_captain": false
-      },
-      {
-        "name": "Mazin L9",
-        "summoner": "MaZiN",
-        "is_captain": false
-      },
-      {
-        "name": "alexpenner",
-        "summoner": "ривен",
-        "is_captain": false
-      },
-      {
-        "name": "UIC ReCord",
-        "summoner": "UIC ReCord",
+        "summoner": "UIC ReCord#Cedo",
         "is_captain": true
       },
       {
-        "name": "UIC proStarII",
-        "summoner": "UIC proStarII",
+        "summoner": "UIC Cedo#EUW",
         "is_captain": true
       },
       {
-        "name": "HGS Cedo",
-        "summoner": "UIC Cedo",
+        "summoner": "UIC proStarII#UIC",
         "is_captain": true
+      },
+      {
+        "summoner": "UIC Boohunter#Boo",
+        "is_captain": false
+      },
+      {
+        "summoner": "UIC Shekar#5ONiT",
+        "is_captain": false
+      },
+      {
+        "summoner": "MaZiN#EUWL9",
+        "is_captain": false
+      },
+      {
+        "summoner": "ривен#sabi",
+        "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T22:15:59.893Z"
+    "team_link": "https://www.primeleague.gg/de/leagues/teams/212047",
+    "logo": "https://cdn0.gamesports.net/league_team_logos/212000/212047.jpg?1768386989"
   },
   "freezer": {
     "id": "203146",
-    "name": "Ultra Instinct Crew Freezer",
-    "logo": "https://cdn0.gamesports.net/league_team_logos/203000/203146.jpg?1768840480",
-    "team_link": "https://www.primeleague.gg/de/leagues/teams/203146",
-    "division": "Placement",
-    "games": 0,
-    "wins": 0,
-    "losses": 0,
-    "draws": 0,
-    "points": 0,
-    "win_rate": 0,
+    "key": "freezer",
+    "meta": {
+      "name": "Ultra Instinct Crew Freezer",
+      "div": "Prime League"
+    },
+    "stats": {
+      "wins": 0,
+      "losses": 0,
+      "points": 0,
+      "games": 0,
+      "win_rate": 0,
+      "form": []
+    },
     "next_match": {
-      "opponent": "Assassins and Greed SNC",
-      "tag": "AG",
       "date": "2026-02-06T19:00:00+01:00",
+      "tag": "AG",
       "link": "https://www.primeleague.gg/de/leagues/matches/1154394"
     },
-    "roster": [
-      {
-        "name": "Einbrecherkadse",
-        "summoner": "Einbrecherkadse",
-        "is_captain": true
-      },
-      {
-        "name": "GLT Rayando07",
-        "summoner": "Rayando07",
-        "is_captain": false
-      },
-      {
-        "name": "UIC Cerberus",
-        "summoner": "RG Cerberus",
-        "is_captain": true
-      },
-      {
-        "name": "LoonzInLove",
-        "summoner": "UIC Loonz",
-        "is_captain": true
-      },
-      {
-        "name": "BlauerKlaus",
-        "summoner": "BlauerKlaus",
-        "is_captain": true
-      },
-      {
-        "name": "Ryu Copeland",
-        "summoner": "UIC Ryu Copeland",
-        "is_captain": true
-      },
-      {
-        "name": "L0rdMo",
-        "summoner": "RG AutumnLeaf",
-        "is_captain": true
-      },
-      {
-        "name": "TiT BrokenHands",
-        "summoner": "UIC FrozenHands",
-        "is_captain": true
-      }
-    ],
-    "last_updated": "2026-02-05T22:16:00.253Z"
+    "roster": [],
+    "team_link": "https://www.primeleague.gg/de/leagues/teams/203146",
+    "logo": "https://cdn0.gamesports.net/league_team_logos/203000/203146.jpg?1768840480"
   }
 }
