@@ -4,7 +4,7 @@
     "key": "prime",
     "meta": {
       "name": "Ultra Instinct Crew",
-      "div": "Prime League"
+      "div": "Div x.x"
     },
     "stats": {
       "wins": 2,
@@ -20,6 +20,12 @@
       "date": "2026-02-08T20:00:00+01:00",
       "tag": "POG",
       "link": "https://www.primeleague.gg/de/leagues/matches/1153903"
+    },
+    "last_match": {
+      "result": "VICTORY",
+      "score": "2 - 0",
+      "enemy": "XLB",
+      "date": "2026-02-01T19:00:00+01:00"
     },
     "roster": [
       {
@@ -51,7 +57,7 @@
     "key": "spark",
     "meta": {
       "name": "Ultra Instinct Crew Spark",
-      "div": "Prime League"
+      "div": "Div x.x"
     },
     "stats": {
       "wins": 2,
@@ -67,6 +73,12 @@
       "date": "2026-02-08T19:00:00+01:00",
       "tag": "ERN",
       "link": "https://www.primeleague.gg/de/leagues/matches/1155319"
+    },
+    "last_match": {
+      "result": "VICTORY",
+      "score": "2 - 0",
+      "enemy": "POP",
+      "date": "2026-02-01T19:00:00+01:00"
     },
     "roster": [
       {
@@ -98,7 +110,7 @@
     "key": "ember",
     "meta": {
       "name": "Ultra Instinct Crew Ember",
-      "div": "Prime League"
+      "div": "Div x.x"
     },
     "stats": {
       "wins": 8,
@@ -118,6 +130,12 @@
       "date": "2026-02-08T17:30:00+01:00",
       "tag": "CV",
       "link": "https://www.primeleague.gg/de/leagues/matches/1155066"
+    },
+    "last_match": {
+      "result": "VICTORY",
+      "score": "2 - 0",
+      "enemy": "EBW",
+      "date": "2026-02-01T17:00:00+01:00"
     },
     "roster": [
       {
@@ -149,7 +167,7 @@
     "key": "nova",
     "meta": {
       "name": "UIC Nova",
-      "div": "Prime League"
+      "div": "Div x.x"
     },
     "stats": {
       "wins": 0,
@@ -164,6 +182,7 @@
       "tag": "TRVBZ",
       "link": "https://www.primeleague.gg/de/leagues/matches/1155521"
     },
+    "last_match": null,
     "roster": [
       {
         "summoner": "UIC Rubix Qube#MÖP",
@@ -194,7 +213,7 @@
     "key": "abyss",
     "meta": {
       "name": "Ultra Instinct Crew Abyss",
-      "div": "Prime League"
+      "div": "Div x.x"
     },
     "stats": {
       "wins": 7,
@@ -214,6 +233,12 @@
       "date": "2026-02-15T17:00:00+01:00",
       "tag": "DJ5",
       "link": "https://www.primeleague.gg/de/leagues/matches/1154173"
+    },
+    "last_match": {
+      "result": "DEFEAT",
+      "score": "0 - 2",
+      "enemy": "BL",
+      "date": "2026-02-04T19:00:00+01:00"
     },
     "roster": [
       {
@@ -253,7 +278,7 @@
     "key": "night",
     "meta": {
       "name": "Ultra Instinct Crew Night",
-      "div": "Prime League"
+      "div": "Division 6.1"
     },
     "stats": {
       "wins": 5,
@@ -273,6 +298,12 @@
       "date": "2026-02-08T19:00:00+01:00",
       "tag": "BLD",
       "link": "https://www.primeleague.gg/de/leagues/matches/1154451"
+    },
+    "last_match": {
+      "result": "DEFEAT",
+      "score": "0 - 2",
+      "enemy": "TOCKER",
+      "date": "2026-02-01T20:00:00+01:00"
     },
     "roster": [
       {
@@ -312,7 +343,7 @@
     "key": "freezer",
     "meta": {
       "name": "Ultra Instinct Crew Freezer",
-      "div": "Prime League"
+      "div": "Div x.x"
     },
     "stats": {
       "wins": 0,
@@ -327,6 +358,7 @@
       "tag": "AG",
       "link": "https://www.primeleague.gg/de/leagues/matches/1154394"
     },
+    "last_match": null,
     "roster": [],
     "team_link": "https://www.primeleague.gg/de/leagues/teams/203146",
     "logo": "https://cdn0.gamesports.net/league_team_logos/203000/203146.jpg?1768840480"
