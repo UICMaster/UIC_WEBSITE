@@ -3,10 +3,12 @@ const path = require('path');
 
 // --- 1. CONFIGURATION ---
 const DATA_FILE = 'prime_stats.json';
-// Ensure we write to the directory where the script is running
-const OUTPUT_PATH = path.resolve(__dirname, DATA_FILE);
 
-// YOUR TEAM IDs (Correct as provided)
+// CRITICAL FIX: Save to the ROOT directory (up one level from 'js/')
+// This ensures your GitHub Action finds the file in the correct place.
+const OUTPUT_PATH = path.resolve(__dirname, '../', DATA_FILE);
+
+// YOUR TEAM CONFIGURATION
 const TEAMS = {
     "prime":   "116908", 
     "spark":   "208694",
@@ -19,7 +21,7 @@ const TEAMS = {
 
 const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/2.0' };
 
-// --- 2. INTELLIGENCE GATHERING ---
+// --- 2. INTELLIGENCE GATHERING ENGINE ---
 async function getTeamIntel(teamKey, teamId) {
     console.log(`📡 Scanning Frequency: UIC ${teamKey.toUpperCase()}...`);
     try {
@@ -39,17 +41,18 @@ async function getTeamIntel(teamKey, teamId) {
         const rosterMap = new Map();
 
         if (data.matches && Array.isArray(data.matches)) {
-            // Sort matches: Oldest -> Newest
+            // Sort matches: Oldest -> Newest (Required for correct history calculation)
             const sortedMatches = data.matches.sort((a, b) => new Date(a.begin) - new Date(b.begin));
 
             sortedMatches.forEach(m => {
                 const matchDate = new Date(m.begin);
 
                 // A. ROSTER EXTRACTION (Active players from last 60 days)
+                // This filters out old substitutes from previous seasons
                 const isRecent = (now - matchDate) < (1000 * 60 * 60 * 24 * 60); 
                 if (m.team_lineup && Array.isArray(m.team_lineup) && isRecent) {
                     m.team_lineup.forEach(p => {
-                        // Add if new OR if this is the leader instance
+                        // Add if new OR if this is the leader instance (to capture captain status)
                         if (!rosterMap.has(p.summoner_name) || p.is_leader) {
                             rosterMap.set(p.summoner_name, {
                                 summoner: p.summoner_name,
@@ -59,7 +62,7 @@ async function getTeamIntel(teamKey, teamId) {
                     });
                 }
 
-                // B. SCORING LOGIC (Best of 2)
+                // B. SCORING LOGIC (Best of 2 Format)
                 if (m.result && matchDate < now) {
                     const [scoreUs, scoreThem] = m.result.split(':').map(Number);
                     
@@ -69,13 +72,13 @@ async function getTeamIntel(teamKey, teamId) {
                         mapLosses += scoreThem;
 
                         // Form: Matchday Result
-                        if (scoreUs > scoreThem) formHistory.push('W');      // 2:0
-                        else if (scoreUs === scoreThem) formHistory.push('D'); // 1:1
-                        else formHistory.push('L');                          // 0:2
+                        if (scoreUs > scoreThem) formHistory.push('W');      // 2:0 Win
+                        else if (scoreUs === scoreThem) formHistory.push('D'); // 1:1 Draw
+                        else formHistory.push('L');                          // 0:2 Loss
                     }
                 }
 
-                // C. NEXT MATCH
+                // C. NEXT MATCH FINDER
                 if (!nextMatch && matchDate > now) {
                     nextMatch = {
                         date: m.begin,
@@ -88,7 +91,7 @@ async function getTeamIntel(teamKey, teamId) {
 
         // --- 3. FINAL CALCULATION ---
         const totalMaps = mapWins + mapLosses;
-        const formShort = formHistory.slice(-5); // Last 5 matchdays
+        const formShort = formHistory.slice(-5); // Keep only last 5 matchdays
 
         return {
             id: teamId,
@@ -100,13 +103,13 @@ async function getTeamIntel(teamKey, teamId) {
             stats: {
                 wins: mapWins,
                 losses: mapLosses,
-                points: mapWins, // 1 Point per map win
+                points: mapWins, // 1 Point per map win logic
                 games: totalMaps,
                 win_rate: totalMaps > 0 ? Math.round((mapWins / totalMaps) * 100) : 0,
                 form: formShort
             },
             next_match: nextMatch,
-            // Convert Map to Array and take max 7 players
+            // Convert Map to Array and take max 7 players (Starters + Subs)
             roster: Array.from(rosterMap.values()).slice(0, 7),
             team_link: data.prime_league_link,
             logo: data.logo_url
@@ -121,11 +124,13 @@ async function getTeamIntel(teamKey, teamId) {
 async function start() {
     const database = {};
     
-    // Sequential Loop to respect API load
+    // Sequential Loop to respect API rate limits
     for (const [key, id] of Object.entries(TEAMS)) {
         const stats = await getTeamIntel(key, id);
         if (stats) database[key] = stats;
-        await new Promise(r => setTimeout(r, 250)); // 250ms delay
+        
+        // 250ms delay between requests
+        await new Promise(r => setTimeout(r, 250)); 
     }
 
     fs.writeFileSync(OUTPUT_PATH, JSON.stringify(database, null, 2));
