@@ -54,7 +54,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T19:31:00.829Z"
+    "last_updated": "2026-02-05T20:20:29.539Z"
   },
   "spark": {
     "id": "208694",
@@ -116,7 +116,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T19:31:01.179Z"
+    "last_updated": "2026-02-05T20:20:29.881Z"
   },
   "ember": {
     "id": "211165",
@@ -133,7 +133,7 @@
     "next_match": {
       "opponent": "Crimson Void",
       "tag": "CV",
-      "date": "2026-02-08T19:00:00+01:00",
+      "date": "2026-02-08T17:30:00+01:00",
       "link": "https://www.primeleague.gg/de/leagues/matches/1155066"
     },
     "roster": [
@@ -173,7 +173,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T19:31:01.665Z"
+    "last_updated": "2026-02-05T20:20:30.341Z"
   },
   "nova": {
     "id": "203447",
@@ -245,7 +245,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T19:31:02.025Z"
+    "last_updated": "2026-02-05T20:20:30.683Z"
   },
   "abyss": {
     "id": "204924",
@@ -287,7 +287,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-05T19:31:02.602Z"
+    "last_updated": "2026-02-05T20:20:31.137Z"
   },
   "night": {
     "id": "212047",
@@ -344,7 +344,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-05T19:31:03.078Z"
+    "last_updated": "2026-02-05T20:20:31.596Z"
   },
   "freezer": {
     "id": "203146",
@@ -406,6 +406,6 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-05T19:31:03.428Z"
+    "last_updated": "2026-02-05T20:20:31.936Z"
   }
 }
