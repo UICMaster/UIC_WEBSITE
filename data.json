@@ -45,7 +45,7 @@
     "name": "UIC Lenno",
     "level": 774,
     "rank": "PLATINUM I",
-    "wl": "46/38",
+    "wl": "47/38",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
   },
   "spark_mid": {
@@ -66,7 +66,7 @@
     "name": "UIC Rhinoshield",
     "level": 938,
     "rank": "EMERALD III",
-    "wl": "99/89",
+    "wl": "100/90",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5350.png"
   },
   "spark_coach": {
@@ -93,8 +93,8 @@
   "ember_mid": {
     "name": "ResetHoe",
     "level": 861,
-    "rank": "EMERALD II",
-    "wl": "29/34",
+    "rank": "EMERALD III",
+    "wl": "29/36",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4793.png"
   },
   "ember_bot": {
