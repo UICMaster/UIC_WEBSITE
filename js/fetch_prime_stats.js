@@ -3,56 +3,49 @@ const path = require('path');
 
 // --- 1. CONFIGURATION ---
 const DATA_FILE = 'prime_stats.json';
-
-// CRITICAL FIX: Save to the ROOT directory (up one level from 'js/')
-// This ensures your GitHub Action finds the file in the correct place.
+// FIX: Save to ROOT directory
 const OUTPUT_PATH = path.resolve(__dirname, '../', DATA_FILE);
 
-// YOUR TEAM CONFIGURATION
+// TEAM CONFIGURATION (Added 'manual_div' for missing API data)
 const TEAMS = {
-    "prime":   "116908", 
-    "spark":   "208694",
-    "ember":   "211165",
-    "nova":    "203447",
-    "abyss":   "204924",
-    "night":   "212047",
-    "freezer": "203146"
+    "prime":   { id: "116908", manual_div: "Div x.x" }, 
+    "spark":   { id: "208694", manual_div: "Div x.x" },
+    "ember":   { id: "211165", manual_div: "Div x.x" },
+    "nova":    { id: "203447", manual_div: "Div x.x" },
+    "abyss":   { id: "204924", manual_div: "Div x.x" },
+    "night":   { id: "212047", manual_div: "Division 6.1" },
+    "freezer": { id: "203146", manual_div: "Div x.x" }
 };
 
-const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/2.0' };
+const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/2.1' };
 
-// --- 2. INTELLIGENCE GATHERING ENGINE ---
-async function getTeamIntel(teamKey, teamId) {
-    console.log(`📡 Scanning Frequency: UIC ${teamKey.toUpperCase()}...`);
+async function getTeamIntel(teamKey, config) {
+    console.log(`📡 Scanning: UIC ${teamKey.toUpperCase()}...`);
     try {
-        const response = await fetch(`https://primebot.me/api/v1/teams/${teamId}/`, { headers: HEADERS });
+        const response = await fetch(`https://primebot.me/api/v1/teams/${config.id}/`, { headers: HEADERS });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         
         const data = await response.json();
         const now = new Date();
         
-        // Data Accumulators
-        let mapWins = 0;   // 1 Win = 1 Point
+        let mapWins = 0;
         let mapLosses = 0;
-        let formHistory = []; // Tracks Matchday results: W(2:0), D(1:1), L(0:2)
+        let formHistory = []; 
         let nextMatch = null;
-        
-        // Roster Set (Prevents duplicates)
+        let lastMatch = null; // New: For extended details
         const rosterMap = new Map();
 
         if (data.matches && Array.isArray(data.matches)) {
-            // Sort matches: Oldest -> Newest (Required for correct history calculation)
             const sortedMatches = data.matches.sort((a, b) => new Date(a.begin) - new Date(b.begin));
 
             sortedMatches.forEach(m => {
                 const matchDate = new Date(m.begin);
 
-                // A. ROSTER EXTRACTION (Active players from last 60 days)
-                // This filters out old substitutes from previous seasons
-                const isRecent = (now - matchDate) < (1000 * 60 * 60 * 24 * 60); 
+                // A. ROSTER FIX: Extended to 180 days to find Freezer players
+                const isRecent = (now - matchDate) < (1000 * 60 * 60 * 24 * 180); 
+                
                 if (m.team_lineup && Array.isArray(m.team_lineup) && isRecent) {
                     m.team_lineup.forEach(p => {
-                        // Add if new OR if this is the leader instance (to capture captain status)
                         if (!rosterMap.has(p.summoner_name) || p.is_leader) {
                             rosterMap.set(p.summoner_name, {
                                 summoner: p.summoner_name,
@@ -62,23 +55,27 @@ async function getTeamIntel(teamKey, teamId) {
                     });
                 }
 
-                // B. SCORING LOGIC (Best of 2 Format)
+                // B. SCORING & HISTORY
                 if (m.result && matchDate < now) {
                     const [scoreUs, scoreThem] = m.result.split(':').map(Number);
-                    
-                    if (!isNaN(scoreUs) && !isNaN(scoreThem)) {
-                        // Points: 1 Map Win = 1 Point
+                    if (!isNaN(scoreUs)) {
                         mapWins += scoreUs;
                         mapLosses += scoreThem;
-
-                        // Form: Matchday Result
-                        if (scoreUs > scoreThem) formHistory.push('W');      // 2:0 Win
-                        else if (scoreUs === scoreThem) formHistory.push('D'); // 1:1 Draw
-                        else formHistory.push('L');                          // 0:2 Loss
+                        if (scoreUs > scoreThem) formHistory.push('W');
+                        else if (scoreUs === scoreThem) formHistory.push('D');
+                        else formHistory.push('L');
+                        
+                        // Capture details of the very last played match
+                        lastMatch = {
+                            result: scoreUs > scoreThem ? "VICTORY" : (scoreUs === scoreThem ? "DRAW" : "DEFEAT"),
+                            score: `${scoreUs} - ${scoreThem}`,
+                            enemy: m.enemy_team ? m.enemy_team.team_tag : "OPP",
+                            date: m.begin
+                        };
                     }
                 }
 
-                // C. NEXT MATCH FINDER
+                // C. NEXT MATCH
                 if (!nextMatch && matchDate > now) {
                     nextMatch = {
                         date: m.begin,
@@ -89,27 +86,26 @@ async function getTeamIntel(teamKey, teamId) {
             });
         }
 
-        // --- 3. FINAL CALCULATION ---
         const totalMaps = mapWins + mapLosses;
-        const formShort = formHistory.slice(-5); // Keep only last 5 matchdays
 
         return {
-            id: teamId,
+            id: config.id,
             key: teamKey,
             meta: { 
                 name: data.name,
-                div: data.division || "Prime League" 
+                // Use Manual Div if API fails
+                div: data.division || config.manual_div 
             },
             stats: {
                 wins: mapWins,
                 losses: mapLosses,
-                points: mapWins, // 1 Point per map win logic
+                points: mapWins,
                 games: totalMaps,
                 win_rate: totalMaps > 0 ? Math.round((mapWins / totalMaps) * 100) : 0,
-                form: formShort
+                form: formHistory.slice(-5)
             },
             next_match: nextMatch,
-            // Convert Map to Array and take max 7 players (Starters + Subs)
+            last_match: lastMatch, // Sending last match data to frontend
             roster: Array.from(rosterMap.values()).slice(0, 7),
             team_link: data.prime_league_link,
             logo: data.logo_url
@@ -123,18 +119,13 @@ async function getTeamIntel(teamKey, teamId) {
 
 async function start() {
     const database = {};
-    
-    // Sequential Loop to respect API rate limits
-    for (const [key, id] of Object.entries(TEAMS)) {
-        const stats = await getTeamIntel(key, id);
+    for (const [key, config] of Object.entries(TEAMS)) {
+        const stats = await getTeamIntel(key, config);
         if (stats) database[key] = stats;
-        
-        // 250ms delay between requests
-        await new Promise(r => setTimeout(r, 250)); 
+        await new Promise(r => setTimeout(r, 250));
     }
-
     fs.writeFileSync(OUTPUT_PATH, JSON.stringify(database, null, 2));
-    console.log(`\n✅ TELEMETRY UPDATED: Data saved to ${OUTPUT_PATH}`);
+    console.log(`\n✅ TELEMETRY UPDATED: ${OUTPUT_PATH}`);
 }
 
 start();
