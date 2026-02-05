@@ -1,11 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
-// Constants
+// --- 1. CONFIGURATION ---
 const DATA_FILE = 'prime_stats.json';
-// Ensure we write to the root directory regardless of where this script runs
-const JSON_PATH = path.resolve(process.cwd(), DATA_FILE);
+// Ensure we write to the directory where the script is running
+const OUTPUT_PATH = path.resolve(__dirname, DATA_FILE);
 
+// YOUR TEAM IDs (Correct as provided)
 const TEAMS = {
     "prime":   "116908", 
     "spark":   "208694",
@@ -16,111 +17,119 @@ const TEAMS = {
     "freezer": "203146"
 };
 
-const HEADERS = { 'User-Agent': 'HUD-Sync-Bot/1.0' };
+const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/2.0' };
 
-// ... (Your existing constants and headers)
-
-async function getPrimeStats(teamName, id) {
+// --- 2. INTELLIGENCE GATHERING ---
+async function getTeamIntel(teamKey, teamId) {
+    console.log(`📡 Scanning Frequency: UIC ${teamKey.toUpperCase()}...`);
     try {
-        const response = await fetch(`https://primebot.me/api/v1/teams/${id}/`, { headers: HEADERS });
-        if (!response.ok) return null;
+        const response = await fetch(`https://primebot.me/api/v1/teams/${teamId}/`, { headers: HEADERS });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
         
         const data = await response.json();
         const now = new Date();
         
-        let wins = 0, losses = 0, draws = 0;
+        // Data Accumulators
+        let mapWins = 0;   // 1 Win = 1 Point
+        let mapLosses = 0;
+        let formHistory = []; // Tracks Matchday results: W(2:0), D(1:1), L(0:2)
         let nextMatch = null;
+        
+        // Roster Set (Prevents duplicates)
+        const rosterMap = new Map();
 
         if (data.matches && Array.isArray(data.matches)) {
+            // Sort matches: Oldest -> Newest
             const sortedMatches = data.matches.sort((a, b) => new Date(a.begin) - new Date(b.begin));
 
             sortedMatches.forEach(m => {
                 const matchDate = new Date(m.begin);
-                
-                // Past Games Logic
-                if (m.match_type === 'league' && m.result && matchDate < now) {
-                    const [scoreA, scoreB] = m.result.split(':').map(Number);
-                    if (!isNaN(scoreA) && !isNaN(scoreB)) {
-                        if (scoreA > scoreB) wins++;
-                        else if (scoreA < scoreB) losses++;
-                        else draws++;
+
+                // A. ROSTER EXTRACTION (Active players from last 60 days)
+                const isRecent = (now - matchDate) < (1000 * 60 * 60 * 24 * 60); 
+                if (m.team_lineup && Array.isArray(m.team_lineup) && isRecent) {
+                    m.team_lineup.forEach(p => {
+                        // Add if new OR if this is the leader instance
+                        if (!rosterMap.has(p.summoner_name) || p.is_leader) {
+                            rosterMap.set(p.summoner_name, {
+                                summoner: p.summoner_name,
+                                is_captain: p.is_leader || false
+                            });
+                        }
+                    });
+                }
+
+                // B. SCORING LOGIC (Best of 2)
+                if (m.result && matchDate < now) {
+                    const [scoreUs, scoreThem] = m.result.split(':').map(Number);
+                    
+                    if (!isNaN(scoreUs) && !isNaN(scoreThem)) {
+                        // Points: 1 Map Win = 1 Point
+                        mapWins += scoreUs;
+                        mapLosses += scoreThem;
+
+                        // Form: Matchday Result
+                        if (scoreUs > scoreThem) formHistory.push('W');      // 2:0
+                        else if (scoreUs === scoreThem) formHistory.push('D'); // 1:1
+                        else formHistory.push('L');                          // 0:2
                     }
                 }
 
-                // Next Match Logic - NOW WITH LINKS
+                // C. NEXT MATCH
                 if (!nextMatch && matchDate > now) {
                     nextMatch = {
-                        opponent: m.enemy_team ? m.enemy_team.name : "TBD",
-                        tag: m.enemy_team ? m.enemy_team.team_tag : "???",
-                        logo: m.enemy_team ? m.enemy_team.logo_url : null,
                         date: m.begin,
-                        link: m.prime_league_link // New: Specific Match Link
+                        tag: m.enemy_team ? m.enemy_team.team_tag : "TBD",
+                        link: m.prime_league_link
                     };
                 }
             });
         }
 
-        const totalGames = wins + losses + draws;
-        const winRate = totalGames > 0 ? Math.round((wins / totalGames) * 100) : 0;
+        // --- 3. FINAL CALCULATION ---
+        const totalMaps = mapWins + mapLosses;
+        const formShort = formHistory.slice(-5); // Last 5 matchdays
 
         return {
-            id: id,
-            name: data.name,
-            logo: data.logo_url, // New: Team Logo
-            team_link: data.prime_league_link, // New: Prime League Profile
-            division: data.division || "Placement",
-            games: totalGames,
-            wins,
-            losses,
-            draws,
-            points: (wins * 3) + draws,
-            win_rate: winRate,
+            id: teamId,
+            key: teamKey,
+            meta: { 
+                name: data.name,
+                div: data.division || "Prime League" 
+            },
+            stats: {
+                wins: mapWins,
+                losses: mapLosses,
+                points: mapWins, // 1 Point per map win
+                games: totalMaps,
+                win_rate: totalMaps > 0 ? Math.round((mapWins / totalMaps) * 100) : 0,
+                form: formShort
+            },
             next_match: nextMatch,
-            roster: data.players ? data.players.map(p => ({
-                name: p.name,
-                summoner: p.summoner_name ? p.summoner_name.split('#')[0] : "Unknown",
-                is_captain: p.is_leader
-            })) : [],
-            last_updated: now.toISOString()
+            // Convert Map to Array and take max 7 players
+            roster: Array.from(rosterMap.values()).slice(0, 7),
+            team_link: data.prime_league_link,
+            logo: data.logo_url
         };
+
     } catch (e) {
-        console.error(`❌ [${teamName}] Failure:`, e.message);
+        console.error(`❌ Signal Lost [${teamKey}]:`, e.message);
         return null;
     }
 }
-// ... (Rest of your start function)
 
 async function start() {
-    console.log(`🚀 HUD SYNC: Starting... Target: ${JSON_PATH}`);
+    const database = {};
     
-    // Load existing data to preserve teams if API fails
-    let currentData = {};
-    if (fs.existsSync(JSON_PATH)) {
-        try { currentData = JSON.parse(fs.readFileSync(JSON_PATH, 'utf8')); } catch (e) {
-            console.warn("⚠️ Corrupt JSON found, starting fresh.");
-        }
-    }
-
-    let successCount = 0;
-
-    // Sequential loop to prevent Rate Limiting
+    // Sequential Loop to respect API load
     for (const [key, id] of Object.entries(TEAMS)) {
-        const stats = await getPrimeStats(key, id);
-        if (stats) {
-            currentData[key] = stats;
-            successCount++;
-            console.log(`✅ [${key.toUpperCase()}] Synced.`);
-        }
-        // Tiny delay between requests
-        await new Promise(r => setTimeout(r, 200)); 
+        const stats = await getTeamIntel(key, id);
+        if (stats) database[key] = stats;
+        await new Promise(r => setTimeout(r, 250)); // 250ms delay
     }
 
-    if (successCount > 0) {
-        fs.writeFileSync(JSON_PATH, JSON.stringify(currentData, null, 2));
-        console.log(`\n🎉 SUCCESS: Database updated with ${successCount} teams.`);
-    } else {
-        console.log("\n⚠️ NO CHANGES: API might be down.");
-    }
+    fs.writeFileSync(OUTPUT_PATH, JSON.stringify(database, null, 2));
+    console.log(`\n✅ TELEMETRY UPDATED: Data saved to ${OUTPUT_PATH}`);
 }
 
 start();
