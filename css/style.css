@@ -1169,7 +1169,6 @@ img {
    11. STATS SECTION (Tactical Telemetry)
    ========================================= */
 
-/* Container */
 #stats-telemetry-list {
     display: flex;
     flex-direction: column;
@@ -1177,219 +1176,178 @@ img {
     width: 100%;
 }
 
-/* Wrapper (Holds Row + Bay) */
-.stats-wrapper {
+/* --- THE UNIT (The Container) --- */
+.telemetry-unit {
     background: var(--bg-glass);
     border: 1px solid rgba(255, 255, 255, 0.05);
-    border-radius: 4px; /* Optional: Slight rounding */
-    transition: all 0.3s ease;
-    border-left: 2px solid transparent;
+    border-left: 3px solid transparent; 
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    position: relative;
+    overflow: hidden;
 }
 
-/* --- THE ROW (Clickable Header) --- */
-.stats-row {
+/* Hover State */
+.telemetry-unit:hover {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: rgba(0, 240, 255, 0.2);
+    transform: translateX(5px);
+}
+
+/* Active State (Expanded) */
+.telemetry-unit.active {
+    border-color: var(--primary);
+    border-left-color: var(--primary);
+    background: rgba(0, 240, 255, 0.02);
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+    transform: none;
+}
+
+/* --- THE HEADER (Collapsed View) --- */
+.telemetry-header {
     display: grid;
-    /* WinRate | Identity+NextMatch | Stats | ExpandIcon */
-    grid-template-columns: 100px 1fr auto 50px;
+    /* Identity | Form | Record | Points | Arrow */
+    grid-template-columns: 2fr 1.5fr 1fr 1fr 50px;
     align-items: center;
-    gap: var(--space-md);
-    
     padding: var(--space-sm) var(--space-md);
     cursor: pointer;
+    gap: var(--space-sm);
     user-select: none;
-    transition: background 0.2s;
 }
 
-.stats-row:hover {
-    background: rgba(0, 240, 255, 0.03);
-    border-color: rgba(0, 240, 255, 0.3);
-}
-
-/* --- COLUMN 1: WIN RATE BOX --- */
-.stats-rank-box {
-    text-align: center;
-    border-right: 1px solid rgba(255, 255, 255, 0.1);
-    padding-right: var(--space-md);
-}
-
-.rank-label {
-    display: block;
-    font-size: 0.6rem;
-    color: var(--primary);
-    letter-spacing: 1px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.rank-number {
-    font-family: var(--font-head);
-    font-size: 1.6rem;
-    font-weight: 800;
-    line-height: 1;
-    color: var(--text-white);
-}
-
-/* --- COLUMN 2: IDENTITY & NEXT MATCH --- */
-.stats-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 4px;
-}
-
-/* Wrapper to keep Name + Badge together */
-.stats-header-group {
+/* 1. Identity Column */
+.tm-identity {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
+    gap: 1rem;
 }
 
-.stats-info h4 {
-    font-family: var(--font-head);
-    color: var(--text-white);
+.tm-logo {
+    width: 40px; height: 40px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 5px rgba(0,0,0,0.5));
+}
+
+.tm-info h4 {
     margin: 0;
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.stats-div-tag {
-    color: var(--primary);
-    font-size: 0.75rem;
-    opacity: 0.8;
-    font-family: var(--font-body);
-}
-
-/* Next Match Badge */
-.next-match-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: rgba(255, 255, 255, 0.05);
-    padding: 2px 8px;
-    border-radius: 4px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    white-space: nowrap;
-}
-
-.nm-label { font-size: 0.55rem; color: var(--text-muted); font-weight: bold; }
-.nm-vs { font-size: 0.75rem; font-weight: 700; color: #fff; }
-.nm-time { font-size: 0.7rem; color: var(--primary); font-family: monospace; }
-
-/* --- COLUMN 3: STATS DATA --- */
-.stats-data-group {
-    display: flex;
-    gap: var(--space-lg);
-    align-items: center;
-}
-
-.data-point { text-align: center; }
-
-.data-point .label {
-    display: block;
-    font-size: 0.55rem;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    margin-bottom: 2px;
-}
-
-.data-point .value {
-    font-family: var(--font-head);
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--text-white);
+    letter-spacing: 1px;
+    font-family: var(--font-head);
 }
 
-.pts-highlight { color: var(--primary) !important; font-weight: 800; text-shadow: 0 0 10px rgba(0, 240, 255, 0.3); }
-
-/* --- COLUMN 4: EXPAND ICON --- */
-.stats-expand-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.tm-division {
+    font-size: 0.7rem;
     color: var(--text-muted);
+    display: block;
+    font-family: var(--font-body);
+    text-transform: uppercase;
+}
+
+/* 2. Form Column (The Dots) */
+.tm-form {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.form-dot {
+    width: 8px; height: 8px;
+    border-radius: 2px;
+    opacity: 0.3;
+}
+.form-dot.win { background: #00ff88; opacity: 1; box-shadow: 0 0 5px #00ff88; }
+.form-dot.loss { background: #ff0055; opacity: 1; }
+.form-dot.draw { background: #ffd700; opacity: 1; } /* Yellow for Draw */
+.form-dot.pending { background: var(--text-muted); }
+
+/* 3. Metrics Columns */
+.tm-stat {
+    text-align: center;
+    font-family: var(--font-head);
+}
+.tm-stat .label { display: block; font-size: 0.55rem; color: var(--text-muted); margin-bottom: 2px; }
+.tm-stat .value { font-size: 1.1rem; font-weight: 700; color: var(--text-white); }
+.tm-stat .value.highlight { color: var(--primary); }
+
+/* 4. Arrow */
+.tm-arrow {
+    display: flex; justify-content: center;
+    color: var(--primary);
     transition: transform 0.3s ease;
 }
+.telemetry-unit.active .tm-arrow { transform: rotate(180deg); }
 
-/* --- THE EXPANSION BAY (Hidden Content) --- */
-.stats-bay {
+/* --- THE BODY (Expanded View) --- */
+.telemetry-body {
     max-height: 0;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.3); /* Darker contrast background */
-    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    background: rgba(0, 0, 0, 0.2);
     border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.stats-bay-content {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
+.telemetry-unit.active .telemetry-body {
+    max-height: 500px;
 }
 
-.roster-header { 
-    color: var(--text-muted); 
-    font-size: 0.7rem; 
-    letter-spacing: 1px; 
-    margin: 0 0 15px 0;
-}
-
-.roster-grid {
+.tb-content {
+    padding: var(--space-md);
     display: grid;
-    /* Responsive Grid: Cards wrap automatically */
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); 
-    gap: 10px;
+    grid-template-columns: 1fr 1fr; /* Stats Left, Roster Right */
+    gap: var(--space-md);
 }
 
-/* Player Card Styling */
-.player-card {
-    background: rgba(255, 255, 255, 0.03);
-    padding: 10px;
-    border-radius: 4px;
-    text-align: center;
+/* Panel Components */
+.tb-title {
+    font-size: 0.75rem;
+    color: var(--secondary);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Next Match Card */
+.next-match-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 15px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.next-match-card:hover { border-color: var(--primary); background: rgba(0, 240, 255, 0.05); }
+
+/* Roster Chips */
+.roster-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.mini-chip {
+    background: rgba(255,255,255,0.05);
     border: 1px solid transparent;
-    transition: background 0.2s;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    font-family: var(--font-head);
+    color: #eee;
+    clip-path: polygon(5px 0, 100% 0, 100% calc(100% - 5px), calc(100% - 5px) 100%, 0 100%, 0 5px);
 }
+.mini-chip.captain { border-color: var(--secondary); color: var(--secondary); }
 
-.player-card:hover { background: rgba(255, 255, 255, 0.07); }
-.player-card.captain { border-color: var(--primary); box-shadow: 0 0 10px rgba(0,240,255,0.1); }
-
-.p-name { display: block; font-size: 0.85rem; color: #eee; font-weight: 700; margin-bottom: 2px; }
-.p-role { display: block; font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 1px; }
-
-/* --- ACTIVE STATES (Toggled via JS) --- */
-/* Highlight the border */
-.stats-wrapper.active { 
-    border-color: rgba(0, 240, 255, 0.3);
-    border-left-color: var(--primary);
-    background: rgba(255, 255, 255, 0.02);
-}
-
-/* Rotate the arrow */
-.stats-wrapper.active .stats-expand-icon { 
-    transform: rotate(180deg); 
-    color: var(--primary); 
-}
-
-/* Slide open the bay */
-.stats-wrapper.active .stats-bay { 
-    max-height: 600px; /* Large enough to fit content */
-}
-
-/* --- MOBILE ADAPTATION --- */
+/* Mobile Optimization */
 @media (max-width: 900px) {
-    .stats-row {
-        /* WinRate | Identity | Arrow */
-        grid-template-columns: 80px 1fr 40px;
-        gap: var(--space-sm);
+    .telemetry-header {
+        /* On Mobile: Name | Record | Arrow */
+        grid-template-columns: 1fr auto 40px; 
     }
-
-    .stats-rank-box { padding-right: 0; border-right: 1px solid rgba(255,255,255,0.1); }
-    
-    /* Hide detailed stats on mobile */
-    .stats-data-group { display: none; }
-    
-    /* Hide badge if screen is too small */
-    .next-match-badge { display: none; }
+    .tm-form, .tm-division, .mobile-hidden { display: none; }
+    .tb-content { grid-template-columns: 1fr; }
 }
 
 /* =========================================
