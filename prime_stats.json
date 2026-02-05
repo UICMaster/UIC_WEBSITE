@@ -4,7 +4,7 @@
     "key": "prime",
     "meta": {
       "name": "Ultra Instinct Crew",
-      "div": "Div x.x"
+      "div": "Div 3.14"
     },
     "stats": {
       "wins": 2,
@@ -22,7 +22,7 @@
       "link": "https://www.primeleague.gg/de/leagues/matches/1153903"
     },
     "last_match": {
-      "result": "VICTORY",
+      "result": "SIEG",
       "score": "2 - 0",
       "enemy": "XLB",
       "date": "2026-02-01T19:00:00+01:00"
@@ -57,7 +57,7 @@
     "key": "spark",
     "meta": {
       "name": "Ultra Instinct Crew Spark",
-      "div": "Div x.x"
+      "div": "Div 4.14"
     },
     "stats": {
       "wins": 2,
@@ -75,7 +75,7 @@
       "link": "https://www.primeleague.gg/de/leagues/matches/1155319"
     },
     "last_match": {
-      "result": "VICTORY",
+      "result": "SIEG",
       "score": "2 - 0",
       "enemy": "POP",
       "date": "2026-02-01T19:00:00+01:00"
@@ -110,7 +110,7 @@
     "key": "ember",
     "meta": {
       "name": "Ultra Instinct Crew Ember",
-      "div": "Div x.x"
+      "div": "Div 4.2"
     },
     "stats": {
       "wins": 8,
@@ -132,7 +132,7 @@
       "link": "https://www.primeleague.gg/de/leagues/matches/1155066"
     },
     "last_match": {
-      "result": "VICTORY",
+      "result": "SIEG",
       "score": "2 - 0",
       "enemy": "EBW",
       "date": "2026-02-01T17:00:00+01:00"
@@ -167,7 +167,7 @@
     "key": "nova",
     "meta": {
       "name": "UIC Nova",
-      "div": "Div x.x"
+      "div": "Starter"
     },
     "stats": {
       "wins": 0,
@@ -213,7 +213,7 @@
     "key": "abyss",
     "meta": {
       "name": "Ultra Instinct Crew Abyss",
-      "div": "Div x.x"
+      "div": "Starter"
     },
     "stats": {
       "wins": 7,
@@ -235,7 +235,7 @@
       "link": "https://www.primeleague.gg/de/leagues/matches/1154173"
     },
     "last_match": {
-      "result": "DEFEAT",
+      "result": "NIEDERLAGE",
       "score": "0 - 2",
       "enemy": "BL",
       "date": "2026-02-04T19:00:00+01:00"
@@ -278,7 +278,7 @@
     "key": "night",
     "meta": {
       "name": "Ultra Instinct Crew Night",
-      "div": "Division 6.1"
+      "div": "Starter"
     },
     "stats": {
       "wins": 5,
@@ -300,7 +300,7 @@
       "link": "https://www.primeleague.gg/de/leagues/matches/1154451"
     },
     "last_match": {
-      "result": "DEFEAT",
+      "result": "NIEDERLAGE",
       "score": "0 - 2",
       "enemy": "TOCKER",
       "date": "2026-02-01T20:00:00+01:00"
@@ -343,7 +343,7 @@
     "key": "freezer",
     "meta": {
       "name": "Ultra Instinct Crew Freezer",
-      "div": "Div x.x"
+      "div": "Starter"
     },
     "stats": {
       "wins": 0,
