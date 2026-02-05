@@ -28,24 +28,35 @@ async function loadPrimeStats() {
                 return `<div class="form-dot ${c}"></div>`;
             }).join('');
 
-            // 2. HEADER INFO: Next Match Snippet
-            let headerNextMatch = '<span class="tm-next-empty">NO MATCH</span>';
+            // 2. HEADER INFO: Next Match Link (Clickable)
+            let headerNextMatch = '<span class="tm-next-empty">KEIN MATCH GEPLANT</span>';
+            
             if (t.next_match) {
                 const d = new Date(t.next_match.date);
                 const timeStr = d.toLocaleTimeString('de-DE', { hour: '2-digit', minute:'2-digit' });
-                headerNextMatch = `<span class="tm-next-active">VS ${escapeHTML(t.next_match.tag)} <span class="accent">${timeStr}</span></span>`;
+                const dateStr = d.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit' });
+                
+                // Logic: Entire block is a link
+                headerNextMatch = `
+                    <a href="${t.next_match.link}" target="_blank" class="tm-next-link" title="Zum Matchroom">
+                        <span class="next-label">NÄCHSTES MATCH</span>
+                        <div class="next-details">
+                            <span class="accent">VS ${escapeHTML(t.next_match.tag)}</span>
+                            <span class="next-time">// ${dateStr} ${timeStr}</span>
+                        </div>
+                    </a>`;
             }
 
             // 3. BODY INFO: Last Match Detail
-            let lastMatchHTML = '<div class="last-match-box dimmed">NO RECENT DATA</div>';
+            let lastMatchHTML = '<div class="last-match-box dimmed">KEINE DATEN</div>';
             if (t.last_match) {
                 const ld = new Date(t.last_match.date);
                 const lDate = ld.toLocaleDateString('de-DE', { day: '2-digit', month:'2-digit' });
-                const resClass = t.last_match.result === 'VICTORY' ? 'text-win' : (t.last_match.result === 'DEFEAT' ? 'text-loss' : 'text-draw');
+                const resClass = t.last_match.result === 'SIEG' ? 'text-win' : (t.last_match.result === 'NIEDERLAGE' ? 'text-loss' : 'text-draw');
                 
                 lastMatchHTML = `
                     <div class="last-match-box">
-                        <div class="lm-header">LAST ENGAGEMENT // ${lDate}</div>
+                        <div class="lm-header">LETZTES ERGEBNIS // ${lDate}</div>
                         <div class="lm-content">
                             <span class="lm-vs">VS ${escapeHTML(t.last_match.enemy)}</span>
                             <span class="lm-score ${resClass}">${t.last_match.score}</span>
@@ -57,31 +68,34 @@ async function loadPrimeStats() {
             // 4. Roster
             const rosterHTML = t.roster.length > 0 ? t.roster.map(p => 
                 `<div class="mini-chip ${p.is_captain ? 'captain' : ''}">${escapeHTML(p.summoner)}</div>`
-            ).join('') : '<div class="mini-chip dimmed">DATA CLASSIFIED</div>';
+            ).join('') : '<div class="mini-chip dimmed">ROSTER NICHT VERFÜGBAR</div>';
 
             // 5. Build HTML
             html += `
             <div class="telemetry-unit" id="unit-${key}">
                 
-                <div class="telemetry-header" onclick="toggleTelemetry('${key}')">
+                <div class="telemetry-header" onclick="toggleTelemetry(event, '${key}')">
+                    
                     <div class="tm-identity">
-                        <img src="${t.logo || 'assets/profile/placeholder.png'}" class="tm-logo" alt="">
+                        <div class="tm-logo-wrapper">
+                            <img src="${t.logo || 'assets/profile/placeholder.png'}" class="tm-logo" alt="">
+                        </div>
                         <div class="tm-info">
                             <h4>UIC ${escapeHTML(key.toUpperCase())}</h4>
                             <span class="tm-division">${escapeHTML(t.meta.div)}</span>
                         </div>
                     </div>
 
-                    <div class="tm-next-match mobile-hidden">
+                    <div class="tm-section tm-next-match mobile-hidden">
                         ${headerNextMatch}
                     </div>
 
-                    <div class="tm-form mobile-hidden" title="Recent Form">
+                    <div class="tm-section tm-form mobile-hidden" title="Aktuelle Form">
                         ${formHTML}
                     </div>
 
-                    <div class="tm-stat">
-                        <span class="value highlight">${t.stats.points} <span class="label-inline">PTS</span></span>
+                    <div class="tm-section tm-stat">
+                        <span class="value highlight">${t.stats.points} <span class="label-inline">PKT</span></span>
                     </div>
 
                     <div class="tm-arrow">
@@ -93,12 +107,12 @@ async function loadPrimeStats() {
                     <div class="tb-content">
                         
                         <div class="tb-col">
-                            <h5 class="tb-title">BATTLE REPORT</h5>
+                            <h5 class="tb-title">SPIELBERICHT</h5>
                             ${lastMatchHTML}
                             
                             <div class="stats-mini-row">
                                 <div class="stat-pill">
-                                    <span class="sp-label">RECORD</span>
+                                    <span class="sp-label">BILANZ (MAPS)</span>
                                     <span class="sp-value">${t.stats.wins}W - ${t.stats.losses}L</span>
                                 </div>
                                 <div class="stat-pill">
@@ -110,7 +124,7 @@ async function loadPrimeStats() {
 
                         <div class="tb-col">
                             <div class="tb-header-row">
-                                <h5 class="tb-title">ACTIVE ROSTER</h5>
+                                <h5 class="tb-title">AKTIVES ROSTER</h5>
                                 <a href="${t.team_link}" target="_blank" class="link-external">PRIME LEAGUE ↗</a>
                             </div>
                             <div class="roster-strip">
@@ -128,7 +142,10 @@ async function loadPrimeStats() {
     } catch (e) { console.error("Telemetry Error:", e); }
 }
 
-window.toggleTelemetry = function(key) {
+window.toggleTelemetry = function(e, key) {
+    // Prevent triggering if clicking the "Next Match" link
+    if(e.target.closest('.tm-next-link')) return;
+
     const unit = document.getElementById(`unit-${key}`);
     document.querySelectorAll('.telemetry-unit.active').forEach(el => {
         if(el !== unit) el.classList.remove('active');

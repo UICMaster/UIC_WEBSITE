@@ -3,21 +3,23 @@ const path = require('path');
 
 // --- 1. CONFIGURATION ---
 const DATA_FILE = 'prime_stats.json';
-// FIX: Save to ROOT directory
 const OUTPUT_PATH = path.resolve(__dirname, '../', DATA_FILE);
 
-// TEAM CONFIGURATION (Added 'manual_div' for missing API data)
+// FILTER: Ignore matches before this date (Fixes "Placement Games" issue)
+// Set this to the start of the current split (e.g., Jan 15, 2025)
+const SEASON_START = new Date('2025-01-01T00:00:00'); 
+
 const TEAMS = {
-    "prime":   { id: "116908", manual_div: "Div x.x" }, 
-    "spark":   { id: "208694", manual_div: "Div x.x" },
-    "ember":   { id: "211165", manual_div: "Div x.x" },
-    "nova":    { id: "203447", manual_div: "Div x.x" },
-    "abyss":   { id: "204924", manual_div: "Div x.x" },
-    "night":   { id: "212047", manual_div: "Division 6.1" },
-    "freezer": { id: "203146", manual_div: "Div x.x" }
+    "prime":   { id: "116908", manual_div: "Div 3.14" }, 
+    "spark":   { id: "208694", manual_div: "Div 4.14" },
+    "ember":   { id: "211165", manual_div: "Div 4.2" },
+    "nova":    { id: "203447", manual_div: "Starter" },
+    "abyss":   { id: "204924", manual_div: "Starter" },
+    "night":   { id: "212047", manual_div: "Starter" },
+    "freezer": { id: "203146", manual_div: "Starter" }
 };
 
-const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/2.1' };
+const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/2.2' };
 
 async function getTeamIntel(teamKey, config) {
     console.log(`📡 Scanning: UIC ${teamKey.toUpperCase()}...`);
@@ -32,18 +34,21 @@ async function getTeamIntel(teamKey, config) {
         let mapLosses = 0;
         let formHistory = []; 
         let nextMatch = null;
-        let lastMatch = null; // New: For extended details
+        let lastMatch = null;
         const rosterMap = new Map();
 
         if (data.matches && Array.isArray(data.matches)) {
+            // Sort Oldest -> Newest
             const sortedMatches = data.matches.sort((a, b) => new Date(a.begin) - new Date(b.begin));
 
             sortedMatches.forEach(m => {
                 const matchDate = new Date(m.begin);
 
-                // A. ROSTER FIX: Extended to 180 days to find Freezer players
+                // FILTER: Skip games before Season Start
+                if (matchDate < SEASON_START) return;
+
+                // A. ROSTER (Look back 180 days for active players)
                 const isRecent = (now - matchDate) < (1000 * 60 * 60 * 24 * 180); 
-                
                 if (m.team_lineup && Array.isArray(m.team_lineup) && isRecent) {
                     m.team_lineup.forEach(p => {
                         if (!rosterMap.has(p.summoner_name) || p.is_leader) {
@@ -55,19 +60,20 @@ async function getTeamIntel(teamKey, config) {
                     });
                 }
 
-                // B. SCORING & HISTORY
+                // B. SCORING (Best of 2)
                 if (m.result && matchDate < now) {
                     const [scoreUs, scoreThem] = m.result.split(':').map(Number);
                     if (!isNaN(scoreUs)) {
                         mapWins += scoreUs;
                         mapLosses += scoreThem;
+                        
                         if (scoreUs > scoreThem) formHistory.push('W');
                         else if (scoreUs === scoreThem) formHistory.push('D');
                         else formHistory.push('L');
                         
                         // Capture details of the very last played match
                         lastMatch = {
-                            result: scoreUs > scoreThem ? "VICTORY" : (scoreUs === scoreThem ? "DRAW" : "DEFEAT"),
+                            result: scoreUs > scoreThem ? "SIEG" : (scoreUs === scoreThem ? "UNENTSCHIEDEN" : "NIEDERLAGE"),
                             score: `${scoreUs} - ${scoreThem}`,
                             enemy: m.enemy_team ? m.enemy_team.team_tag : "OPP",
                             date: m.begin
@@ -80,7 +86,7 @@ async function getTeamIntel(teamKey, config) {
                     nextMatch = {
                         date: m.begin,
                         tag: m.enemy_team ? m.enemy_team.team_tag : "TBD",
-                        link: m.prime_league_link
+                        link: m.prime_league_link // Ensure this exists in API response
                     };
                 }
             });
@@ -93,26 +99,25 @@ async function getTeamIntel(teamKey, config) {
             key: teamKey,
             meta: { 
                 name: data.name,
-                // Use Manual Div if API fails
                 div: data.division || config.manual_div 
             },
             stats: {
                 wins: mapWins,
                 losses: mapLosses,
-                points: mapWins,
+                points: mapWins, 
                 games: totalMaps,
                 win_rate: totalMaps > 0 ? Math.round((mapWins / totalMaps) * 100) : 0,
                 form: formHistory.slice(-5)
             },
             next_match: nextMatch,
-            last_match: lastMatch, // Sending last match data to frontend
+            last_match: lastMatch,
             roster: Array.from(rosterMap.values()).slice(0, 7),
             team_link: data.prime_league_link,
             logo: data.logo_url
         };
 
     } catch (e) {
-        console.error(`❌ Signal Lost [${teamKey}]:`, e.message);
+        console.error(`❌ Error [${teamKey}]:`, e.message);
         return null;
     }
 }
