@@ -5,18 +5,17 @@ const path = require('path');
 const DATA_FILE = 'prime_stats.json';
 const OUTPUT_PATH = path.resolve(__dirname, '../', DATA_FILE);
 
-// FILTER: Ignore matches before this date (Fixes "Placement Games" issue)
-// Set this to the start of the current split (e.g., Jan 15, 2025)
-const SEASON_START = new Date('2025-01-01T00:00:00'); 
+// Set this to the start of the current split
+const SEASON_START = new Date('2026-01-26T00:00:00'); 
 
 const TEAMS = {
-    "prime":   { id: "116908", manual_div: "Div 3.14" }, 
-    "spark":   { id: "208694", manual_div: "Div 4.14" },
-    "ember":   { id: "211165", manual_div: "Div 4.2" },
-    "nova":    { id: "203447", manual_div: "Starter" },
-    "abyss":   { id: "204924", manual_div: "Starter" },
-    "night":   { id: "212047", manual_div: "Starter" },
-    "freezer": { id: "203146", manual_div: "Starter" }
+    "prime":   { id: "116908", manual_div: "Division 5" }, 
+    "spark":   { id: "208694", manual_div: "Division 6" },
+    "ember":   { id: "211165", manual_div: "Division 6" },
+    "nova":    { id: "203447", manual_div: "Division 6" },
+    "abyss":   { id: "204924", manual_div: "Division 5" },
+    "night":   { id: "212047", manual_div: "Division 6" },
+    "freezer": { id: "203146", manual_div: "Division 5" }
 };
 
 const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/2.2' };
