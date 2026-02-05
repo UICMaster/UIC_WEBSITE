@@ -52,9 +52,14 @@
         "name": "GianiMoski",
         "summoner": "UIC Giani",
         "is_captain": false
+      },
+      {
+        "name": "DiamondGoku",
+        "summoner": "UIC Goku",
+        "is_captain": true
       }
     ],
-    "last_updated": "2026-02-05T01:01:55.623Z"
+    "last_updated": "2026-02-05T04:03:25.057Z"
   },
   "spark": {
     "id": "208694",
@@ -96,11 +101,6 @@
         "is_captain": false
       },
       {
-        "name": "DiamondGoku",
-        "summoner": "UIC Goku",
-        "is_captain": true
-      },
-      {
         "name": "UIC Shockwave",
         "summoner": "UIC Shockwave",
         "is_captain": true
@@ -116,7 +116,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T01:01:55.970Z"
+    "last_updated": "2026-02-05T04:03:25.399Z"
   },
   "ember": {
     "id": "211165",
@@ -173,7 +173,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T01:01:56.446Z"
+    "last_updated": "2026-02-05T04:03:25.852Z"
   },
   "nova": {
     "id": "203447",
@@ -245,7 +245,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T01:01:56.791Z"
+    "last_updated": "2026-02-05T04:03:26.188Z"
   },
   "abyss": {
     "id": "204924",
@@ -267,11 +267,6 @@
     },
     "roster": [
       {
-        "name": "Shampo0o",
-        "summoner": "Shampooo",
-        "is_captain": false
-      },
-      {
         "name": "osdgesperrt",
         "summoner": "UIC DANY",
         "is_captain": false
@@ -289,10 +284,10 @@
       {
         "name": "Keygasza",
         "summoner": "UIC Keygasza",
-        "is_captain": false
+        "is_captain": true
       }
     ],
-    "last_updated": "2026-02-05T01:01:57.269Z"
+    "last_updated": "2026-02-05T04:03:26.644Z"
   },
   "night": {
     "id": "212047",
@@ -349,7 +344,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-05T01:01:57.736Z"
+    "last_updated": "2026-02-05T04:03:27.094Z"
   },
   "freezer": {
     "id": "203146",
@@ -370,11 +365,6 @@
       "link": "https://www.primeleague.gg/de/leagues/matches/1154394"
     },
     "roster": [
-      {
-        "name": "Einbrecherkadse",
-        "summoner": "Einbrecherkadse",
-        "is_captain": true
-      },
       {
         "name": "GLT Rayando07",
         "summoner": "Rayando07",
@@ -411,6 +401,6 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-05T01:01:58.081Z"
+    "last_updated": "2026-02-05T04:03:27.431Z"
   }
 }
