@@ -59,7 +59,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-05T05:45:43.335Z"
+    "last_updated": "2026-02-05T06:42:57.147Z"
   },
   "spark": {
     "id": "208694",
@@ -116,7 +116,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T05:45:43.670Z"
+    "last_updated": "2026-02-05T06:42:57.494Z"
   },
   "ember": {
     "id": "211165",
@@ -173,7 +173,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T05:45:44.124Z"
+    "last_updated": "2026-02-05T06:42:57.974Z"
   },
   "nova": {
     "id": "203447",
@@ -245,7 +245,7 @@
         "is_captain": false
       }
     ],
-    "last_updated": "2026-02-05T05:45:44.461Z"
+    "last_updated": "2026-02-05T06:42:58.321Z"
   },
   "abyss": {
     "id": "204924",
@@ -287,7 +287,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-05T05:45:44.915Z"
+    "last_updated": "2026-02-05T06:42:58.800Z"
   },
   "night": {
     "id": "212047",
@@ -344,7 +344,7 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-05T05:45:45.368Z"
+    "last_updated": "2026-02-05T06:42:59.279Z"
   },
   "freezer": {
     "id": "203146",
@@ -365,6 +365,11 @@
       "link": "https://www.primeleague.gg/de/leagues/matches/1154394"
     },
     "roster": [
+      {
+        "name": "Einbrecherkadse",
+        "summoner": "Einbrecherkadse",
+        "is_captain": true
+      },
       {
         "name": "GLT Rayando07",
         "summoner": "Rayando07",
@@ -401,6 +406,6 @@
         "is_captain": true
       }
     ],
-    "last_updated": "2026-02-05T05:45:45.707Z"
+    "last_updated": "2026-02-05T06:42:59.630Z"
   }
 }
