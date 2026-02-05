@@ -1166,19 +1166,19 @@ img {
 }
 
 /* =========================================
-   11. STATS SECTION (Design Match: Teams Section)
+   11. STATS SECTION (Tactical Telemetry)
    ========================================= */
 
 #stats-telemetry-list {
     display: flex;
     flex-direction: column;
-    gap: 8px; /* Tight gap like a list */
+    gap: 10px;
     width: 100%;
 }
 
 /* --- THE UNIT --- */
 .telemetry-unit {
-    background: rgba(10, 10, 10, 0.6); /* Matching bg-glass */
+    background: rgba(10, 10, 10, 0.6);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-left: 2px solid transparent; 
@@ -1192,10 +1192,10 @@ img {
 }
 
 .telemetry-unit.active {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.85);
     border-color: var(--primary);
-    border-left-width: 4px; /* Thicker accent on active */
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    border-left-width: 4px; 
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.6);
 }
 
 /* --- HEADER --- */
@@ -1204,14 +1204,25 @@ img {
     /* Identity | NextMatch | Form | Points | Arrow */
     grid-template-columns: 2fr 1.5fr 1fr 0.8fr 40px;
     align-items: center;
-    padding: 12px 20px;
+    padding: 15px 20px;
     cursor: pointer;
     user-select: none;
 }
 
-/* Identity */
+/* Identity Section */
 .tm-identity { display: flex; align-items: center; gap: 15px; }
-.tm-logo { width: 36px; height: 36px; object-fit: contain; }
+
+/* Circular Icon Wrapper */
+.tm-logo-wrapper {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.1);
+    background: rgba(0,0,0,0.5);
+    display: flex; align-items: center; justify-content: center;
+    overflow: hidden;
+}
+.tm-logo { width: 100%; height: 100%; object-fit: cover; }
+
 .tm-info h4 { 
     margin: 0; font-family: 'Orbitron', sans-serif; 
     font-size: 1rem; color: #fff; line-height: 1.1; 
@@ -1221,40 +1232,60 @@ img {
     font-size: 0.75rem; color: #888; text-transform: uppercase; 
 }
 
-/* Header Next Match (New) */
-.tm-next-active { 
-    font-family: 'Rajdhani', sans-serif; font-weight: 700; color: #fff; font-size: 0.9rem; 
+/* Separation Lines (Vertical Dividers) */
+.tm-section {
+    border-left: 1px solid rgba(255, 255, 255, 0.1); /* Separator Line */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
 }
-.tm-next-active .accent { color: var(--primary); margin-left: 5px; }
-.tm-next-empty { font-size: 0.7rem; color: #555; }
+
+/* Next Match Link Styles */
+.tm-next-link {
+    display: flex; flex-direction: column; justify-content: center;
+    text-decoration: none; transition: 0.2s;
+}
+.tm-next-link:hover .accent { color: var(--secondary); text-shadow: 0 0 8px var(--secondary); }
+.tm-next-link:hover .next-label { color: #fff; }
+
+.next-label { font-size: 0.55rem; color: #666; font-family: 'Orbitron', sans-serif; margin-bottom: 2px; transition: 0.2s; }
+.next-details { font-family: 'Rajdhani', sans-serif; font-size: 0.9rem; font-weight: 700; color: #fff; display: flex; gap: 8px; align-items: baseline; }
+.next-time { font-size: 0.75rem; color: #888; font-weight: 400; }
+.tm-next-empty { font-size: 0.7rem; color: #555; padding-left: 20px; border-left: 1px solid rgba(255,255,255,0.1); }
 
 /* Form Dots */
-.tm-form { display: flex; gap: 4px; }
-.form-dot { width: 6px; height: 6px; transform: skewX(-20deg); opacity: 0.4; }
+.tm-form { gap: 4px; }
+.form-dot { width: 6px; height: 6px; transform: skewX(-20deg); opacity: 0.4; margin-right: 2px; }
 .form-dot.win { background: #00ff88; opacity: 1; box-shadow: 0 0 5px #00ff88; }
 .form-dot.loss { background: #ff0055; opacity: 1; }
 .form-dot.draw { background: #ffd700; opacity: 1; }
 
 /* Points */
-.tm-stat { text-align: right; font-family: 'Orbitron', sans-serif; }
-.tm-stat .value { font-size: 1.2rem; font-weight: 700; color: #fff; }
+.tm-stat { justify-content: flex-end; }
+.tm-stat .value { font-family: 'Orbitron', sans-serif; font-size: 1.2rem; font-weight: 700; color: #fff; }
 .tm-stat .highlight { color: var(--primary); text-shadow: 0 0 10px rgba(0,240,255,0.4); }
 .label-inline { font-size: 0.6rem; color: #888; margin-left: 2px; }
 
-/* Arrow */
+/* Arrow Animation (Turn in place, no swing) */
 .tm-arrow { 
-    display: flex; justify-content: flex-end; color: #555; transition: 0.3s; 
+    display: flex; justify-content: flex-end; color: #555; 
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Precise rotation */
+    transform-origin: center center;
 }
-.telemetry-unit.active .tm-arrow { transform: rotate(180deg); color: var(--primary); }
+.telemetry-unit.active .tm-arrow { 
+    transform: rotate(180deg); /* Simple flip */
+    color: var(--primary); 
+}
 
 /* --- BODY (EXPANDED) --- */
 .telemetry-body {
     max-height: 0;
     transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    background: rgba(0, 240, 255, 0.01); /* Very subtle tint */
+    background: rgba(0, 240, 255, 0.01);
     border-top: 1px solid rgba(255,255,255,0.05);
 }
-.telemetry-unit.active .telemetry-body { max-height: 400px; }
+.telemetry-unit.active .telemetry-body { max-height: 500px; }
 
 .tb-content {
     padding: 20px;
