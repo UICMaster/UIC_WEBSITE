@@ -170,41 +170,7 @@ if (statsSection) {
 }
 
 //* =========================================
-//  6. LEGAL GATEKEEPER (DSGVO Overlay)
-//  ========================================= */
-const legalOverlay = document.getElementById('legal-overlay');
-const legalBtn = document.getElementById('accept-legal');
-const legalCheck = document.getElementById('legal-check');
-const storageKey = 'Zustimmung_DATENSCHUTZ_IMPRESSUM';
-
-// Beim Laden prüfen
-window.addEventListener('load', () => {
-    if (!localStorage.getItem(storageKey)) {
-        if (legalOverlay) {
-            legalOverlay.classList.add('active');
-            body.style.overflow = 'hidden'; 
-        }
-    }
-});
-
-// Checkbox Logik
-if (legalCheck) {
-    legalCheck.addEventListener('change', function() {
-        if (legalBtn) legalBtn.disabled = !this.checked;
-    });
-}
-
-// Akzeptieren & Schließen
-if (legalBtn) {
-    legalBtn.addEventListener('click', () => {
-        localStorage.setItem(storageKey, 'true');
-        if (legalOverlay) legalOverlay.classList.remove('active');
-        body.style.overflow = ''; 
-    });
-}
-
-//* =========================================
-//  7. PWA SERVICE WORKER REGISTRATION
+//  6. PWA SERVICE WORKER REGISTRATION
 //  ========================================= */
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
