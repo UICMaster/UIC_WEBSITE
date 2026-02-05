@@ -4,7 +4,7 @@
     "key": "prime",
     "meta": {
       "name": "Ultra Instinct Crew",
-      "div": "Div 3.14"
+      "div": "Division 5"
     },
     "stats": {
       "wins": 2,
@@ -57,7 +57,7 @@
     "key": "spark",
     "meta": {
       "name": "Ultra Instinct Crew Spark",
-      "div": "Div 4.14"
+      "div": "Division 6"
     },
     "stats": {
       "wins": 2,
@@ -110,19 +110,15 @@
     "key": "ember",
     "meta": {
       "name": "Ultra Instinct Crew Ember",
-      "div": "Div 4.2"
+      "div": "Division 6"
     },
     "stats": {
-      "wins": 8,
-      "losses": 2,
-      "points": 8,
-      "games": 10,
-      "win_rate": 80,
+      "wins": 2,
+      "losses": 0,
+      "points": 2,
+      "games": 2,
+      "win_rate": 100,
       "form": [
-        "L",
-        "W",
-        "W",
-        "W",
         "W"
       ]
     },
@@ -167,7 +163,7 @@
     "key": "nova",
     "meta": {
       "name": "UIC Nova",
-      "div": "Starter"
+      "div": "Division 6"
     },
     "stats": {
       "wins": 0,
@@ -213,18 +209,15 @@
     "key": "abyss",
     "meta": {
       "name": "Ultra Instinct Crew Abyss",
-      "div": "Starter"
+      "div": "Division 5"
     },
     "stats": {
-      "wins": 7,
-      "losses": 5,
-      "points": 7,
-      "games": 12,
-      "win_rate": 58,
+      "wins": 0,
+      "losses": 4,
+      "points": 0,
+      "games": 4,
+      "win_rate": 0,
       "form": [
-        "W",
-        "W",
-        "W",
         "L",
         "L"
       ]
@@ -242,7 +235,7 @@
     },
     "roster": [
       {
-        "summoner": "UIC DANY#RFA40",
+        "summoner": "UIC M Character#UIC",
         "is_captain": false
       },
       {
@@ -250,11 +243,11 @@
         "is_captain": false
       },
       {
-        "summoner": "UIC FrozenHands#MID",
+        "summoner": "UIC Keygasza#1337",
         "is_captain": true
       },
       {
-        "summoner": "UIC Keygasza#1337",
+        "summoner": "UIC Speedy#EUW",
         "is_captain": true
       },
       {
@@ -262,12 +255,8 @@
         "is_captain": true
       },
       {
-        "summoner": "UIC M Character#UIC",
+        "summoner": "UIC DANY#RFA40",
         "is_captain": false
-      },
-      {
-        "summoner": "UIC Speedy#EUW",
-        "is_captain": true
       }
     ],
     "team_link": "https://www.primeleague.gg/de/leagues/teams/204924",
@@ -278,19 +267,15 @@
     "key": "night",
     "meta": {
       "name": "Ultra Instinct Crew Night",
-      "div": "Starter"
+      "div": "Division 6"
     },
     "stats": {
-      "wins": 5,
-      "losses": 5,
-      "points": 5,
-      "games": 10,
-      "win_rate": 50,
+      "wins": 0,
+      "losses": 2,
+      "points": 0,
+      "games": 2,
+      "win_rate": 0,
       "form": [
-        "L",
-        "W",
-        "L",
-        "W",
         "L"
       ]
     },
@@ -307,6 +292,10 @@
     },
     "roster": [
       {
+        "summoner": "MaZiN#EUWL9",
+        "is_captain": false
+      },
+      {
         "summoner": "UIC ReCord#Cedo",
         "is_captain": true
       },
@@ -317,18 +306,6 @@
       {
         "summoner": "UIC proStarII#UIC",
         "is_captain": true
-      },
-      {
-        "summoner": "UIC Boohunter#Boo",
-        "is_captain": false
-      },
-      {
-        "summoner": "UIC Shekar#5ONiT",
-        "is_captain": false
-      },
-      {
-        "summoner": "MaZiN#EUWL9",
-        "is_captain": false
       },
       {
         "summoner": "ривен#sabi",
@@ -343,7 +320,7 @@
     "key": "freezer",
     "meta": {
       "name": "Ultra Instinct Crew Freezer",
-      "div": "Starter"
+      "div": "Division 5"
     },
     "stats": {
       "wins": 0,
