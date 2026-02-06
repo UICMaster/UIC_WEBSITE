@@ -336,7 +336,28 @@
       "link": "https://www.primeleague.gg/de/leagues/matches/1154394"
     },
     "last_match": null,
-    "roster": [],
+    "roster": [
+      {
+        "summoner": "UIC Ryu Copeland#117",
+        "is_captain": true
+      },
+      {
+        "summoner": "UIC FrozenHands#MID",
+        "is_captain": true
+      },
+      {
+        "summoner": "RG AutumnLeaf#Moo",
+        "is_captain": true
+      },
+      {
+        "summoner": "Rayando07#grag",
+        "is_captain": false
+      },
+      {
+        "summoner": "BlauerKlaus#Qvy心",
+        "is_captain": true
+      }
+    ],
     "team_link": "https://www.primeleague.gg/de/leagues/teams/203146",
     "logo": "https://cdn0.gamesports.net/league_team_logos/203000/203146.jpg?1768840480"
   }
