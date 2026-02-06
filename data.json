@@ -37,8 +37,8 @@
   "spark_top": {
     "name": "skanpy",
     "level": 320,
-    "rank": "EMERALD IV",
-    "wl": "60/53",
+    "rank": "EMERALD III",
+    "wl": "62/53",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6296.png"
   },
   "spark_jgl": {
@@ -65,8 +65,8 @@
   "spark_sup": {
     "name": "UIC Rhinoshield",
     "level": 939,
-    "rank": "EMERALD III",
-    "wl": "104/94",
+    "rank": "EMERALD IV",
+    "wl": "104/95",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5350.png"
   },
   "spark_coach": {
@@ -85,9 +85,9 @@
   },
   "ember_jgl": {
     "name": "UIC Shederen",
-    "level": 286,
+    "level": 287,
     "rank": "EMERALD I",
-    "wl": "93/78",
+    "wl": "93/80",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -101,15 +101,15 @@
     "name": "UIC DontMethWith",
     "level": 1293,
     "rank": "EMERALD I",
-    "wl": "98/94",
+    "wl": "98/96",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
     "name": "UIC Envy",
     "level": 306,
     "rank": "PLATINUM IV",
-    "wl": "88/88",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5917.png"
+    "wl": "89/89",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7091.png"
   },
   "ember_coach": {
     "name": "RatHairedShanks",
