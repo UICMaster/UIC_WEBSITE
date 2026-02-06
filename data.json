@@ -10,7 +10,7 @@
     "name": "UIC Niki",
     "level": 1002,
     "rank": "DIAMOND II",
-    "wl": "24/25",
+    "wl": "24/27",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4380.png"
   },
   "prime_mid": {
@@ -43,9 +43,9 @@
   },
   "spark_jgl": {
     "name": "UIC Lenno",
-    "level": 775,
+    "level": 776,
     "rank": "EMERALD IV",
-    "wl": "55/41",
+    "wl": "55/42",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
   },
   "spark_mid": {
@@ -93,8 +93,8 @@
   "ember_mid": {
     "name": "ResetHoe",
     "level": 862,
-    "rank": "EMERALD III",
-    "wl": "32/39",
+    "rank": "EMERALD II",
+    "wl": "33/39",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4793.png"
   },
   "ember_bot": {
@@ -106,9 +106,9 @@
   },
   "ember_sup": {
     "name": "UIC Envy",
-    "level": 305,
+    "level": 306,
     "rank": "GOLD I",
-    "wl": "84/87",
+    "wl": "85/87",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5917.png"
   },
   "ember_coach": {
@@ -150,7 +150,7 @@
     "name": "UIC Excellent C",
     "level": 551,
     "rank": "PLATINUM IV",
-    "wl": "49/51",
+    "wl": "50/51",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7064.png"
   },
   "abyss_jgl": {
@@ -233,8 +233,8 @@
   "freezer_mid": {
     "name": "UIC FrozenHands",
     "level": 629,
-    "rank": "DIAMOND III",
-    "wl": "23/17",
+    "rank": "DIAMOND II",
+    "wl": "24/17",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6811.png"
   },
   "freezer_bot": {
