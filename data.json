@@ -78,9 +78,9 @@
   },
   "ember_top": {
     "name": "SilasX",
-    "level": 516,
-    "rank": "EMERALD I",
-    "wl": "24/25",
+    "level": 517,
+    "rank": "EMERALD II",
+    "wl": "24/26",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6989.png"
   },
   "ember_jgl": {
@@ -93,8 +93,8 @@
   "ember_mid": {
     "name": "ResetHoe",
     "level": 862,
-    "rank": "EMERALD II",
-    "wl": "33/39",
+    "rank": "EMERALD III",
+    "wl": "33/40",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4793.png"
   },
   "ember_bot": {
@@ -108,7 +108,7 @@
     "name": "UIC Envy",
     "level": 306,
     "rank": "GOLD I",
-    "wl": "85/87",
+    "wl": "85/88",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5917.png"
   },
   "ember_coach": {
@@ -136,7 +136,7 @@
     "name": "UIC adedier",
     "level": 597,
     "rank": "PLATINUM IV",
-    "wl": "16/13",
+    "wl": "17/13",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4379.png"
   },
   "nova_bot": {
@@ -232,9 +232,9 @@
   },
   "freezer_mid": {
     "name": "UIC FrozenHands",
-    "level": 629,
+    "level": 630,
     "rank": "DIAMOND II",
-    "wl": "24/17",
+    "wl": "25/17",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6811.png"
   },
   "freezer_bot": {
