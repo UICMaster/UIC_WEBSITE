@@ -38,14 +38,14 @@
     "name": "skanpy",
     "level": 320,
     "rank": "EMERALD IV",
-    "wl": "58/53",
+    "wl": "59/53",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6296.png"
   },
   "spark_jgl": {
     "name": "UIC Lenno",
     "level": 776,
     "rank": "EMERALD IV",
-    "wl": "57/45",
+    "wl": "57/46",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
   },
   "spark_mid": {
@@ -59,7 +59,7 @@
     "name": "UIC Flare",
     "level": 624,
     "rank": "EMERALD III",
-    "wl": "30/34",
+    "wl": "31/34",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -71,9 +71,9 @@
   },
   "spark_coach": {
     "name": "soulrender",
-    "level": 299,
+    "level": 300,
     "rank": "DIAMOND I",
-    "wl": "56/59",
+    "wl": "57/59",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7084.png"
   },
   "ember_top": {
@@ -101,14 +101,14 @@
     "name": "UIC DontMethWith",
     "level": 1293,
     "rank": "EMERALD I",
-    "wl": "96/93",
+    "wl": "98/93",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
     "name": "UIC Envy",
     "level": 306,
-    "rank": "GOLD I",
-    "wl": "85/88",
+    "rank": "PLATINUM IV",
+    "wl": "87/88",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5917.png"
   },
   "ember_coach": {
@@ -218,9 +218,9 @@
   },
   "freezer_top": {
     "name": "Rayando07",
-    "level": 434,
+    "level": 435,
     "rank": "DIAMOND I",
-    "wl": "22/19",
+    "wl": "22/20",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7070.png"
   },
   "freezer_jgl": {
