@@ -9,8 +9,8 @@
   "prime_jgl": {
     "name": "UIC Niki",
     "level": 1001,
-    "rank": "DIAMOND II",
-    "wl": "23/23",
+    "rank": "DIAMOND I",
+    "wl": "24/24",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4380.png"
   },
   "prime_mid": {
@@ -45,7 +45,7 @@
     "name": "UIC Lenno",
     "level": 775,
     "rank": "EMERALD IV",
-    "wl": "53/40",
+    "wl": "53/41",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
   },
   "spark_mid": {
@@ -66,7 +66,7 @@
     "name": "UIC Rhinoshield",
     "level": 938,
     "rank": "EMERALD III",
-    "wl": "103/93",
+    "wl": "104/93",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5350.png"
   },
   "spark_coach": {
