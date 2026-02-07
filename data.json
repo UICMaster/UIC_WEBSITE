@@ -99,9 +99,9 @@
   },
   "ember_bot": {
     "name": "UIC DontMethWith",
-    "level": 1293,
+    "level": 1294,
     "rank": "EMERALD II",
-    "wl": "100/100",
+    "wl": "100/101",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
@@ -234,21 +234,21 @@
     "name": "UIC FrozenHands",
     "level": 630,
     "rank": "DIAMOND II",
-    "wl": "25/18",
+    "wl": "27/18",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6811.png"
   },
   "freezer_bot": {
     "name": "RG AutumnLeaf",
-    "level": 824,
+    "level": 825,
     "rank": "DIAMOND I",
-    "wl": "33/27",
+    "wl": "35/27",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6373.png"
   },
   "freezer_sup": {
     "name": "UIC Ryu Copeland",
     "level": 974,
     "rank": "DIAMOND IV",
-    "wl": "14/23",
+    "wl": "14/24",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6631.png"
   },
   "freezer_coach": {
