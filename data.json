@@ -59,7 +59,7 @@
     "name": "UIC Flare",
     "level": 624,
     "rank": "EMERALD II",
-    "wl": "33/35",
+    "wl": "34/36",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -72,8 +72,8 @@
   "spark_coach": {
     "name": "soulrender",
     "level": 300,
-    "rank": "DIAMOND I",
-    "wl": "59/62",
+    "rank": "DIAMOND II",
+    "wl": "59/63",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7084.png"
   },
   "ember_top": {
@@ -129,7 +129,7 @@
     "name": "UIC Rubix Qube",
     "level": 474,
     "rank": "GOLD I",
-    "wl": "61/66",
+    "wl": "63/66",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
