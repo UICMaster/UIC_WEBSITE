@@ -24,14 +24,14 @@
     "name": "UIC Giani",
     "level": 715,
     "rank": "MASTER I",
-    "wl": "33/21",
+    "wl": "33/22",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3398.png"
   },
   "prime_sup": {
     "name": "UIC Baguetto",
     "level": 977,
     "rank": "MASTER I",
-    "wl": "70/38",
+    "wl": "70/39",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4096.png"
   },
   "spark_top": {
@@ -58,8 +58,8 @@
   "spark_bot": {
     "name": "UIC Flare",
     "level": 624,
-    "rank": "EMERALD III",
-    "wl": "31/34",
+    "rank": "EMERALD II",
+    "wl": "32/34",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -73,7 +73,7 @@
     "name": "soulrender",
     "level": 300,
     "rank": "DIAMOND I",
-    "wl": "57/60",
+    "wl": "58/61",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7084.png"
   },
   "ember_top": {
@@ -129,14 +129,14 @@
     "name": "UIC Rubix Qube",
     "level": 474,
     "rank": "GOLD I",
-    "wl": "61/65",
+    "wl": "61/66",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
     "name": "UIC adedier",
     "level": 597,
     "rank": "PLATINUM IV",
-    "wl": "17/14",
+    "wl": "17/15",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4379.png"
   },
   "nova_bot": {
@@ -233,22 +233,22 @@
   "freezer_mid": {
     "name": "UIC FrozenHands",
     "level": 630,
-    "rank": "DIAMOND II",
-    "wl": "27/18",
+    "rank": "DIAMOND I",
+    "wl": "28/18",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6811.png"
   },
   "freezer_bot": {
     "name": "RG AutumnLeaf",
     "level": 825,
-    "rank": "DIAMOND I",
-    "wl": "35/27",
+    "rank": "MASTER I",
+    "wl": "36/27",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6373.png"
   },
   "freezer_sup": {
     "name": "UIC Ryu Copeland",
     "level": 974,
-    "rank": "DIAMOND IV",
-    "wl": "14/24",
+    "rank": "DIAMOND III",
+    "wl": "16/24",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6631.png"
   },
   "freezer_coach": {
