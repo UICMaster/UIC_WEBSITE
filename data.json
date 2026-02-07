@@ -58,8 +58,8 @@
   "spark_bot": {
     "name": "UIC Flare",
     "level": 624,
-    "rank": "EMERALD III",
-    "wl": "32/35",
+    "rank": "EMERALD II",
+    "wl": "33/35",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -73,7 +73,7 @@
     "name": "soulrender",
     "level": 300,
     "rank": "DIAMOND I",
-    "wl": "59/61",
+    "wl": "59/62",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7084.png"
   },
   "ember_top": {
@@ -101,7 +101,7 @@
     "name": "UIC DontMethWith",
     "level": 1294,
     "rank": "EMERALD II",
-    "wl": "101/102",
+    "wl": "102/102",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
