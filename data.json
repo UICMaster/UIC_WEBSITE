@@ -58,8 +58,8 @@
   "spark_bot": {
     "name": "UIC Flare",
     "level": 624,
-    "rank": "EMERALD III",
-    "wl": "34/37",
+    "rank": "EMERALD II",
+    "wl": "35/37",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -71,9 +71,9 @@
   },
   "spark_coach": {
     "name": "soulrender",
-    "level": 300,
-    "rank": "DIAMOND II",
-    "wl": "60/64",
+    "level": 301,
+    "rank": "DIAMOND I",
+    "wl": "61/64",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7084.png"
   },
   "ember_top": {
@@ -87,7 +87,7 @@
     "name": "UIC Shederen",
     "level": 287,
     "rank": "EMERALD I",
-    "wl": "94/81",
+    "wl": "95/82",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -129,7 +129,7 @@
     "name": "UIC Rubix Qube",
     "level": 474,
     "rank": "GOLD I",
-    "wl": "63/67",
+    "wl": "63/68",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -150,7 +150,7 @@
     "name": "UIC Excellent C",
     "level": 552,
     "rank": "PLATINUM IV",
-    "wl": "51/53",
+    "wl": "51/54",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7064.png"
   },
   "abyss_jgl": {
@@ -176,7 +176,7 @@
   },
   "abyss_sup": {
     "name": "TheEigeeen",
-    "level": 644,
+    "level": 645,
     "rank": "EMERALD II",
     "wl": "24/27",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6037.png"
