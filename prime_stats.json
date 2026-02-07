@@ -38,11 +38,11 @@
       },
       {
         "summoner": "UIC Niki#AMB",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Speedy#EUW",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Giani#999",
@@ -174,9 +174,9 @@
       "form": []
     },
     "next_match": {
-      "date": "2026-02-07T20:00:00+01:00",
-      "tag": "TRVBZ",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1155521"
+      "date": "2026-02-15T19:00:00+01:00",
+      "tag": "Jesus",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1155524"
     },
     "last_match": null,
     "roster": [
@@ -199,6 +199,10 @@
       {
         "summoner": "UIC Excellent C#1997",
         "is_captain": true
+      },
+      {
+        "summoner": "UIC adedier#EUWE",
+        "is_captain": false
       }
     ],
     "team_link": "https://www.primeleague.gg/de/leagues/teams/203447",
@@ -248,7 +252,7 @@
       },
       {
         "summoner": "UIC Speedy#EUW",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Goku#UIC",
