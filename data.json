@@ -59,7 +59,7 @@
     "name": "UIC Flare",
     "level": 624,
     "rank": "EMERALD II",
-    "wl": "35/37",
+    "wl": "36/37",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -72,8 +72,8 @@
   "spark_coach": {
     "name": "soulrender",
     "level": 301,
-    "rank": "DIAMOND II",
-    "wl": "62/66",
+    "rank": "DIAMOND I",
+    "wl": "63/66",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7084.png"
   },
   "ember_top": {
@@ -87,7 +87,7 @@
     "name": "UIC Shederen",
     "level": 287,
     "rank": "EMERALD I",
-    "wl": "98/85",
+    "wl": "99/85",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
