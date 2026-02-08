@@ -70,9 +70,9 @@
       ]
     },
     "next_match": {
-      "date": "2026-02-08T19:00:00+01:00",
-      "tag": "ERN",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1155319"
+      "date": "2026-02-15T19:00:00+01:00",
+      "tag": "DSDS",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1155323"
     },
     "last_match": {
       "result": "SIEG",
@@ -91,7 +91,7 @@
       },
       {
         "summoner": "UIC Flare#JND",
-        "is_captain": true
+        "is_captain": false
       },
       {
         "summoner": "Lenlusz#EAZ",
@@ -99,6 +99,14 @@
       },
       {
         "summoner": "skanpy#3005",
+        "is_captain": false
+      },
+      {
+        "summoner": "UIC Dragonfly#1299",
+        "is_captain": false
+      },
+      {
+        "summoner": "soulrender#fent",
         "is_captain": false
       }
     ],
@@ -135,24 +143,24 @@
     },
     "roster": [
       {
-        "summoner": "ResetHoe#Kata",
-        "is_captain": false
-      },
-      {
         "summoner": "UIC DontMethWith#AMB",
         "is_captain": true
       },
       {
-        "summoner": "SilasX#EUWde",
-        "is_captain": false
+        "summoner": "UIC Envy#UIC",
+        "is_captain": true
       },
       {
         "summoner": "UIC Shederen#Ger",
         "is_captain": false
       },
       {
-        "summoner": "UIC Envy#UIC",
-        "is_captain": true
+        "summoner": "SilasX#EUWde",
+        "is_captain": false
+      },
+      {
+        "summoner": "ResetHoe#Kata",
+        "is_captain": false
       }
     ],
     "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
@@ -246,24 +254,24 @@
     },
     "roster": [
       {
-        "summoner": "UIC Speedy#EUW",
-        "is_captain": true
+        "summoner": "UIC M Character#UIC",
+        "is_captain": false
+      },
+      {
+        "summoner": "TheEigeeen#EIGI",
+        "is_captain": false
       },
       {
         "summoner": "UIC Keygasza#1337",
         "is_captain": true
       },
       {
-        "summoner": "UIC M Character#UIC",
-        "is_captain": false
+        "summoner": "UIC Speedy#EUW",
+        "is_captain": true
       },
       {
         "summoner": "UIC Goku#UIC",
         "is_captain": true
-      },
-      {
-        "summoner": "TheEigeeen#EIGI",
-        "is_captain": false
       },
       {
         "summoner": "UIC DANY#RFA40",
@@ -291,9 +299,9 @@
       ]
     },
     "next_match": {
-      "date": "2026-02-08T19:00:00+01:00",
-      "tag": "BLD",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1154451"
+      "date": "2026-02-15T19:00:00+01:00",
+      "tag": "ZSB",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1154455"
     },
     "last_match": {
       "result": "NIEDERLAGE",
@@ -303,15 +311,15 @@
     },
     "roster": [
       {
-        "summoner": "ривен#sabi",
+        "summoner": "MaZiN#EUWL9",
         "is_captain": false
       },
       {
-        "summoner": "UIC Cedo#EUW",
+        "summoner": "UIC ReCord#Cedo",
         "is_captain": true
       },
       {
-        "summoner": "UIC ReCord#Cedo",
+        "summoner": "UIC Cedo#EUW",
         "is_captain": true
       },
       {
@@ -319,7 +327,11 @@
         "is_captain": true
       },
       {
-        "summoner": "MaZiN#EUWL9",
+        "summoner": "ривен#sabi",
+        "is_captain": false
+      },
+      {
+        "summoner": "UIC Shockwave#EUW",
         "is_captain": false
       }
     ],
@@ -357,19 +369,19 @@
     "roster": [
       {
         "summoner": "UIC FrozenHands#MID",
-        "is_captain": true
+        "is_captain": false
       },
       {
         "summoner": "UIC Ryu Copeland#117",
-        "is_captain": true
+        "is_captain": false
       },
       {
         "summoner": "BlauerKlaus#Qvy心",
-        "is_captain": true
+        "is_captain": false
       },
       {
         "summoner": "RG AutumnLeaf#Moo",
-        "is_captain": true
+        "is_captain": false
       },
       {
         "summoner": "Rayando07#grag",
