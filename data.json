@@ -24,14 +24,14 @@
     "name": "UIC Giani",
     "level": 715,
     "rank": "MASTER I",
-    "wl": "34/24",
+    "wl": "35/25",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/916.png"
   },
   "prime_sup": {
     "name": "UIC Baguetto",
     "level": 978,
     "rank": "MASTER I",
-    "wl": "71/41",
+    "wl": "72/42",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4096.png"
   },
   "spark_top": {
@@ -71,9 +71,9 @@
   },
   "spark_coach": {
     "name": "soulrender",
-    "level": 301,
+    "level": 302,
     "rank": "DIAMOND I",
-    "wl": "63/66",
+    "wl": "65/66",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7084.png"
   },
   "ember_top": {
@@ -94,21 +94,21 @@
     "name": "ResetHoe",
     "level": 864,
     "rank": "EMERALD II",
-    "wl": "41/45",
+    "wl": "42/46",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4793.png"
   },
   "ember_bot": {
     "name": "UIC DontMethWith",
     "level": 1294,
     "rank": "EMERALD II",
-    "wl": "102/102",
+    "wl": "102/103",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
     "name": "UIC Envy",
     "level": 307,
-    "rank": "PLATINUM IV",
-    "wl": "90/89",
+    "rank": "GOLD I",
+    "wl": "90/92",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7091.png"
   },
   "ember_coach": {
@@ -129,7 +129,7 @@
     "name": "UIC Rubix Qube",
     "level": 475,
     "rank": "GOLD I",
-    "wl": "65/70",
+    "wl": "65/71",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
