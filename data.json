@@ -73,7 +73,7 @@
     "name": "soulrender",
     "level": 302,
     "rank": "DIAMOND I",
-    "wl": "65/66",
+    "wl": "66/66",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7084.png"
   },
   "ember_top": {
@@ -101,7 +101,7 @@
     "name": "UIC DontMethWith",
     "level": 1294,
     "rank": "EMERALD II",
-    "wl": "102/103",
+    "wl": "103/104",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
@@ -128,8 +128,8 @@
   "nova_jgl": {
     "name": "UIC Rubix Qube",
     "level": 475,
-    "rank": "GOLD I",
-    "wl": "65/71",
+    "rank": "GOLD II",
+    "wl": "65/72",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -234,7 +234,7 @@
     "name": "UIC FrozenHands",
     "level": 630,
     "rank": "DIAMOND II",
-    "wl": "28/20",
+    "wl": "28/21",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6811.png"
   },
   "freezer_bot": {
