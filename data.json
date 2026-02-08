@@ -59,7 +59,7 @@
     "name": "UIC Flare",
     "level": 625,
     "rank": "EMERALD II",
-    "wl": "36/37",
+    "wl": "36/38",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -73,7 +73,7 @@
     "name": "soulrender",
     "level": 302,
     "rank": "DIAMOND I",
-    "wl": "66/66",
+    "wl": "67/66",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7084.png"
   },
   "ember_top": {
@@ -127,9 +127,9 @@
   },
   "nova_jgl": {
     "name": "UIC Rubix Qube",
-    "level": 475,
+    "level": 476,
     "rank": "GOLD II",
-    "wl": "65/72",
+    "wl": "65/74",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -225,7 +225,7 @@
   },
   "freezer_jgl": {
     "name": "BlauerKlaus",
-    "level": 1128,
+    "level": 1129,
     "rank": "MASTER I",
     "wl": "40/40",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7049.png"
