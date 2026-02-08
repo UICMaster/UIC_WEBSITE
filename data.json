@@ -51,8 +51,8 @@
   "spark_mid": {
     "name": "Lenlusz",
     "level": 751,
-    "rank": "EMERALD I",
-    "wl": "78/71",
+    "rank": "DIAMOND IV",
+    "wl": "79/71",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
   },
   "spark_bot": {
@@ -94,7 +94,7 @@
     "name": "ResetHoe",
     "level": 864,
     "rank": "EMERALD II",
-    "wl": "40/43",
+    "wl": "40/44",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4793.png"
   },
   "ember_bot": {
@@ -233,15 +233,15 @@
   "freezer_mid": {
     "name": "UIC FrozenHands",
     "level": 630,
-    "rank": "DIAMOND I",
-    "wl": "28/18",
+    "rank": "DIAMOND II",
+    "wl": "28/19",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6811.png"
   },
   "freezer_bot": {
     "name": "RG AutumnLeaf",
     "level": 825,
     "rank": "MASTER I",
-    "wl": "36/27",
+    "wl": "37/28",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6373.png"
   },
   "freezer_sup": {
