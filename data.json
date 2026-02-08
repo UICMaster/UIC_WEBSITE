@@ -57,7 +57,7 @@
   },
   "spark_bot": {
     "name": "UIC Flare",
-    "level": 624,
+    "level": 625,
     "rank": "EMERALD II",
     "wl": "36/37",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
@@ -94,7 +94,7 @@
     "name": "ResetHoe",
     "level": 863,
     "rank": "EMERALD II",
-    "wl": "37/41",
+    "wl": "38/42",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4793.png"
   },
   "ember_bot": {
@@ -120,9 +120,9 @@
   },
   "nova_top": {
     "name": "TAS Kaetaya",
-    "level": 844,
+    "level": 845,
     "rank": "PLATINUM I",
-    "wl": "13/11",
+    "wl": "14/12",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6022.png"
   },
   "nova_jgl": {
@@ -134,9 +134,9 @@
   },
   "nova_mid": {
     "name": "UIC adedier",
-    "level": 597,
+    "level": 598,
     "rank": "PLATINUM IV",
-    "wl": "17/15",
+    "wl": "17/16",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4379.png"
   },
   "nova_bot": {
@@ -225,7 +225,7 @@
   },
   "freezer_jgl": {
     "name": "BlauerKlaus",
-    "level": 1127,
+    "level": 1128,
     "rank": "MASTER I",
     "wl": "40/40",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7049.png"
