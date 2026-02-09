@@ -30,11 +30,11 @@
     },
     "roster": [
       {
-        "summoner": "UIC Speedy#EUW",
-        "is_captain": true
+        "summoner": "UIC Baguetto#R3kt",
+        "is_captain": false
       },
       {
-        "summoner": "UIC Baguetto#R3kt",
+        "summoner": "UIC Shenycrane#Vugel",
         "is_captain": false
       },
       {
@@ -42,11 +42,11 @@
         "is_captain": true
       },
       {
-        "summoner": "UIC Giani#999",
-        "is_captain": false
+        "summoner": "UIC Speedy#EUW",
+        "is_captain": true
       },
       {
-        "summoner": "UIC Shenycrane#Vugel",
+        "summoner": "UIC Giani#999",
         "is_captain": false
       }
     ],
@@ -84,16 +84,12 @@
     },
     "roster": [
       {
-        "summoner": "UIC Lenno#UIC",
-        "is_captain": false
-      },
-      {
-        "summoner": "Firehand#1337",
-        "is_captain": false
-      },
-      {
         "summoner": "UIC Flare#JND",
         "is_captain": true
+      },
+      {
+        "summoner": "UIC Lenno#UIC",
+        "is_captain": false
       },
       {
         "summoner": "Lenlusz#EAZ",
@@ -104,11 +100,15 @@
         "is_captain": false
       },
       {
-        "summoner": "UIC Dragonfly#1299",
+        "summoner": "Firehand#1337",
         "is_captain": false
       },
       {
         "summoner": "soulrender#fent",
+        "is_captain": false
+      },
+      {
+        "summoner": "UIC Dragonfly#1299",
         "is_captain": false
       }
     ],
@@ -199,24 +199,24 @@
     },
     "roster": [
       {
+        "summoner": "UIC Rubix Qube#MÖP",
+        "is_captain": true
+      },
+      {
         "summoner": "Rhamuthra#4444",
         "is_captain": false
       },
       {
-        "summoner": "UIC Excellent C#1997",
-        "is_captain": true
+        "summoner": "UIC Muh#KATZE",
+        "is_captain": false
       },
       {
         "summoner": "UIC Simply#666",
         "is_captain": true
       },
       {
-        "summoner": "UIC Rubix Qube#MÖP",
+        "summoner": "UIC Excellent C#1997",
         "is_captain": true
-      },
-      {
-        "summoner": "UIC Muh#KATZE",
-        "is_captain": false
       },
       {
         "summoner": "UIC adedier#EUWE",
@@ -376,15 +376,11 @@
     },
     "roster": [
       {
-        "summoner": "UIC FrozenHands#MID",
-        "is_captain": true
-      },
-      {
         "summoner": "UIC Ryu Copeland#117",
         "is_captain": true
       },
       {
-        "summoner": "BlauerKlaus#Qvy心",
+        "summoner": "UIC FrozenHands#MID",
         "is_captain": true
       },
       {
@@ -394,6 +390,10 @@
       {
         "summoner": "Rayando07#grag",
         "is_captain": false
+      },
+      {
+        "summoner": "BlauerKlaus#Qvy心",
+        "is_captain": true
       }
     ],
     "team_link": "https://www.primeleague.gg/de/leagues/teams/203146",
