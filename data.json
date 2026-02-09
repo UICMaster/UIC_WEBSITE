@@ -86,8 +86,8 @@
   "ember_jgl": {
     "name": "UIC Shederen",
     "level": 288,
-    "rank": "EMERALD I",
-    "wl": "102/90",
+    "rank": "EMERALD II",
+    "wl": "102/91",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -129,7 +129,7 @@
     "name": "UIC Rubix Qube",
     "level": 476,
     "rank": "GOLD II",
-    "wl": "69/75",
+    "wl": "69/76",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -143,7 +143,7 @@
     "name": "UIC Simply",
     "level": 425,
     "rank": "PLATINUM III",
-    "wl": "22/25",
+    "wl": "22/26",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6388.png"
   },
   "nova_sup": {
