@@ -106,7 +106,7 @@
   },
   "ember_sup": {
     "name": "UIC Envy",
-    "level": 310,
+    "level": 311,
     "rank": "GOLD I",
     "wl": "95/98",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7087.png"
@@ -198,8 +198,8 @@
   "night_mid": {
     "name": "UIC Kuroko",
     "level": 581,
-    "rank": "EMERALD II",
-    "wl": "13/19",
+    "rank": "EMERALD I",
+    "wl": "15/19",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3494.png"
   },
   "night_bot": {
@@ -227,7 +227,7 @@
     "name": "UIC FrozenHands",
     "level": 631,
     "rank": "DIAMOND II",
-    "wl": "29/22",
+    "wl": "29/23",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6811.png"
   },
   "freezer_bot": {
