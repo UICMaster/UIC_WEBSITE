@@ -10,7 +10,7 @@
     "name": "UIC Niki",
     "level": 1003,
     "rank": "DIAMOND II",
-    "wl": "28/32",
+    "wl": "28/33",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4380.png"
   },
   "prime_mid": {
@@ -45,7 +45,7 @@
     "name": "UIC Lenno",
     "level": 778,
     "rank": "EMERALD IV",
-    "wl": "62/49",
+    "wl": "62/50",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
   },
   "spark_mid": {
@@ -64,9 +64,9 @@
   },
   "spark_sup": {
     "name": "Firehand",
-    "level": 387,
-    "rank": "PLATINUM III",
-    "wl": "8/14",
+    "level": 388,
+    "rank": "PLATINUM II",
+    "wl": "9/14",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7046.png"
   },
   "spark_coach": {
@@ -80,7 +80,7 @@
     "name": "SilasX",
     "level": 518,
     "rank": "EMERALD I",
-    "wl": "30/33",
+    "wl": "31/34",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6989.png"
   },
   "ember_jgl": {
@@ -94,14 +94,14 @@
     "name": "ResetHoe",
     "level": 864,
     "rank": "EMERALD II",
-    "wl": "43/48",
+    "wl": "44/48",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4793.png"
   },
   "ember_bot": {
     "name": "UIC DontMethWith",
     "level": 1295,
     "rank": "EMERALD I",
-    "wl": "111/108",
+    "wl": "112/109",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
@@ -128,8 +128,8 @@
   "nova_jgl": {
     "name": "UIC Rubix Qube",
     "level": 478,
-    "rank": "GOLD I",
-    "wl": "78/83",
+    "rank": "GOLD II",
+    "wl": "78/84",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -206,14 +206,14 @@
     "name": "UIC Rhinoshield",
     "level": 942,
     "rank": "EMERALD IV",
-    "wl": "113/108",
+    "wl": "113/109",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5350.png"
   },
   "night_sup": {
     "name": "Zurashi",
     "level": 674,
     "rank": "PLATINUM III",
-    "wl": "62/57",
+    "wl": "62/58",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7068.png"
   },
   "freezer_jgl": {
@@ -225,16 +225,16 @@
   },
   "freezer_mid": {
     "name": "UIC FrozenHands",
-    "level": 630,
+    "level": 631,
     "rank": "DIAMOND II",
-    "wl": "28/21",
+    "wl": "29/21",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6811.png"
   },
   "freezer_bot": {
     "name": "RG AutumnLeaf",
     "level": 826,
     "rank": "MASTER I",
-    "wl": "39/33",
+    "wl": "40/33",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6373.png"
   },
   "freezer_sup": {
