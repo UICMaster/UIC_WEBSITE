@@ -9,15 +9,15 @@
   "prime_jgl": {
     "name": "UIC Niki",
     "level": 1003,
-    "rank": "DIAMOND II",
-    "wl": "27/30",
+    "rank": "DIAMOND I",
+    "wl": "28/30",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4380.png"
   },
   "prime_mid": {
     "name": "UIC Shenycrane",
     "level": 626,
     "rank": "MASTER I",
-    "wl": "52/46",
+    "wl": "53/46",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6387.png"
   },
   "prime_bot": {
@@ -43,9 +43,9 @@
   },
   "spark_jgl": {
     "name": "UIC Lenno",
-    "level": 777,
+    "level": 778,
     "rank": "EMERALD IV",
-    "wl": "60/46",
+    "wl": "61/48",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
   },
   "spark_mid": {
@@ -100,8 +100,8 @@
   "ember_bot": {
     "name": "UIC DontMethWith",
     "level": 1295,
-    "rank": "EMERALD II",
-    "wl": "107/106",
+    "rank": "EMERALD I",
+    "wl": "110/106",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
@@ -129,7 +129,7 @@
     "name": "UIC Rubix Qube",
     "level": 478,
     "rank": "GOLD I",
-    "wl": "77/82",
+    "wl": "78/82",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -206,14 +206,14 @@
     "name": "UIC Rhinoshield",
     "level": 941,
     "rank": "EMERALD IV",
-    "wl": "111/106",
+    "wl": "113/107",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5350.png"
   },
   "night_sup": {
     "name": "Zurashi",
     "level": 673,
     "rank": "PLATINUM III",
-    "wl": "60/55",
+    "wl": "62/56",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7068.png"
   },
   "freezer_jgl": {
