@@ -8,9 +8,9 @@
   },
   "prime_jgl": {
     "name": "UIC Niki",
-    "level": 1002,
+    "level": 1003,
     "rank": "DIAMOND II",
-    "wl": "24/30",
+    "wl": "25/30",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4380.png"
   },
   "prime_mid": {
@@ -128,15 +128,15 @@
   "nova_jgl": {
     "name": "UIC Rubix Qube",
     "level": 478,
-    "rank": "GOLD I",
-    "wl": "76/81",
+    "rank": "GOLD II",
+    "wl": "76/82",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
     "name": "UIC adedier",
-    "level": 598,
+    "level": 599,
     "rank": "PLATINUM III",
-    "wl": "23/19",
+    "wl": "23/20",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4379.png"
   },
   "nova_bot": {
@@ -241,7 +241,7 @@
     "name": "RG AutumnLeaf",
     "level": 826,
     "rank": "MASTER I",
-    "wl": "38/31",
+    "wl": "38/33",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6373.png"
   },
   "freezer_sup": {
