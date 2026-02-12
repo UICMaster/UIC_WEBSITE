@@ -187,9 +187,9 @@
       ]
     },
     "next_match": {
-      "date": "2026-02-12T20:00:00+01:00",
-      "tag": "Jesus",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1155524"
+      "date": "2026-02-22T19:00:00+01:00",
+      "tag": "W2B OE",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1155528"
     },
     "last_match": {
       "result": "NIEDERLAGE",
@@ -220,6 +220,10 @@
       },
       {
         "summoner": "UIC adedier#EUWE",
+        "is_captain": false
+      },
+      {
+        "summoner": "UIC Kaanto#Nova",
         "is_captain": false
       }
     ],
