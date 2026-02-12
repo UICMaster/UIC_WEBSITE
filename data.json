@@ -92,16 +92,16 @@
   },
   "ember_mid": {
     "name": "ResetHoe",
-    "level": 864,
+    "level": 865,
     "rank": "EMERALD I",
-    "wl": "46/48",
+    "wl": "46/49",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4793.png"
   },
   "ember_bot": {
     "name": "UIC DontMethWith",
-    "level": 1295,
+    "level": 1296,
     "rank": "EMERALD I",
-    "wl": "112/110",
+    "wl": "114/110",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
@@ -129,7 +129,7 @@
     "name": "UIC Rubix Qube",
     "level": 478,
     "rank": "GOLD II",
-    "wl": "78/84",
+    "wl": "78/85",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
