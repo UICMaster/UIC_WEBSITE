@@ -8,9 +8,9 @@
   },
   "prime_jgl": {
     "name": "UIC Niki",
-    "level": 1003,
+    "level": 1004,
     "rank": "DIAMOND II",
-    "wl": "29/34",
+    "wl": "29/35",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4380.png"
   },
   "prime_mid": {
@@ -59,7 +59,7 @@
     "name": "UIC Flare",
     "level": 625,
     "rank": "EMERALD II",
-    "wl": "39/40",
+    "wl": "40/40",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -80,7 +80,7 @@
     "name": "SilasX",
     "level": 519,
     "rank": "EMERALD II",
-    "wl": "33/41",
+    "wl": "33/42",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6989.png"
   },
   "ember_jgl": {
@@ -99,9 +99,9 @@
   },
   "ember_bot": {
     "name": "UIC DontMethWith",
-    "level": 1296,
+    "level": 1297,
     "rank": "DIAMOND IV",
-    "wl": "119/111",
+    "wl": "119/112",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
@@ -120,7 +120,7 @@
   },
   "nova_top": {
     "name": "TAS Kaetaya",
-    "level": 845,
+    "level": 846,
     "rank": "EMERALD IV",
     "wl": "15/13",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4069.png"
@@ -192,7 +192,7 @@
     "name": "JUST GO MAN",
     "level": 45,
     "rank": "MASTER I",
-    "wl": "76/59",
+    "wl": "77/59",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6038.png"
   },
   "night_mid": {
@@ -205,15 +205,15 @@
   "night_bot": {
     "name": "UIC Rhinoshield",
     "level": 942,
-    "rank": "EMERALD IV",
-    "wl": "113/111",
+    "rank": "PLATINUM I",
+    "wl": "113/112",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5350.png"
   },
   "night_sup": {
     "name": "Zurashi",
-    "level": 674,
+    "level": 675,
     "rank": "PLATINUM IV",
-    "wl": "66/65",
+    "wl": "66/66",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7068.png"
   },
   "freezer_jgl": {
