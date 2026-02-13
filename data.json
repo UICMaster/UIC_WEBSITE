@@ -108,7 +108,7 @@
     "name": "UIC Envy",
     "level": 311,
     "rank": "GOLD I",
-    "wl": "99/101",
+    "wl": "99/102",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7087.png"
   },
   "ember_coach": {
@@ -213,7 +213,7 @@
     "name": "Zurashi",
     "level": 674,
     "rank": "PLATINUM III",
-    "wl": "64/59",
+    "wl": "65/59",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7068.png"
   },
   "freezer_jgl": {
@@ -247,8 +247,8 @@
   "freezer_coach": {
     "name": "UIC Loonz",
     "level": 783,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "PLATINUM IV",
+    "wl": "4/1",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4895.png"
   }
 }
