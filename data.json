@@ -78,16 +78,16 @@
   },
   "ember_top": {
     "name": "SilasX",
-    "level": 518,
+    "level": 519,
     "rank": "EMERALD II",
-    "wl": "33/39",
+    "wl": "33/41",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6989.png"
   },
   "ember_jgl": {
     "name": "UIC Shederen",
-    "level": 289,
+    "level": 290,
     "rank": "EMERALD I",
-    "wl": "110/96",
+    "wl": "110/98",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -143,7 +143,7 @@
     "name": "UIC Simply",
     "level": 428,
     "rank": "PLATINUM III",
-    "wl": "27/31",
+    "wl": "28/32",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6388.png"
   },
   "nova_sup": {
@@ -213,12 +213,12 @@
     "name": "Zurashi",
     "level": 674,
     "rank": "PLATINUM III",
-    "wl": "66/62",
+    "wl": "66/64",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7068.png"
   },
   "freezer_jgl": {
     "name": "BlauerKlaus",
-    "level": 1132,
+    "level": 1133,
     "rank": "DIAMOND I",
     "wl": "40/40",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7049.png"
@@ -232,9 +232,9 @@
   },
   "freezer_bot": {
     "name": "RG AutumnLeaf",
-    "level": 826,
+    "level": 827,
     "rank": "MASTER I",
-    "wl": "42/34",
+    "wl": "43/34",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6373.png"
   },
   "freezer_sup": {
