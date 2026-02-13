@@ -298,11 +298,12 @@
     },
     "stats": {
       "wins": 0,
-      "losses": 2,
+      "losses": 4,
       "points": 0,
-      "games": 2,
+      "games": 4,
       "win_rate": 0,
       "form": [
+        "L",
         "L"
       ]
     },
@@ -314,8 +315,8 @@
     "last_match": {
       "result": "NIEDERLAGE",
       "score": "0 - 2",
-      "enemy": "TOCKER",
-      "date": "2026-02-01T20:00:00+01:00"
+      "enemy": "BLD",
+      "date": "2026-02-08T19:00:00+01:00"
     },
     "roster": [
       {
