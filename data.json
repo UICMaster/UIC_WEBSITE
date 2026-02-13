@@ -108,7 +108,7 @@
     "name": "UIC Envy",
     "level": 311,
     "rank": "GOLD I",
-    "wl": "95/99",
+    "wl": "96/99",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7087.png"
   },
   "ember_coach": {
@@ -128,8 +128,8 @@
   "nova_jgl": {
     "name": "UIC Rubix Qube",
     "level": 479,
-    "rank": "GOLD II",
-    "wl": "80/86",
+    "rank": "GOLD I",
+    "wl": "81/86",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -149,8 +149,8 @@
   "nova_sup": {
     "name": "UIC Excellent C",
     "level": 553,
-    "rank": "PLATINUM IV",
-    "wl": "56/55",
+    "rank": "PLATINUM III",
+    "wl": "57/55",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7064.png"
   },
   "abyss_jgl": {
@@ -234,7 +234,7 @@
     "name": "RG AutumnLeaf",
     "level": 826,
     "rank": "MASTER I",
-    "wl": "40/33",
+    "wl": "41/33",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6373.png"
   },
   "freezer_sup": {
