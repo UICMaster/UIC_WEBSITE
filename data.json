@@ -10,7 +10,7 @@
     "name": "UIC Niki",
     "level": 1004,
     "rank": "DIAMOND II",
-    "wl": "29/35",
+    "wl": "31/35",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4380.png"
   },
   "prime_mid": {
@@ -29,7 +29,7 @@
   },
   "prime_sup": {
     "name": "UIC Baguetto",
-    "level": 979,
+    "level": 980,
     "rank": "MASTER I",
     "wl": "76/44",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4096.png"
@@ -79,8 +79,8 @@
   "ember_top": {
     "name": "SilasX",
     "level": 519,
-    "rank": "EMERALD II",
-    "wl": "33/42",
+    "rank": "EMERALD III",
+    "wl": "33/43",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6989.png"
   },
   "ember_jgl": {
@@ -101,7 +101,7 @@
     "name": "UIC DontMethWith",
     "level": 1297,
     "rank": "DIAMOND IV",
-    "wl": "119/112",
+    "wl": "121/112",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
@@ -199,14 +199,14 @@
     "name": "UIC Kuroko",
     "level": 581,
     "rank": "EMERALD I",
-    "wl": "15/20",
+    "wl": "17/21",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3494.png"
   },
   "night_bot": {
     "name": "UIC Rhinoshield",
     "level": 942,
     "rank": "PLATINUM I",
-    "wl": "113/112",
+    "wl": "114/114",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5350.png"
   },
   "night_sup": {
