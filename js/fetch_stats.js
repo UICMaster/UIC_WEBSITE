@@ -41,7 +41,7 @@ const teams = {
         { gameName: '', tagLine: '' }
     ],
     "abyss": [
-        { gameName: 'Dany', tagLine: 'RFA40' },
+        { gameName: 'UIC Dany', tagLine: 'RFA40' },
         { gameName: 'UIC Keygasza', tagLine: '1337' },
         { gameName: 'UIC Goku', tagLine: 'UIC' },
         { gameName: 'UIC N1ghtm4reX', tagLine: 'H96' },
@@ -57,7 +57,7 @@ const teams = {
         { gameName: '', tagLine: '' }
     ],
     "freezer": [
-        { gameName: 'Rayando07', tagLine: 'grag' },
+        { gameName: 'UIC Rayando07', tagLine: 'help' },
         { gameName: 'BlauerKlaus', tagLine: 'Qvy心' },
         { gameName: 'UIC FrozenHands', tagLine: 'MID' },
         { gameName: 'RG AutumnLeaf', tagLine: 'Moo' },
