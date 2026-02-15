@@ -45,7 +45,7 @@
     "name": "UIC Lenno",
     "level": 778,
     "rank": "EMERALD IV",
-    "wl": "62/50",
+    "wl": "63/51",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
   },
   "spark_mid": {
@@ -106,9 +106,9 @@
   },
   "ember_sup": {
     "name": "UIC Envy",
-    "level": 312,
-    "rank": "GOLD II",
-    "wl": "100/105",
+    "level": 313,
+    "rank": "GOLD I",
+    "wl": "102/105",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7087.png"
   },
   "ember_coach": {
@@ -127,9 +127,9 @@
   },
   "nova_jgl": {
     "name": "UIC Rubix Qube",
-    "level": 480,
+    "level": 481,
     "rank": "PLATINUM IV",
-    "wl": "90/89",
+    "wl": "90/90",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
