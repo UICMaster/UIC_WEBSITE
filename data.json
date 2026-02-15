@@ -108,7 +108,7 @@
     "name": "UIC Envy",
     "level": 313,
     "rank": "GOLD I",
-    "wl": "105/106",
+    "wl": "105/107",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7087.png"
   },
   "ember_coach": {
@@ -122,14 +122,14 @@
     "name": "TAS Kaetaya",
     "level": 846,
     "rank": "EMERALD IV",
-    "wl": "16/15",
+    "wl": "17/16",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4069.png"
   },
   "nova_jgl": {
     "name": "UIC Rubix Qube",
     "level": 481,
     "rank": "PLATINUM IV",
-    "wl": "91/92",
+    "wl": "92/92",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -141,9 +141,9 @@
   },
   "nova_bot": {
     "name": "UIC Simply",
-    "level": 428,
-    "rank": "PLATINUM II",
-    "wl": "31/35",
+    "level": 429,
+    "rank": "PLATINUM III",
+    "wl": "31/36",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6388.png"
   },
   "nova_sup": {
@@ -226,15 +226,15 @@
   "freezer_top": {
     "name": "UIC Rayando07",
     "level": 438,
-    "rank": "DIAMOND I",
-    "wl": "29/30",
+    "rank": "MASTER I",
+    "wl": "30/30",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7070.png"
   },
   "freezer_jgl": {
     "name": "BlauerKlaus",
     "level": 1133,
     "rank": "DIAMOND I",
-    "wl": "40/40",
+    "wl": "41/40",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7049.png"
   },
   "freezer_mid": {
@@ -255,7 +255,7 @@
     "name": "UIC Ryu Copeland",
     "level": 977,
     "rank": "DIAMOND I",
-    "wl": "24/28",
+    "wl": "24/29",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6631.png"
   },
   "freezer_coach": {

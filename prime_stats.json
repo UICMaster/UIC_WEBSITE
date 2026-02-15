@@ -62,13 +62,14 @@
     },
     "stats": {
       "wins": 3,
-      "losses": 1,
+      "losses": 3,
       "points": 3,
-      "games": 4,
-      "win_rate": 75,
+      "games": 6,
+      "win_rate": 50,
       "form": [
         "W",
-        "D"
+        "D",
+        "L"
       ]
     },
     "next_match": {
@@ -77,10 +78,10 @@
       "link": "https://www.primeleague.gg/de/leagues/matches/1155324"
     },
     "last_match": {
-      "result": "UNENTSCHIEDEN",
-      "score": "1 - 1",
-      "enemy": "ERN",
-      "date": "2026-02-08T19:00:00+01:00"
+      "result": "NIEDERLAGE",
+      "score": "0 - 2",
+      "enemy": "DSDS",
+      "date": "2026-02-15T19:00:00+01:00"
     },
     "roster": [
       {
@@ -240,11 +241,12 @@
     },
     "stats": {
       "wins": 0,
-      "losses": 4,
+      "losses": 6,
       "points": 0,
-      "games": 4,
+      "games": 6,
       "win_rate": 0,
       "form": [
+        "L",
         "L",
         "L"
       ]
@@ -257,8 +259,8 @@
     "last_match": {
       "result": "NIEDERLAGE",
       "score": "0 - 2",
-      "enemy": "BL",
-      "date": "2026-02-04T19:00:00+01:00"
+      "enemy": "DJ5",
+      "date": "2026-02-15T19:00:00+01:00"
     },
     "roster": [
       {
