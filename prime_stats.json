@@ -39,11 +39,11 @@
       },
       {
         "summoner": "UIC Niki#AMB",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Speedy#EUW",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Giani#999",
@@ -275,7 +275,7 @@
       },
       {
         "summoner": "UIC Speedy#EUW",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Goku#UIC",
