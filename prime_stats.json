@@ -72,9 +72,9 @@
       ]
     },
     "next_match": {
-      "date": "2026-02-15T19:00:00+01:00",
-      "tag": "DSDS",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1155323"
+      "date": "2026-02-22T19:00:00+01:00",
+      "tag": "KTN",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1155324"
     },
     "last_match": {
       "result": "UNENTSCHIEDEN",
@@ -250,9 +250,9 @@
       ]
     },
     "next_match": {
-      "date": "2026-02-15T19:00:00+01:00",
-      "tag": "DJ5",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1154173"
+      "date": "2026-02-22T17:00:00+01:00",
+      "tag": "d5b",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1154177"
     },
     "last_match": {
       "result": "NIEDERLAGE",
@@ -271,7 +271,7 @@
       },
       {
         "summoner": "UIC Keygasza#1337",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Speedy#EUW",
@@ -279,11 +279,15 @@
       },
       {
         "summoner": "UIC Goku#UIC",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC DANY#RFA40",
         "is_captain": false
+      },
+      {
+        "summoner": "Ainvy#Ainvy",
+        "is_captain": true
       }
     ],
     "team_link": "https://www.primeleague.gg/de/leagues/teams/204924",
