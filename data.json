@@ -31,7 +31,7 @@
     "name": "UIC Baguetto",
     "level": 981,
     "rank": "MASTER I",
-    "wl": "78/48",
+    "wl": "80/48",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4096.png"
   },
   "spark_top": {
@@ -45,7 +45,7 @@
     "name": "UIC Lenno",
     "level": 778,
     "rank": "EMERALD IV",
-    "wl": "63/51",
+    "wl": "63/52",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
   },
   "spark_mid": {
@@ -66,7 +66,7 @@
     "name": "Firehand",
     "level": 388,
     "rank": "PLATINUM II",
-    "wl": "9/14",
+    "wl": "9/15",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7046.png"
   },
   "spark_coach": {
@@ -87,7 +87,7 @@
     "name": "UIC Shederen",
     "level": 291,
     "rank": "DIAMOND IV",
-    "wl": "121/104",
+    "wl": "122/104",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -108,7 +108,7 @@
     "name": "UIC Envy",
     "level": 313,
     "rank": "GOLD I",
-    "wl": "104/106",
+    "wl": "105/106",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7087.png"
   },
   "ember_coach": {
@@ -129,21 +129,21 @@
     "name": "UIC Rubix Qube",
     "level": 481,
     "rank": "PLATINUM IV",
-    "wl": "91/91",
+    "wl": "91/92",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
     "name": "UIC adedier",
     "level": 599,
     "rank": "PLATINUM III",
-    "wl": "26/23",
+    "wl": "26/24",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4379.png"
   },
   "nova_bot": {
     "name": "UIC Simply",
     "level": 428,
     "rank": "PLATINUM III",
-    "wl": "28/34",
+    "wl": "30/34",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6388.png"
   },
   "nova_sup": {
@@ -152,6 +152,13 @@
     "rank": "PLATINUM III",
     "wl": "57/55",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7064.png"
+  },
+  "abyss_top": {
+    "name": "UIC Dany",
+    "level": 529,
+    "rank": "EMERALD III",
+    "wl": "19/15",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4086.png"
   },
   "abyss_jgl": {
     "name": "UIC Keygasza",
@@ -190,31 +197,38 @@
   },
   "night_jgl": {
     "name": "JUST GO MAN",
-    "level": 45,
+    "level": 46,
     "rank": "MASTER I",
-    "wl": "79/62",
+    "wl": "79/63",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6038.png"
   },
   "night_mid": {
     "name": "UIC Kuroko",
     "level": 582,
-    "rank": "EMERALD I",
-    "wl": "18/21",
+    "rank": "DIAMOND IV",
+    "wl": "19/21",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3494.png"
   },
   "night_bot": {
     "name": "UIC Rhinoshield",
     "level": 943,
     "rank": "PLATINUM I",
-    "wl": "120/120",
+    "wl": "122/120",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5350.png"
   },
   "night_sup": {
     "name": "Zurashi",
     "level": 676,
-    "rank": "PLATINUM IV",
-    "wl": "67/66",
+    "rank": "PLATINUM III",
+    "wl": "67/67",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7068.png"
+  },
+  "freezer_top": {
+    "name": "UIC Rayando07",
+    "level": 438,
+    "rank": "DIAMOND I",
+    "wl": "29/29",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7070.png"
   },
   "freezer_jgl": {
     "name": "BlauerKlaus",
