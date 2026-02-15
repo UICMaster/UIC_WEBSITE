@@ -24,14 +24,14 @@
     "name": "UIC Giani",
     "level": 716,
     "rank": "MASTER I",
-    "wl": "40/28",
+    "wl": "40/30",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/916.png"
   },
   "prime_sup": {
     "name": "UIC Baguetto",
-    "level": 980,
+    "level": 981,
     "rank": "MASTER I",
-    "wl": "77/45",
+    "wl": "77/47",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4096.png"
   },
   "spark_top": {
@@ -107,8 +107,8 @@
   "ember_sup": {
     "name": "UIC Envy",
     "level": 313,
-    "rank": "GOLD I",
-    "wl": "102/105",
+    "rank": "GOLD II",
+    "wl": "102/106",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7087.png"
   },
   "ember_coach": {
@@ -234,7 +234,7 @@
     "name": "RG AutumnLeaf",
     "level": 827,
     "rank": "MASTER I",
-    "wl": "43/35",
+    "wl": "44/35",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6373.png"
   },
   "freezer_sup": {
@@ -247,8 +247,8 @@
   "freezer_coach": {
     "name": "UIC Loonz",
     "level": 783,
-    "rank": "PLATINUM IV",
-    "wl": "4/1",
+    "rank": "PLATINUM III",
+    "wl": "5/1",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4895.png"
   }
 }
