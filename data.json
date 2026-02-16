@@ -59,7 +59,7 @@
     "name": "UIC Flare",
     "level": 626,
     "rank": "EMERALD II",
-    "wl": "42/42",
+    "wl": "43/42",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -120,16 +120,16 @@
   },
   "nova_top": {
     "name": "TAS Kaetaya",
-    "level": 846,
-    "rank": "EMERALD IV",
-    "wl": "19/17",
+    "level": 847,
+    "rank": "EMERALD III",
+    "wl": "20/17",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4069.png"
   },
   "nova_jgl": {
     "name": "UIC Rubix Qube",
     "level": 481,
     "rank": "PLATINUM IV",
-    "wl": "92/93",
+    "wl": "92/95",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -213,14 +213,14 @@
     "name": "UIC Rhinoshield",
     "level": 944,
     "rank": "PLATINUM I",
-    "wl": "123/122",
+    "wl": "124/122",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5350.png"
   },
   "night_sup": {
     "name": "Zurashi",
     "level": 676,
     "rank": "PLATINUM III",
-    "wl": "67/67",
+    "wl": "68/68",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7068.png"
   },
   "freezer_top": {
@@ -248,7 +248,7 @@
     "name": "RG AutumnLeaf",
     "level": 827,
     "rank": "MASTER I",
-    "wl": "44/36",
+    "wl": "45/36",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6373.png"
   },
   "freezer_sup": {
