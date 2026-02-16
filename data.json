@@ -107,8 +107,8 @@
   "ember_sup": {
     "name": "UIC Envy",
     "level": 313,
-    "rank": "GOLD I",
-    "wl": "107/109",
+    "rank": "GOLD II",
+    "wl": "107/110",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7087.png"
   },
   "ember_coach": {
@@ -122,7 +122,7 @@
     "name": "TAS Kaetaya",
     "level": 846,
     "rank": "EMERALD IV",
-    "wl": "18/16",
+    "wl": "18/17",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4069.png"
   },
   "nova_jgl": {
@@ -136,7 +136,7 @@
     "name": "UIC adedier",
     "level": 600,
     "rank": "PLATINUM II",
-    "wl": "30/26",
+    "wl": "30/27",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4379.png"
   },
   "nova_bot": {
