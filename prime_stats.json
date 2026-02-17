@@ -202,7 +202,7 @@
     "roster": [
       {
         "summoner": "UIC Rubix Qube#MÖP",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "Rhamuthra#4444",
@@ -214,7 +214,7 @@
       },
       {
         "summoner": "UIC Simply#666",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Excellent C#1997",
