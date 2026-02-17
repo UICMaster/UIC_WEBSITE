@@ -179,11 +179,12 @@
     },
     "stats": {
       "wins": 0,
-      "losses": 4,
+      "losses": 6,
       "points": 0,
-      "games": 4,
+      "games": 6,
       "win_rate": 0,
       "form": [
+        "L",
         "L",
         "L"
       ]
@@ -196,8 +197,8 @@
     "last_match": {
       "result": "NIEDERLAGE",
       "score": "0 - 2",
-      "enemy": "Jesus",
-      "date": "2026-02-12T20:00:00+01:00"
+      "enemy": "W2B OE",
+      "date": "2026-02-16T20:00:00+01:00"
     },
     "roster": [
       {

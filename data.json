@@ -50,9 +50,9 @@
   },
   "spark_mid": {
     "name": "Lenlusz",
-    "level": 755,
+    "level": 756,
     "rank": "DIAMOND III",
-    "wl": "105/90",
+    "wl": "106/92",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
   },
   "spark_bot": {
@@ -107,8 +107,8 @@
   "ember_sup": {
     "name": "UIC Envy",
     "level": 314,
-    "rank": "GOLD I",
-    "wl": "112/113",
+    "rank": "GOLD II",
+    "wl": "112/115",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7087.png"
   },
   "ember_coach": {
@@ -176,9 +176,9 @@
   },
   "abyss_bot": {
     "name": "UIC N1ghtm4reX",
-    "level": 269,
+    "level": 270,
     "rank": "EMERALD II",
-    "wl": "15/12",
+    "wl": "17/12",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3398.png"
   },
   "abyss_sup": {
@@ -213,7 +213,7 @@
     "name": "UIC Rhinoshield",
     "level": 944,
     "rank": "PLATINUM I",
-    "wl": "124/124",
+    "wl": "125/125",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5350.png"
   },
   "night_sup": {
@@ -253,9 +253,9 @@
   },
   "freezer_sup": {
     "name": "UIC Ryu Copeland",
-    "level": 978,
-    "rank": "DIAMOND II",
-    "wl": "25/32",
+    "level": 979,
+    "rank": "DIAMOND I",
+    "wl": "27/32",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6631.png"
   },
   "freezer_coach": {
