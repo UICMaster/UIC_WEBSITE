@@ -135,9 +135,9 @@
       ]
     },
     "next_match": {
-      "date": "2026-02-17T18:00:00+01:00",
-      "tag": "TLG",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1155069"
+      "date": "2026-02-22T19:00:00+01:00",
+      "tag": "9045",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1155073"
     },
     "last_match": {
       "result": "NIEDERLAGE",
@@ -148,11 +148,11 @@
     "roster": [
       {
         "summoner": "UIC DontMethWith#AMB",
-        "is_captain": true
+        "is_captain": false
       },
       {
         "summoner": "UIC Envy#UIC",
-        "is_captain": true
+        "is_captain": false
       },
       {
         "summoner": "UIC Shederen#Ger",
