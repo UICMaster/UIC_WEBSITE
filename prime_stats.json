@@ -18,9 +18,9 @@
       ]
     },
     "next_match": {
-      "date": "2026-02-18T19:00:00+01:00",
-      "tag": "TBG",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1153907"
+      "date": "2026-02-22T17:00:00+01:00",
+      "tag": "NGNS RR",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1153910"
     },
     "last_match": {
       "result": "SIEG",
@@ -271,7 +271,7 @@
       },
       {
         "summoner": "UIC Keygasza#1337",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC M Character#UIC",
@@ -279,7 +279,7 @@
       },
       {
         "summoner": "UIC Goku#UIC",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "TheEigeeen#EIGI",
