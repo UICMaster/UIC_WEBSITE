@@ -10,7 +10,7 @@
     "name": "UIC Niki",
     "level": 1004,
     "rank": "DIAMOND II",
-    "wl": "32/36",
+    "wl": "32/37",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4380.png"
   },
   "prime_mid": {
@@ -51,15 +51,15 @@
   "spark_mid": {
     "name": "Lenlusz",
     "level": 757,
-    "rank": "DIAMOND III",
-    "wl": "110/96",
+    "rank": "DIAMOND IV",
+    "wl": "110/97",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
   },
   "spark_bot": {
     "name": "UIC Flare",
     "level": 627,
     "rank": "EMERALD II",
-    "wl": "44/44",
+    "wl": "44/45",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -87,7 +87,7 @@
     "name": "UIC Shederen",
     "level": 292,
     "rank": "DIAMOND IV",
-    "wl": "126/109",
+    "wl": "126/110",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -101,14 +101,14 @@
     "name": "UIC DontMethWith",
     "level": 1298,
     "rank": "DIAMOND IV",
-    "wl": "122/114",
+    "wl": "123/114",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
     "name": "UIC Envy",
     "level": 316,
     "rank": "GOLD I",
-    "wl": "116/116",
+    "wl": "117/116",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7087.png"
   },
   "ember_coach": {
