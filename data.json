@@ -45,21 +45,21 @@
     "name": "UIC Lenno",
     "level": 779,
     "rank": "EMERALD IV",
-    "wl": "64/53",
+    "wl": "64/54",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
   },
   "spark_mid": {
     "name": "Lenlusz",
     "level": 758,
     "rank": "DIAMOND III",
-    "wl": "118/101",
+    "wl": "119/101",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
   },
   "spark_bot": {
     "name": "UIC Flare",
     "level": 627,
     "rank": "EMERALD II",
-    "wl": "44/45",
+    "wl": "45/45",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -87,7 +87,7 @@
     "name": "UIC Shederen",
     "level": 293,
     "rank": "EMERALD I",
-    "wl": "133/118",
+    "wl": "133/119",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -129,7 +129,7 @@
     "name": "UIC Rubix Qube",
     "level": 483,
     "rank": "PLATINUM IV",
-    "wl": "102/101",
+    "wl": "103/101",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -142,8 +142,8 @@
   "nova_bot": {
     "name": "UIC Simply",
     "level": 430,
-    "rank": "PLATINUM III",
-    "wl": "34/39",
+    "rank": "PLATINUM II",
+    "wl": "35/39",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6388.png"
   },
   "nova_sup": {
