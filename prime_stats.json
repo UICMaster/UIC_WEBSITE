@@ -243,11 +243,12 @@
     },
     "stats": {
       "wins": 0,
-      "losses": 6,
+      "losses": 8,
       "points": 0,
-      "games": 6,
+      "games": 8,
       "win_rate": 0,
       "form": [
+        "L",
         "L",
         "L",
         "L"
@@ -261,8 +262,8 @@
     "last_match": {
       "result": "NIEDERLAGE",
       "score": "0 - 2",
-      "enemy": "DJ5",
-      "date": "2026-02-15T19:00:00+01:00"
+      "enemy": "d5b",
+      "date": "2026-02-18T20:00:00+01:00"
     },
     "roster": [
       {
