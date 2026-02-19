@@ -7,12 +7,13 @@
       "div": "Division 5"
     },
     "stats": {
-      "wins": 4,
+      "wins": 6,
       "losses": 0,
-      "points": 4,
-      "games": 4,
+      "points": 6,
+      "games": 6,
       "win_rate": 100,
       "form": [
+        "W",
         "W",
         "W"
       ]
@@ -25,8 +26,8 @@
     "last_match": {
       "result": "SIEG",
       "score": "2 - 0",
-      "enemy": "POG",
-      "date": "2026-02-08T20:00:00+01:00"
+      "enemy": "TBG",
+      "date": "2026-02-18T19:00:00+01:00"
     },
     "roster": [
       {
