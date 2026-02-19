@@ -17,7 +17,7 @@
     "name": "UIC Shenycrane",
     "level": 628,
     "rank": "MASTER I",
-    "wl": "58/51",
+    "wl": "59/52",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6387.png"
   },
   "prime_bot": {
@@ -52,7 +52,7 @@
     "name": "Lenlusz",
     "level": 758,
     "rank": "DIAMOND III",
-    "wl": "113/99",
+    "wl": "114/99",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
   },
   "spark_bot": {
@@ -79,15 +79,15 @@
   "ember_top": {
     "name": "SilasX",
     "level": 519,
-    "rank": "EMERALD III",
-    "wl": "33/43",
+    "rank": "EMERALD II",
+    "wl": "34/43",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6989.png"
   },
   "ember_jgl": {
     "name": "UIC Shederen",
     "level": 293,
     "rank": "EMERALD I",
-    "wl": "130/117",
+    "wl": "132/118",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -107,8 +107,8 @@
   "ember_sup": {
     "name": "UIC Envy",
     "level": 316,
-    "rank": "PLATINUM IV",
-    "wl": "121/116",
+    "rank": "PLATINUM III",
+    "wl": "124/116",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7087.png"
   },
   "ember_coach": {
@@ -129,14 +129,14 @@
     "name": "UIC Rubix Qube",
     "level": 483,
     "rank": "PLATINUM IV",
-    "wl": "101/99",
+    "wl": "102/99",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
     "name": "UIC adedier",
-    "level": 601,
+    "level": 602,
     "rank": "PLATINUM II",
-    "wl": "34/30",
+    "wl": "35/31",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4379.png"
   },
   "nova_bot": {
@@ -199,7 +199,7 @@
     "name": "JUST GO MAN",
     "level": 47,
     "rank": "MASTER I",
-    "wl": "83/74",
+    "wl": "84/75",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6038.png"
   },
   "night_mid": {
@@ -225,9 +225,9 @@
   },
   "freezer_top": {
     "name": "UIC Rayando07",
-    "level": 438,
+    "level": 439,
     "rank": "MASTER I",
-    "wl": "30/31",
+    "wl": "31/31",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3890.png"
   },
   "freezer_jgl": {
@@ -253,9 +253,9 @@
   },
   "freezer_sup": {
     "name": "UIC Ryu Copeland",
-    "level": 980,
+    "level": 981,
     "rank": "DIAMOND I",
-    "wl": "28/32",
+    "wl": "28/33",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6631.png"
   },
   "freezer_coach": {
