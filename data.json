@@ -86,8 +86,8 @@
   "ember_jgl": {
     "name": "UIC Shederen",
     "level": 294,
-    "rank": "EMERALD II",
-    "wl": "137/125",
+    "rank": "EMERALD I",
+    "wl": "138/125",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -129,7 +129,7 @@
     "name": "UIC Rubix Qube",
     "level": 484,
     "rank": "PLATINUM IV",
-    "wl": "106/105",
+    "wl": "106/106",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -162,7 +162,7 @@
   },
   "abyss_jgl": {
     "name": "UIC Keygasza",
-    "level": 455,
+    "level": 456,
     "rank": "EMERALD II",
     "wl": "11/29",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4087.png"
@@ -183,7 +183,7 @@
   },
   "abyss_sup": {
     "name": "TheEigeeen",
-    "level": 648,
+    "level": 649,
     "rank": "DIAMOND IV",
     "wl": "32/30",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6037.png"
