@@ -73,7 +73,7 @@
     "name": "soulrender",
     "level": 304,
     "rank": "MASTER I",
-    "wl": "80/77",
+    "wl": "81/77",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7070.png"
   },
   "ember_top": {
@@ -87,14 +87,14 @@
     "name": "UIC Shederen",
     "level": 294,
     "rank": "EMERALD I",
-    "wl": "137/122",
+    "wl": "137/123",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
     "name": "ResetHoe",
     "level": 866,
     "rank": "EMERALD II",
-    "wl": "53/62",
+    "wl": "54/62",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4793.png"
   },
   "ember_bot": {
@@ -121,15 +121,15 @@
   "nova_top": {
     "name": "TAS Kaetaya",
     "level": 847,
-    "rank": "EMERALD IV",
-    "wl": "21/20",
+    "rank": "EMERALD III",
+    "wl": "22/20",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4666.png"
   },
   "nova_jgl": {
     "name": "UIC Rubix Qube",
-    "level": 483,
+    "level": 484,
     "rank": "PLATINUM IV",
-    "wl": "104/104",
+    "wl": "105/105",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -246,7 +246,7 @@
   },
   "freezer_bot": {
     "name": "RG AutumnLeaf",
-    "level": 828,
+    "level": 829,
     "rank": "MASTER I",
     "wl": "46/41",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6373.png"
