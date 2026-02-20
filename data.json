@@ -71,9 +71,9 @@
   },
   "spark_coach": {
     "name": "soulrender",
-    "level": 304,
+    "level": 305,
     "rank": "MASTER I",
-    "wl": "81/77",
+    "wl": "81/79",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7070.png"
   },
   "ember_top": {
@@ -86,8 +86,8 @@
   "ember_jgl": {
     "name": "UIC Shederen",
     "level": 294,
-    "rank": "EMERALD I",
-    "wl": "137/123",
+    "rank": "EMERALD II",
+    "wl": "137/125",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -129,12 +129,12 @@
     "name": "UIC Rubix Qube",
     "level": 484,
     "rank": "PLATINUM IV",
-    "wl": "105/105",
+    "wl": "106/105",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
     "name": "UIC adedier",
-    "level": 602,
+    "level": 603,
     "rank": "PLATINUM II",
     "wl": "37/32",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4379.png"
