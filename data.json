@@ -57,9 +57,9 @@
   },
   "spark_bot": {
     "name": "UIC Flare",
-    "level": 627,
-    "rank": "EMERALD I",
-    "wl": "48/46",
+    "level": 628,
+    "rank": "EMERALD II",
+    "wl": "48/47",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -80,7 +80,7 @@
     "name": "SilasX",
     "level": 519,
     "rank": "EMERALD II",
-    "wl": "35/44",
+    "wl": "36/44",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6989.png"
   },
   "ember_jgl": {
@@ -108,7 +108,7 @@
     "name": "UIC Envy",
     "level": 317,
     "rank": "PLATINUM III",
-    "wl": "129/121",
+    "wl": "129/122",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7087.png"
   },
   "ember_coach": {
@@ -129,7 +129,7 @@
     "name": "UIC Rubix Qube",
     "level": 484,
     "rank": "PLATINUM IV",
-    "wl": "109/107",
+    "wl": "109/108",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -178,7 +178,7 @@
     "name": "UIC N1ghtm4reX",
     "level": 271,
     "rank": "DIAMOND III",
-    "wl": "28/20",
+    "wl": "29/20",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3398.png"
   },
   "abyss_sup": {
@@ -219,8 +219,8 @@
   "night_sup": {
     "name": "Zurashi",
     "level": 678,
-    "rank": "PLATINUM IV",
-    "wl": "75/76",
+    "rank": "PLATINUM III",
+    "wl": "76/76",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7068.png"
   },
   "freezer_top": {
