@@ -59,7 +59,7 @@
     "name": "UIC Flare",
     "level": 628,
     "rank": "EMERALD I",
-    "wl": "49/47",
+    "wl": "50/47",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -85,9 +85,9 @@
   },
   "ember_jgl": {
     "name": "UIC Shederen",
-    "level": 294,
+    "level": 295,
     "rank": "EMERALD I",
-    "wl": "140/127",
+    "wl": "142/127",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -108,7 +108,7 @@
     "name": "UIC Envy",
     "level": 318,
     "rank": "PLATINUM III",
-    "wl": "132/125",
+    "wl": "134/125",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7087.png"
   },
   "ember_coach": {
@@ -120,16 +120,16 @@
   },
   "nova_top": {
     "name": "TAS Kaetaya",
-    "level": 847,
+    "level": 848,
     "rank": "EMERALD III",
     "wl": "23/21",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3229.png"
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3228.png"
   },
   "nova_jgl": {
     "name": "UIC Rubix Qube",
     "level": 485,
     "rank": "PLATINUM IV",
-    "wl": "110/111",
+    "wl": "110/112",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -157,7 +157,7 @@
     "name": "UIC Dany",
     "level": 529,
     "rank": "EMERALD III",
-    "wl": "19/15",
+    "wl": "20/15",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4086.png"
   },
   "abyss_jgl": {
@@ -178,7 +178,7 @@
     "name": "UIC N1ghtm4reX",
     "level": 271,
     "rank": "DIAMOND III",
-    "wl": "29/21",
+    "wl": "29/22",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3398.png"
   },
   "abyss_sup": {
@@ -232,9 +232,9 @@
   },
   "freezer_jgl": {
     "name": "BlauerKlaus",
-    "level": 1134,
-    "rank": "DIAMOND I",
-    "wl": "41/40",
+    "level": 1135,
+    "rank": "MASTER I",
+    "wl": "42/40",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7049.png"
   },
   "freezer_mid": {
