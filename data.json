@@ -43,7 +43,7 @@
   },
   "spark_jgl": {
     "name": "UIC Lenno",
-    "level": 779,
+    "level": 780,
     "rank": "EMERALD IV",
     "wl": "65/56",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
@@ -58,8 +58,8 @@
   "spark_bot": {
     "name": "UIC Flare",
     "level": 627,
-    "rank": "EMERALD II",
-    "wl": "47/46",
+    "rank": "EMERALD I",
+    "wl": "48/46",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -107,8 +107,8 @@
   "ember_sup": {
     "name": "UIC Envy",
     "level": 317,
-    "rank": "PLATINUM IV",
-    "wl": "127/121",
+    "rank": "PLATINUM III",
+    "wl": "129/121",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7087.png"
   },
   "ember_coach": {
