@@ -64,7 +64,7 @@
   },
   "spark_sup": {
     "name": "Firehand",
-    "level": 388,
+    "level": 389,
     "rank": "PLATINUM II",
     "wl": "9/15",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7046.png"
@@ -87,7 +87,7 @@
     "name": "UIC Shederen",
     "level": 294,
     "rank": "EMERALD I",
-    "wl": "140/126",
+    "wl": "140/127",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -108,7 +108,7 @@
     "name": "UIC Envy",
     "level": 318,
     "rank": "PLATINUM III",
-    "wl": "132/124",
+    "wl": "132/125",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7087.png"
   },
   "ember_coach": {
@@ -123,13 +123,13 @@
     "level": 847,
     "rank": "EMERALD III",
     "wl": "23/21",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3607.png"
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3229.png"
   },
   "nova_jgl": {
     "name": "UIC Rubix Qube",
-    "level": 484,
+    "level": 485,
     "rank": "PLATINUM IV",
-    "wl": "110/110",
+    "wl": "110/111",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
