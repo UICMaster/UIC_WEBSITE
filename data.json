@@ -50,7 +50,7 @@
   },
   "spark_mid": {
     "name": "Lenlusz",
-    "level": 760,
+    "level": 761,
     "rank": "DIAMOND II",
     "wl": "130/110",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
@@ -71,9 +71,9 @@
   },
   "spark_coach": {
     "name": "soulrender",
-    "level": 305,
+    "level": 306,
     "rank": "MASTER I",
-    "wl": "84/81",
+    "wl": "85/82",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7070.png"
   },
   "ember_top": {
@@ -85,9 +85,9 @@
   },
   "ember_jgl": {
     "name": "UIC Shederen",
-    "level": 295,
+    "level": 296,
     "rank": "EMERALD I",
-    "wl": "147/132",
+    "wl": "147/133",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -129,21 +129,21 @@
     "name": "UIC Rubix Qube",
     "level": 486,
     "rank": "PLATINUM III",
-    "wl": "117/114",
+    "wl": "117/115",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
     "name": "UIC adedier",
     "level": 603,
     "rank": "PLATINUM II",
-    "wl": "37/35",
+    "wl": "38/36",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4379.png"
   },
   "nova_bot": {
     "name": "UIC Simply",
     "level": 431,
     "rank": "PLATINUM III",
-    "wl": "36/45",
+    "wl": "36/46",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6388.png"
   },
   "nova_sup": {
