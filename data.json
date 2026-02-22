@@ -59,7 +59,7 @@
     "name": "UIC Flare",
     "level": 628,
     "rank": "EMERALD I",
-    "wl": "51/47",
+    "wl": "52/47",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -87,14 +87,14 @@
     "name": "UIC Shederen",
     "level": 296,
     "rank": "EMERALD I",
-    "wl": "149/135",
+    "wl": "149/136",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
     "name": "ResetHoe",
-    "level": 866,
+    "level": 867,
     "rank": "EMERALD III",
-    "wl": "55/65",
+    "wl": "55/66",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4793.png"
   },
   "ember_bot": {
@@ -162,9 +162,9 @@
   },
   "abyss_jgl": {
     "name": "UIC Keygasza",
-    "level": 456,
+    "level": 457,
     "rank": "EMERALD II",
-    "wl": "11/29",
+    "wl": "12/29",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4087.png"
   },
   "abyss_mid": {
