@@ -394,15 +394,15 @@
     "roster": [
       {
         "summoner": "UIC Ryu Copeland#117",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC FrozenHands#MID",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "RG AutumnLeaf#Moo",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Rayando07#Help",
@@ -410,7 +410,7 @@
       },
       {
         "summoner": "BlauerKlaus#Qvy心",
-        "is_captain": false
+        "is_captain": true
       }
     ],
     "team_link": "https://www.primeleague.gg/de/leagues/teams/203146",
