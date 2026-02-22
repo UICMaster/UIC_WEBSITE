@@ -45,14 +45,14 @@
     "name": "UIC Lenno",
     "level": 780,
     "rank": "PLATINUM I",
-    "wl": "65/59",
+    "wl": "66/59",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
   },
   "spark_mid": {
     "name": "Lenlusz",
     "level": 760,
     "rank": "DIAMOND II",
-    "wl": "129/108",
+    "wl": "130/109",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
   },
   "spark_bot": {
@@ -66,14 +66,14 @@
     "name": "Firehand",
     "level": 389,
     "rank": "PLATINUM III",
-    "wl": "9/17",
+    "wl": "9/18",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7046.png"
   },
   "spark_coach": {
     "name": "soulrender",
     "level": 305,
-    "rank": "DIAMOND I",
-    "wl": "82/81",
+    "rank": "MASTER I",
+    "wl": "83/81",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7070.png"
   },
   "ember_top": {
@@ -129,7 +129,7 @@
     "name": "UIC Rubix Qube",
     "level": 485,
     "rank": "PLATINUM III",
-    "wl": "116/112",
+    "wl": "116/113",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -213,7 +213,7 @@
     "name": "UIC Rhinoshield",
     "level": 945,
     "rank": "EMERALD IV",
-    "wl": "136/132",
+    "wl": "136/134",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5350.png"
   },
   "night_sup": {
@@ -227,7 +227,7 @@
     "name": "UIC Rayando07",
     "level": 440,
     "rank": "MASTER I",
-    "wl": "32/33",
+    "wl": "33/33",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3890.png"
   },
   "freezer_jgl": {
@@ -253,9 +253,9 @@
   },
   "freezer_sup": {
     "name": "UIC Ryu Copeland",
-    "level": 981,
+    "level": 982,
     "rank": "MASTER I",
-    "wl": "31/34",
+    "wl": "32/34",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6631.png"
   },
   "freezer_coach": {
