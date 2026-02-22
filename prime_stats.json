@@ -40,11 +40,11 @@
       },
       {
         "summoner": "UIC Niki#AMB",
-        "is_captain": true
+        "is_captain": false
       },
       {
         "summoner": "UIC Speedy#EUW",
-        "is_captain": true
+        "is_captain": false
       },
       {
         "summoner": "UIC Giani#999",
@@ -281,7 +281,7 @@
       },
       {
         "summoner": "UIC Speedy#EUW",
-        "is_captain": true
+        "is_captain": false
       },
       {
         "summoner": "UIC Goku#UIC",
@@ -381,9 +381,9 @@
       ]
     },
     "next_match": {
-      "date": "2026-02-22T17:00:00+01:00",
-      "tag": "HBWL",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1154401"
+      "date": "2026-02-22T19:00:00+01:00",
+      "tag": "TSP",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1154397"
     },
     "last_match": {
       "result": "SIEG",
