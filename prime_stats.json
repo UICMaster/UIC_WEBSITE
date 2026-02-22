@@ -40,14 +40,18 @@
       },
       {
         "summoner": "UIC Niki#AMB",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Speedy#EUW",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Giani#999",
+        "is_captain": false
+      },
+      {
+        "summoner": "Baumi#123",
         "is_captain": false
       }
     ],
@@ -150,11 +154,11 @@
     "roster": [
       {
         "summoner": "UIC DontMethWith#AMB",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Envy#UIC",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Shederen#Ger",
@@ -281,7 +285,7 @@
       },
       {
         "summoner": "UIC Speedy#EUW",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Goku#UIC",
@@ -319,7 +323,7 @@
       ]
     },
     "next_match": {
-      "date": "2026-02-22T19:00:00+01:00",
+      "date": "2026-02-23T19:00:00+01:00",
       "tag": "TAUBE",
       "link": "https://www.primeleague.gg/de/leagues/matches/1154456"
     },
