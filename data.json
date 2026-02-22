@@ -52,7 +52,7 @@
     "name": "Lenlusz",
     "level": 760,
     "rank": "DIAMOND II",
-    "wl": "127/107",
+    "wl": "129/107",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
   },
   "spark_bot": {
@@ -72,8 +72,8 @@
   "spark_coach": {
     "name": "soulrender",
     "level": 305,
-    "rank": "MASTER I",
-    "wl": "81/80",
+    "rank": "DIAMOND I",
+    "wl": "81/81",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7070.png"
   },
   "ember_top": {
@@ -87,7 +87,7 @@
     "name": "UIC Shederen",
     "level": 295,
     "rank": "EMERALD I",
-    "wl": "145/132",
+    "wl": "146/132",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -106,9 +106,9 @@
   },
   "ember_sup": {
     "name": "UIC Envy",
-    "level": 318,
-    "rank": "PLATINUM III",
-    "wl": "137/127",
+    "level": 319,
+    "rank": "PLATINUM II",
+    "wl": "139/127",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7087.png"
   },
   "ember_coach": {
@@ -129,7 +129,7 @@
     "name": "UIC Rubix Qube",
     "level": 485,
     "rank": "PLATINUM III",
-    "wl": "115/112",
+    "wl": "116/112",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
