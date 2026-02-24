@@ -18,7 +18,11 @@
         "W"
       ]
     },
-    "next_match": null,
+    "next_match": {
+      "date": "2026-03-01T17:00:00+01:00",
+      "tag": "RIFT",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1153917"
+    },
     "last_match": {
       "result": "SIEG",
       "score": "2 - 0",
@@ -36,14 +40,18 @@
       },
       {
         "summoner": "UIC Niki#AMB",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Speedy#EUW",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Giani#999",
+        "is_captain": false
+      },
+      {
+        "summoner": "Baumi#123",
         "is_captain": false
       }
     ],
@@ -147,11 +155,11 @@
     "roster": [
       {
         "summoner": "UIC DontMethWith#AMB",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Envy#UIC",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Shederen#Ger",
@@ -278,7 +286,7 @@
       },
       {
         "summoner": "UIC Speedy#EUW",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Goku#UIC",
@@ -368,26 +376,27 @@
       "div": "Division 5"
     },
     "stats": {
-      "wins": 2,
+      "wins": 4,
       "losses": 2,
-      "points": 2,
-      "games": 4,
-      "win_rate": 50,
+      "points": 4,
+      "games": 6,
+      "win_rate": 67,
       "form": [
         "L",
+        "W",
         "W"
       ]
     },
     "next_match": {
-      "date": "2026-03-15T17:00:00+01:00",
-      "tag": "TJ",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1154413"
+      "date": "2026-03-05T19:00:00+01:00",
+      "tag": "ABL",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1154406"
     },
     "last_match": {
       "result": "SIEG",
       "score": "2 - 0",
-      "enemy": "CRINT",
-      "date": "2026-02-08T19:30:00+01:00"
+      "enemy": "TSP",
+      "date": "2026-02-22T19:00:00+01:00"
     },
     "roster": [
       {
