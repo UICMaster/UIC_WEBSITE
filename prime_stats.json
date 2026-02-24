@@ -19,9 +19,9 @@
       ]
     },
     "next_match": {
-      "date": "2026-03-01T17:00:00+01:00",
-      "tag": "RIFT",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1153917"
+      "date": "2026-03-08T17:00:00+01:00",
+      "tag": "LG",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1153920"
     },
     "last_match": {
       "result": "SIEG",
@@ -49,10 +49,6 @@
       {
         "summoner": "UIC Giani#999",
         "is_captain": false
-      },
-      {
-        "summoner": "Baumi#123",
-        "is_captain": false
       }
     ],
     "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -77,11 +73,7 @@
         "L"
       ]
     },
-    "next_match": {
-      "date": "2026-03-01T19:00:00+01:00",
-      "tag": "AUT",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1155330"
-    },
+    "next_match": null,
     "last_match": {
       "result": "NIEDERLAGE",
       "score": "0 - 2",
@@ -129,28 +121,23 @@
       "div": "Division 6"
     },
     "stats": {
-      "wins": 5,
-      "losses": 3,
-      "points": 5,
-      "games": 8,
-      "win_rate": 63,
+      "wins": 4,
+      "losses": 2,
+      "points": 4,
+      "games": 6,
+      "win_rate": 67,
       "form": [
         "W",
         "L",
-        "W",
-        "D"
+        "W"
       ]
     },
-    "next_match": {
-      "date": "2026-03-01T19:00:00+01:00",
-      "tag": "LBB",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1155078"
-    },
+    "next_match": null,
     "last_match": {
-      "result": "UNENTSCHIEDEN",
-      "score": "1 - 1",
-      "enemy": "9045",
-      "date": "2026-02-22T16:00:00+01:00"
+      "result": "SIEG",
+      "score": "2 - 0",
+      "enemy": "TLG",
+      "date": "2026-02-17T18:00:00+01:00"
     },
     "roster": [
       {
@@ -197,9 +184,9 @@
       ]
     },
     "next_match": {
-      "date": "2026-03-01T19:00:00+01:00",
-      "tag": "IF",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1155533"
+      "date": "2026-03-15T19:00:00+01:00",
+      "tag": "TBD",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1155540"
     },
     "last_match": {
       "result": "NIEDERLAGE",
@@ -261,9 +248,9 @@
       ]
     },
     "next_match": {
-      "date": "2026-03-01T17:00:00+01:00",
-      "tag": "ODE",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1154182"
+      "date": "2026-03-15T17:00:00+01:00",
+      "tag": "BAINT",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1154189"
     },
     "last_match": {
       "result": "NIEDERLAGE",
@@ -324,9 +311,9 @@
       ]
     },
     "next_match": {
-      "date": "2026-03-01T19:00:00+01:00",
-      "tag": "SpaCo",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1154462"
+      "date": "2026-03-15T19:00:00+01:00",
+      "tag": "TBD",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1154470"
     },
     "last_match": {
       "result": "NIEDERLAGE",
@@ -386,9 +373,9 @@
       ]
     },
     "next_match": {
-      "date": "2026-03-01T17:00:00+01:00",
-      "tag": "ABL",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1154406"
+      "date": "2026-03-15T17:00:00+01:00",
+      "tag": "TJ",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1154413"
     },
     "last_match": {
       "result": "SIEG",
