@@ -18,11 +18,7 @@
         "W"
       ]
     },
-    "next_match": {
-      "date": "2026-03-08T17:00:00+01:00",
-      "tag": "LG",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1153920"
-    },
+    "next_match": null,
     "last_match": {
       "result": "SIEG",
       "score": "2 - 0",
