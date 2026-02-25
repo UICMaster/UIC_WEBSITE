@@ -7,12 +7,13 @@
       "div": "Division 5"
     },
     "stats": {
-      "wins": 6,
+      "wins": 8,
       "losses": 0,
-      "points": 6,
-      "games": 6,
+      "points": 8,
+      "games": 8,
       "win_rate": 100,
       "form": [
+        "W",
         "W",
         "W",
         "W"
@@ -26,8 +27,8 @@
     "last_match": {
       "result": "SIEG",
       "score": "2 - 0",
-      "enemy": "TBG",
-      "date": "2026-02-18T19:00:00+01:00"
+      "enemy": "NGNS RR",
+      "date": "2026-02-22T20:00:00+01:00"
     },
     "roster": [
       {
