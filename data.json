@@ -59,21 +59,21 @@
     "name": "UIC Flare",
     "level": 628,
     "rank": "EMERALD I",
-    "wl": "52/47",
+    "wl": "53/47",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
     "name": "Firehand",
     "level": 389,
     "rank": "PLATINUM II",
-    "wl": "11/18",
+    "wl": "11/19",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7046.png"
   },
   "spark_coach": {
     "name": "soulrender",
     "level": 307,
-    "rank": "DIAMOND I",
-    "wl": "89/88",
+    "rank": "MASTER I",
+    "wl": "90/88",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7070.png"
   },
   "ember_top": {
@@ -87,19 +87,19 @@
     "name": "UIC Shederen",
     "level": 297,
     "rank": "EMERALD II",
-    "wl": "155/145",
+    "wl": "155/146",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7035.png"
   },
   "ember_mid": {
     "name": "ResetHoe",
     "level": 868,
     "rank": "EMERALD II",
-    "wl": "63/69",
+    "wl": "63/70",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4793.png"
   },
   "ember_bot": {
     "name": "UIC DontMethWith",
-    "level": 1302,
+    "level": 1303,
     "rank": "DIAMOND III",
     "wl": "135/124",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
@@ -129,7 +129,7 @@
     "name": "UIC Rubix Qube",
     "level": 488,
     "rank": "PLATINUM IV",
-    "wl": "130/130",
+    "wl": "130/131",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
