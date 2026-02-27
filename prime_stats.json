@@ -32,11 +32,11 @@
     },
     "roster": [
       {
-        "summoner": "UIC Baguetto#R3kt",
-        "is_captain": false
+        "summoner": "UIC Speedy#EUW",
+        "is_captain": true
       },
       {
-        "summoner": "UIC Shenycrane#Vugel",
+        "summoner": "UIC Baguetto#R3kt",
         "is_captain": false
       },
       {
@@ -44,11 +44,11 @@
         "is_captain": true
       },
       {
-        "summoner": "UIC Speedy#EUW",
-        "is_captain": true
+        "summoner": "UIC Giani#999",
+        "is_captain": false
       },
       {
-        "summoner": "UIC Giani#999",
+        "summoner": "UIC Shenycrane#Vugel",
         "is_captain": false
       },
       {
@@ -91,12 +91,16 @@
     },
     "roster": [
       {
-        "summoner": "UIC Flare#JND",
-        "is_captain": true
-      },
-      {
         "summoner": "UIC Lenno#UIC",
         "is_captain": false
+      },
+      {
+        "summoner": "Firehand#1337",
+        "is_captain": false
+      },
+      {
+        "summoner": "UIC Flare#JND",
+        "is_captain": true
       },
       {
         "summoner": "Lenlusz#EAZ",
@@ -107,15 +111,11 @@
         "is_captain": false
       },
       {
-        "summoner": "Firehand#1337",
+        "summoner": "UIC Dragonfly#1299",
         "is_captain": false
       },
       {
         "summoner": "soulrender#fent",
-        "is_captain": false
-      },
-      {
-        "summoner": "UIC Dragonfly#1299",
         "is_captain": false
       }
     ],
@@ -155,24 +155,24 @@
     },
     "roster": [
       {
+        "summoner": "ResetHoe#Kata",
+        "is_captain": false
+      },
+      {
         "summoner": "UIC DontMethWith#AMB",
         "is_captain": true
-      },
-      {
-        "summoner": "UIC Envy#UIC",
-        "is_captain": true
-      },
-      {
-        "summoner": "UIC Shederen#Ger",
-        "is_captain": false
       },
       {
         "summoner": "SilasX#EUWde",
         "is_captain": false
       },
       {
-        "summoner": "ResetHoe#Kata",
+        "summoner": "UIC Shederen#Ger",
         "is_captain": false
+      },
+      {
+        "summoner": "UIC Envy#UIC",
+        "is_captain": true
       }
     ],
     "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
@@ -210,24 +210,24 @@
     },
     "roster": [
       {
-        "summoner": "UIC Rubix Qube#MÖP",
-        "is_captain": true
-      },
-      {
         "summoner": "Rhamuthra#4444",
         "is_captain": false
       },
       {
-        "summoner": "UIC Muh#KATZE",
-        "is_captain": false
+        "summoner": "UIC Excellent C#1997",
+        "is_captain": true
       },
       {
         "summoner": "UIC Simply#666",
         "is_captain": true
       },
       {
-        "summoner": "UIC Excellent C#1997",
+        "summoner": "UIC Rubix Qube#MÖP",
         "is_captain": true
+      },
+      {
+        "summoner": "UIC Muh#KATZE",
+        "is_captain": false
       },
       {
         "summoner": "UIC adedier#EUWE",
@@ -274,24 +274,24 @@
     },
     "roster": [
       {
-        "summoner": "UIC M Character#UIC",
-        "is_captain": false
-      },
-      {
-        "summoner": "TheEigeeen#EIGI",
-        "is_captain": false
+        "summoner": "UIC Speedy#EUW",
+        "is_captain": true
       },
       {
         "summoner": "UIC Keygasza#1337",
         "is_captain": true
       },
       {
-        "summoner": "UIC Speedy#EUW",
-        "is_captain": true
+        "summoner": "UIC M Character#UIC",
+        "is_captain": false
       },
       {
         "summoner": "UIC Goku#UIC",
         "is_captain": true
+      },
+      {
+        "summoner": "TheEigeeen#EIGI",
+        "is_captain": false
       },
       {
         "summoner": "UIC DANY#RFA40",
@@ -338,15 +338,15 @@
     },
     "roster": [
       {
-        "summoner": "MaZiN#EUWL9",
+        "summoner": "ривен#sabi",
         "is_captain": false
       },
       {
-        "summoner": "UIC ReCord#Cedo",
+        "summoner": "UIC Cedo#EUW",
         "is_captain": true
       },
       {
-        "summoner": "UIC Cedo#EUW",
+        "summoner": "UIC ReCord#Cedo",
         "is_captain": true
       },
       {
@@ -354,16 +354,16 @@
         "is_captain": true
       },
       {
-        "summoner": "ривен#sabi",
-        "is_captain": false
-      },
-      {
-        "summoner": "Sylveon#mine",
+        "summoner": "MaZiN#EUWL9",
         "is_captain": false
       },
       {
         "summoner": "UIC Shockwave#EUW",
         "is_captain": true
+      },
+      {
+        "summoner": "Sylveon#mine",
+        "is_captain": false
       }
     ],
     "team_link": "https://www.primeleague.gg/de/leagues/teams/212047",
@@ -401,11 +401,15 @@
     },
     "roster": [
       {
+        "summoner": "UIC FrozenHands#MID",
+        "is_captain": true
+      },
+      {
         "summoner": "UIC Ryu Copeland#117",
         "is_captain": true
       },
       {
-        "summoner": "UIC FrozenHands#MID",
+        "summoner": "BlauerKlaus#Qvy心",
         "is_captain": true
       },
       {
@@ -415,10 +419,6 @@
       {
         "summoner": "UIC Rayando07#Help",
         "is_captain": false
-      },
-      {
-        "summoner": "BlauerKlaus#Qvy心",
-        "is_captain": true
       }
     ],
     "team_link": "https://www.primeleague.gg/de/leagues/teams/203146",
