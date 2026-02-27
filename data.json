@@ -51,8 +51,8 @@
   "spark_mid": {
     "name": "Lenlusz",
     "level": 764,
-    "rank": "DIAMOND IV",
-    "wl": "143/131",
+    "rank": "DIAMOND III",
+    "wl": "144/131",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
   },
   "spark_bot": {
@@ -64,7 +64,7 @@
   },
   "spark_sup": {
     "name": "Firehand",
-    "level": 389,
+    "level": 390,
     "rank": "PLATINUM II",
     "wl": "12/19",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7046.png"
@@ -134,9 +134,9 @@
   },
   "nova_mid": {
     "name": "UIC adedier",
-    "level": 604,
-    "rank": "PLATINUM II",
-    "wl": "43/41",
+    "level": 605,
+    "rank": "PLATINUM III",
+    "wl": "43/43",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4379.png"
   },
   "nova_bot": {
@@ -162,10 +162,10 @@
   },
   "abyss_jgl": {
     "name": "UIC Keygasza",
-    "level": 458,
+    "level": 459,
     "rank": "EMERALD II",
     "wl": "13/33",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4087.png"
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7091.png"
   },
   "abyss_mid": {
     "name": "UIC Goku",
