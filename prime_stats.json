@@ -7,12 +7,13 @@
       "div": "Division 5"
     },
     "stats": {
-      "wins": 8,
+      "wins": 10,
       "losses": 0,
-      "points": 8,
-      "games": 8,
+      "points": 10,
+      "games": 10,
       "win_rate": 100,
       "form": [
+        "W",
         "W",
         "W",
         "W",
@@ -27,8 +28,8 @@
     "last_match": {
       "result": "SIEG",
       "score": "2 - 0",
-      "enemy": "NGNS RR",
-      "date": "2026-02-22T20:00:00+01:00"
+      "enemy": "RIFT",
+      "date": "2026-02-28T19:00:00+01:00"
     },
     "roster": [
       {
