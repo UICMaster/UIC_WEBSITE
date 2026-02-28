@@ -51,15 +51,15 @@
   "spark_mid": {
     "name": "Lenlusz",
     "level": 764,
-    "rank": "DIAMOND IV",
-    "wl": "144/132",
+    "rank": "DIAMOND III",
+    "wl": "146/132",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
   },
   "spark_bot": {
     "name": "UIC Flare",
     "level": 629,
-    "rank": "EMERALD I",
-    "wl": "55/49",
+    "rank": "DIAMOND IV",
+    "wl": "56/49",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -94,7 +94,7 @@
     "name": "ResetHoe",
     "level": 868,
     "rank": "EMERALD II",
-    "wl": "67/72",
+    "wl": "67/73",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4793.png"
   },
   "ember_bot": {
@@ -127,9 +127,9 @@
   },
   "nova_jgl": {
     "name": "UIC Rubix Qube",
-    "level": 488,
+    "level": 489,
     "rank": "PLATINUM IV",
-    "wl": "132/132",
+    "wl": "133/132",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -213,7 +213,7 @@
     "name": "Zurashi",
     "level": 679,
     "rank": "PLATINUM III",
-    "wl": "77/77",
+    "wl": "78/77",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7068.png"
   },
   "freezer_top": {
