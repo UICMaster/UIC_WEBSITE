@@ -9,8 +9,8 @@
   "prime_jgl": {
     "name": "UIC Niki",
     "level": 1006,
-    "rank": "DIAMOND I",
-    "wl": "34/38",
+    "rank": "DIAMOND II",
+    "wl": "34/40",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4380.png"
   },
   "prime_mid": {
@@ -51,8 +51,8 @@
   "spark_mid": {
     "name": "Lenlusz",
     "level": 764,
-    "rank": "DIAMOND III",
-    "wl": "144/131",
+    "rank": "DIAMOND IV",
+    "wl": "144/132",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
   },
   "spark_bot": {
@@ -94,7 +94,7 @@
     "name": "ResetHoe",
     "level": 868,
     "rank": "EMERALD II",
-    "wl": "63/70",
+    "wl": "63/71",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4793.png"
   },
   "ember_bot": {
@@ -197,9 +197,9 @@
   },
   "night_mid": {
     "name": "UIC Kuroko",
-    "level": 583,
+    "level": 584,
     "rank": "DIAMOND IV",
-    "wl": "21/24",
+    "wl": "21/26",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3494.png"
   },
   "night_bot": {
