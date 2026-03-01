@@ -29,7 +29,7 @@ const teams = {
         { gameName: 'ResetHoe', tagLine: 'Kata' },
         { gameName: 'UIC DontMethWith', tagLine: 'AMB' },
         { gameName: 'UIC Envy', tagLine: 'UIC' }, 
-        { gameName: 'RatHairedShanks', tagLine: 'NoPie' }
+        { gameName: 'UIC Shekar', tagLine: '5ONiT' }
     ],
     "nova": [
         { gameName: 'TAS Kaetaya', tagLine: 'XwX' },
