@@ -69,13 +69,6 @@
     "wl": "12/22",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7046.png"
   },
-  "spark_coach": {
-    "name": "soulrender",
-    "level": 308,
-    "rank": "MASTER I",
-    "wl": "91/93",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7070.png"
-  },
   "ember_top": {
     "name": "SilasX",
     "level": 520,
@@ -112,11 +105,11 @@
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7087.png"
   },
   "ember_coach": {
-    "name": "RatHairedShanks",
-    "level": 365,
-    "rank": "UNRANKED",
-    "wl": "0/0",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/785.png"
+    "name": "UIC Shekar",
+    "level": 592,
+    "rank": "DIAMOND I",
+    "wl": "102/105",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3231.png"
   },
   "nova_top": {
     "name": "TAS Kaetaya",
@@ -195,19 +188,19 @@
     "wl": "35/34",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7048.png"
   },
+  "night_jgl": {
+    "name": "Münzwurf",
+    "level": 49,
+    "rank": "MASTER I",
+    "wl": "92/86",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7027.png"
+  },
   "night_mid": {
     "name": "UIC Kuroko",
     "level": 584,
     "rank": "DIAMOND IV",
     "wl": "21/26",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3494.png"
-  },
-  "night_bot": {
-    "name": "UIC Rhinoshield",
-    "level": 946,
-    "rank": "PLATINUM II",
-    "wl": "138/142",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5350.png"
   },
   "night_sup": {
     "name": "Zurashi",
