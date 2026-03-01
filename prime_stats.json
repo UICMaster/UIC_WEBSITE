@@ -34,7 +34,7 @@
     "roster": [
       {
         "summoner": "UIC Speedy#EUW",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Baguetto#R3kt",
@@ -42,7 +42,7 @@
       },
       {
         "summoner": "UIC Niki#AMB",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Giani#999",
@@ -276,7 +276,7 @@
     "roster": [
       {
         "summoner": "UIC Speedy#EUW",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Keygasza#1337",
