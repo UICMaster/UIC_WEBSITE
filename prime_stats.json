@@ -69,26 +69,27 @@
     },
     "stats": {
       "wins": 3,
-      "losses": 3,
+      "losses": 5,
       "points": 3,
-      "games": 6,
-      "win_rate": 50,
+      "games": 8,
+      "win_rate": 38,
       "form": [
         "W",
         "D",
+        "L",
         "L"
       ]
     },
     "next_match": {
-      "date": "2026-03-08T19:00:00+01:00",
+      "date": "2026-03-11T20:00:00+01:00",
       "tag": "DKL",
       "link": "https://www.primeleague.gg/de/leagues/matches/1155332"
     },
     "last_match": {
       "result": "NIEDERLAGE",
       "score": "0 - 2",
-      "enemy": "DSDS",
-      "date": "2026-02-15T19:00:00+01:00"
+      "enemy": "AUT",
+      "date": "2026-03-01T19:00:00+01:00"
     },
     "roster": [
       {
