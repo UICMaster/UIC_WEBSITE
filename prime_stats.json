@@ -144,9 +144,9 @@
       ]
     },
     "next_match": {
-      "date": "2026-03-01T16:00:00+01:00",
-      "tag": "LBB",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1155078"
+      "date": "2026-03-08T19:00:00+01:00",
+      "tag": "INT",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1155081"
     },
     "last_match": {
       "result": "UNENTSCHIEDEN",
@@ -174,6 +174,10 @@
       {
         "summoner": "UIC Envy#UIC",
         "is_captain": true
+      },
+      {
+        "summoner": "UIC Rubix Qube#MÖP",
+        "is_captain": false
       }
     ],
     "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
@@ -224,7 +228,7 @@
       },
       {
         "summoner": "UIC Rubix Qube#MÖP",
-        "is_captain": true
+        "is_captain": false
       },
       {
         "summoner": "UIC Muh#KATZE",
