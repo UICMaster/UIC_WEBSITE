@@ -21,8 +21,7 @@ const teams = {
         { gameName: 'UIC Lenno', tagLine: 'UIC' },
         { gameName: 'Lenlusz', tagLine: 'EAZ' },
         { gameName: 'UIC Flare', tagLine: 'JND' },
-        { gameName: 'Firehand', tagLine: '1337' }, 
-        { gameName: 'soulrender', tagLine: 'fent' }
+        { gameName: 'Firehand', tagLine: '1337' }
     ],
     "ember": [
         { gameName: 'SilasX', tagLine: 'EUWde' },
@@ -50,9 +49,9 @@ const teams = {
     ],
     "night": [
         { gameName: ' 张吉利', tagLine: '777' },
-        { gameName: 'JUST GO MAN', tagLine: 'zzz' },
+        { gameName: 'Münzwurf', tagLine: 'JGL' },
         { gameName: 'UIC Kuroko', tagLine: 'Pass' },
-        { gameName: 'UIC Rhinoshield', tagLine: 'RIN' },
+        { gameName: '', tagLine: '' },
         { gameName: 'Zurashi', tagLine: 'xyz' },
         { gameName: '', tagLine: '' }
     ],
