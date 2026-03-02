@@ -94,7 +94,7 @@
     "roster": [
       {
         "summoner": "UIC Flare#JND",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Lenno#UIC",
@@ -179,7 +179,7 @@
       },
       {
         "summoner": "UIC Rubix Qube#MÖP",
-        "is_captain": false
+        "is_captain": true
       }
     ],
     "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
@@ -218,7 +218,7 @@
     "roster": [
       {
         "summoner": "UIC Rubix Qube#MÖP",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "Rhamuthra#4444",
