@@ -10,7 +10,7 @@
     "name": "UIC Niki",
     "level": 1008,
     "rank": "DIAMOND I",
-    "wl": "43/45",
+    "wl": "44/46",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4380.png"
   },
   "prime_mid": {
@@ -45,14 +45,14 @@
     "name": "UIC Lenno",
     "level": 782,
     "rank": "PLATINUM II",
-    "wl": "68/67",
+    "wl": "69/67",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
   },
   "spark_mid": {
     "name": "Lenlusz",
     "level": 766,
-    "rank": "DIAMOND I",
-    "wl": "161/140",
+    "rank": "DIAMOND II",
+    "wl": "161/142",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
   },
   "spark_bot": {
@@ -92,9 +92,9 @@
   },
   "ember_bot": {
     "name": "UIC DontMethWith",
-    "level": 1303,
+    "level": 1304,
     "rank": "DIAMOND III",
-    "wl": "137/126",
+    "wl": "138/127",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
@@ -108,7 +108,7 @@
     "name": "UIC Shekar",
     "level": 594,
     "rank": "MASTER I",
-    "wl": "108/111",
+    "wl": "109/111",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3231.png"
   },
   "nova_top": {
@@ -141,7 +141,7 @@
   },
   "nova_sup": {
     "name": "UIC Excellent C",
-    "level": 554,
+    "level": 555,
     "rank": "PLATINUM III",
     "wl": "57/55",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7064.png"
@@ -170,8 +170,8 @@
   "abyss_bot": {
     "name": "UIC N1ghtm4reX",
     "level": 272,
-    "rank": "DIAMOND IV",
-    "wl": "29/24",
+    "rank": "DIAMOND III",
+    "wl": "30/24",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3398.png"
   },
   "abyss_sup": {
