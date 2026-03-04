@@ -44,15 +44,15 @@
   "spark_jgl": {
     "name": "UIC Lenno",
     "level": 783,
-    "rank": "PLATINUM II",
-    "wl": "69/67",
+    "rank": "PLATINUM III",
+    "wl": "69/69",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
   },
   "spark_mid": {
     "name": "Lenlusz",
     "level": 766,
     "rank": "DIAMOND II",
-    "wl": "161/142",
+    "wl": "162/143",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
   },
   "spark_bot": {
@@ -71,9 +71,9 @@
   },
   "ember_top": {
     "name": "SilasX",
-    "level": 520,
+    "level": 521,
     "rank": "EMERALD II",
-    "wl": "45/53",
+    "wl": "46/53",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6989.png"
   },
   "ember_jgl": {
@@ -101,7 +101,7 @@
     "name": "UIC Envy",
     "level": 324,
     "rank": "PLATINUM I",
-    "wl": "161/145",
+    "wl": "162/145",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7051.png"
   },
   "ember_coach": {
