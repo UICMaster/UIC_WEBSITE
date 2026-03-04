@@ -51,8 +51,8 @@
   "spark_mid": {
     "name": "Lenlusz",
     "level": 766,
-    "rank": "DIAMOND II",
-    "wl": "162/143",
+    "rank": "DIAMOND I",
+    "wl": "164/143",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
   },
   "spark_bot": {
@@ -94,14 +94,14 @@
     "name": "UIC DontMethWith",
     "level": 1304,
     "rank": "DIAMOND III",
-    "wl": "139/128",
+    "wl": "140/128",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
     "name": "UIC Envy",
     "level": 324,
     "rank": "PLATINUM I",
-    "wl": "162/145",
+    "wl": "162/146",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7051.png"
   },
   "ember_coach": {
@@ -162,9 +162,9 @@
   },
   "abyss_mid": {
     "name": "UIC Goku",
-    "level": 462,
+    "level": 463,
     "rank": "EMERALD IV",
-    "wl": "49/50",
+    "wl": "50/51",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/538.png"
   },
   "abyss_bot": {
