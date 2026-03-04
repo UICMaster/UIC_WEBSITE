@@ -45,19 +45,19 @@
     "name": "UIC Lenno",
     "level": 783,
     "rank": "PLATINUM II",
-    "wl": "70/69",
+    "wl": "71/70",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
   },
   "spark_mid": {
     "name": "Lenlusz",
     "level": 767,
-    "rank": "DIAMOND II",
-    "wl": "166/146",
+    "rank": "DIAMOND I",
+    "wl": "167/146",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7047.png"
   },
   "spark_bot": {
     "name": "UIC Flare",
-    "level": 629,
+    "level": 630,
     "rank": "DIAMOND IV",
     "wl": "58/50",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
@@ -106,9 +106,9 @@
   },
   "ember_coach": {
     "name": "UIC Shekar",
-    "level": 594,
+    "level": 595,
     "rank": "MASTER I",
-    "wl": "111/115",
+    "wl": "113/115",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3231.png"
   },
   "nova_top": {
