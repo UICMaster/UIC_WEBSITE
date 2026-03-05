@@ -385,13 +385,14 @@
       "div": "Division 5"
     },
     "stats": {
-      "wins": 4,
+      "wins": 6,
       "losses": 2,
-      "points": 4,
-      "games": 6,
-      "win_rate": 67,
+      "points": 6,
+      "games": 8,
+      "win_rate": 75,
       "form": [
         "L",
+        "W",
         "W",
         "W"
       ]
@@ -404,8 +405,8 @@
     "last_match": {
       "result": "SIEG",
       "score": "2 - 0",
-      "enemy": "TSP",
-      "date": "2026-02-22T19:00:00+01:00"
+      "enemy": "ABL",
+      "date": "2026-03-05T19:00:00+01:00"
     },
     "roster": [
       {
