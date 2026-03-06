@@ -3,14 +3,14 @@
     "name": "UIC Speedy",
     "level": 1141,
     "rank": "DIAMOND III",
-    "wl": "19/30",
+    "wl": "19/31",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/752.png"
   },
   "prime_jgl": {
     "name": "UIC Niki",
     "level": 1009,
     "rank": "DIAMOND I",
-    "wl": "45/48",
+    "wl": "46/48",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4380.png"
   },
   "prime_mid": {
@@ -45,14 +45,14 @@
     "name": "UIC Lenno",
     "level": 784,
     "rank": "PLATINUM II",
-    "wl": "76/73",
+    "wl": "76/75",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/2073.png"
   },
   "spark_mid": {
     "name": "Lenlusz",
     "level": 768,
     "rank": "MASTER I",
-    "wl": "175/151",
+    "wl": "176/152",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5435.png"
   },
   "spark_bot": {
@@ -101,7 +101,7 @@
     "name": "UIC Envy",
     "level": 324,
     "rank": "PLATINUM I",
-    "wl": "163/148",
+    "wl": "163/149",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7051.png"
   },
   "ember_coach": {
@@ -135,8 +135,8 @@
   "nova_bot": {
     "name": "UIC Simply",
     "level": 433,
-    "rank": "PLATINUM III",
-    "wl": "41/49",
+    "rank": "PLATINUM II",
+    "wl": "43/49",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6412.png"
   },
   "nova_sup": {
