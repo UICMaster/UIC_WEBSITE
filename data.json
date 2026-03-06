@@ -101,14 +101,14 @@
     "name": "UIC Envy",
     "level": 324,
     "rank": "PLATINUM I",
-    "wl": "162/146",
+    "wl": "162/147",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7051.png"
   },
   "ember_coach": {
     "name": "UIC Shekar",
     "level": 596,
     "rank": "MASTER I",
-    "wl": "124/119",
+    "wl": "125/120",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3231.png"
   },
   "nova_top": {
@@ -117,6 +117,13 @@
     "rank": "EMERALD III",
     "wl": "27/26",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6022.png"
+  },
+  "nova_jgl": {
+    "name": "UIC Rubix Qube",
+    "level": 490,
+    "rank": "PLATINUM IV",
+    "wl": "135/139",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
     "name": "UIC adedier",
