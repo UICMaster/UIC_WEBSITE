@@ -7,17 +7,17 @@
       "div": "Division 5"
     },
     "stats": {
-      "wins": 10,
-      "losses": 0,
-      "points": 10,
-      "games": 10,
-      "win_rate": 100,
+      "wins": 11,
+      "losses": 1,
+      "points": 11,
+      "games": 12,
+      "win_rate": 92,
       "form": [
         "W",
         "W",
         "W",
         "W",
-        "W"
+        "D"
       ]
     },
     "next_match": {
@@ -26,10 +26,10 @@
       "link": "https://www.primeleague.gg/de/leagues/matches/1153922"
     },
     "last_match": {
-      "result": "SIEG",
-      "score": "2 - 0",
-      "enemy": "RIFT",
-      "date": "2026-02-28T19:00:00+01:00"
+      "result": "UNENTSCHIEDEN",
+      "score": "1 - 1",
+      "enemy": "LG",
+      "date": "2026-03-08T20:00:00+01:00"
     },
     "roster": [
       {
