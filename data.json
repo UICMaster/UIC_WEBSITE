@@ -101,14 +101,14 @@
     "name": "UIC Envy",
     "level": 326,
     "rank": "EMERALD IV",
-    "wl": "173/154",
+    "wl": "173/155",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7100.png"
   },
   "ember_coach": {
     "name": "UIC Shekar",
     "level": 599,
     "rank": "MASTER I",
-    "wl": "140/137",
+    "wl": "141/137",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3231.png"
   },
   "nova_top": {
@@ -122,7 +122,7 @@
     "name": "UIC Rubix Qube",
     "level": 492,
     "rank": "PLATINUM IV",
-    "wl": "142/143",
+    "wl": "142/144",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -163,8 +163,8 @@
   "abyss_mid": {
     "name": "UIC Goku",
     "level": 464,
-    "rank": "EMERALD II",
-    "wl": "57/53",
+    "rank": "EMERALD III",
+    "wl": "57/54",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/538.png"
   },
   "abyss_bot": {
