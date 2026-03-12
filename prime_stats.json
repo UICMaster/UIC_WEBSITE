@@ -95,7 +95,7 @@
     "roster": [
       {
         "summoner": "UIC Flare#JND",
-        "is_captain": false
+        "is_captain": true
       },
       {
         "summoner": "UIC Lenno#UIC",
