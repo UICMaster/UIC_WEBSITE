@@ -199,11 +199,12 @@
     },
     "stats": {
       "wins": 0,
-      "losses": 8,
+      "losses": 10,
       "points": 0,
-      "games": 8,
+      "games": 10,
       "win_rate": 0,
       "form": [
+        "L",
         "L",
         "L",
         "L",
@@ -218,8 +219,8 @@
     "last_match": {
       "result": "NIEDERLAGE",
       "score": "0 - 2",
-      "enemy": "IF",
-      "date": "2026-03-07T15:00:00+01:00"
+      "enemy": "RAC",
+      "date": "2026-03-12T20:00:00+01:00"
     },
     "roster": [
       {
