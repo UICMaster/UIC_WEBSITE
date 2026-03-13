@@ -81,11 +81,7 @@
         "W"
       ]
     },
-    "next_match": {
-      "date": "2026-03-13T21:00:00+01:00",
-      "tag": "ENINT",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1155338"
-    },
+    "next_match": null,
     "last_match": {
       "result": "SIEG",
       "score": "2 - 0",
