@@ -156,11 +156,11 @@
     "roster": [
       {
         "summoner": "UIC DontMethWith#AMB",
-        "is_captain": true
+        "is_captain": false
       },
       {
         "summoner": "UIC Envy#UIC",
-        "is_captain": true
+        "is_captain": false
       },
       {
         "summoner": "UIC Shederen#Ger",
