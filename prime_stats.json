@@ -129,16 +129,16 @@
       "div": "Division 6"
     },
     "stats": {
-      "wins": 7,
+      "wins": 9,
       "losses": 5,
-      "points": 7,
-      "games": 12,
-      "win_rate": 58,
+      "points": 9,
+      "games": 14,
+      "win_rate": 64,
       "form": [
-        "L",
         "W",
         "D",
         "L",
+        "W",
         "W"
       ]
     },
@@ -146,8 +146,8 @@
     "last_match": {
       "result": "SIEG",
       "score": "2 - 0",
-      "enemy": "INT",
-      "date": "2026-03-08T20:00:00+01:00"
+      "enemy": "WGG",
+      "date": "2026-03-14T18:30:00+01:00"
     },
     "roster": [
       {
