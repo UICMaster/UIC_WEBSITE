@@ -69,24 +69,24 @@
     },
     "stats": {
       "wins": 5,
-      "losses": 5,
+      "losses": 7,
       "points": 5,
-      "games": 10,
-      "win_rate": 50,
+      "games": 12,
+      "win_rate": 42,
       "form": [
-        "W",
         "D",
         "L",
         "L",
-        "W"
+        "W",
+        "L"
       ]
     },
     "next_match": null,
     "last_match": {
-      "result": "SIEG",
-      "score": "2 - 0",
-      "enemy": "DKL",
-      "date": "2026-03-11T20:00:00+01:00"
+      "result": "NIEDERLAGE",
+      "score": "0 - 2",
+      "enemy": "ENINT",
+      "date": "2026-03-13T21:00:00+01:00"
     },
     "roster": [
       {
