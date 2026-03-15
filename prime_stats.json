@@ -187,9 +187,9 @@
     },
     "stats": {
       "wins": 0,
-      "losses": 10,
+      "losses": 12,
       "points": 0,
-      "games": 10,
+      "games": 12,
       "win_rate": 0,
       "form": [
         "L",
@@ -203,8 +203,8 @@
     "last_match": {
       "result": "NIEDERLAGE",
       "score": "0 - 2",
-      "enemy": "RAC",
-      "date": "2026-03-12T20:00:00+01:00"
+      "enemy": "SG",
+      "date": "2026-03-15T19:00:00+01:00"
     },
     "roster": [
       {
@@ -294,7 +294,7 @@
       },
       {
         "summoner": "Ainvy#Ainvy",
-        "is_captain": true
+        "is_captain": false
       }
     ],
     "team_link": "https://www.primeleague.gg/de/leagues/teams/204924",
