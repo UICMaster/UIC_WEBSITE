@@ -20,11 +20,7 @@
         "D"
       ]
     },
-    "next_match": {
-      "date": "2026-03-15T20:00:00+01:00",
-      "tag": "BTC",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1153922"
-    },
+    "next_match": null,
     "last_match": {
       "result": "UNENTSCHIEDEN",
       "score": "1 - 1",
@@ -34,7 +30,7 @@
     "roster": [
       {
         "summoner": "UIC Speedy#EUW",
-        "is_captain": true
+        "is_captain": false
       },
       {
         "summoner": "UIC Baguetto#R3kt",
@@ -42,7 +38,7 @@
       },
       {
         "summoner": "UIC Niki#AMB",
-        "is_captain": true
+        "is_captain": false
       },
       {
         "summoner": "UIC Giani#999",
@@ -252,33 +248,29 @@
     },
     "stats": {
       "wins": 1,
-      "losses": 11,
+      "losses": 13,
       "points": 1,
-      "games": 12,
-      "win_rate": 8,
+      "games": 14,
+      "win_rate": 7,
       "form": [
         "L",
         "L",
         "L",
-        "L",
-        "D"
+        "D",
+        "L"
       ]
     },
-    "next_match": {
-      "date": "2026-03-15T19:30:00+01:00",
-      "tag": "BAINT",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1154189"
-    },
+    "next_match": null,
     "last_match": {
-      "result": "UNENTSCHIEDEN",
-      "score": "1 - 1",
-      "enemy": "GT",
-      "date": "2026-03-09T20:30:00+01:00"
+      "result": "NIEDERLAGE",
+      "score": "0 - 2",
+      "enemy": "BAINT",
+      "date": "2026-03-15T19:30:00+01:00"
     },
     "roster": [
       {
         "summoner": "UIC Speedy#EUW",
-        "is_captain": true
+        "is_captain": false
       },
       {
         "summoner": "UIC Keygasza#1337",
@@ -389,11 +381,7 @@
         "W"
       ]
     },
-    "next_match": {
-      "date": "2026-03-15T20:00:00+01:00",
-      "tag": "VTG",
-      "link": "https://www.primeleague.gg/de/leagues/matches/1154409"
-    },
+    "next_match": null,
     "last_match": {
       "result": "SIEG",
       "score": "2 - 0",
