@@ -373,24 +373,24 @@
     },
     "stats": {
       "wins": 8,
-      "losses": 2,
+      "losses": 4,
       "points": 8,
-      "games": 10,
-      "win_rate": 80,
+      "games": 12,
+      "win_rate": 67,
       "form": [
-        "L",
         "W",
         "W",
         "W",
-        "W"
+        "W",
+        "L"
       ]
     },
     "next_match": null,
     "last_match": {
-      "result": "SIEG",
-      "score": "2 - 0",
-      "enemy": "TJ",
-      "date": "2026-03-15T17:00:00+01:00"
+      "result": "NIEDERLAGE",
+      "score": "0 - 2",
+      "enemy": "VTG",
+      "date": "2026-03-15T20:00:00+01:00"
     },
     "roster": [
       {
