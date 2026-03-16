@@ -87,7 +87,7 @@
     "name": "ResetHoe",
     "level": 870,
     "rank": "DIAMOND IV",
-    "wl": "84/80",
+    "wl": "84/81",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4793.png"
   },
   "ember_bot": {
@@ -134,9 +134,9 @@
   },
   "nova_bot": {
     "name": "UIC Simply",
-    "level": 434,
-    "rank": "PLATINUM II",
-    "wl": "43/49",
+    "level": 435,
+    "rank": "PLATINUM III",
+    "wl": "43/52",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6412.png"
   },
   "nova_sup": {
@@ -191,7 +191,7 @@
   "night_jgl": {
     "name": "Münzwurf",
     "level": 50,
-    "rank": "MASTER I",
+    "rank": "DIAMOND I",
     "wl": "92/89",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7027.png"
   },
