@@ -107,8 +107,8 @@
   "ember_coach": {
     "name": "UIC Shekar",
     "level": 603,
-    "rank": "MASTER I",
-    "wl": "158/165",
+    "rank": "DIAMOND I",
+    "wl": "158/167",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3231.png"
   },
   "nova_top": {
@@ -141,16 +141,16 @@
   },
   "nova_sup": {
     "name": "UIC Excellent C",
-    "level": 559,
+    "level": 560,
     "rank": "PLATINUM IV",
-    "wl": "62/66",
+    "wl": "65/66",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7064.png"
   },
   "abyss_top": {
     "name": "UIC Dany",
     "level": 535,
     "rank": "EMERALD I",
-    "wl": "44/39",
+    "wl": "44/40",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3157.png"
   },
   "abyss_jgl": {
@@ -178,7 +178,7 @@
     "name": "TheEigeeen",
     "level": 655,
     "rank": "DIAMOND IV",
-    "wl": "41/43",
+    "wl": "41/46",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6037.png"
   },
   "night_top": {
