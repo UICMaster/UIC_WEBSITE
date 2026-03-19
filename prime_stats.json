@@ -7,25 +7,25 @@
       "div": "Division 5"
     },
     "stats": {
-      "wins": 13,
-      "losses": 1,
-      "points": 13,
-      "games": 14,
-      "win_rate": 93,
+      "wins": 15,
+      "losses": 2,
+      "points": 15,
+      "games": 17,
+      "win_rate": 88,
       "form": [
         "W",
         "W",
-        "W",
         "D",
+        "W",
         "W"
       ]
     },
     "next_match": null,
     "last_match": {
       "result": "SIEG",
-      "score": "2 - 0",
-      "enemy": "BTC",
-      "date": "2026-03-15T20:00:00+01:00"
+      "score": "2 - 1",
+      "enemy": "LG",
+      "date": "2026-03-18T18:30:00+01:00"
     },
     "roster": [
       {
