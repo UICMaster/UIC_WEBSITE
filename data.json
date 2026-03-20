@@ -2,8 +2,8 @@
   "prime_top": {
     "name": "UIC Speedy",
     "level": 1146,
-    "rank": "DIAMOND II",
-    "wl": "45/55",
+    "rank": "DIAMOND I",
+    "wl": "46/55",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6097.png"
   },
   "prime_jgl": {
@@ -59,7 +59,7 @@
     "name": "UIC Flare",
     "level": 631,
     "rank": "DIAMOND IV",
-    "wl": "62/56",
+    "wl": "63/56",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -100,8 +100,8 @@
   "ember_sup": {
     "name": "UIC Envy",
     "level": 329,
-    "rank": "PLATINUM I",
-    "wl": "178/165",
+    "rank": "PLATINUM II",
+    "wl": "178/167",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7059.png"
   },
   "ember_coach": {
@@ -143,7 +143,7 @@
     "name": "UIC Excellent C",
     "level": 561,
     "rank": "PLATINUM IV",
-    "wl": "69/73",
+    "wl": "71/73",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7064.png"
   },
   "abyss_top": {
@@ -183,7 +183,7 @@
   },
   "night_top": {
     "name": " 张吉利",
-    "level": 564,
+    "level": 565,
     "rank": "EMERALD IV",
     "wl": "37/37",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7048.png"
