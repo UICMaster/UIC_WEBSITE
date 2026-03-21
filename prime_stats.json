@@ -273,24 +273,24 @@
     },
     "roster": [
       {
-        "summoner": "UIC Speedy#EUW",
-        "is_captain": true
+        "summoner": "UIC M Character#UIC",
+        "is_captain": false
+      },
+      {
+        "summoner": "TheEigeeen#EIGI",
+        "is_captain": false
       },
       {
         "summoner": "UIC Keygasza#1337",
         "is_captain": true
       },
       {
-        "summoner": "UIC M Character#UIC",
-        "is_captain": false
+        "summoner": "UIC Speedy#EUW",
+        "is_captain": true
       },
       {
         "summoner": "UIC Goku#UIC",
         "is_captain": true
-      },
-      {
-        "summoner": "TheEigeeen#EIGI",
-        "is_captain": false
       },
       {
         "summoner": "UIC DANY#RFA40",
@@ -333,15 +333,15 @@
     },
     "roster": [
       {
-        "summoner": "ривен#sabi",
+        "summoner": "MaZiN#EUWL9",
         "is_captain": false
       },
       {
-        "summoner": "UIC Cedo#EUW",
+        "summoner": "UIC ReCord#Cedo",
         "is_captain": true
       },
       {
-        "summoner": "UIC ReCord#Cedo",
+        "summoner": "UIC Cedo#EUW",
         "is_captain": true
       },
       {
@@ -349,16 +349,16 @@
         "is_captain": true
       },
       {
-        "summoner": "MaZiN#EUWL9",
+        "summoner": "ривен#sabi",
+        "is_captain": false
+      },
+      {
+        "summoner": "Sylveon#mine",
         "is_captain": false
       },
       {
         "summoner": "UIC Shockwave#EUW",
         "is_captain": true
-      },
-      {
-        "summoner": "Sylveon#mine",
-        "is_captain": false
       }
     ],
     "team_link": "https://www.primeleague.gg/de/leagues/teams/212047",
