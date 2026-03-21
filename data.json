@@ -3,7 +3,7 @@
     "name": "UIC Speedy",
     "level": 1147,
     "rank": "DIAMOND I",
-    "wl": "49/55",
+    "wl": "49/56",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4835.png"
   },
   "prime_jgl": {
@@ -87,7 +87,7 @@
     "name": "UIC DontMethWith",
     "level": 1307,
     "rank": "DIAMOND IV",
-    "wl": "151/144",
+    "wl": "151/145",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
@@ -109,7 +109,7 @@
     "level": 853,
     "rank": "EMERALD III",
     "wl": "32/33",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4161.png"
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6945.png"
   },
   "nova_jgl": {
     "name": "UIC Rubix Qube",
@@ -134,9 +134,9 @@
   },
   "nova_sup": {
     "name": "UIC Excellent C",
-    "level": 561,
+    "level": 562,
     "rank": "PLATINUM IV",
-    "wl": "72/74",
+    "wl": "72/75",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7064.png"
   },
   "abyss_top": {
@@ -192,7 +192,7 @@
     "name": "UIC Kuroko",
     "level": 589,
     "rank": "DIAMOND II",
-    "wl": "34/32",
+    "wl": "35/33",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3494.png"
   },
   "night_sup": {
@@ -222,13 +222,6 @@
     "rank": "DIAMOND II",
     "wl": "30/24",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6811.png"
-  },
-  "freezer_bot": {
-    "name": "RG AutumnLeaf",
-    "level": 834,
-    "rank": "MASTER I",
-    "wl": "61/54",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6373.png"
   },
   "freezer_sup": {
     "name": "UIC Ryu Copeland",
