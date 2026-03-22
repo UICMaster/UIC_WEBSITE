@@ -126,24 +126,24 @@
     },
     "stats": {
       "wins": 9,
-      "losses": 5,
+      "losses": 7,
       "points": 9,
-      "games": 14,
-      "win_rate": 64,
+      "games": 16,
+      "win_rate": 56,
       "form": [
-        "W",
         "D",
         "L",
         "W",
-        "W"
+        "W",
+        "L"
       ]
     },
     "next_match": null,
     "last_match": {
-      "result": "SIEG",
-      "score": "2 - 0",
-      "enemy": "WGG",
-      "date": "2026-03-14T18:30:00+01:00"
+      "result": "NIEDERLAGE",
+      "score": "0 - 2",
+      "enemy": "LBB",
+      "date": "2026-03-22T17:00:00+01:00"
     },
     "roster": [
       {
