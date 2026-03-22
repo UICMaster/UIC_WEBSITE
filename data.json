@@ -2,8 +2,8 @@
   "prime_top": {
     "name": "UIC Speedy",
     "level": 1148,
-    "rank": "DIAMOND I",
-    "wl": "53/58",
+    "rank": "MASTER I",
+    "wl": "54/58",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4835.png"
   },
   "prime_jgl": {
@@ -44,8 +44,8 @@
   "spark_mid": {
     "name": "Lenlusz",
     "level": 775,
-    "rank": "DIAMOND I",
-    "wl": "197/187",
+    "rank": "DIAMOND II",
+    "wl": "197/188",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5435.png"
   },
   "spark_bot": {
@@ -106,7 +106,7 @@
   },
   "nova_top": {
     "name": "TAS Kaetaya",
-    "level": 854,
+    "level": 855,
     "rank": "EMERALD III",
     "wl": "34/34",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4069.png"
@@ -148,9 +148,9 @@
   },
   "abyss_jgl": {
     "name": "UIC Keygasza",
-    "level": 463,
-    "rank": "EMERALD II",
-    "wl": "30/55",
+    "level": 464,
+    "rank": "EMERALD I",
+    "wl": "31/55",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7048.png"
   },
   "abyss_mid": {
@@ -234,7 +234,7 @@
     "name": "UIC Loonz",
     "level": 785,
     "rank": "PLATINUM III",
-    "wl": "5/1",
+    "wl": "5/2",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4895.png"
   }
 }
