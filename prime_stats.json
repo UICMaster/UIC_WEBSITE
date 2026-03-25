@@ -33,11 +33,11 @@
     },
     "roster": [
       {
-        "summoner": "UIC Speedy#EUW",
-        "is_captain": true
+        "summoner": "UIC Baguetto#R3kt",
+        "is_captain": false
       },
       {
-        "summoner": "UIC Baguetto#R3kt",
+        "summoner": "UIC Shenycrane#Vugel",
         "is_captain": false
       },
       {
@@ -45,11 +45,11 @@
         "is_captain": true
       },
       {
-        "summoner": "UIC Giani#999",
-        "is_captain": false
+        "summoner": "UIC Speedy#EUW",
+        "is_captain": true
       },
       {
-        "summoner": "UIC Shenycrane#Vugel",
+        "summoner": "UIC Giani#999",
         "is_captain": false
       },
       {
