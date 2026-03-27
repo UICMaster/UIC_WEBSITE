@@ -64,9 +64,9 @@
   },
   "ember_top": {
     "name": "SilasX",
-    "level": 522,
+    "level": 523,
     "rank": "EMERALD II",
-    "wl": "56/63",
+    "wl": "57/64",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6989.png"
   },
   "ember_jgl": {
@@ -115,7 +115,7 @@
     "name": "UIC Rubix Qube",
     "level": 497,
     "rank": "GOLD II",
-    "wl": "159/168",
+    "wl": "159/169",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -142,15 +142,15 @@
   "abyss_top": {
     "name": "UIC Dany",
     "level": 537,
-    "rank": "DIAMOND III",
-    "wl": "60/49",
+    "rank": "DIAMOND IV",
+    "wl": "60/50",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3157.png"
   },
   "abyss_jgl": {
     "name": "UIC Keygasza",
     "level": 465,
     "rank": "EMERALD II",
-    "wl": "37/64",
+    "wl": "38/64",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7048.png"
   },
   "abyss_mid": {
