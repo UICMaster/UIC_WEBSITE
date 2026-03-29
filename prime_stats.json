@@ -7,25 +7,29 @@
       "div": "Division 5"
     },
     "stats": {
-      "wins": 19,
+      "wins": 21,
       "losses": 4,
-      "points": 19,
-      "games": 23,
-      "win_rate": 83,
+      "points": 21,
+      "games": 25,
+      "win_rate": 84,
       "form": [
         "W",
-        "W",
         "L",
+        "W",
         "W",
         "W"
       ]
     },
-    "next_match": null,
+    "next_match": {
+      "date": "2026-04-11T14:00:00+02:00",
+      "tag": "BICE",
+      "link": "https://www.primeleague.gg/de/leagues/matches/1157967"
+    },
     "last_match": {
       "result": "SIEG",
       "score": "2 - 0",
-      "enemy": "RWE",
-      "date": "2026-03-29T14:00:00+02:00"
+      "enemy": "420",
+      "date": "2026-03-29T18:00:00+02:00"
     },
     "roster": [
       {
