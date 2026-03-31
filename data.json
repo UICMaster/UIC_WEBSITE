@@ -43,7 +43,7 @@
   },
   "spark_mid": {
     "name": "Lenlusz",
-    "level": 779,
+    "level": 780,
     "rank": "DIAMOND II",
     "wl": "199/192",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5435.png"
@@ -114,15 +114,15 @@
   "nova_jgl": {
     "name": "UIC Rubix Qube",
     "level": 498,
-    "rank": "GOLD I",
-    "wl": "165/170",
+    "rank": "GOLD II",
+    "wl": "165/172",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
     "name": "UIC adedier",
-    "level": 610,
+    "level": 611,
     "rank": "PLATINUM III",
-    "wl": "57/60",
+    "wl": "57/61",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4379.png"
   },
   "nova_bot": {
@@ -227,7 +227,7 @@
     "name": "UIC Ryu Copeland",
     "level": 990,
     "rank": "MASTER I",
-    "wl": "51/48",
+    "wl": "54/48",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6622.png"
   },
   "freezer_coach": {
