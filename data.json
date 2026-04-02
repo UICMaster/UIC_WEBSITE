@@ -44,8 +44,8 @@
   "spark_mid": {
     "name": "Lenlusz",
     "level": 783,
-    "rank": "DIAMOND II",
-    "wl": "211/202",
+    "rank": "DIAMOND I",
+    "wl": "212/202",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5435.png"
   },
   "spark_bot": {
@@ -106,7 +106,7 @@
   },
   "nova_top": {
     "name": "TAS Kaetaya",
-    "level": 858,
+    "level": 859,
     "rank": "EMERALD II",
     "wl": "39/37",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5917.png"
@@ -150,7 +150,7 @@
     "name": "UIC Keygasza",
     "level": 467,
     "rank": "EMERALD I",
-    "wl": "45/72",
+    "wl": "46/72",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7048.png"
   },
   "abyss_mid": {
@@ -169,9 +169,9 @@
   },
   "abyss_sup": {
     "name": "TheEigeeen",
-    "level": 659,
-    "rank": "EMERALD II",
-    "wl": "52/62",
+    "level": 660,
+    "rank": "EMERALD I",
+    "wl": "53/62",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6037.png"
   },
   "night_top": {
