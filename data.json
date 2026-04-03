@@ -1,9 +1,9 @@
 {
   "prime_top": {
     "name": "UIC Speedy",
-    "level": 1149,
+    "level": 1150,
     "rank": "MASTER I",
-    "wl": "57/65",
+    "wl": "58/65",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/752.png"
   },
   "prime_jgl": {
@@ -45,7 +45,7 @@
     "name": "Lenlusz",
     "level": 785,
     "rank": "DIAMOND II",
-    "wl": "217/210",
+    "wl": "219/210",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5435.png"
   },
   "spark_bot": {
@@ -87,21 +87,21 @@
     "name": "UIC DontMethWith",
     "level": 1315,
     "rank": "EMERALD I",
-    "wl": "177/172",
+    "wl": "177/174",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
     "name": "UIC Envy",
     "level": 337,
     "rank": "PLATINUM III",
-    "wl": "201/191",
+    "wl": "201/193",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4794.png"
   },
   "ember_coach": {
     "name": "UIC Shekar",
     "level": 616,
     "rank": "MASTER I",
-    "wl": "232/243",
+    "wl": "233/243",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3231.png"
   },
   "nova_top": {
@@ -114,8 +114,8 @@
   "nova_jgl": {
     "name": "UIC Rubix Qube",
     "level": 499,
-    "rank": "GOLD I",
-    "wl": "171/177",
+    "rank": "GOLD II",
+    "wl": "171/178",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
