@@ -2,13 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const playlist = [
         { 
-            title: "UIC HYMNE - 2025", 
-            src: "assets/audio/ULTRA_INSTINCT_CREW_ORGA_HYMNE_2025.mp3",
-            type: "audio",
-            art: "",
-            artist: "Ultra Instinct Crew"
-        },
-        { 
             title: "UIC HYMNE - 2026",    
             src: "assets/video/ULTRA_INSTINCT_CREW_ORGA_HYMNE_VIDEO_2026.webm",
             type: "video",
@@ -16,15 +9,36 @@ document.addEventListener('DOMContentLoaded', () => {
             artist: "Ultra Instinct Crew"
         },
         { 
-            title: "UIC RHINO - DISSTRACK",    
-            src: "assets/audio/ULTRA_INSTINCT_CREW_PLAYER_RHINO.mp3",
+            title: "UIC HYMNE - 2025", 
+            src: "assets/audio/ULTRA_INSTINCT_CREW_ORGA_HYMNE_2025.mp3",
             type: "audio",
             art: "",
             artist: "Ultra Instinct Crew"
         },
         { 
-            title: "UIC ANIME - 2025",    
-            src: "assets/audio/ULTRA_INSTINCT_CREW_ORGA_ANIME_2025.mp3",
+            title: "UIC EMBER - 2026",    
+            src: "assets/audio/ULTRA_INSTINCT_CREW_TEAM_EMBER_2026.mp3",
+            type: "audio",
+            art: "",
+            artist: "Ultra Instinct Crew"
+        },
+        { 
+            title: "UIC CYBER - 2026",    
+            src: "assets/audio/ULTRA_INSTINCT_CREW_TEAM_CYBER_2026.mp3",
+            type: "audio",
+            art: "",
+            artist: "Ultra Instinct Crew"
+        },
+        { 
+            title: "UIC FREEZER - 2026",    
+            src: "assets/audio/ULTRA_INSTINCT_CREW_TEAM_FREEZER_2026.mp3",
+            type: "audio",
+            art: "",
+            artist: "Ultra Instinct Crew"
+        },
+        { 
+            title: "UIC VAKUUM - 2026",    
+            src: "assets/audio/ULTRA_INSTINCT_CREW_TEAM_VAKUUM_2026.mp3",
             type: "audio",
             art: "",
             artist: "Ultra Instinct Crew"
