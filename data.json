@@ -3,14 +3,14 @@
     "name": "UIC Speedy",
     "level": 1151,
     "rank": "MASTER I",
-    "wl": "63/69",
+    "wl": "63/70",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7026.png"
   },
   "prime_jgl": {
     "name": "UIC Niki",
-    "level": 1018,
-    "rank": "DIAMOND I",
-    "wl": "85/88",
+    "level": 1019,
+    "rank": "MASTER I",
+    "wl": "86/89",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4380.png"
   },
   "prime_mid": {
@@ -29,9 +29,9 @@
   },
   "prime_sup": {
     "name": "UIC Baguetto",
-    "level": 991,
+    "level": 992,
     "rank": "MASTER I",
-    "wl": "102/72",
+    "wl": "102/73",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4380.png"
   },
   "spark_jgl": {
@@ -87,7 +87,7 @@
     "name": "UIC DontMethWith",
     "level": 1316,
     "rank": "EMERALD I",
-    "wl": "183/180",
+    "wl": "183/181",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
@@ -103,13 +103,6 @@
     "rank": "MASTER I",
     "wl": "238/248",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3231.png"
-  },
-  "nova_top": {
-    "name": "TAS Kaetaya",
-    "level": 859,
-    "rank": "EMERALD II",
-    "wl": "39/37",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5917.png"
   },
   "nova_jgl": {
     "name": "UIC Rubix Qube",
