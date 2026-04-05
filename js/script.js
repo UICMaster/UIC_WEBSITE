@@ -193,3 +193,89 @@ if ('serviceWorker' in navigator) {
             });
     });
 }
+
+//* =========================================
+//  7. DISCORD Events
+//  ========================================= */
+async function loadEvents() {
+    const container = document.getElementById('dynamic-events-list');
+    
+    try {
+        const response = await fetch('/data/events.json');
+        const events = await response.json();
+
+        // Wenn keine Termine in Discord geplant sind
+        if (!events || events.length === 0) {
+            container.innerHTML = `
+                <div class="terminal-loader" style="color: var(--text-muted); font-family: monospace; text-align: center; padding: 20px; border: 1px dashed rgba(255,255,255,0.1);">
+                    > NO_EVENTS_FOUND...
+                </div>`;
+            return;
+        }
+
+        let htmlContent = '';
+        let jsonLdData = [];
+
+        events.forEach(event => {
+            const dateObj = new Date(event.start);
+            const month = dateObj.toLocaleString('de-DE', { month: 'short' }).toUpperCase();
+            const day = dateObj.getDate();
+            
+            const isOrg = event.name.toLowerCase().includes('versammlung') || (event.description && event.description.toLowerCase().includes('orga'));
+            const typeLabel = isOrg ? 'ORGANIZATION' : 'TOURNAMENT';
+            const highlightClass = isOrg ? 'highlight-row' : '';
+            const actionLink = event.location || 'https://discord.gg/ultrainstinctcrew';
+
+            htmlContent += `
+                <div class="event-row ${highlightClass}">
+                    <div class="event-meta">
+                        <span class="event-type" ${isOrg ? 'style="color: var(--secondary);"' : ''}>${typeLabel}</span>
+                        <div class="event-date">${month} ${day}</div>
+                    </div>
+                    <div class="event-details">
+                        <h4>${event.name}</h4>
+                        <p>${event.description || 'Keine Beschreibung verfügbar.'}</p>
+                    </div>
+                    <div class="event-action">
+                        <a target="_blank" href="${actionLink}" class="btn-glass" ${isOrg ? 'style="border-color: var(--secondary); color: var(--secondary);"' : ''}>
+                            <span class="btn-icon">→</span>
+                        </a>
+                    </div>
+                </div>
+            `;
+
+            jsonLdData.push({
+                "@type": "SportsEvent",
+                "name": event.name,
+                "startDate": event.start,
+                "description": event.description,
+                "location": {
+                    "@type": "VirtualLocation",
+                    "url": actionLink
+                }
+            });
+        });
+
+        // UI aktualisieren
+        container.innerHTML = htmlContent;
+
+        // JSON-LD (SEO) für Google einfügen
+        const script = document.createElement('script');
+        script.type = 'application/ld+json';
+        script.text = JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": jsonLdData
+        });
+        document.head.appendChild(script);
+
+    } catch (error) {
+        console.error("Fehler beim Laden der Events:", error);
+        // Fehlerfall im Terminal-Style
+        container.innerHTML = `
+            <div class="terminal-loader" style="color: var(--text-muted); font-family: monospace; text-align: center; padding: 20px; border: 1px dashed rgba(255,255,255,0.1);">
+                > SYNC_FAILED...
+            </div>`;
+    }
+}
+
+document.addEventListener('DOMContentLoaded', loadEvents);

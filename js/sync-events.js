@@ -1,8 +1,6 @@
 const https = require('https');
 const fs = require('fs');
 
-// Erwartet DISCORD_TOKEN, welches von der Action aus deinem 
-// EVENT_MANAGER_WEBSITE_TOKEN Secret befüllt wird.
 const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
 const GUILD_ID = process.env.GUILD_ID;
 
@@ -21,7 +19,6 @@ https.get(options, (res) => {
     try {
       const events = JSON.parse(data);
       
-      // Erstellt den Ordner im Root-Verzeichnis deines Repos
       if (!fs.existsSync('./data')) {
         fs.mkdirSync('./data');
       }
@@ -33,7 +30,6 @@ https.get(options, (res) => {
         location: e.entity_metadata?.location || "https://discord.gg/ultrainstinctcrew"
       }));
 
-      // Speichert die Datei im Root-Verzeichnis unter /data/events.json
       fs.writeFileSync('./data/events.json', JSON.stringify(cleanedEvents, null, 2));
       console.log(`Erfolgreich ${cleanedEvents.length} Events synchronisiert.`);
     } catch (err) {
