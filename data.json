@@ -1,9 +1,9 @@
 {
   "prime_top": {
     "name": "UIC Speedy",
-    "level": 1152,
+    "level": 1153,
     "rank": "MASTER I",
-    "wl": "73/79",
+    "wl": "74/79",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7026.png"
   },
   "prime_jgl": {
@@ -24,14 +24,14 @@
     "name": "UIC Giani",
     "level": 725,
     "rank": "MASTER I",
-    "wl": "58/52",
+    "wl": "58/53",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/916.png"
   },
   "prime_sup": {
     "name": "UIC Baguetto",
     "level": 992,
     "rank": "MASTER I",
-    "wl": "105/78",
+    "wl": "105/79",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4380.png"
   },
   "spark_jgl": {
@@ -93,8 +93,8 @@
   "ember_sup": {
     "name": "UIC Envy",
     "level": 338,
-    "rank": "PLATINUM III",
-    "wl": "207/197",
+    "rank": "PLATINUM II",
+    "wl": "208/197",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4794.png"
   },
   "ember_coach": {
@@ -108,7 +108,7 @@
     "name": "UIC Rubix Qube",
     "level": 500,
     "rank": "GOLD I",
-    "wl": "174/179",
+    "wl": "174/180",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
