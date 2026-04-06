@@ -4,11 +4,5 @@
     "description": "Start: 19:00 Uhr\nTYPE: ORGA",
     "start": "2026-04-09T17:00:00+00:00",
     "location": "https://www.primeleague.gg/de/leagues/matches/1157967"
-  },
-  {
-    "name": "Versammlung: Test Event für die Website (Organisation)",
-    "description": "Bitte nicht interagieren, dass ist ein geplanter Test.",
-    "start": "2026-04-06T18:00:00.437000+00:00",
-    "location": "https://discord.gg/ultrainstinctcrew"
   }
 ]
