@@ -52,7 +52,7 @@
     "name": "UIC Flare",
     "level": 631,
     "rank": "DIAMOND IV",
-    "wl": "65/60",
+    "wl": "65/61",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/626.png"
   },
   "spark_sup": {
@@ -128,8 +128,8 @@
   "nova_sup": {
     "name": "UIC Excellent C",
     "level": 566,
-    "rank": "PLATINUM IV",
-    "wl": "84/83",
+    "rank": "PLATINUM III",
+    "wl": "85/83",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7064.png"
   },
   "abyss_top": {
@@ -185,7 +185,7 @@
     "name": "UIC Kuroko",
     "level": 593,
     "rank": "DIAMOND II",
-    "wl": "40/42",
+    "wl": "40/43",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3494.png"
   },
   "night_sup": {
