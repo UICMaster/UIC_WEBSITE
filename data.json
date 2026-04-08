@@ -51,8 +51,8 @@
   "spark_bot": {
     "name": "UIC Flare",
     "level": 632,
-    "rank": "EMERALD I",
-    "wl": "66/62",
+    "rank": "DIAMOND IV",
+    "wl": "67/62",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/1625.png"
   },
   "spark_sup": {
@@ -94,14 +94,14 @@
     "name": "UIC Envy",
     "level": 339,
     "rank": "PLATINUM II",
-    "wl": "209/197",
+    "wl": "209/198",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4794.png"
   },
   "ember_coach": {
     "name": "UIC Shekar",
-    "level": 619,
+    "level": 620,
     "rank": "MASTER I",
-    "wl": "253/262",
+    "wl": "253/263",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3231.png"
   },
   "nova_jgl": {
@@ -122,7 +122,7 @@
     "name": "UIC Simply",
     "level": 438,
     "rank": "PLATINUM III",
-    "wl": "55/67",
+    "wl": "55/68",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6737.png"
   },
   "nova_sup": {
