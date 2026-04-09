@@ -107,8 +107,8 @@
   "nova_jgl": {
     "name": "UIC Rubix Qube",
     "level": 501,
-    "rank": "GOLD II",
-    "wl": "175/182",
+    "rank": "GOLD I",
+    "wl": "176/182",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -185,7 +185,7 @@
     "name": "UIC Kuroko",
     "level": 594,
     "rank": "DIAMOND III",
-    "wl": "41/46",
+    "wl": "42/46",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3494.png"
   },
   "night_sup": {
@@ -213,7 +213,7 @@
     "name": "UIC FrozenHands",
     "level": 634,
     "rank": "DIAMOND I",
-    "wl": "37/30",
+    "wl": "39/30",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6811.png"
   },
   "freezer_sup": {
