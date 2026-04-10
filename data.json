@@ -24,14 +24,14 @@
     "name": "UIC Giani",
     "level": 726,
     "rank": "MASTER I",
-    "wl": "60/55",
+    "wl": "60/56",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/916.png"
   },
   "prime_sup": {
     "name": "UIC Baguetto",
     "level": 993,
-    "rank": "MASTER I",
-    "wl": "107/86",
+    "rank": "DIAMOND I",
+    "wl": "107/87",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4380.png"
   },
   "spark_jgl": {
@@ -52,7 +52,7 @@
     "name": "UIC Flare",
     "level": 632,
     "rank": "DIAMOND IV",
-    "wl": "69/63",
+    "wl": "70/63",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/1625.png"
   },
   "spark_sup": {
@@ -101,7 +101,7 @@
     "name": "UIC Shekar",
     "level": 621,
     "rank": "MASTER I",
-    "wl": "261/270",
+    "wl": "263/270",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3231.png"
   },
   "nova_jgl": {
@@ -162,9 +162,9 @@
   },
   "abyss_sup": {
     "name": "TheEigeeen",
-    "level": 661,
+    "level": 662,
     "rank": "EMERALD I",
-    "wl": "62/68",
+    "wl": "63/68",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6037.png"
   },
   "night_top": {
