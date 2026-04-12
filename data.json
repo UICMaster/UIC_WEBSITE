@@ -45,7 +45,7 @@
     "name": "Lenlusz",
     "level": 791,
     "rank": "DIAMOND IV",
-    "wl": "240/243",
+    "wl": "242/243",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/5435.png"
   },
   "spark_bot": {
@@ -101,19 +101,19 @@
     "name": "UIC Shekar",
     "level": 623,
     "rank": "MASTER I",
-    "wl": "273/279",
+    "wl": "275/280",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3231.png"
   },
   "nova_jgl": {
     "name": "UIC Rubix Qube",
-    "level": 501,
+    "level": 502,
     "rank": "GOLD II",
     "wl": "178/186",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
     "name": "UIC adedier",
-    "level": 612,
+    "level": 613,
     "rank": "PLATINUM III",
     "wl": "64/68",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4379.png"
@@ -184,8 +184,8 @@
   "night_mid": {
     "name": "UIC Kuroko",
     "level": 594,
-    "rank": "DIAMOND III",
-    "wl": "43/47",
+    "rank": "DIAMOND II",
+    "wl": "44/47",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3494.png"
   },
   "night_sup": {
