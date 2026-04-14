@@ -66,7 +66,7 @@
     "name": "SilasX",
     "level": 524,
     "rank": "EMERALD I",
-    "wl": "68/72",
+    "wl": "69/74",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6989.png"
   },
   "ember_jgl": {
@@ -99,16 +99,16 @@
   },
   "ember_coach": {
     "name": "UIC Shekar",
-    "level": 624,
+    "level": 625,
     "rank": "MASTER I",
-    "wl": "285/293",
+    "wl": "287/294",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3231.png"
   },
   "nova_jgl": {
     "name": "UIC Rubix Qube",
-    "level": 502,
+    "level": 503,
     "rank": "GOLD II",
-    "wl": "182/190",
+    "wl": "182/191",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3592.png"
   },
   "nova_mid": {
@@ -213,7 +213,7 @@
     "name": "UIC FrozenHands",
     "level": 636,
     "rank": "MASTER I",
-    "wl": "49/40",
+    "wl": "50/42",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6811.png"
   },
   "freezer_sup": {
@@ -227,7 +227,7 @@
     "name": "UIC Loonz",
     "level": 786,
     "rank": "PLATINUM III",
-    "wl": "5/2",
+    "wl": "6/2",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4895.png"
   }
 }
