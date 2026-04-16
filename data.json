@@ -66,7 +66,7 @@
     "name": "SilasX",
     "level": 525,
     "rank": "EMERALD I",
-    "wl": "72/79",
+    "wl": "73/79",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6989.png"
   },
   "ember_jgl": {
@@ -94,14 +94,14 @@
     "name": "UIC Envy",
     "level": 342,
     "rank": "EMERALD IV",
-    "wl": "227/207",
+    "wl": "228/207",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7096.png"
   },
   "ember_coach": {
     "name": "UIC Shekar",
-    "level": 626,
+    "level": 627,
     "rank": "MASTER I",
-    "wl": "294/305",
+    "wl": "295/308",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3231.png"
   },
   "nova_jgl": {
@@ -211,9 +211,9 @@
   },
   "freezer_mid": {
     "name": "UIC FrozenHands",
-    "level": 637,
+    "level": 638,
     "rank": "MASTER I",
-    "wl": "54/49",
+    "wl": "57/49",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6811.png"
   },
   "freezer_sup": {
@@ -225,9 +225,9 @@
   },
   "freezer_coach": {
     "name": "UIC Loonz",
-    "level": 786,
+    "level": 787,
     "rank": "PLATINUM III",
-    "wl": "7/2",
+    "wl": "7/3",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4895.png"
   }
 }
