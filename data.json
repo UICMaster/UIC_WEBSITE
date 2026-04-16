@@ -1,16 +1,16 @@
 {
   "prime_top": {
     "name": "UIC Speedy",
-    "level": 1153,
+    "level": 1154,
     "rank": "MASTER I",
-    "wl": "77/81",
+    "wl": "77/84",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7026.png"
   },
   "prime_jgl": {
     "name": "UIC Niki",
-    "level": 1021,
+    "level": 1022,
     "rank": "MASTER I",
-    "wl": "92/93",
+    "wl": "93/94",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4380.png"
   },
   "prime_mid": {
@@ -64,9 +64,9 @@
   },
   "ember_top": {
     "name": "SilasX",
-    "level": 525,
+    "level": 526,
     "rank": "EMERALD I",
-    "wl": "74/79",
+    "wl": "75/80",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6989.png"
   },
   "ember_jgl": {
@@ -87,14 +87,14 @@
     "name": "UIC DontMethWith",
     "level": 1319,
     "rank": "DIAMOND IV",
-    "wl": "197/188",
+    "wl": "197/190",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6988.png"
   },
   "ember_sup": {
     "name": "UIC Envy",
     "level": 342,
     "rank": "EMERALD IV",
-    "wl": "229/207",
+    "wl": "229/208",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7096.png"
   },
   "ember_coach": {
@@ -218,7 +218,7 @@
   },
   "freezer_sup": {
     "name": "UIC Ryu Copeland",
-    "level": 993,
+    "level": 994,
     "rank": "MASTER I",
     "wl": "59/54",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6622.png"
