@@ -213,7 +213,7 @@
     "name": "UIC FrozenHands",
     "level": 638,
     "rank": "MASTER I",
-    "wl": "57/50",
+    "wl": "58/50",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/6811.png"
   },
   "freezer_sup": {
@@ -226,8 +226,8 @@
   "freezer_coach": {
     "name": "UIC Loonz",
     "level": 788,
-    "rank": "PLATINUM II",
-    "wl": "13/10",
+    "rank": "PLATINUM I",
+    "wl": "14/10",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4895.png"
   }
 }
