@@ -59,7 +59,7 @@ const teams = {
         { gameName: 'UIC Rayando07', tagLine: 'help' },
         { gameName: 'BlauerKlaus', tagLine: 'Qvy心' },
         { gameName: 'UIC FrozenHands', tagLine: 'MID' },
-        { gameName: 'RG AutumnLeaf', tagLine: 'Moo' },
+        { gameName: 'UIC AutumnLeaf', tagLine: 'Moo' },
         { gameName: 'UIC Ryu Copeland', tagLine: '117' },
         { gameName: 'UIC Loonz', tagLine: 'Coach' }
     ]
