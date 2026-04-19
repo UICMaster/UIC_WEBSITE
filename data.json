@@ -3,7 +3,7 @@
     "name": "UIC Speedy",
     "level": 1156,
     "rank": "MASTER I",
-    "wl": "82/90",
+    "wl": "84/90",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/7026.png"
   },
   "prime_jgl": {
@@ -50,7 +50,7 @@
   },
   "spark_bot": {
     "name": "UIC Flare",
-    "level": 632,
+    "level": 633,
     "rank": "DIAMOND IV",
     "wl": "70/66",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/1625.png"
@@ -80,7 +80,7 @@
     "name": "ResetHoe",
     "level": 873,
     "rank": "DIAMOND IV",
-    "wl": "97/97",
+    "wl": "99/97",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4793.png"
   },
   "ember_bot": {
@@ -99,9 +99,9 @@
   },
   "ember_coach": {
     "name": "UIC Shekar",
-    "level": 627,
+    "level": 628,
     "rank": "MASTER I",
-    "wl": "297/314",
+    "wl": "298/315",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/3231.png"
   },
   "nova_jgl": {
@@ -113,9 +113,9 @@
   },
   "nova_mid": {
     "name": "UIC adedier",
-    "level": 613,
-    "rank": "PLATINUM III",
-    "wl": "65/70",
+    "level": 614,
+    "rank": "PLATINUM IV",
+    "wl": "65/71",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4379.png"
   },
   "nova_bot": {
@@ -226,8 +226,8 @@
   "freezer_coach": {
     "name": "UIC Loonz",
     "level": 789,
-    "rank": "PLATINUM II",
-    "wl": "14/12",
+    "rank": "PLATINUM I",
+    "wl": "15/12",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/profileicon/4895.png"
   }
 }
