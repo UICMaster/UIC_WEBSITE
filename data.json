@@ -10,12 +10,12 @@
     "name": "UIC Niki",
     "level": 1024,
     "rank": "MASTER I",
-    "wl": "103/102",
+    "wl": "104/102",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4380.png"
   },
   "prime_mid": {
     "name": "UIC Shenycrane",
-    "level": 633,
+    "level": 634,
     "rank": "MASTER I",
     "wl": "71/68",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7094.png"
@@ -94,15 +94,8 @@
     "name": "UIC Envy",
     "level": 342,
     "rank": "EMERALD IV",
-    "wl": "229/208",
+    "wl": "230/209",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7096.png"
-  },
-  "ember_coach": {
-    "name": "UIC Shekar",
-    "level": 628,
-    "rank": "DIAMOND I",
-    "wl": "299/322",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/3231.png"
   },
   "nova_jgl": {
     "name": "UIC Rubix Qube",
@@ -206,7 +199,7 @@
     "name": "BlauerKlaus",
     "level": 1141,
     "rank": "MASTER I",
-    "wl": "56/48",
+    "wl": "57/48",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7123.png"
   },
   "freezer_mid": {
@@ -220,21 +213,21 @@
     "name": "UIC AutumnLeaf",
     "level": 838,
     "rank": "MASTER I",
-    "wl": "85/66",
+    "wl": "85/68",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/6373.png"
   },
   "freezer_sup": {
     "name": "UIC Ryu Copeland",
     "level": 994,
     "rank": "MASTER I",
-    "wl": "59/54",
+    "wl": "60/54",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/6622.png"
   },
   "freezer_coach": {
     "name": "UIC Loonz",
     "level": 789,
     "rank": "PLATINUM I",
-    "wl": "15/12",
+    "wl": "16/13",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4895.png"
   }
 }
