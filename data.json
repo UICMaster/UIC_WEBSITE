@@ -1,23 +1,23 @@
 {
   "prime_top": {
     "name": "UIC Speedy",
-    "level": 1156,
+    "level": 1157,
     "rank": "MASTER I",
-    "wl": "86/90",
+    "wl": "88/90",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7026.png"
   },
   "prime_jgl": {
     "name": "UIC Niki",
     "level": 1024,
     "rank": "MASTER I",
-    "wl": "106/103",
+    "wl": "108/103",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4380.png"
   },
   "prime_mid": {
     "name": "UIC Shenycrane",
     "level": 634,
     "rank": "MASTER I",
-    "wl": "71/68",
+    "wl": "71/69",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7094.png"
   },
   "prime_bot": {
@@ -79,8 +79,8 @@
   "ember_mid": {
     "name": "ResetHoe",
     "level": 873,
-    "rank": "DIAMOND III",
-    "wl": "101/98",
+    "rank": "DIAMOND IV",
+    "wl": "101/100",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4793.png"
   },
   "ember_bot": {
