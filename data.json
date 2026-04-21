@@ -17,21 +17,21 @@
     "name": "UIC Shenycrane",
     "level": 634,
     "rank": "MASTER I",
-    "wl": "72/69",
+    "wl": "73/70",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7094.png"
   },
   "prime_bot": {
     "name": "UIC Giani",
-    "level": 728,
+    "level": 729,
     "rank": "MASTER I",
-    "wl": "68/66",
+    "wl": "69/66",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/916.png"
   },
   "prime_sup": {
     "name": "UIC Baguetto",
     "level": 996,
     "rank": "DIAMOND I",
-    "wl": "115/97",
+    "wl": "116/97",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4380.png"
   },
   "spark_jgl": {
@@ -52,7 +52,7 @@
     "name": "UIC Flare",
     "level": 633,
     "rank": "DIAMOND IV",
-    "wl": "71/68",
+    "wl": "72/68",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/1625.png"
   },
   "spark_sup": {
@@ -73,7 +73,7 @@
     "name": "UIC Shederen",
     "level": 299,
     "rank": "EMERALD IV",
-    "wl": "165/164",
+    "wl": "166/164",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7035.png"
   },
   "ember_mid": {
@@ -94,7 +94,7 @@
     "name": "UIC Envy",
     "level": 342,
     "rank": "EMERALD IV",
-    "wl": "231/209",
+    "wl": "233/209",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7096.png"
   },
   "nova_jgl": {
@@ -108,7 +108,7 @@
     "name": "UIC adedier",
     "level": 614,
     "rank": "PLATINUM III",
-    "wl": "69/72",
+    "wl": "69/73",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4379.png"
   },
   "nova_bot": {
@@ -218,16 +218,16 @@
   },
   "freezer_sup": {
     "name": "UIC Ryu Copeland",
-    "level": 994,
+    "level": 995,
     "rank": "MASTER I",
-    "wl": "60/55",
+    "wl": "60/57",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/6622.png"
   },
   "freezer_coach": {
     "name": "UIC Loonz",
     "level": 789,
     "rank": "PLATINUM I",
-    "wl": "17/13",
+    "wl": "18/14",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4895.png"
   }
 }
