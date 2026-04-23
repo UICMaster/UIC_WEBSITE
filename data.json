@@ -78,9 +78,9 @@
   },
   "ember_mid": {
     "name": "ResetHoe",
-    "level": 874,
+    "level": 875,
     "rank": "DIAMOND IV",
-    "wl": "108/107",
+    "wl": "109/109",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4793.png"
   },
   "ember_bot": {
@@ -127,9 +127,9 @@
   },
   "abyss_top": {
     "name": "UIC Dany",
-    "level": 541,
+    "level": 542,
     "rank": "DIAMOND II",
-    "wl": "77/61",
+    "wl": "79/61",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/3157.png"
   },
   "abyss_jgl": {
@@ -227,7 +227,7 @@
     "name": "UIC Loonz",
     "level": 790,
     "rank": "EMERALD IV",
-    "wl": "20/17",
+    "wl": "20/18",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4895.png"
   }
 }
