@@ -4,14 +4,14 @@
     "level": 1157,
     "rank": "MASTER I",
     "wl": "88/90",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7026.png"
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7.png"
   },
   "prime_jgl": {
     "name": "UIC Niki",
     "level": 1026,
     "rank": "MASTER I",
     "wl": "113/106",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4380.png"
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7.png"
   },
   "prime_mid": {
     "name": "UIC Shenycrane",
@@ -25,7 +25,7 @@
     "level": 730,
     "rank": "MASTER I",
     "wl": "70/66",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/916.png"
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7.png"
   },
   "prime_sup": {
     "name": "UIC Baguetto",
@@ -80,14 +80,14 @@
     "name": "ResetHoe",
     "level": 875,
     "rank": "DIAMOND IV",
-    "wl": "109/110",
+    "wl": "110/110",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4793.png"
   },
   "ember_bot": {
     "name": "UIC DontMethWith",
     "level": 1321,
     "rank": "DIAMOND IV",
-    "wl": "200/193",
+    "wl": "201/193",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/6988.png"
   },
   "ember_sup": {
@@ -137,7 +137,7 @@
     "level": 470,
     "rank": "EMERALD I",
     "wl": "58/83",
-    "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7048.png"
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7.png"
   },
   "abyss_mid": {
     "name": "UIC Goku",
@@ -225,9 +225,9 @@
   },
   "freezer_coach": {
     "name": "UIC Loonz",
-    "level": 791,
+    "level": 792,
     "rank": "EMERALD IV",
-    "wl": "22/25",
+    "wl": "23/25",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4895.png"
   }
 }
