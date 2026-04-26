@@ -80,7 +80,7 @@
     "name": "ResetHoe",
     "level": 876,
     "rank": "EMERALD I",
-    "wl": "112/115",
+    "wl": "113/116",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4793.png"
   },
   "ember_bot": {
@@ -120,7 +120,7 @@
   },
   "nova_sup": {
     "name": "UIC Excellent C",
-    "level": 568,
+    "level": 569,
     "rank": "PLATINUM IV",
     "wl": "88/87",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7064.png"
@@ -156,8 +156,8 @@
   "abyss_sup": {
     "name": "TheEigeeen",
     "level": 665,
-    "rank": "EMERALD II",
-    "wl": "72/84",
+    "rank": "EMERALD III",
+    "wl": "72/86",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/6037.png"
   },
   "night_top": {
@@ -197,9 +197,9 @@
   },
   "freezer_jgl": {
     "name": "BlauerKlaus",
-    "level": 1141,
+    "level": 1142,
     "rank": "MASTER I",
-    "wl": "61/48",
+    "wl": "62/49",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7123.png"
   },
   "freezer_mid": {
