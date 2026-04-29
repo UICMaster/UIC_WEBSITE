@@ -178,7 +178,7 @@
     "name": "UIC Kuroko",
     "level": 598,
     "rank": "MASTER I",
-    "wl": "60/54",
+    "wl": "61/54",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7123.png"
   },
   "night_sup": {
@@ -191,8 +191,8 @@
   "freezer_top": {
     "name": "UIC Rayando07",
     "level": 457,
-    "rank": "MASTER I",
-    "wl": "67/53",
+    "rank": "DIAMOND I",
+    "wl": "67/56",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/6383.png"
   },
   "freezer_jgl": {
@@ -225,9 +225,9 @@
   },
   "freezer_coach": {
     "name": "UIC Loonz",
-    "level": 792,
+    "level": 793,
     "rank": "EMERALD IV",
-    "wl": "26/31",
+    "wl": "27/31",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4895.png"
   }
 }
