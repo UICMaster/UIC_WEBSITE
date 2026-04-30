@@ -2,225 +2,232 @@
   "prime_top": {
     "name": "UIC Speedy",
     "level": 1157,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "MASTER I",
+    "wl": "88/90",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4835.png"
   },
   "prime_jgl": {
     "name": "UIC Niki",
     "level": 1027,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "MASTER I",
+    "wl": "119/108",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4380.png"
   },
   "prime_mid": {
     "name": "UIC Shenycrane",
     "level": 635,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "DIAMOND I",
+    "wl": "73/70",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7094.png"
   },
   "prime_bot": {
     "name": "UIC Giani",
     "level": 730,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "MASTER I",
+    "wl": "70/66",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7.png"
   },
   "prime_sup": {
     "name": "UIC Baguetto",
     "level": 997,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "MASTER I",
+    "wl": "117/97",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4380.png"
   },
   "spark_jgl": {
     "name": "UIC Lenno",
     "level": 788,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "PLATINUM III",
+    "wl": "80/81",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/2073.png"
+  },
+  "spark_mid": {
+    "name": "Lenlusz",
+    "level": 791,
+    "rank": "DIAMOND IV",
+    "wl": "245/248",
+    "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/5435.png"
   },
   "spark_bot": {
     "name": "UIC Flare",
     "level": 636,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "DIAMOND IV",
+    "wl": "77/74",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/1625.png"
   },
   "spark_sup": {
     "name": "Firehand",
     "level": 393,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "EMERALD IV",
+    "wl": "20/29",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4568.png"
   },
   "ember_top": {
     "name": "SilasX",
     "level": 527,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "DIAMOND IV",
+    "wl": "81/83",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/6989.png"
   },
   "ember_jgl": {
     "name": "UIC Shederen",
     "level": 300,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "EMERALD III",
+    "wl": "172/167",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7035.png"
   },
   "ember_mid": {
     "name": "ResetHoe",
     "level": 877,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "EMERALD I",
+    "wl": "116/120",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4793.png"
   },
   "ember_bot": {
     "name": "UIC DontMethWith",
     "level": 1322,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "DIAMOND IV",
+    "wl": "201/193",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/6988.png"
   },
   "ember_sup": {
     "name": "UIC Envy",
     "level": 343,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "EMERALD IV",
+    "wl": "233/214",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7096.png"
   },
   "nova_jgl": {
     "name": "UIC Rubix Qube",
     "level": 503,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "GOLD II",
+    "wl": "185/194",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/3592.png"
   },
   "nova_mid": {
     "name": "UIC adedier",
     "level": 616,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "PLATINUM III",
+    "wl": "76/79",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4379.png"
   },
   "nova_bot": {
     "name": "UIC Simply",
     "level": 442,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "PLATINUM IV",
+    "wl": "63/77",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/6737.png"
   },
   "nova_sup": {
     "name": "UIC Excellent C",
     "level": 570,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "PLATINUM IV",
+    "wl": "91/91",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7064.png"
   },
   "abyss_top": {
     "name": "UIC Dany",
     "level": 542,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "DIAMOND I",
+    "wl": "82/62",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/3157.png"
   },
   "abyss_jgl": {
     "name": "UIC Keygasza",
     "level": 471,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "EMERALD I",
+    "wl": "58/83",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/1045.png"
   },
   "abyss_mid": {
     "name": "UIC Goku",
     "level": 467,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "EMERALD III",
+    "wl": "58/58",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/538.png"
   },
   "abyss_bot": {
     "name": "UIC N1ghtm4reX",
     "level": 283,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "DIAMOND III",
+    "wl": "83/84",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/3398.png"
   },
   "abyss_sup": {
     "name": "TheEigeeen",
     "level": 665,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "EMERALD III",
+    "wl": "72/86",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/6037.png"
   },
   "night_top": {
     "name": " 张吉利",
     "level": 568,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "EMERALD IV",
+    "wl": "48/46",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/6251.png"
   },
   "night_jgl": {
     "name": "Münzwurf",
     "level": 59,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "MASTER I",
+    "wl": "114/116",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7120.png"
   },
   "night_mid": {
     "name": "UIC Kuroko",
     "level": 598,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "DIAMOND I",
+    "wl": "63/59",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7123.png"
   },
   "night_sup": {
     "name": "Zurashi",
     "level": 682,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "PLATINUM IV",
+    "wl": "83/86",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7068.png"
   },
   "freezer_top": {
     "name": "UIC Rayando07",
     "level": 458,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "MASTER I",
+    "wl": "71/59",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/6383.png"
   },
   "freezer_jgl": {
     "name": "BlauerKlaus",
     "level": 1142,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "MASTER I",
+    "wl": "67/54",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7123.png"
   },
   "freezer_mid": {
     "name": "UIC FrozenHands",
     "level": 639,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "MASTER I",
+    "wl": "58/50",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/6811.png"
   },
   "freezer_bot": {
     "name": "UIC AutumnLeaf",
     "level": 841,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "MASTER I",
+    "wl": "91/73",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/6373.png"
   },
   "freezer_sup": {
     "name": "UIC Ryu Copeland",
     "level": 995,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "DIAMOND I",
+    "wl": "62/58",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/6622.png"
   },
   "freezer_coach": {
     "name": "UIC Loonz",
     "level": 793,
-    "rank": "UNRANKED",
-    "wl": "0/0",
+    "rank": "EMERALD IV",
+    "wl": "27/31",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/4895.png"
   }
 }
