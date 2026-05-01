@@ -52,7 +52,7 @@
     "name": "UIC Flare",
     "level": 636,
     "rank": "DIAMOND IV",
-    "wl": "78/74",
+    "wl": "80/74",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/1625.png"
   },
   "spark_sup": {
@@ -185,7 +185,7 @@
     "name": "Zurashi",
     "level": 682,
     "rank": "PLATINUM IV",
-    "wl": "84/87",
+    "wl": "85/87",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/7068.png"
   },
   "freezer_top": {
@@ -204,9 +204,9 @@
   },
   "freezer_mid": {
     "name": "UIC FrozenHands",
-    "level": 639,
+    "level": 640,
     "rank": "MASTER I",
-    "wl": "60/53",
+    "wl": "61/53",
     "icon": "https://ddragon.leagueoflegends.com/cdn/16.8.1/img/profileicon/6811.png"
   },
   "freezer_bot": {
