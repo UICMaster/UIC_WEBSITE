@@ -149,50 +149,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
 //* =========================================
 //  5. STATS COUNTER ANIMATION (Intersection Observer)
 //  ========================================= */
-const statsSection = document.querySelector('.stats-section');
-const statNumbers = [
-    { id: 'stat-matches', endValue: 142, suffix: '' },
-    { id: 'stat-wr', endValue: 68, suffix: '%' },
-    { id: 'stat-players', endValue: 30, suffix: '+' },
-    { id: 'stat-cups', endValue: 12, suffix: '' }
-];
 
-let started = false; 
-
-function startCounting() {
-    if (started) return; 
-    started = true;
-
-    statNumbers.forEach(stat => {
-        const element = document.getElementById(stat.id);
-        if (!element) return; 
-
-        let startValue = 0;
-        let duration = 2000; 
-        let startTime = null;
-
-        function step(timestamp) {
-            if (!startTime) startTime = timestamp;
-            const progress = Math.min((timestamp - startTime) / duration, 1);
-            element.innerText = Math.floor(progress * stat.endValue) + stat.suffix;
-
-            if (progress < 1) {
-                window.requestAnimationFrame(step);
-            }
-        }
-        window.requestAnimationFrame(step);
-    });
-}
-
-const observer = new IntersectionObserver((entries) => {
-    if (entries[0].isIntersecting) {
-        startCounting();
-    }
-}, { threshold: 0.5 });
-
-if (statsSection) {
-    observer.observe(statsSection);
-}
 
 //* =========================================
 //  6. PWA SERVICE WORKER REGISTRATION
