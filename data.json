@@ -57,7 +57,7 @@
     },
     {
       "name": "UIC Frozenhands",
-      "role": "SUBSTITUTE",
+      "role": "SUB",
       "level": 640,
       "tier": "MASTER I",
       "lp": 60,
@@ -68,7 +68,7 @@
     },
     {
       "name": "Baumi",
-      "role": "SUBSTITUTE",
+      "role": "SUB",
       "level": 1057,
       "tier": "MASTER I",
       "lp": 226,
@@ -79,7 +79,7 @@
     },
     {
       "name": "never leaving",
-      "role": "MANAGER",
+      "role": "MNG",
       "level": 722,
       "tier": "GOLD III",
       "lp": 45,
@@ -90,7 +90,7 @@
     },
     {
       "name": "UIC Loonz",
-      "role": "HEAD COACH",
+      "role": "COH",
       "level": 793,
       "tier": "EMERALD IV",
       "lp": 32,
@@ -139,10 +139,10 @@
       "role": "BOT",
       "level": 844,
       "tier": "EMERALD IV",
-      "lp": 20,
-      "wins": 39,
+      "lp": 40,
+      "wins": 40,
       "losses": 59,
-      "winRate": 39.8,
+      "winRate": 40.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6582.png"
     },
     {
@@ -161,23 +161,23 @@
     {
       "name": "VTennic",
       "role": "TOP",
-      "level": 484,
-      "tier": "EMERALD I",
-      "lp": 1,
+      "level": 485,
+      "tier": "EMERALD II",
+      "lp": 91,
       "wins": 16,
-      "losses": 15,
-      "winRate": 51.6,
+      "losses": 16,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3159.png"
     },
     {
       "name": "UIC Hunter",
       "role": "JGL",
       "level": 967,
-      "tier": "EMERALD II",
-      "lp": 20,
+      "tier": "EMERALD III",
+      "lp": 99,
       "wins": 77,
-      "losses": 79,
-      "winRate": 49.4,
+      "losses": 80,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7123.png"
     },
     {
@@ -194,12 +194,12 @@
     {
       "name": "UIC Painfull",
       "role": "BOT",
-      "level": 791,
+      "level": 792,
       "tier": "EMERALD II",
-      "lp": 62,
+      "lp": 42,
       "wins": 51,
-      "losses": 44,
-      "winRate": 53.7,
+      "losses": 45,
+      "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6883.png"
     },
     {
@@ -329,7 +329,7 @@
     },
     {
       "name": "UIC Loonz",
-      "role": "HEAD COACH",
+      "role": "COH",
       "level": 793,
       "tier": "EMERALD IV",
       "lp": 32,
@@ -340,7 +340,7 @@
     },
     {
       "name": "UIC Cerberus",
-      "role": "MANAGER",
+      "role": "MNG",
       "level": 233,
       "tier": "UNRANKED",
       "lp": 0,
@@ -382,7 +382,7 @@
       "wins": 101,
       "losses": 101,
       "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5449.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/683.png"
     },
     {
       "name": "CYS Ryu Panda",
@@ -443,7 +443,7 @@
     },
     {
       "name": "zab77",
-      "role": "SUBSTITUTE",
+      "role": "SUB",
       "level": 287,
       "tier": "UNRANKED",
       "lp": 0,
@@ -454,7 +454,7 @@
     },
     {
       "name": "UIC Ayumu",
-      "role": "MANAGER",
+      "role": "MNG",
       "level": 592,
       "tier": "PLATINUM II",
       "lp": 88,
@@ -465,7 +465,7 @@
     },
     {
       "name": "UIC Frozenhands",
-      "role": "HEAD COACH",
+      "role": "COH",
       "level": 640,
       "tier": "MASTER I",
       "lp": 60,
@@ -578,81 +578,81 @@
     {
       "name": "UIC Excellent C",
       "role": "SUP",
-      "level": 0,
-      "tier": "RECRUITING",
-      "lp": 0,
-      "wins": 0,
-      "losses": 0,
-      "winRate": 0,
-      "icon": null
+      "level": 570,
+      "tier": "PLATINUM IV",
+      "lp": 44,
+      "wins": 93,
+      "losses": 96,
+      "winRate": 49.2,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7064.png"
     },
     {
       "name": "UIC Loonz",
-      "role": "HEAD COACH",
-      "level": 0,
-      "tier": "UNRANKED",
-      "lp": 0,
-      "wins": 0,
-      "losses": 0,
-      "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+      "role": "COH",
+      "level": 793,
+      "tier": "EMERALD IV",
+      "lp": 32,
+      "wins": 27,
+      "losses": 31,
+      "winRate": 46.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     }
   ],
   "abyss": [
     {
       "name": "EPS Laserjet M47",
       "role": "TOP",
-      "level": 0,
-      "tier": "UNRANKED",
-      "lp": 0,
-      "wins": 0,
-      "losses": 0,
-      "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+      "level": 751,
+      "tier": "DIAMOND IV",
+      "lp": 18,
+      "wins": 38,
+      "losses": 49,
+      "winRate": 43.7,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7050.png"
     },
     {
       "name": "yShizuu",
       "role": "JGL",
-      "level": 0,
-      "tier": "UNRANKED",
-      "lp": 0,
-      "wins": 0,
-      "losses": 0,
-      "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+      "level": 495,
+      "tier": "MASTER I",
+      "lp": 90,
+      "wins": 133,
+      "losses": 121,
+      "winRate": 52.4,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/29.png"
     },
     {
       "name": "UIC Keygasza",
       "role": "MID",
-      "level": 0,
-      "tier": "UNRANKED",
-      "lp": 0,
-      "wins": 0,
-      "losses": 0,
-      "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+      "level": 471,
+      "tier": "EMERALD I",
+      "lp": 45,
+      "wins": 61,
+      "losses": 87,
+      "winRate": 41.2,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/1045.png"
     },
     {
       "name": "UIC M Character",
       "role": "BOT",
-      "level": 0,
-      "tier": "UNRANKED",
-      "lp": 0,
-      "wins": 0,
-      "losses": 0,
-      "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+      "level": 645,
+      "tier": "DIAMOND IV",
+      "lp": 33,
+      "wins": 80,
+      "losses": 88,
+      "winRate": 47.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6330.png"
     },
     {
       "name": "TheEigeeen",
       "role": "SUP",
-      "level": 0,
-      "tier": "UNRANKED",
-      "lp": 0,
-      "wins": 0,
-      "losses": 0,
-      "winRate": 0,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+      "level": 666,
+      "tier": "EMERALD III",
+      "lp": 81,
+      "wins": 72,
+      "losses": 86,
+      "winRate": 45.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6037.png"
     }
   ]
 }
