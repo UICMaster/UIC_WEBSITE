@@ -1,0 +1,11 @@
+{
+  "teams": [
+    { "key": "prime", "id": "116908" },
+    { "key": "eclipse", "id": "208131" },
+    { "key": "vakuum", "id": "207696" },
+    { "key": "spark", "id": "208694" },
+    { "key": "cyber", "id": "198490" },
+    { "key": "nova", "id": "203447" },
+    { "key": "abyss", "id": "204924" }
+  ]
+}
