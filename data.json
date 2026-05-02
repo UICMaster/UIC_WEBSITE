@@ -1,0 +1,658 @@
+{
+  "prime": [
+    {
+      "name": "UIC Speedy",
+      "role": "TOP",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+    },
+    {
+      "name": "UIC Niki",
+      "role": "JGL",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+    },
+    {
+      "name": "UIC Shenycrane",
+      "role": "MID",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+    },
+    {
+      "name": "UIC Giani",
+      "role": "BOT",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+    },
+    {
+      "name": "UIC Baguetto",
+      "role": "SUP",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+    },
+    {
+      "name": "UIC Frozenhands",
+      "role": "SUBSTITUTE",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+    },
+    {
+      "name": "Baumi",
+      "role": "SUBSTITUTE",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+    },
+    {
+      "name": "never leaving",
+      "role": "MANAGER",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+    },
+    {
+      "name": "UIC Loonz",
+      "role": "HEAD COACH",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+    }
+  ],
+  "eclipse": [
+    {
+      "name": "Stafferl",
+      "role": "TOP",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+    },
+    {
+      "name": "UIC Nairadawsm",
+      "role": "JGL",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+    },
+    {
+      "name": "Regentropfen",
+      "role": "MID",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+    },
+    {
+      "name": "Pferdemilch",
+      "role": "BOT",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+    },
+    {
+      "name": "Autonamed",
+      "role": "SUP",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+    }
+  ],
+  "vakuum": [
+    {
+      "name": "VTennic",
+      "role": "TOP",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+    },
+    {
+      "name": "UIC Hunter",
+      "role": "JGL",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+    },
+    {
+      "name": "UIC Kaoxz",
+      "role": "MID",
+      "level": 0,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/0.png"
+    },
+    {
+      "name": "UIC Painfull",
+      "role": "BOT",
+      "level": 791,
+      "tier": "EMERALD II",
+      "lp": 62,
+      "wins": 51,
+      "losses": 44,
+      "winRate": 53.7,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6883.png"
+    },
+    {
+      "name": "FirstBlo",
+      "role": "SUP",
+      "level": 481,
+      "tier": "DIAMOND IV",
+      "lp": 17,
+      "wins": 83,
+      "losses": 76,
+      "winRate": 52.2,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4655.png"
+    }
+  ],
+  "spark": [
+    {
+      "name": "Haselmania",
+      "role": "TOP",
+      "level": 603,
+      "tier": "MASTER I",
+      "lp": 13,
+      "wins": 50,
+      "losses": 45,
+      "winRate": 52.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/665.png"
+    },
+    {
+      "name": "TheRealCrimes",
+      "role": "JGL",
+      "level": 1039,
+      "tier": "DIAMOND IV",
+      "lp": 15,
+      "wins": 37,
+      "losses": 42,
+      "winRate": 46.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/1453.png"
+    },
+    {
+      "name": "DeutscheLandmine",
+      "role": "MID",
+      "level": 667,
+      "tier": "DIAMOND IV",
+      "lp": 50,
+      "wins": 55,
+      "losses": 56,
+      "winRate": 49.5,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/615.png"
+    },
+    {
+      "name": "EnchanterPocket",
+      "role": "BOT",
+      "level": 779,
+      "tier": "DIAMOND I",
+      "lp": 20,
+      "wins": 163,
+      "losses": 173,
+      "winRate": 48.5,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6062.png"
+    },
+    {
+      "name": "ChrizZzorR",
+      "role": "SUP",
+      "level": 679,
+      "tier": "DIAMOND IV",
+      "lp": 0,
+      "wins": 32,
+      "losses": 36,
+      "winRate": 47.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5642.png"
+    }
+  ],
+  "phoenix": [
+    {
+      "name": "UIC Kamo",
+      "role": "TOP",
+      "level": 559,
+      "tier": "MASTER I",
+      "lp": 76,
+      "wins": 265,
+      "losses": 237,
+      "winRate": 52.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7027.png"
+    },
+    {
+      "name": "Exi",
+      "role": "JGL",
+      "level": 791,
+      "tier": "MASTER I",
+      "lp": 46,
+      "wins": 137,
+      "losses": 132,
+      "winRate": 50.9,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/528.png"
+    },
+    {
+      "name": "giow99",
+      "role": "MID",
+      "level": 397,
+      "tier": "DIAMOND II",
+      "lp": 79,
+      "wins": 75,
+      "losses": 83,
+      "winRate": 47.5,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4626.png"
+    },
+    {
+      "name": "UIC AutumnLeaf",
+      "role": "BOT",
+      "level": 841,
+      "tier": "MASTER I",
+      "lp": 120,
+      "wins": 93,
+      "losses": 73,
+      "winRate": 56,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6373.png"
+    },
+    {
+      "name": "UIC Ryu Copeland",
+      "role": "SUP",
+      "level": 996,
+      "tier": "DIAMOND I",
+      "lp": 75,
+      "wins": 62,
+      "losses": 58,
+      "winRate": 51.7,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6622.png"
+    },
+    {
+      "name": "UIC Loonz",
+      "role": "HEAD COACH",
+      "level": 793,
+      "tier": "EMERALD IV",
+      "lp": 32,
+      "wins": 27,
+      "losses": 31,
+      "winRate": 46.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
+    },
+    {
+      "name": "UIC Cerberus",
+      "role": "MANAGER",
+      "level": 233,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6386.png"
+    }
+  ],
+  "cyber": [
+    {
+      "name": "UIC DANY",
+      "role": "TOP",
+      "level": 542,
+      "tier": "DIAMOND I",
+      "lp": 13,
+      "wins": 82,
+      "losses": 63,
+      "winRate": 56.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3157.png"
+    },
+    {
+      "name": "CYS Rellik",
+      "role": "MID",
+      "level": 671,
+      "tier": "DIAMOND IV",
+      "lp": 28,
+      "wins": 117,
+      "losses": 97,
+      "winRate": 54.7,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7084.png"
+    },
+    {
+      "name": "UIC Pjure",
+      "role": "BOT",
+      "level": 740,
+      "tier": "DIAMOND IV",
+      "lp": 66,
+      "wins": 101,
+      "losses": 101,
+      "winRate": 50,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5449.png"
+    },
+    {
+      "name": "CYS Ryu Panda",
+      "role": "SUP",
+      "level": 795,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6872.png"
+    }
+  ],
+  "sakura": [
+    {
+      "name": "UIC lightfire",
+      "role": "TOP",
+      "level": 918,
+      "tier": "EMERALD II",
+      "lp": 61,
+      "wins": 56,
+      "losses": 63,
+      "winRate": 47.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6693.png"
+    },
+    {
+      "name": "Blauerlopus",
+      "role": "JGL",
+      "level": 0,
+      "tier": "RECRUITING",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": null
+    },
+    {
+      "name": "UIC Ayumu",
+      "role": "MID",
+      "level": 592,
+      "tier": "PLATINUM II",
+      "lp": 88,
+      "wins": 107,
+      "losses": 97,
+      "winRate": 52.5,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7127.png"
+    },
+    {
+      "name": "UIC SilentCarry",
+      "role": "BOT",
+      "level": 588,
+      "tier": "DIAMOND I",
+      "lp": 57,
+      "wins": 121,
+      "losses": 132,
+      "winRate": 47.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
+    },
+    {
+      "name": "zab77",
+      "role": "SUBSTITUTE",
+      "level": 287,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6923.png"
+    },
+    {
+      "name": "UIC Ayumu",
+      "role": "MANAGER",
+      "level": 592,
+      "tier": "PLATINUM II",
+      "lp": 88,
+      "wins": 107,
+      "losses": 97,
+      "winRate": 52.5,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7127.png"
+    },
+    {
+      "name": "UIC Frozenhands",
+      "role": "HEAD COACH",
+      "level": 640,
+      "tier": "MASTER I",
+      "lp": 60,
+      "wins": 62,
+      "losses": 53,
+      "winRate": 53.9,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6811.png"
+    }
+  ],
+  "nova": [
+    {
+      "name": "UIC Kaetaya",
+      "role": "TOP",
+      "level": 868,
+      "tier": "EMERALD III",
+      "lp": 41,
+      "wins": 50,
+      "losses": 53,
+      "winRate": 48.5,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6340.png"
+    },
+    {
+      "name": "UIC Muh",
+      "role": "TOP",
+      "level": 522,
+      "tier": "GOLD I",
+      "lp": 52,
+      "wins": 106,
+      "losses": 113,
+      "winRate": 48.4,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/1109.png"
+    },
+    {
+      "name": "UIC Rubix Qube",
+      "role": "JGL",
+      "level": 503,
+      "tier": "GOLD II",
+      "lp": 28,
+      "wins": 185,
+      "losses": 194,
+      "winRate": 48.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3592.png"
+    },
+    {
+      "name": "UIC Namorii",
+      "role": "JGL",
+      "level": 950,
+      "tier": "EMERALD I",
+      "lp": 43,
+      "wins": 30,
+      "losses": 25,
+      "winRate": 54.5,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3791.png"
+    },
+    {
+      "name": "UIC adedier",
+      "role": "MID",
+      "level": 616,
+      "tier": "PLATINUM III",
+      "lp": 45,
+      "wins": 79,
+      "losses": 82,
+      "winRate": 49.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4379.png"
+    },
+    {
+      "name": "UIC GreatATuin",
+      "role": "MID",
+      "level": 589,
+      "tier": "DIAMOND IV",
+      "lp": 14,
+      "wins": 232,
+      "losses": 206,
+      "winRate": 53,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/23.png"
+    },
+    {
+      "name": "UIC Boohunter",
+      "role": "BOT",
+      "level": 1391,
+      "tier": "PLATINUM IV",
+      "lp": 0,
+      "wins": 400,
+      "losses": 397,
+      "winRate": 50.2,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7126.png"
+    },
+    {
+      "name": "UIC Deavan",
+      "role": "BOT",
+      "level": 394,
+      "tier": "PLATINUM III",
+      "lp": 37,
+      "wins": 108,
+      "losses": 91,
+      "winRate": 54.3,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
+    },
+    {
+      "name": "UIC Kaanto",
+      "role": "SUP",
+      "level": 380,
+      "tier": "PLATINUM II",
+      "lp": 65,
+      "wins": 74,
+      "losses": 72,
+      "winRate": 50.7,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7099.png"
+    },
+    {
+      "name": "UIC Excellent C",
+      "role": "SUP",
+      "level": 0,
+      "tier": "RECRUITING",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": null
+    },
+    {
+      "name": "UIC Loonz",
+      "role": "HEAD COACH",
+      "level": 793,
+      "tier": "EMERALD IV",
+      "lp": 32,
+      "wins": 27,
+      "losses": 31,
+      "winRate": 46.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
+    }
+  ],
+  "abyss": [
+    {
+      "name": "EPS Laserjet M47",
+      "role": "TOP",
+      "level": 751,
+      "tier": "DIAMOND IV",
+      "lp": 18,
+      "wins": 38,
+      "losses": 49,
+      "winRate": 43.7,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7050.png"
+    },
+    {
+      "name": "yShizuu",
+      "role": "JGL",
+      "level": 495,
+      "tier": "MASTER I",
+      "lp": 90,
+      "wins": 133,
+      "losses": 121,
+      "winRate": 52.4,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/29.png"
+    },
+    {
+      "name": "UIC Keygasza",
+      "role": "MID",
+      "level": 471,
+      "tier": "EMERALD I",
+      "lp": 45,
+      "wins": 61,
+      "losses": 87,
+      "winRate": 41.2,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/1045.png"
+    },
+    {
+      "name": "UIC M Character",
+      "role": "BOT",
+      "level": 645,
+      "tier": "DIAMOND IV",
+      "lp": 33,
+      "wins": 80,
+      "losses": 88,
+      "winRate": 47.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6330.png"
+    },
+    {
+      "name": "TheEigeeen",
+      "role": "SUP",
+      "level": 666,
+      "tier": "EMERALD III",
+      "lp": 81,
+      "wins": 72,
+      "losses": 86,
+      "winRate": 45.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6037.png"
+    }
+  ]
+}
