@@ -5,10 +5,10 @@
     { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
     { "gameName": "UIC Giani", "tagLine": "999", "role": "BOT" },
     { "gameName": "UIC Baguetto", "tagLine": "R3kt", "role": "SUP" },
-    { "gameName": "UIC Frozenhands", "tagLine": "MID", "role": "SUBSTITUTE" },
-    { "gameName": "Baumi", "tagLine": "123", "role": "SUBSTITUTE" },
-    { "gameName": "never leaving", "tagLine": "stay", "role": "MANAGER" },
-    { "gameName": "UIC Loonz", "tagLine": "Coach", "role": "HEAD COACH" }
+    { "gameName": "UIC Frozenhands", "tagLine": "MID", "role": "SUB" },
+    { "gameName": "Baumi", "tagLine": "123", "role": "SUB" },
+    { "gameName": "never leaving", "tagLine": "stay", "role": "MNG" },
+    { "gameName": "UIC Loonz", "tagLine": "Coach", "role": "COH" }
   ],
   "eclipse": [
     { "gameName": "Stafferl", "tagLine": "FNC", "role": "TOP" },
@@ -37,8 +37,8 @@
     { "gameName": "giow99", "tagLine": "Gio", "role": "MID" },
     { "gameName": "UIC AutumnLeaf", "tagLine": "Moo", "role": "BOT" },
     { "gameName": "UIC Ryu Copeland", "tagLine": "117", "role": "SUP" },
-    { "gameName": "UIC Loonz", "tagLine": "Coach", "role": "HEAD COACH" },
-    { "gameName": "UIC Cerberus", "tagLine": "Goatz", "role": "MANAGER" }
+    { "gameName": "UIC Loonz", "tagLine": "Coach", "role": "COH" },
+    { "gameName": "UIC Cerberus", "tagLine": "Goatz", "role": "MNG" }
   ],
   "cyber": [
     { "gameName": "UIC DANY", "tagLine": "RFA40", "role": "TOP" },
@@ -51,9 +51,9 @@
     { "gameName": "Blauerlopus", "tagLine": "Euw", "role": "JGL" },
     { "gameName": "UIC Ayumu", "tagLine": "LoveK", "role": "MID" },
     { "gameName": "UIC SilentCarry", "tagLine": "Alune", "role": "BOT" },
-    { "gameName": "zab77", "tagLine": "EUW", "role": "SUBSTITUTE" },
-    { "gameName": "UIC Ayumu", "tagLine": "LoveK", "role": "MANAGER" },
-    { "gameName": "UIC Frozenhands", "tagLine": "mid", "role": "HEAD COACH" }
+    { "gameName": "zab77", "tagLine": "EUW", "role": "SUB" },
+    { "gameName": "UIC Ayumu", "tagLine": "LoveK", "role": "MNG" },
+    { "gameName": "UIC Frozenhands", "tagLine": "mid", "role": "COH" }
   ],
   "nova": [
     { "gameName": "UIC Kaetaya", "tagLine": "XwX", "role": "TOP" },
@@ -66,7 +66,7 @@
     { "gameName": "UIC Deavan", "tagLine": "UIC", "role": "BOT" },
     { "gameName": "UIC Kaanto", "tagLine": "Nova", "role": "SUP" },
     { "gameName": "UIC Excellent C", "tagLine": "1997", "role": "SUP" },
-    { "gameName": "UIC Loonz", "tagLine": "Coach", "role": "HEAD COACH" }
+    { "gameName": "UIC Loonz", "tagLine": "Coach", "role": "COH" }
   ],
   "abyss": [
     { "gameName": "EPS Laserjet M47", "tagLine": "Chris", "role": "TOP" },
