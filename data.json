@@ -196,10 +196,10 @@
       "role": "BOT",
       "level": 792,
       "tier": "EMERALD II",
-      "lp": 82,
+      "lp": 42,
       "wins": 53,
-      "losses": 45,
-      "winRate": 54.1,
+      "losses": 47,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6883.png"
     },
     {
@@ -251,13 +251,13 @@
     {
       "name": "EnchanterPocket",
       "role": "BOT",
-      "level": 779,
+      "level": 780,
       "tier": "DIAMOND I",
-      "lp": 38,
-      "wins": 164,
-      "losses": 173,
+      "lp": 35,
+      "wins": 165,
+      "losses": 174,
       "winRate": 48.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6062.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5875.png"
     },
     {
       "name": "ChrizZzorR",
@@ -382,7 +382,7 @@
       "wins": 101,
       "losses": 101,
       "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/683.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5449.png"
     },
     {
       "name": "CYS Ryu Panda",
@@ -545,7 +545,7 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT",
-      "level": 1391,
+      "level": 1392,
       "tier": "PLATINUM IV",
       "lp": 0,
       "wins": 400,
