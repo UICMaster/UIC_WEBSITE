@@ -82,10 +82,10 @@
       "role": "MNG",
       "level": 722,
       "tier": "GOLD III",
-      "lp": 45,
+      "lp": 24,
       "wins": 139,
-      "losses": 156,
-      "winRate": 47.1,
+      "losses": 157,
+      "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4555.png"
     },
     {
@@ -162,22 +162,22 @@
       "name": "VTennic",
       "role": "TOP",
       "level": 485,
-      "tier": "EMERALD II",
-      "lp": 91,
-      "wins": 16,
+      "tier": "EMERALD I",
+      "lp": 21,
+      "wins": 17,
       "losses": 16,
-      "winRate": 50,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3159.png"
     },
     {
       "name": "UIC Hunter",
       "role": "JGL",
       "level": 967,
-      "tier": "EMERALD III",
-      "lp": 99,
-      "wins": 77,
+      "tier": "EMERALD II",
+      "lp": 18,
+      "wins": 78,
       "losses": 80,
-      "winRate": 49,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7123.png"
     },
     {
@@ -196,10 +196,10 @@
       "role": "BOT",
       "level": 792,
       "tier": "EMERALD II",
-      "lp": 42,
-      "wins": 51,
+      "lp": 62,
+      "wins": 52,
       "losses": 45,
-      "winRate": 53.1,
+      "winRate": 53.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6883.png"
     },
     {
@@ -218,13 +218,13 @@
     {
       "name": "Haselmania",
       "role": "TOP",
-      "level": 603,
-      "tier": "MASTER I",
-      "lp": 13,
-      "wins": 50,
-      "losses": 45,
-      "winRate": 52.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/665.png"
+      "level": 0,
+      "tier": "RECRUITING",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": null
     },
     {
       "name": "TheRealCrimes",
