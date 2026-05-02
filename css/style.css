@@ -1340,6 +1340,41 @@ img {
     .tb-content { grid-template-columns: 1fr; gap: 15px; }
 }
 
+/* NEUER PART */
+/* --- Support for Bo3 Point System & Fearless --- */
+
+/* Highlight the new 3-2-1-0 Point values */
+.tm-stat .value.highlight {
+    color: var(--primary);
+    text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
+    font-size: 1.4rem; /* Make points slightly larger than other stats */
+}
+
+/* Fearless Format Tag */
+.tb-title.fearless {
+    color: var(--secondary); /* Purple for Fearless */
+    border-left: 2px solid var(--secondary);
+    padding-left: 8px;
+}
+
+/* Remove 'Draw' styling since it's obsolete in Bo3 */
+.form-dot.draw, .text-draw {
+    display: none !important; 
+}
+
+/* Smooth transition for the automated team loading */
+#stats-telemetry-list {
+    min-height: 200px;
+    transition: opacity 0.5s ease;
+}
+
+/* Roster Mini-Chips: Ensure Sub-Captains stand out */
+.mini-chip.captain {
+    background: rgba(176, 38, 255, 0.1);
+    border-color: var(--secondary);
+    box-shadow: 0 0 10px rgba(176, 38, 255, 0.2);
+}
+
 /* =========================================
    12. PARTNERS SECTION (The Alliance)
    ========================================= */
