@@ -1174,6 +1174,8 @@ img {
     flex-direction: column;
     gap: 10px;
     width: 100%;
+    min-height: 200px; /* Prevents layout jump */
+    transition: opacity 0.5s ease;
 }
 
 /* --- THE UNIT --- */
@@ -1198,10 +1200,10 @@ img {
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.6);
 }
 
-/* --- HEADER --- */
+/* --- HEADER (Calibrated Grid) --- */
 .telemetry-header {
     display: grid;
-    /* Identity | NextMatch | Form | Points | Arrow */
+    /* Identity | Match | Form | Points | Arrow */
     grid-template-columns: 2fr 1.5fr 1fr 0.8fr 40px;
     align-items: center;
     padding: 15px 20px;
@@ -1209,10 +1211,8 @@ img {
     user-select: none;
 }
 
-/* Identity Section */
 .tm-identity { display: flex; align-items: center; gap: 15px; }
 
-/* Circular Icon Wrapper */
 .tm-logo-wrapper {
     width: 42px; height: 42px;
     border-radius: 50%;
@@ -1232,53 +1232,39 @@ img {
     font-size: 0.75rem; color: #888; text-transform: uppercase; 
 }
 
-/* Separation Lines (Vertical Dividers) */
 .tm-section {
-    border-left: 1px solid rgba(255, 255, 255, 0.1); /* Separator Line */
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
     height: 30px;
     display: flex;
     align-items: center;
     padding-left: 20px;
 }
 
-/* Next Match Link Styles */
-.tm-next-link {
-    display: flex; flex-direction: column; justify-content: center;
-    text-decoration: none; transition: 0.2s;
+/* Points - Highlighted for Bo3 */
+.tm-stat { justify-content: flex-end; }
+.tm-stat .value { font-family: 'Orbitron', sans-serif; font-size: 1.2rem; font-weight: 700; color: #fff; }
+.tm-stat .value.highlight {
+    color: var(--primary);
+    text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
+    font-size: 1.4rem; /* Larger for tactical emphasis */
 }
-.tm-next-link:hover .accent { color: var(--secondary); text-shadow: 0 0 8px var(--secondary); }
-.tm-next-link:hover .next-label { color: #fff; }
+.label-inline { font-size: 0.6rem; color: #888; margin-left: 2px; }
 
-.next-label { font-size: 0.55rem; color: #666; font-family: 'Orbitron', sans-serif; margin-bottom: 2px; transition: 0.2s; }
-.next-details { font-family: 'Rajdhani', sans-serif; font-size: 0.9rem; font-weight: 700; color: #fff; display: flex; gap: 8px; align-items: baseline; }
-.next-time { font-size: 0.75rem; color: #888; font-weight: 400; }
-.tm-next-empty { font-size: 0.7rem; color: #555; padding-left: 20px; border-left: 1px solid rgba(255,255,255,0.1); }
-
-/* Form Dots */
+/* Form Dots (No Draws) */
 .tm-form { gap: 4px; }
 .form-dot { width: 6px; height: 6px; transform: skewX(-20deg); opacity: 0.4; margin-right: 2px; }
 .form-dot.win { background: #00ff88; opacity: 1; box-shadow: 0 0 5px #00ff88; }
 .form-dot.loss { background: #ff0055; opacity: 1; }
-.form-dot.draw { background: #ffd700; opacity: 1; }
+.form-dot.draw { display: none !important; } /* Hidden for Bo3 */
 
-/* Points */
-.tm-stat { justify-content: flex-end; }
-.tm-stat .value { font-family: 'Orbitron', sans-serif; font-size: 1.2rem; font-weight: 700; color: #fff; }
-.tm-stat .highlight { color: var(--primary); text-shadow: 0 0 10px rgba(0,240,255,0.4); }
-.label-inline { font-size: 0.6rem; color: #888; margin-left: 2px; }
-
-/* Arrow Animation (Turn in place, no swing) */
 .tm-arrow { 
     display: flex; justify-content: flex-end; color: #555; 
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Precise rotation */
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     transform-origin: center center;
 }
-.telemetry-unit.active .tm-arrow { 
-    transform: rotate(180deg); /* Simple flip */
-    color: var(--primary); 
-}
+.telemetry-unit.active .tm-arrow { transform: rotate(180deg); color: var(--primary); }
 
-/* --- BODY (EXPANDED) --- */
+/* --- BODY --- */
 .telemetry-body {
     max-height: 0;
     transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -1298,81 +1284,39 @@ img {
     font-family: 'Orbitron', sans-serif; font-size: 0.7rem; color: var(--secondary);
     margin-bottom: 10px; letter-spacing: 1px;
 }
+.tb-title.fearless {
+    color: var(--secondary);
+    border-left: 2px solid var(--secondary);
+    padding-left: 8px;
+}
 
-/* Last Match Box */
+/* Last Match */
 .last-match-box {
     background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1);
     padding: 10px; margin-bottom: 15px;
 }
-.lm-header { font-size: 0.6rem; color: #666; margin-bottom: 5px; }
-.lm-content { display: flex; justify-content: space-between; align-items: center; font-family: 'Rajdhani', sans-serif; font-weight: 700; font-size: 1.1rem; }
-.lm-vs { color: #fff; }
-.text-win { color: #00ff88; } .text-loss { color: #ff0055; } .text-draw { color: #ffd700; }
-.dimmed { opacity: 0.5; font-size: 0.8rem; }
-
-/* Stat Pills */
-.stats-mini-row { display: flex; gap: 10px; }
-.stat-pill { 
-    background: rgba(255,255,255,0.05); padding: 5px 10px; 
-    flex: 1; display: flex; flex-direction: column; align-items: center; 
-}
-.sp-label { font-size: 0.55rem; color: #888; }
-.sp-value { font-family: 'Orbitron', sans-serif; font-size: 0.9rem; font-weight: bold; }
-.text-primary { color: var(--primary); }
+.text-win { color: #00ff88; } 
+.text-loss { color: #ff0055; }
+.text-draw { display: none !important; }
 
 /* Roster */
-.tb-header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
-.link-external { font-size: 0.65rem; color: var(--primary); text-decoration: none; border: 1px solid var(--primary); padding: 2px 6px; transition: 0.2s; }
-.link-external:hover { background: var(--primary); color: #000; }
-
-.roster-strip { display: flex; flex-wrap: wrap; gap: 6px; }
 .mini-chip {
     background: rgba(255,255,255,0.03); border: 1px solid transparent;
     padding: 4px 10px; font-size: 0.75rem; color: #ddd; font-family: 'Rajdhani', sans-serif;
     clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px);
 }
-.mini-chip.captain { border-color: var(--secondary); color: #fff; }
+.mini-chip.captain { 
+    background: rgba(176, 38, 255, 0.1);
+    border-color: var(--secondary); 
+    color: #fff;
+    box-shadow: 0 0 10px rgba(176, 38, 255, 0.2);
+}
 
-/* Mobile */
+/* Mobile Adjustments */
 @media (max-width: 900px) {
-    .telemetry-header { grid-template-columns: 1fr auto 40px; } /* Identity | Points | Arrow */
+    .telemetry-header { grid-template-columns: 1fr auto 40px; }
     .tm-next-match, .tm-form { display: none; }
     .tb-content { grid-template-columns: 1fr; gap: 15px; }
-}
-
-/* NEUER PART */
-/* --- Support for Bo3 Point System & Fearless --- */
-
-/* Highlight the new 3-2-1-0 Point values */
-.tm-stat .value.highlight {
-    color: var(--primary);
-    text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
-    font-size: 1.4rem; /* Make points slightly larger than other stats */
-}
-
-/* Fearless Format Tag */
-.tb-title.fearless {
-    color: var(--secondary); /* Purple for Fearless */
-    border-left: 2px solid var(--secondary);
-    padding-left: 8px;
-}
-
-/* Remove 'Draw' styling since it's obsolete in Bo3 */
-.form-dot.draw, .text-draw {
-    display: none !important; 
-}
-
-/* Smooth transition for the automated team loading */
-#stats-telemetry-list {
-    min-height: 200px;
-    transition: opacity 0.5s ease;
-}
-
-/* Roster Mini-Chips: Ensure Sub-Captains stand out */
-.mini-chip.captain {
-    background: rgba(176, 38, 255, 0.1);
-    border-color: var(--secondary);
-    box-shadow: 0 0 10px rgba(176, 38, 255, 0.2);
 }
 
 /* =========================================
