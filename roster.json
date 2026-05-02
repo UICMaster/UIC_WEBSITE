@@ -1,5 +1,5 @@
 {
-  "Prime": [
+  "prime": [
     { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
     { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
     { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
@@ -8,7 +8,7 @@
     { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
     { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
   ],
-  "Eclipse": [
+  "eclipse": [
     { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
     { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
     { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
@@ -17,7 +17,7 @@
     { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
     { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
   ],
-  "Vakuum": [
+  "vakuum": [
     { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
     { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
     { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
@@ -26,7 +26,7 @@
     { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
     { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
   ],
-  "Spark": [
+  "spark": [
     { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
     { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
     { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
@@ -35,7 +35,7 @@
     { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
     { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
   ],
-  "Phoenix": [
+  "phoenix": [
     { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
     { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
     { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
@@ -44,7 +44,7 @@
     { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
     { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
   ],
-  "Cyber": [
+  "cyber": [
     { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
     { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
     { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
@@ -53,7 +53,7 @@
     { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
     { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
   ],
-  "Sakura": [
+  "sakura": [
     { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
     { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
     { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
@@ -62,7 +62,7 @@
     { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
     { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
   ],
-  "Ember": [
+  "ember": [
     { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
     { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
     { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
@@ -71,7 +71,7 @@
     { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
     { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
   ],
-  "Obsidian": [
+  "obsidian": [
     { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
     { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
     { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
@@ -80,7 +80,7 @@
     { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
     { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
   ],
-  "Nova": [
+  "nova": [
     { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
     { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
     { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
@@ -89,7 +89,7 @@
     { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
     { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
   ],
-  "Abyss": [
+  "abyss": [
     { "gameName": "skanpy", "tagLine": "3005", "role": "TOP" },
     { "gameName": "UIC Lenno", "tagLine": "UIC", "role": "JGL" },
     { "gameName": "Lenlusz", "tagLine": "EAZ", "role": "MID" },
