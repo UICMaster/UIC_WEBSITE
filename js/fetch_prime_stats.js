@@ -1,7 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
+// Load Config
 const CONFIG = JSON.parse(fs.readFileSync('./config.json', 'utf8'));
+// Force output to root directory
 const OUTPUT_PATH = path.resolve(process.cwd(), 'prime_stats.json');
 const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/3.0' };
 
@@ -14,7 +16,7 @@ async function getTeamIntel(team) {
         let mapWins = 0, mapLosses = 0, totalPoints = 0, sWins = 0, sLosses = 0;
         let formHistory = [], nextMatch = null, lastMatch = null;
 
-        // FILTER: Only count League (Groups) and Playoffs
+        // Filter for Gruppenphase (league) and Playoffs (playoff)
         const validTypes = ['league', 'playoff'];
 
         if (data.matches) {
@@ -31,7 +33,7 @@ async function getTeamIntel(team) {
                     if (!isNaN(us)) {
                         mapWins += us; mapLosses += them;
                         
-                        // Rule 2.4.2: Bo3 Point Distribution
+                        // Regel 2.4.2: Bo3 Point Logic
                         if (us === 2 && them === 0) totalPoints += 3;
                         else if (us === 2 && them === 1) totalPoints += 2;
                         else if (us === 1 && them === 2) totalPoints += 1;
@@ -55,9 +57,12 @@ async function getTeamIntel(team) {
 
         return {
             meta: { name: data.name, div: data.division },
-            stats: { wins: mapWins, losses: mapLosses, points: totalPoints, games: (sWins + sLosses), 
-                     win_rate: (sWins + sLosses) > 0 ? Math.round((sWins / (sWins + sLosses)) * 100) : 0, 
-                     form: formHistory.slice(-5) },
+            stats: { 
+                wins: mapWins, losses: mapLosses, points: totalPoints, 
+                games: (sWins + sLosses), 
+                win_rate: (sWins + sLosses) > 0 ? Math.round((sWins / (sWins + sLosses)) * 100) : 0, 
+                form: formHistory.slice(-5) 
+            },
             next_match: nextMatch,
             last_match: lastMatch,
             roster: (data.players || []).map(p => ({ summoner: p.summoner_name, is_captain: p.is_leader })),
@@ -88,6 +93,6 @@ async function start() {
         teams: results
     };
     fs.writeFileSync(OUTPUT_PATH, JSON.stringify(payload, null, 2));
-    console.log("✅ Telemetry Generated.");
+    console.log(`✅ Telemetry Saved to: ${OUTPUT_PATH}`);
 }
 start();
