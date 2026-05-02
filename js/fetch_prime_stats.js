@@ -9,13 +9,16 @@ const OUTPUT_PATH = path.resolve(__dirname, '../', DATA_FILE);
 const SEASON_START = new Date('2026-01-26T00:00:00'); 
 
 const TEAMS = {
-    "prime":   { id: "116908", manual_div: "Division 5" }, 
-    "spark":   { id: "208694", manual_div: "Division 6" },
-    "ember":   { id: "211165", manual_div: "Division 6" },
-    "nova":    { id: "203447", manual_div: "Division 6" },
-    "abyss":   { id: "204924", manual_div: "Division 5" },
-    "night":   { id: "212047", manual_div: "Division 6" },
-    "freezer": { id: "203146", manual_div: "Division 5" }
+    "prime":    { id: "116908", manual_div: "Division 4" }, 
+    "eclipse":  { id: "208131", manual_div: "Division 6" },
+    "vakuum":   { id: "207696", manual_div: "Division 5" },
+    "spark":    { id: "208694", manual_div: "Division 6" },
+    "phoenix":  { id: "212473", manual_div: "Kalibierung" },    
+    "cyber":    { id: "198490", manual_div: "Division 6" },
+    "sakura":   { id: "208851", manual_div: "Division 6" },
+    "nova":     { id: "203447", manual_div: "Division 7" },
+    "obsidian": { id: "212407", manual_div: "Kalibierung" },
+    "abyss":    { id: "204924", manual_div: "Division 5" }
 };
 
 const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/2.2' };
