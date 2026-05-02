@@ -1,4 +1,4 @@
-const CACHE_NAME = 'UIC-System-v29';
+const CACHE_NAME = 'UIC-System-v30';
 
 
 const PRECACHE_URLS = [
