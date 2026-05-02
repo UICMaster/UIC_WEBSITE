@@ -71,10 +71,10 @@
       "role": "SUB",
       "level": 1057,
       "tier": "MASTER I",
-      "lp": 226,
-      "wins": 258,
+      "lp": 257,
+      "wins": 259,
       "losses": 255,
-      "winRate": 50.3,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -82,10 +82,10 @@
       "role": "MNG",
       "level": 722,
       "tier": "GOLD III",
-      "lp": 24,
+      "lp": 2,
       "wins": 139,
-      "losses": 157,
-      "winRate": 47,
+      "losses": 158,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4555.png"
     },
     {
@@ -252,11 +252,11 @@
       "name": "EnchanterPocket",
       "role": "BOT",
       "level": 780,
-      "tier": "DIAMOND I",
-      "lp": 13,
+      "tier": "DIAMOND II",
+      "lp": 70,
       "wins": 165,
-      "losses": 175,
-      "winRate": 48.5,
+      "losses": 177,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5875.png"
     },
     {
