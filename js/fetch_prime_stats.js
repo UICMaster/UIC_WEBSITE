@@ -1,138 +1,93 @@
 const fs = require('fs');
 const path = require('path');
 
-// --- 1. CONFIGURATION ---
-const DATA_FILE = 'prime_stats.json';
-const OUTPUT_PATH = path.resolve(__dirname, '../', DATA_FILE);
+const CONFIG = JSON.parse(fs.readFileSync('./config.json', 'utf8'));
+const OUTPUT_PATH = path.resolve(__dirname, 'prime_stats.json');
+const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/3.0' };
 
-// Set this to the start of the current split
-const SEASON_START = new Date('2026-01-26T00:00:00'); 
-
-const TEAMS = {
-    "prime":    { id: "116908", manual_div: "Division 4" }, 
-    "eclipse":  { id: "208131", manual_div: "Division 6" },
-    "vakuum":   { id: "207696", manual_div: "Division 5" },
-    "spark":    { id: "208694", manual_div: "Division 6" },
-    "phoenix":  { id: "212473", manual_div: "Kalibierung" },    
-    "cyber":    { id: "198490", manual_div: "Division 6" },
-    "sakura":   { id: "208851", manual_div: "Division 6" },
-    "nova":     { id: "203447", manual_div: "Division 7" },
-    "obsidian": { id: "212407", manual_div: "Kalibierung" },
-    "abyss":    { id: "204924", manual_div: "Division 5" }
-};
-
-const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/2.2' };
-
-async function getTeamIntel(teamKey, config) {
-    console.log(`📡 Scanning: UIC ${teamKey.toUpperCase()}...`);
+async function getTeamIntel(team) {
+    console.log(`📡 Syncing: ${team.key.toUpperCase()}...`);
     try {
-        const response = await fetch(`https://primebot.me/api/v1/teams/${config.id}/`, { headers: HEADERS });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        
+        const response = await fetch(`https://primebot.me/api/v1/teams/${team.id}/`, { headers: HEADERS });
         const data = await response.json();
-        const now = new Date();
         
-        let mapWins = 0;
-        let mapLosses = 0;
-        let formHistory = []; 
-        let nextMatch = null;
-        let lastMatch = null;
-        const rosterMap = new Map();
+        let mapWins = 0, mapLosses = 0, totalPoints = 0, sWins = 0, sLosses = 0;
+        let formHistory = [], nextMatch = null, lastMatch = null;
 
-        if (data.matches && Array.isArray(data.matches)) {
-            // Sort Oldest -> Newest
-            const sortedMatches = data.matches.sort((a, b) => new Date(a.begin) - new Date(b.begin));
+        // FILTER: Only count League (Groups) and Playoffs
+        const validTypes = ['league', 'playoff'];
 
-            sortedMatches.forEach(m => {
-                const matchDate = new Date(m.begin);
+        if (data.matches) {
+            const sorted = [...data.matches].sort((a, b) => new Date(a.begin) - new Date(b.begin));
+            
+            sorted.forEach(m => {
+                if (!validTypes.includes(m.match_type)) return;
 
-                // FILTER: Skip games before Season Start
-                if (matchDate < SEASON_START) return;
+                const mDate = new Date(m.begin);
+                const now = new Date();
 
-                // A. ROSTER (Look back 180 days for active players)
-                const isRecent = (now - matchDate) < (1000 * 60 * 60 * 24 * 180); 
-                if (m.team_lineup && Array.isArray(m.team_lineup) && isRecent) {
-                    m.team_lineup.forEach(p => {
-                        if (!rosterMap.has(p.summoner_name) || p.is_leader) {
-                            rosterMap.set(p.summoner_name, {
-                                summoner: p.summoner_name,
-                                is_captain: p.is_leader || false
-                            });
-                        }
-                    });
-                }
-
-                // B. SCORING (Best of 2)
-                if (m.result && matchDate < now) {
-                    const [scoreUs, scoreThem] = m.result.split(':').map(Number);
-                    if (!isNaN(scoreUs)) {
-                        mapWins += scoreUs;
-                        mapLosses += scoreThem;
+                if (m.result && mDate < now) {
+                    const [us, them] = m.result.split(':').map(Number);
+                    if (!isNaN(us)) {
+                        mapWins += us; mapLosses += them;
                         
-                        if (scoreUs > scoreThem) formHistory.push('W');
-                        else if (scoreUs === scoreThem) formHistory.push('D');
-                        else formHistory.push('L');
-                        
-                        // Capture details of the very last played match
+                        // Rule 2.4.2: Bo3 Point Distribution
+                        if (us === 2 && them === 0) totalPoints += 3;
+                        else if (us === 2 && them === 1) totalPoints += 2;
+                        else if (us === 1 && them === 2) totalPoints += 1;
+
+                        if (us > them) { formHistory.push('W'); sWins++; } 
+                        else { formHistory.push('L'); sLosses++; }
+
                         lastMatch = {
-                            result: scoreUs > scoreThem ? "SIEG" : (scoreUs === scoreThem ? "UNENTSCHIEDEN" : "NIEDERLAGE"),
-                            score: `${scoreUs} - ${scoreThem}`,
-                            enemy: m.enemy_team ? m.enemy_team.team_tag : "OPP",
+                            result: us > them ? "SIEG" : "NIEDERLAGE",
+                            score: `${us} - ${them}`,
+                            enemy: m.enemy_team?.team_tag || "OPP",
                             date: m.begin
                         };
                     }
                 }
-
-                // C. NEXT MATCH
-                if (!nextMatch && matchDate > now) {
-                    nextMatch = {
-                        date: m.begin,
-                        tag: m.enemy_team ? m.enemy_team.team_tag : "TBD",
-                        link: m.prime_league_link // Ensure this exists in API response
-                    };
+                if (!nextMatch && mDate > now) {
+                    nextMatch = { date: m.begin, tag: m.enemy_team?.team_tag || "TBD", link: m.prime_league_link };
                 }
             });
         }
 
-        const totalMaps = mapWins + mapLosses;
-
         return {
-            id: config.id,
-            key: teamKey,
-            meta: { 
-                name: data.name,
-                div: data.division || config.manual_div 
-            },
-            stats: {
-                wins: mapWins,
-                losses: mapLosses,
-                points: mapWins, 
-                games: totalMaps,
-                win_rate: totalMaps > 0 ? Math.round((mapWins / totalMaps) * 100) : 0,
-                form: formHistory.slice(-5)
-            },
+            meta: { name: data.name, div: data.division },
+            stats: { wins: mapWins, losses: mapLosses, points: totalPoints, games: (sWins + sLosses), 
+                     win_rate: (sWins + sLosses) > 0 ? Math.round((sWins / (sWins + sLosses)) * 100) : 0, 
+                     form: formHistory.slice(-5) },
             next_match: nextMatch,
             last_match: lastMatch,
-            roster: Array.from(rosterMap.values()).slice(0, 7),
+            roster: (data.players || []).map(p => ({ summoner: p.summoner_name, is_captain: p.is_leader })),
             team_link: data.prime_league_link,
             logo: data.logo_url
         };
-
-    } catch (e) {
-        console.error(`❌ Error [${teamKey}]:`, e.message);
-        return null;
-    }
+    } catch (e) { return null; }
 }
 
 async function start() {
-    const database = {};
-    for (const [key, config] of Object.entries(TEAMS)) {
-        const stats = await getTeamIntel(key, config);
-        if (stats) database[key] = stats;
-        await new Promise(r => setTimeout(r, 250));
-    }
-    fs.writeFileSync(OUTPUT_PATH, JSON.stringify(database, null, 2));
-    console.log(`\n✅ TELEMETRY UPDATED: ${OUTPUT_PATH}`);
-}
+    const results = {};
+    let gMatches = 0, gWins = 0, gPlayers = new Set();
 
+    for (const team of CONFIG.teams) {
+        const stats = await getTeamIntel(team);
+        if (stats) {
+            results[team.key] = stats;
+            gMatches += stats.stats.games;
+            gWins += (stats.stats.win_rate / 100) * stats.stats.games;
+            stats.roster.forEach(p => gPlayers.add(p.summoner));
+        }
+        await new Promise(r => setTimeout(r, 200));
+    }
+
+    const payload = {
+        config: { teamsOrder: CONFIG.teams.map(t => t.key) },
+        global: { matches: gMatches, wr: gMatches > 0 ? Math.round((gWins / gMatches) * 100) : 0, players: gPlayers.size },
+        teams: results
+    };
+    fs.writeFileSync(OUTPUT_PATH, JSON.stringify(payload, null, 2));
+    console.log("✅ Telemetry Generated.");
+}
 start();
