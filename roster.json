@@ -65,8 +65,8 @@
     { "gameName": "UIC Boohunter", "tagLine": "Boo", "role": "BOT" },
     { "gameName": "UIC Deavan", "tagLine": "UIC", "role": "BOT" },
     { "gameName": "UIC Kaanto", "tagLine": "Nova", "role": "SUP" },
-    { "gameName": "UIC Excellent C", "tagLine": "", "role": "SUP" },
-    { "gameName": "UIC Loonz", "tagLine": "Coach ", "role": "HEAD COACH" }
+    { "gameName": "UIC Excellent C", "tagLine": "1997", "role": "SUP" },
+    { "gameName": "UIC Loonz", "tagLine": "Coach", "role": "HEAD COACH" }
   ],
   "abyss": [
     { "gameName": "EPS Laserjet M47", "tagLine": "Chris", "role": "TOP" },
