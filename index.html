@@ -282,23 +282,39 @@
          </div>
      </section>
 
-    <section id="stats" class="section-pad">
-        <div class="container">
+<section id="stats" class="section-pad">
+    <div class="container">
+        
+        <div class="section-header">
+            <span class="section-subtitle"># ONE CREW</span>
+            <h2 class="section-title">TEAM <span class="text-highlight">STATISTIKEN</span></h2>
             
-            <div class="section-header">
-                <span class="section-subtitle"># ONE CREW</span>
-                <h2 class="section-title">TEAM <span class="text-highlight">STATISTIKEN</span></h2>
-            </div>
-
-            <div id="stats-telemetry-list" class="stats-list">
-                
-                <div class="terminal-loader" style="color: var(--text-muted); font-family: monospace; text-align: center; padding: 20px; border: 1px dashed rgba(255,255,255,0.1);">
-                    > INITIALIZING_SYNC...
+            <!-- Global Stats moved directly under the title -->
+            <div class="data-tags-grid" style="margin-top: var(--space-md);">
+                <div class="data-tag">
+                    <span class="dt-label">ORG MATCHES</span>
+                    <span class="dt-value" id="stat-matches">—</span>
                 </div>
-
+                <div class="data-tag">
+                    <span class="dt-label">WIN RATE</span>
+                    <span class="dt-value" id="stat-wr">—%</span>
+                </div>
+                <div class="data-tag">
+                    <span class="dt-label">TOTAL PLAYERS</span>
+                    <span class="dt-value" id="stat-players">—</span>
+                </div>
             </div>
         </div>
-    </section>
+
+        <!-- The list container where your teams are rendered -->
+        <div id="stats-telemetry-list" class="stats-list">
+            <div class="terminal-loader" style="color: var(--text-muted); font-family: monospace; text-align: center; padding: 20px; border: 1px dashed rgba(255,255,255,0.1);">
+                > INITIALIZING_TELEMETRY_SYNC...
+            </div>
+        </div>
+
+    </div>
+</section>
 
     <section id="events" class="section-pad">
         <div class="container">
