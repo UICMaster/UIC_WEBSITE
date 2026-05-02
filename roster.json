@@ -1,0 +1,99 @@
+{
+  "Prime": [
+    { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
+    { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
+    { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
+    { "gameName": "UIC Giani", "tagLine": "999", "role": "BOT" },
+    { "gameName": "UIC Baguetto", "tagLine": "R3kt", "role": "SUP" },
+    { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
+    { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
+  ],
+  "Eclipse": [
+    { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
+    { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
+    { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
+    { "gameName": "UIC Giani", "tagLine": "999", "role": "BOT" },
+    { "gameName": "UIC Baguetto", "tagLine": "R3kt", "role": "SUP" },
+    { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
+    { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
+  ],
+  "Vakuum": [
+    { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
+    { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
+    { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
+    { "gameName": "UIC Giani", "tagLine": "999", "role": "BOT" },
+    { "gameName": "UIC Baguetto", "tagLine": "R3kt", "role": "SUP" },
+    { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
+    { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
+  ],
+  "Spark": [
+    { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
+    { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
+    { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
+    { "gameName": "UIC Giani", "tagLine": "999", "role": "BOT" },
+    { "gameName": "UIC Baguetto", "tagLine": "R3kt", "role": "SUP" },
+    { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
+    { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
+  ],
+  "Phoenix": [
+    { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
+    { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
+    { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
+    { "gameName": "UIC Giani", "tagLine": "999", "role": "BOT" },
+    { "gameName": "UIC Baguetto", "tagLine": "R3kt", "role": "SUP" },
+    { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
+    { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
+  ],
+  "Cyber": [
+    { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
+    { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
+    { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
+    { "gameName": "UIC Giani", "tagLine": "999", "role": "BOT" },
+    { "gameName": "UIC Baguetto", "tagLine": "R3kt", "role": "SUP" },
+    { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
+    { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
+  ],
+  "Sakura": [
+    { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
+    { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
+    { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
+    { "gameName": "UIC Giani", "tagLine": "999", "role": "BOT" },
+    { "gameName": "UIC Baguetto", "tagLine": "R3kt", "role": "SUP" },
+    { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
+    { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
+  ],
+  "Ember": [
+    { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
+    { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
+    { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
+    { "gameName": "UIC Giani", "tagLine": "999", "role": "BOT" },
+    { "gameName": "UIC Baguetto", "tagLine": "R3kt", "role": "SUP" },
+    { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
+    { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
+  ],
+  "Obsidian": [
+    { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
+    { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
+    { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
+    { "gameName": "UIC Giani", "tagLine": "999", "role": "BOT" },
+    { "gameName": "UIC Baguetto", "tagLine": "R3kt", "role": "SUP" },
+    { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
+    { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
+  ],
+  "Nova": [
+    { "gameName": "UIC Speedy", "tagLine": "EUW", "role": "TOP" },
+    { "gameName": "UIC Niki", "tagLine": "AMB", "role": "JGL" },
+    { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
+    { "gameName": "UIC Giani", "tagLine": "999", "role": "BOT" },
+    { "gameName": "UIC Baguetto", "tagLine": "R3kt", "role": "SUP" },
+    { "gameName": "Big Brain", "tagLine": "Coach", "role": "HEAD COACH" },
+    { "gameName": "Bench Warmer", "tagLine": "Sub", "role": "SUBSTITUTE" }
+  ],
+  "Abyss": [
+    { "gameName": "skanpy", "tagLine": "3005", "role": "TOP" },
+    { "gameName": "UIC Lenno", "tagLine": "UIC", "role": "JGL" },
+    { "gameName": "Lenlusz", "tagLine": "EAZ", "role": "MID" },
+    { "gameName": "UIC Flare", "tagLine": "JND", "role": "BOT" },
+    { "gameName": "Firehand", "tagLine": "1337", "role": "SUP" }
+  ]
+}
