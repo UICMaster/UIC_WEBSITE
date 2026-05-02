@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const CONFIG = JSON.parse(fs.readFileSync('./config.json', 'utf8'));
-const OUTPUT_PATH = path.resolve(__dirname, 'prime_stats.json');
+const OUTPUT_PATH = path.resolve(process.cwd(), 'prime_stats.json');
 const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/3.0' };
 
 async function getTeamIntel(team) {
