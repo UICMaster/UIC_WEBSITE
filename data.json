@@ -196,10 +196,10 @@
       "role": "BOT",
       "level": 792,
       "tier": "EMERALD II",
-      "lp": 42,
-      "wins": 53,
+      "lp": 62,
+      "wins": 54,
       "losses": 47,
-      "winRate": 53,
+      "winRate": 53.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6883.png"
     },
     {
@@ -433,7 +433,7 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 588,
+      "level": 589,
       "tier": "DIAMOND I",
       "lp": 57,
       "wins": 121,
