@@ -84,7 +84,7 @@ async function start() {
             const stats = await getPlayerData(player, currentPatch);
             finalData[teamName].push(stats);
             console.log(`✅ [${stats.role}] ${stats.name}: ${stats.tier} (${stats.lp} LP)`);
-            await sleep(500); 
+            await sleep(2500); 
         }
     }
 
