@@ -3,12 +3,12 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1157,
+      "level": 1158,
       "tier": "MASTER I",
-      "lp": 0,
-      "wins": 88,
+      "lp": 30,
+      "wins": 89,
       "losses": 90,
-      "winRate": 49.4,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -38,10 +38,10 @@
       "role": "BOT",
       "level": 730,
       "tier": "DIAMOND I",
-      "lp": 97,
+      "lp": 59,
       "wins": 71,
-      "losses": 66,
-      "winRate": 51.8,
+      "losses": 68,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7.png"
     },
     {
@@ -49,10 +49,10 @@
       "role": "SUP",
       "level": 998,
       "tier": "DIAMOND I",
-      "lp": 96,
+      "lp": 76,
       "wins": 121,
-      "losses": 101,
-      "winRate": 54.5,
+      "losses": 103,
+      "winRate": 54,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4380.png"
     },
     {
@@ -127,11 +127,11 @@
       "name": "Regentropfen",
       "role": "MID",
       "level": 984,
-      "tier": "EMERALD II",
-      "lp": 51,
-      "wins": 7,
-      "losses": 17,
-      "winRate": 29.2,
+      "tier": "EMERALD I",
+      "lp": 1,
+      "wins": 9,
+      "losses": 18,
+      "winRate": 33.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6284.png"
     },
     {
@@ -196,10 +196,10 @@
       "role": "BOT",
       "level": 792,
       "tier": "EMERALD II",
-      "lp": 62,
-      "wins": 54,
-      "losses": 47,
-      "winRate": 53.5,
+      "lp": 42,
+      "wins": 55,
+      "losses": 49,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6883.png"
     },
     {
@@ -264,10 +264,10 @@
       "role": "SUP",
       "level": 679,
       "tier": "DIAMOND IV",
-      "lp": 20,
-      "wins": 33,
+      "lp": 60,
+      "wins": 35,
       "losses": 37,
-      "winRate": 47.1,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5642.png"
     }
   ],
@@ -286,12 +286,12 @@
     {
       "name": "Exi",
       "role": "JGL",
-      "level": 791,
+      "level": 792,
       "tier": "MASTER I",
-      "lp": 76,
-      "wins": 139,
+      "lp": 106,
+      "wins": 140,
       "losses": 133,
-      "winRate": 51.1,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/528.png"
     },
     {
@@ -569,10 +569,10 @@
       "role": "BOT",
       "level": 1392,
       "tier": "PLATINUM IV",
-      "lp": 35,
+      "lp": 0,
       "wins": 402,
-      "losses": 397,
-      "winRate": 50.3,
+      "losses": 399,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7126.png"
     },
     {
@@ -591,10 +591,10 @@
       "role": "SUP",
       "level": 380,
       "tier": "PLATINUM II",
-      "lp": 65,
-      "wins": 74,
+      "lp": 86,
+      "wins": 75,
       "losses": 72,
-      "winRate": 50.7,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7099.png"
     },
     {
