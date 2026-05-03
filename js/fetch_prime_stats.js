@@ -3,7 +3,7 @@ const path = require('path');
 
 const CONFIG = JSON.parse(fs.readFileSync('./config.json', 'utf8'));
 const OUTPUT_PATH = path.resolve(process.cwd(), 'prime_stats.json');
-const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/4.1' };
+const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/4.2' };
 
 async function getTeamIntel(team) {
     console.log(`📡 Syncing: ${team.key.toUpperCase()}...`);
@@ -43,7 +43,7 @@ async function getTeamIntel(team) {
                         };
                     }
                 }
-                // Extract Enemy Lineup for Scouting
+                
                 if (!nextMatch && mDate > now) {
                     const enemyLineup = m.enemy_lineup ? m.enemy_lineup.map(p => p.summoner_name) : [];
                     nextMatch = { 
@@ -91,7 +91,6 @@ async function start() {
             gSeriesWins += Math.round((stats.stats.win_rate / 100) * stats.stats.games);
             stats.roster.forEach(p => gPlayers.add(p.summoner));
             
-            // Push to Global Radar
             if (stats.next_match) {
                 allUpcomingMatches.push({
                     team_key: team.key.toUpperCase(),
@@ -104,19 +103,13 @@ async function start() {
         await new Promise(r => setTimeout(r, 200)); 
     }
 
-    // Sort Global Radar chronologically and grab the next 5
     const globalRadar = allUpcomingMatches
         .sort((a, b) => new Date(a.date) - new Date(b.date))
         .slice(0, 5);
 
     const payload = {
         config: { teamsOrder: CONFIG.teams.map(t => t.key) },
-        global: { 
-            matches: gMatches, 
-            wr: gMatches > 0 ? Math.round((gSeriesWins / gMatches) * 100) : 0, 
-            players: gPlayers.size,
-            radar: globalRadar
-        },
+        global: { matches: gMatches, wr: gMatches > 0 ? Math.round((gSeriesWins / gMatches) * 100) : 0, players: gPlayers.size, radar: globalRadar },
         teams: results
     };
     
