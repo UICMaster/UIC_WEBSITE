@@ -658,11 +658,11 @@
       "name": "BlondiXE1",
       "role": "BOT",
       "level": 425,
-      "tier": "GOLD IV",
-      "lp": 0,
+      "tier": "SILVER I",
+      "lp": 75,
       "wins": 88,
-      "losses": 79,
-      "winRate": 52.7,
+      "losses": 80,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6860.png"
     },
     {
