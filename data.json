@@ -69,12 +69,12 @@
     {
       "name": "Baumi",
       "role": "SUB",
-      "level": 1057,
+      "level": 1058,
       "tier": "MASTER I",
-      "lp": 260,
-      "wins": 261,
+      "lp": 446,
+      "wins": 267,
       "losses": 257,
-      "winRate": 50.4,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -251,12 +251,12 @@
     {
       "name": "EnchanterPocket",
       "role": "BOT",
-      "level": 780,
-      "tier": "DIAMOND II",
-      "lp": 87,
-      "wins": 167,
-      "losses": 178,
-      "winRate": 48.4,
+      "level": 781,
+      "tier": "DIAMOND I",
+      "lp": 2,
+      "wins": 170,
+      "losses": 180,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5875.png"
     },
     {
@@ -435,10 +435,10 @@
       "role": "BOT",
       "level": 589,
       "tier": "DIAMOND I",
-      "lp": 77,
+      "lp": 56,
       "wins": 122,
-      "losses": 132,
-      "winRate": 48,
+      "losses": 133,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
