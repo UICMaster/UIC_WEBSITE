@@ -17,7 +17,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 53,
+    "players": 55,
     "radar": []
   },
   "teams": {
@@ -68,6 +68,10 @@
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         },
         {
           "summoner": "UIC FrozenHands#MID",
@@ -202,6 +206,10 @@
       "last_match": null,
       "roster": [
         {
+          "summoner": "Reign#Teach",
+          "is_captain": false
+        },
+        {
           "summoner": "DeutscheLandmine#EUW",
           "is_captain": false
         },
@@ -214,16 +222,12 @@
           "is_captain": false
         },
         {
-          "summoner": "Haselmania#BIER",
+          "summoner": "UIC Haselmania#UIC",
           "is_captain": false
         },
         {
           "summoner": "ChrizZzorR#NOC",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -260,6 +264,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "CYS Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",

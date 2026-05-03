@@ -56,19 +56,8 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4380.png"
     },
     {
-      "name": "UIC Frozenhands",
-      "role": "SUB",
-      "level": 640,
-      "tier": "MASTER I",
-      "lp": 90,
-      "wins": 63,
-      "losses": 53,
-      "winRate": 54.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6811.png"
-    },
-    {
       "name": "Baumi",
-      "role": "SUB",
+      "role": "SUB_1",
       "level": 1059,
       "tier": "MASTER I",
       "lp": 514,
@@ -76,6 +65,17 @@
       "losses": 260,
       "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
+    },
+    {
+      "name": "UIC Frozenhands",
+      "role": "SUB_2",
+      "level": 640,
+      "tier": "MASTER I",
+      "lp": 90,
+      "wins": 63,
+      "losses": 53,
+      "winRate": 54.3,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6811.png"
     },
     {
       "name": "never leaving",
@@ -128,10 +128,10 @@
       "role": "MID",
       "level": 985,
       "tier": "EMERALD I",
-      "lp": 11,
-      "wins": 11,
+      "lp": 41,
+      "wins": 12,
       "losses": 23,
-      "winRate": 32.4,
+      "winRate": 34.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6284.png"
     },
     {
@@ -500,7 +500,7 @@
   "nova": [
     {
       "name": "UIC Kaetaya",
-      "role": "TOP",
+      "role": "TOP_1",
       "level": 868,
       "tier": "EMERALD III",
       "lp": 83,
@@ -511,7 +511,7 @@
     },
     {
       "name": "UIC Muh",
-      "role": "TOP",
+      "role": "TOP_2",
       "level": 522,
       "tier": "GOLD I",
       "lp": 52,
@@ -522,7 +522,7 @@
     },
     {
       "name": "UIC Rubix Qube",
-      "role": "JGL",
+      "role": "JGL_1",
       "level": 503,
       "tier": "GOLD II",
       "lp": 28,
@@ -533,7 +533,7 @@
     },
     {
       "name": "UIC Namorii",
-      "role": "JGL",
+      "role": "JGL_2",
       "level": 950,
       "tier": "EMERALD I",
       "lp": 43,
@@ -544,7 +544,7 @@
     },
     {
       "name": "UIC adedier",
-      "role": "MID",
+      "role": "MID_1",
       "level": 616,
       "tier": "PLATINUM III",
       "lp": 45,
@@ -555,7 +555,7 @@
     },
     {
       "name": "UIC GreatATuin",
-      "role": "MID",
+      "role": "MID_2",
       "level": 589,
       "tier": "DIAMOND IV",
       "lp": 14,
@@ -566,7 +566,7 @@
     },
     {
       "name": "UIC Boohunter",
-      "role": "BOT",
+      "role": "BOT_1",
       "level": 1392,
       "tier": "PLATINUM IV",
       "lp": 17,
@@ -577,7 +577,7 @@
     },
     {
       "name": "UIC Deavan",
-      "role": "BOT",
+      "role": "BOT_2",
       "level": 394,
       "tier": "PLATINUM III",
       "lp": 79,
@@ -588,7 +588,7 @@
     },
     {
       "name": "UIC Kaanto",
-      "role": "SUP",
+      "role": "SUP_1",
       "level": 380,
       "tier": "PLATINUM II",
       "lp": 86,
@@ -599,7 +599,7 @@
     },
     {
       "name": "UIC Excellent C",
-      "role": "SUP",
+      "role": "SUP_2",
       "level": 570,
       "tier": "PLATINUM IV",
       "lp": 62,
@@ -657,7 +657,7 @@
     {
       "name": "BlondiXE1",
       "role": "BOT",
-      "level": 425,
+      "level": 426,
       "tier": "GOLD IV",
       "lp": 0,
       "wins": 90,
