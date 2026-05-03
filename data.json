@@ -139,10 +139,10 @@
       "role": "BOT",
       "level": 844,
       "tier": "EMERALD IV",
-      "lp": 40,
-      "wins": 40,
-      "losses": 60,
-      "winRate": 40,
+      "lp": 39,
+      "wins": 41,
+      "losses": 61,
+      "winRate": 40.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6582.png"
     },
     {
@@ -389,10 +389,10 @@
       "role": "BOT",
       "level": 740,
       "tier": "DIAMOND IV",
-      "lp": 66,
-      "wins": 101,
+      "lp": 84,
+      "wins": 102,
       "losses": 101,
-      "winRate": 50,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5449.png"
     },
     {
@@ -661,8 +661,8 @@
       "tier": "GOLD IV",
       "lp": 0,
       "wins": 88,
-      "losses": 78,
-      "winRate": 53,
+      "losses": 79,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6860.png"
     },
     {
