@@ -1,39 +1,35 @@
 const fs = require('fs');
 const path = require('path');
 
-// Load Config
 const CONFIG = JSON.parse(fs.readFileSync('./config.json', 'utf8'));
-// Force output to root directory
 const OUTPUT_PATH = path.resolve(process.cwd(), 'prime_stats.json');
-const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/3.0' };
+const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/4.0' };
 
 async function getTeamIntel(team) {
     console.log(`📡 Syncing: ${team.key.toUpperCase()}...`);
     try {
         const response = await fetch(`https://primebot.me/api/v1/teams/${team.id}/`, { headers: HEADERS });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const data = await response.json();
         
         let mapWins = 0, mapLosses = 0, totalPoints = 0, sWins = 0, sLosses = 0;
         let formHistory = [], nextMatch = null, lastMatch = null;
-
-        // Filter for Gruppenphase (league) and Playoffs (playoff)
         const validTypes = ['league', 'playoff'];
+        const now = new Date(); // Declared outside the loop for performance
 
         if (data.matches) {
             const sorted = [...data.matches].sort((a, b) => new Date(a.begin) - new Date(b.begin));
             
             sorted.forEach(m => {
                 if (!validTypes.includes(m.match_type)) return;
-
                 const mDate = new Date(m.begin);
-                const now = new Date();
 
                 if (m.result && mDate < now) {
                     const [us, them] = m.result.split(':').map(Number);
                     if (!isNaN(us)) {
                         mapWins += us; mapLosses += them;
                         
-                        // Regel 2.4.2: Bo3 Point Logic
+                        // Bo3 Point Logic
                         if (us === 2 && them === 0) totalPoints += 3;
                         else if (us === 2 && them === 1) totalPoints += 2;
                         else if (us === 1 && them === 2) totalPoints += 1;
@@ -69,29 +65,54 @@ async function getTeamIntel(team) {
             team_link: data.prime_league_link,
             logo: data.logo_url
         };
-    } catch (e) { return null; }
+    } catch (e) { 
+        console.error(`❌ Failed to sync ${team.key}:`, e.message);
+        return null; // Return null so we know it failed and can use old data
+    }
 }
 
 async function start() {
+    // 1. Read existing data to prevent wiping UI if PrimeBot API goes down
+    let existingData = { teams: {} };
+    if (fs.existsSync(OUTPUT_PATH)) {
+        existingData = JSON.parse(fs.readFileSync(OUTPUT_PATH, 'utf8'));
+    }
+
     const results = {};
-    let gMatches = 0, gWins = 0, gPlayers = new Set();
+    let gMatches = 0, gSeriesWins = 0, gPlayers = new Set();
 
     for (const team of CONFIG.teams) {
-        const stats = await getTeamIntel(team);
+        if (team.active === false) continue; // Skip inactive teams if you added this flag
+        
+        let stats = await getTeamIntel(team);
+        
+        // Stale-While-Revalidate: If fetch failed, use old data
+        if (!stats && existingData.teams[team.key]) {
+            console.log(`⚠️ Using cached data for ${team.key}`);
+            stats = existingData.teams[team.key];
+        }
+
         if (stats) {
             results[team.key] = stats;
             gMatches += stats.stats.games;
-            gWins += (stats.stats.win_rate / 100) * stats.stats.games;
+            // Calculate exact series wins for accurate global winrate
+            const seriesWins = Math.round((stats.stats.win_rate / 100) * stats.stats.games);
+            gSeriesWins += seriesWins;
             stats.roster.forEach(p => gPlayers.add(p.summoner));
         }
-        await new Promise(r => setTimeout(r, 200));
+        await new Promise(r => setTimeout(r, 200)); // Rate limit defense
     }
 
     const payload = {
         config: { teamsOrder: CONFIG.teams.map(t => t.key) },
-        global: { matches: gMatches, wr: gMatches > 0 ? Math.round((gWins / gMatches) * 100) : 0, players: gPlayers.size },
+        global: { 
+            matches: gMatches, 
+            wr: gMatches > 0 ? Math.round((gSeriesWins / gMatches) * 100) : 0, 
+            players: gPlayers.size 
+        },
         teams: results
     };
+    
     fs.writeFileSync(OUTPUT_PATH, JSON.stringify(payload, null, 2));
     console.log(`✅ Telemetry Saved to: ${OUTPUT_PATH}`);
 }
