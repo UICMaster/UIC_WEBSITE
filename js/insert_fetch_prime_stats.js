@@ -5,107 +5,105 @@ function escapeHTML(str) {
     }[tag]));
 }
 
-async function loadPrimeStats() {
-    const container = document.getElementById('stats-telemetry-list');
-    if (!container) return;
+let primeDataCache = null;
 
+async function loadPrimeStats() {
     try {
+        // Cache Busting
         const response = await fetch(`./prime_stats.json?t=${Date.now()}`);
         if (!response.ok) throw new Error("JSON Missing");
-        const data = await response.json();
+        primeDataCache = await response.json();
         
-        // 1. Update Global Stats (Defensive check for IDs)
-        const sMatches = document.getElementById('stat-matches');
-        const sWr = document.getElementById('stat-wr');
-        const sPlayers = document.getElementById('stat-players');
-
-        if (data.global) {
-            if (sMatches) sMatches.innerText = data.global.matches;
-            if (sWr)      sWr.innerText      = data.global.wr + '%';
-            if (sPlayers) sPlayers.innerText  = data.global.players;
+        // 1. Populate Global Health
+        if (primeDataCache.global) {
+            document.getElementById('stat-matches').innerText = primeDataCache.global.matches;
+            document.getElementById('stat-wr').innerText = primeDataCache.global.wr + '%';
+            document.getElementById('stat-players').innerText = primeDataCache.global.players;
         }
 
-        // 2. Render Teams
-        const teamsOrder = data.config?.teamsOrder || Object.keys(data.teams);
-        let html = '';
+        // 2. Build Sidebar Navigation
+        const tabsContainer = document.getElementById('stats-team-tabs');
+        const teamsOrder = primeDataCache.config?.teamsOrder || Object.keys(primeDataCache.teams);
+        
+        tabsContainer.innerHTML = teamsOrder.map((key, index) => {
+            if (!primeDataCache.teams[key]) return '';
+            return `<button class="stat-tab-btn ${index === 0 ? 'active' : ''}" data-team="${key}">UIC ${key}</button>`;
+        }).join('');
 
-        teamsOrder.forEach(key => {
-            const t = data.teams[key];
-            if (!t) return;
+        // 3. Render initial team
+        if (teamsOrder.length > 0) renderTeamTelemetry(teamsOrder[0]);
 
-            const formHTML = t.stats.form.map(r => `<div class="form-dot ${r === 'W' ? 'win' : 'loss'}"></div>`).join('');
-            
-            let nextMatchHTML = t.next_match ? `
-                <a href="${t.next_match.link}" target="_blank" class="tm-next-link">
-                    <span class="next-label">NÄCHSTES MATCH</span>
-                    <div class="next-details">
-                        <span class="accent">VS ${escapeHTML(t.next_match.tag)}</span>
-                        <span class="next-time">// ${new Date(t.next_match.date).toLocaleDateString('de-DE')}</span>
-                    </div>
-                </a>` : '<span class="tm-next-empty">TBD</span>';
-
-            html += `
-            <div class="telemetry-unit" id="unit-${key}">
-                <div class="telemetry-header" onclick="toggleTelemetry(event, '${key}')">
-                    <div class="tm-identity">
-                        <div class="tm-logo-wrapper">
-                            <img src="${t.logo || 'assets/placeholder.png'}" class="tm-logo">
-                        </div>
-                        <div class="tm-info">
-                            <h4>UIC ${key.toUpperCase()}</h4>
-                            <span class="tm-division">${t.meta.div || 'Division ?'}</span>
-                        </div>
-                    </div>
-                    <div class="tm-section tm-next-match mobile-hidden">${nextMatchHTML}</div>
-                    <div class="tm-section tm-form mobile-hidden">${formHTML}</div>
-                    <div class="tm-section tm-stat">
-                        <span class="value highlight">${t.stats.points} <span class="label-inline">PKT</span></span>
-                    </div>
-                    <div class="tm-arrow">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </div>
-                </div>
-                <div class="telemetry-body">
-                    <div class="tb-content">
-                        <div class="tb-col">
-                            <h5 class="tb-title">SPIELBERICHT // FEARLESS Bo3</h5>
-                            ${t.last_match ? `
-                                <div class="last-match-box">
-                                    <div class="lm-header">LETZTES ERGEBNIS // ${new Date(t.last_match.date).toLocaleDateString('de-DE')}</div>
-                                    <div class="lm-content">
-                                        <span class="lm-vs">VS ${escapeHTML(t.last_match.enemy)}</span>
-                                        <span class="lm-score ${t.last_match.result === 'SIEG' ? 'text-win' : 'text-loss'}">${t.last_match.score}</span>
-                                        <span class="lm-result">${t.last_match.result}</span>
-                                    </div>
-                                </div>
-                            ` : '<div class="last-match-box dimmed">KEINE DATEN</div>'}
-                            <div class="stats-mini-row">
-                                <div class="stat-pill"><span class="sp-label">MAPS</span><span class="sp-value">${t.stats.wins}W - ${t.stats.losses}L</span></div>
-                                <div class="stat-pill"><span class="sp-label">WIN RATE</span><span class="sp-value text-primary">${t.stats.win_rate}%</span></div>
-                            </div>
-                        </div>
-                        <div class="tb-col">
-                            <div class="tb-header-row">
-                                <h5 class="tb-title">ROSTER</h5>
-                                <a href="${t.team_link}" target="_blank" class="link-external">PRIME LEAGUE ↗</a>
-                            </div>
-                            <div class="roster-strip">
-                                ${t.roster.map(p => `<div class="mini-chip ${p.is_captain ? 'captain' : ''}">${escapeHTML(p.summoner)}</div>`).join('')}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>`;
+        // 4. Event Delegation for Tabs
+        tabsContainer.addEventListener('click', (e) => {
+            if (e.target.classList.contains('stat-tab-btn')) {
+                document.querySelectorAll('.stat-tab-btn').forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+                renderTeamTelemetry(e.target.dataset.team);
+            }
         });
-        container.innerHTML = html;
-    } catch (e) { console.error("Sync Error", e); }
+
+    } catch (e) { 
+        console.error("Telemetry Sync Error:", e);
+        document.getElementById('telemetry-output').innerHTML = `<div class="terminal-loader" style="color: #ff0055;">> ERROR: PRIME API OFFLINE</div>`;
+    }
 }
 
-window.toggleTelemetry = (e, key) => {
-    if(e.target.closest('a')) return;
-    const unit = document.getElementById(`unit-${key}`);
-    document.querySelectorAll('.telemetry-unit.active').forEach(el => el !== unit && el.classList.remove('active'));
-    unit?.classList.toggle('active');
+function renderTeamTelemetry(teamKey) {
+    const t = primeDataCache.teams[teamKey];
+    if (!t) return;
+
+    const outputArea = document.getElementById('telemetry-output');
+    
+    // Add image fallback for broken Riot/Prime logos
+    const logoImg = `<img src="${t.logo || 'assets/placeholder.png'}" onerror="this.onerror=null;this.src='assets/placeholder.png';" style="width: 80px; height: 80px; border-radius: 50%; border: 1px solid var(--primary); object-fit: cover;">`;
+
+    outputArea.innerHTML = `
+        <div class="telemetry-bento">
+            
+            <div class="t-card" style="display: flex; align-items: center; gap: 20px;">
+                ${logoImg}
+                <div>
+                    <div class="t-card-header" style="margin-bottom: 5px;">${t.meta.div || 'DIVISION TBD'}</div>
+                    <div class="t-points">${t.stats.points} <span>PKT</span></div>
+                </div>
+            </div>
+
+            <div class="t-card">
+                <div class="t-card-header">SEASON PERFORMANCE</div>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <div style="font-size: 1.5rem; color: #fff; font-family: var(--font-head);">${t.stats.wins}W - ${t.stats.losses}L</div>
+                        <div style="font-size: 0.7rem; color: var(--text-muted); letter-spacing: 1px;">MAP SCORE</div>
+                    </div>
+                    <div style="text-align: right;">
+                        <div style="font-size: 1.5rem; color: var(--primary); font-family: var(--font-head);">${t.stats.win_rate}%</div>
+                        <div style="font-size: 0.7rem; color: var(--text-muted); letter-spacing: 1px;">WIN RATE</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="t-card span-2" style="border-left: 2px solid ${t.last_match?.result === 'SIEG' ? '#00ff88' : '#ff0055'};">
+                <div class="t-card-header">LETZTES MATCH ${t.last_match ? `// ${new Date(t.last_match.date).toLocaleDateString('de-DE')}` : ''}</div>
+                ${t.last_match ? `
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div style="font-size: 1.2rem; color: #fff; font-family: var(--font-head);">VS ${escapeHTML(t.last_match.enemy)}</div>
+                        <div style="font-size: 1.5rem; font-family: var(--font-head); color: ${t.last_match.result === 'SIEG' ? '#00ff88' : '#ff0055'};">${t.last_match.score}</div>
+                    </div>
+                ` : '<div style="color: var(--text-muted); font-size: 0.9rem;">Keine historischen Matchdaten verfügbar.</div>'}
+            </div>
+
+            <div class="t-card span-2">
+                <div class="t-card-header">NÄCHSTES MATCH</div>
+                ${t.next_match ? `
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div style="font-size: 1.2rem; color: #fff; font-family: var(--font-head);">VS ${escapeHTML(t.next_match.tag)}</div>
+                        <a href="${t.next_match.link}" target="_blank" class="btn-obsidian-ghost" style="padding: 6px 15px; font-size: 0.7rem;">PRIME LEAGUE ↗</a>
+                    </div>
+                ` : '<div style="color: var(--text-muted); font-size: 0.9rem;">Aktuell kein Match angesetzt.</div>'}
+            </div>
+
+        </div>
+    `;
 }
 
 document.addEventListener('DOMContentLoaded', loadPrimeStats);
