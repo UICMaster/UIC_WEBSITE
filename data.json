@@ -128,10 +128,10 @@
       "role": "MID",
       "level": 984,
       "tier": "EMERALD I",
-      "lp": 41,
+      "lp": 21,
       "wins": 11,
-      "losses": 20,
-      "winRate": 35.5,
+      "losses": 22,
+      "winRate": 33.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6284.png"
     },
     {
@@ -139,10 +139,10 @@
       "role": "BOT",
       "level": 844,
       "tier": "EMERALD IV",
-      "lp": 18,
+      "lp": 0,
       "wins": 41,
-      "losses": 62,
-      "winRate": 39.8,
+      "losses": 63,
+      "winRate": 39.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6582.png"
     },
     {
@@ -434,11 +434,11 @@
       "name": "UIC Ayumu",
       "role": "MID",
       "level": 592,
-      "tier": "PLATINUM II",
-      "lp": 88,
-      "wins": 107,
+      "tier": "PLATINUM I",
+      "lp": 9,
+      "wins": 108,
       "losses": 97,
-      "winRate": 52.5,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7127.png"
     },
     {
@@ -478,11 +478,11 @@
       "name": "UIC Ayumu",
       "role": "MNG",
       "level": 592,
-      "tier": "PLATINUM II",
-      "lp": 88,
-      "wins": 107,
+      "tier": "PLATINUM I",
+      "lp": 9,
+      "wins": 108,
       "losses": 97,
-      "winRate": 52.5,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7127.png"
     },
     {
@@ -507,7 +507,7 @@
       "wins": 52,
       "losses": 53,
       "winRate": 49.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6340.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6022.png"
     },
     {
       "name": "UIC Muh",
@@ -580,10 +580,10 @@
       "role": "BOT",
       "level": 394,
       "tier": "PLATINUM III",
-      "lp": 37,
-      "wins": 108,
+      "lp": 79,
+      "wins": 109,
       "losses": 91,
-      "winRate": 54.3,
+      "winRate": 54.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -658,11 +658,11 @@
       "name": "BlondiXE1",
       "role": "BOT",
       "level": 425,
-      "tier": "SILVER I",
-      "lp": 93,
-      "wins": 89,
+      "tier": "GOLD IV",
+      "lp": 11,
+      "wins": 90,
       "losses": 80,
-      "winRate": 52.7,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6860.png"
     },
     {
@@ -694,10 +694,10 @@
       "role": "TOP",
       "level": 721,
       "tier": "PLATINUM II",
-      "lp": 52,
-      "wins": 55,
+      "lp": 72,
+      "wins": 56,
       "losses": 57,
-      "winRate": 49.1,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6490.png"
     },
     {
