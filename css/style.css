@@ -1166,7 +1166,7 @@ img {
 }
 
 /* =========================================
-   11. TACTICAL TELEMETRY MATRIX (#stats)
+   11. DATEN CENTER MATRIX (#stats)
    ========================================= */
 
 .telemetry-global-strip {
@@ -1222,7 +1222,7 @@ img {
 .form-block.l { background: #ff0055; }
 .form-block.empty { background: rgba(255,255,255,0.1); color: transparent; }
 
-/* Metrics Visuals */
+/* Visuals */
 .cyber-ring-wrapper { display: flex; flex-direction: column; align-items: center; gap: 10px; }
 .cyber-ring-chart {
     width: 75px; height: 75px; border-radius: 50%;
