@@ -286,14 +286,14 @@
     <div class="container">
         
         <div class="section-header">
-            <span class="section-subtitle"># TACTICAL TELEMETRY</span>
-            <h2 class="section-title">PRIME LEAGUE <span class="text-highlight">DATENBANK</span></h2>
+            <span class="section-subtitle"># xxxxx</span>
+            <h2 class="section-title">UNSERE <span class="text-highlight">STATISTIKEN</span></h2>
             <p class="lead-text" style="max-width: 600px; border-left-color: var(--secondary);">
-                Live-Synchronisation mit der Prime League API. Analysiere Performance, Formkurven und die nächsten Matchups unserer Roster.
+                Live-Synchronisation mit der Prime Bot API. Analysiere Performance, Formkurven und die nächsten Matchups unserer Roster.
             </p>
         </div>
 
-        <!-- 1. GLOBAL ORG STATS -->
+        <!-- GLOBAL SYSTEM HEALTH -->
         <div class="global-telemetry-grid">
             <div class="stat-module">
                 <span class="dt-label">ORG MATCHES</span>
@@ -309,27 +309,23 @@
             </div>
         </div>
 
-        <!-- 2. THE ANALYTICS CONSOLE -->
+        <!-- THE ANALYTICS CONSOLE -->
         <div class="telemetry-dashboard">
-            
-            <!-- SQUAD SELECTOR -->
             <aside class="telemetry-sidebar">
                 <div class="sidebar-title">[ DATEN-FEEDS ]</div>
                 <div id="stats-team-tabs" class="stats-tabs">
-                    <!-- JS injects team buttons here -->
+                    <!-- JS injects tabs here -->
                 </div>
             </aside>
-
-            <!-- TELEMETRY DISPLAY -->
-            <main class="telemetry-display">
+            <main class="telemetry-display" aria-live="polite">
                 <div id="telemetry-output" class="telemetry-output-area">
                     <div class="terminal-loader" style="color: var(--text-muted); font-family: monospace; padding: 40px; text-align: center;">
                         > SYNCING_PRIME_API...
                     </div>
                 </div>
             </main>
-
         </div>
+
     </div>
 </section>
 
