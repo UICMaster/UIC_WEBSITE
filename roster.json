@@ -42,6 +42,7 @@
   ],
   "cyber": [
     { "gameName": "UIC DANY", "tagLine": "RFA40", "role": "TOP" },
+    { "gameName": "Ðărkø", "tagLine": "SAI", "role": "JGL" },
     { "gameName": "CYS Rellik", "tagLine": "CYS", "role": "MID" },
     { "gameName": "UIC Pjure", "tagLine": "CYS", "role": "BOT" },
     { "gameName": "CYS Ryu Panda", "tagLine": "CSX", "role": "SUP" }
@@ -51,6 +52,7 @@
     { "gameName": "Blauerlopus", "tagLine": "Euw", "role": "JGL" },
     { "gameName": "UIC Ayumu", "tagLine": "LoveK", "role": "MID" },
     { "gameName": "UIC SilentCarry", "tagLine": "Alune", "role": "BOT" },
+    { "gameName": "", "tagLine": "", "role": "SUP" },
     { "gameName": "zab77", "tagLine": "EUW", "role": "SUB" },
     { "gameName": "UIC Ayumu", "tagLine": "LoveK", "role": "MNG" },
     { "gameName": "UIC Frozenhands", "tagLine": "mid", "role": "COH" }
@@ -67,6 +69,22 @@
     { "gameName": "UIC Kaanto", "tagLine": "Nova", "role": "SUP" },
     { "gameName": "UIC Excellent C", "tagLine": "1997", "role": "SUP" },
     { "gameName": "UIC Loonz", "tagLine": "Coach", "role": "COH" }
+  ],
+  "obsidian": [
+    { "gameName": "UIC Papi Δce", "tagLine": "3072", "role": "TOP" },
+    { "gameName": "Leberkasleatschn", "tagLine": "1990", "role": "JGL" },
+    { "gameName": "", "tagLine": "", "role": "MID" },
+    { "gameName": "BlondiXE1", "tagLine": "EUW", "role": "BOT" },
+    { "gameName": "LordZash", "tagLine": "1220", "role": "SUP" },
+    { "gameName": "UIC Taiga", "tagLine": "UIC", "role": "COH" }
+  ],
+  "ember": [
+    { "gameName": "UIC ソニック", "tagLine": "0815", "role": "TOP" },
+    { "gameName": "Aphrodite", "tagLine": "KOR", "role": "JGL" },
+    { "gameName": "", "tagLine": "", "role": "MID" },
+    { "gameName": "UIC Flare", "tagLine": "JND", "role": "BOT" },
+    { "gameName": "UIC Envy", "tagLine": "UIC", "role": "SUP" },
+    { "gameName": "UIC Cerberus", "tagLine": "Goatz", "role": "MNG" }
   ],
   "abyss": [
     { "gameName": "EPS Laserjet M47", "tagLine": "Chris", "role": "TOP" },
