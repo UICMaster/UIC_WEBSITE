@@ -10,13 +10,14 @@
       "sakura",
       "nova",
       "obsidian",
+      "ember",
       "abyss"
     ]
   },
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 48
+    "players": 53
   },
   "teams": {
     "prime": {
@@ -364,6 +365,46 @@
       "next_match": null,
       "last_match": null,
       "roster": []
+    },
+    "ember": {
+      "meta": {
+        "name": "Ultra Instinct Crew Ember",
+        "div": null
+      },
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "points": 0,
+        "games": 0,
+        "win_rate": 0,
+        "form": []
+      },
+      "next_match": null,
+      "last_match": null,
+      "roster": [
+        {
+          "summoner": "UIC ソニック#0815",
+          "is_captain": false
+        },
+        {
+          "summoner": "Aphrodite#KOR",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Envy#UIC",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Flare#JND",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        }
+      ],
+      "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
+      "logo": "https://cdn0.heartbase.gg/league_team_logos/211000/211165.jpg?1765449081"
     },
     "abyss": {
       "meta": {

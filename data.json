@@ -127,11 +127,11 @@
       "name": "Regentropfen",
       "role": "MID",
       "level": 983,
-      "tier": "EMERALD III",
-      "lp": 81,
-      "wins": 5,
+      "tier": "EMERALD II",
+      "lp": 41,
+      "wins": 6,
       "losses": 15,
-      "winRate": 25,
+      "winRate": 28.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6284.png"
     },
     {
@@ -253,10 +253,10 @@
       "role": "BOT",
       "level": 781,
       "tier": "DIAMOND I",
-      "lp": 2,
-      "wins": 170,
+      "lp": 22,
+      "wins": 171,
       "losses": 180,
-      "winRate": 48.6,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5875.png"
     },
     {
@@ -363,6 +363,17 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3157.png"
     },
     {
+      "name": "Ðărkø",
+      "role": "JGL",
+      "level": 787,
+      "tier": "MASTER I",
+      "lp": 30,
+      "wins": 32,
+      "losses": 26,
+      "winRate": 55.2,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3840.png"
+    },
+    {
       "name": "CYS Rellik",
       "role": "MID",
       "level": 671,
@@ -442,6 +453,17 @@
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
+      "name": "OPEN SPOT",
+      "role": "SUP",
+      "level": 0,
+      "tier": "RECRUITING",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": null
+    },
+    {
       "name": "zab77",
       "role": "SUB",
       "level": 287,
@@ -481,10 +503,10 @@
       "role": "TOP",
       "level": 868,
       "tier": "EMERALD III",
-      "lp": 41,
-      "wins": 50,
+      "lp": 62,
+      "wins": 51,
       "losses": 53,
-      "winRate": 48.5,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6340.png"
     },
     {
@@ -596,6 +618,142 @@
       "losses": 32,
       "winRate": 45.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
+    }
+  ],
+  "obsidian": [
+    {
+      "name": "UIC Papi Δce",
+      "role": "TOP",
+      "level": 577,
+      "tier": "EMERALD III",
+      "lp": 17,
+      "wins": 66,
+      "losses": 69,
+      "winRate": 48.9,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3891.png"
+    },
+    {
+      "name": "Leberkasleatschn",
+      "role": "JGL",
+      "level": 452,
+      "tier": "GOLD IV",
+      "lp": 56,
+      "wins": 70,
+      "losses": 75,
+      "winRate": 48.3,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6236.png"
+    },
+    {
+      "name": "OPEN SPOT",
+      "role": "MID",
+      "level": 0,
+      "tier": "RECRUITING",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": null
+    },
+    {
+      "name": "BlondiXE1",
+      "role": "BOT",
+      "level": 425,
+      "tier": "GOLD IV",
+      "lp": 0,
+      "wins": 88,
+      "losses": 78,
+      "winRate": 53,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6860.png"
+    },
+    {
+      "name": "LordZash",
+      "role": "SUP",
+      "level": 746,
+      "tier": "PLATINUM II",
+      "lp": 5,
+      "wins": 59,
+      "losses": 64,
+      "winRate": 48,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/932.png"
+    },
+    {
+      "name": "UIC Taiga",
+      "role": "COH",
+      "level": 467,
+      "tier": "DIAMOND IV",
+      "lp": 35,
+      "wins": 17,
+      "losses": 12,
+      "winRate": 58.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6795.png"
+    }
+  ],
+  "ember": [
+    {
+      "name": "UIC ソニック",
+      "role": "TOP",
+      "level": 721,
+      "tier": "PLATINUM II",
+      "lp": 72,
+      "wins": 55,
+      "losses": 56,
+      "winRate": 49.5,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6490.png"
+    },
+    {
+      "name": "Aphrodite",
+      "role": "JGL",
+      "level": 1242,
+      "tier": "EMERALD III",
+      "lp": 79,
+      "wins": 209,
+      "losses": 196,
+      "winRate": 51.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3796.png"
+    },
+    {
+      "name": "OPEN SPOT",
+      "role": "MID",
+      "level": 0,
+      "tier": "RECRUITING",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": null
+    },
+    {
+      "name": "UIC Flare",
+      "role": "BOT",
+      "level": 637,
+      "tier": "DIAMOND IV",
+      "lp": 31,
+      "wins": 80,
+      "losses": 75,
+      "winRate": 51.6,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/1625.png"
+    },
+    {
+      "name": "UIC Envy",
+      "role": "SUP",
+      "level": 344,
+      "tier": "EMERALD IV",
+      "lp": 0,
+      "wins": 233,
+      "losses": 214,
+      "winRate": 52.1,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7096.png"
+    },
+    {
+      "name": "UIC Cerberus",
+      "role": "MNG",
+      "level": 233,
+      "tier": "UNRANKED",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6386.png"
     }
   ],
   "abyss": [
