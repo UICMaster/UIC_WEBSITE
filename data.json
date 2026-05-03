@@ -38,21 +38,21 @@
       "role": "BOT",
       "level": 730,
       "tier": "DIAMOND I",
-      "lp": 75,
-      "wins": 70,
+      "lp": 97,
+      "wins": 71,
       "losses": 66,
-      "winRate": 51.5,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7.png"
     },
     {
       "name": "UIC Baguetto",
       "role": "SUP",
-      "level": 997,
+      "level": 998,
       "tier": "DIAMOND I",
-      "lp": 75,
-      "wins": 120,
+      "lp": 96,
+      "wins": 121,
       "losses": 101,
-      "winRate": 54.3,
+      "winRate": 54.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4380.png"
     },
     {
@@ -82,10 +82,10 @@
       "role": "MNG",
       "level": 722,
       "tier": "GOLD III",
-      "lp": 2,
-      "wins": 139,
+      "lp": 21,
+      "wins": 140,
       "losses": 158,
-      "winRate": 46.8,
+      "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4555.png"
     },
     {
@@ -128,10 +128,10 @@
       "role": "MID",
       "level": 984,
       "tier": "EMERALD II",
-      "lp": 31,
-      "wins": 6,
-      "losses": 16,
-      "winRate": 27.3,
+      "lp": 51,
+      "wins": 7,
+      "losses": 17,
+      "winRate": 29.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6284.png"
     },
     {
@@ -264,9 +264,9 @@
       "role": "SUP",
       "level": 679,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 32,
-      "losses": 36,
+      "lp": 20,
+      "wins": 33,
+      "losses": 37,
       "winRate": 47.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5642.png"
     }
@@ -288,10 +288,10 @@
       "role": "JGL",
       "level": 791,
       "tier": "MASTER I",
-      "lp": 46,
-      "wins": 138,
+      "lp": 76,
+      "wins": 139,
       "losses": 133,
-      "winRate": 50.9,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/528.png"
     },
     {
