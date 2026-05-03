@@ -6,7 +6,7 @@ const OUTPUT_PATH = path.resolve(process.cwd(), 'prime_stats.json');
 const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/4.2' };
 
 async function getTeamIntel(team) {
-    console.log(`📡 Syncing: ${team.key.toUpperCase()}...`);
+    console.log(`📡 Synchronisiere: ${team.key.toUpperCase()}...`);
     try {
         const response = await fetch(`https://primebot.me/api/v1/teams/${team.id}/`, { headers: HEADERS });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -66,7 +66,7 @@ async function getTeamIntel(team) {
             logo: data.logo_url
         };
     } catch (e) { 
-        console.error(`❌ Failed to sync ${team.key}:`, e.message);
+        console.error(`❌ Fehler bei ${team.key}:`, e.message);
         return null; 
     }
 }
@@ -114,6 +114,6 @@ async function start() {
     };
     
     fs.writeFileSync(OUTPUT_PATH, JSON.stringify(payload, null, 2));
-    console.log(`✅ Telemetry Saved to: ${OUTPUT_PATH}`);
+    console.log(`✅ Daten erfolgreich gespeichert: ${OUTPUT_PATH}`);
 }
 start();
