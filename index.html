@@ -282,45 +282,40 @@
          </div>
      </section>
 
-<section id="stats" class="section-pad" style="background: linear-gradient(0deg, var(--bg-dark) 0%, #080808 100%);">
-    <div class="container">
+<section id="stats" class="section-pad" style="background: var(--bg-dark); position: relative;">
+    <div style="position: absolute; top:0; left:0; width:100%; height:100%; background-image: linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px); background-size: 100% 40px; pointer-events: none;"></div>
+
+    <div class="container" style="position: relative; z-index: 2;">
         
         <div class="section-header">
-            <span class="section-subtitle"># xxxxx</span>
+            <span class="section-subtitle"># xxxxxxx</span>
             <h2 class="section-title">UNSERE <span class="text-highlight">STATISTIKEN</span></h2>
-            <p class="lead-text" style="max-width: 600px; border-left-color: var(--secondary);">
-                Live-Synchronisation mit der Prime Bot API. Analysiere Performance, Formkurven und die nächsten Matchups unserer Roster.
-            </p>
         </div>
 
-        <!-- GLOBAL SYSTEM HEALTH -->
-        <div class="global-telemetry-grid">
-            <div class="stat-module">
-                <span class="dt-label">ORG MATCHES</span>
-                <span class="dt-value" id="stat-matches">—</span>
+        <div class="telemetry-global-strip">
+            <div class="t-global-data">
+                <span class="t-global-label">SERIES PLAYED</span>
+                <span class="t-global-value" id="stat-matches">—</span>
             </div>
-            <div class="stat-module highlight-module">
-                <span class="dt-label">WIN RATE</span>
-                <span class="dt-value" id="stat-wr">—%</span>
+            <div class="t-global-data">
+                <span class="t-global-label">WIN RATE</span>
+                <span class="t-global-value glow" id="stat-wr">—%</span>
             </div>
-            <div class="stat-module">
-                <span class="dt-label">ACTIVE PLAYERS</span>
-                <span class="dt-value" id="stat-players">—</span>
+            <div class="t-global-data">
+                <span class="t-global-label">ACTIVE ROSTER</span>
+                <span class="t-global-value" id="stat-players">—</span>
             </div>
         </div>
 
-        <!-- THE ANALYTICS CONSOLE -->
-        <div class="telemetry-dashboard">
-            <aside class="telemetry-sidebar">
-                <div class="sidebar-title">[ DATEN-FEEDS ]</div>
-                <div id="stats-team-tabs" class="stats-tabs">
-                    <!-- JS injects tabs here -->
-                </div>
+        <div class="telemetry-matrix">
+            <aside class="matrix-sidebar">
+                <div class="matrix-header">DATEN-FEEDS // 11</div>
+                <div id="stats-team-tabs" class="matrix-tabs"></div>
             </aside>
-            <main class="telemetry-display" aria-live="polite">
-                <div id="telemetry-output" class="telemetry-output-area">
-                    <div class="terminal-loader" style="color: var(--text-muted); font-family: monospace; padding: 40px; text-align: center;">
-                        > SYNCING_PRIME_API...
+            <main class="matrix-display" aria-live="polite">
+                <div id="telemetry-output">
+                    <div class="terminal-loader" style="color: var(--primary); font-family: monospace;">
+                        > INITIATING_HANDSHAKE_PRIME_API...
                     </div>
                 </div>
             </main>
