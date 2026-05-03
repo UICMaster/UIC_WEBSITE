@@ -5,6 +5,10 @@ on:
     - cron: '0 * * * *' # Every hour
   workflow_dispatch:      # Manual trigger button
 
+concurrency:
+  group: telemetry-sync
+  cancel-in-progress: true
+
 permissions:
   contents: write         # Required to push changes back to repo
 
@@ -33,6 +37,8 @@ jobs:
 
       # 3. Unified Commit and Push
       - name: Commit and Push
+        env:
+          TZ: Europe/Berlin
         run: |
           git config --global user.name "HUD-Sync-Bot"
           git config --global user.email "bot@noreply.github.com"
