@@ -128,10 +128,10 @@
       "role": "MID",
       "level": 984,
       "tier": "EMERALD I",
-      "lp": 21,
-      "wins": 10,
-      "losses": 19,
-      "winRate": 34.5,
+      "lp": 41,
+      "wins": 11,
+      "losses": 20,
+      "winRate": 35.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6284.png"
     },
     {
@@ -141,8 +141,8 @@
       "tier": "EMERALD IV",
       "lp": 40,
       "wins": 40,
-      "losses": 59,
-      "winRate": 40.4,
+      "losses": 60,
+      "winRate": 40,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6582.png"
     },
     {
@@ -196,10 +196,10 @@
       "role": "BOT",
       "level": 792,
       "tier": "EMERALD II",
-      "lp": 62,
+      "lp": 42,
       "wins": 56,
-      "losses": 49,
-      "winRate": 53.3,
+      "losses": 50,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6883.png"
     },
     {
@@ -289,8 +289,8 @@
       "level": 792,
       "tier": "MASTER I",
       "lp": 76,
-      "wins": 140,
-      "losses": 134,
+      "wins": 141,
+      "losses": 135,
       "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/528.png"
     },
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 589,
       "tier": "DIAMOND I",
-      "lp": 56,
+      "lp": 15,
       "wins": 122,
-      "losses": 133,
-      "winRate": 47.8,
+      "losses": 135,
+      "winRate": 47.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -672,8 +672,8 @@
       "tier": "PLATINUM II",
       "lp": 26,
       "wins": 60,
-      "losses": 64,
-      "winRate": 48.4,
+      "losses": 65,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/932.png"
     },
     {
@@ -709,7 +709,7 @@
       "wins": 209,
       "losses": 197,
       "winRate": 51.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3796.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4293.png"
     },
     {
       "name": "OPEN SPOT",
