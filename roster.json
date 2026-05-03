@@ -5,8 +5,8 @@
     { "gameName": "UIC Shenycrane", "tagLine": "Vugel", "role": "MID" },
     { "gameName": "UIC Giani", "tagLine": "999", "role": "BOT" },
     { "gameName": "UIC Baguetto", "tagLine": "R3kt", "role": "SUP" },
-    { "gameName": "UIC Frozenhands", "tagLine": "MID", "role": "SUB" },
-    { "gameName": "Baumi", "tagLine": "123", "role": "SUB" },
+    { "gameName": "Baumi", "tagLine": "123", "role": "SUB_1" },
+    { "gameName": "UIC Frozenhands", "tagLine": "MID", "role": "SUB_2" },
     { "gameName": "never leaving", "tagLine": "stay", "role": "MNG" },
     { "gameName": "UIC Loonz", "tagLine": "Coach", "role": "COH" }
   ],
@@ -58,16 +58,16 @@
     { "gameName": "UIC Frozenhands", "tagLine": "mid", "role": "COH" }
   ],
   "nova": [
-    { "gameName": "UIC Kaetaya", "tagLine": "XwX", "role": "TOP" },
-    { "gameName": "UIC Muh", "tagLine": "KATZE", "role": "TOP" },
-    { "gameName": "UIC Rubix Qube", "tagLine": "MÖP", "role": "JGL" },
-    { "gameName": "UIC Namorii", "tagLine": "Nova", "role": "JGL" },
-    { "gameName": "UIC adedier", "tagLine": "EUWE", "role": "MID" },
-    { "gameName": "UIC GreatATuin", "tagLine": "AUS", "role": "MID" },
-    { "gameName": "UIC Boohunter", "tagLine": "Boo", "role": "BOT" },
-    { "gameName": "UIC Deavan", "tagLine": "UIC", "role": "BOT" },
-    { "gameName": "UIC Kaanto", "tagLine": "Nova", "role": "SUP" },
-    { "gameName": "UIC Excellent C", "tagLine": "1997", "role": "SUP" },
+    { "gameName": "UIC Kaetaya", "tagLine": "XwX", "role": "TOP_1" },
+    { "gameName": "UIC Muh", "tagLine": "KATZE", "role": "TOP_2" },
+    { "gameName": "UIC Rubix Qube", "tagLine": "MÖP", "role": "JGL_1" },
+    { "gameName": "UIC Namorii", "tagLine": "Nova", "role": "JGL_2" },
+    { "gameName": "UIC adedier", "tagLine": "EUWE", "role": "MID_1" },
+    { "gameName": "UIC GreatATuin", "tagLine": "AUS", "role": "MID_2" },
+    { "gameName": "UIC Boohunter", "tagLine": "Boo", "role": "BOT_1" },
+    { "gameName": "UIC Deavan", "tagLine": "UIC", "role": "BOT_2" },
+    { "gameName": "UIC Kaanto", "tagLine": "Nova", "role": "SUP_1" },
+    { "gameName": "UIC Excellent C", "tagLine": "1997", "role": "SUP_2" },
     { "gameName": "UIC Loonz", "tagLine": "Coach", "role": "COH" }
   ],
   "obsidian": [
