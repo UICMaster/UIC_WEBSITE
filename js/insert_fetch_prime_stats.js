@@ -9,43 +9,82 @@ let primeDataCache = null;
 
 async function loadPrimeStats() {
     try {
-        // Cache Busting
         const response = await fetch(`./prime_stats.json?t=${Date.now()}`);
         if (!response.ok) throw new Error("JSON Missing");
         primeDataCache = await response.json();
         
-        // 1. Populate Global Health
         if (primeDataCache.global) {
             document.getElementById('stat-matches').innerText = primeDataCache.global.matches;
             document.getElementById('stat-wr').innerText = primeDataCache.global.wr + '%';
             document.getElementById('stat-players').innerText = primeDataCache.global.players;
         }
 
-        // 2. Build Sidebar Navigation
         const tabsContainer = document.getElementById('stats-team-tabs');
         const teamsOrder = primeDataCache.config?.teamsOrder || Object.keys(primeDataCache.teams);
         
-        tabsContainer.innerHTML = teamsOrder.map((key, index) => {
+        let tabsHTML = `<button class="matrix-btn active" data-team="GLOBAL">[ GLOBAL RADAR ]</button>`;
+        tabsHTML += teamsOrder.map((key) => {
             if (!primeDataCache.teams[key]) return '';
-            return `<button class="stat-tab-btn ${index === 0 ? 'active' : ''}" data-team="${key}">UIC ${key}</button>`;
+            return `<button class="matrix-btn" data-team="${key}">UIC ${key.toUpperCase()}</button>`;
         }).join('');
+        
+        tabsContainer.innerHTML = tabsHTML;
 
-        // 3. Render initial team
-        if (teamsOrder.length > 0) renderTeamTelemetry(teamsOrder[0]);
+        renderGlobalRadar();
 
-        // 4. Event Delegation for Tabs
         tabsContainer.addEventListener('click', (e) => {
-            if (e.target.classList.contains('stat-tab-btn')) {
-                document.querySelectorAll('.stat-tab-btn').forEach(b => b.classList.remove('active'));
+            if (e.target.classList.contains('matrix-btn')) {
+                document.querySelectorAll('.matrix-btn').forEach(b => b.classList.remove('active'));
                 e.target.classList.add('active');
-                renderTeamTelemetry(e.target.dataset.team);
+                
+                const target = e.target.dataset.team;
+                if (target === 'GLOBAL') {
+                    renderGlobalRadar();
+                } else {
+                    renderTeamTelemetry(target);
+                }
             }
         });
 
     } catch (e) { 
         console.error("Telemetry Sync Error:", e);
-        document.getElementById('telemetry-output').innerHTML = `<div class="terminal-loader" style="color: #ff0055;">> ERROR: PRIME API OFFLINE</div>`;
+        document.getElementById('telemetry-output').innerHTML = `<div class="terminal-loader" style="color: #ff0055;">> ERR_CONNECTION_REFUSED</div>`;
     }
+}
+
+function renderGlobalRadar() {
+    const radarData = primeDataCache.global.radar || [];
+    const outputArea = document.getElementById('telemetry-output');
+
+    if (radarData.length === 0) {
+        outputArea.innerHTML = `<div class="wire-card"><div style="color: var(--text-muted);">NO UPCOMING ENGAGEMENTS DETECTED.</div></div>`;
+        return;
+    }
+
+    const radarRows = radarData.map(m => {
+        const d = new Date(m.date);
+        const dateStr = d.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit' });
+        const timeStr = d.toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit' });
+
+        return `
+            <div class="radar-row">
+                <div class="r-date"><span>${dateStr}</span><span style="color: #fff;">${timeStr}</span></div>
+                <div class="r-matchup"><span style="color: var(--text-muted);">UIC ${m.team_key}</span> VS ${escapeHTML(m.enemy)}</div>
+                <a href="${m.link}" target="_blank" class="btn-obsidian-ghost" style="padding: 5px 15px; font-size: 0.6rem;">PRIME LEAGUE ↗</a>
+            </div>
+        `;
+    }).join('');
+
+    outputArea.innerHTML = `
+        <div class="data-grid" style="grid-template-columns: 1fr;">
+            <div class="wire-card">
+                <div class="wire-header"><span style="color: var(--secondary);">[ SYSTEM WIDE ]</span> <span>UPCOMING FIXTURES</span></div>
+                <div class="radar-list">
+                    ${radarRows}
+                </div>
+            </div>
+        </div>
+    `;
 }
 
 function renderTeamTelemetry(teamKey) {
@@ -53,53 +92,99 @@ function renderTeamTelemetry(teamKey) {
     if (!t) return;
 
     const outputArea = document.getElementById('telemetry-output');
-    
-    // Add image fallback for broken Riot/Prime logos
-    const logoImg = `<img src="${t.logo || 'assets/placeholder.png'}" onerror="this.onerror=null;this.src='assets/placeholder.png';" style="width: 80px; height: 80px; border-radius: 50%; border: 1px solid var(--primary); object-fit: cover;">`;
+    const totalMaps = t.stats.wins + t.stats.losses;
+    const winRatio = totalMaps > 0 ? (t.stats.wins / totalMaps) * 100 : 0;
+    const lossRatio = totalMaps > 0 ? (t.stats.losses / totalMaps) * 100 : 0;
+
+    const formBlocks = Array(5).fill('empty').map((_, i) => {
+        const result = t.stats.form[i];
+        if (result === 'W') return `<div class="form-block w">W</div>`;
+        if (result === 'L') return `<div class="form-block l">L</div>`;
+        return `<div class="form-block empty">-</div>`;
+    }).join('');
+
+    let enemyScoutingHTML = '';
+    if (t.next_match && t.next_match.enemy_roster && t.next_match.enemy_roster.length > 0) {
+        enemyScoutingHTML = `
+            <div style="font-size: 0.6rem; color: #ff0055; margin-top: 15px; letter-spacing: 1px;">SCOUTING REPORT: ENEMY LINEUP</div>
+            <div class="enemy-roster-grid">
+                ${t.next_match.enemy_roster.map(player => `<div class="enemy-chip">${escapeHTML(player)}</div>`).join('')}
+            </div>
+        `;
+    }
 
     outputArea.innerHTML = `
-        <div class="telemetry-bento">
+        <div class="data-grid">
             
-            <div class="t-card" style="display: flex; align-items: center; gap: 20px;">
-                ${logoImg}
-                <div>
-                    <div class="t-card-header" style="margin-bottom: 5px;">${t.meta.div || 'DIVISION TBD'}</div>
-                    <div class="t-points">${t.stats.points} <span>PKT</span></div>
-                </div>
-            </div>
-
-            <div class="t-card">
-                <div class="t-card-header">SEASON PERFORMANCE</div>
-                <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div class="wire-card span-full" style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--primary);">
+                <a href="${t.team_link}" target="_blank" class="team-link-wrapper">
+                    <img src="${t.logo || 'assets/placeholder.png'}" onerror="this.onerror=null;this.src='assets/placeholder.png';" style="width: 50px; height: 50px; border-radius: 4px; filter: grayscale(50%); border: 1px solid rgba(255,255,255,0.1);">
                     <div>
-                        <div style="font-size: 1.5rem; color: #fff; font-family: var(--font-head);">${t.stats.wins}W - ${t.stats.losses}L</div>
-                        <div style="font-size: 0.7rem; color: var(--text-muted); letter-spacing: 1px;">MAP SCORE</div>
+                        <div style="font-family: var(--font-head); font-size: 1.2rem; color: #fff;">UIC ${teamKey.toUpperCase()} <span style="font-size: 0.8rem; color: var(--text-muted);">↗</span></div>
+                        <div style="font-size: 0.7rem; color: var(--primary); letter-spacing: 2px;">${t.meta.div || 'DIV // TBD'}</div>
                     </div>
-                    <div style="text-align: right;">
-                        <div style="font-size: 1.5rem; color: var(--primary); font-family: var(--font-head);">${t.stats.win_rate}%</div>
-                        <div style="font-size: 0.7rem; color: var(--text-muted); letter-spacing: 1px;">WIN RATE</div>
-                    </div>
+                </a>
+                <div style="text-align: right;">
+                    <div style="font-family: var(--font-head); font-size: 2.5rem; color: var(--primary); line-height: 1; text-shadow: 0 0 15px rgba(0, 240, 255, 0.3);">${t.stats.points}</div>
+                    <div style="font-size: 0.6rem; color: var(--text-muted); letter-spacing: 2px;">LEAGUE POINTS</div>
                 </div>
             </div>
 
-            <div class="t-card span-2" style="border-left: 2px solid ${t.last_match?.result === 'SIEG' ? '#00ff88' : '#ff0055'};">
-                <div class="t-card-header">LETZTES MATCH ${t.last_match ? `// ${new Date(t.last_match.date).toLocaleDateString('de-DE')}` : ''}</div>
-                ${t.last_match ? `
-                    <div style="display: flex; justify-content: space-between; align-items: center;">
-                        <div style="font-size: 1.2rem; color: #fff; font-family: var(--font-head);">VS ${escapeHTML(t.last_match.enemy)}</div>
-                        <div style="font-size: 1.5rem; font-family: var(--font-head); color: ${t.last_match.result === 'SIEG' ? '#00ff88' : '#ff0055'};">${t.last_match.score}</div>
+            <div class="wire-card" style="display: flex; gap: 20px; align-items: center;">
+                <div style="flex-grow: 1;">
+                    <div class="wire-header" style="margin-bottom: 10px;"><span>[ METRICS ]</span> <span>V.04</span></div>
+                    <div style="margin-bottom: 15px;">
+                        <div class="hud-stat-row" style="border: none; padding: 0; margin: 0;">
+                            <span class="hud-lbl">MAP SCORE</span>
+                            <span class="hud-val" style="font-size: 1rem;">${t.stats.wins}W - ${t.stats.losses}L</span>
+                        </div>
+                        <div class="momentum-track">
+                            <div class="m-fill-w" style="width: ${winRatio}%;"></div>
+                            <div class="m-fill-l" style="width: ${lossRatio}%;"></div>
+                        </div>
                     </div>
-                ` : '<div style="color: var(--text-muted); font-size: 0.9rem;">Keine historischen Matchdaten verfügbar.</div>'}
+                    <div class="hud-stat-row" style="border: none; padding-bottom: 0;">
+                        <span class="hud-lbl">RECENT FORM</span>
+                        <div class="form-array">${formBlocks}</div>
+                    </div>
+                </div>
+                <div class="cyber-ring-wrapper">
+                    <div class="cyber-ring-chart" style="--percentage: ${t.stats.win_rate}%;">
+                        <span class="cyber-ring-val">${t.stats.win_rate}%</span>
+                    </div>
+                    <span style="font-size: 0.6rem; color: var(--primary); letter-spacing: 1px;">WIN RATE</span>
+                </div>
             </div>
 
-            <div class="t-card span-2">
-                <div class="t-card-header">NÄCHSTES MATCH</div>
-                ${t.next_match ? `
-                    <div style="display: flex; justify-content: space-between; align-items: center;">
-                        <div style="font-size: 1.2rem; color: #fff; font-family: var(--font-head);">VS ${escapeHTML(t.next_match.tag)}</div>
-                        <a href="${t.next_match.link}" target="_blank" class="btn-obsidian-ghost" style="padding: 6px 15px; font-size: 0.7rem;">PRIME LEAGUE ↗</a>
+            <div class="wire-card">
+                <div class="wire-header"><span>[ COMBAT LOG ]</span> <span>HISTORY</span></div>
+                ${t.last_match ? `
+                    <div class="hud-stat-row">
+                        <span class="hud-lbl">OPPONENT</span>
+                        <span class="hud-val" style="font-size: 1rem;">VS ${escapeHTML(t.last_match.enemy)}</span>
                     </div>
-                ` : '<div style="color: var(--text-muted); font-size: 0.9rem;">Aktuell kein Match angesetzt.</div>'}
+                    <div class="hud-stat-row" style="border: none; padding-bottom: 0;">
+                        <span class="hud-lbl">RESULT</span>
+                        <span class="hud-val" style="color: ${t.last_match.result === 'SIEG' ? '#00ff88' : '#ff0055'};">${t.last_match.result} <span style="color: #fff; font-size: 0.9rem;">[${t.last_match.score}]</span></span>
+                    </div>
+                    <div style="font-size: 0.6rem; color: var(--text-muted); margin-top: 10px; text-align: right;">DATE // ${new Date(t.last_match.date).toLocaleDateString('de-DE')}</div>
+                ` : '<div style="color: var(--text-muted); font-size: 0.8rem;">NO ARCHIVED DATA</div>'}
+            </div>
+
+            <div class="wire-card span-full alert">
+                <div class="wire-header"><span style="color: var(--secondary);">[ NEXT ENGAGEMENT ]</span> <span>ACTIVE</span></div>
+                ${t.next_match ? `
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 15px;">
+                        <div>
+                            <div style="font-size: 0.7rem; color: var(--text-muted);">TARGET CONFIRMED</div>
+                            <div style="font-family: var(--font-head); font-size: 1.5rem; color: #fff;">VS ${escapeHTML(t.next_match.tag)}</div>
+                            ${enemyScoutingHTML}
+                        </div>
+                        <a href="${t.next_match.link}" target="_blank" class="btn-obsidian-ghost" style="padding: 8px 20px; font-size: 0.7rem; border-color: var(--secondary); color: #fff; align-self: center;">
+                            PRIME LEAGUE ↗
+                        </a>
+                    </div>
+                ` : '<div style="color: var(--text-muted); font-size: 0.8rem;">AWAITING SCHEDULING</div>'}
             </div>
 
         </div>
