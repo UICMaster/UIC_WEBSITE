@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1159,
       "tier": "DIAMOND I",
-      "lp": 58,
-      "wins": 96,
+      "lp": 78,
+      "wins": 97,
       "losses": 101,
-      "winRate": 48.7,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -536,10 +536,10 @@
       "role": "JGL_2",
       "level": 951,
       "tier": "EMERALD I",
-      "lp": 50,
+      "lp": 16,
       "wins": 31,
-      "losses": 26,
-      "winRate": 54.4,
+      "losses": 28,
+      "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3791.png"
     },
     {
@@ -556,12 +556,12 @@
     {
       "name": "UIC GreatATuin",
       "role": "MID_2",
-      "level": 589,
+      "level": 590,
       "tier": "DIAMOND IV",
-      "lp": 14,
+      "lp": 0,
       "wins": 232,
-      "losses": 206,
-      "winRate": 53,
+      "losses": 208,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/23.png"
     },
     {
@@ -569,9 +569,9 @@
       "role": "BOT_1",
       "level": 1393,
       "tier": "GOLD I",
-      "lp": 50,
+      "lp": 28,
       "wins": 404,
-      "losses": 402,
+      "losses": 403,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7126.png"
     },
