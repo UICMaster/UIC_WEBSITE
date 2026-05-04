@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1159,
       "tier": "DIAMOND I",
-      "lp": 98,
+      "lp": 58,
       "wins": 96,
-      "losses": 99,
-      "winRate": 49.2,
+      "losses": 101,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -579,11 +579,11 @@
       "name": "UIC Deavan",
       "role": "BOT_2",
       "level": 394,
-      "tier": "PLATINUM II",
-      "lp": 18,
+      "tier": "PLATINUM III",
+      "lp": 98,
       "wins": 112,
-      "losses": 93,
-      "winRate": 54.6,
+      "losses": 94,
+      "winRate": 54.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -602,10 +602,10 @@
       "role": "SUP_2",
       "level": 571,
       "tier": "PLATINUM IV",
-      "lp": 55,
+      "lp": 34,
       "wins": 95,
-      "losses": 97,
-      "winRate": 49.5,
+      "losses": 98,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7064.png"
     },
     {
@@ -782,7 +782,7 @@
     {
       "name": "UIC Keygasza",
       "role": "MID",
-      "level": 471,
+      "level": 472,
       "tier": "EMERALD I",
       "lp": 45,
       "wins": 61,
