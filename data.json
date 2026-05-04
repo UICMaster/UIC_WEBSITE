@@ -80,11 +80,11 @@
     {
       "name": "never leaving",
       "role": "MNG",
-      "level": 722,
+      "level": 723,
       "tier": "GOLD III",
-      "lp": 21,
-      "wins": 140,
-      "losses": 158,
+      "lp": 19,
+      "wins": 141,
+      "losses": 159,
       "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4555.png"
     },
@@ -567,23 +567,23 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT_1",
-      "level": 1392,
-      "tier": "PLATINUM IV",
-      "lp": 13,
+      "level": 1393,
+      "tier": "GOLD I",
+      "lp": 50,
       "wins": 404,
-      "losses": 400,
-      "winRate": 50.2,
+      "losses": 402,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7126.png"
     },
     {
       "name": "UIC Deavan",
       "role": "BOT_2",
       "level": 394,
-      "tier": "PLATINUM III",
-      "lp": 99,
-      "wins": 111,
-      "losses": 92,
-      "winRate": 54.7,
+      "tier": "PLATINUM II",
+      "lp": 18,
+      "wins": 112,
+      "losses": 93,
+      "winRate": 54.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -591,10 +591,10 @@
       "role": "SUP_1",
       "level": 381,
       "tier": "PLATINUM II",
-      "lp": 67,
-      "wins": 76,
+      "lp": 88,
+      "wins": 77,
       "losses": 74,
-      "winRate": 50.7,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7099.png"
     },
     {
