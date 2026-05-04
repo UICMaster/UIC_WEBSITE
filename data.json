@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1061,
       "tier": "GRANDMASTER I",
-      "lp": 482,
+      "lp": 453,
       "wins": 285,
-      "losses": 275,
-      "winRate": 50.9,
+      "losses": 276,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -205,7 +205,7 @@
     {
       "name": "FirstBlo",
       "role": "SUP",
-      "level": 481,
+      "level": 482,
       "tier": "DIAMOND IV",
       "lp": 17,
       "wins": 83,
@@ -253,10 +253,10 @@
       "role": "BOT",
       "level": 781,
       "tier": "DIAMOND I",
-      "lp": 42,
-      "wins": 172,
+      "lp": 62,
+      "wins": 173,
       "losses": 180,
-      "winRate": 48.9,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5875.png"
     },
     {
@@ -569,9 +569,9 @@
       "role": "BOT_1",
       "level": 1392,
       "tier": "PLATINUM IV",
-      "lp": 17,
-      "wins": 403,
-      "losses": 399,
+      "lp": 13,
+      "wins": 404,
+      "losses": 400,
       "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7126.png"
     },
@@ -580,10 +580,10 @@
       "role": "BOT_2",
       "level": 394,
       "tier": "PLATINUM III",
-      "lp": 79,
-      "wins": 110,
+      "lp": 99,
+      "wins": 111,
       "losses": 92,
-      "winRate": 54.5,
+      "winRate": 54.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -635,13 +635,13 @@
     {
       "name": "Leberkasleatschn",
       "role": "JGL",
-      "level": 452,
+      "level": 453,
       "tier": "GOLD IV",
       "lp": 56,
       "wins": 70,
       "losses": 75,
       "winRate": 48.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6236.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7126.png"
     },
     {
       "name": "OPEN SPOT",
@@ -659,10 +659,10 @@
       "role": "BOT",
       "level": 426,
       "tier": "GOLD IV",
-      "lp": 0,
-      "wins": 90,
+      "lp": 18,
+      "wins": 91,
       "losses": 81,
-      "winRate": 52.6,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6860.png"
     },
     {
