@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1059,
       "tier": "GRANDMASTER I",
-      "lp": 516,
-      "wins": 273,
-      "losses": 261,
-      "winRate": 51.1,
+      "lp": 373,
+      "wins": 274,
+      "losses": 267,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -445,11 +445,11 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 590,
-      "tier": "DIAMOND II",
-      "lp": 75,
-      "wins": 123,
-      "losses": 138,
-      "winRate": 47.1,
+      "tier": "DIAMOND I",
+      "lp": 15,
+      "wins": 126,
+      "losses": 140,
+      "winRate": 47.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -693,11 +693,11 @@
       "name": "UIC ソニック",
       "role": "TOP",
       "level": 721,
-      "tier": "PLATINUM II",
-      "lp": 92,
-      "wins": 57,
+      "tier": "PLATINUM I",
+      "lp": 12,
+      "wins": 58,
       "losses": 57,
-      "winRate": 50,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6490.png"
     },
     {
