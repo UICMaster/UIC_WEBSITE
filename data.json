@@ -59,7 +59,7 @@
       "name": "Baumi",
       "role": "SUB_1",
       "level": 1061,
-      "tier": "GRANDMASTER I",
+      "tier": "MASTER I",
       "lp": 453,
       "wins": 285,
       "losses": 276,
@@ -536,10 +536,10 @@
       "role": "JGL_2",
       "level": 951,
       "tier": "EMERALD I",
-      "lp": 16,
-      "wins": 31,
+      "lp": 39,
+      "wins": 32,
       "losses": 28,
-      "winRate": 52.5,
+      "winRate": 53.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3791.png"
     },
     {
@@ -558,10 +558,10 @@
       "role": "MID_2",
       "level": 590,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 232,
+      "lp": 19,
+      "wins": 233,
       "losses": 208,
-      "winRate": 52.7,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/23.png"
     },
     {
@@ -569,8 +569,8 @@
       "role": "BOT_1",
       "level": 1393,
       "tier": "GOLD I",
-      "lp": 28,
-      "wins": 404,
+      "lp": 46,
+      "wins": 405,
       "losses": 403,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7126.png"
