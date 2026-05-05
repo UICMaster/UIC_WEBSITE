@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1159,
       "tier": "DIAMOND I",
-      "lp": 78,
-      "wins": 97,
+      "lp": 98,
+      "wins": 98,
       "losses": 101,
-      "winRate": 49,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1062,
       "tier": "MASTER I",
-      "lp": 339,
-      "wins": 289,
+      "lp": 431,
+      "wins": 292,
       "losses": 284,
-      "winRate": 50.4,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -262,7 +262,7 @@
     {
       "name": "ChrizZzorR",
       "role": "SUP",
-      "level": 679,
+      "level": 680,
       "tier": "DIAMOND IV",
       "lp": 60,
       "wins": 36,
@@ -569,9 +569,9 @@
       "role": "BOT_1",
       "level": 1393,
       "tier": "GOLD I",
-      "lp": 38,
-      "wins": 407,
-      "losses": 405,
+      "lp": 34,
+      "wins": 408,
+      "losses": 406,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7126.png"
     },
@@ -591,10 +591,10 @@
       "role": "SUP_1",
       "level": 381,
       "tier": "PLATINUM II",
-      "lp": 88,
+      "lp": 68,
       "wins": 77,
-      "losses": 74,
-      "winRate": 51,
+      "losses": 75,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7099.png"
     },
     {
@@ -624,7 +624,7 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 577,
+      "level": 578,
       "tier": "EMERALD III",
       "lp": 17,
       "wins": 66,
@@ -727,10 +727,10 @@
       "role": "BOT",
       "level": 637,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 81,
+      "lp": 18,
+      "wins": 82,
       "losses": 78,
-      "winRate": 50.9,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/1625.png"
     },
     {
