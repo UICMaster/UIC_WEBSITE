@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1062,
       "tier": "MASTER I",
-      "lp": 369,
-      "wins": 288,
-      "losses": 282,
-      "winRate": 50.5,
+      "lp": 339,
+      "wins": 289,
+      "losses": 284,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -128,10 +128,10 @@
       "role": "MID",
       "level": 986,
       "tier": "DIAMOND IV",
-      "lp": 80,
+      "lp": 69,
       "wins": 17,
-      "losses": 25,
-      "winRate": 40.5,
+      "losses": 26,
+      "winRate": 39.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6284.png"
     },
     {
@@ -579,11 +579,11 @@
       "name": "UIC Deavan",
       "role": "BOT_2",
       "level": 395,
-      "tier": "PLATINUM III",
-      "lp": 96,
-      "wins": 113,
+      "tier": "PLATINUM II",
+      "lp": 15,
+      "wins": 114,
       "losses": 95,
-      "winRate": 54.3,
+      "winRate": 54.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
