@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1160,
       "tier": "MASTER I",
-      "lp": 50,
-      "wins": 102,
+      "lp": 81,
+      "wins": 103,
       "losses": 103,
-      "winRate": 49.8,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -80,12 +80,12 @@
     {
       "name": "never leaving",
       "role": "MNG",
-      "level": 723,
+      "level": 724,
       "tier": "GOLD III",
-      "lp": 19,
-      "wins": 141,
+      "lp": 38,
+      "wins": 142,
       "losses": 159,
-      "winRate": 47,
+      "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4555.png"
     },
     {
@@ -183,7 +183,7 @@
     {
       "name": "UIC Kaoxz",
       "role": "MID",
-      "level": 463,
+      "level": 464,
       "tier": "DIAMOND IV",
       "lp": 6,
       "wins": 83,
@@ -512,7 +512,7 @@
     {
       "name": "UIC Muh",
       "role": "TOP_2",
-      "level": 522,
+      "level": 523,
       "tier": "GOLD I",
       "lp": 52,
       "wins": 106,
@@ -725,12 +725,12 @@
     {
       "name": "UIC Flare",
       "role": "BOT",
-      "level": 637,
+      "level": 638,
       "tier": "DIAMOND IV",
-      "lp": 36,
-      "wins": 83,
+      "lp": 72,
+      "wins": 85,
       "losses": 78,
-      "winRate": 51.6,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/1625.png"
     },
     {
