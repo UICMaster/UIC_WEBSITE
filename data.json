@@ -5,21 +5,21 @@
       "role": "TOP",
       "level": 1160,
       "tier": "MASTER I",
-      "lp": 48,
+      "lp": 19,
       "wins": 101,
-      "losses": 102,
-      "winRate": 49.8,
+      "losses": 103,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
       "name": "UIC Niki",
       "role": "JGL",
-      "level": 1027,
+      "level": 1028,
       "tier": "MASTER I",
-      "lp": 90,
+      "lp": 60,
       "wins": 120,
-      "losses": 111,
-      "winRate": 51.9,
+      "losses": 112,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4380.png"
     },
     {
@@ -58,12 +58,12 @@
     {
       "name": "Baumi",
       "role": "SUB_1",
-      "level": 1062,
+      "level": 1063,
       "tier": "MASTER I",
-      "lp": 461,
-      "wins": 293,
+      "lp": 492,
+      "wins": 294,
       "losses": 284,
-      "winRate": 50.8,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -167,7 +167,7 @@
       "wins": 18,
       "losses": 16,
       "winRate": 52.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3159.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     },
     {
       "name": "UIC Hunter",
@@ -264,10 +264,10 @@
       "role": "SUP",
       "level": 680,
       "tier": "DIAMOND IV",
-      "lp": 60,
+      "lp": 40,
       "wins": 36,
-      "losses": 38,
-      "winRate": 48.6,
+      "losses": 39,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5642.png"
     }
   ],
@@ -289,8 +289,8 @@
       "level": 793,
       "tier": "MASTER I",
       "lp": 136,
-      "wins": 147,
-      "losses": 139,
+      "wins": 148,
+      "losses": 140,
       "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/528.png"
     },
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 842,
       "tier": "MASTER I",
-      "lp": 150,
-      "wins": 96,
+      "lp": 180,
+      "wins": 97,
       "losses": 75,
-      "winRate": 56.1,
+      "winRate": 56.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6373.png"
     },
     {
@@ -573,7 +573,7 @@
       "wins": 408,
       "losses": 407,
       "winRate": 50.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7126.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6286.png"
     },
     {
       "name": "UIC Deavan",
@@ -704,11 +704,11 @@
       "name": "Aphrodite",
       "role": "JGL",
       "level": 1243,
-      "tier": "EMERALD III",
-      "lp": 38,
+      "tier": "EMERALD IV",
+      "lp": 98,
       "wins": 210,
-      "losses": 199,
-      "winRate": 51.3,
+      "losses": 201,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4293.png"
     },
     {
@@ -727,10 +727,10 @@
       "role": "BOT",
       "level": 637,
       "tier": "DIAMOND IV",
-      "lp": 18,
-      "wins": 82,
+      "lp": 36,
+      "wins": 83,
       "losses": 78,
-      "winRate": 51.2,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/1625.png"
     },
     {
