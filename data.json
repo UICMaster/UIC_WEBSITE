@@ -3,12 +3,12 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1159,
-      "tier": "DIAMOND I",
-      "lp": 98,
-      "wins": 98,
-      "losses": 101,
-      "winRate": 49.2,
+      "level": 1160,
+      "tier": "MASTER I",
+      "lp": 48,
+      "wins": 101,
+      "losses": 102,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1027,
       "tier": "MASTER I",
-      "lp": 60,
-      "wins": 119,
+      "lp": 90,
+      "wins": 120,
       "losses": 111,
-      "winRate": 51.7,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4380.png"
     },
     {
@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1062,
       "tier": "MASTER I",
-      "lp": 431,
-      "wins": 292,
+      "lp": 461,
+      "wins": 293,
       "losses": 284,
-      "winRate": 50.7,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -93,10 +93,10 @@
       "role": "COH",
       "level": 794,
       "tier": "EMERALD IV",
-      "lp": 40,
-      "wins": 28,
-      "losses": 32,
-      "winRate": 46.7,
+      "lp": 63,
+      "wins": 29,
+      "losses": 33,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     }
   ],
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 842,
       "tier": "MASTER I",
-      "lp": 120,
-      "wins": 95,
+      "lp": 150,
+      "wins": 96,
       "losses": 75,
-      "winRate": 55.9,
+      "winRate": 56.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6373.png"
     },
     {
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 794,
       "tier": "EMERALD IV",
-      "lp": 40,
-      "wins": 28,
-      "losses": 32,
-      "winRate": 46.7,
+      "lp": 63,
+      "wins": 29,
+      "losses": 33,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     },
     {
@@ -567,11 +567,11 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT_1",
-      "level": 1393,
+      "level": 1394,
       "tier": "GOLD I",
-      "lp": 34,
+      "lp": 13,
       "wins": 408,
-      "losses": 406,
+      "losses": 407,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7126.png"
     },
@@ -591,10 +591,10 @@
       "role": "SUP_1",
       "level": 381,
       "tier": "PLATINUM II",
-      "lp": 68,
-      "wins": 77,
+      "lp": 88,
+      "wins": 78,
       "losses": 75,
-      "winRate": 50.7,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7099.png"
     },
     {
@@ -613,10 +613,10 @@
       "role": "COH",
       "level": 794,
       "tier": "EMERALD IV",
-      "lp": 40,
-      "wins": 28,
-      "losses": 32,
-      "winRate": 46.7,
+      "lp": 63,
+      "wins": 29,
+      "losses": 33,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     }
   ],
