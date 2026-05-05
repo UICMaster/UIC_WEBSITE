@@ -365,7 +365,7 @@
     {
       "name": "Ðărkø",
       "role": "JGL",
-      "level": 787,
+      "level": 788,
       "tier": "MASTER I",
       "lp": 30,
       "wins": 32,
@@ -727,10 +727,10 @@
       "role": "BOT",
       "level": 638,
       "tier": "DIAMOND IV",
-      "lp": 72,
-      "wins": 85,
+      "lp": 90,
+      "wins": 86,
       "losses": 78,
-      "winRate": 52.1,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/1625.png"
     },
     {
