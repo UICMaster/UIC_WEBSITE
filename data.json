@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1160,
       "tier": "MASTER I",
-      "lp": 19,
-      "wins": 101,
+      "lp": 50,
+      "wins": 102,
       "losses": 103,
-      "winRate": 49.5,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -434,11 +434,11 @@
       "name": "UIC Ayumu",
       "role": "MID",
       "level": 592,
-      "tier": "PLATINUM I",
-      "lp": 9,
+      "tier": "PLATINUM II",
+      "lp": 90,
       "wins": 108,
-      "losses": 97,
-      "winRate": 52.7,
+      "losses": 98,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7127.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 591,
       "tier": "DIAMOND I",
-      "lp": 49,
-      "wins": 131,
+      "lp": 68,
+      "wins": 132,
       "losses": 143,
-      "winRate": 47.8,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -478,11 +478,11 @@
       "name": "UIC Ayumu",
       "role": "MNG",
       "level": 592,
-      "tier": "PLATINUM I",
-      "lp": 9,
+      "tier": "PLATINUM II",
+      "lp": 90,
       "wins": 108,
-      "losses": 97,
-      "winRate": 52.7,
+      "losses": 98,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7127.png"
     },
     {
@@ -637,10 +637,10 @@
       "role": "JGL",
       "level": 453,
       "tier": "GOLD IV",
-      "lp": 36,
-      "wins": 70,
+      "lp": 76,
+      "wins": 72,
       "losses": 76,
-      "winRate": 47.9,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7126.png"
     },
     {
@@ -657,13 +657,13 @@
     {
       "name": "BlondiXE1",
       "role": "BOT",
-      "level": 426,
+      "level": 427,
       "tier": "GOLD IV",
-      "lp": 37,
-      "wins": 92,
-      "losses": 81,
-      "winRate": 53.2,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6860.png"
+      "lp": 33,
+      "wins": 93,
+      "losses": 83,
+      "winRate": 52.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6102.png"
     },
     {
       "name": "LordZash",
@@ -703,11 +703,11 @@
     {
       "name": "Aphrodite",
       "role": "JGL",
-      "level": 1243,
+      "level": 1244,
       "tier": "EMERALD III",
       "lp": 58,
-      "wins": 213,
-      "losses": 201,
+      "wins": 214,
+      "losses": 202,
       "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4293.png"
     },
