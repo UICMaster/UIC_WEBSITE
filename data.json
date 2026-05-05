@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 397,
       "tier": "DIAMOND II",
-      "lp": 57,
-      "wins": 75,
+      "lp": 93,
+      "wins": 77,
       "losses": 84,
-      "winRate": 47.2,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4626.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 591,
       "tier": "DIAMOND I",
-      "lp": 29,
-      "wins": 130,
+      "lp": 49,
+      "wins": 131,
       "losses": 143,
-      "winRate": 47.6,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -534,7 +534,7 @@
     {
       "name": "UIC Namorii",
       "role": "JGL_2",
-      "level": 951,
+      "level": 952,
       "tier": "EMERALD I",
       "lp": 62,
       "wins": 33,
@@ -637,10 +637,10 @@
       "role": "JGL",
       "level": 453,
       "tier": "GOLD IV",
-      "lp": 56,
+      "lp": 36,
       "wins": 70,
-      "losses": 75,
-      "winRate": 48.3,
+      "losses": 76,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7126.png"
     },
     {
@@ -659,10 +659,10 @@
       "role": "BOT",
       "level": 426,
       "tier": "GOLD IV",
-      "lp": 18,
-      "wins": 91,
+      "lp": 37,
+      "wins": 92,
       "losses": 81,
-      "winRate": 52.9,
+      "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6860.png"
     },
     {
@@ -670,10 +670,10 @@
       "role": "SUP",
       "level": 747,
       "tier": "PLATINUM II",
-      "lp": 21,
+      "lp": 1,
       "wins": 60,
-      "losses": 65,
-      "winRate": 48,
+      "losses": 66,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/932.png"
     },
     {
@@ -681,10 +681,10 @@
       "role": "COH",
       "level": 467,
       "tier": "DIAMOND IV",
-      "lp": 35,
+      "lp": 25,
       "wins": 17,
-      "losses": 12,
-      "winRate": 58.6,
+      "losses": 13,
+      "winRate": 56.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6795.png"
     }
   ],
@@ -704,11 +704,11 @@
       "name": "Aphrodite",
       "role": "JGL",
       "level": 1243,
-      "tier": "EMERALD IV",
-      "lp": 98,
-      "wins": 210,
+      "tier": "EMERALD III",
+      "lp": 58,
+      "wins": 213,
       "losses": 201,
-      "winRate": 51.1,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4293.png"
     },
     {
