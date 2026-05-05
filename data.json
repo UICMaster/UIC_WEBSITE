@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1062,
       "tier": "MASTER I",
-      "lp": 428,
-      "wins": 287,
-      "losses": 279,
-      "winRate": 50.7,
+      "lp": 369,
+      "wins": 288,
+      "losses": 282,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -126,12 +126,12 @@
     {
       "name": "Regentropfen",
       "role": "MID",
-      "level": 985,
+      "level": 986,
       "tier": "DIAMOND IV",
-      "lp": 20,
-      "wins": 15,
+      "lp": 80,
+      "wins": 17,
       "losses": 25,
-      "winRate": 37.5,
+      "winRate": 40.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6284.png"
     },
     {
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 842,
       "tier": "MASTER I",
-      "lp": 180,
+      "lp": 120,
       "wins": 95,
-      "losses": 73,
-      "winRate": 56.5,
+      "losses": 75,
+      "winRate": 55.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6373.png"
     },
     {
@@ -578,12 +578,12 @@
     {
       "name": "UIC Deavan",
       "role": "BOT_2",
-      "level": 394,
+      "level": 395,
       "tier": "PLATINUM III",
-      "lp": 98,
-      "wins": 112,
-      "losses": 94,
-      "winRate": 54.4,
+      "lp": 96,
+      "wins": 113,
+      "losses": 95,
+      "winRate": 54.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -602,10 +602,10 @@
       "role": "SUP_2",
       "level": 571,
       "tier": "PLATINUM IV",
-      "lp": 34,
-      "wins": 95,
+      "lp": 53,
+      "wins": 96,
       "losses": 98,
-      "winRate": 49.2,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7064.png"
     },
     {
@@ -760,7 +760,7 @@
     {
       "name": "EPS Laserjet M47",
       "role": "TOP",
-      "level": 751,
+      "level": 752,
       "tier": "DIAMOND IV",
       "lp": 18,
       "wins": 38,
