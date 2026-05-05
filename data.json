@@ -58,11 +58,11 @@
     {
       "name": "Baumi",
       "role": "SUB_1",
-      "level": 1061,
+      "level": 1062,
       "tier": "MASTER I",
-      "lp": 424,
-      "wins": 285,
-      "losses": 277,
+      "lp": 428,
+      "wins": 287,
+      "losses": 279,
       "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
@@ -569,9 +569,9 @@
       "role": "BOT_1",
       "level": 1393,
       "tier": "GOLD I",
-      "lp": 24,
-      "wins": 405,
-      "losses": 404,
+      "lp": 38,
+      "wins": 407,
+      "losses": 405,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7126.png"
     },
@@ -766,7 +766,7 @@
       "wins": 38,
       "losses": 49,
       "winRate": 43.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7050.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3865.png"
     },
     {
       "name": "yShizuu",
