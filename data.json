@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1161,
       "tier": "MASTER I",
-      "lp": 31,
-      "wins": 107,
+      "lp": 61,
+      "wins": 108,
       "losses": 109,
-      "winRate": 49.5,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1028,
       "tier": "MASTER I",
-      "lp": 60,
+      "lp": 30,
       "wins": 122,
-      "losses": 114,
-      "winRate": 51.7,
+      "losses": 115,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4380.png"
     },
     {
@@ -27,10 +27,10 @@
       "role": "MID",
       "level": 636,
       "tier": "MASTER I",
-      "lp": 2,
-      "wins": 77,
+      "lp": 33,
+      "wins": 78,
       "losses": 73,
-      "winRate": 51.3,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7094.png"
     },
     {
@@ -162,11 +162,11 @@
       "name": "VTennic",
       "role": "TOP",
       "level": 485,
-      "tier": "EMERALD I",
-      "lp": 81,
-      "wins": 19,
+      "tier": "DIAMOND IV",
+      "lp": 11,
+      "wins": 20,
       "losses": 16,
-      "winRate": 54.3,
+      "winRate": 55.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     },
     {
@@ -536,10 +536,10 @@
       "role": "JGL_2",
       "level": 953,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 36,
-      "losses": 30,
-      "winRate": 54.5,
+      "lp": 21,
+      "wins": 37,
+      "losses": 31,
+      "winRate": 54.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3791.png"
     },
     {
@@ -556,11 +556,11 @@
     {
       "name": "UIC GreatATuin",
       "role": "MID_2",
-      "level": 590,
+      "level": 591,
       "tier": "DIAMOND IV",
-      "lp": 55,
-      "wins": 236,
-      "losses": 209,
+      "lp": 53,
+      "wins": 237,
+      "losses": 210,
       "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/23.png"
     },
