@@ -50,10 +50,6 @@
           "is_captain": false
         },
         {
-          "summoner": "never leaving#stay",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Niki#AMB",
           "is_captain": true
         },
@@ -264,6 +260,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "CYS Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",

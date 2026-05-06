@@ -27,10 +27,10 @@
       "role": "MID",
       "level": 636,
       "tier": "MASTER I",
-      "lp": 33,
+      "lp": 3,
       "wins": 78,
-      "losses": 73,
-      "winRate": 51.7,
+      "losses": 74,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7094.png"
     },
     {
@@ -59,7 +59,7 @@
       "name": "Baumi",
       "role": "SUB_1",
       "level": 1064,
-      "tier": "MASTER I",
+      "tier": "GRANDMASTER I",
       "lp": 630,
       "wins": 305,
       "losses": 293,
