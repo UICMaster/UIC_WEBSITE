@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1064,
       "tier": "MASTER I",
-      "lp": 599,
-      "wins": 304,
+      "lp": 630,
+      "wins": 305,
       "losses": 293,
-      "winRate": 50.9,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -253,10 +253,10 @@
       "role": "BOT",
       "level": 781,
       "tier": "DIAMOND I",
-      "lp": 62,
+      "lp": 21,
       "wins": 173,
-      "losses": 180,
-      "winRate": 49,
+      "losses": 182,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5875.png"
     },
     {
@@ -297,7 +297,7 @@
     {
       "name": "giow99",
       "role": "MID",
-      "level": 397,
+      "level": 398,
       "tier": "DIAMOND II",
       "lp": 71,
       "wins": 77,
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 542,
       "tier": "DIAMOND I",
-      "lp": 13,
-      "wins": 82,
+      "lp": 32,
+      "wins": 83,
       "losses": 63,
-      "winRate": 56.6,
+      "winRate": 56.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3157.png"
     },
     {
@@ -446,9 +446,9 @@
       "role": "BOT",
       "level": 591,
       "tier": "DIAMOND I",
-      "lp": 4,
-      "wins": 133,
-      "losses": 147,
+      "lp": 3,
+      "wins": 134,
+      "losses": 148,
       "winRate": 47.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
@@ -534,12 +534,12 @@
     {
       "name": "UIC Namorii",
       "role": "JGL_2",
-      "level": 952,
-      "tier": "EMERALD I",
-      "lp": 89,
-      "wins": 35,
+      "level": 953,
+      "tier": "DIAMOND IV",
+      "lp": 11,
+      "wins": 36,
       "losses": 29,
-      "winRate": 54.7,
+      "winRate": 55.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3791.png"
     },
     {
@@ -558,10 +558,10 @@
       "role": "MID_2",
       "level": 590,
       "tier": "DIAMOND IV",
-      "lp": 57,
-      "wins": 235,
+      "lp": 76,
+      "wins": 236,
       "losses": 208,
-      "winRate": 53,
+      "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/23.png"
     },
     {
@@ -569,10 +569,10 @@
       "role": "BOT_1",
       "level": 1394,
       "tier": "GOLD II",
-      "lp": 91,
+      "lp": 69,
       "wins": 408,
-      "losses": 408,
-      "winRate": 50,
+      "losses": 409,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6286.png"
     },
     {
@@ -659,10 +659,10 @@
       "role": "BOT",
       "level": 427,
       "tier": "GOLD IV",
-      "lp": 33,
-      "wins": 93,
+      "lp": 70,
+      "wins": 95,
       "losses": 83,
-      "winRate": 52.8,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6102.png"
     },
     {
@@ -679,12 +679,12 @@
     {
       "name": "UIC Taiga",
       "role": "COH",
-      "level": 467,
+      "level": 468,
       "tier": "DIAMOND III",
-      "lp": 35,
-      "wins": 21,
+      "lp": 65,
+      "wins": 22,
       "losses": 14,
-      "winRate": 60,
+      "winRate": 61.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6795.png"
     }
   ],
@@ -709,7 +709,7 @@
       "wins": 217,
       "losses": 202,
       "winRate": 51.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4293.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6740.png"
     },
     {
       "name": "OPEN SPOT",

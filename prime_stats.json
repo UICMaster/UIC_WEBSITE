@@ -17,7 +17,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 61,
+    "players": 59,
     "radar": []
   },
   "teams": {
@@ -48,10 +48,6 @@
         {
           "summoner": "Baumi#123",
           "is_captain": false
-        },
-        {
-          "summoner": "never leaving#stay",
-          "is_captain": true
         },
         {
           "summoner": "UIC Niki#AMB",
@@ -170,15 +166,15 @@
           "is_captain": true
         },
         {
+          "summoner": "DAG LingYao#EUW",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Hunter#UIC",
           "is_captain": false
         },
         {
           "summoner": "FirstBlo#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "DAG LingYao#EUW",
           "is_captain": false
         }
       ],
@@ -264,10 +260,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "CYS Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
