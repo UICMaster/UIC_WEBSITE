@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1063,
       "tier": "MASTER I",
-      "lp": 492,
-      "wins": 294,
-      "losses": 284,
-      "winRate": 50.9,
+      "lp": 560,
+      "wins": 299,
+      "losses": 287,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -82,10 +82,10 @@
       "role": "MNG",
       "level": 724,
       "tier": "GOLD III",
-      "lp": 57,
-      "wins": 143,
-      "losses": 159,
-      "winRate": 47.4,
+      "lp": 34,
+      "wins": 144,
+      "losses": 161,
+      "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4555.png"
     },
     {
@@ -127,11 +127,11 @@
       "name": "Regentropfen",
       "role": "MID",
       "level": 986,
-      "tier": "DIAMOND IV",
-      "lp": 69,
-      "wins": 17,
-      "losses": 26,
-      "winRate": 39.5,
+      "tier": "DIAMOND III",
+      "lp": 1,
+      "wins": 18,
+      "losses": 29,
+      "winRate": 38.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6284.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 591,
       "tier": "DIAMOND I",
-      "lp": 68,
+      "lp": 26,
       "wins": 132,
-      "losses": 143,
-      "winRate": 48,
+      "losses": 145,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -568,22 +568,22 @@
       "name": "UIC Boohunter",
       "role": "BOT_1",
       "level": 1394,
-      "tier": "GOLD I",
-      "lp": 13,
+      "tier": "GOLD II",
+      "lp": 91,
       "wins": 408,
-      "losses": 407,
-      "winRate": 50.1,
+      "losses": 408,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6286.png"
     },
     {
       "name": "UIC Deavan",
       "role": "BOT_2",
       "level": 395,
-      "tier": "PLATINUM II",
-      "lp": 15,
+      "tier": "PLATINUM III",
+      "lp": 95,
       "wins": 114,
-      "losses": 95,
-      "winRate": 54.5,
+      "losses": 96,
+      "winRate": 54.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -705,10 +705,10 @@
       "role": "JGL",
       "level": 1244,
       "tier": "EMERALD III",
-      "lp": 58,
-      "wins": 214,
+      "lp": 78,
+      "wins": 215,
       "losses": 202,
-      "winRate": 51.4,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4293.png"
     },
     {
@@ -742,7 +742,7 @@
       "wins": 233,
       "losses": 214,
       "winRate": 52.1,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7096.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7100.png"
     },
     {
       "name": "UIC Cerberus",
