@@ -3,12 +3,12 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1160,
+      "level": 1161,
       "tier": "MASTER I",
-      "lp": 81,
+      "lp": 0,
       "wins": 103,
-      "losses": 103,
-      "winRate": 50,
+      "losses": 106,
+      "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -58,11 +58,11 @@
     {
       "name": "Baumi",
       "role": "SUB_1",
-      "level": 1063,
+      "level": 1064,
       "tier": "MASTER I",
-      "lp": 560,
-      "wins": 299,
-      "losses": 287,
+      "lp": 562,
+      "wins": 300,
+      "losses": 288,
       "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
@@ -127,11 +127,11 @@
       "name": "Regentropfen",
       "role": "MID",
       "level": 986,
-      "tier": "DIAMOND III",
-      "lp": 1,
+      "tier": "DIAMOND IV",
+      "lp": 87,
       "wins": 18,
-      "losses": 29,
-      "winRate": 38.3,
+      "losses": 30,
+      "winRate": 37.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6284.png"
     },
     {
@@ -580,10 +580,10 @@
       "role": "BOT_2",
       "level": 395,
       "tier": "PLATINUM III",
-      "lp": 95,
+      "lp": 74,
       "wins": 114,
-      "losses": 96,
-      "winRate": 54.3,
+      "losses": 97,
+      "winRate": 54,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -602,10 +602,10 @@
       "role": "SUP_2",
       "level": 571,
       "tier": "PLATINUM IV",
-      "lp": 53,
+      "lp": 32,
       "wins": 96,
-      "losses": 98,
-      "winRate": 49.5,
+      "losses": 99,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7064.png"
     },
     {
@@ -704,11 +704,11 @@
       "name": "Aphrodite",
       "role": "JGL",
       "level": 1244,
-      "tier": "EMERALD III",
-      "lp": 78,
-      "wins": 215,
+      "tier": "EMERALD II",
+      "lp": 18,
+      "wins": 217,
       "losses": 202,
-      "winRate": 51.6,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4293.png"
     },
     {

@@ -17,7 +17,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 55,
+    "players": 61,
     "radar": []
   },
   "teams": {
@@ -333,6 +333,46 @@
       "team_link": "https://www.primeleague.gg/de/leagues/teams/203447",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/203000/203447.jpg?1768386652"
     },
+    "obsidian": {
+      "meta": {
+        "name": "ULTRA INSTINCT CREW OBSIDIAN",
+        "div": null
+      },
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "points": 0,
+        "games": 0,
+        "win_rate": 0,
+        "form": []
+      },
+      "next_match": null,
+      "last_match": null,
+      "roster": [
+        {
+          "summoner": "UIC Papi Δce#3072",
+          "is_captain": false
+        },
+        {
+          "summoner": "Leberkasleatschn#1990",
+          "is_captain": false
+        },
+        {
+          "summoner": "BlondiXE1#EUW",
+          "is_captain": false
+        },
+        {
+          "summoner": "LordZash#1220",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Nyx#UIC",
+          "is_captain": false
+        }
+      ],
+      "team_link": "https://www.primeleague.gg/de/leagues/teams/212407",
+      "logo": null
+    },
     "ember": {
       "meta": {
         "name": "Ultra Instinct Crew Ember",
@@ -363,6 +403,10 @@
         },
         {
           "summoner": "UIC Flare#JND",
+          "is_captain": false
+        },
+        {
+          "summoner": "BlauerKlaus#Qvy心",
           "is_captain": false
         },
         {
