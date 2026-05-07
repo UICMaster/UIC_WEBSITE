@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1065,
       "tier": "GRANDMASTER I",
-      "lp": 479,
+      "lp": 386,
       "wins": 305,
-      "losses": 300,
-      "winRate": 50.4,
+      "losses": 303,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -534,12 +534,12 @@
     {
       "name": "UIC Namorii",
       "role": "JGL_2",
-      "level": 953,
+      "level": 954,
       "tier": "DIAMOND IV",
-      "lp": 2,
+      "lp": 0,
       "wins": 37,
-      "losses": 32,
-      "winRate": 53.6,
+      "losses": 34,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3791.png"
     },
     {
@@ -558,21 +558,21 @@
       "role": "MID_2",
       "level": 591,
       "tier": "DIAMOND IV",
-      "lp": 32,
+      "lp": 0,
       "wins": 237,
-      "losses": 211,
-      "winRate": 52.9,
+      "losses": 213,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/23.png"
     },
     {
       "name": "UIC Boohunter",
       "role": "BOT_1",
       "level": 1394,
-      "tier": "GOLD II",
-      "lp": 69,
-      "wins": 408,
+      "tier": "GOLD I",
+      "lp": 5,
+      "wins": 410,
       "losses": 409,
-      "winRate": 49.9,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6286.png"
     },
     {
@@ -591,10 +591,10 @@
       "role": "SUP_1",
       "level": 382,
       "tier": "PLATINUM II",
-      "lp": 68,
-      "wins": 79,
+      "lp": 88,
+      "wins": 80,
       "losses": 77,
-      "winRate": 50.6,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7099.png"
     },
     {
@@ -709,7 +709,7 @@
       "wins": 217,
       "losses": 202,
       "winRate": 51.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6740.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3589.png"
     },
     {
       "name": "OPEN SPOT",

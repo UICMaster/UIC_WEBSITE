@@ -17,8 +17,15 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 61,
-    "radar": []
+    "players": 49,
+    "radar": [
+      {
+        "team_key": "PRIME",
+        "date": "2026-05-17T17:00:00+02:00",
+        "enemy": "LPG",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159503"
+      }
+    ]
   },
   "teams": {
     "prime": {
@@ -34,46 +41,14 @@
         "win_rate": 0,
         "form": []
       },
-      "next_match": null,
+      "next_match": {
+        "date": "2026-05-17T17:00:00+02:00",
+        "tag": "LPG",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159503",
+        "enemy_roster": []
+      },
       "last_match": null,
-      "roster": [
-        {
-          "summoner": "UIC Shenycrane#Vugel",
-          "is_captain": false
-        },
-        {
-          "summoner": "piapiob#187",
-          "is_captain": false
-        },
-        {
-          "summoner": "Baumi#123",
-          "is_captain": false
-        },
-        {
-          "summoner": "never leaving#stay",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Niki#AMB",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Speedy#EUW",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Baguetto#R3kt",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Giani#999",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC FrozenHands#MID",
-          "is_captain": false
-        }
-      ],
+      "roster": [],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/116000/116908.jpg?1768526642"
     },
@@ -224,10 +199,6 @@
         {
           "summoner": "ChrizZzorR#NOC",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -432,16 +403,7 @@
       },
       "next_match": null,
       "last_match": null,
-      "roster": [
-        {
-          "summoner": "UIC M Character#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "TheEigeeen#EIGI",
-          "is_captain": false
-        }
-      ],
+      "roster": [],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/204924",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/204000/204924.jpg?1765838352"
     }
