@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1064,
       "tier": "GRANDMASTER I",
-      "lp": 630,
+      "lp": 570,
       "wins": 305,
-      "losses": 293,
-      "winRate": 51,
+      "losses": 295,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -128,10 +128,10 @@
       "role": "MID",
       "level": 986,
       "tier": "DIAMOND IV",
-      "lp": 87,
+      "lp": 72,
       "wins": 18,
-      "losses": 30,
-      "winRate": 37.5,
+      "losses": 31,
+      "winRate": 36.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6284.png"
     },
     {
@@ -308,12 +308,12 @@
     {
       "name": "UIC AutumnLeaf",
       "role": "BOT",
-      "level": 842,
+      "level": 843,
       "tier": "MASTER I",
       "lp": 120,
-      "wins": 98,
-      "losses": 78,
-      "winRate": 55.7,
+      "wins": 99,
+      "losses": 79,
+      "winRate": 55.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6373.png"
     },
     {
