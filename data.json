@@ -4,11 +4,11 @@
       "name": "UIC Speedy",
       "role": "TOP",
       "level": 1162,
-      "tier": "DIAMOND I",
-      "lp": 37,
-      "wins": 108,
+      "tier": "MASTER I",
+      "lp": 1,
+      "wins": 111,
       "losses": 115,
-      "winRate": 48.4,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1029,
       "tier": "MASTER I",
-      "lp": 30,
+      "lp": 0,
       "wins": 124,
-      "losses": 117,
-      "winRate": 51.5,
+      "losses": 118,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4380.png"
     },
     {
@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1066,
       "tier": "GRANDMASTER I",
-      "lp": 435,
+      "lp": 404,
       "wins": 312,
-      "losses": 308,
-      "winRate": 50.3,
+      "losses": 309,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -82,10 +82,10 @@
       "role": "MNG",
       "level": 725,
       "tier": "GOLD III",
-      "lp": 72,
-      "wins": 146,
+      "lp": 91,
+      "wins": 147,
       "losses": 162,
-      "winRate": 47.4,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4555.png"
     },
     {
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 543,
       "tier": "DIAMOND I",
-      "lp": 30,
-      "wins": 84,
+      "lp": 49,
+      "wins": 85,
       "losses": 64,
-      "winRate": 56.8,
+      "winRate": 57,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3157.png"
     },
     {
@@ -580,10 +580,10 @@
       "role": "BOT_2",
       "level": 395,
       "tier": "PLATINUM III",
-      "lp": 32,
+      "lp": 10,
       "wins": 114,
-      "losses": 99,
-      "winRate": 53.5,
+      "losses": 100,
+      "winRate": 53.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {

@@ -17,7 +17,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 70,
+    "players": 69,
     "radar": [
       {
         "team_key": "PRIME",
@@ -316,10 +316,6 @@
         {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
-        },
-        {
-          "summoner": "giow99#Gio",
-          "is_captain": false
         },
         {
           "summoner": "UIC Ryu Copeland#117",
