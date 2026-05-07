@@ -60,9 +60,9 @@
       "role": "SUB_1",
       "level": 1065,
       "tier": "GRANDMASTER I",
-      "lp": 386,
-      "wins": 305,
-      "losses": 303,
+      "lp": 411,
+      "wins": 308,
+      "losses": 305,
       "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
@@ -80,12 +80,12 @@
     {
       "name": "never leaving",
       "role": "MNG",
-      "level": 724,
+      "level": 725,
       "tier": "GOLD III",
-      "lp": 53,
-      "wins": 145,
+      "lp": 72,
+      "wins": 146,
       "losses": 162,
-      "winRate": 47.2,
+      "winRate": 47.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4555.png"
     },
     {
@@ -93,10 +93,10 @@
       "role": "COH",
       "level": 794,
       "tier": "EMERALD III",
-      "lp": 36,
-      "wins": 33,
+      "lp": 59,
+      "wins": 34,
       "losses": 34,
-      "winRate": 49.3,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     }
   ],
@@ -117,10 +117,10 @@
       "role": "JGL",
       "level": 294,
       "tier": "EMERALD IV",
-      "lp": 42,
-      "wins": 60,
+      "lp": 61,
+      "wins": 61,
       "losses": 64,
-      "winRate": 48.4,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5982.png"
     },
     {
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 794,
       "tier": "EMERALD III",
-      "lp": 36,
-      "wins": 33,
+      "lp": 59,
+      "wins": 34,
       "losses": 34,
-      "winRate": 49.3,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 592,
       "tier": "DIAMOND II",
-      "lp": 83,
-      "wins": 134,
-      "losses": 149,
-      "winRate": 47.3,
+      "lp": 61,
+      "wins": 135,
+      "losses": 152,
+      "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -568,11 +568,11 @@
       "name": "UIC Boohunter",
       "role": "BOT_1",
       "level": 1394,
-      "tier": "GOLD I",
-      "lp": 5,
+      "tier": "GOLD II",
+      "lp": 83,
       "wins": 410,
-      "losses": 409,
-      "winRate": 50.1,
+      "losses": 410,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6286.png"
     },
     {
@@ -591,10 +591,10 @@
       "role": "SUP_1",
       "level": 382,
       "tier": "PLATINUM II",
-      "lp": 88,
+      "lp": 68,
       "wins": 80,
-      "losses": 77,
-      "winRate": 51,
+      "losses": 78,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7099.png"
     },
     {
@@ -613,10 +613,10 @@
       "role": "COH",
       "level": 794,
       "tier": "EMERALD III",
-      "lp": 36,
-      "wins": 33,
+      "lp": 59,
+      "wins": 34,
       "losses": 34,
-      "winRate": 49.3,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     }
   ],
@@ -624,7 +624,7 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 578,
+      "level": 579,
       "tier": "EMERALD III",
       "lp": 17,
       "wins": 66,
@@ -704,11 +704,11 @@
       "name": "Aphrodite",
       "role": "JGL",
       "level": 1244,
-      "tier": "EMERALD II",
-      "lp": 18,
+      "tier": "EMERALD III",
+      "lp": 98,
       "wins": 217,
-      "losses": 202,
-      "winRate": 51.8,
+      "losses": 203,
+      "winRate": 51.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3589.png"
     },
     {

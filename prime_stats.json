@@ -17,13 +17,37 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 49,
+    "players": 69,
     "radar": [
       {
         "team_key": "PRIME",
         "date": "2026-05-17T17:00:00+02:00",
         "enemy": "LPG",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159503"
+      },
+      {
+        "team_key": "SAKURA",
+        "date": "2026-05-17T17:00:00+02:00",
+        "enemy": "BOM",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160373"
+      },
+      {
+        "team_key": "ECLIPSE",
+        "date": "2026-05-17T19:00:00+02:00",
+        "enemy": "GTU",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163112"
+      },
+      {
+        "team_key": "SPARK",
+        "date": "2026-05-17T19:00:00+02:00",
+        "enemy": "TA",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161366"
+      },
+      {
+        "team_key": "PHOENIX",
+        "date": "2026-05-17T19:00:00+02:00",
+        "enemy": "ZSB",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160808"
       }
     ]
   },
@@ -48,7 +72,44 @@
         "enemy_roster": []
       },
       "last_match": null,
-      "roster": [],
+      "roster": [
+        {
+          "summoner": "UIC Shenycrane#Vugel",
+          "is_captain": false
+        },
+        {
+          "summoner": "piapiob#187",
+          "is_captain": false
+        },
+        {
+          "summoner": "Baumi#123",
+          "is_captain": false
+        },
+        {
+          "summoner": "never leaving#stay",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Niki#AMB",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Speedy#EUW",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Baguetto#R3kt",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Giani#999",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC FrozenHands#MID",
+          "is_captain": false
+        }
+      ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/116000/116908.jpg?1768526642"
     },
@@ -65,7 +126,12 @@
         "win_rate": 0,
         "form": []
       },
-      "next_match": null,
+      "next_match": {
+        "date": "2026-05-17T19:00:00+02:00",
+        "tag": "GTU",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163112",
+        "enemy_roster": []
+      },
       "last_match": null,
       "roster": [
         {
@@ -110,7 +176,7 @@
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208131",
-      "logo": "https://cdn0.heartbase.gg/league_team_logos/208000/208131.jpg?1741935023"
+      "logo": "https://cdn0.heartbase.gg/league_team_logos/208000/208131.jpg?1778157742"
     },
     "vakuum": {
       "meta": {
@@ -125,13 +191,14 @@
         "win_rate": 0,
         "form": []
       },
-      "next_match": null,
+      "next_match": {
+        "date": "2026-05-24T17:00:00+02:00",
+        "tag": "MMM",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159557",
+        "enemy_roster": []
+      },
       "last_match": null,
       "roster": [
-        {
-          "summoner": "VTennic#Goat",
-          "is_captain": true
-        },
         {
           "summoner": "UIC Kaoxz#CRNGE",
           "is_captain": true
@@ -141,19 +208,19 @@
           "is_captain": true
         },
         {
+          "summoner": "VTennic#Goat",
+          "is_captain": true
+        },
+        {
           "summoner": "Amtoms#EUW",
           "is_captain": true
         },
         {
-          "summoner": "DAG LingYao#EUW",
+          "summoner": "FirstBlo#EUW",
           "is_captain": false
         },
         {
           "summoner": "UIC Hunter#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "FirstBlo#EUW",
           "is_captain": false
         }
       ],
@@ -173,9 +240,18 @@
         "win_rate": 0,
         "form": []
       },
-      "next_match": null,
+      "next_match": {
+        "date": "2026-05-17T19:00:00+02:00",
+        "tag": "TA",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161366",
+        "enemy_roster": []
+      },
       "last_match": null,
       "roster": [
+        {
+          "summoner": "EnchanterPocket#Bissi",
+          "is_captain": true
+        },
         {
           "summoner": "Reign#Teach",
           "is_captain": false
@@ -183,10 +259,6 @@
         {
           "summoner": "DeutscheLandmine#EUW",
           "is_captain": false
-        },
-        {
-          "summoner": "EnchanterPocket#Bissi",
-          "is_captain": true
         },
         {
           "summoner": "TheRealCrimes#EUW",
@@ -199,10 +271,63 @@
         {
           "summoner": "ChrizZzorR#NOC",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/208000/208694.jpg?1765150033"
+    },
+    "phoenix": {
+      "meta": {
+        "name": "Ultra Instinct Crew Phoenix",
+        "div": null
+      },
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "points": 0,
+        "games": 0,
+        "win_rate": 0,
+        "form": []
+      },
+      "next_match": {
+        "date": "2026-05-17T19:00:00+02:00",
+        "tag": "ZSB",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160808",
+        "enemy_roster": []
+      },
+      "last_match": null,
+      "roster": [
+        {
+          "summoner": "Hayu#xdd",
+          "is_captain": false
+        },
+        {
+          "summoner": "Exi#QUAK",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Loonz#Coach",
+          "is_captain": true
+        },
+        {
+          "summoner": "giow99#Gio",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Copeland#117",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC AutumnLeaf#Moo",
+          "is_captain": true
+        }
+      ],
+      "team_link": "https://www.primeleague.gg/de/leagues/teams/212473",
+      "logo": "https://cdn0.heartbase.gg/league_team_logos/212000/212473.jpg?1777401024"
     },
     "cyber": {
       "meta": {
@@ -217,7 +342,12 @@
         "win_rate": 0,
         "form": []
       },
-      "next_match": null,
+      "next_match": {
+        "date": "2026-05-17T19:00:00+02:00",
+        "tag": "Pupp",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161116",
+        "enemy_roster": []
+      },
       "last_match": null,
       "roster": [
         {
@@ -235,14 +365,55 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "CYS Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/198000/198490.jpg?1774785721"
+    },
+    "sakura": {
+      "meta": {
+        "name": "Ultra Instinct Crew Sakura",
+        "div": null
+      },
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "points": 0,
+        "games": 0,
+        "win_rate": 0,
+        "form": []
+      },
+      "next_match": {
+        "date": "2026-05-17T17:00:00+02:00",
+        "tag": "BOM",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160373",
+        "enemy_roster": []
+      },
+      "last_match": null,
+      "roster": [
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC SilentCarry#Alune",
+          "is_captain": true
+        },
+        {
+          "summoner": "Blauerlupos#EUW",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC lightfire#4667",
+          "is_captain": false
+        },
+        {
+          "summoner": "zab77#EUW",
+          "is_captain": false
+        }
+      ],
+      "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
+      "logo": "https://cdn0.heartbase.gg/league_team_logos/208000/208851.jpg?1775950554"
     },
     "nova": {
       "meta": {
@@ -257,7 +428,12 @@
         "win_rate": 0,
         "form": []
       },
-      "next_match": null,
+      "next_match": {
+        "date": "2026-05-17T19:00:00+02:00",
+        "tag": "ORI",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162131",
+        "enemy_roster": []
+      },
       "last_match": null,
       "roster": [
         {
@@ -317,13 +493,14 @@
         "win_rate": 0,
         "form": []
       },
-      "next_match": null,
+      "next_match": {
+        "date": "2026-05-17T19:00:00+02:00",
+        "tag": "ExMortis",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162753",
+        "enemy_roster": []
+      },
       "last_match": null,
       "roster": [
-        {
-          "summoner": "UIC Papi Δce#3072",
-          "is_captain": false
-        },
         {
           "summoner": "Leberkasleatschn#1990",
           "is_captain": false
@@ -337,12 +514,16 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Papi Δce#3072",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Nyx#UIC",
           "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212407",
-      "logo": null
+      "logo": "https://cdn0.heartbase.gg/league_team_logos/212000/212407.jpg?1776447039"
     },
     "ember": {
       "meta": {
@@ -357,7 +538,12 @@
         "win_rate": 0,
         "form": []
       },
-      "next_match": null,
+      "next_match": {
+        "date": "2026-05-17T19:00:00+02:00",
+        "tag": "TEAR",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163086",
+        "enemy_roster": []
+      },
       "last_match": null,
       "roster": [
         {
@@ -378,6 +564,10 @@
         },
         {
           "summoner": "BlauerKlaus#Qvy心",
+          "is_captain": false
+        },
+        {
+          "summoner": "ASENSIO21#FENER",
           "is_captain": false
         },
         {
