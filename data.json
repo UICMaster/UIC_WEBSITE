@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1162,
       "tier": "MASTER I",
-      "lp": 1,
-      "wins": 111,
+      "lp": 63,
+      "wins": 113,
       "losses": 115,
-      "winRate": 49.1,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -81,11 +81,11 @@
       "name": "never leaving",
       "role": "MNG",
       "level": 725,
-      "tier": "GOLD III",
-      "lp": 91,
-      "wins": 147,
+      "tier": "GOLD II",
+      "lp": 10,
+      "wins": 148,
       "losses": 162,
-      "winRate": 47.6,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4555.png"
     },
     {
@@ -556,7 +556,7 @@
     {
       "name": "UIC GreatATuin",
       "role": "MID_2",
-      "level": 591,
+      "level": 592,
       "tier": "DIAMOND IV",
       "lp": 0,
       "wins": 237,
@@ -600,7 +600,7 @@
     {
       "name": "UIC Excellent C",
       "role": "SUP_2",
-      "level": 571,
+      "level": 572,
       "tier": "PLATINUM IV",
       "lp": 51,
       "wins": 97,
@@ -669,11 +669,11 @@
       "name": "LordZash",
       "role": "SUP",
       "level": 747,
-      "tier": "PLATINUM II",
-      "lp": 1,
+      "tier": "PLATINUM III",
+      "lp": 81,
       "wins": 60,
-      "losses": 66,
-      "winRate": 47.6,
+      "losses": 67,
+      "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/932.png"
     },
     {
