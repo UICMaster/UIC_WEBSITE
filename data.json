@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1162,
       "tier": "MASTER I",
-      "lp": 94,
+      "lp": 65,
       "wins": 114,
-      "losses": 115,
-      "winRate": 49.8,
+      "losses": 116,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -82,10 +82,10 @@
       "role": "MNG",
       "level": 725,
       "tier": "GOLD III",
-      "lp": 67,
+      "lp": 45,
       "wins": 148,
-      "losses": 164,
-      "winRate": 47.4,
+      "losses": 165,
+      "winRate": 47.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4555.png"
     },
     {
@@ -446,9 +446,9 @@
       "role": "BOT",
       "level": 592,
       "tier": "DIAMOND II",
-      "lp": 56,
-      "wins": 136,
-      "losses": 154,
+      "lp": 52,
+      "wins": 137,
+      "losses": 155,
       "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
