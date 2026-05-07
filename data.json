@@ -58,12 +58,12 @@
     {
       "name": "Baumi",
       "role": "SUB_1",
-      "level": 1064,
+      "level": 1065,
       "tier": "GRANDMASTER I",
-      "lp": 570,
+      "lp": 479,
       "wins": 305,
-      "losses": 295,
-      "winRate": 50.8,
+      "losses": 300,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -128,10 +128,10 @@
       "role": "MID",
       "level": 986,
       "tier": "DIAMOND IV",
-      "lp": 72,
+      "lp": 57,
       "wins": 18,
-      "losses": 31,
-      "winRate": 36.7,
+      "losses": 32,
+      "winRate": 36,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6284.png"
     },
     {
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 843,
       "tier": "MASTER I",
-      "lp": 120,
+      "lp": 60,
       "wins": 99,
-      "losses": 79,
-      "winRate": 55.6,
+      "losses": 81,
+      "winRate": 55,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6373.png"
     },
     {
@@ -444,12 +444,12 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 591,
-      "tier": "DIAMOND I",
-      "lp": 3,
+      "level": 592,
+      "tier": "DIAMOND II",
+      "lp": 83,
       "wins": 134,
-      "losses": 148,
-      "winRate": 47.5,
+      "losses": 149,
+      "winRate": 47.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -536,10 +536,10 @@
       "role": "JGL_2",
       "level": 953,
       "tier": "DIAMOND IV",
-      "lp": 21,
+      "lp": 2,
       "wins": 37,
-      "losses": 31,
-      "winRate": 54.4,
+      "losses": 32,
+      "winRate": 53.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3791.png"
     },
     {
@@ -558,10 +558,10 @@
       "role": "MID_2",
       "level": 591,
       "tier": "DIAMOND IV",
-      "lp": 53,
+      "lp": 32,
       "wins": 237,
-      "losses": 210,
-      "winRate": 53,
+      "losses": 211,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/23.png"
     },
     {
@@ -580,10 +580,10 @@
       "role": "BOT_2",
       "level": 395,
       "tier": "PLATINUM III",
-      "lp": 74,
+      "lp": 32,
       "wins": 114,
-      "losses": 97,
-      "winRate": 54,
+      "losses": 99,
+      "winRate": 53.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
