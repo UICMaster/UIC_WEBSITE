@@ -17,7 +17,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 70,
+    "players": 69,
     "radar": [
       {
         "team_key": "PRIME",
@@ -314,10 +314,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Kamo#tpt",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
         },
@@ -327,10 +323,6 @@
         },
         {
           "summoner": "UIC AutumnLeaf#Moo",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         }
       ],
@@ -577,6 +569,10 @@
         {
           "summoner": "ASENSIO21#FENER",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",

@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1162,
       "tier": "MASTER I",
-      "lp": 63,
-      "wins": 113,
+      "lp": 94,
+      "wins": 114,
       "losses": 115,
-      "winRate": 49.6,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -59,7 +59,7 @@
       "name": "Baumi",
       "role": "SUB_1",
       "level": 1066,
-      "tier": "GRANDMASTER I",
+      "tier": "MASTER I",
       "lp": 404,
       "wins": 312,
       "losses": 309,
@@ -81,11 +81,11 @@
       "name": "never leaving",
       "role": "MNG",
       "level": 725,
-      "tier": "GOLD II",
-      "lp": 10,
+      "tier": "GOLD III",
+      "lp": 67,
       "wins": 148,
-      "losses": 162,
-      "winRate": 47.7,
+      "losses": 164,
+      "winRate": 47.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4555.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 592,
       "tier": "DIAMOND II",
-      "lp": 39,
-      "wins": 135,
+      "lp": 56,
+      "wins": 136,
       "losses": 154,
-      "winRate": 46.7,
+      "winRate": 46.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -804,7 +804,7 @@
     {
       "name": "TheEigeeen",
       "role": "SUP",
-      "level": 666,
+      "level": 667,
       "tier": "EMERALD III",
       "lp": 81,
       "wins": 72,
