@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1067,
       "tier": "MASTER I",
-      "lp": 423,
-      "wins": 318,
-      "losses": 314,
-      "winRate": 50.3,
+      "lp": 360,
+      "wins": 319,
+      "losses": 317,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -196,10 +196,10 @@
       "role": "BOT",
       "level": 794,
       "tier": "EMERALD II",
-      "lp": 42,
-      "wins": 56,
+      "lp": 62,
+      "wins": 57,
       "losses": 50,
-      "winRate": 52.8,
+      "winRate": 53.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6883.png"
     },
     {
@@ -253,10 +253,10 @@
       "role": "BOT",
       "level": 782,
       "tier": "DIAMOND II",
-      "lp": 97,
+      "lp": 77,
       "wins": 177,
-      "losses": 187,
-      "winRate": 48.6,
+      "losses": 188,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5875.png"
     },
     {
@@ -501,7 +501,7 @@
     {
       "name": "UIC Kaetaya",
       "role": "TOP_1",
-      "level": 868,
+      "level": 869,
       "tier": "EMERALD III",
       "lp": 83,
       "wins": 52,
@@ -569,10 +569,10 @@
       "role": "BOT_1",
       "level": 1395,
       "tier": "GOLD I",
-      "lp": 14,
-      "wins": 414,
+      "lp": 33,
+      "wins": 415,
       "losses": 412,
-      "winRate": 50.1,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7128.png"
     },
     {
@@ -704,11 +704,11 @@
       "name": "Aphrodite",
       "role": "JGL",
       "level": 1245,
-      "tier": "EMERALD II",
-      "lp": 18,
+      "tier": "EMERALD III",
+      "lp": 93,
       "wins": 223,
-      "losses": 208,
-      "winRate": 51.7,
+      "losses": 209,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5680.png"
     },
     {
@@ -784,10 +784,10 @@
       "role": "MID",
       "level": 472,
       "tier": "EMERALD I",
-      "lp": 83,
-      "wins": 62,
-      "losses": 87,
-      "winRate": 41.6,
+      "lp": 77,
+      "wins": 64,
+      "losses": 89,
+      "winRate": 41.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/1045.png"
     },
     {
