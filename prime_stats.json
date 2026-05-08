@@ -17,7 +17,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 69,
+    "players": 70,
     "radar": [
       {
         "team_key": "PRIME",
@@ -86,6 +86,10 @@
           "is_captain": false
         },
         {
+          "summoner": "never leaving#stay",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Niki#AMB",
           "is_captain": true
         },
@@ -100,6 +104,10 @@
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         },
         {
           "summoner": "UIC FrozenHands#MID",
@@ -567,7 +575,7 @@
           "is_captain": false
         },
         {
-          "summoner": "ASENSIO21#FENER",
+          "summoner": "UIC Starboy#UIC",
           "is_captain": false
         }
       ],
@@ -589,12 +597,7 @@
       },
       "next_match": null,
       "last_match": null,
-      "roster": [
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        }
-      ],
+      "roster": [],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/204924",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/204000/204924.jpg?1765838352"
     }
