@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1066,
       "tier": "MASTER I",
-      "lp": 404,
+      "lp": 342,
       "wins": 312,
-      "losses": 309,
-      "winRate": 50.2,
+      "losses": 311,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -310,21 +310,21 @@
       "role": "BOT",
       "level": 843,
       "tier": "MASTER I",
-      "lp": 90,
-      "wins": 100,
+      "lp": 120,
+      "wins": 101,
       "losses": 81,
-      "winRate": 55.2,
+      "winRate": 55.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6373.png"
     },
     {
       "name": "UIC Ryu Copeland",
       "role": "SUP",
       "level": 997,
-      "tier": "DIAMOND I",
-      "lp": 81,
-      "wins": 66,
+      "tier": "MASTER I",
+      "lp": 2,
+      "wins": 67,
       "losses": 63,
-      "winRate": 51.2,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6622.png"
     },
     {
@@ -389,10 +389,10 @@
       "role": "BOT",
       "level": 741,
       "tier": "DIAMOND III",
-      "lp": 2,
-      "wins": 103,
+      "lp": 20,
+      "wins": 104,
       "losses": 101,
-      "winRate": 50.5,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5449.png"
     },
     {
@@ -567,11 +567,11 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT_1",
-      "level": 1394,
-      "tier": "GOLD I",
-      "lp": 20,
+      "level": 1395,
+      "tier": "GOLD II",
+      "lp": 99,
       "wins": 412,
-      "losses": 410,
+      "losses": 411,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7128.png"
     },
@@ -602,10 +602,10 @@
       "role": "SUP_2",
       "level": 572,
       "tier": "PLATINUM IV",
-      "lp": 51,
+      "lp": 30,
       "wins": 97,
-      "losses": 99,
-      "winRate": 49.5,
+      "losses": 100,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7064.png"
     },
     {
@@ -704,11 +704,11 @@
       "name": "Aphrodite",
       "role": "JGL",
       "level": 1244,
-      "tier": "EMERALD II",
-      "lp": 18,
+      "tier": "EMERALD III",
+      "lp": 98,
       "wins": 220,
-      "losses": 205,
-      "winRate": 51.8,
+      "losses": 206,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3589.png"
     },
     {
