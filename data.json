@@ -58,12 +58,12 @@
     {
       "name": "Baumi",
       "role": "SUB_1",
-      "level": 1066,
+      "level": 1067,
       "tier": "MASTER I",
-      "lp": 342,
-      "wins": 312,
+      "lp": 429,
+      "wins": 315,
       "losses": 311,
-      "winRate": 50.1,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -126,12 +126,12 @@
     {
       "name": "Regentropfen",
       "role": "MID",
-      "level": 986,
+      "level": 987,
       "tier": "DIAMOND IV",
-      "lp": 57,
-      "wins": 18,
-      "losses": 32,
-      "winRate": 36,
+      "lp": 50,
+      "wins": 19,
+      "losses": 34,
+      "winRate": 35.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6284.png"
     },
     {
@@ -253,10 +253,10 @@
       "role": "BOT",
       "level": 781,
       "tier": "DIAMOND I",
-      "lp": 21,
-      "wins": 173,
-      "losses": 182,
-      "winRate": 48.7,
+      "lp": 0,
+      "wins": 174,
+      "losses": 184,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5875.png"
     },
     {
@@ -569,10 +569,10 @@
       "role": "BOT_1",
       "level": 1395,
       "tier": "GOLD II",
-      "lp": 99,
+      "lp": 77,
       "wins": 412,
-      "losses": 411,
-      "winRate": 50.1,
+      "losses": 412,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7128.png"
     },
     {
@@ -591,10 +591,10 @@
       "role": "SUP_1",
       "level": 383,
       "tier": "PLATINUM II",
-      "lp": 48,
-      "wins": 81,
-      "losses": 80,
-      "winRate": 50.3,
+      "lp": 28,
+      "wins": 82,
+      "losses": 82,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7099.png"
     },
     {
@@ -703,12 +703,12 @@
     {
       "name": "Aphrodite",
       "role": "JGL",
-      "level": 1244,
-      "tier": "EMERALD III",
-      "lp": 98,
-      "wins": 220,
+      "level": 1245,
+      "tier": "EMERALD II",
+      "lp": 18,
+      "wins": 221,
       "losses": 206,
-      "winRate": 51.6,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3589.png"
     },
     {
@@ -738,10 +738,10 @@
       "role": "SUP",
       "level": 344,
       "tier": "EMERALD IV",
-      "lp": 40,
+      "lp": 20,
       "wins": 236,
-      "losses": 215,
-      "winRate": 52.3,
+      "losses": 217,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7100.png"
     },
     {
@@ -773,10 +773,10 @@
       "role": "JGL",
       "level": 495,
       "tier": "MASTER I",
-      "lp": 90,
-      "wins": 135,
+      "lp": 120,
+      "wins": 136,
       "losses": 123,
-      "winRate": 52.3,
+      "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/29.png"
     },
     {
