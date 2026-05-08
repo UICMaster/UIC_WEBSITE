@@ -25,8 +25,8 @@
   },
   {
     "name": "UIC Spark vs Tiamat´s Abyss",
-    "description": "🏆 **Prime League Match**\n⚔️ **UIC Spark vs Tiamat´s Abyss**\n\n*Die Roster sind noch nicht vollständig bestätigt. Das offizielle Scouting-Update folgt...*\n\n\n*MatchID: 1161366*",
-    "start": "2026-05-17T17:00:00+00:00",
+    "description": "🏆 **Prime League Match**\n⚔️ **UIC Spark vs Tiamat´s Abyss**\n\n📊 **Pre-Game Scouting Report ist online!**\n🔗 [Klicke hier für die Lane-by-Lane Analyse](https://ultrainstinctcrew.com/?match=1161366)\n\n\n*MatchID: 1161366*",
+    "start": "2026-05-17T18:00:00+00:00",
     "location": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
@@ -52,5 +52,11 @@
     "description": "gameday 1",
     "start": "2026-05-14T18:00:00+00:00",
     "location": "https://www.primeleague.gg/de/leagues/matches/1160808"
+  },
+  {
+    "name": "Ultra Instinct Crew Spark vs. Tiamat´s Abyss",
+    "description": "gameday 1",
+    "start": "2026-05-17T18:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1161366"
   }
 ]
