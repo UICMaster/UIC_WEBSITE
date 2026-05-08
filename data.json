@@ -58,11 +58,11 @@
     {
       "name": "Baumi",
       "role": "SUB_1",
-      "level": 1067,
+      "level": 1068,
       "tier": "MASTER I",
-      "lp": 360,
-      "wins": 319,
-      "losses": 317,
+      "lp": 385,
+      "wins": 321,
+      "losses": 319,
       "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
@@ -195,11 +195,11 @@
       "name": "UIC Painfull",
       "role": "BOT",
       "level": 794,
-      "tier": "EMERALD II",
-      "lp": 62,
-      "wins": 57,
+      "tier": "EMERALD I",
+      "lp": 22,
+      "wins": 60,
       "losses": 50,
-      "winRate": 53.3,
+      "winRate": 54.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6883.png"
     },
     {
@@ -251,13 +251,13 @@
     {
       "name": "EnchanterPocket",
       "role": "BOT",
-      "level": 782,
-      "tier": "DIAMOND II",
-      "lp": 77,
-      "wins": 177,
-      "losses": 188,
-      "winRate": 48.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5875.png"
+      "level": 0,
+      "tier": "RECRUITING",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": null
     },
     {
       "name": "ChrizZzorR",
@@ -547,10 +547,10 @@
       "role": "MID_1",
       "level": 617,
       "tier": "PLATINUM III",
-      "lp": 39,
+      "lp": 18,
       "wins": 82,
-      "losses": 85,
-      "winRate": 49.1,
+      "losses": 86,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4379.png"
     },
     {
@@ -580,10 +580,10 @@
       "role": "BOT_2",
       "level": 395,
       "tier": "PLATINUM III",
-      "lp": 10,
-      "wins": 114,
+      "lp": 47,
+      "wins": 116,
       "losses": 100,
-      "winRate": 53.3,
+      "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -725,7 +725,7 @@
     {
       "name": "UIC Flare",
       "role": "BOT",
-      "level": 638,
+      "level": 639,
       "tier": "DIAMOND IV",
       "lp": 46,
       "wins": 86,
@@ -784,10 +784,10 @@
       "role": "MID",
       "level": 472,
       "tier": "EMERALD I",
-      "lp": 77,
+      "lp": 56,
       "wins": 64,
-      "losses": 89,
-      "winRate": 41.8,
+      "losses": 90,
+      "winRate": 41.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/1045.png"
     },
     {

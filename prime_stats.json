@@ -44,10 +44,10 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1163112"
       },
       {
-        "team_key": "SPARK",
+        "team_key": "CYBER",
         "date": "2026-05-17T19:00:00+02:00",
-        "enemy": "TA",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161366"
+        "enemy": "Pupp",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161116"
       }
     ]
   },
@@ -241,10 +241,16 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-17T19:00:00+02:00",
+        "date": "2026-05-17T20:00:00+02:00",
         "tag": "TA",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161366",
-        "enemy_roster": []
+        "enemy_roster": [
+          "LostLich#EUW",
+          "GG EnnΩ#000",
+          "Umbreon#smy",
+          "Dracarys#INT",
+          "NiLo#CLONK"
+        ]
       },
       "last_match": null,
       "roster": [
@@ -310,7 +316,7 @@
           "is_captain": false
         },
         {
-          "summoner": "Exi#QUAK",
+          "summoner": "UIC Exi#QUAK",
           "is_captain": false
         },
         {
