@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1029,
       "tier": "DIAMOND I",
-      "lp": 55,
+      "lp": 36,
       "wins": 124,
-      "losses": 120,
-      "winRate": 50.8,
+      "losses": 121,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4380.png"
     },
     {
@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1067,
       "tier": "MASTER I",
-      "lp": 365,
-      "wins": 316,
+      "lp": 423,
+      "wins": 318,
       "losses": 314,
-      "winRate": 50.2,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -80,7 +80,7 @@
     {
       "name": "never leaving",
       "role": "MNG",
-      "level": 725,
+      "level": 726,
       "tier": "GOLD III",
       "lp": 1,
       "wins": 148,
@@ -128,10 +128,10 @@
       "role": "MID",
       "level": 987,
       "tier": "DIAMOND IV",
-      "lp": 50,
+      "lp": 18,
       "wins": 19,
-      "losses": 34,
-      "winRate": 35.8,
+      "losses": 36,
+      "winRate": 34.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6284.png"
     },
     {
@@ -194,7 +194,7 @@
     {
       "name": "UIC Painfull",
       "role": "BOT",
-      "level": 793,
+      "level": 794,
       "tier": "EMERALD II",
       "lp": 42,
       "wins": 56,
@@ -252,11 +252,11 @@
       "name": "EnchanterPocket",
       "role": "BOT",
       "level": 782,
-      "tier": "DIAMOND I",
-      "lp": 39,
+      "tier": "DIAMOND II",
+      "lp": 97,
       "wins": 177,
-      "losses": 185,
-      "winRate": 48.9,
+      "losses": 187,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5875.png"
     },
     {
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 543,
       "tier": "DIAMOND I",
-      "lp": 49,
-      "wins": 85,
+      "lp": 87,
+      "wins": 87,
       "losses": 64,
-      "winRate": 57,
+      "winRate": 57.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3157.png"
     },
     {
@@ -568,11 +568,11 @@
       "name": "UIC Boohunter",
       "role": "BOT_1",
       "level": 1395,
-      "tier": "GOLD II",
-      "lp": 77,
-      "wins": 412,
+      "tier": "GOLD I",
+      "lp": 14,
+      "wins": 414,
       "losses": 412,
-      "winRate": 50,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7128.png"
     },
     {
@@ -784,10 +784,10 @@
       "role": "MID",
       "level": 472,
       "tier": "EMERALD I",
-      "lp": 45,
-      "wins": 61,
+      "lp": 83,
+      "wins": 62,
       "losses": 87,
-      "winRate": 41.2,
+      "winRate": 41.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/1045.png"
     },
     {

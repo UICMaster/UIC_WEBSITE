@@ -20,6 +20,12 @@
     "players": 70,
     "radar": [
       {
+        "team_key": "PHOENIX",
+        "date": "2026-05-14T20:00:00+02:00",
+        "enemy": "ZSB",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160808"
+      },
+      {
         "team_key": "PRIME",
         "date": "2026-05-17T17:00:00+02:00",
         "enemy": "LPG",
@@ -42,12 +48,6 @@
         "date": "2026-05-17T19:00:00+02:00",
         "enemy": "TA",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161366"
-      },
-      {
-        "team_key": "PHOENIX",
-        "date": "2026-05-17T19:00:00+02:00",
-        "enemy": "ZSB",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160808"
       }
     ]
   },
@@ -104,6 +104,10 @@
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         },
         {
           "summoner": "UIC FrozenHands#MID",
@@ -275,10 +279,6 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -298,7 +298,7 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-17T19:00:00+02:00",
+        "date": "2026-05-14T20:00:00+02:00",
         "tag": "ZSB",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160808",
         "enemy_roster": []
