@@ -3,12 +3,12 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1162,
+      "level": 1163,
       "tier": "MASTER I",
-      "lp": 65,
+      "lp": 36,
       "wins": 114,
-      "losses": 116,
-      "winRate": 49.6,
+      "losses": 117,
+      "winRate": 49.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -82,10 +82,10 @@
       "role": "MNG",
       "level": 725,
       "tier": "GOLD III",
-      "lp": 45,
+      "lp": 23,
       "wins": 148,
-      "losses": 165,
-      "winRate": 47.3,
+      "losses": 166,
+      "winRate": 47.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4555.png"
     },
     {
@@ -205,7 +205,7 @@
     {
       "name": "FirstBlo",
       "role": "SUP",
-      "level": 482,
+      "level": 483,
       "tier": "DIAMOND IV",
       "lp": 17,
       "wins": 83,
@@ -591,10 +591,10 @@
       "role": "SUP_1",
       "level": 382,
       "tier": "PLATINUM II",
-      "lp": 68,
+      "lp": 48,
       "wins": 80,
-      "losses": 78,
-      "winRate": 50.6,
+      "losses": 79,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7099.png"
     },
     {
