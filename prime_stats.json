@@ -17,7 +17,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 69,
+    "players": 68,
     "radar": [
       {
         "team_key": "PRIME",
@@ -84,10 +84,6 @@
         {
           "summoner": "Baumi#123",
           "is_captain": false
-        },
-        {
-          "summoner": "never leaving#stay",
-          "is_captain": true
         },
         {
           "summoner": "UIC Niki#AMB",
@@ -275,10 +271,6 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -310,8 +302,8 @@
           "is_captain": false
         },
         {
-          "summoner": "Exi#QUAK",
-          "is_captain": false
+          "summoner": "UIC Kamo#tpt",
+          "is_captain": true
         },
         {
           "summoner": "UIC Loonz#Coach",
@@ -593,7 +585,12 @@
       },
       "next_match": null,
       "last_match": null,
-      "roster": [],
+      "roster": [
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        }
+      ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/204924",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/204000/204924.jpg?1765838352"
     }
