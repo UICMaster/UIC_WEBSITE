@@ -5,11 +5,11 @@
       "role": "TOP",
       "level": 1164,
       "tier": "MASTER I",
-      "lp": 31,
+      "lp": 1,
       "wins": 117,
-      "losses": 122,
-      "winRate": 49,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6007.png"
+      "losses": 123,
+      "winRate": 48.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/1135.png"
     },
     {
       "name": "UIC Niki",
@@ -161,12 +161,12 @@
     {
       "name": "VTennic",
       "role": "TOP",
-      "level": 485,
+      "level": 486,
       "tier": "DIAMOND IV",
-      "lp": 1,
+      "lp": 0,
       "wins": 20,
-      "losses": 17,
-      "winRate": 54.1,
+      "losses": 18,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     },
     {
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 398,
       "tier": "DIAMOND II",
-      "lp": 76,
+      "lp": 54,
       "wins": 81,
-      "losses": 89,
-      "winRate": 47.6,
+      "losses": 90,
+      "winRate": 47.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4626.png"
     },
     {
@@ -580,10 +580,10 @@
       "role": "BOT_2",
       "level": 397,
       "tier": "PLATINUM II",
-      "lp": 41,
-      "wins": 124,
+      "lp": 61,
+      "wins": 125,
       "losses": 103,
-      "winRate": 54.6,
+      "winRate": 54.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -782,7 +782,7 @@
     {
       "name": "UIC Keygasza",
       "role": "MID",
-      "level": 472,
+      "level": 473,
       "tier": "EMERALD I",
       "lp": 54,
       "wins": 65,
