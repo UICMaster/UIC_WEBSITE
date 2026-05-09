@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1163,
       "tier": "MASTER I",
-      "lp": 31,
-      "wins": 115,
-      "losses": 119,
-      "winRate": 49.1,
+      "lp": 33,
+      "wins": 116,
+      "losses": 120,
+      "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -81,11 +81,11 @@
       "name": "never leaving",
       "role": "MNG",
       "level": 726,
-      "tier": "GOLD IV",
-      "lp": 96,
-      "wins": 149,
+      "tier": "GOLD III",
+      "lp": 13,
+      "wins": 150,
       "losses": 169,
-      "winRate": 46.9,
+      "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4555.png"
     },
     {
@@ -194,12 +194,12 @@
     {
       "name": "UIC Painfull",
       "role": "BOT",
-      "level": 794,
+      "level": 795,
       "tier": "EMERALD I",
-      "lp": 63,
+      "lp": 43,
       "wins": 64,
-      "losses": 52,
-      "winRate": 55.2,
+      "losses": 53,
+      "winRate": 54.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6883.png"
     },
     {
@@ -445,11 +445,11 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 593,
-      "tier": "DIAMOND II",
-      "lp": 18,
+      "tier": "DIAMOND III",
+      "lp": 96,
       "wins": 140,
-      "losses": 159,
-      "winRate": 46.8,
+      "losses": 160,
+      "winRate": 46.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -545,11 +545,11 @@
     {
       "name": "UIC adedier",
       "role": "MID_1",
-      "level": 617,
+      "level": 618,
       "tier": "PLATINUM IV",
-      "lp": 75,
-      "wins": 82,
-      "losses": 89,
+      "lp": 70,
+      "wins": 83,
+      "losses": 90,
       "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4379.png"
     },
