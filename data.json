@@ -60,9 +60,9 @@
       "role": "SUB_1",
       "level": 1068,
       "tier": "MASTER I",
-      "lp": 348,
-      "wins": 324,
-      "losses": 323,
+      "lp": 346,
+      "wins": 325,
+      "losses": 324,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
@@ -93,9 +93,9 @@
       "role": "COH",
       "level": 795,
       "tier": "EMERALD II",
-      "lp": 58,
-      "wins": 40,
-      "losses": 36,
+      "lp": 62,
+      "wins": 41,
+      "losses": 37,
       "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     }
@@ -332,9 +332,9 @@
       "role": "COH",
       "level": 795,
       "tier": "EMERALD II",
-      "lp": 58,
-      "wins": 40,
-      "losses": 36,
+      "lp": 62,
+      "wins": 41,
+      "losses": 37,
       "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     },
@@ -413,10 +413,10 @@
       "role": "TOP",
       "level": 918,
       "tier": "EMERALD II",
-      "lp": 61,
-      "wins": 56,
+      "lp": 81,
+      "wins": 57,
       "losses": 63,
-      "winRate": 47.1,
+      "winRate": 47.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6693.png"
     },
     {
@@ -434,11 +434,11 @@
       "name": "UIC Ayumu",
       "role": "MID",
       "level": 593,
-      "tier": "PLATINUM II",
-      "lp": 92,
-      "wins": 109,
+      "tier": "PLATINUM I",
+      "lp": 13,
+      "wins": 110,
       "losses": 99,
-      "winRate": 52.4,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7127.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 593,
       "tier": "DIAMOND II",
-      "lp": 22,
-      "wins": 139,
+      "lp": 40,
+      "wins": 140,
       "losses": 158,
-      "winRate": 46.8,
+      "winRate": 47,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -478,11 +478,11 @@
       "name": "UIC Ayumu",
       "role": "MNG",
       "level": 593,
-      "tier": "PLATINUM II",
-      "lp": 92,
-      "wins": 109,
+      "tier": "PLATINUM I",
+      "lp": 13,
+      "wins": 110,
       "losses": 99,
-      "winRate": 52.4,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7127.png"
     },
     {
@@ -569,10 +569,10 @@
       "role": "BOT_1",
       "level": 1395,
       "tier": "GOLD II",
-      "lp": 91,
+      "lp": 70,
       "wins": 416,
-      "losses": 415,
-      "winRate": 50.1,
+      "losses": 416,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7128.png"
     },
     {
@@ -580,9 +580,9 @@
       "role": "BOT_2",
       "level": 396,
       "tier": "PLATINUM III",
-      "lp": 85,
-      "wins": 119,
-      "losses": 101,
+      "lp": 83,
+      "wins": 120,
+      "losses": 102,
       "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
@@ -613,9 +613,9 @@
       "role": "COH",
       "level": 795,
       "tier": "EMERALD II",
-      "lp": 58,
-      "wins": 40,
-      "losses": 36,
+      "lp": 62,
+      "wins": 41,
+      "losses": 37,
       "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     }
@@ -693,11 +693,11 @@
       "name": "UIC ソニック",
       "role": "TOP",
       "level": 721,
-      "tier": "PLATINUM I",
-      "lp": 12,
+      "tier": "PLATINUM II",
+      "lp": 92,
       "wins": 58,
-      "losses": 57,
-      "winRate": 50.4,
+      "losses": 58,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6490.png"
     },
     {
@@ -727,10 +727,10 @@
       "role": "BOT",
       "level": 639,
       "tier": "DIAMOND IV",
-      "lp": 46,
+      "lp": 24,
       "wins": 86,
-      "losses": 80,
-      "winRate": 51.8,
+      "losses": 81,
+      "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/1625.png"
     },
     {
