@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1163,
       "tier": "MASTER I",
-      "lp": 33,
+      "lp": 4,
       "wins": 116,
-      "losses": 120,
-      "winRate": 49.2,
+      "losses": 121,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -197,9 +197,9 @@
       "level": 795,
       "tier": "EMERALD I",
       "lp": 43,
-      "wins": 64,
-      "losses": 53,
-      "winRate": 54.7,
+      "wins": 65,
+      "losses": 54,
+      "winRate": 54.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6883.png"
     },
     {
@@ -389,10 +389,10 @@
       "role": "BOT",
       "level": 741,
       "tier": "DIAMOND III",
-      "lp": 16,
-      "wins": 105,
+      "lp": 35,
+      "wins": 106,
       "losses": 102,
-      "winRate": 50.7,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5449.png"
     },
     {
@@ -411,7 +411,7 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 918,
+      "level": 919,
       "tier": "EMERALD II",
       "lp": 81,
       "wins": 57,
@@ -569,10 +569,10 @@
       "role": "BOT_1",
       "level": 1395,
       "tier": "GOLD II",
-      "lp": 70,
-      "wins": 416,
+      "lp": 89,
+      "wins": 417,
       "losses": 416,
-      "winRate": 50,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7128.png"
     },
     {
@@ -580,10 +580,10 @@
       "role": "BOT_2",
       "level": 396,
       "tier": "PLATINUM II",
-      "lp": 1,
-      "wins": 122,
+      "lp": 21,
+      "wins": 123,
       "losses": 103,
-      "winRate": 54.2,
+      "winRate": 54.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
