@@ -47,7 +47,7 @@
     {
       "name": "UIC Baguetto",
       "role": "SUP",
-      "level": 998,
+      "level": 999,
       "tier": "MASTER I",
       "lp": 16,
       "wins": 123,
@@ -91,7 +91,7 @@
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 795,
+      "level": 796,
       "tier": "EMERALD II",
       "lp": 44,
       "wins": 41,
@@ -301,8 +301,8 @@
       "tier": "DIAMOND II",
       "lp": 63,
       "wins": 79,
-      "losses": 87,
-      "winRate": 47.6,
+      "losses": 88,
+      "winRate": 47.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4626.png"
     },
     {
@@ -330,7 +330,7 @@
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 795,
+      "level": 796,
       "tier": "EMERALD II",
       "lp": 44,
       "wins": 41,
@@ -356,16 +356,16 @@
       "role": "TOP",
       "level": 543,
       "tier": "DIAMOND I",
-      "lp": 45,
+      "lp": 24,
       "wins": 87,
-      "losses": 66,
-      "winRate": 56.9,
+      "losses": 67,
+      "winRate": 56.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3157.png"
     },
     {
       "name": "Ðărkø",
       "role": "JGL",
-      "level": 788,
+      "level": 789,
       "tier": "MASTER I",
       "lp": 30,
       "wins": 32,
@@ -507,7 +507,7 @@
       "wins": 53,
       "losses": 53,
       "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6022.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6340.png"
     },
     {
       "name": "UIC Muh",
@@ -578,7 +578,7 @@
     {
       "name": "UIC Deavan",
       "role": "BOT_2",
-      "level": 396,
+      "level": 397,
       "tier": "PLATINUM II",
       "lp": 41,
       "wins": 124,
@@ -611,7 +611,7 @@
     {
       "name": "UIC Loonz",
       "role": "COH",
-      "level": 795,
+      "level": 796,
       "tier": "EMERALD II",
       "lp": 44,
       "wins": 41,
@@ -624,7 +624,7 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 579,
+      "level": 580,
       "tier": "EMERALD III",
       "lp": 17,
       "wins": 66,
