@@ -104,7 +104,7 @@
     {
       "name": "Stafferl",
       "role": "TOP",
-      "level": 842,
+      "level": 843,
       "tier": "EMERALD II",
       "lp": 10,
       "wins": 2,
@@ -264,10 +264,10 @@
       "role": "SUP",
       "level": 681,
       "tier": "DIAMOND IV",
-      "lp": 20,
-      "wins": 38,
+      "lp": 40,
+      "wins": 39,
       "losses": 42,
-      "winRate": 47.5,
+      "winRate": 48.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5642.png"
     }
   ],
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 543,
       "tier": "DIAMOND I",
-      "lp": 66,
+      "lp": 45,
       "wins": 87,
-      "losses": 65,
-      "winRate": 57.2,
+      "losses": 66,
+      "winRate": 56.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3157.png"
     },
     {
@@ -567,7 +567,7 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT_1",
-      "level": 1395,
+      "level": 1396,
       "tier": "GOLD II",
       "lp": 68,
       "wins": 417,
@@ -784,10 +784,10 @@
       "role": "MID",
       "level": 472,
       "tier": "EMERALD I",
-      "lp": 56,
-      "wins": 64,
-      "losses": 90,
-      "winRate": 41.6,
+      "lp": 54,
+      "wins": 65,
+      "losses": 91,
+      "winRate": 41.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/1045.png"
     },
     {
