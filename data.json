@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 843,
       "tier": "MASTER I",
-      "lp": 120,
-      "wins": 101,
+      "lp": 180,
+      "wins": 103,
       "losses": 81,
-      "winRate": 55.5,
+      "winRate": 56,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6373.png"
     },
     {
@@ -557,10 +557,10 @@
       "name": "UIC GreatATuin",
       "role": "MID_2",
       "level": 592,
-      "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 237,
-      "losses": 213,
+      "tier": "EMERALD I",
+      "lp": 93,
+      "wins": 238,
+      "losses": 214,
       "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/23.png"
     },
