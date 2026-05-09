@@ -135,6 +135,10 @@
           "is_captain": false
         },
         {
+          "summoner": "Regentropfen#H2O",
+          "is_captain": false
+        },
+        {
           "summoner": "Pferdemilch#Milch",
           "is_captain": false
         },
@@ -273,6 +277,10 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -300,10 +308,6 @@
       "last_match": null,
       "roster": [
         {
-          "summoner": "UIC Exi#QUAK",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Hayu#UIC",
           "is_captain": false
         },
@@ -321,10 +325,6 @@
         },
         {
           "summoner": "UIC AutumnLeaf#Moo",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         }
       ],
@@ -367,10 +367,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "CYS Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -397,6 +393,10 @@
       },
       "last_match": null,
       "roster": [
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
+        },
         {
           "summoner": "UIC SilentCarry#Alune",
           "is_captain": true
@@ -571,6 +571,10 @@
         {
           "summoner": "UIC Starboy#UIC",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
@@ -599,10 +603,6 @@
         {
           "summoner": "TheEigeeen#EIGI",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/204924",
