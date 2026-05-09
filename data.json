@@ -93,10 +93,10 @@
       "role": "COH",
       "level": 795,
       "tier": "EMERALD II",
-      "lp": 54,
-      "wins": 39,
-      "losses": 35,
-      "winRate": 52.7,
+      "lp": 58,
+      "wins": 40,
+      "losses": 36,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     }
   ],
@@ -128,10 +128,10 @@
       "role": "MID",
       "level": 987,
       "tier": "DIAMOND IV",
-      "lp": 1,
+      "lp": 0,
       "wins": 19,
-      "losses": 37,
-      "winRate": 33.9,
+      "losses": 38,
+      "winRate": 33.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6284.png"
     },
     {
@@ -264,10 +264,10 @@
       "role": "SUP",
       "level": 680,
       "tier": "DIAMOND IV",
-      "lp": 20,
+      "lp": 0,
       "wins": 36,
-      "losses": 40,
-      "winRate": 47.4,
+      "losses": 41,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5642.png"
     }
   ],
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 795,
       "tier": "EMERALD II",
-      "lp": 54,
-      "wins": 39,
-      "losses": 35,
-      "winRate": 52.7,
+      "lp": 58,
+      "wins": 40,
+      "losses": 36,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     },
     {
@@ -389,10 +389,10 @@
       "role": "BOT",
       "level": 741,
       "tier": "DIAMOND III",
-      "lp": 38,
+      "lp": 16,
       "wins": 105,
-      "losses": 101,
-      "winRate": 51,
+      "losses": 102,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5449.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 593,
       "tier": "DIAMOND II",
-      "lp": 66,
+      "lp": 22,
       "wins": 139,
-      "losses": 156,
-      "winRate": 47.1,
+      "losses": 158,
+      "winRate": 46.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -568,10 +568,10 @@
       "name": "UIC Boohunter",
       "role": "BOT_1",
       "level": 1395,
-      "tier": "GOLD I",
-      "lp": 12,
+      "tier": "GOLD II",
+      "lp": 91,
       "wins": 416,
-      "losses": 414,
+      "losses": 415,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7128.png"
     },
@@ -579,11 +579,11 @@
       "name": "UIC Deavan",
       "role": "BOT_2",
       "level": 396,
-      "tier": "PLATINUM II",
-      "lp": 5,
+      "tier": "PLATINUM III",
+      "lp": 85,
       "wins": 119,
-      "losses": 100,
-      "winRate": 54.3,
+      "losses": 101,
+      "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -613,10 +613,10 @@
       "role": "COH",
       "level": 795,
       "tier": "EMERALD II",
-      "lp": 54,
-      "wins": 39,
-      "losses": 35,
-      "winRate": 52.7,
+      "lp": 58,
+      "wins": 40,
+      "losses": 36,
+      "winRate": 52.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     }
   ],
