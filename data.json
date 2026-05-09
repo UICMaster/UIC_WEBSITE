@@ -9,7 +9,7 @@
       "wins": 117,
       "losses": 122,
       "winRate": 49,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6007.png"
     },
     {
       "name": "UIC Niki",
@@ -163,10 +163,10 @@
       "role": "TOP",
       "level": 485,
       "tier": "DIAMOND IV",
-      "lp": 11,
+      "lp": 1,
       "wins": 20,
-      "losses": 16,
-      "winRate": 55.6,
+      "losses": 17,
+      "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     },
     {
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 398,
       "tier": "DIAMOND II",
-      "lp": 99,
+      "lp": 76,
       "wins": 81,
-      "losses": 88,
-      "winRate": 47.9,
+      "losses": 89,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4626.png"
     },
     {
@@ -636,11 +636,11 @@
       "name": "Leberkasleatschn",
       "role": "JGL",
       "level": 454,
-      "tier": "GOLD IV",
-      "lp": 96,
-      "wins": 73,
+      "tier": "GOLD III",
+      "lp": 17,
+      "wins": 74,
       "losses": 76,
-      "winRate": 49,
+      "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7126.png"
     },
     {
