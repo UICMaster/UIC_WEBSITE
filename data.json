@@ -7,8 +7,8 @@
       "tier": "MASTER I",
       "lp": 120,
       "wins": 120,
-      "losses": 125,
-      "winRate": 49,
+      "losses": 126,
+      "winRate": 48.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1030,
       "tier": "DIAMOND I",
-      "lp": 40,
-      "wins": 126,
+      "lp": 61,
+      "wins": 127,
       "losses": 123,
-      "winRate": 50.6,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4380.png"
     },
     {
@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1070,
       "tier": "MASTER I",
-      "lp": 359,
-      "wins": 334,
+      "lp": 417,
+      "wins": 336,
       "losses": 332,
-      "winRate": 50.2,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -514,10 +514,10 @@
       "role": "TOP_2",
       "level": 523,
       "tier": "GOLD I",
-      "lp": 52,
-      "wins": 107,
+      "lp": 72,
+      "wins": 108,
       "losses": 114,
-      "winRate": 48.4,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6061.png"
     },
     {
@@ -591,10 +591,10 @@
       "role": "SUP_1",
       "level": 384,
       "tier": "PLATINUM II",
-      "lp": 27,
+      "lp": 7,
       "wins": 84,
-      "losses": 84,
-      "winRate": 50,
+      "losses": 85,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7099.png"
     },
     {
@@ -693,11 +693,11 @@
       "name": "UIC ソニック",
       "role": "TOP",
       "level": 722,
-      "tier": "PLATINUM II",
-      "lp": 92,
-      "wins": 58,
+      "tier": "PLATINUM I",
+      "lp": 12,
+      "wins": 59,
       "losses": 58,
-      "winRate": 50,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6490.png"
     },
     {
