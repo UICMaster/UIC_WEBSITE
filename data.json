@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1070,
       "tier": "MASTER I",
-      "lp": 330,
-      "wins": 333,
+      "lp": 359,
+      "wins": 334,
       "losses": 332,
-      "winRate": 50.1,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -139,10 +139,10 @@
       "role": "BOT",
       "level": 846,
       "tier": "PLATINUM I",
-      "lp": 93,
-      "wins": 44,
-      "losses": 67,
-      "winRate": 39.6,
+      "lp": 89,
+      "wins": 45,
+      "losses": 68,
+      "winRate": 39.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6582.png"
     },
     {
@@ -183,7 +183,7 @@
     {
       "name": "UIC Kaoxz",
       "role": "MID",
-      "level": 464,
+      "level": 465,
       "tier": "DIAMOND IV",
       "lp": 6,
       "wins": 83,
@@ -514,10 +514,10 @@
       "role": "TOP_2",
       "level": 523,
       "tier": "GOLD I",
-      "lp": 72,
+      "lp": 52,
       "wins": 107,
-      "losses": 113,
-      "winRate": 48.6,
+      "losses": 114,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6061.png"
     },
     {
@@ -556,7 +556,7 @@
     {
       "name": "UIC GreatATuin",
       "role": "MID_2",
-      "level": 592,
+      "level": 593,
       "tier": "DIAMOND IV",
       "lp": 1,
       "wins": 239,
@@ -692,7 +692,7 @@
     {
       "name": "UIC ソニック",
       "role": "TOP",
-      "level": 721,
+      "level": 722,
       "tier": "PLATINUM II",
       "lp": 92,
       "wins": 58,
