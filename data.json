@@ -60,9 +60,9 @@
       "role": "SUB_1",
       "level": 1070,
       "tier": "MASTER I",
-      "lp": 332,
-      "wins": 332,
-      "losses": 331,
+      "lp": 330,
+      "wins": 333,
+      "losses": 332,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
@@ -137,12 +137,12 @@
     {
       "name": "Pferdemilch",
       "role": "BOT",
-      "level": 845,
+      "level": 846,
       "tier": "PLATINUM I",
-      "lp": 75,
-      "wins": 43,
+      "lp": 93,
+      "wins": 44,
       "losses": 67,
-      "winRate": 39.1,
+      "winRate": 39.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6582.png"
     },
     {
@@ -172,7 +172,7 @@
     {
       "name": "UIC Hunter",
       "role": "JGL",
-      "level": 968,
+      "level": 969,
       "tier": "EMERALD II",
       "lp": 36,
       "wins": 81,
@@ -411,7 +411,7 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 919,
+      "level": 920,
       "tier": "EMERALD II",
       "lp": 81,
       "wins": 58,
@@ -433,7 +433,7 @@
     {
       "name": "UIC Ayumu",
       "role": "MID",
-      "level": 593,
+      "level": 594,
       "tier": "EMERALD IV",
       "lp": 19,
       "wins": 115,
@@ -477,7 +477,7 @@
     {
       "name": "UIC Ayumu",
       "role": "MNG",
-      "level": 593,
+      "level": 594,
       "tier": "EMERALD IV",
       "lp": 19,
       "wins": 115,
@@ -501,7 +501,7 @@
     {
       "name": "UIC Kaetaya",
       "role": "TOP_1",
-      "level": 869,
+      "level": 870,
       "tier": "EMERALD II",
       "lp": 25,
       "wins": 54,
@@ -514,10 +514,10 @@
       "role": "TOP_2",
       "level": 523,
       "tier": "GOLD I",
-      "lp": 52,
-      "wins": 106,
+      "lp": 72,
+      "wins": 107,
       "losses": 113,
-      "winRate": 48.4,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6061.png"
     },
     {

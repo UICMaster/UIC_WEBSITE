@@ -260,7 +260,7 @@
       "roster": [
         {
           "summoner": "UIC BissiBoy#UIC",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "Reign#Teach",
