@@ -14,12 +14,12 @@
     {
       "name": "UIC Niki",
       "role": "JGL",
-      "level": 1029,
+      "level": 1030,
       "tier": "DIAMOND I",
-      "lp": 57,
+      "lp": 38,
       "wins": 125,
-      "losses": 121,
-      "winRate": 50.8,
+      "losses": 122,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4380.png"
     },
     {
@@ -60,9 +60,9 @@
       "role": "SUB_1",
       "level": 1070,
       "tier": "MASTER I",
-      "lp": 398,
+      "lp": 367,
       "wins": 330,
-      "losses": 327,
+      "losses": 328,
       "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
@@ -139,10 +139,10 @@
       "role": "BOT",
       "level": 845,
       "tier": "EMERALD IV",
-      "lp": 36,
+      "lp": 0,
       "wins": 43,
-      "losses": 64,
-      "winRate": 40.2,
+      "losses": 66,
+      "winRate": 39.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6582.png"
     },
     {
@@ -163,10 +163,10 @@
       "role": "TOP",
       "level": 486,
       "tier": "DIAMOND IV",
-      "lp": 0,
-      "wins": 20,
-      "losses": 18,
-      "winRate": 52.6,
+      "lp": 29,
+      "wins": 21,
+      "losses": 19,
+      "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     },
     {
@@ -174,9 +174,9 @@
       "role": "JGL",
       "level": 968,
       "tier": "EMERALD II",
-      "lp": 37,
-      "wins": 80,
-      "losses": 81,
+      "lp": 36,
+      "wins": 81,
+      "losses": 82,
       "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7123.png"
     },
@@ -387,12 +387,12 @@
     {
       "name": "UIC Pjure",
       "role": "BOT",
-      "level": 741,
+      "level": 742,
       "tier": "DIAMOND III",
-      "lp": 29,
-      "wins": 108,
+      "lp": 47,
+      "wins": 109,
       "losses": 105,
-      "winRate": 50.7,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5449.png"
     },
     {
@@ -435,10 +435,10 @@
       "role": "MID",
       "level": 593,
       "tier": "PLATINUM I",
-      "lp": 36,
-      "wins": 112,
+      "lp": 99,
+      "wins": 114,
       "losses": 100,
-      "winRate": 52.8,
+      "winRate": 53.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7127.png"
     },
     {
@@ -479,10 +479,10 @@
       "role": "MNG",
       "level": 593,
       "tier": "PLATINUM I",
-      "lp": 36,
-      "wins": 112,
+      "lp": 99,
+      "wins": 114,
       "losses": 100,
-      "winRate": 52.8,
+      "winRate": 53.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7127.png"
     },
     {
@@ -507,7 +507,7 @@
       "wins": 54,
       "losses": 53,
       "winRate": 50.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5367.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6340.png"
     },
     {
       "name": "UIC Muh",
