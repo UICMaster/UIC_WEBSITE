@@ -17,11 +17,11 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 70,
+    "players": 57,
     "radar": [
       {
         "team_key": "PHOENIX",
-        "date": "2026-05-14T20:00:00+02:00",
+        "date": "2026-05-13T19:00:00+02:00",
         "enemy": "ZSB",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160808"
       },
@@ -129,48 +129,7 @@
         "enemy_roster": []
       },
       "last_match": null,
-      "roster": [
-        {
-          "summoner": "Autonamed#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "Regentropfen#H2O",
-          "is_captain": false
-        },
-        {
-          "summoner": "Pferdemilch#Milch",
-          "is_captain": false
-        },
-        {
-          "summoner": "Cedy7#111",
-          "is_captain": true
-        },
-        {
-          "summoner": "ToTo#EUWW",
-          "is_captain": true
-        },
-        {
-          "summoner": "KrokoKowski#REDK",
-          "is_captain": true
-        },
-        {
-          "summoner": "Mizu#Duy",
-          "is_captain": true
-        },
-        {
-          "summoner": "Aetemis#EUWW",
-          "is_captain": true
-        },
-        {
-          "summoner": "Stafferl#FNC",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC NairadAwsm#UIC",
-          "is_captain": false
-        }
-      ],
+      "roster": [],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208131",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/208000/208131.jpg?1778157742"
     },
@@ -300,7 +259,7 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-14T20:00:00+02:00",
+        "date": "2026-05-13T19:00:00+02:00",
         "tag": "ZSB",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160808",
         "enemy_roster": []
@@ -393,10 +352,6 @@
       },
       "last_match": null,
       "roster": [
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
-        },
         {
           "summoner": "UIC SilentCarry#Alune",
           "is_captain": true
@@ -595,16 +550,7 @@
       },
       "next_match": null,
       "last_match": null,
-      "roster": [
-        {
-          "summoner": "UIC M Character#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "TheEigeeen#EIGI",
-          "is_captain": false
-        }
-      ],
+      "roster": [],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/204924",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/204000/204924.jpg?1765838352"
     }

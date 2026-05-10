@@ -7,9 +7,9 @@
       "tier": "MASTER I",
       "lp": 1,
       "wins": 117,
-      "losses": 123,
-      "winRate": 48.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/1135.png"
+      "losses": 124,
+      "winRate": 48.5,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
       "name": "UIC Niki",
@@ -80,7 +80,7 @@
     {
       "name": "never leaving",
       "role": "MNG",
-      "level": 726,
+      "level": 727,
       "tier": "GOLD III",
       "lp": 13,
       "wins": 150,
@@ -297,12 +297,12 @@
     {
       "name": "giow99",
       "role": "MID",
-      "level": 398,
+      "level": 399,
       "tier": "DIAMOND II",
-      "lp": 54,
-      "wins": 81,
-      "losses": 90,
-      "winRate": 47.4,
+      "lp": 68,
+      "wins": 83,
+      "losses": 91,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4626.png"
     },
     {
@@ -503,10 +503,10 @@
       "role": "TOP_1",
       "level": 869,
       "tier": "EMERALD II",
-      "lp": 4,
-      "wins": 53,
+      "lp": 25,
+      "wins": 54,
       "losses": 53,
-      "winRate": 50,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6340.png"
     },
     {
@@ -580,10 +580,10 @@
       "role": "BOT_2",
       "level": 397,
       "tier": "PLATINUM II",
-      "lp": 61,
+      "lp": 22,
       "wins": 125,
-      "losses": 103,
-      "winRate": 54.8,
+      "losses": 105,
+      "winRate": 54.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
