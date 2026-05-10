@@ -264,10 +264,10 @@
       "role": "SUP",
       "level": 681,
       "tier": "DIAMOND IV",
-      "lp": 40,
+      "lp": 20,
       "wins": 39,
-      "losses": 42,
-      "winRate": 48.1,
+      "losses": 43,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5642.png"
     }
   ],
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 844,
       "tier": "MASTER I",
-      "lp": 180,
+      "lp": 120,
       "wins": 103,
-      "losses": 81,
-      "winRate": 56,
+      "losses": 83,
+      "winRate": 55.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6373.png"
     },
     {
@@ -398,7 +398,7 @@
     {
       "name": "CYS Ryu Panda",
       "role": "SUP",
-      "level": 795,
+      "level": 796,
       "tier": "UNRANKED",
       "lp": 0,
       "wins": 0,
@@ -581,8 +581,8 @@
       "level": 397,
       "tier": "PLATINUM II",
       "lp": 22,
-      "wins": 125,
-      "losses": 105,
+      "wins": 126,
+      "losses": 106,
       "winRate": 54.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
@@ -738,10 +738,10 @@
       "role": "SUP",
       "level": 345,
       "tier": "EMERALD IV",
-      "lp": 39,
-      "wins": 237,
+      "lp": 58,
+      "wins": 238,
       "losses": 217,
-      "winRate": 52.2,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7100.png"
     },
     {
@@ -773,10 +773,10 @@
       "role": "JGL",
       "level": 496,
       "tier": "MASTER I",
-      "lp": 90,
-      "wins": 138,
+      "lp": 120,
+      "wins": 139,
       "losses": 127,
-      "winRate": 52.1,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/29.png"
     },
     {
