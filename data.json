@@ -3,12 +3,12 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1164,
+      "level": 1165,
       "tier": "MASTER I",
-      "lp": 120,
+      "lp": 90,
       "wins": 120,
-      "losses": 126,
-      "winRate": 48.8,
+      "losses": 127,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1030,
       "tier": "DIAMOND I",
-      "lp": 61,
-      "wins": 127,
+      "lp": 82,
+      "wins": 128,
       "losses": 123,
-      "winRate": 50.8,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4380.png"
     },
     {
@@ -58,12 +58,12 @@
     {
       "name": "Baumi",
       "role": "SUB_1",
-      "level": 1070,
+      "level": 1071,
       "tier": "MASTER I",
-      "lp": 417,
-      "wins": 336,
+      "lp": 477,
+      "wins": 337,
       "losses": 332,
-      "winRate": 50.3,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -514,10 +514,10 @@
       "role": "TOP_2",
       "level": 523,
       "tier": "GOLD I",
-      "lp": 72,
-      "wins": 108,
+      "lp": 92,
+      "wins": 109,
       "losses": 114,
-      "winRate": 48.6,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6061.png"
     },
     {
@@ -635,7 +635,7 @@
     {
       "name": "Leberkasleatschn",
       "role": "JGL",
-      "level": 454,
+      "level": 455,
       "tier": "GOLD III",
       "lp": 17,
       "wins": 74,
