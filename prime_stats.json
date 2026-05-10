@@ -17,7 +17,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 57,
+    "players": 72,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -129,7 +129,48 @@
         "enemy_roster": []
       },
       "last_match": null,
-      "roster": [],
+      "roster": [
+        {
+          "summoner": "Autonamed#EUW",
+          "is_captain": false
+        },
+        {
+          "summoner": "Regentropfen#H2O",
+          "is_captain": false
+        },
+        {
+          "summoner": "Pferdemilch#Milch",
+          "is_captain": false
+        },
+        {
+          "summoner": "Cedy7#111",
+          "is_captain": true
+        },
+        {
+          "summoner": "ToTo#EUWW",
+          "is_captain": true
+        },
+        {
+          "summoner": "KrokoKowski#REDK",
+          "is_captain": true
+        },
+        {
+          "summoner": "Mizu#Duy",
+          "is_captain": true
+        },
+        {
+          "summoner": "Aetemis#EUWW",
+          "is_captain": true
+        },
+        {
+          "summoner": "Stafferl#FNC",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC NairadAwsm#UIC",
+          "is_captain": false
+        }
+      ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208131",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/208000/208131.jpg?1778157742"
     },
@@ -176,6 +217,10 @@
         },
         {
           "summoner": "UIC Hunter#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "DAG LingYao#EUW",
           "is_captain": false
         }
       ],
@@ -353,6 +398,10 @@
       "last_match": null,
       "roster": [
         {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC SilentCarry#Alune",
           "is_captain": true
         },
@@ -366,6 +415,10 @@
         },
         {
           "summoner": "zab77#EUW",
+          "is_captain": false
+        },
+        {
+          "summoner": "Rui Arneb#16396",
           "is_captain": false
         }
       ],
@@ -550,7 +603,16 @@
       },
       "next_match": null,
       "last_match": null,
-      "roster": [],
+      "roster": [
+        {
+          "summoner": "UIC M Character#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "TheEigeeen#EIGI",
+          "is_captain": false
+        }
+      ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/204924",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/204000/204924.jpg?1765838352"
     }
