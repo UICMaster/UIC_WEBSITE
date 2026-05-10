@@ -17,7 +17,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 73,
+    "players": 69,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -100,10 +100,6 @@
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         },
         {
           "summoner": "UIC FrozenHands#MID",
@@ -285,6 +281,10 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -312,10 +312,6 @@
       "last_match": null,
       "roster": [
         {
-          "summoner": "UIC Exi#QUAK",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Hayu#UIC",
           "is_captain": false
         },
@@ -333,10 +329,6 @@
         },
         {
           "summoner": "UIC AutumnLeaf#Moo",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         }
       ],
@@ -405,10 +397,6 @@
       },
       "last_match": null,
       "roster": [
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
-        },
         {
           "summoner": "UIC SilentCarry#Alune",
           "is_captain": true
@@ -587,6 +575,10 @@
         {
           "summoner": "UIC Starboy#UIC",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
@@ -607,16 +599,7 @@
       },
       "next_match": null,
       "last_match": null,
-      "roster": [
-        {
-          "summoner": "UIC M Character#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "TheEigeeen#EIGI",
-          "is_captain": false
-        }
-      ],
+      "roster": [],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/204924",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/204000/204924.jpg?1765838352"
     }

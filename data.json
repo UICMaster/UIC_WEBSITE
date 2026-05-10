@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1164,
       "tier": "MASTER I",
-      "lp": 60,
-      "wins": 118,
+      "lp": 120,
+      "wins": 120,
       "losses": 125,
-      "winRate": 48.6,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -58,12 +58,12 @@
     {
       "name": "Baumi",
       "role": "SUB_1",
-      "level": 1069,
+      "level": 1070,
       "tier": "MASTER I",
-      "lp": 431,
-      "wins": 329,
-      "losses": 325,
-      "winRate": 50.3,
+      "lp": 398,
+      "wins": 330,
+      "losses": 327,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -311,8 +311,8 @@
       "level": 844,
       "tier": "MASTER I",
       "lp": 120,
-      "wins": 104,
-      "losses": 84,
+      "wins": 105,
+      "losses": 85,
       "winRate": 55.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6373.png"
     },
@@ -389,9 +389,9 @@
       "role": "BOT",
       "level": 741,
       "tier": "DIAMOND III",
-      "lp": 10,
-      "wins": 107,
-      "losses": 104,
+      "lp": 29,
+      "wins": 108,
+      "losses": 105,
       "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5449.png"
     },
@@ -445,11 +445,11 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 593,
-      "tier": "DIAMOND II",
-      "lp": 14,
+      "tier": "DIAMOND III",
+      "lp": 92,
       "wins": 141,
-      "losses": 160,
-      "winRate": 46.8,
+      "losses": 161,
+      "winRate": 46.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -507,7 +507,7 @@
       "wins": 54,
       "losses": 53,
       "winRate": 50.5,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6340.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5367.png"
     },
     {
       "name": "UIC Muh",
@@ -534,7 +534,7 @@
     {
       "name": "UIC Namorii",
       "role": "JGL_2",
-      "level": 954,
+      "level": 955,
       "tier": "DIAMOND IV",
       "lp": 0,
       "wins": 37,
@@ -578,7 +578,7 @@
     {
       "name": "UIC Deavan",
       "role": "BOT_2",
-      "level": 397,
+      "level": 398,
       "tier": "PLATINUM III",
       "lp": 81,
       "wins": 126,
