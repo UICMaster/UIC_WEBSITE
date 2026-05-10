@@ -17,7 +17,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 72,
+    "players": 73,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -311,6 +311,10 @@
       },
       "last_match": null,
       "roster": [
+        {
+          "summoner": "UIC Exi#QUAK",
+          "is_captain": false
+        },
         {
           "summoner": "UIC Hayu#UIC",
           "is_captain": false
