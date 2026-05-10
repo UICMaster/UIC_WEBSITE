@@ -17,7 +17,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 70,
+    "players": 71,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -100,6 +100,10 @@
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         },
         {
           "summoner": "UIC FrozenHands#MID",
@@ -281,10 +285,6 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -401,6 +401,10 @@
       },
       "last_match": null,
       "roster": [
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
+        },
         {
           "summoner": "UIC SilentCarry#Alune",
           "is_captain": true

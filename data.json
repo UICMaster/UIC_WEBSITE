@@ -60,9 +60,9 @@
       "role": "SUB_1",
       "level": 1070,
       "tier": "MASTER I",
-      "lp": 336,
-      "wins": 330,
-      "losses": 329,
+      "lp": 334,
+      "wins": 331,
+      "losses": 330,
       "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
@@ -538,8 +538,8 @@
       "tier": "DIAMOND IV",
       "lp": 0,
       "wins": 37,
-      "losses": 34,
-      "winRate": 52.1,
+      "losses": 35,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3791.png"
     },
     {
@@ -558,10 +558,10 @@
       "role": "MID_2",
       "level": 592,
       "tier": "DIAMOND IV",
-      "lp": 0,
+      "lp": 1,
       "wins": 239,
-      "losses": 215,
-      "winRate": 52.6,
+      "losses": 216,
+      "winRate": 52.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/23.png"
     },
     {
@@ -657,7 +657,7 @@
     {
       "name": "BlondiXE1",
       "role": "BOT",
-      "level": 427,
+      "level": 428,
       "tier": "GOLD IV",
       "lp": 87,
       "wins": 97,
