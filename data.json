@@ -36,7 +36,7 @@
     {
       "name": "UIC Giani",
       "role": "BOT",
-      "level": 731,
+      "level": 732,
       "tier": "MASTER I",
       "lp": 2,
       "wins": 73,
@@ -321,10 +321,10 @@
       "role": "SUP",
       "level": 997,
       "tier": "MASTER I",
-      "lp": 0,
+      "lp": 1,
       "wins": 67,
-      "losses": 64,
-      "winRate": 51.1,
+      "losses": 65,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6622.png"
     },
     {
@@ -389,10 +389,10 @@
       "role": "BOT",
       "level": 741,
       "tier": "DIAMOND III",
-      "lp": 35,
+      "lp": 13,
       "wins": 106,
-      "losses": 102,
-      "winRate": 51,
+      "losses": 103,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5449.png"
     },
     {
@@ -569,10 +569,10 @@
       "role": "BOT_1",
       "level": 1396,
       "tier": "GOLD II",
-      "lp": 68,
+      "lp": 47,
       "wins": 417,
-      "losses": 417,
-      "winRate": 50,
+      "losses": 418,
+      "winRate": 49.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7128.png"
     },
     {
@@ -738,10 +738,10 @@
       "role": "SUP",
       "level": 345,
       "tier": "EMERALD IV",
-      "lp": 76,
+      "lp": 55,
       "wins": 240,
-      "losses": 218,
-      "winRate": 52.4,
+      "losses": 219,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7100.png"
     },
     {
