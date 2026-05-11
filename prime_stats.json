@@ -17,7 +17,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 71,
+    "players": 67,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -102,10 +102,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC FrozenHands#MID",
           "is_captain": false
         }
@@ -136,10 +132,6 @@
       "roster": [
         {
           "summoner": "Autonamed#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "Regentropfen#H2O",
           "is_captain": false
         },
         {
@@ -222,10 +214,6 @@
         {
           "summoner": "UIC Hunter#UIC",
           "is_captain": false
-        },
-        {
-          "summoner": "DAG LingYao#EUW",
-          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/207696",
@@ -260,7 +248,7 @@
       "roster": [
         {
           "summoner": "UIC BissiBoy#UIC",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "Reign#Teach",
@@ -276,10 +264,6 @@
         },
         {
           "summoner": "UIC Haselmania#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "ChrizZzorR#NOC",
           "is_captain": false
         },
         {
