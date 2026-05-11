@@ -15,11 +15,11 @@
       "name": "UIC Niki",
       "role": "JGL",
       "level": 1030,
-      "tier": "DIAMOND I",
-      "lp": 82,
-      "wins": 128,
+      "tier": "MASTER I",
+      "lp": 33,
+      "wins": 130,
       "losses": 123,
-      "winRate": 51,
+      "winRate": 51.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4380.png"
     },
     {
@@ -515,8 +515,8 @@
       "level": 523,
       "tier": "GOLD I",
       "lp": 92,
-      "wins": 109,
-      "losses": 114,
+      "wins": 110,
+      "losses": 115,
       "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6061.png"
     },
@@ -806,10 +806,10 @@
       "role": "SUP",
       "level": 667,
       "tier": "EMERALD III",
-      "lp": 81,
+      "lp": 39,
       "wins": 72,
-      "losses": 86,
-      "winRate": 45.6,
+      "losses": 88,
+      "winRate": 45,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6037.png"
     }
   ]
