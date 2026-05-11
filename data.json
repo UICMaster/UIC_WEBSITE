@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1165,
       "tier": "MASTER I",
-      "lp": 118,
+      "lp": 88,
       "wins": 123,
-      "losses": 129,
-      "winRate": 48.8,
+      "losses": 130,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1031,
       "tier": "MASTER I",
-      "lp": 0,
-      "wins": 131,
+      "lp": 30,
+      "wins": 132,
       "losses": 127,
-      "winRate": 50.8,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4380.png"
     },
     {
@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1071,
       "tier": "MASTER I",
-      "lp": 592,
-      "wins": 343,
-      "losses": 334,
-      "winRate": 50.7,
+      "lp": 590,
+      "wins": 344,
+      "losses": 336,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -80,7 +80,7 @@
     {
       "name": "never leaving",
       "role": "MNG",
-      "level": 727,
+      "level": 728,
       "tier": "GOLD III",
       "lp": 13,
       "wins": 150,
@@ -93,10 +93,10 @@
       "role": "COH",
       "level": 797,
       "tier": "EMERALD II",
-      "lp": 48,
-      "wins": 42,
-      "losses": 39,
-      "winRate": 51.9,
+      "lp": 34,
+      "wins": 43,
+      "losses": 41,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     }
   ],
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 399,
       "tier": "DIAMOND II",
-      "lp": 60,
-      "wins": 85,
+      "lp": 78,
+      "wins": 86,
       "losses": 93,
-      "winRate": 47.8,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4626.png"
     },
     {
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 797,
       "tier": "EMERALD II",
-      "lp": 48,
-      "wins": 42,
-      "losses": 39,
-      "winRate": 51.9,
+      "lp": 34,
+      "wins": 43,
+      "losses": 41,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     },
     {
@@ -567,23 +567,23 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT_1",
-      "level": 1396,
+      "level": 1397,
       "tier": "GOLD I",
-      "lp": 22,
-      "wins": 421,
-      "losses": 419,
-      "winRate": 50.1,
+      "lp": 40,
+      "wins": 423,
+      "losses": 420,
+      "winRate": 50.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7128.png"
     },
     {
       "name": "UIC Deavan",
       "role": "BOT_2",
       "level": 398,
-      "tier": "PLATINUM III",
-      "lp": 81,
-      "wins": 126,
+      "tier": "PLATINUM II",
+      "lp": 1,
+      "wins": 127,
       "losses": 108,
-      "winRate": 53.8,
+      "winRate": 54,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -602,10 +602,10 @@
       "role": "SUP_2",
       "level": 572,
       "tier": "PLATINUM IV",
-      "lp": 49,
-      "wins": 98,
-      "losses": 100,
-      "winRate": 49.5,
+      "lp": 66,
+      "wins": 100,
+      "losses": 101,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7064.png"
     },
     {
@@ -613,10 +613,10 @@
       "role": "COH",
       "level": 797,
       "tier": "EMERALD II",
-      "lp": 48,
-      "wins": 42,
-      "losses": 39,
-      "winRate": 51.9,
+      "lp": 34,
+      "wins": 43,
+      "losses": 41,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4895.png"
     }
   ],
@@ -709,7 +709,7 @@
       "wins": 223,
       "losses": 209,
       "winRate": 51.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5680.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3797.png"
     },
     {
       "name": "OPEN SPOT",
@@ -727,10 +727,10 @@
       "role": "BOT",
       "level": 639,
       "tier": "DIAMOND IV",
-      "lp": 24,
-      "wins": 86,
+      "lp": 42,
+      "wins": 87,
       "losses": 81,
-      "winRate": 51.5,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/1625.png"
     },
     {
