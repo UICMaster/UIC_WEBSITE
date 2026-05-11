@@ -569,10 +569,10 @@
       "role": "BOT_1",
       "level": 1396,
       "tier": "GOLD II",
-      "lp": 66,
-      "wins": 418,
+      "lp": 85,
+      "wins": 419,
       "losses": 418,
-      "winRate": 50,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7128.png"
     },
     {
@@ -602,10 +602,10 @@
       "role": "SUP_2",
       "level": 572,
       "tier": "PLATINUM IV",
-      "lp": 30,
-      "wins": 97,
+      "lp": 49,
+      "wins": 98,
       "losses": 100,
-      "winRate": 49.2,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7064.png"
     },
     {

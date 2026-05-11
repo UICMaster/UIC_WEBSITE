@@ -17,7 +17,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 67,
+    "players": 69,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -102,6 +102,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC FrozenHands#MID",
           "is_captain": false
         }
@@ -132,6 +136,10 @@
       "roster": [
         {
           "summoner": "Autonamed#EUW",
+          "is_captain": false
+        },
+        {
+          "summoner": "Regentropfen#H2O",
           "is_captain": false
         },
         {
