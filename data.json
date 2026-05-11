@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1165,
       "tier": "MASTER I",
-      "lp": 90,
+      "lp": 59,
       "wins": 120,
-      "losses": 127,
-      "winRate": 48.6,
+      "losses": 128,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -138,11 +138,11 @@
       "name": "Pferdemilch",
       "role": "BOT",
       "level": 846,
-      "tier": "PLATINUM I",
-      "lp": 89,
-      "wins": 45,
+      "tier": "EMERALD IV",
+      "lp": 8,
+      "wins": 46,
       "losses": 68,
-      "winRate": 39.8,
+      "winRate": 40.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6582.png"
     },
     {
@@ -547,9 +547,9 @@
       "role": "MID_1",
       "level": 618,
       "tier": "PLATINUM IV",
-      "lp": 88,
-      "wins": 84,
-      "losses": 90,
+      "lp": 85,
+      "wins": 85,
+      "losses": 91,
       "winRate": 48.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4379.png"
     },
@@ -571,8 +571,8 @@
       "tier": "GOLD II",
       "lp": 85,
       "wins": 419,
-      "losses": 418,
-      "winRate": 50.1,
+      "losses": 419,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7128.png"
     },
     {
@@ -795,10 +795,10 @@
       "role": "BOT",
       "level": 645,
       "tier": "DIAMOND IV",
-      "lp": 33,
+      "lp": 0,
       "wins": 80,
-      "losses": 88,
-      "winRate": 47.6,
+      "losses": 90,
+      "winRate": 47.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6330.png"
     },
     {
