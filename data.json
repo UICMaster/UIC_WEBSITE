@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1165,
       "tier": "MASTER I",
-      "lp": 59,
-      "wins": 120,
+      "lp": 89,
+      "wins": 121,
       "losses": 128,
-      "winRate": 48.4,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1030,
       "tier": "MASTER I",
-      "lp": 33,
+      "lp": 3,
       "wins": 130,
-      "losses": 123,
-      "winRate": 51.4,
+      "losses": 124,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4380.png"
     },
     {
@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1071,
       "tier": "MASTER I",
-      "lp": 477,
-      "wins": 337,
-      "losses": 332,
-      "winRate": 50.4,
+      "lp": 444,
+      "wins": 338,
+      "losses": 334,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -205,7 +205,7 @@
     {
       "name": "FirstBlo",
       "role": "SUP",
-      "level": 484,
+      "level": 485,
       "tier": "DIAMOND IV",
       "lp": 17,
       "wins": 83,
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 399,
       "tier": "DIAMOND II",
-      "lp": 68,
-      "wins": 83,
+      "lp": 86,
+      "wins": 84,
       "losses": 91,
-      "winRate": 47.7,
+      "winRate": 48,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4626.png"
     },
     {
@@ -545,12 +545,12 @@
     {
       "name": "UIC adedier",
       "role": "MID_1",
-      "level": 618,
-      "tier": "PLATINUM IV",
-      "lp": 85,
-      "wins": 85,
+      "level": 619,
+      "tier": "PLATINUM III",
+      "lp": 3,
+      "wins": 86,
       "losses": 91,
-      "winRate": 48.3,
+      "winRate": 48.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4379.png"
     },
     {
@@ -568,11 +568,11 @@
       "name": "UIC Boohunter",
       "role": "BOT_1",
       "level": 1396,
-      "tier": "GOLD II",
-      "lp": 85,
-      "wins": 419,
+      "tier": "GOLD I",
+      "lp": 22,
+      "wins": 421,
       "losses": 419,
-      "winRate": 50,
+      "winRate": 50.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7128.png"
     },
     {
@@ -773,10 +773,10 @@
       "role": "JGL",
       "level": 496,
       "tier": "MASTER I",
-      "lp": 120,
-      "wins": 139,
+      "lp": 150,
+      "wins": 140,
       "losses": 127,
-      "winRate": 52.3,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/29.png"
     },
     {
