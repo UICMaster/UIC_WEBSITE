@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1165,
       "tier": "MASTER I",
-      "lp": 88,
+      "lp": 57,
       "wins": 123,
-      "losses": 130,
-      "winRate": 48.6,
+      "losses": 131,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1031,
       "tier": "MASTER I",
-      "lp": 30,
+      "lp": 0,
       "wins": 133,
-      "losses": 128,
-      "winRate": 51,
+      "losses": 129,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4380.png"
     },
     {
@@ -58,7 +58,7 @@
     {
       "name": "Baumi",
       "role": "SUB_1",
-      "level": 1071,
+      "level": 1072,
       "tier": "MASTER I",
       "lp": 620,
       "wins": 345,
@@ -367,10 +367,10 @@
       "role": "JGL",
       "level": 789,
       "tier": "MASTER I",
-      "lp": 30,
+      "lp": 0,
       "wins": 32,
-      "losses": 26,
-      "winRate": 55.2,
+      "losses": 27,
+      "winRate": 54.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3840.png"
     },
     {
@@ -579,11 +579,11 @@
       "name": "UIC Deavan",
       "role": "BOT_2",
       "level": 398,
-      "tier": "PLATINUM II",
-      "lp": 1,
+      "tier": "PLATINUM III",
+      "lp": 80,
       "wins": 127,
-      "losses": 108,
-      "winRate": 54,
+      "losses": 109,
+      "winRate": 53.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -705,10 +705,10 @@
       "role": "JGL",
       "level": 1245,
       "tier": "EMERALD III",
-      "lp": 92,
+      "lp": 50,
       "wins": 224,
-      "losses": 211,
-      "winRate": 51.5,
+      "losses": 213,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3797.png"
     },
     {
