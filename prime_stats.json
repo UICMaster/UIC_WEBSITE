@@ -38,16 +38,16 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1160373"
       },
       {
-        "team_key": "ECLIPSE",
-        "date": "2026-05-17T19:00:00+02:00",
-        "enemy": "GTU",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163112"
-      },
-      {
         "team_key": "CYBER",
         "date": "2026-05-17T19:00:00+02:00",
         "enemy": "Pupp",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161116"
+      },
+      {
+        "team_key": "NOVA",
+        "date": "2026-05-17T19:00:00+02:00",
+        "enemy": "ORI",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162131"
       }
     ]
   },
@@ -131,7 +131,7 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-17T19:00:00+02:00",
+        "date": "2026-05-20T19:30:00+02:00",
         "tag": "GTU",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163112",
         "enemy_roster": []
