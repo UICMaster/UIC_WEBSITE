@@ -17,7 +17,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 71,
+    "players": 72,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -144,6 +144,10 @@
         },
         {
           "summoner": "Regentropfen#H2O",
+          "is_captain": false
+        },
+        {
+          "summoner": "Nick Halden#1977",
           "is_captain": false
         },
         {

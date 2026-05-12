@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1166,
       "tier": "MASTER I",
-      "lp": 38,
-      "wins": 128,
+      "lp": 98,
+      "wins": 130,
       "losses": 137,
-      "winRate": 48.3,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4835.png"
     },
     {
@@ -16,9 +16,9 @@
       "role": "JGL",
       "level": 1031,
       "tier": "DIAMOND I",
-      "lp": 75,
-      "wins": 133,
-      "losses": 130,
+      "lp": 76,
+      "wins": 134,
+      "losses": 131,
       "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4380.png"
     },
@@ -60,9 +60,9 @@
       "role": "SUB_1",
       "level": 1072,
       "tier": "MASTER I",
-      "lp": 616,
-      "wins": 348,
-      "losses": 340,
+      "lp": 614,
+      "wins": 349,
+      "losses": 341,
       "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3151.png"
     },
@@ -93,10 +93,10 @@
       "role": "COH",
       "level": 797,
       "tier": "EMERALD III",
-      "lp": 0,
-      "wins": 43,
+      "lp": 20,
+      "wins": 44,
       "losses": 48,
-      "winRate": 47.3,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     }
   ],
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 797,
       "tier": "EMERALD III",
-      "lp": 0,
-      "wins": 43,
+      "lp": 20,
+      "wins": 44,
       "losses": 48,
-      "winRate": 47.3,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     },
     {
@@ -365,7 +365,7 @@
     {
       "name": "Ðărkø",
       "role": "JGL",
-      "level": 789,
+      "level": 790,
       "tier": "MASTER I",
       "lp": 0,
       "wins": 32,
@@ -600,7 +600,7 @@
     {
       "name": "UIC Excellent C",
       "role": "SUP_2",
-      "level": 572,
+      "level": 573,
       "tier": "PLATINUM IV",
       "lp": 83,
       "wins": 102,
@@ -613,10 +613,10 @@
       "role": "COH",
       "level": 797,
       "tier": "EMERALD III",
-      "lp": 0,
-      "wins": 43,
+      "lp": 20,
+      "wins": 44,
       "losses": 48,
-      "winRate": 47.3,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     }
   ],
@@ -693,11 +693,11 @@
       "name": "UIC ソニック",
       "role": "TOP",
       "level": 722,
-      "tier": "PLATINUM I",
-      "lp": 12,
+      "tier": "PLATINUM II",
+      "lp": 72,
       "wins": 59,
-      "losses": 58,
-      "winRate": 50.4,
+      "losses": 60,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6490.png"
     },
     {
