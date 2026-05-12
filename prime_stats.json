@@ -17,7 +17,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 70,
+    "players": 71,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -196,7 +196,7 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-24T17:00:00+02:00",
+        "date": "2026-05-19T20:15:00+02:00",
         "tag": "MMM",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159557",
         "enemy_roster": []
@@ -361,19 +361,23 @@
       "last_match": null,
       "roster": [
         {
-          "summoner": "UIC Pjure#CYS",
-          "is_captain": true
-        },
-        {
           "summoner": "Ðărkø#SAI",
           "is_captain": false
         },
         {
+          "summoner": "UIC Pjure#CYS",
+          "is_captain": false
+        },
+        {
           "summoner": "CYS Rellik#CYS",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC DANY#RFA40",
+          "is_captain": false
+        },
+        {
+          "summoner": "CYS Ryu Panda#CSX",
           "is_captain": false
         }
       ],
