@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1165,
       "tier": "MASTER I",
-      "lp": 57,
-      "wins": 123,
+      "lp": 147,
+      "wins": 126,
       "losses": 131,
-      "winRate": 48.4,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1072,
       "tier": "MASTER I",
-      "lp": 620,
+      "lp": 589,
       "wins": 345,
-      "losses": 336,
-      "winRate": 50.7,
+      "losses": 337,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 845,
       "tier": "MASTER I",
-      "lp": 60,
+      "lp": 30,
       "wins": 106,
-      "losses": 88,
-      "winRate": 54.6,
+      "losses": 89,
+      "winRate": 54.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6373.png"
     },
     {
@@ -435,10 +435,10 @@
       "role": "MID",
       "level": 594,
       "tier": "EMERALD IV",
-      "lp": 19,
+      "lp": 0,
       "wins": 115,
-      "losses": 100,
-      "winRate": 53.5,
+      "losses": 102,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7127.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 594,
       "tier": "DIAMOND III",
-      "lp": 92,
+      "lp": 48,
       "wins": 141,
-      "losses": 161,
-      "winRate": 46.7,
+      "losses": 163,
+      "winRate": 46.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -479,10 +479,10 @@
       "role": "MNG",
       "level": 594,
       "tier": "EMERALD IV",
-      "lp": 19,
+      "lp": 0,
       "wins": 115,
-      "losses": 100,
-      "winRate": 53.5,
+      "losses": 102,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7127.png"
     },
     {
@@ -547,9 +547,9 @@
       "role": "MID_1",
       "level": 619,
       "tier": "PLATINUM III",
-      "lp": 22,
-      "wins": 87,
-      "losses": 91,
+      "lp": 41,
+      "wins": 88,
+      "losses": 92,
       "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4379.png"
     },
@@ -568,10 +568,10 @@
       "name": "UIC Boohunter",
       "role": "BOT_1",
       "level": 1397,
-      "tier": "GOLD I",
-      "lp": 99,
-      "wins": 426,
-      "losses": 420,
+      "tier": "PLATINUM IV",
+      "lp": 1,
+      "wins": 427,
+      "losses": 421,
       "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7128.png"
     },
@@ -705,11 +705,11 @@
       "role": "JGL",
       "level": 1245,
       "tier": "EMERALD III",
-      "lp": 50,
+      "lp": 8,
       "wins": 224,
-      "losses": 213,
-      "winRate": 51.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3797.png"
+      "losses": 215,
+      "winRate": 51,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5769.png"
     },
     {
       "name": "OPEN SPOT",
