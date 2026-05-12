@@ -10,5 +10,11 @@
     "description": "gameday 1",
     "start": "2026-05-17T18:00:00+00:00",
     "location": "https://www.primeleague.gg/de/leagues/matches/1161366"
+  },
+  {
+    "name": "Ultra Instinct Crew Vakuum vs. Midlife Macro Masters T2",
+    "description": "gameday 2",
+    "start": "2026-05-19T18:15:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1159557"
   }
 ]
