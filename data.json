@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1166,
       "tier": "MASTER I",
-      "lp": 56,
+      "lp": 0,
       "wins": 126,
-      "losses": 135,
-      "winRate": 48.3,
+      "losses": 137,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4835.png"
     },
     {
@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1072,
       "tier": "MASTER I",
-      "lp": 587,
-      "wins": 347,
+      "lp": 647,
+      "wins": 348,
       "losses": 339,
-      "winRate": 50.6,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3151.png"
     },
     {
@@ -354,12 +354,12 @@
     {
       "name": "UIC DANY",
       "role": "TOP",
-      "level": 543,
+      "level": 544,
       "tier": "DIAMOND I",
-      "lp": 24,
-      "wins": 87,
+      "lp": 44,
+      "wins": 88,
       "losses": 67,
-      "winRate": 56.5,
+      "winRate": 56.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3157.png"
     },
     {
@@ -535,11 +535,11 @@
       "name": "UIC Namorii",
       "role": "JGL_2",
       "level": 955,
-      "tier": "DIAMOND IV",
-      "lp": 0,
+      "tier": "EMERALD I",
+      "lp": 53,
       "wins": 37,
-      "losses": 35,
-      "winRate": 51.4,
+      "losses": 37,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/3791.png"
     },
     {
@@ -557,22 +557,22 @@
       "name": "UIC GreatATuin",
       "role": "MID_2",
       "level": 593,
-      "tier": "DIAMOND IV",
-      "lp": 1,
+      "tier": "EMERALD I",
+      "lp": 25,
       "wins": 239,
-      "losses": 216,
-      "winRate": 52.5,
+      "losses": 218,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/23.png"
     },
     {
       "name": "UIC Boohunter",
       "role": "BOT_1",
-      "level": 1397,
+      "level": 1398,
       "tier": "PLATINUM IV",
-      "lp": 21,
-      "wins": 428,
+      "lp": 63,
+      "wins": 430,
       "losses": 421,
-      "winRate": 50.4,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7128.png"
     },
     {
@@ -580,10 +580,10 @@
       "role": "BOT_2",
       "level": 398,
       "tier": "PLATINUM III",
-      "lp": 38,
+      "lp": 17,
       "wins": 127,
-      "losses": 111,
-      "winRate": 53.4,
+      "losses": 112,
+      "winRate": 53.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/6388.png"
     },
     {
@@ -602,10 +602,10 @@
       "role": "SUP_2",
       "level": 572,
       "tier": "PLATINUM IV",
-      "lp": 64,
-      "wins": 101,
+      "lp": 83,
+      "wins": 102,
       "losses": 102,
-      "winRate": 49.8,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/7064.png"
     },
     {
@@ -709,7 +709,7 @@
       "wins": 224,
       "losses": 217,
       "winRate": 50.8,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/5769.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.9.1/img/profileicon/4639.png"
     },
     {
       "name": "OPEN SPOT",
