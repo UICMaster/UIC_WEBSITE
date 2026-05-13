@@ -307,7 +307,13 @@
         "date": "2026-05-13T19:00:00+02:00",
         "tag": "ZSB",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160808",
-        "enemy_roster": []
+        "enemy_roster": [
+          "Dennis reformed#EUW",
+          "Dr Schlaganfall#EUW",
+          "SionAraAra#Toga",
+          "Glutenmensch#EUW",
+          "Hand of Sorrow#6525"
+        ]
       },
       "last_match": null,
       "roster": [

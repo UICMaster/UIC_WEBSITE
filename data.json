@@ -60,8 +60,8 @@
       "role": "SUB_1",
       "level": 1072,
       "tier": "MASTER I",
-      "lp": 643,
-      "wins": 350,
+      "lp": 672,
+      "wins": 351,
       "losses": 341,
       "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3151.png"
@@ -128,10 +128,10 @@
       "role": "MID",
       "level": 988,
       "tier": "DIAMOND IV",
-      "lp": 44,
-      "wins": 21,
-      "losses": 38,
-      "winRate": 35.6,
+      "lp": 48,
+      "wins": 22,
+      "losses": 39,
+      "winRate": 36.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6284.png"
     },
     {
@@ -205,7 +205,7 @@
     {
       "name": "FirstBlo",
       "role": "SUP",
-      "level": 485,
+      "level": 486,
       "tier": "DIAMOND IV",
       "lp": 17,
       "wins": 83,
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 845,
       "tier": "MASTER I",
-      "lp": 60,
-      "wins": 107,
+      "lp": 120,
+      "wins": 109,
       "losses": 89,
-      "winRate": 54.6,
+      "winRate": 55.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6373.png"
     },
     {
@@ -436,9 +436,9 @@
       "level": 594,
       "tier": "EMERALD IV",
       "lp": 19,
-      "wins": 116,
-      "losses": 103,
-      "winRate": 53,
+      "wins": 117,
+      "losses": 105,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7127.png"
     },
     {
@@ -480,9 +480,9 @@
       "level": 594,
       "tier": "EMERALD IV",
       "lp": 19,
-      "wins": 116,
-      "losses": 103,
-      "winRate": 53,
+      "wins": 117,
+      "losses": 105,
+      "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7127.png"
     },
     {
@@ -556,12 +556,12 @@
     {
       "name": "UIC GreatATuin",
       "role": "MID_2",
-      "level": 593,
-      "tier": "EMERALD I",
-      "lp": 19,
-      "wins": 241,
-      "losses": 220,
-      "winRate": 52.3,
+      "level": 594,
+      "tier": "EMERALD II",
+      "lp": 73,
+      "wins": 242,
+      "losses": 223,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/23.png"
     },
     {
@@ -580,10 +580,10 @@
       "role": "BOT_2",
       "level": 399,
       "tier": "PLATINUM III",
-      "lp": 17,
-      "wins": 127,
+      "lp": 89,
+      "wins": 131,
       "losses": 112,
-      "winRate": 53.1,
+      "winRate": 53.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
     },
     {
@@ -624,12 +624,12 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 581,
+      "level": 582,
       "tier": "EMERALD IV",
-      "lp": 97,
-      "wins": 66,
-      "losses": 70,
-      "winRate": 48.5,
+      "lp": 57,
+      "wins": 67,
+      "losses": 73,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3891.png"
     },
     {
