@@ -1,11 +1,5 @@
 [
   {
-    "name": "Ultra Instinct Crew Phoenix vs. Zu schlecht für Botis",
-    "description": "gameday 1",
-    "start": "2026-05-14T18:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1160808"
-  },
-  {
     "name": "Ultra Instinct Crew Spark vs. Tiamat´s Abyss",
     "description": "gameday 1",
     "start": "2026-05-17T18:00:00+00:00",
@@ -28,5 +22,11 @@
     "description": "gameday 1",
     "start": "2026-05-17T17:00:00+00:00",
     "location": "https://www.primeleague.gg/de/leagues/matches/1162131"
+  },
+  {
+    "name": "ULTRA INSTINCT CREW OBSIDIAN vs. ExMortis eSports",
+    "description": "gameday 1",
+    "start": "2026-05-17T15:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1162753"
   }
 ]
