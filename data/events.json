@@ -22,5 +22,11 @@
     "description": "gameday 1",
     "start": "2026-05-20T17:30:00+00:00",
     "location": "https://www.primeleague.gg/de/leagues/matches/1163112"
+  },
+  {
+    "name": "Ultra Instinct Crew Nova vs. Senru Excalibur",
+    "description": "gameday 1",
+    "start": "2026-05-17T17:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1162131"
   }
 ]
