@@ -17,7 +17,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 68,
+    "players": 71,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -102,6 +102,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC FrozenHands#MID",
           "is_captain": false
         }
@@ -132,6 +136,10 @@
       "roster": [
         {
           "summoner": "Autonamed#EUW",
+          "is_captain": false
+        },
+        {
+          "summoner": "Regentropfen#H2O",
           "is_captain": false
         },
         {
@@ -218,6 +226,10 @@
         {
           "summoner": "UIC Hunter#UIC",
           "is_captain": false
+        },
+        {
+          "summoner": "DAG LingYao#EUW",
+          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/207696",
@@ -300,6 +312,10 @@
       "last_match": null,
       "roster": [
         {
+          "summoner": "UIC Exi#QUAK",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Hayu#UIC",
           "is_captain": false
         },
@@ -317,6 +333,10 @@
         },
         {
           "summoner": "UIC AutumnLeaf#Moo",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         }
       ],
@@ -567,10 +587,6 @@
         {
           "summoner": "UIC Starboy#UIC",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
@@ -591,12 +607,7 @@
       },
       "next_match": null,
       "last_match": null,
-      "roster": [
-        {
-          "summoner": "UIC M Character#UIC",
-          "is_captain": false
-        }
-      ],
+      "roster": [],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/204924",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/204000/204924.jpg?1765838352"
     }

@@ -126,12 +126,12 @@
     {
       "name": "Regentropfen",
       "role": "MID",
-      "level": 987,
+      "level": 988,
       "tier": "DIAMOND IV",
-      "lp": 22,
-      "wins": 20,
+      "lp": 44,
+      "wins": 21,
       "losses": 38,
-      "winRate": 34.5,
+      "winRate": 35.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6284.png"
     },
     {
@@ -558,10 +558,10 @@
       "role": "MID_2",
       "level": 593,
       "tier": "EMERALD I",
-      "lp": 41,
+      "lp": 19,
       "wins": 241,
-      "losses": 219,
-      "winRate": 52.4,
+      "losses": 220,
+      "winRate": 52.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/23.png"
     },
     {
@@ -569,9 +569,9 @@
       "role": "BOT_1",
       "level": 1398,
       "tier": "PLATINUM IV",
-      "lp": 44,
-      "wins": 430,
-      "losses": 422,
+      "lp": 46,
+      "wins": 431,
+      "losses": 423,
       "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
