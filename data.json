@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1073,
       "tier": "MASTER I",
-      "lp": 695,
+      "lp": 664,
       "wins": 355,
-      "losses": 345,
-      "winRate": 50.7,
+      "losses": 346,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3151.png"
     },
     {
@@ -71,10 +71,10 @@
       "role": "SUB_2",
       "level": 641,
       "tier": "MASTER I",
-      "lp": 90,
+      "lp": 60,
       "wins": 66,
-      "losses": 57,
-      "winRate": 53.7,
+      "losses": 58,
+      "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6811.png"
     },
     {
@@ -86,7 +86,7 @@
       "wins": 150,
       "losses": 170,
       "winRate": 46.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4555.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5988.png"
     },
     {
       "name": "UIC Loonz",
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 399,
       "tier": "DIAMOND II",
-      "lp": 78,
+      "lp": 56,
       "wins": 86,
-      "losses": 93,
-      "winRate": 48,
+      "losses": 94,
+      "winRate": 47.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4626.png"
     },
     {
@@ -376,7 +376,7 @@
     {
       "name": "CYS Rellik",
       "role": "MID",
-      "level": 671,
+      "level": 672,
       "tier": "DIAMOND IV",
       "lp": 2,
       "wins": 118,
@@ -514,10 +514,10 @@
       "role": "TOP_2",
       "level": 523,
       "tier": "PLATINUM IV",
-      "lp": 12,
+      "lp": 0,
       "wins": 111,
-      "losses": 115,
-      "winRate": 49.1,
+      "losses": 116,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6061.png"
     },
     {
@@ -547,9 +547,9 @@
       "role": "MID_1",
       "level": 619,
       "tier": "PLATINUM III",
-      "lp": 60,
-      "wins": 89,
-      "losses": 92,
+      "lp": 58,
+      "wins": 90,
+      "losses": 93,
       "winRate": 49.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4379.png"
     },

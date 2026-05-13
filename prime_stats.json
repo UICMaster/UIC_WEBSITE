@@ -15,16 +15,10 @@
     ]
   },
   "global": {
-    "matches": 0,
-    "wr": 0,
+    "matches": 1,
+    "wr": 100,
     "players": 71,
     "radar": [
-      {
-        "team_key": "PHOENIX",
-        "date": "2026-05-13T19:00:00+02:00",
-        "enemy": "ZSB",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160808"
-      },
       {
         "team_key": "PRIME",
         "date": "2026-05-17T17:00:00+02:00",
@@ -36,6 +30,12 @@
         "date": "2026-05-17T17:00:00+02:00",
         "enemy": "BOM",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160373"
+      },
+      {
+        "team_key": "OBSIDIAN",
+        "date": "2026-05-17T17:00:00+02:00",
+        "enemy": "ExMortis",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162753"
       },
       {
         "team_key": "CYBER",
@@ -296,26 +296,27 @@
         "div": null
       },
       "stats": {
-        "wins": 0,
+        "wins": 2,
         "losses": 0,
-        "points": 0,
-        "games": 0,
-        "win_rate": 0,
-        "form": []
-      },
-      "next_match": {
-        "date": "2026-05-13T19:00:00+02:00",
-        "tag": "ZSB",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160808",
-        "enemy_roster": [
-          "Dennis reformed#EUW",
-          "Dr Schlaganfall#EUW",
-          "SionAraAra#Toga",
-          "Glutenmensch#EUW",
-          "Hand of Sorrow#6525"
+        "points": 3,
+        "games": 1,
+        "win_rate": 100,
+        "form": [
+          "W"
         ]
       },
-      "last_match": null,
+      "next_match": {
+        "date": "2026-05-24T19:00:00+02:00",
+        "tag": "NNN",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160811",
+        "enemy_roster": []
+      },
+      "last_match": {
+        "result": "SIEG",
+        "score": "2 - 0",
+        "enemy": "ZSB",
+        "date": "2026-05-13T19:00:00+02:00"
+      },
       "roster": [
         {
           "summoner": "UIC Exi#QUAK",
@@ -518,7 +519,7 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-17T19:00:00+02:00",
+        "date": "2026-05-17T17:00:00+02:00",
         "tag": "ExMortis",
         "link": "https://www.primeleague.gg/de/leagues/matches/1162753",
         "enemy_roster": []
