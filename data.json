@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1073,
       "tier": "MASTER I",
-      "lp": 752,
-      "wins": 358,
-      "losses": 346,
-      "winRate": 50.9,
+      "lp": 721,
+      "wins": 359,
+      "losses": 348,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3151.png"
     },
     {
@@ -80,7 +80,7 @@
     {
       "name": "never leaving",
       "role": "MNG",
-      "level": 728,
+      "level": 729,
       "tier": "GOLD IV",
       "lp": 68,
       "wins": 150,
@@ -366,8 +366,8 @@
       "name": "Ðărkø",
       "role": "JGL",
       "level": 790,
-      "tier": "MASTER I",
-      "lp": 0,
+      "tier": "DIAMOND I",
+      "lp": 75,
       "wins": 32,
       "losses": 27,
       "winRate": 54.2,
@@ -514,10 +514,10 @@
       "role": "TOP_2",
       "level": 524,
       "tier": "PLATINUM IV",
-      "lp": 19,
+      "lp": 0,
       "wins": 112,
-      "losses": 117,
-      "winRate": 48.9,
+      "losses": 118,
+      "winRate": 48.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6061.png"
     },
     {
@@ -709,7 +709,7 @@
       "wins": 226,
       "losses": 220,
       "winRate": 50.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4639.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5959.png"
     },
     {
       "name": "OPEN SPOT",
