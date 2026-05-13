@@ -3,12 +3,12 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1166,
+      "level": 1167,
       "tier": "MASTER I",
-      "lp": 98,
-      "wins": 131,
-      "losses": 138,
-      "winRate": 48.7,
+      "lp": 158,
+      "wins": 134,
+      "losses": 139,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4835.png"
     },
     {
@@ -58,12 +58,12 @@
     {
       "name": "Baumi",
       "role": "SUB_1",
-      "level": 1072,
+      "level": 1073,
       "tier": "MASTER I",
-      "lp": 672,
-      "wins": 351,
-      "losses": 341,
-      "winRate": 50.7,
+      "lp": 639,
+      "wins": 352,
+      "losses": 344,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3151.png"
     },
     {
@@ -128,10 +128,10 @@
       "role": "MID",
       "level": 988,
       "tier": "DIAMOND IV",
-      "lp": 48,
-      "wins": 22,
+      "lp": 70,
+      "wins": 23,
       "losses": 39,
-      "winRate": 36.1,
+      "winRate": 37.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6284.png"
     },
     {
@@ -411,7 +411,7 @@
     {
       "name": "UIC lightfire",
       "role": "TOP",
-      "level": 920,
+      "level": 921,
       "tier": "EMERALD I",
       "lp": 1,
       "wins": 60,
@@ -435,9 +435,9 @@
       "role": "MID",
       "level": 594,
       "tier": "EMERALD IV",
-      "lp": 19,
-      "wins": 117,
-      "losses": 105,
+      "lp": 37,
+      "wins": 118,
+      "losses": 106,
       "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7127.png"
     },
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 595,
       "tier": "DIAMOND III",
-      "lp": 57,
+      "lp": 35,
       "wins": 145,
-      "losses": 167,
-      "winRate": 46.5,
+      "losses": 168,
+      "winRate": 46.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
     },
     {
@@ -479,9 +479,9 @@
       "role": "MNG",
       "level": 594,
       "tier": "EMERALD IV",
-      "lp": 19,
-      "wins": 117,
-      "losses": 105,
+      "lp": 37,
+      "wins": 118,
+      "losses": 106,
       "winRate": 52.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7127.png"
     },
@@ -558,9 +558,9 @@
       "role": "MID_2",
       "level": 594,
       "tier": "EMERALD II",
-      "lp": 73,
-      "wins": 242,
-      "losses": 223,
+      "lp": 71,
+      "wins": 243,
+      "losses": 224,
       "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/23.png"
     },
@@ -569,10 +569,10 @@
       "role": "BOT_1",
       "level": 1398,
       "tier": "PLATINUM IV",
-      "lp": 46,
+      "lp": 7,
       "wins": 431,
-      "losses": 423,
-      "winRate": 50.5,
+      "losses": 425,
+      "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
     {
@@ -581,9 +581,9 @@
       "level": 399,
       "tier": "PLATINUM III",
       "lp": 89,
-      "wins": 131,
-      "losses": 112,
-      "winRate": 53.9,
+      "wins": 133,
+      "losses": 114,
+      "winRate": 53.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
     },
     {
@@ -657,12 +657,12 @@
     {
       "name": "BlondiXE1",
       "role": "BOT",
-      "level": 428,
+      "level": 429,
       "tier": "GOLD IV",
-      "lp": 87,
+      "lp": 45,
       "wins": 97,
-      "losses": 84,
-      "winRate": 53.6,
+      "losses": 86,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6102.png"
     },
     {
@@ -705,9 +705,9 @@
       "role": "JGL",
       "level": 1246,
       "tier": "EMERALD IV",
-      "lp": 60,
-      "wins": 225,
-      "losses": 219,
+      "lp": 56,
+      "wins": 226,
+      "losses": 220,
       "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4639.png"
     },
