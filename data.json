@@ -183,7 +183,7 @@
     {
       "name": "UIC Kaoxz",
       "role": "MID",
-      "level": 465,
+      "level": 466,
       "tier": "DIAMOND IV",
       "lp": 6,
       "wins": 83,
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 399,
       "tier": "DIAMOND II",
-      "lp": 56,
-      "wins": 86,
+      "lp": 93,
+      "wins": 88,
       "losses": 94,
-      "winRate": 47.8,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4626.png"
     },
     {
@@ -356,10 +356,10 @@
       "role": "TOP",
       "level": 544,
       "tier": "DIAMOND I",
-      "lp": 44,
-      "wins": 88,
+      "lp": 63,
+      "wins": 89,
       "losses": 67,
-      "winRate": 56.8,
+      "winRate": 57.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3157.png"
     },
     {
@@ -569,8 +569,8 @@
       "role": "BOT_1",
       "level": 1398,
       "tier": "PLATINUM IV",
-      "lp": 7,
-      "wins": 431,
+      "lp": 27,
+      "wins": 432,
       "losses": 425,
       "winRate": 50.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
@@ -738,10 +738,10 @@
       "role": "SUP",
       "level": 346,
       "tier": "EMERALD IV",
-      "lp": 75,
+      "lp": 33,
       "wins": 241,
-      "losses": 220,
-      "winRate": 52.3,
+      "losses": 222,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7100.png"
     },
     {
