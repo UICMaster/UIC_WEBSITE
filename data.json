@@ -82,10 +82,10 @@
       "role": "MNG",
       "level": 729,
       "tier": "GOLD IV",
-      "lp": 45,
+      "lp": 0,
       "wins": 150,
-      "losses": 172,
-      "winRate": 46.6,
+      "losses": 174,
+      "winRate": 46.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5988.png"
     },
     {
@@ -93,10 +93,10 @@
       "role": "COH",
       "level": 798,
       "tier": "EMERALD III",
-      "lp": 1,
-      "wins": 45,
+      "lp": 21,
+      "wins": 46,
       "losses": 50,
-      "winRate": 47.4,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     }
   ],
@@ -128,10 +128,10 @@
       "role": "MID",
       "level": 989,
       "tier": "DIAMOND III",
-      "lp": 18,
-      "wins": 28,
-      "losses": 43,
-      "winRate": 39.4,
+      "lp": 20,
+      "wins": 29,
+      "losses": 44,
+      "winRate": 39.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6284.png"
     },
     {
@@ -264,10 +264,10 @@
       "role": "SUP",
       "level": 681,
       "tier": "DIAMOND IV",
-      "lp": 20,
-      "wins": 39,
+      "lp": 40,
+      "wins": 40,
       "losses": 43,
-      "winRate": 47.6,
+      "winRate": 48.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5642.png"
     }
   ],
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 846,
       "tier": "MASTER I",
-      "lp": 150,
-      "wins": 112,
+      "lp": 210,
+      "wins": 113,
       "losses": 91,
-      "winRate": 55.2,
+      "winRate": 55.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6373.png"
     },
     {
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 798,
       "tier": "EMERALD III",
-      "lp": 1,
-      "wins": 45,
+      "lp": 21,
+      "wins": 46,
       "losses": 50,
-      "winRate": 47.4,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     },
     {
@@ -365,7 +365,7 @@
     {
       "name": "Ðărkø",
       "role": "JGL",
-      "level": 790,
+      "level": 791,
       "tier": "DIAMOND I",
       "lp": 75,
       "wins": 32,
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 595,
       "tier": "DIAMOND III",
-      "lp": 31,
-      "wins": 146,
+      "lp": 49,
+      "wins": 147,
       "losses": 169,
-      "winRate": 46.3,
+      "winRate": 46.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
     },
     {
@@ -613,10 +613,10 @@
       "role": "COH",
       "level": 798,
       "tier": "EMERALD III",
-      "lp": 1,
-      "wins": 45,
+      "lp": 21,
+      "wins": 46,
       "losses": 50,
-      "winRate": 47.4,
+      "winRate": 47.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     }
   ],
@@ -704,12 +704,12 @@
       "name": "Aphrodite",
       "role": "JGL",
       "level": 1247,
-      "tier": "EMERALD IV",
-      "lp": 34,
-      "wins": 226,
+      "tier": "EMERALD III",
+      "lp": 8,
+      "wins": 230,
       "losses": 221,
-      "winRate": 50.6,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5959.png"
+      "winRate": 51,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3150.png"
     },
     {
       "name": "OPEN SPOT",
@@ -727,9 +727,9 @@
       "role": "BOT",
       "level": 640,
       "tier": "DIAMOND IV",
-      "lp": 20,
-      "wins": 87,
-      "losses": 82,
+      "lp": 17,
+      "wins": 88,
+      "losses": 83,
       "winRate": 51.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/1625.png"
     },
@@ -738,10 +738,10 @@
       "role": "SUP",
       "level": 346,
       "tier": "EMERALD IV",
-      "lp": 33,
+      "lp": 11,
       "wins": 241,
-      "losses": 223,
-      "winRate": 51.9,
+      "losses": 224,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7100.png"
     },
     {

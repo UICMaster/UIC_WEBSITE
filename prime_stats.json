@@ -17,7 +17,7 @@
   "global": {
     "matches": 1,
     "wr": 100,
-    "players": 71,
+    "players": 72,
     "radar": [
       {
         "team_key": "SAKURA",
@@ -276,6 +276,10 @@
         },
         {
           "summoner": "UIC Haselmania#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "FlashMaster3000#EUW",
           "is_captain": false
         },
         {
