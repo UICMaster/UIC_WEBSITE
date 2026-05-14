@@ -17,7 +17,7 @@
   "global": {
     "matches": 1,
     "wr": 100,
-    "players": 71,
+    "players": 68,
     "radar": [
       {
         "team_key": "PRIME",
@@ -102,16 +102,8 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC FrozenHands#MID",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -140,10 +132,6 @@
       "roster": [
         {
           "summoner": "Autonamed#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "Regentropfen#H2O",
           "is_captain": false
         },
         {
@@ -229,10 +217,6 @@
         },
         {
           "summoner": "UIC Hunter#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "DAG LingYao#EUW",
           "is_captain": false
         }
       ],
@@ -323,10 +307,6 @@
       },
       "roster": [
         {
-          "summoner": "UIC Exi#QUAK",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Hayu#UIC",
           "is_captain": false
         },
@@ -414,11 +394,11 @@
       "roster": [
         {
           "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC SilentCarry#Alune",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "Blauerlupos#EUW",
@@ -594,6 +574,10 @@
         {
           "summoner": "UIC Starboy#UIC",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
@@ -614,7 +598,12 @@
       },
       "next_match": null,
       "last_match": null,
-      "roster": [],
+      "roster": [
+        {
+          "summoner": "UIC M Character#UIC",
+          "is_captain": false
+        }
+      ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/204924",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/204000/204924.jpg?1765838352"
     }
