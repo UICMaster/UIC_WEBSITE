@@ -60,27 +60,27 @@
       "role": "SUB_1",
       "level": 1074,
       "tier": "MASTER I",
-      "lp": 686,
-      "wins": 361,
+      "lp": 716,
+      "wins": 362,
       "losses": 351,
-      "winRate": 50.7,
+      "winRate": 50.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3151.png"
     },
     {
       "name": "UIC Frozenhands",
       "role": "SUB_2",
-      "level": 641,
+      "level": 642,
       "tier": "MASTER I",
-      "lp": 30,
-      "wins": 66,
+      "lp": 60,
+      "wins": 67,
       "losses": 59,
-      "winRate": 52.8,
+      "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6811.png"
     },
     {
       "name": "never leaving",
       "role": "MNG",
-      "level": 729,
+      "level": 730,
       "tier": "GOLD IV",
       "lp": 0,
       "wins": 150,
@@ -93,10 +93,10 @@
       "role": "COH",
       "level": 798,
       "tier": "EMERALD III",
-      "lp": 21,
-      "wins": 46,
+      "lp": 41,
+      "wins": 47,
       "losses": 50,
-      "winRate": 47.9,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     }
   ],
@@ -128,10 +128,10 @@
       "role": "MID",
       "level": 989,
       "tier": "DIAMOND III",
-      "lp": 20,
-      "wins": 29,
-      "losses": 44,
-      "winRate": 39.7,
+      "lp": 43,
+      "wins": 31,
+      "losses": 45,
+      "winRate": 40.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6284.png"
     },
     {
@@ -262,12 +262,12 @@
     {
       "name": "ChrizZzorR",
       "role": "SUP",
-      "level": 681,
+      "level": 682,
       "tier": "DIAMOND IV",
-      "lp": 40,
-      "wins": 40,
-      "losses": 43,
-      "winRate": 48.2,
+      "lp": 20,
+      "wins": 41,
+      "losses": 45,
+      "winRate": 47.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5642.png"
     }
   ],
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 798,
       "tier": "EMERALD III",
-      "lp": 21,
-      "wins": 46,
+      "lp": 41,
+      "wins": 47,
       "losses": 50,
-      "winRate": 47.9,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 595,
       "tier": "DIAMOND III",
-      "lp": 49,
+      "lp": 27,
       "wins": 147,
-      "losses": 169,
-      "winRate": 46.5,
+      "losses": 170,
+      "winRate": 46.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
     },
     {
@@ -488,12 +488,12 @@
     {
       "name": "UIC Frozenhands",
       "role": "COH",
-      "level": 641,
+      "level": 642,
       "tier": "MASTER I",
-      "lp": 30,
-      "wins": 66,
+      "lp": 60,
+      "wins": 67,
       "losses": 59,
-      "winRate": 52.8,
+      "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6811.png"
     }
   ],
@@ -613,10 +613,10 @@
       "role": "COH",
       "level": 798,
       "tier": "EMERALD III",
-      "lp": 21,
-      "wins": 46,
+      "lp": 41,
+      "wins": 47,
       "losses": 50,
-      "winRate": 47.9,
+      "winRate": 48.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     }
   ],
@@ -703,11 +703,11 @@
     {
       "name": "Aphrodite",
       "role": "JGL",
-      "level": 1247,
+      "level": 1248,
       "tier": "EMERALD III",
-      "lp": 8,
-      "wins": 230,
-      "losses": 221,
+      "lp": 6,
+      "wins": 231,
+      "losses": 222,
       "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3150.png"
     },
