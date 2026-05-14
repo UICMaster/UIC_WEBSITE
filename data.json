@@ -3,7 +3,7 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1167,
+      "level": 1168,
       "tier": "MASTER I",
       "lp": 218,
       "wins": 137,
@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1032,
       "tier": "DIAMOND I",
-      "lp": 96,
+      "lp": 76,
       "wins": 135,
-      "losses": 131,
-      "winRate": 50.8,
+      "losses": 132,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4380.png"
     },
     {
@@ -71,10 +71,10 @@
       "role": "SUB_2",
       "level": 641,
       "tier": "MASTER I",
-      "lp": 60,
+      "lp": 30,
       "wins": 66,
-      "losses": 58,
-      "winRate": 53.2,
+      "losses": 59,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6811.png"
     },
     {
@@ -128,10 +128,10 @@
       "role": "MID",
       "level": 989,
       "tier": "DIAMOND III",
-      "lp": 16,
-      "wins": 27,
-      "losses": 42,
-      "winRate": 39.1,
+      "lp": 18,
+      "wins": 28,
+      "losses": 43,
+      "winRate": 39.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6284.png"
     },
     {
@@ -275,11 +275,11 @@
     {
       "name": "UIC Kamo",
       "role": "TOP",
-      "level": 560,
+      "level": 561,
       "tier": "MASTER I",
-      "lp": 233,
-      "wins": 274,
-      "losses": 241,
+      "lp": 235,
+      "wins": 275,
+      "losses": 242,
       "winRate": 53.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7047.png"
     },
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 846,
       "tier": "MASTER I",
-      "lp": 120,
-      "wins": 111,
+      "lp": 150,
+      "wins": 112,
       "losses": 91,
-      "winRate": 55,
+      "winRate": 55.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6373.png"
     },
     {
@@ -433,7 +433,7 @@
     {
       "name": "UIC Ayumu",
       "role": "MID",
-      "level": 594,
+      "level": 595,
       "tier": "EMERALD IV",
       "lp": 37,
       "wins": 118,
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 595,
       "tier": "DIAMOND III",
-      "lp": 53,
+      "lp": 31,
       "wins": 146,
-      "losses": 168,
-      "winRate": 46.5,
+      "losses": 169,
+      "winRate": 46.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
     },
     {
@@ -477,7 +477,7 @@
     {
       "name": "UIC Ayumu",
       "role": "MNG",
-      "level": 594,
+      "level": 595,
       "tier": "EMERALD IV",
       "lp": 37,
       "wins": 118,
@@ -490,10 +490,10 @@
       "role": "COH",
       "level": 641,
       "tier": "MASTER I",
-      "lp": 60,
+      "lp": 30,
       "wins": 66,
-      "losses": 58,
-      "winRate": 53.2,
+      "losses": 59,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6811.png"
     }
   ],
@@ -570,8 +570,8 @@
       "level": 1399,
       "tier": "PLATINUM IV",
       "lp": 20,
-      "wins": 434,
-      "losses": 428,
+      "wins": 435,
+      "losses": 429,
       "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
@@ -602,10 +602,10 @@
       "role": "SUP_2",
       "level": 573,
       "tier": "PLATINUM IV",
-      "lp": 81,
+      "lp": 60,
       "wins": 103,
-      "losses": 103,
-      "winRate": 50,
+      "losses": 104,
+      "winRate": 49.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7064.png"
     },
     {
@@ -657,12 +657,12 @@
     {
       "name": "BlondiXE1",
       "role": "BOT",
-      "level": 429,
+      "level": 430,
       "tier": "GOLD IV",
-      "lp": 45,
-      "wins": 97,
+      "lp": 64,
+      "wins": 98,
       "losses": 86,
-      "winRate": 53,
+      "winRate": 53.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6102.png"
     },
     {
@@ -705,10 +705,10 @@
       "role": "JGL",
       "level": 1247,
       "tier": "EMERALD IV",
-      "lp": 56,
+      "lp": 34,
       "wins": 226,
-      "losses": 220,
-      "winRate": 50.7,
+      "losses": 221,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5959.png"
     },
     {
@@ -740,8 +740,8 @@
       "tier": "EMERALD IV",
       "lp": 33,
       "wins": 241,
-      "losses": 222,
-      "winRate": 52.1,
+      "losses": 223,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7100.png"
     },
     {

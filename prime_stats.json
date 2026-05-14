@@ -20,12 +20,6 @@
     "players": 71,
     "radar": [
       {
-        "team_key": "PRIME",
-        "date": "2026-05-17T17:00:00+02:00",
-        "enemy": "LPG",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159503"
-      },
-      {
         "team_key": "SAKURA",
         "date": "2026-05-17T17:00:00+02:00",
         "enemy": "BOM",
@@ -48,6 +42,12 @@
         "date": "2026-05-17T19:00:00+02:00",
         "enemy": "ORI",
         "link": "https://www.primeleague.gg/de/leagues/matches/1162131"
+      },
+      {
+        "team_key": "EMBER",
+        "date": "2026-05-17T19:00:00+02:00",
+        "enemy": "TEAR",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163086"
       }
     ]
   },
@@ -66,7 +66,7 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-17T17:00:00+02:00",
+        "date": "2026-05-21T21:00:00+02:00",
         "tag": "LPG",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159503",
         "enemy_roster": []
