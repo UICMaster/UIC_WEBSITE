@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1168,
       "tier": "MASTER I",
-      "lp": 218,
-      "wins": 138,
-      "losses": 141,
-      "winRate": 49.5,
+      "lp": 248,
+      "wins": 140,
+      "losses": 142,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4835.png"
     },
     {
@@ -387,7 +387,7 @@
     {
       "name": "UIC Pjure",
       "role": "BOT",
-      "level": 742,
+      "level": 743,
       "tier": "DIAMOND III",
       "lp": 47,
       "wins": 109,
@@ -635,12 +635,12 @@
     {
       "name": "Leberkasleatschn",
       "role": "JGL",
-      "level": 455,
+      "level": 456,
       "tier": "GOLD III",
-      "lp": 81,
+      "lp": 44,
       "wins": 77,
-      "losses": 76,
-      "winRate": 50.3,
+      "losses": 78,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7126.png"
     },
     {
@@ -659,10 +659,10 @@
       "role": "BOT",
       "level": 430,
       "tier": "GOLD IV",
-      "lp": 41,
+      "lp": 0,
       "wins": 99,
-      "losses": 88,
-      "winRate": 52.9,
+      "losses": 90,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6102.png"
     },
     {
@@ -705,10 +705,10 @@
       "role": "JGL",
       "level": 1248,
       "tier": "EMERALD III",
-      "lp": 25,
-      "wins": 232,
-      "losses": 222,
-      "winRate": 51.1,
+      "lp": 2,
+      "wins": 233,
+      "losses": 224,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3150.png"
     },
     {
