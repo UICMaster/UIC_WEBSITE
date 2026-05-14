@@ -7,8 +7,8 @@
       "tier": "MASTER I",
       "lp": 248,
       "wins": 140,
-      "losses": 142,
-      "winRate": 49.6,
+      "losses": 143,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4835.png"
     },
     {
@@ -657,7 +657,7 @@
     {
       "name": "BlondiXE1",
       "role": "BOT",
-      "level": 430,
+      "level": 431,
       "tier": "GOLD IV",
       "lp": 0,
       "wins": 99,
@@ -705,10 +705,10 @@
       "role": "JGL",
       "level": 1248,
       "tier": "EMERALD III",
-      "lp": 2,
-      "wins": 233,
+      "lp": 21,
+      "wins": 234,
       "losses": 224,
-      "winRate": 51,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3150.png"
     },
     {
