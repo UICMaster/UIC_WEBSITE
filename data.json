@@ -58,12 +58,12 @@
     {
       "name": "Baumi",
       "role": "SUB_1",
-      "level": 1073,
+      "level": 1074,
       "tier": "MASTER I",
-      "lp": 721,
+      "lp": 628,
       "wins": 359,
-      "losses": 348,
-      "winRate": 50.8,
+      "losses": 351,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3151.png"
     },
     {
@@ -82,10 +82,10 @@
       "role": "MNG",
       "level": 729,
       "tier": "GOLD IV",
-      "lp": 68,
+      "lp": 45,
       "wins": 150,
-      "losses": 171,
-      "winRate": 46.7,
+      "losses": 172,
+      "winRate": 46.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5988.png"
     },
     {
@@ -536,10 +536,10 @@
       "role": "JGL_2",
       "level": 956,
       "tier": "EMERALD I",
-      "lp": 67,
-      "wins": 39,
+      "lp": 86,
+      "wins": 40,
       "losses": 38,
-      "winRate": 50.6,
+      "winRate": 51.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3791.png"
     },
     {
@@ -558,10 +558,10 @@
       "role": "MID_2",
       "level": 594,
       "tier": "EMERALD II",
-      "lp": 71,
-      "wins": 243,
+      "lp": 90,
+      "wins": 244,
       "losses": 224,
-      "winRate": 52,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/23.png"
     },
     {
