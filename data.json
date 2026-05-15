@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1032,
       "tier": "DIAMOND I",
-      "lp": 96,
+      "lp": 76,
       "wins": 137,
-      "losses": 133,
-      "winRate": 50.7,
+      "losses": 134,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4380.png"
     },
     {
@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1075,
       "tier": "MASTER I",
-      "lp": 714,
+      "lp": 652,
       "wins": 364,
-      "losses": 353,
-      "winRate": 50.8,
+      "losses": 355,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3151.png"
     },
     {
@@ -80,7 +80,7 @@
     {
       "name": "never leaving",
       "role": "MNG",
-      "level": 730,
+      "level": 731,
       "tier": "SILVER I",
       "lp": 20,
       "wins": 151,
@@ -92,11 +92,11 @@
       "name": "UIC Loonz",
       "role": "COH",
       "level": 799,
-      "tier": "EMERALD IV",
-      "lp": 81,
-      "wins": 49,
+      "tier": "EMERALD III",
+      "lp": 1,
+      "wins": 50,
       "losses": 55,
-      "winRate": 47.1,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     }
   ],
@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 561,
       "tier": "MASTER I",
-      "lp": 177,
+      "lp": 147,
       "wins": 277,
-      "losses": 246,
-      "winRate": 53,
+      "losses": 247,
+      "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7047.png"
     },
     {
@@ -319,23 +319,23 @@
     {
       "name": "UIC Ryu Copeland",
       "role": "SUP",
-      "level": 998,
+      "level": 999,
       "tier": "DIAMOND I",
-      "lp": 54,
+      "lp": 53,
       "wins": 68,
-      "losses": 69,
-      "winRate": 49.6,
+      "losses": 70,
+      "winRate": 49.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6622.png"
     },
     {
       "name": "UIC Loonz",
       "role": "COH",
       "level": 799,
-      "tier": "EMERALD IV",
-      "lp": 81,
-      "wins": 49,
+      "tier": "EMERALD III",
+      "lp": 1,
+      "wins": 50,
       "losses": 55,
-      "winRate": 47.1,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     },
     {
@@ -558,10 +558,10 @@
       "role": "MID_2",
       "level": 594,
       "tier": "EMERALD II",
-      "lp": 48,
+      "lp": 27,
       "wins": 244,
-      "losses": 226,
-      "winRate": 51.9,
+      "losses": 227,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/23.png"
     },
     {
@@ -612,11 +612,11 @@
       "name": "UIC Loonz",
       "role": "COH",
       "level": 799,
-      "tier": "EMERALD IV",
-      "lp": 81,
-      "wins": 49,
+      "tier": "EMERALD III",
+      "lp": 1,
+      "wins": 50,
       "losses": 55,
-      "winRate": 47.1,
+      "winRate": 47.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     }
   ],
