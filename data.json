@@ -197,9 +197,9 @@
       "level": 795,
       "tier": "EMERALD I",
       "lp": 43,
-      "wins": 65,
-      "losses": 54,
-      "winRate": 54.6,
+      "wins": 66,
+      "losses": 55,
+      "winRate": 54.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6883.png"
     },
     {
@@ -518,7 +518,7 @@
       "wins": 112,
       "losses": 118,
       "winRate": 48.7,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6061.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/781.png"
     },
     {
       "name": "UIC Rubix Qube",
@@ -637,10 +637,10 @@
       "role": "JGL",
       "level": 456,
       "tier": "GOLD III",
-      "lp": 25,
+      "lp": 6,
       "wins": 77,
-      "losses": 79,
-      "winRate": 49.4,
+      "losses": 80,
+      "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7126.png"
     },
     {
@@ -658,11 +658,11 @@
       "name": "BlondiXE1",
       "role": "BOT",
       "level": 431,
-      "tier": "GOLD IV",
-      "lp": 0,
+      "tier": "SILVER I",
+      "lp": 28,
       "wins": 99,
-      "losses": 91,
-      "winRate": 52.1,
+      "losses": 93,
+      "winRate": 51.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6102.png"
     },
     {
