@@ -3,12 +3,12 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1168,
+      "level": 1169,
       "tier": "MASTER I",
-      "lp": 278,
+      "lp": 248,
       "wins": 141,
-      "losses": 143,
-      "winRate": 49.6,
+      "losses": 144,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4835.png"
     },
     {
@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1032,
       "tier": "DIAMOND I",
-      "lp": 76,
-      "wins": 135,
+      "lp": 96,
+      "wins": 136,
       "losses": 132,
-      "winRate": 50.6,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4380.png"
     },
     {
@@ -445,10 +445,10 @@
       "name": "UIC SilentCarry",
       "role": "BOT",
       "level": 596,
-      "tier": "DIAMOND III",
-      "lp": 1,
-      "wins": 148,
-      "losses": 172,
+      "tier": "DIAMOND IV",
+      "lp": 97,
+      "wins": 149,
+      "losses": 173,
       "winRate": 46.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
     },
@@ -535,11 +535,11 @@
       "name": "UIC Namorii",
       "role": "JGL_2",
       "level": 957,
-      "tier": "EMERALD I",
-      "lp": 84,
-      "wins": 41,
+      "tier": "DIAMOND IV",
+      "lp": 3,
+      "wins": 42,
       "losses": 39,
-      "winRate": 51.2,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3791.png"
     },
     {
