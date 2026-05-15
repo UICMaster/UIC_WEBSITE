@@ -17,7 +17,7 @@
   "global": {
     "matches": 1,
     "wr": 100,
-    "players": 68,
+    "players": 71,
     "radar": [
       {
         "team_key": "SAKURA",
@@ -102,6 +102,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC FrozenHands#MID",
           "is_captain": false
         }
@@ -136,6 +140,10 @@
         },
         {
           "summoner": "Nick Halden#1977",
+          "is_captain": false
+        },
+        {
+          "summoner": "Regentropfen#H2O",
           "is_captain": false
         },
         {
@@ -210,10 +218,6 @@
         {
           "summoner": "Amtoms#EUW",
           "is_captain": true
-        },
-        {
-          "summoner": "DAG LingYao#EUW",
-          "is_captain": false
         },
         {
           "summoner": "FirstBlo#EUW",
@@ -315,6 +319,10 @@
       },
       "roster": [
         {
+          "summoner": "UIC Exi#QUAK",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Hayu#UIC",
           "is_captain": false
         },
@@ -332,6 +340,10 @@
         },
         {
           "summoner": "UIC AutumnLeaf#Moo",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         }
       ],
@@ -415,6 +427,10 @@
         {
           "summoner": "zab77#EUW",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         },
         {
           "summoner": "UIC Moonlxght#16396",
@@ -578,10 +594,6 @@
         {
           "summoner": "UIC Starboy#UIC",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
