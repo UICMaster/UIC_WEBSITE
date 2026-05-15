@@ -20,22 +20,10 @@
     "players": 71,
     "radar": [
       {
-        "team_key": "SAKURA",
-        "date": "2026-05-17T17:00:00+02:00",
-        "enemy": "BOM",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160373"
-      },
-      {
         "team_key": "OBSIDIAN",
         "date": "2026-05-17T17:00:00+02:00",
         "enemy": "ExMortis",
         "link": "https://www.primeleague.gg/de/leagues/matches/1162753"
-      },
-      {
-        "team_key": "CYBER",
-        "date": "2026-05-17T19:00:00+02:00",
-        "enemy": "Pupp",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161116"
       },
       {
         "team_key": "NOVA",
@@ -48,6 +36,18 @@
         "date": "2026-05-17T19:00:00+02:00",
         "enemy": "TEAR",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163086"
+      },
+      {
+        "team_key": "SPARK",
+        "date": "2026-05-17T20:00:00+02:00",
+        "enemy": "TA",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161366"
+      },
+      {
+        "team_key": "SAKURA",
+        "date": "2026-05-18T20:00:00+02:00",
+        "enemy": "BOM",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160373"
       }
     ]
   },
@@ -364,7 +364,7 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-17T19:00:00+02:00",
+        "date": "2026-05-21T18:00:00+02:00",
         "tag": "Pupp",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161116",
         "enemy_roster": []
@@ -405,7 +405,7 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-17T17:00:00+02:00",
+        "date": "2026-05-18T20:00:00+02:00",
         "tag": "BOM",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160373",
         "enemy_roster": []
