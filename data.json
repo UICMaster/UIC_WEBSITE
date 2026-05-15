@@ -126,12 +126,12 @@
     {
       "name": "Regentropfen",
       "role": "MID",
-      "level": 989,
+      "level": 990,
       "tier": "DIAMOND III",
-      "lp": 25,
-      "wins": 33,
-      "losses": 48,
-      "winRate": 40.7,
+      "lp": 27,
+      "wins": 34,
+      "losses": 49,
+      "winRate": 41,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6284.png"
     },
     {
@@ -310,21 +310,21 @@
       "role": "BOT",
       "level": 846,
       "tier": "MASTER I",
-      "lp": 210,
-      "wins": 113,
+      "lp": 240,
+      "wins": 114,
       "losses": 91,
-      "winRate": 55.4,
+      "winRate": 55.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6373.png"
     },
     {
       "name": "UIC Ryu Copeland",
       "role": "SUP",
       "level": 998,
-      "tier": "MASTER I",
-      "lp": 0,
+      "tier": "DIAMOND I",
+      "lp": 75,
       "wins": 68,
-      "losses": 67,
-      "winRate": 50.4,
+      "losses": 68,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6622.png"
     },
     {
@@ -569,10 +569,10 @@
       "role": "BOT_1",
       "level": 1399,
       "tier": "PLATINUM IV",
-      "lp": 20,
-      "wins": 435,
+      "lp": 60,
+      "wins": 437,
       "losses": 429,
-      "winRate": 50.3,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
     {
@@ -602,10 +602,10 @@
       "role": "SUP_2",
       "level": 573,
       "tier": "PLATINUM IV",
-      "lp": 39,
-      "wins": 103,
+      "lp": 78,
+      "wins": 105,
       "losses": 105,
-      "winRate": 49.5,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7064.png"
     },
     {
@@ -736,11 +736,11 @@
     {
       "name": "UIC Envy",
       "role": "SUP",
-      "level": 346,
+      "level": 347,
       "tier": "EMERALD IV",
-      "lp": 11,
-      "wins": 241,
-      "losses": 224,
+      "lp": 28,
+      "wins": 242,
+      "losses": 225,
       "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7100.png"
     },
