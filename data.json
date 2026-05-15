@@ -148,12 +148,12 @@
     {
       "name": "Autonamed",
       "role": "SUP",
-      "level": 128,
-      "tier": "UNRANKED",
-      "lp": 0,
-      "wins": 0,
-      "losses": 0,
-      "winRate": 0,
+      "level": 129,
+      "tier": "PLATINUM III",
+      "lp": 55,
+      "wins": 3,
+      "losses": 2,
+      "winRate": 60,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/2074.png"
     }
   ],
@@ -196,10 +196,10 @@
       "role": "BOT",
       "level": 795,
       "tier": "EMERALD I",
-      "lp": 43,
+      "lp": 23,
       "wins": 66,
-      "losses": 55,
-      "winRate": 54.5,
+      "losses": 57,
+      "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6883.png"
     },
     {
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 400,
       "tier": "DIAMOND I",
-      "lp": 12,
-      "wins": 89,
+      "lp": 31,
+      "wins": 90,
       "losses": 94,
-      "winRate": 48.6,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4626.png"
     },
     {
@@ -376,7 +376,7 @@
     {
       "name": "CYS Rellik",
       "role": "MID",
-      "level": 672,
+      "level": 673,
       "tier": "DIAMOND IV",
       "lp": 2,
       "wins": 118,
@@ -389,10 +389,10 @@
       "role": "BOT",
       "level": 743,
       "tier": "DIAMOND III",
-      "lp": 47,
-      "wins": 109,
+      "lp": 65,
+      "wins": 110,
       "losses": 105,
-      "winRate": 50.9,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5449.png"
     },
     {
@@ -637,10 +637,10 @@
       "role": "JGL",
       "level": 456,
       "tier": "GOLD III",
-      "lp": 6,
-      "wins": 77,
+      "lp": 48,
+      "wins": 79,
       "losses": 80,
-      "winRate": 49,
+      "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7126.png"
     },
     {
@@ -659,10 +659,10 @@
       "role": "BOT",
       "level": 431,
       "tier": "SILVER I",
-      "lp": 28,
-      "wins": 99,
+      "lp": 64,
+      "wins": 101,
       "losses": 93,
-      "winRate": 51.6,
+      "winRate": 52.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6102.png"
     },
     {
