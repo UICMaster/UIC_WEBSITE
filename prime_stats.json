@@ -17,7 +17,7 @@
   "global": {
     "matches": 1,
     "wr": 100,
-    "players": 70,
+    "players": 71,
     "radar": [
       {
         "team_key": "OBSIDIAN",
@@ -140,6 +140,10 @@
         },
         {
           "summoner": "Nick Halden#1977",
+          "is_captain": false
+        },
+        {
+          "summoner": "Regentropfen#H2O",
           "is_captain": false
         },
         {
