@@ -6,8 +6,8 @@
       "level": 1170,
       "tier": "MASTER I",
       "lp": 158,
-      "wins": 147,
-      "losses": 153,
+      "wins": 148,
+      "losses": 154,
       "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4835.png"
     },
@@ -128,10 +128,10 @@
       "role": "MID",
       "level": 991,
       "tier": "DIAMOND III",
-      "lp": 69,
-      "wins": 36,
+      "lp": 90,
+      "wins": 37,
       "losses": 49,
-      "winRate": 42.4,
+      "winRate": 43,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6284.png"
     },
     {
@@ -195,11 +195,11 @@
       "name": "UIC Painfull",
       "role": "BOT",
       "level": 797,
-      "tier": "EMERALD II",
-      "lp": 99,
-      "wins": 71,
+      "tier": "EMERALD I",
+      "lp": 59,
+      "wins": 73,
       "losses": 63,
-      "winRate": 53,
+      "winRate": 53.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6883.png"
     },
     {
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 401,
       "tier": "DIAMOND I",
-      "lp": 64,
+      "lp": 42,
       "wins": 93,
-      "losses": 96,
-      "winRate": 49.2,
+      "losses": 97,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4626.png"
     },
     {
@@ -365,12 +365,12 @@
     {
       "name": "Ðărkø",
       "role": "JGL",
-      "level": 791,
-      "tier": "DIAMOND I",
-      "lp": 96,
-      "wins": 33,
+      "level": 792,
+      "tier": "MASTER I",
+      "lp": 17,
+      "wins": 34,
       "losses": 27,
-      "winRate": 55,
+      "winRate": 55.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3840.png"
     },
     {
@@ -389,10 +389,10 @@
       "role": "BOT",
       "level": 744,
       "tier": "DIAMOND II",
-      "lp": 17,
-      "wins": 114,
+      "lp": 36,
+      "wins": 115,
       "losses": 106,
-      "winRate": 51.8,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5449.png"
     },
     {
@@ -567,12 +567,12 @@
     {
       "name": "UIC Boohunter",
       "role": "BOT_1",
-      "level": 1400,
+      "level": 1401,
       "tier": "PLATINUM III",
-      "lp": 43,
+      "lp": 4,
       "wins": 443,
-      "losses": 431,
-      "winRate": 50.7,
+      "losses": 433,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
     {
@@ -601,11 +601,11 @@
       "name": "UIC Excellent C",
       "role": "SUP_2",
       "level": 574,
-      "tier": "PLATINUM III",
-      "lp": 17,
+      "tier": "PLATINUM IV",
+      "lp": 76,
       "wins": 108,
-      "losses": 106,
-      "winRate": 50.5,
+      "losses": 108,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7064.png"
     },
     {
@@ -727,10 +727,10 @@
       "role": "BOT",
       "level": 641,
       "tier": "EMERALD I",
-      "lp": 75,
-      "wins": 88,
+      "lp": 94,
+      "wins": 89,
       "losses": 85,
-      "winRate": 50.9,
+      "winRate": 51.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/1625.png"
     },
     {
