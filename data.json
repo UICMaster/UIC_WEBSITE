@@ -5,10 +5,10 @@
       "role": "TOP",
       "level": 1169,
       "tier": "MASTER I",
-      "lp": 248,
+      "lp": 188,
       "wins": 142,
-      "losses": 145,
-      "winRate": 49.5,
+      "losses": 147,
+      "winRate": 49.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4835.png"
     },
     {
@@ -16,10 +16,10 @@
       "role": "JGL",
       "level": 1033,
       "tier": "MASTER I",
-      "lp": 0,
-      "wins": 139,
+      "lp": 30,
+      "wins": 140,
       "losses": 135,
-      "winRate": 50.7,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4380.png"
     },
     {
@@ -92,11 +92,11 @@
       "name": "UIC Loonz",
       "role": "COH",
       "level": 799,
-      "tier": "EMERALD III",
-      "lp": 1,
+      "tier": "EMERALD IV",
+      "lp": 81,
       "wins": 50,
-      "losses": 55,
-      "winRate": 47.6,
+      "losses": 56,
+      "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     }
   ],
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 846,
       "tier": "MASTER I",
-      "lp": 240,
-      "wins": 114,
+      "lp": 270,
+      "wins": 115,
       "losses": 91,
-      "winRate": 55.6,
+      "winRate": 55.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6373.png"
     },
     {
@@ -331,11 +331,11 @@
       "name": "UIC Loonz",
       "role": "COH",
       "level": 799,
-      "tier": "EMERALD III",
-      "lp": 1,
+      "tier": "EMERALD IV",
+      "lp": 81,
       "wins": 50,
-      "losses": 55,
-      "winRate": 47.6,
+      "losses": 56,
+      "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     },
     {
@@ -569,10 +569,10 @@
       "role": "BOT_1",
       "level": 1400,
       "tier": "PLATINUM IV",
-      "lp": 40,
-      "wins": 438,
+      "lp": 60,
+      "wins": 439,
       "losses": 431,
-      "winRate": 50.4,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
     {
@@ -602,21 +602,21 @@
       "role": "SUP_2",
       "level": 573,
       "tier": "PLATINUM IV",
-      "lp": 57,
-      "wins": 105,
+      "lp": 77,
+      "wins": 106,
       "losses": 106,
-      "winRate": 49.8,
+      "winRate": 50,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7064.png"
     },
     {
       "name": "UIC Loonz",
       "role": "COH",
       "level": 799,
-      "tier": "EMERALD III",
-      "lp": 1,
+      "tier": "EMERALD IV",
+      "lp": 81,
       "wins": 50,
-      "losses": 55,
-      "winRate": 47.6,
+      "losses": 56,
+      "winRate": 47.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     }
   ],
@@ -704,11 +704,11 @@
       "name": "Aphrodite",
       "role": "JGL",
       "level": 1248,
-      "tier": "EMERALD III",
-      "lp": 17,
+      "tier": "EMERALD IV",
+      "lp": 96,
       "wins": 236,
-      "losses": 226,
-      "winRate": 51.1,
+      "losses": 227,
+      "winRate": 51,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3150.png"
     },
     {
