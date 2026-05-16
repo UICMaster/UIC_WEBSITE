@@ -128,10 +128,10 @@
       "role": "MID",
       "level": 990,
       "tier": "DIAMOND III",
-      "lp": 27,
-      "wins": 34,
+      "lp": 69,
+      "wins": 36,
       "losses": 49,
-      "winRate": 41,
+      "winRate": 42.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6284.png"
     },
     {
@@ -569,9 +569,9 @@
       "role": "BOT_1",
       "level": 1399,
       "tier": "PLATINUM IV",
-      "lp": 80,
+      "lp": 60,
       "wins": 438,
-      "losses": 429,
+      "losses": 430,
       "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
@@ -726,11 +726,11 @@
       "name": "UIC Flare",
       "role": "BOT",
       "level": 640,
-      "tier": "DIAMOND IV",
-      "lp": 0,
+      "tier": "EMERALD I",
+      "lp": 75,
       "wins": 88,
-      "losses": 84,
-      "winRate": 51.2,
+      "losses": 85,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/1625.png"
     },
     {
@@ -773,10 +773,10 @@
       "role": "JGL",
       "level": 497,
       "tier": "MASTER I",
-      "lp": 90,
-      "wins": 140,
+      "lp": 150,
+      "wins": 141,
       "losses": 129,
-      "winRate": 52,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/29.png"
     },
     {
