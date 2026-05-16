@@ -278,8 +278,8 @@
       "level": 561,
       "tier": "MASTER I",
       "lp": 147,
-      "wins": 277,
-      "losses": 247,
+      "wins": 278,
+      "losses": 248,
       "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7047.png"
     },
@@ -635,12 +635,12 @@
     {
       "name": "Leberkasleatschn",
       "role": "JGL",
-      "level": 456,
+      "level": 457,
       "tier": "GOLD III",
-      "lp": 71,
-      "wins": 81,
+      "lp": 92,
+      "wins": 82,
       "losses": 81,
-      "winRate": 50,
+      "winRate": 50.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7126.png"
     },
     {
@@ -705,10 +705,10 @@
       "role": "JGL",
       "level": 1248,
       "tier": "EMERALD III",
-      "lp": 21,
-      "wins": 234,
+      "lp": 40,
+      "wins": 235,
       "losses": 224,
-      "winRate": 51.1,
+      "winRate": 51.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3150.png"
     },
     {
@@ -773,10 +773,10 @@
       "role": "JGL",
       "level": 497,
       "tier": "MASTER I",
-      "lp": 150,
-      "wins": 141,
+      "lp": 180,
+      "wins": 142,
       "losses": 129,
-      "winRate": 52.2,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/29.png"
     },
     {
