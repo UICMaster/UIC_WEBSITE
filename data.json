@@ -3,11 +3,11 @@
     {
       "name": "UIC Speedy",
       "role": "TOP",
-      "level": 1169,
+      "level": 1170,
       "tier": "MASTER I",
       "lp": 158,
-      "wins": 146,
-      "losses": 152,
+      "wins": 147,
+      "losses": 153,
       "winRate": 49,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4835.png"
     },
@@ -196,10 +196,10 @@
       "role": "BOT",
       "level": 796,
       "tier": "EMERALD I",
-      "lp": 41,
-      "wins": 70,
-      "losses": 60,
-      "winRate": 53.8,
+      "lp": 20,
+      "wins": 71,
+      "losses": 62,
+      "winRate": 53.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6883.png"
     },
     {
@@ -388,11 +388,11 @@
       "name": "UIC Pjure",
       "role": "BOT",
       "level": 744,
-      "tier": "DIAMOND III",
-      "lp": 98,
-      "wins": 113,
+      "tier": "DIAMOND II",
+      "lp": 17,
+      "wins": 114,
       "losses": 106,
-      "winRate": 51.6,
+      "winRate": 51.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5449.png"
     },
     {
@@ -435,10 +435,10 @@
       "role": "MID",
       "level": 596,
       "tier": "EMERALD IV",
-      "lp": 26,
+      "lp": 3,
       "wins": 120,
-      "losses": 108,
-      "winRate": 52.6,
+      "losses": 109,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7127.png"
     },
     {
@@ -479,10 +479,10 @@
       "role": "MNG",
       "level": 596,
       "tier": "EMERALD IV",
-      "lp": 26,
+      "lp": 3,
       "wins": 120,
-      "losses": 108,
-      "winRate": 52.6,
+      "losses": 109,
+      "winRate": 52.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7127.png"
     },
     {
@@ -569,8 +569,8 @@
       "role": "BOT_1",
       "level": 1400,
       "tier": "PLATINUM III",
-      "lp": 1,
-      "wins": 441,
+      "lp": 22,
+      "wins": 442,
       "losses": 431,
       "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
