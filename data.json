@@ -194,12 +194,12 @@
     {
       "name": "UIC Painfull",
       "role": "BOT",
-      "level": 796,
-      "tier": "EMERALD I",
-      "lp": 20,
+      "level": 797,
+      "tier": "EMERALD II",
+      "lp": 99,
       "wins": 71,
-      "losses": 62,
-      "winRate": 53.4,
+      "losses": 63,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6883.png"
     },
     {
@@ -569,10 +569,10 @@
       "role": "BOT_1",
       "level": 1400,
       "tier": "PLATINUM III",
-      "lp": 22,
-      "wins": 442,
+      "lp": 43,
+      "wins": 443,
       "losses": 431,
-      "winRate": 50.6,
+      "winRate": 50.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
     {
