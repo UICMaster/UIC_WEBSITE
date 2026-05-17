@@ -52,5 +52,11 @@
     "description": "gameday 1",
     "start": "2026-05-21T16:00:00+00:00",
     "location": "https://www.primeleague.gg/de/leagues/matches/1161116"
+  },
+  {
+    "name": "Ultra Instinct Crew Ember vs. Team Artikulation",
+    "description": "gameday 1",
+    "start": "2026-05-17T18:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1163086"
   }
 ]
