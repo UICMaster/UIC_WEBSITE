@@ -104,6 +104,10 @@
         {
           "summoner": "UIC FrozenHands#MID",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -214,10 +218,6 @@
         {
           "summoner": "Amtoms#EUW",
           "is_captain": true
-        },
-        {
-          "summoner": "DAG LingYao#EUW",
-          "is_captain": false
         },
         {
           "summoner": "FirstBlo#EUW",
@@ -421,6 +421,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
         }
@@ -535,6 +539,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Shockwave#EUW",
           "is_captain": false
         }
@@ -586,10 +594,6 @@
         {
           "summoner": "UIC Starboy#UIC",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
@@ -610,12 +614,7 @@
       },
       "next_match": null,
       "last_match": null,
-      "roster": [
-        {
-          "summoner": "UIC M Character#UIC",
-          "is_captain": false
-        }
-      ],
+      "roster": [],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/204924",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/204000/204924.jpg?1765838352"
     }
