@@ -17,7 +17,7 @@
   "global": {
     "matches": 1,
     "wr": 100,
-    "players": 71,
+    "players": 72,
     "radar": [
       {
         "team_key": "NOVA",
@@ -147,10 +147,6 @@
           "is_captain": false
         },
         {
-          "summoner": "Regentropfen#H2O",
-          "is_captain": false
-        },
-        {
           "summoner": "Pferdemilch#Milch",
           "is_captain": false
         },
@@ -253,11 +249,11 @@
         "tag": "TA",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161366",
         "enemy_roster": [
+          "LostLich#EUW",
+          "GG EnnΩ#000",
           "Umbreon#smy",
           "Dracarys#INT",
-          "GG EnnΩ#000",
-          "NiLo#CLONK",
-          "LostLich#EUW"
+          "NiLo#CLONK"
         ]
       },
       "last_match": null,
@@ -323,6 +319,10 @@
       },
       "roster": [
         {
+          "summoner": "UIC Exi#QUAK",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Hayu#UIC",
           "is_captain": false
         },
@@ -364,11 +364,11 @@
         "tag": "Pupp",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161116",
         "enemy_roster": [
-          "Draogonking#420",
+          "Wannkertou#EUW",
           "I bims Alfhilde#ALF",
-          "MuffinMan23#EUW",
           "Carnegan#EUW",
-          "Wannkertou#EUW"
+          "MuffinMan23#EUW",
+          "Draogonking#420"
         ]
       },
       "last_match": null,
@@ -433,6 +433,10 @@
         {
           "summoner": "zab77#EUW",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         },
         {
           "summoner": "UIC Moonlxght#16396",
@@ -509,7 +513,7 @@
     },
     "obsidian": {
       "meta": {
-        "name": "ULTRA INSTINCT CREW OBSIDIAN",
+        "name": "Ultra Insticht Crew Obsidian",
         "div": null
       },
       "stats": {
@@ -542,7 +546,7 @@
         },
         {
           "summoner": "UIC Papi Δce#3072",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC Nyx#UIC",

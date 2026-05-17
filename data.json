@@ -435,10 +435,10 @@
       "role": "MID",
       "level": 596,
       "tier": "EMERALD IV",
-      "lp": 3,
+      "lp": 0,
       "wins": 120,
-      "losses": 109,
-      "winRate": 52.4,
+      "losses": 110,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7127.png"
     },
     {
@@ -479,10 +479,10 @@
       "role": "MNG",
       "level": 596,
       "tier": "EMERALD IV",
-      "lp": 3,
+      "lp": 0,
       "wins": 120,
-      "losses": 109,
-      "winRate": 52.4,
+      "losses": 110,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7127.png"
     },
     {
@@ -727,10 +727,10 @@
       "role": "BOT",
       "level": 641,
       "tier": "DIAMOND IV",
-      "lp": 52,
-      "wins": 92,
+      "lp": 72,
+      "wins": 93,
       "losses": 85,
-      "winRate": 52,
+      "winRate": 52.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/1625.png"
     },
     {
