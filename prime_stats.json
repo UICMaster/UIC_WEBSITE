@@ -17,7 +17,7 @@
   "global": {
     "matches": 4,
     "wr": 75,
-    "players": 72,
+    "players": 79,
     "radar": [
       {
         "team_key": "SAKURA",
@@ -32,6 +32,12 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1159557"
       },
       {
+        "team_key": "ABYSS",
+        "date": "2026-05-20T19:00:00+02:00",
+        "enemy": "DDW",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160212"
+      },
+      {
         "team_key": "ECLIPSE",
         "date": "2026-05-20T19:30:00+02:00",
         "enemy": "GTU",
@@ -42,12 +48,6 @@
         "date": "2026-05-21T18:00:00+02:00",
         "enemy": "Pupp",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161116"
-      },
-      {
-        "team_key": "SPARK",
-        "date": "2026-05-21T20:00:00+02:00",
-        "enemy": "TA",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161366"
       }
     ]
   },
@@ -632,7 +632,7 @@
     },
     "abyss": {
       "meta": {
-        "name": "Ultra Instinct Crew Placeholder",
+        "name": "Ultra Instinct Crew Abyss",
         "div": null
       },
       "stats": {
@@ -643,11 +643,45 @@
         "win_rate": 0,
         "form": []
       },
-      "next_match": null,
+      "next_match": {
+        "date": "2026-05-20T19:00:00+02:00",
+        "tag": "DDW",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160212",
+        "enemy_roster": []
+      },
       "last_match": null,
-      "roster": [],
-      "team_link": "https://www.primeleague.gg/de/leagues/teams/204924",
-      "logo": "https://cdn0.heartbase.gg/league_team_logos/204000/204924.jpg?1765838352"
+      "roster": [
+        {
+          "summoner": "zkanex#ADC",
+          "is_captain": true
+        },
+        {
+          "summoner": "yShizuu#ÊUW",
+          "is_captain": true
+        },
+        {
+          "summoner": "SupVsAdc#ratty",
+          "is_captain": false
+        },
+        {
+          "summoner": "Random Slytherin#EUW",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC M Character#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "TheEigeeen#EIGI",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Keygasza#1337",
+          "is_captain": false
+        }
+      ],
+      "team_link": "https://www.primeleague.gg/de/leagues/teams/191522",
+      "logo": "https://cdn0.heartbase.gg/league_team_logos/191000/191522.jpg?1777659260"
     }
   }
 }

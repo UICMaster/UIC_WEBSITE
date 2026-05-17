@@ -86,7 +86,7 @@
       "wins": 157,
       "losses": 182,
       "winRate": 46.3,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5988.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6870.png"
     },
     {
       "name": "UIC Loonz",
@@ -277,8 +277,8 @@
       "role": "TOP",
       "level": 563,
       "tier": "MASTER I",
-      "lp": 179,
-      "wins": 287,
+      "lp": 209,
+      "wins": 288,
       "losses": 256,
       "winRate": 52.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7047.png"
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 401,
       "tier": "DIAMOND I",
-      "lp": 55,
-      "wins": 96,
+      "lp": 74,
+      "wins": 97,
       "losses": 99,
-      "winRate": 49.2,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4626.png"
     },
     {
@@ -444,7 +444,7 @@
     {
       "name": "UIC SilentCarry",
       "role": "BOT",
-      "level": 596,
+      "level": 597,
       "tier": "DIAMOND IV",
       "lp": 45,
       "wins": 151,
@@ -514,10 +514,10 @@
       "role": "TOP_2",
       "level": 524,
       "tier": "PLATINUM IV",
-      "lp": 0,
-      "wins": 112,
+      "lp": 19,
+      "wins": 113,
       "losses": 118,
-      "winRate": 48.7,
+      "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/781.png"
     },
     {
