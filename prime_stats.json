@@ -15,16 +15,10 @@
     ]
   },
   "global": {
-    "matches": 1,
-    "wr": 100,
+    "matches": 2,
+    "wr": 50,
     "players": 72,
     "radar": [
-      {
-        "team_key": "NOVA",
-        "date": "2026-05-17T19:00:00+02:00",
-        "enemy": "ORI",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162131"
-      },
       {
         "team_key": "EMBER",
         "date": "2026-05-17T20:00:00+02:00",
@@ -48,6 +42,12 @@
         "date": "2026-05-20T19:30:00+02:00",
         "enemy": "GTU",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163112"
+      },
+      {
+        "team_key": "CYBER",
+        "date": "2026-05-21T18:00:00+02:00",
+        "enemy": "Pupp",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161116"
       }
     ]
   },
@@ -102,16 +102,8 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC FrozenHands#MID",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -144,6 +136,10 @@
         },
         {
           "summoner": "Nick Halden#1977",
+          "is_captain": false
+        },
+        {
+          "summoner": "Regentropfen#H2O",
           "is_captain": false
         },
         {
@@ -341,6 +337,10 @@
         {
           "summoner": "UIC AutumnLeaf#Moo",
           "is_captain": true
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212473",
@@ -435,10 +435,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
         }
@@ -460,9 +456,9 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-17T19:00:00+02:00",
-        "tag": "ORI",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162131",
+        "date": "2026-05-24T19:00:00+02:00",
+        "tag": "OBRN",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162134",
         "enemy_roster": []
       },
       "last_match": null,
@@ -489,7 +485,7 @@
         },
         {
           "summoner": "UIC Excellent C#1997",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC GreatATuin#AUS",
@@ -518,11 +514,13 @@
       },
       "stats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 2,
         "points": 0,
-        "games": 0,
+        "games": 1,
         "win_rate": 0,
-        "form": []
+        "form": [
+          "L"
+        ]
       },
       "next_match": {
         "date": "2026-05-24T19:00:00+02:00",
@@ -530,7 +528,12 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1162756",
         "enemy_roster": []
       },
-      "last_match": null,
+      "last_match": {
+        "result": "NIEDERLAGE",
+        "score": "0 - 2",
+        "enemy": "ExMortis",
+        "date": "2026-05-17T17:00:00+02:00"
+      },
       "roster": [
         {
           "summoner": "Leberkasleatschn#1990",
@@ -550,6 +553,10 @@
         },
         {
           "summoner": "UIC Nyx#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {

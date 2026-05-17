@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 562,
       "tier": "MASTER I",
-      "lp": 239,
+      "lp": 209,
       "wins": 285,
-      "losses": 252,
-      "winRate": 53.1,
+      "losses": 253,
+      "winRate": 53,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7047.png"
     },
     {
@@ -568,11 +568,11 @@
       "name": "UIC Boohunter",
       "role": "BOT_1",
       "level": 1401,
-      "tier": "PLATINUM III",
-      "lp": 4,
+      "tier": "PLATINUM IV",
+      "lp": 84,
       "wins": 443,
-      "losses": 433,
-      "winRate": 50.6,
+      "losses": 434,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
     {
@@ -657,7 +657,7 @@
     {
       "name": "BlondiXE1",
       "role": "BOT",
-      "level": 431,
+      "level": 432,
       "tier": "SILVER I",
       "lp": 80,
       "wins": 103,
@@ -727,10 +727,10 @@
       "role": "BOT",
       "level": 641,
       "tier": "DIAMOND IV",
-      "lp": 72,
+      "lp": 52,
       "wins": 93,
-      "losses": 85,
-      "winRate": 52.2,
+      "losses": 86,
+      "winRate": 52,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/1625.png"
     },
     {
