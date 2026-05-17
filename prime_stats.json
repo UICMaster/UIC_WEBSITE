@@ -33,7 +33,7 @@
       },
       {
         "team_key": "EMBER",
-        "date": "2026-05-17T19:00:00+02:00",
+        "date": "2026-05-17T20:00:00+02:00",
         "enemy": "TEAR",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163086"
       },
@@ -249,11 +249,11 @@
         "tag": "TA",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161366",
         "enemy_roster": [
-          "LostLich#EUW",
-          "GG EnnΩ#000",
           "Umbreon#smy",
           "Dracarys#INT",
-          "NiLo#CLONK"
+          "GG EnnΩ#000",
+          "NiLo#CLONK",
+          "LostLich#EUW"
         ]
       },
       "last_match": null,
@@ -360,11 +360,11 @@
         "tag": "Pupp",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161116",
         "enemy_roster": [
-          "Wannkertou#EUW",
+          "Draogonking#420",
           "I bims Alfhilde#ALF",
-          "Carnegan#EUW",
           "MuffinMan23#EUW",
-          "Draogonking#420"
+          "Carnegan#EUW",
+          "Wannkertou#EUW"
         ]
       },
       "last_match": null,
@@ -570,7 +570,7 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-17T19:00:00+02:00",
+        "date": "2026-05-17T20:00:00+02:00",
         "tag": "TEAR",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163086",
         "enemy_roster": []
