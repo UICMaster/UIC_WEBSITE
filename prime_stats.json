@@ -15,9 +15,9 @@
     ]
   },
   "global": {
-    "matches": 3,
-    "wr": 67,
-    "players": 71,
+    "matches": 4,
+    "wr": 75,
+    "players": 72,
     "radar": [
       {
         "team_key": "SAKURA",
@@ -132,6 +132,10 @@
       "roster": [
         {
           "summoner": "Autonamed#EUW",
+          "is_captain": false
+        },
+        {
+          "summoner": "Nick Halden#1977",
           "is_captain": false
         },
         {
@@ -440,12 +444,14 @@
         "div": null
       },
       "stats": {
-        "wins": 0,
+        "wins": 2,
         "losses": 0,
-        "points": 0,
-        "games": 0,
-        "win_rate": 0,
-        "form": []
+        "points": 3,
+        "games": 1,
+        "win_rate": 100,
+        "form": [
+          "W"
+        ]
       },
       "next_match": {
         "date": "2026-05-24T19:00:00+02:00",
@@ -453,7 +459,12 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1162134",
         "enemy_roster": []
       },
-      "last_match": null,
+      "last_match": {
+        "result": "SIEG",
+        "score": "2 - 0",
+        "enemy": "ORI",
+        "date": "2026-05-17T19:00:00+02:00"
+      },
       "roster": [
         {
           "summoner": "UIC Boohunter#Boo",
