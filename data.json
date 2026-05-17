@@ -126,7 +126,7 @@
     {
       "name": "Regentropfen",
       "role": "MID",
-      "level": 991,
+      "level": 992,
       "tier": "DIAMOND II",
       "lp": 13,
       "wins": 39,
@@ -277,10 +277,10 @@
       "role": "TOP",
       "level": 562,
       "tier": "MASTER I",
-      "lp": 209,
+      "lp": 149,
       "wins": 285,
-      "losses": 253,
-      "winRate": 53,
+      "losses": 255,
+      "winRate": 52.8,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7047.png"
     },
     {
@@ -624,7 +624,7 @@
     {
       "name": "UIC Papi Δce",
       "role": "TOP",
-      "level": 582,
+      "level": 583,
       "tier": "EMERALD IV",
       "lp": 57,
       "wins": 67,
