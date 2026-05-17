@@ -82,10 +82,10 @@
       "role": "MNG",
       "level": 733,
       "tier": "SILVER I",
-      "lp": 23,
+      "lp": 1,
       "wins": 157,
-      "losses": 181,
-      "winRate": 46.4,
+      "losses": 182,
+      "winRate": 46.3,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5988.png"
     },
     {
@@ -149,11 +149,11 @@
       "name": "Autonamed",
       "role": "SUP",
       "level": 129,
-      "tier": "PLATINUM III",
-      "lp": 75,
-      "wins": 4,
+      "tier": "PLATINUM II",
+      "lp": 5,
+      "wins": 5,
       "losses": 3,
-      "winRate": 57.1,
+      "winRate": 62.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/2074.png"
     }
   ],
@@ -376,13 +376,13 @@
     {
       "name": "CYS Rellik",
       "role": "MID",
-      "level": 673,
-      "tier": "DIAMOND IV",
-      "lp": 2,
-      "wins": 118,
-      "losses": 99,
-      "winRate": 54.4,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7084.png"
+      "level": 0,
+      "tier": "RECRUITING",
+      "lp": 0,
+      "wins": 0,
+      "losses": 0,
+      "winRate": 0,
+      "icon": null
     },
     {
       "name": "UIC Pjure",
@@ -507,7 +507,7 @@
       "wins": 54,
       "losses": 54,
       "winRate": 50,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/5961.png"
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6340.png"
     },
     {
       "name": "UIC Muh",

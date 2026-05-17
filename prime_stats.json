@@ -20,12 +20,6 @@
     "players": 71,
     "radar": [
       {
-        "team_key": "OBSIDIAN",
-        "date": "2026-05-17T17:00:00+02:00",
-        "enemy": "ExMortis",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162753"
-      },
-      {
         "team_key": "NOVA",
         "date": "2026-05-17T19:00:00+02:00",
         "enemy": "ORI",
@@ -48,6 +42,12 @@
         "date": "2026-05-19T20:15:00+02:00",
         "enemy": "MMM",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159557"
+      },
+      {
+        "team_key": "ECLIPSE",
+        "date": "2026-05-20T19:30:00+02:00",
+        "enemy": "GTU",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163112"
       }
     ]
   },
@@ -100,6 +100,10 @@
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         },
         {
           "summoner": "UIC FrozenHands#MID",
@@ -384,6 +388,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "CYS Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -425,10 +433,6 @@
         {
           "summoner": "zab77#EUW",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         },
         {
           "summoner": "UIC Moonlxght#16396",
@@ -517,9 +521,9 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-17T17:00:00+02:00",
-        "tag": "ExMortis",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162753",
+        "date": "2026-05-24T19:00:00+02:00",
+        "tag": "OSGG",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162756",
         "enemy_roster": []
       },
       "last_match": null,
@@ -538,14 +542,10 @@
         },
         {
           "summoner": "UIC Papi Δce#3072",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Nyx#UIC",
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
+          "summoner": "UIC Nyx#UIC",
           "is_captain": false
         },
         {
