@@ -60,10 +60,10 @@
       "role": "SUB_1",
       "level": 1076,
       "tier": "MASTER I",
-      "lp": 646,
+      "lp": 615,
       "wins": 368,
-      "losses": 359,
-      "winRate": 50.6,
+      "losses": 360,
+      "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3151.png"
     },
     {
@@ -297,11 +297,11 @@
     {
       "name": "giow99",
       "role": "MID",
-      "level": 401,
+      "level": 402,
       "tier": "DIAMOND I",
-      "lp": 93,
-      "wins": 98,
-      "losses": 99,
+      "lp": 90,
+      "wins": 99,
+      "losses": 100,
       "winRate": 49.7,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4626.png"
     },
