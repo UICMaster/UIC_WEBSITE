@@ -5,9 +5,9 @@
       "role": "TOP",
       "level": 1170,
       "tier": "MASTER I",
-      "lp": 157,
-      "wins": 149,
-      "losses": 156,
+      "lp": 156,
+      "wins": 150,
+      "losses": 157,
       "winRate": 48.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4835.png"
     },
@@ -93,10 +93,10 @@
       "role": "COH",
       "level": 800,
       "tier": "EMERALD III",
-      "lp": 12,
-      "wins": 55,
-      "losses": 61,
-      "winRate": 47.4,
+      "lp": 10,
+      "wins": 56,
+      "losses": 62,
+      "winRate": 47.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     }
   ],
@@ -310,10 +310,10 @@
       "role": "BOT",
       "level": 847,
       "tier": "MASTER I",
-      "lp": 302,
-      "wins": 117,
-      "losses": 92,
-      "winRate": 56,
+      "lp": 303,
+      "wins": 118,
+      "losses": 93,
+      "winRate": 55.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6373.png"
     },
     {
@@ -332,10 +332,10 @@
       "role": "COH",
       "level": 800,
       "tier": "EMERALD III",
-      "lp": 12,
-      "wins": 55,
-      "losses": 61,
-      "winRate": 47.4,
+      "lp": 10,
+      "wins": 56,
+      "losses": 62,
+      "winRate": 47.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     },
     {
@@ -578,7 +578,7 @@
     {
       "name": "UIC Deavan",
       "role": "BOT_2",
-      "level": 400,
+      "level": 401,
       "tier": "PLATINUM II",
       "lp": 7,
       "wins": 136,
@@ -613,10 +613,10 @@
       "role": "COH",
       "level": 800,
       "tier": "EMERALD III",
-      "lp": 12,
-      "wins": 55,
-      "losses": 61,
-      "winRate": 47.4,
+      "lp": 10,
+      "wins": 56,
+      "losses": 62,
+      "winRate": 47.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4895.png"
     }
   ],
