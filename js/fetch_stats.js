@@ -106,6 +106,13 @@ async function start() {
 
     // Loop through the new teams.json structure
     for (const [teamKey, teamData] of Object.entries(rawTeamsData)) {
+        
+        // --- NEW GATE: Check for Prime League ID ---
+        if (!teamData.primeLeagueId || teamData.primeLeagueId.trim() === "") {
+            console.log(`\n⏩ SKIPPING [${teamKey.toUpperCase()}]: No Prime League ID found.`);
+            continue;
+        }
+
         if (!teamData.roster) continue;
 
         console.log(`\n--- ${teamKey.toUpperCase()} ---`);
