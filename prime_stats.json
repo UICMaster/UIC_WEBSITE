@@ -195,7 +195,13 @@
         "date": "2026-05-19T20:15:00+02:00",
         "tag": "MMM",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159557",
-        "enemy_roster": []
+        "enemy_roster": [
+          "Mirai no Yuuutsu#ERN",
+          "MMM Toasterkabel#123",
+          "If FP I GO Brand#EUW",
+          "JJGamer#MMM",
+          "Its A Triple#EUW"
+        ]
       },
       "last_match": null,
       "roster": [
