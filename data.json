@@ -58,11 +58,11 @@
     {
       "name": "Baumi",
       "role": "SUB_1",
-      "level": 1076,
+      "level": 1077,
       "tier": "MASTER I",
-      "lp": 615,
-      "wins": 368,
-      "losses": 360,
+      "lp": 611,
+      "wins": 370,
+      "losses": 362,
       "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3151.png"
     },
@@ -299,10 +299,10 @@
       "role": "MID",
       "level": 402,
       "tier": "DIAMOND I",
-      "lp": 90,
+      "lp": 69,
       "wins": 99,
-      "losses": 100,
-      "winRate": 49.7,
+      "losses": 101,
+      "winRate": 49.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/4626.png"
     },
     {
@@ -446,10 +446,10 @@
       "role": "BOT",
       "level": 597,
       "tier": "DIAMOND IV",
-      "lp": 45,
-      "wins": 151,
+      "lp": 82,
+      "wins": 153,
       "losses": 177,
-      "winRate": 46,
+      "winRate": 46.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
     },
     {
