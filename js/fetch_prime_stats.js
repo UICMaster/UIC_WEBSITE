@@ -1,9 +1,24 @@
 const fs = require('fs');
 const path = require('path');
 
-const CONFIG = JSON.parse(fs.readFileSync('./config.json', 'utf8'));
-const OUTPUT_PATH = path.resolve(process.cwd(), 'prime_stats.json');
+// --- THE ADAPTER ---
+// Read the new automated database
+const rawTeamsData = JSON.parse(fs.readFileSync('./data/teams.json', 'utf8'));
+
+// Transform dictionary to the strict Array format, filtering out empty IDs
+const CONFIG = {
+    teams: Object.entries(rawTeamsData)
+        .filter(([key, teamData]) => teamData.primeLeagueId && teamData.primeLeagueId.trim() !== "")
+        .map(([key, teamData]) => ({
+            key: key.toLowerCase(), 
+            id: String(teamData.primeLeagueId) 
+        }))
+};
+
+// Update target output directory to /data
+const OUTPUT_PATH = path.resolve(process.cwd(), 'data', 'prime_stats.json');
 const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/4.2' };
+// -------------------
 
 async function getTeamIntel(team) {
     console.log(`📡 Synchronisiere: ${team.key.toUpperCase()}...`);
@@ -116,4 +131,5 @@ async function start() {
     fs.writeFileSync(OUTPUT_PATH, JSON.stringify(payload, null, 2));
     console.log(`✅ Daten erfolgreich gespeichert: ${OUTPUT_PATH}`);
 }
+
 start();
