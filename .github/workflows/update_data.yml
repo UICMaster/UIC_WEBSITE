@@ -24,15 +24,15 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Fetch Riot Data
-        env:
-          RIOT_API_KEY: ${{ secrets.RIOT_API_KEY }}
+      # Validates the data.json that UIC_ANALYSES pushed into this repo
+      - name: Validate Synchronized Data
         run: node js/fetch_stats.js
-        continue-on-error: true 
 
+      # Fetches your independent Prime League stats
       - name: Fetch Prime Data
         run: node js/fetch_prime_stats.js
 
+      # Commits prime_stats.json (and data.json if any edge-case updates occurred)
       - name: Commit and Push
         env:
           TZ: Europe/Berlin
@@ -40,7 +40,6 @@ jobs:
           git config --global user.name "HUD-Sync-Bot"
           git config --global user.email "bot@noreply.github.com"
           
-          # UPDATE: Both files now live securely inside the data/ directory
           git add data/data.json data/prime_stats.json
           
           if [[ -n $(git status -s) ]]; then
