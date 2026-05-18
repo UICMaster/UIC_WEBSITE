@@ -3,7 +3,7 @@
 //  ========================================= */
 async function loadDynamicHUD() {
     try {
-        const res = await fetch('./data.json');
+        const res = await fetch('./data/data.json');
         if (!res.ok) throw new Error("Data file not found");
         const data = await res.json(); 
 
