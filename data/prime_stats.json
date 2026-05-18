@@ -17,7 +17,7 @@
   "global": {
     "matches": 5,
     "wr": 60,
-    "players": 77,
+    "players": 78,
     "radar": [
       {
         "team_key": "VAKUUM",
@@ -136,6 +136,10 @@
         },
         {
           "summoner": "Nick Halden#1977",
+          "is_captain": false
+        },
+        {
+          "summoner": "Regentropfen#H2O",
           "is_captain": false
         },
         {
