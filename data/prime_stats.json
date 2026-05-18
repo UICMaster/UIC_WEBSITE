@@ -20,12 +20,6 @@
     "players": 77,
     "radar": [
       {
-        "team_key": "SAKURA",
-        "date": "2026-05-18T20:00:00+02:00",
-        "enemy": "BOM",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160373"
-      },
-      {
         "team_key": "VAKUUM",
         "date": "2026-05-19T20:15:00+02:00",
         "enemy": "MMM",
@@ -48,6 +42,12 @@
         "date": "2026-05-21T18:00:00+02:00",
         "enemy": "Pupp",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161116"
+      },
+      {
+        "team_key": "SPARK",
+        "date": "2026-05-21T20:00:00+02:00",
+        "enemy": "TA",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161366"
       }
     ]
   },
@@ -405,9 +405,9 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-18T20:00:00+02:00",
-        "tag": "BOM",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160373",
+        "date": "2026-05-31T17:00:00+02:00",
+        "tag": "TT",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160378",
         "enemy_roster": []
       },
       "last_match": null,
