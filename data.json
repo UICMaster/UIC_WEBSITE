@@ -58,12 +58,12 @@
     {
       "name": "Baumi",
       "role": "SUB_1",
-      "level": 1077,
+      "level": 1078,
       "tier": "MASTER I",
-      "lp": 603,
-      "wins": 373,
-      "losses": 366,
-      "winRate": 50.5,
+      "lp": 657,
+      "wins": 377,
+      "losses": 368,
+      "winRate": 50.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/3151.png"
     },
     {
@@ -80,12 +80,12 @@
     {
       "name": "never leaving",
       "role": "MNG",
-      "level": 733,
-      "tier": "SILVER I",
-      "lp": 1,
+      "level": 734,
+      "tier": "SILVER II",
+      "lp": 79,
       "wins": 157,
-      "losses": 182,
-      "winRate": 46.3,
+      "losses": 183,
+      "winRate": 46.2,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6870.png"
     },
     {
@@ -277,11 +277,11 @@
       "role": "TOP",
       "level": 563,
       "tier": "MASTER I",
-      "lp": 209,
+      "lp": 179,
       "wins": 288,
-      "losses": 256,
-      "winRate": 52.9,
-      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7047.png"
+      "losses": 257,
+      "winRate": 52.8,
+      "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/787.png"
     },
     {
       "name": "Exi",
@@ -310,9 +310,9 @@
       "role": "BOT",
       "level": 847,
       "tier": "MASTER I",
-      "lp": 303,
-      "wins": 118,
-      "losses": 93,
+      "lp": 304,
+      "wins": 119,
+      "losses": 94,
       "winRate": 55.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6373.png"
     },
@@ -558,10 +558,10 @@
       "role": "MID_2",
       "level": 594,
       "tier": "EMERALD II",
-      "lp": 27,
-      "wins": 244,
+      "lp": 46,
+      "wins": 245,
       "losses": 227,
-      "winRate": 51.8,
+      "winRate": 51.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/23.png"
     },
     {
@@ -570,8 +570,8 @@
       "level": 1401,
       "tier": "PLATINUM IV",
       "lp": 84,
-      "wins": 443,
-      "losses": 434,
+      "wins": 444,
+      "losses": 435,
       "winRate": 50.5,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7128.png"
     },
@@ -580,10 +580,10 @@
       "role": "BOT_2",
       "level": 401,
       "tier": "PLATINUM II",
-      "lp": 7,
-      "wins": 136,
-      "losses": 116,
-      "winRate": 54,
+      "lp": 27,
+      "wins": 138,
+      "losses": 117,
+      "winRate": 54.1,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/6388.png"
     },
     {
@@ -637,10 +637,10 @@
       "role": "JGL",
       "level": 457,
       "tier": "GOLD II",
-      "lp": 14,
-      "wins": 83,
+      "lp": 36,
+      "wins": 84,
       "losses": 81,
-      "winRate": 50.6,
+      "winRate": 50.9,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.10.1/img/profileicon/7126.png"
     },
     {
