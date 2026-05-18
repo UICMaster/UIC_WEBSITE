@@ -17,7 +17,7 @@
   "global": {
     "matches": 4,
     "wr": 75,
-    "players": 77,
+    "players": 76,
     "radar": [
       {
         "team_key": "SAKURA",
@@ -136,10 +136,6 @@
         },
         {
           "summoner": "Nick Halden#1977",
-          "is_captain": false
-        },
-        {
-          "summoner": "Regentropfen#H2O",
           "is_captain": false
         },
         {
