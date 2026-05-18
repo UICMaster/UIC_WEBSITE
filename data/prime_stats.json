@@ -17,7 +17,7 @@
   "global": {
     "matches": 4,
     "wr": 75,
-    "players": 76,
+    "players": 77,
     "radar": [
       {
         "team_key": "SAKURA",
@@ -132,6 +132,10 @@
       "roster": [
         {
           "summoner": "Autonamed#EUW",
+          "is_captain": false
+        },
+        {
+          "summoner": "Regentropfen#H2O",
           "is_captain": false
         },
         {
