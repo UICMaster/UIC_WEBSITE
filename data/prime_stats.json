@@ -15,8 +15,8 @@
     ]
   },
   "global": {
-    "matches": 4,
-    "wr": 75,
+    "matches": 5,
+    "wr": 60,
     "players": 77,
     "radar": [
       {
@@ -132,10 +132,6 @@
       "roster": [
         {
           "summoner": "Autonamed#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "Regentropfen#H2O",
           "is_captain": false
         },
         {
@@ -398,11 +394,13 @@
       },
       "stats": {
         "wins": 0,
-        "losses": 0,
+        "losses": 2,
         "points": 0,
-        "games": 0,
+        "games": 1,
         "win_rate": 0,
-        "form": []
+        "form": [
+          "L"
+        ]
       },
       "next_match": {
         "date": "2026-05-31T17:00:00+02:00",
@@ -410,7 +408,12 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1160378",
         "enemy_roster": []
       },
-      "last_match": null,
+      "last_match": {
+        "result": "NIEDERLAGE",
+        "score": "0 - 2",
+        "enemy": "BOM",
+        "date": "2026-05-18T20:00:00+02:00"
+      },
       "roster": [
         {
           "summoner": "UIC SilentCarry#Alune",
@@ -659,6 +662,10 @@
         },
         {
           "summoner": "SupVsAdc#ratty",
+          "is_captain": false
+        },
+        {
+          "summoner": "N1TOS#EUW",
           "is_captain": false
         },
         {
