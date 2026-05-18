@@ -9,7 +9,7 @@ let primeDataCache = null;
 
 async function loadPrimeStats() {
     try {
-        const response = await fetch(`./prime_stats.json?t=${Date.now()}`);
+        const response = await fetch('./data/prime_stats.json?t=${Date.now()}');
         if (!response.ok) throw new Error("JSON Missing");
         primeDataCache = await response.json();
         
