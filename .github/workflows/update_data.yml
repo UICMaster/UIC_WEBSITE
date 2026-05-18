@@ -40,8 +40,8 @@ jobs:
           git config --global user.name "HUD-Sync-Bot"
           git config --global user.email "bot@noreply.github.com"
           
-          # UPDATE: Pointing to the new data/ directory for prime_stats.json
-          git add data.json data/prime_stats.json
+          # UPDATE: Both files now live securely inside the data/ directory
+          git add data/data.json data/prime_stats.json
           
           if [[ -n $(git status -s) ]]; then
             git commit -m "🤖 Telemetry Update: $(date +'%Y-%m-%d %H:%M')"
