@@ -78,7 +78,7 @@ async function loadEvents() {
     const container = document.getElementById('dynamic-events-list');
     if (!container) return; 
 
-    // XSS-Schutz
+    // Sicherheitsfunktion gegen Cross-Site-Scripting (XSS)
     const escapeHTML = (str) => {
         if (!str) return "";
         return str.toString().replace(/[&<>'"]/g, 
@@ -103,7 +103,7 @@ async function loadEvents() {
         let jsonLdData = [];
 
         events.forEach(event => {
-            // Datum & Zeit formatieren
+            // Datum und Zeiten parsen
             const startObj = new Date(event.start);
             const endObj = new Date(event.end);
             
@@ -117,7 +117,7 @@ async function loadEvents() {
             const colorStyle = event.highlight ? 'style="color: var(--secondary);"' : '';
             const borderStyle = event.highlight ? 'style="border-color: var(--secondary); color: var(--secondary);"' : '';
 
-            // HTML Generierung (Ein Button, genau wie du es im UI wolltest)
+            // 1. UI HTML Generierung
             htmlContent += `
                 <div class="event-row ${highlightClass}">
                     <div class="event-meta">
@@ -137,12 +137,7 @@ async function loadEvents() {
                 </div>
             `;
 
-            // SEO JSON-LD Aufbau (Multi-Location Logik für Twitch & PrimeLeague)
-            let seoLocations = [ { "@type": "VirtualLocation", "url": event.location } ];
-            if (event.streamUrl) {
-                seoLocations.push({ "@type": "VirtualLocation", "url": event.streamUrl });
-            }
-
+            // 2. SEO Schema.org Aufbau
             const schemaType = event.type === "ORGANIZATION" ? "Event" : "SportsEvent";
             
             let eventSchema = {
@@ -153,17 +148,19 @@ async function loadEvents() {
                 "eventStatus": "https://schema.org/EventScheduled",
                 "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                 "description": event.description,
-                "image": event.image ? [event.image] : ["https://ultrainstinctcrew.com/assets/default-match-banner.jpg"], // Pfad ggf. anpassen
+                "image": event.image ? [event.image] : ["https://ultrainstinctcrew.com/assets/default-match-banner.jpg"],
                 "organizer": {
                     "@type": "Organization",
                     "name": "Ultra Instinct Crew",
                     "url": "https://discord.gg/ultrainstinctcrew"
                 },
-                "location": seoLocations, 
+                "location": {
+                    "@type": "VirtualLocation",
+                    "url": event.location // Exakt EINE Location, behebt den Parser-Fehler
+                },
                 "offers": {
                     "@type": "Offer",
-                    // Stream-URL priorisieren für das Ticket/Access-Feld
-                    "url": event.streamUrl ? event.streamUrl : event.location,
+                    "url": event.streamUrl ? event.streamUrl : event.location, // Twitch-Link Priorität
                     "price": "0",
                     "priceCurrency": "EUR",
                     "availability": "https://schema.org/InStock",
@@ -171,19 +168,27 @@ async function loadEvents() {
                 }
             };
 
+            // 3. Teams & "Markup potentially missing" Fix (Performer)
             if (schemaType === "SportsEvent" && event.competitors && event.competitors.length >= 2) {
-                eventSchema.competitor = [
-                    { "@type": "SportsTeam", "name": event.competitors[0] },
-                    { "@type": "SportsTeam", "name": event.competitors[1] }
-                ];
+                const team1 = { "@type": "SportsTeam", "name": event.competitors[0] };
+                const team2 = { "@type": "SportsTeam", "name": event.competitors[1] };
+                
+                eventSchema.competitor = [team1, team2];
+                eventSchema.performer = [team1, team2]; // Behebt die Warnung für eSports Matches
+            } else {
+                eventSchema.performer = {
+                    "@type": "Organization",
+                    "name": "Ultra Instinct Crew" // Behebt die Warnung für Orga-Versammlungen
+                };
             }
 
             jsonLdData.push(eventSchema);
         });
 
+        // HTML in den DOM injizieren
         container.innerHTML = htmlContent;
 
-        // JSON-LD Skript ersetzen
+        // JSON-LD Skript in den Head injizieren (Duplikat-Schutz)
         let oldScript = document.getElementById('seo-events-schema');
         if (oldScript) oldScript.remove();
 
