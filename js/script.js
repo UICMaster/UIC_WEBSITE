@@ -1,21 +1,4 @@
 //* =========================================
-//  3. INITIALIZER & CORE EVENTS
-//  ========================================= */
-document.addEventListener("DOMContentLoaded", () => {
-    loadData(); // Sync Riot Data
-
-    // Automatically show the first active team grid
-    const activeBtn = document.querySelector(".tab-btn.active");
-    if (activeBtn) {
-        const match = activeBtn.getAttribute('onclick').match(/'([^']+)'/);
-        if (match && match[1]) {
-            const defaultGrid = document.getElementById(match[1]);
-            if (defaultGrid) defaultGrid.classList.add("active");
-        }
-    }
-});
-
-//* =========================================
 //  4. NAVIGATION & MOBILE MENU
 //  ========================================= */
 const navToggle = document.getElementById('nav-toggle');
