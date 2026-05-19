@@ -17,7 +17,7 @@
   "global": {
     "matches": 5,
     "wr": 60,
-    "players": 80,
+    "players": 79,
     "radar": [
       {
         "team_key": "VAKUUM",
@@ -203,15 +203,15 @@
       "roster": [
         {
           "summoner": "UIC Kaoxz#CRNGE",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC Painfull#UIC",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "VTennic#Goat",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "Amtoms#EUW",
@@ -330,10 +330,6 @@
         },
         {
           "summoner": "UIC Kamo#tpt",
-          "is_captain": false
-        },
-        {
-          "summoner": "Maevix#TTV",
           "is_captain": false
         },
         {
