@@ -78,7 +78,7 @@ async function loadEvents() {
     const container = document.getElementById('dynamic-events-list');
     if (!container) return; 
 
-    // Sicherheitsfunktion gegen Cross-Site-Scripting (XSS)
+    // XSS-Schutz
     const escapeHTML = (str) => {
         if (!str) return "";
         return str.toString().replace(/[&<>'"]/g, 
@@ -103,7 +103,7 @@ async function loadEvents() {
         let jsonLdData = [];
 
         events.forEach(event => {
-            // Zeitzonen-sicheres Parsen
+            // Datum & Zeit formatieren
             const startObj = new Date(event.start);
             const endObj = new Date(event.end);
             
@@ -117,7 +117,7 @@ async function loadEvents() {
             const colorStyle = event.highlight ? 'style="color: var(--secondary);"' : '';
             const borderStyle = event.highlight ? 'style="border-color: var(--secondary); color: var(--secondary);"' : '';
 
-            // HTML Generierung
+            // HTML Generierung (Ein Button, genau wie du es im UI wolltest)
             htmlContent += `
                 <div class="event-row ${highlightClass}">
                     <div class="event-meta">
@@ -130,14 +130,19 @@ async function loadEvents() {
                         <p>${escapeHTML(event.description)}</p>
                     </div>
                     <div class="event-action">
-                        <a target="_blank" href="${escapeHTML(event.location)}" class="btn-glass" ${borderStyle} aria-label="Zum Event: ${escapeHTML(event.name)}">
+                        <a target="_blank" href="${escapeHTML(event.location)}" class="btn-glass" ${borderStyle} aria-label="Details zu ${escapeHTML(event.name)}">
                             <span class="btn-icon">→</span>
                         </a>
                     </div>
                 </div>
             `;
 
-            // Schema.org SEO Logik
+            // SEO JSON-LD Aufbau (Multi-Location Logik für Twitch & PrimeLeague)
+            let seoLocations = [ { "@type": "VirtualLocation", "url": event.location } ];
+            if (event.streamUrl) {
+                seoLocations.push({ "@type": "VirtualLocation", "url": event.streamUrl });
+            }
+
             const schemaType = event.type === "ORGANIZATION" ? "Event" : "SportsEvent";
             
             let eventSchema = {
@@ -148,19 +153,17 @@ async function loadEvents() {
                 "eventStatus": "https://schema.org/EventScheduled",
                 "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                 "description": event.description,
-                "image": event.image ? [event.image] : ["https://deine-website.de/assets/default-match-banner.jpg"],
+                "image": event.image ? [event.image] : ["https://ultrainstinctcrew.com/assets/default-match-banner.jpg"], // Pfad ggf. anpassen
                 "organizer": {
                     "@type": "Organization",
                     "name": "Ultra Instinct Crew",
                     "url": "https://discord.gg/ultrainstinctcrew"
                 },
-                "location": {
-                    "@type": "VirtualLocation",
-                    "url": event.location
-                },
+                "location": seoLocations, 
                 "offers": {
                     "@type": "Offer",
-                    "url": event.location,
+                    // Stream-URL priorisieren für das Ticket/Access-Feld
+                    "url": event.streamUrl ? event.streamUrl : event.location,
                     "price": "0",
                     "priceCurrency": "EUR",
                     "availability": "https://schema.org/InStock",
@@ -168,7 +171,6 @@ async function loadEvents() {
                 }
             };
 
-            // Teams für eSports hinzufügen
             if (schemaType === "SportsEvent" && event.competitors && event.competitors.length >= 2) {
                 eventSchema.competitor = [
                     { "@type": "SportsTeam", "name": event.competitors[0] },
@@ -181,7 +183,7 @@ async function loadEvents() {
 
         container.innerHTML = htmlContent;
 
-        // JSON-LD Injektion (Duplikat-Schutz)
+        // JSON-LD Skript ersetzen
         let oldScript = document.getElementById('seo-events-schema');
         if (oldScript) oldScript.remove();
 
