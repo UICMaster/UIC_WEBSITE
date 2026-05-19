@@ -15,8 +15,8 @@
     ]
   },
   "global": {
-    "matches": 5,
-    "wr": 60,
+    "matches": 6,
+    "wr": 50,
     "players": 81,
     "radar": [
       {
@@ -192,12 +192,14 @@
         "div": null
       },
       "stats": {
-        "wins": 0,
-        "losses": 0,
-        "points": 0,
-        "games": 0,
+        "wins": 1,
+        "losses": 2,
+        "points": 1,
+        "games": 1,
         "win_rate": 0,
-        "form": []
+        "form": [
+          "L"
+        ]
       },
       "next_match": {
         "date": "2026-05-31T17:00:00+02:00",
@@ -205,7 +207,12 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1159558",
         "enemy_roster": []
       },
-      "last_match": null,
+      "last_match": {
+        "result": "NIEDERLAGE",
+        "score": "1 - 2",
+        "enemy": "MMM",
+        "date": "2026-05-19T20:15:00+02:00"
+      },
       "roster": [
         {
           "summoner": "UIC Kaoxz#CRNGE",
@@ -473,7 +480,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-24T19:00:00+02:00",
+        "date": "2026-05-24T19:30:00+02:00",
         "tag": "OBRN",
         "link": "https://www.primeleague.gg/de/leagues/matches/1162134",
         "enemy_roster": []
