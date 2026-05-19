@@ -1,21 +1,5 @@
 [
   {
-    "id": "1503844696676372613",
-    "name": "Ultra Instinct Crew Vakuum vs. Midlife Macro Masters T2",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-05-19T18:15:00+00:00",
-    "end": "2026-05-19T20:15:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1159557",
-    "image": "https://cdn.discordapp.com/guild-events/1503844696676372613/1dbd6a8e76ac58cda77b174f61280aea.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Vakuum",
-      "Midlife Macro Masters T2"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1504595647129583717",
     "name": "Ultra Instinct Crew Abyss vs. Die depressiven Wölfe",
     "description": "gameday 1",
@@ -92,6 +76,22 @@
     "competitors": [
       "Ultra Instinct Crew",
       "Lunar Pugnacious Gaming"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1506376894868750517",
+    "name": "Ultra Instinct Crew Phoenix vs. No Name Needed",
+    "description": "gameday 2",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-05-24T18:00:00+00:00",
+    "end": "2026-05-24T20:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1160811",
+    "image": "https://cdn.discordapp.com/guild-events/1506376894868750517/85a730cb7996f715deefab87929f4bcc.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Phoenix",
+      "No Name Needed"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
