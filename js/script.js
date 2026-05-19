@@ -72,7 +72,7 @@ if ('serviceWorker' in navigator) {
 }
 
 //* =========================================
-//  7. DISCORD Events (Smart Frontend)
+//  7. DISCORD Events (Final & Validated)
 //  ========================================= */
 async function loadEvents() {
     const container = document.getElementById('dynamic-events-list');
@@ -101,7 +101,10 @@ async function loadEvents() {
         }
 
         let htmlContent = '';
-        let jsonLdData = [];
+
+        // Alte dynamisch generierte Event-Skripte vor dem Neuaufbau löschen (Duplikat-Schutz)
+        const oldScripts = document.querySelectorAll('.dynamic-event-schema');
+        oldScripts.forEach(s => s.remove());
 
         events.forEach(event => {
             // 3. Zeitzonen-sicheres Parsen
@@ -138,10 +141,12 @@ async function loadEvents() {
                 </div>
             `;
 
-            // 5. High-End SEO Schema.org Aufbau
+            // 5. High-End SEO Schema.org Aufbau (Ein flacher Block pro Event)
             const schemaType = event.type === "ORGANIZATION" ? "Event" : "SportsEvent";
+            const hasTeams = (schemaType === "SportsEvent" && event.competitors && event.competitors.length >= 2);
             
             let eventSchema = {
+                "@context": "https://schema.org",
                 "@type": schemaType,
                 "name": event.name,
                 "startDate": event.start,
@@ -149,7 +154,7 @@ async function loadEvents() {
                 "eventStatus": "https://schema.org/EventScheduled",
                 "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                 "description": event.description,
-                "image": event.image ? [event.image] : ["https://ultrainstinctcrew.com/assets/default-match-banner.jpg"],
+                "image": event.image ? event.image : "https://ultrainstinctcrew.com/assets/default-match-banner.jpg",
                 
                 // VERKNÜPFUNG: Referenziert das hartcodierte Orga-Skript in der index.html
                 "organizer": { "@id": "https://ultrainstinctcrew.com/#organization" },
@@ -157,42 +162,31 @@ async function loadEvents() {
                 
                 "location": {
                     "@type": "VirtualLocation",
-                    "url": event.location // Der strikte administrative Ort (z.B. Prime League)
+                    "url": event.location
                 },
                 "offers": {
                     "@type": "Offer",
-                    "url": event.streamUrl ? event.streamUrl : event.location, // Twitch hat Vorrang als "Ticket"
+                    "url": event.streamUrl ? event.streamUrl : event.location, // Twitch hat Vorrang
                     "price": "0",
                     "priceCurrency": "EUR",
                     "availability": "https://schema.org/InStock",
                     "description": "Kostenloser Online-Zugang"
-                }
+                },
+                // Werden sauber weggelassen, wenn "hasTeams" false ist
+                "homeTeam": hasTeams ? { "@type": "SportsTeam", "name": event.competitors[0] } : undefined,
+                "awayTeam": hasTeams ? { "@type": "SportsTeam", "name": event.competitors[1] } : undefined
             };
 
-            // E-Sports Spezifikationen (Gegner sauber eintragen)
-            if (schemaType === "SportsEvent" && event.competitors && event.competitors.length >= 2) {
-                eventSchema.homeTeam = { "@type": "SportsTeam", "name": event.competitors[0] };
-                eventSchema.awayTeam = { "@type": "SportsTeam", "name": event.competitors[1] };
-            }
-
-            jsonLdData.push(eventSchema);
+            // 6. JSON-LD Injektion direkt im Loop
+            const script = document.createElement('script');
+            script.className = 'dynamic-event-schema';
+            script.type = 'application/ld+json';
+            script.text = JSON.stringify(eventSchema);
+            document.head.appendChild(script);
         });
 
-        // 6. DOM Mutation
+        // HTML in den DOM injizieren
         container.innerHTML = htmlContent;
-
-        // 7. JSON-LD Injektion (Duplikat-Schutz für SPA / Reloads)
-        let oldScript = document.getElementById('seo-events-schema');
-        if (oldScript) oldScript.remove();
-
-        const script = document.createElement('script');
-        script.id = 'seo-events-schema';
-        script.type = 'application/ld+json';
-        script.text = JSON.stringify({
-            "@context": "https://schema.org",
-            "@graph": jsonLdData
-        });
-        document.head.appendChild(script);
 
     } catch (error) {
         console.error("Fehler beim Laden der Events:", error);
