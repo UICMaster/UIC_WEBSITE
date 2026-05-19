@@ -17,7 +17,7 @@
   "global": {
     "matches": 5,
     "wr": 60,
-    "players": 82,
+    "players": 81,
     "radar": [
       {
         "team_key": "ABYSS",
@@ -400,10 +400,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
