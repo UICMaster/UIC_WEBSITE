@@ -76,17 +76,25 @@ if ('serviceWorker' in navigator) {
 //  ========================================= */
 async function loadEvents() {
     const container = document.getElementById('dynamic-events-list');
-    
+    if (!container) return; 
+
+    // Sicherheitsfunktion gegen Cross-Site-Scripting (XSS)
+    const escapeHTML = (str) => {
+        if (!str) return "";
+        return str.toString().replace(/[&<>'"]/g, 
+            tag => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[tag])
+        );
+    };
+
     try {
-        // Pfad angepasst: Sucht vom Hauptverzeichnis aus nach der Datei
         const response = await fetch('/data/events.json');
+        if (!response.ok) throw new Error("Netzwerkantwort war nicht ok");
         const events = await response.json();
 
-        // Wenn keine Termine in Discord geplant sind
         if (!events || events.length === 0) {
             container.innerHTML = `
-                <div class="terminal-loader" style="color: var(--text-muted); font-family: monospace; text-align: center; padding: 20px; border: 1px dashed rgba(255,255,255,0.1);">
-                    > NO_EVENTS_FOUND...
+                <div class="terminal-loader">
+                    > NO_EVENTS_SCHEDULED...
                 </div>`;
             return;
         }
@@ -95,68 +103,90 @@ async function loadEvents() {
         let jsonLdData = [];
 
         events.forEach(event => {
-            const dateObj = new Date(event.start);
-            const month = dateObj.toLocaleString('de-DE', { month: 'short' }).toUpperCase();
-            const day = dateObj.getDate();
+            // Zeitzonen-sicheres Parsen
+            const startObj = new Date(event.start);
+            const endObj = new Date(event.end);
             
-            // 1. Beschreibung holen und analysieren
-            const rawDescription = event.description || '';
-            
-            // 2. Event-Typ anhand des Tags (oder des Namens als Fallback) bestimmen
-            const isOrg = rawDescription.includes('[TYPE: ORGA]') || event.name.toLowerCase().includes('versammlung');
-            const typeLabel = isOrg ? 'ORGANIZATION' : 'TOURNAMENT';
-            const highlightClass = isOrg ? 'highlight-row' : '';
-            
-            // 3. Tags aus der Beschreibung entfernen, damit das UI sauber bleibt
-            let cleanDescription = rawDescription
-                .replace('[TYPE: ORGA]', '')
-                .replace('[TYPE: MATCH]', '')
-                .trim();
-                
-            // Fallback, falls nach dem Löschen der Tags kein Text mehr übrig ist
-            if (!cleanDescription) {
-                cleanDescription = 'Keine Beschreibung verfügbar.';
-            }
+            const month = startObj.toLocaleString('de-DE', { month: 'short' }).toUpperCase();
+            const day = startObj.getDate();
+            const timeOptions = { hour: '2-digit', minute: '2-digit' };
+            const startTime = startObj.toLocaleTimeString('de-DE', timeOptions);
+            const endTime = endObj.toLocaleTimeString('de-DE', timeOptions);
 
-            const actionLink = event.location || 'https://discord.gg/ultrainstinctcrew';
+            const highlightClass = event.highlight ? 'highlight-row' : '';
+            const colorStyle = event.highlight ? 'style="color: var(--secondary);"' : '';
+            const borderStyle = event.highlight ? 'style="border-color: var(--secondary); color: var(--secondary);"' : '';
 
-            // HTML für die Anzeige bauen
+            // HTML Generierung
             htmlContent += `
                 <div class="event-row ${highlightClass}">
                     <div class="event-meta">
-                        <span class="event-type" ${isOrg ? 'style="color: var(--secondary);"' : ''}>${typeLabel}</span>
+                        <span class="event-type" ${colorStyle}>${escapeHTML(event.type)}</span>
                         <div class="event-date">${month} ${day}</div>
+                        <div class="event-time">${startTime} - ${endTime}</div>
                     </div>
                     <div class="event-details">
-                        <h4>${event.name}</h4>
-                        <p>${cleanDescription}</p>
+                        <h4>${escapeHTML(event.name)}</h4>
+                        <p>${escapeHTML(event.description)}</p>
                     </div>
                     <div class="event-action">
-                        <a target="_blank" href="${actionLink}" class="btn-glass" ${isOrg ? 'style="border-color: var(--secondary); color: var(--secondary);"' : ''}>
+                        <a target="_blank" href="${escapeHTML(event.location)}" class="btn-glass" ${borderStyle} aria-label="Zum Event: ${escapeHTML(event.name)}">
                             <span class="btn-icon">→</span>
                         </a>
                     </div>
                 </div>
             `;
 
-            // JSON-LD Datenpunkt für dieses Event hinzufügen (mit sauberer Beschreibung!)
-            jsonLdData.push({
-                "@type": "SportsEvent",
+            // Schema.org SEO Logik
+            const schemaType = event.type === "ORGANIZATION" ? "Event" : "SportsEvent";
+            
+            let eventSchema = {
+                "@type": schemaType,
                 "name": event.name,
                 "startDate": event.start,
-                "description": cleanDescription,
+                "endDate": event.end,
+                "eventStatus": "https://schema.org/EventScheduled",
+                "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                "description": event.description,
+                "image": event.image ? [event.image] : ["https://deine-website.de/assets/default-match-banner.jpg"],
+                "organizer": {
+                    "@type": "Organization",
+                    "name": "Ultra Instinct Crew",
+                    "url": "https://discord.gg/ultrainstinctcrew"
+                },
                 "location": {
                     "@type": "VirtualLocation",
-                    "url": actionLink
+                    "url": event.location
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "url": event.location,
+                    "price": "0",
+                    "priceCurrency": "EUR",
+                    "availability": "https://schema.org/InStock",
+                    "description": "Kostenloser Online-Zugang"
                 }
-            });
+            };
+
+            // Teams für eSports hinzufügen
+            if (schemaType === "SportsEvent" && event.competitors && event.competitors.length >= 2) {
+                eventSchema.competitor = [
+                    { "@type": "SportsTeam", "name": event.competitors[0] },
+                    { "@type": "SportsTeam", "name": event.competitors[1] }
+                ];
+            }
+
+            jsonLdData.push(eventSchema);
         });
 
-        // UI aktualisieren (Terminal-Loader wird überschrieben)
         container.innerHTML = htmlContent;
 
-        // JSON-LD (SEO) für Google in den <head> einfügen
+        // JSON-LD Injektion (Duplikat-Schutz)
+        let oldScript = document.getElementById('seo-events-schema');
+        if (oldScript) oldScript.remove();
+
         const script = document.createElement('script');
+        script.id = 'seo-events-schema';
         script.type = 'application/ld+json';
         script.text = JSON.stringify({
             "@context": "https://schema.org",
@@ -166,13 +196,11 @@ async function loadEvents() {
 
     } catch (error) {
         console.error("Fehler beim Laden der Events:", error);
-        // Fehlerfall im Terminal-Style
         container.innerHTML = `
-            <div class="terminal-loader" style="color: var(--text-muted); font-family: monospace; text-align: center; padding: 20px; border: 1px dashed rgba(255,255,255,0.1);">
-                > SYNC_FAILED...
+            <div class="terminal-loader">
+                > SYNC_FAILED... RETRY LATER.
             </div>`;
     }
 }
 
-// Script starten, sobald die Seite geladen ist
 document.addEventListener('DOMContentLoaded', loadEvents);
