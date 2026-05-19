@@ -72,13 +72,13 @@ if ('serviceWorker' in navigator) {
 }
 
 //* =========================================
-//  7. DISCORD Events
+//  7. DISCORD Events (Smart Frontend)
 //  ========================================= */
 async function loadEvents() {
     const container = document.getElementById('dynamic-events-list');
-    if (!container) return; 
+    if (!container) return; // Sicherheits-Check, falls DOM-Element auf Unterseiten fehlt
 
-    // Sicherheitsfunktion gegen Cross-Site-Scripting (XSS)
+    // 1. XSS-Schutz (Cross-Site-Scripting Prävention)
     const escapeHTML = (str) => {
         if (!str) return "";
         return str.toString().replace(/[&<>'"]/g, 
@@ -91,6 +91,7 @@ async function loadEvents() {
         if (!response.ok) throw new Error("Netzwerkantwort war nicht ok");
         const events = await response.json();
 
+        // 2. Empty State Handling
         if (!events || events.length === 0) {
             container.innerHTML = `
                 <div class="terminal-loader">
@@ -103,7 +104,7 @@ async function loadEvents() {
         let jsonLdData = [];
 
         events.forEach(event => {
-            // Datum und Zeiten parsen
+            // 3. Zeitzonen-sicheres Parsen
             const startObj = new Date(event.start);
             const endObj = new Date(event.end);
             
@@ -117,7 +118,7 @@ async function loadEvents() {
             const colorStyle = event.highlight ? 'style="color: var(--secondary);"' : '';
             const borderStyle = event.highlight ? 'style="border-color: var(--secondary); color: var(--secondary);"' : '';
 
-            // 1. UI HTML Generierung
+            // 4. Sichere HTML Generierung (UI)
             htmlContent += `
                 <div class="event-row ${highlightClass}">
                     <div class="event-meta">
@@ -137,7 +138,7 @@ async function loadEvents() {
                 </div>
             `;
 
-            // 2. SEO Schema.org Aufbau
+            // 5. High-End SEO Schema.org Aufbau
             const schemaType = event.type === "ORGANIZATION" ? "Event" : "SportsEvent";
             
             let eventSchema = {
@@ -149,18 +150,18 @@ async function loadEvents() {
                 "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
                 "description": event.description,
                 "image": event.image ? [event.image] : ["https://ultrainstinctcrew.com/assets/default-match-banner.jpg"],
-                "organizer": {
-                    "@type": "Organization",
-                    "name": "Ultra Instinct Crew",
-                    "url": "https://discord.gg/ultrainstinctcrew"
-                },
+                
+                // VERKNÜPFUNG: Referenziert das hartcodierte Orga-Skript in der index.html
+                "organizer": { "@id": "https://ultrainstinctcrew.com/#organization" },
+                "performer": { "@id": "https://ultrainstinctcrew.com/#organization" },
+                
                 "location": {
                     "@type": "VirtualLocation",
-                    "url": event.location // Exakt EINE Location, behebt den Parser-Fehler
+                    "url": event.location // Der strikte administrative Ort (z.B. Prime League)
                 },
                 "offers": {
                     "@type": "Offer",
-                    "url": event.streamUrl ? event.streamUrl : event.location, // Twitch-Link Priorität
+                    "url": event.streamUrl ? event.streamUrl : event.location, // Twitch hat Vorrang als "Ticket"
                     "price": "0",
                     "priceCurrency": "EUR",
                     "availability": "https://schema.org/InStock",
@@ -168,27 +169,19 @@ async function loadEvents() {
                 }
             };
 
-            // 3. Teams & "Markup potentially missing" Fix (Performer)
+            // E-Sports Spezifikationen (Gegner sauber eintragen)
             if (schemaType === "SportsEvent" && event.competitors && event.competitors.length >= 2) {
-                const team1 = { "@type": "SportsTeam", "name": event.competitors[0] };
-                const team2 = { "@type": "SportsTeam", "name": event.competitors[1] };
-                
-                eventSchema.competitor = [team1, team2];
-                eventSchema.performer = [team1, team2]; // Behebt die Warnung für eSports Matches
-            } else {
-                eventSchema.performer = {
-                    "@type": "Organization",
-                    "name": "Ultra Instinct Crew" // Behebt die Warnung für Orga-Versammlungen
-                };
+                eventSchema.homeTeam = { "@type": "SportsTeam", "name": event.competitors[0] };
+                eventSchema.awayTeam = { "@type": "SportsTeam", "name": event.competitors[1] };
             }
 
             jsonLdData.push(eventSchema);
         });
 
-        // HTML in den DOM injizieren
+        // 6. DOM Mutation
         container.innerHTML = htmlContent;
 
-        // JSON-LD Skript in den Head injizieren (Duplikat-Schutz)
+        // 7. JSON-LD Injektion (Duplikat-Schutz für SPA / Reloads)
         let oldScript = document.getElementById('seo-events-schema');
         if (oldScript) oldScript.remove();
 
@@ -205,9 +198,10 @@ async function loadEvents() {
         console.error("Fehler beim Laden der Events:", error);
         container.innerHTML = `
             <div class="terminal-loader">
-                > SYNC_FAILED... RETRY LATER.
+                > SYNC_FAILED...
             </div>`;
     }
 }
 
+// Script starten, sobald der DOM sicher geladen ist
 document.addEventListener('DOMContentLoaded', loadEvents);
