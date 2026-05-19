@@ -17,14 +17,8 @@
   "global": {
     "matches": 5,
     "wr": 60,
-    "players": 80,
+    "players": 82,
     "radar": [
-      {
-        "team_key": "VAKUUM",
-        "date": "2026-05-19T20:15:00+02:00",
-        "enemy": "MMM",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159557"
-      },
       {
         "team_key": "ABYSS",
         "date": "2026-05-20T19:00:00+02:00",
@@ -48,6 +42,12 @@
         "date": "2026-05-21T20:00:00+02:00",
         "enemy": "TA",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161366"
+      },
+      {
+        "team_key": "PRIME",
+        "date": "2026-05-21T21:00:00+02:00",
+        "enemy": "LPG",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159503"
       }
     ]
   },
@@ -102,8 +102,16 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC FrozenHands#MID",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -192,34 +200,32 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-19T20:15:00+02:00",
-        "tag": "MMM",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159557",
-        "enemy_roster": [
-          "Mirai no Yuuutsu#ERN",
-          "MMM Toasterkabel#123",
-          "If FP I GO Brand#EUW",
-          "JJGamer#MMM",
-          "Its A Triple#EUW"
-        ]
+        "date": "2026-05-31T17:00:00+02:00",
+        "tag": "AUT",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159558",
+        "enemy_roster": []
       },
       "last_match": null,
       "roster": [
         {
           "summoner": "UIC Kaoxz#CRNGE",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC Painfull#UIC",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "VTennic#Goat",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "Amtoms#EUW",
           "is_captain": true
+        },
+        {
+          "summoner": "DAG LingYao#EUW",
+          "is_captain": false
         },
         {
           "summoner": "FirstBlo#EUW",
@@ -287,10 +293,6 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -312,7 +314,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-24T19:00:00+02:00",
+        "date": "2026-05-24T20:00:00+02:00",
         "tag": "NNN",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160811",
         "enemy_roster": []
@@ -398,6 +400,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -634,10 +640,6 @@
         {
           "summoner": "UIC Starboy#UIC",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
