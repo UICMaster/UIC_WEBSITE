@@ -1403,42 +1403,49 @@ img {
     gap: var(--space-sm);
 }
 
-/* The Event Strip (Glass Bar) */
+.terminal-loader {
+    color: var(--text-muted);
+    font-family: monospace;
+    text-align: center;
+    padding: 20px;
+    border: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
 .event-row {
     display: grid;
-    /* Desktop Layout: Date (Fixed) | Info (Flexible) | Button (Fixed) */
-    grid-template-columns: 120px 1fr auto;
+    grid-template-columns: 140px 1fr auto;
     align-items: center;
     gap: var(--space-md);
-    
     background: var(--bg-glass);
     border: 1px solid rgba(255, 255, 255, 0.05);
     padding: var(--space-sm) var(--space-md);
-    transition: all 0.3s ease;
     
-    /* The "Power Bar" on the left */
     border-left: 2px solid transparent; 
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Hover Effect: The strip "powers up" */
-.event-row:hover {
+/* Hover & Focus State */
+.event-row:hover,
+.event-row:focus-within {
     background: rgba(255, 255, 255, 0.03);
     border-color: rgba(0, 240, 255, 0.3);
-    border-left-color: var(--primary); /* Cyan glow on left edge */
-    transform: translateX(5px); /* Slides slightly right */
+    border-left-color: var(--primary);
+    transform: translateX(5px);
 }
 
-/* Modifier: Highlight Row (For Special Events) */
+/* Modifier: Highlight Row (Orga Events) */
 .highlight-row {
-    border-left: 2px solid var(--secondary); /* Purple edge */
+    border-left: 2px solid var(--secondary);
     background: linear-gradient(90deg, rgba(176, 38, 255, 0.05) 0%, transparent 100%);
 }
 
-/* Typography & Layout details */
 .event-meta {
     text-align: center;
-    border-right: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
     padding-right: var(--space-md);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .event-type {
@@ -1458,6 +1465,13 @@ img {
     color: var(--text-white);
 }
 
+.event-time {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 4px;
+    font-family: monospace;
+}
+
 .event-details h4 {
     font-family: var(--font-head);
     color: var(--text-white);
@@ -1473,33 +1487,35 @@ img {
     letter-spacing: 1px;
 }
 
-/* The "GO" Button (Mini-Tactical) */
+/* The "GO" Button */
 .btn-glass {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 50px; height: 50px; /* Square target */
-    border: 1px solid rgba(255,255,255,0.3);
+    width: 50px; 
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
     color: var(--primary);
     text-decoration: none;
     font-weight: 700;
-    transition: all 0.3s;
-    background: rgba(0,0,0,0.5);
-    /* Cut corners */
+    background: rgba(0, 0, 0, 0.5);
     clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
-.btn-glass:hover {
+.btn-glass:hover,
+.btn-glass:focus-visible {
     background: var(--primary);
     color: black;
     box-shadow: 0 0 15px var(--primary);
     border-color: var(--primary);
+    outline: none;
 }
 
-/* MOBILE ADAPTATION (Automatic Stacking) */
+/* MOBILE ADAPTATION */
 @media (max-width: 768px) {
     .event-row {
-        grid-template-columns: 1fr; /* Stack vertically */
+        grid-template-columns: 1fr;
         text-align: center;
         padding: var(--space-md);
         gap: var(--space-sm);
@@ -1507,14 +1523,22 @@ img {
     
     .event-meta {
         border-right: none;
-        border-bottom: 1px solid rgba(255,255,255,0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         padding-right: 0;
         padding-bottom: var(--space-sm);
     }
     
     .btn-glass {
-        width: 100%; /* Full width button on mobile */
+        width: 100%;
         height: 40px; 
+    }
+}
+
+/* A11Y: Reduce Motion Support */
+@media (prefers-reduced-motion: reduce) {
+    .event-row:hover,
+    .event-row:focus-within {
+        transform: none; 
     }
 }
 
