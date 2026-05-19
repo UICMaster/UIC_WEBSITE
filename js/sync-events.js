@@ -28,14 +28,13 @@ https.get(options, (res) => {
                 const loc = e.entity_metadata?.location || "https://discord.gg/ultrainstinctcrew";
                 const rawDesc = e.description || "Keine Beschreibung verfügbar.";
                 
-                // 1. Smarte Kategorisierung
+                // 1. Kategorisierung & Team-Extraktion
                 let eventType = "TOURNAMENT";
                 let isHighlight = false;
                 let teams = [];
                 
                 if (loc.includes('primeleague.gg')) {
                     eventType = "ESPORTS MATCH";
-                    // Extrahiere Teams für SEO (sucht nach "vs." oder "vs")
                     if (e.name.toLowerCase().includes('vs')) {
                         teams = e.name.split(/vs\.?/i).map(teamName => teamName.trim());
                     }
@@ -44,14 +43,23 @@ https.get(options, (res) => {
                     isHighlight = true;
                 }
 
-                // 2. Endzeit Fallback (falls Discord-User keine Endzeit angeben)
+                // 2. Twitch Stream URL Logik (SEO)
+                let streamUrl = null;
+                const twitchMatch = rawDesc.match(/https?:\/\/(www\.)?twitch\.tv\/[a-zA-Z0-9_]+/i);
+                if (twitchMatch) {
+                    streamUrl = twitchMatch[0]; // Caster Link aus der Beschreibung
+                } else if (eventType === "ESPORTS MATCH") {
+                    streamUrl = "https://www.twitch.tv/ultrainstinctcrew"; // Standard Crew-Kanal
+                }
+
+                // 3. Endzeit Fallback
                 let endTime = e.scheduled_end_time;
                 if (!endTime) {
                     const startObj = new Date(e.scheduled_start_time);
                     endTime = new Date(startObj.getTime() + 2 * 60 * 60 * 1000).toISOString();
                 }
 
-                // 3. Optionales Cover-Bild für SEO
+                // 4. Cover-Bild
                 let imageUrl = null;
                 if (e.image) {
                     imageUrl = `https://cdn.discordapp.com/guild-events/${e.id}/${e.image}.png?size=1024`;
@@ -67,11 +75,12 @@ https.get(options, (res) => {
                     end: endTime,
                     location: loc,
                     image: imageUrl,
-                    competitors: teams
+                    competitors: teams,
+                    streamUrl: streamUrl
                 };
             });
 
-            // 4. Chronologische Sortierung
+            // Chronologisch sortieren (früheste zuerst)
             cleanedEvents.sort((a, b) => new Date(a.start) - new Date(b.start));
 
             fs.writeFileSync('./data/events.json', JSON.stringify(cleanedEvents, null, 2));
