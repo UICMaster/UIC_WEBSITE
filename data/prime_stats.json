@@ -15,8 +15,8 @@
     ]
   },
   "global": {
-    "matches": 6,
-    "wr": 50,
+    "matches": 7,
+    "wr": 43,
     "players": 78,
     "radar": [
       {
@@ -648,12 +648,14 @@
         "div": null
       },
       "stats": {
-        "wins": 0,
-        "losses": 0,
-        "points": 0,
-        "games": 0,
+        "wins": 1,
+        "losses": 2,
+        "points": 1,
+        "games": 1,
         "win_rate": 0,
-        "form": []
+        "form": [
+          "L"
+        ]
       },
       "next_match": {
         "date": "2026-05-21T20:00:00+02:00",
@@ -661,7 +663,12 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1160214",
         "enemy_roster": []
       },
-      "last_match": null,
+      "last_match": {
+        "result": "NIEDERLAGE",
+        "score": "1 - 2",
+        "enemy": "DDW",
+        "date": "2026-05-20T19:00:00+02:00"
+      },
       "roster": [
         {
           "summoner": "zkanex#ADC",
