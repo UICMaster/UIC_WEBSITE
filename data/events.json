@@ -1,37 +1,5 @@
 [
   {
-    "id": "1504595647129583717",
-    "name": "Ultra Instinct Crew Abyss vs. Die depressiven Wölfe",
-    "description": "gameday 1",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-05-20T16:00:00+00:00",
-    "end": "2026-05-20T18:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1160212",
-    "image": "https://cdn.discordapp.com/guild-events/1504595647129583717/9f927c07b29328d6814effe2d2a25022.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Abyss",
-      "Die depressiven Wölfe"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1503885135634759947",
-    "name": "Ultra Instinct Crew Eclipse vs. Golden SpaTUler",
-    "description": "gameday 1",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-05-20T17:30:00+00:00",
-    "end": "2026-05-20T19:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1163112",
-    "image": "https://cdn.discordapp.com/guild-events/1503885135634759947/e849a1241998ae971e60738e0449294c.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Eclipse",
-      "Golden SpaTUler"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1504817620656853173",
     "name": "Ultra Instinct Crew Cyber vs. Puppies",
     "description": "gameday 1",
