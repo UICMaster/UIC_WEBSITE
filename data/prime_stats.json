@@ -17,7 +17,7 @@
   "global": {
     "matches": 7,
     "wr": 43,
-    "players": 79,
+    "players": 78,
     "radar": [
       {
         "team_key": "CYBER",
@@ -140,10 +140,6 @@
       "roster": [
         {
           "summoner": "Autonamed#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "Regentropfen#H2O",
           "is_captain": false
         },
         {
