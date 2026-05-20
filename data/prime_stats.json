@@ -17,7 +17,7 @@
   "global": {
     "matches": 6,
     "wr": 50,
-    "players": 78,
+    "players": 79,
     "radar": [
       {
         "team_key": "ABYSS",
@@ -140,6 +140,10 @@
       "roster": [
         {
           "summoner": "Autonamed#EUW",
+          "is_captain": false
+        },
+        {
+          "summoner": "Regentropfen#H2O",
           "is_captain": false
         },
         {
@@ -543,7 +547,13 @@
         "date": "2026-05-24T19:00:00+02:00",
         "tag": "OSGG",
         "link": "https://www.primeleague.gg/de/leagues/matches/1162756",
-        "enemy_roster": []
+        "enemy_roster": [
+          "Jayfeather#UwU",
+          "PixelLook#EUW",
+          "BattleBunny#AZB",
+          "BlueBee308#08537",
+          "DeathTerm1nator#EUW"
+        ]
       },
       "last_match": {
         "result": "NIEDERLAGE",
