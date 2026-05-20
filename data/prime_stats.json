@@ -17,20 +17,8 @@
   "global": {
     "matches": 6,
     "wr": 50,
-    "players": 79,
+    "players": 78,
     "radar": [
-      {
-        "team_key": "ABYSS",
-        "date": "2026-05-20T19:00:00+02:00",
-        "enemy": "DDW",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160212"
-      },
-      {
-        "team_key": "ECLIPSE",
-        "date": "2026-05-20T19:30:00+02:00",
-        "enemy": "GTU",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163112"
-      },
       {
         "team_key": "CYBER",
         "date": "2026-05-21T18:00:00+02:00",
@@ -44,10 +32,22 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1161366"
       },
       {
+        "team_key": "ABYSS",
+        "date": "2026-05-21T20:00:00+02:00",
+        "enemy": "AKA",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160214"
+      },
+      {
         "team_key": "PRIME",
         "date": "2026-05-21T21:00:00+02:00",
         "enemy": "LPG",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159503"
+      },
+      {
+        "team_key": "EMBER",
+        "date": "2026-05-22T18:00:00+02:00",
+        "enemy": "SBH",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163088"
       }
     ]
   },
@@ -131,19 +131,15 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-20T19:30:00+02:00",
-        "tag": "GTU",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163112",
+        "date": "2026-05-24T19:00:00+02:00",
+        "tag": "CPS",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163117",
         "enemy_roster": []
       },
       "last_match": null,
       "roster": [
         {
           "summoner": "Autonamed#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "Regentropfen#H2O",
           "is_captain": false
         },
         {
@@ -291,7 +287,7 @@
         },
         {
           "summoner": "UIC BissiBoy#UIC",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
@@ -660,9 +656,9 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-20T19:00:00+02:00",
-        "tag": "DDW",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160212",
+        "date": "2026-05-21T20:00:00+02:00",
+        "tag": "AKA",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160214",
         "enemy_roster": []
       },
       "last_match": null,
