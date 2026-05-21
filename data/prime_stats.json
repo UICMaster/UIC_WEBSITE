@@ -15,16 +15,10 @@
     ]
   },
   "global": {
-    "matches": 7,
-    "wr": 43,
-    "players": 81,
+    "matches": 9,
+    "wr": 56,
+    "players": 78,
     "radar": [
-      {
-        "team_key": "PRIME",
-        "date": "2026-05-21T21:00:00+02:00",
-        "enemy": "LPG",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159503"
-      },
       {
         "team_key": "EMBER",
         "date": "2026-05-22T18:00:00+02:00",
@@ -48,6 +42,12 @@
         "date": "2026-05-24T19:00:00+02:00",
         "enemy": "RSE",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161120"
+      },
+      {
+        "team_key": "OBSIDIAN",
+        "date": "2026-05-24T19:00:00+02:00",
+        "enemy": "OSGG",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162756"
       }
     ]
   },
@@ -66,16 +66,10 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-21T21:00:00+02:00",
-        "tag": "LPG",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159503",
-        "enemy_roster": [
-          "Hemyon#EUW",
-          "LPG KiteAdc#197",
-          "CG Ssaiko#CGJGL",
-          "ZoeLover#lol",
-          "LPG amicusp#PIRAT"
-        ]
+        "date": "2026-05-26T20:00:00+02:00",
+        "tag": "O-INT",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159510",
+        "enemy_roster": []
       },
       "last_match": null,
       "roster": [
@@ -110,6 +104,10 @@
         {
           "summoner": "UIC FrozenHands#MID",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -138,10 +136,6 @@
       "roster": [
         {
           "summoner": "Autonamed#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Regentropfen#H2O",
           "is_captain": false
         },
         {
@@ -288,6 +282,10 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -344,10 +342,6 @@
         {
           "summoner": "UIC AutumnLeaf#Moo",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212473",
@@ -359,12 +353,14 @@
         "div": null
       },
       "stats": {
-        "wins": 0,
-        "losses": 0,
-        "points": 0,
-        "games": 0,
-        "win_rate": 0,
-        "form": []
+        "wins": 2,
+        "losses": 1,
+        "points": 2,
+        "games": 1,
+        "win_rate": 100,
+        "form": [
+          "W"
+        ]
       },
       "next_match": {
         "date": "2026-05-24T19:00:00+02:00",
@@ -372,7 +368,12 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1161120",
         "enemy_roster": []
       },
-      "last_match": null,
+      "last_match": {
+        "result": "SIEG",
+        "score": "2 - 1",
+        "enemy": "Pupp",
+        "date": "2026-05-21T18:00:00+02:00"
+      },
       "roster": [
         {
           "summoner": "Ðărkø#SAI",
@@ -437,10 +438,6 @@
         {
           "summoner": "zab77#EUW",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         },
         {
           "summoner": "UIC Moonlxght#16396",
@@ -577,10 +574,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Shockwave#EUW",
           "is_captain": false
         }
@@ -650,13 +643,14 @@
         "div": null
       },
       "stats": {
-        "wins": 1,
+        "wins": 3,
         "losses": 2,
-        "points": 1,
-        "games": 1,
-        "win_rate": 0,
+        "points": 4,
+        "games": 2,
+        "win_rate": 50,
         "form": [
-          "L"
+          "L",
+          "W"
         ]
       },
       "next_match": {
@@ -666,10 +660,10 @@
         "enemy_roster": []
       },
       "last_match": {
-        "result": "NIEDERLAGE",
-        "score": "1 - 2",
-        "enemy": "DDW",
-        "date": "2026-05-20T19:00:00+02:00"
+        "result": "SIEG",
+        "score": "2 - 0",
+        "enemy": "AKA",
+        "date": "2026-05-21T20:00:00+02:00"
       },
       "roster": [
         {
@@ -678,14 +672,10 @@
         },
         {
           "summoner": "yShizuu#ÊUW",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "SupVsAdc#ratty",
-          "is_captain": false
-        },
-        {
-          "summoner": "Roihclem#TOP",
           "is_captain": false
         },
         {
