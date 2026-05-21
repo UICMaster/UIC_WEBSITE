@@ -17,20 +17,8 @@
   "global": {
     "matches": 7,
     "wr": 43,
-    "players": 80,
+    "players": 81,
     "radar": [
-      {
-        "team_key": "SPARK",
-        "date": "2026-05-21T20:00:00+02:00",
-        "enemy": "TA",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161366"
-      },
-      {
-        "team_key": "ABYSS",
-        "date": "2026-05-21T20:00:00+02:00",
-        "enemy": "AKA",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160214"
-      },
       {
         "team_key": "PRIME",
         "date": "2026-05-21T21:00:00+02:00",
@@ -48,6 +36,18 @@
         "date": "2026-05-22T20:30:00+02:00",
         "enemy": "GTU",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163112"
+      },
+      {
+        "team_key": "SPARK",
+        "date": "2026-05-24T19:00:00+02:00",
+        "enemy": "BeKFF",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161371"
+      },
+      {
+        "team_key": "CYBER",
+        "date": "2026-05-24T19:00:00+02:00",
+        "enemy": "RSE",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161120"
       }
     ]
   },
@@ -69,7 +69,13 @@
         "date": "2026-05-21T21:00:00+02:00",
         "tag": "LPG",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159503",
-        "enemy_roster": []
+        "enemy_roster": [
+          "Hemyon#EUW",
+          "LPG KiteAdc#197",
+          "CG Ssaiko#CGJGL",
+          "ZoeLover#lol",
+          "LPG amicusp#PIRAT"
+        ]
       },
       "last_match": null,
       "roster": [
@@ -248,16 +254,10 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-21T20:00:00+02:00",
-        "tag": "TA",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161366",
-        "enemy_roster": [
-          "LostLich#EUW",
-          "GG EnnΩ#000",
-          "Umbreon#smy",
-          "Dracarys#INT",
-          "NiLo#CLONK"
-        ]
+        "date": "2026-05-24T19:00:00+02:00",
+        "tag": "BeKFF",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161371",
+        "enemy_roster": []
       },
       "last_match": null,
       "roster": [
@@ -288,10 +288,6 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -348,6 +344,10 @@
         {
           "summoner": "UIC AutumnLeaf#Moo",
           "is_captain": true
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212473",
@@ -380,18 +380,14 @@
         },
         {
           "summoner": "UIC Pjure#CYS",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC Rellik#CYS",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC DANY#RFA40",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
           "is_captain": false
         }
       ],
@@ -441,6 +437,10 @@
         {
           "summoner": "zab77#EUW",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         },
         {
           "summoner": "UIC Moonlxght#16396",
@@ -577,6 +577,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Shockwave#EUW",
           "is_captain": false
         }
@@ -635,10 +639,6 @@
         {
           "summoner": "UIC Starboy#UIC",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
@@ -660,9 +660,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-21T20:00:00+02:00",
-        "tag": "AKA",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160214",
+        "date": "2026-05-31T17:00:00+02:00",
+        "tag": "CBD",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160220",
         "enemy_roster": []
       },
       "last_match": {
@@ -678,10 +678,14 @@
         },
         {
           "summoner": "yShizuu#ÊUW",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "SupVsAdc#ratty",
+          "is_captain": false
+        },
+        {
+          "summoner": "Roihclem#TOP",
           "is_captain": false
         },
         {
