@@ -20,12 +20,6 @@
     "players": 80,
     "radar": [
       {
-        "team_key": "CYBER",
-        "date": "2026-05-21T18:00:00+02:00",
-        "enemy": "Pupp",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161116"
-      },
-      {
         "team_key": "SPARK",
         "date": "2026-05-21T20:00:00+02:00",
         "enemy": "TA",
@@ -48,6 +42,12 @@
         "date": "2026-05-22T18:00:00+02:00",
         "enemy": "SBH",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163088"
+      },
+      {
+        "team_key": "ECLIPSE",
+        "date": "2026-05-22T20:30:00+02:00",
+        "enemy": "GTU",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163112"
       }
     ]
   },
@@ -102,16 +102,8 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC FrozenHands#MID",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -296,6 +288,10 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -371,16 +367,10 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-21T18:00:00+02:00",
-        "tag": "Pupp",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161116",
-        "enemy_roster": [
-          "Wannkertou#EUW",
-          "I bims Alfhilde#ALF",
-          "Carnegan#EUW",
-          "MuffinMan23#EUW",
-          "Draogonking#420"
-        ]
+        "date": "2026-05-24T19:00:00+02:00",
+        "tag": "RSE",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161120",
+        "enemy_roster": []
       },
       "last_match": null,
       "roster": [
@@ -390,11 +380,11 @@
         },
         {
           "summoner": "UIC Pjure#CYS",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC Rellik#CYS",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC DANY#RFA40",
@@ -402,7 +392,7 @@
         },
         {
           "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
+          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -645,6 +635,10 @@
         {
           "summoner": "UIC Starboy#UIC",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
