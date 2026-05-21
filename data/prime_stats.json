@@ -15,9 +15,9 @@
     ]
   },
   "global": {
-    "matches": 9,
-    "wr": 56,
-    "players": 78,
+    "matches": 11,
+    "wr": 64,
+    "players": 79,
     "radar": [
       {
         "team_key": "EMBER",
@@ -58,12 +58,14 @@
         "div": null
       },
       "stats": {
-        "wins": 0,
+        "wins": 2,
         "losses": 0,
-        "points": 0,
-        "games": 0,
-        "win_rate": 0,
-        "form": []
+        "points": 3,
+        "games": 1,
+        "win_rate": 100,
+        "form": [
+          "W"
+        ]
       },
       "next_match": {
         "date": "2026-05-26T20:00:00+02:00",
@@ -71,7 +73,12 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1159510",
         "enemy_roster": []
       },
-      "last_match": null,
+      "last_match": {
+        "result": "SIEG",
+        "score": "2 - 0",
+        "enemy": "LPG",
+        "date": "2026-05-21T21:00:00+02:00"
+      },
       "roster": [
         {
           "summoner": "UIC Shenycrane#Vugel",
@@ -104,10 +111,6 @@
         {
           "summoner": "UIC FrozenHands#MID",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -240,12 +243,14 @@
         "div": null
       },
       "stats": {
-        "wins": 0,
-        "losses": 0,
-        "points": 0,
-        "games": 0,
-        "win_rate": 0,
-        "form": []
+        "wins": 2,
+        "losses": 1,
+        "points": 2,
+        "games": 1,
+        "win_rate": 100,
+        "form": [
+          "W"
+        ]
       },
       "next_match": {
         "date": "2026-05-24T19:00:00+02:00",
@@ -253,7 +258,12 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1161371",
         "enemy_roster": []
       },
-      "last_match": null,
+      "last_match": {
+        "result": "SIEG",
+        "score": "2 - 1",
+        "enemy": "TA",
+        "date": "2026-05-21T20:00:00+02:00"
+      },
       "roster": [
         {
           "summoner": "Reign#Teach",
@@ -390,6 +400,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -632,6 +646,10 @@
         {
           "summoner": "UIC Starboy#UIC",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
