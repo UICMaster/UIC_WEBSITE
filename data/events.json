@@ -1,53 +1,5 @@
 [
   {
-    "id": "1502375581692727386",
-    "name": "Ultra Instinct Crew Spark vs. Tiamat´s Abyss",
-    "description": "gameday 1",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-05-21T18:00:00+00:00",
-    "end": "2026-05-21T19:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1161366",
-    "image": "https://cdn.discordapp.com/guild-events/1502375581692727386/161516c682ad66595984d566cac2cde2.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Spark",
-      "Tiamat´s Abyss"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1506426411366224042",
-    "name": "Ultra Instinct Crew Abyss vs. AKASARA eSport - OG",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-05-21T18:00:00+00:00",
-    "end": "2026-05-21T20:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1160214",
-    "image": "https://cdn.discordapp.com/guild-events/1506426411366224042/18774c906b8ff34cc6927e1da529b585.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Abyss",
-      "AKASARA eSport - OG"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1504451812328083538",
-    "name": "Ultra Instinct Crew vs. Lunar Pugnacious Gaming",
-    "description": "gameday 1",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-05-21T19:00:00+00:00",
-    "end": "2026-05-21T21:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1159503",
-    "image": "https://cdn.discordapp.com/guild-events/1504451812328083538/2719e839e880cd46b2ca1b550d410911.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew",
-      "Lunar Pugnacious Gaming"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1506595735372693534",
     "name": "Ultra Instinct Crew Ember vs. Sublime Black Hawks",
     "description": "gameday 2",
