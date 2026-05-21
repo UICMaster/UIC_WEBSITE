@@ -1,21 +1,5 @@
 [
   {
-    "id": "1504817620656853173",
-    "name": "Ultra Instinct Crew Cyber vs. Puppies",
-    "description": "gameday 1",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-05-21T16:00:00+00:00",
-    "end": "2026-05-21T18:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1161116",
-    "image": "https://cdn.discordapp.com/guild-events/1504817620656853173/53f62db0b3aab9f492dd83923c3ab04d.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Cyber",
-      "Puppies"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1502375581692727386",
     "name": "Ultra Instinct Crew Spark vs. Tiamat´s Abyss",
     "description": "gameday 1",
@@ -124,6 +108,22 @@
     "competitors": [
       "Ultra Instinct Crew Phoenix",
       "No Name Needed"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1507071536316682290",
+    "name": "Ultra Instinct Crew vs. Omega intSport",
+    "description": "gameday 2",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-05-26T18:00:00+00:00",
+    "end": "2026-05-26T20:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1159510",
+    "image": "https://cdn.discordapp.com/guild-events/1507071536316682290/cf3ac16d508a4f3fa5fd43077584fa8a.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew",
+      "Omega intSport"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
