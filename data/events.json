@@ -48,22 +48,6 @@
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
-    "id": "1506426538583658528",
-    "name": "Ultra Instinct Crew Abyss vs. AKASARA eSport - OG",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-05-21T18:00:00+00:00",
-    "end": "2026-05-21T20:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1160214",
-    "image": "https://cdn.discordapp.com/guild-events/1506426538583658528/18774c906b8ff34cc6927e1da529b585.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Abyss",
-      "AKASARA eSport - OG"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1504451812328083538",
     "name": "Ultra Instinct Crew vs. Lunar Pugnacious Gaming",
     "description": "gameday 1",
