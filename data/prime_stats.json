@@ -102,8 +102,16 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC FrozenHands#MID",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -123,9 +131,9 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-24T19:00:00+02:00",
-        "tag": "CPS",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163117",
+        "date": "2026-05-22T20:30:00+02:00",
+        "tag": "GTU",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163112",
         "enemy_roster": []
       },
       "last_match": null,
@@ -288,10 +296,6 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -641,10 +645,6 @@
         {
           "summoner": "UIC Starboy#UIC",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
