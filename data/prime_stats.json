@@ -17,7 +17,7 @@
   "global": {
     "matches": 7,
     "wr": 43,
-    "players": 78,
+    "players": 81,
     "radar": [
       {
         "team_key": "CYBER",
@@ -102,16 +102,8 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC FrozenHands#MID",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -140,6 +132,10 @@
       "roster": [
         {
           "summoner": "Autonamed#EUW",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Regentropfen#H2O",
           "is_captain": false
         },
         {
@@ -232,6 +228,10 @@
         },
         {
           "summoner": "UIC Hunter#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "DAG LingYao#EUW",
           "is_captain": false
         }
       ],
@@ -334,6 +334,10 @@
           "is_captain": true
         },
         {
+          "summoner": "UIC Exi#QUAK",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
         },
@@ -343,6 +347,10 @@
         },
         {
           "summoner": "UIC AutumnLeaf#Moo",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         }
       ],
@@ -526,7 +534,7 @@
     },
     "obsidian": {
       "meta": {
-        "name": "Ultra Insticht Crew Obsidian",
+        "name": "Ultra Instinct Crew Obsidian",
         "div": null
       },
       "stats": {
@@ -576,6 +584,10 @@
         },
         {
           "summoner": "UIC Nyx#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
