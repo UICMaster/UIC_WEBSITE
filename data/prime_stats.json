@@ -15,8 +15,8 @@
     ]
   },
   "global": {
-    "matches": 11,
-    "wr": 64,
+    "matches": 13,
+    "wr": 69,
     "players": 81,
     "radar": [
       {
@@ -122,12 +122,14 @@
         "div": null
       },
       "stats": {
-        "wins": 0,
+        "wins": 2,
         "losses": 0,
-        "points": 0,
-        "games": 0,
-        "win_rate": 0,
-        "form": []
+        "points": 3,
+        "games": 1,
+        "win_rate": 100,
+        "form": [
+          "W"
+        ]
       },
       "next_match": {
         "date": "2026-05-24T15:00:00+02:00",
@@ -135,7 +137,12 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1163117",
         "enemy_roster": []
       },
-      "last_match": null,
+      "last_match": {
+        "result": "SIEG",
+        "score": "2 - 0",
+        "enemy": "GTU",
+        "date": "2026-05-22T20:30:00+02:00"
+      },
       "roster": [
         {
           "summoner": "Stafferl#FNC",
@@ -613,12 +620,13 @@
         "div": null
       },
       "stats": {
-        "wins": 2,
-        "losses": 0,
-        "points": 3,
-        "games": 1,
+        "wins": 4,
+        "losses": 1,
+        "points": 5,
+        "games": 2,
         "win_rate": 100,
         "form": [
+          "W",
           "W"
         ]
       },
@@ -630,9 +638,9 @@
       },
       "last_match": {
         "result": "SIEG",
-        "score": "2 - 0",
-        "enemy": "TEAR",
-        "date": "2026-05-17T20:00:00+02:00"
+        "score": "2 - 1",
+        "enemy": "SBH",
+        "date": "2026-05-22T18:30:00+02:00"
       },
       "roster": [
         {
