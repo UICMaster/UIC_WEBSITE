@@ -17,7 +17,7 @@
   "global": {
     "matches": 13,
     "wr": 69,
-    "players": 81,
+    "players": 82,
     "radar": [
       {
         "team_key": "ECLIPSE",
@@ -462,6 +462,10 @@
         },
         {
           "summoner": "zab77#EUW",
+          "is_captain": false
+        },
+        {
+          "summoner": "nic30012#Metal",
           "is_captain": false
         },
         {
