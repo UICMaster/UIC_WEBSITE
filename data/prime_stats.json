@@ -21,9 +21,9 @@
     "radar": [
       {
         "team_key": "ECLIPSE",
-        "date": "2026-05-22T20:30:00+02:00",
-        "enemy": "GTU",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163112"
+        "date": "2026-05-24T15:00:00+02:00",
+        "enemy": "CPS",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163117"
       },
       {
         "team_key": "SPARK",
@@ -130,15 +130,23 @@
         "form": []
       },
       "next_match": {
-        "date": "2026-05-22T20:30:00+02:00",
-        "tag": "GTU",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163112",
+        "date": "2026-05-24T15:00:00+02:00",
+        "tag": "CPS",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163117",
         "enemy_roster": []
       },
       "last_match": null,
       "roster": [
         {
+          "summoner": "Stafferl#FNC",
+          "is_captain": true
+        },
+        {
           "summoner": "Autonamed#EUW",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Regentropfen#H2O",
           "is_captain": false
         },
         {
@@ -167,10 +175,6 @@
         },
         {
           "summoner": "Aetemis#EUWW",
-          "is_captain": true
-        },
-        {
-          "summoner": "Stafferl#FNC",
           "is_captain": true
         },
         {
@@ -296,10 +300,6 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -408,10 +408,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -460,6 +456,10 @@
         {
           "summoner": "zab77#EUW",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         },
         {
           "summoner": "UIC Moonlxght#16396",
@@ -596,6 +596,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Shockwave#EUW",
           "is_captain": false
         }
@@ -633,11 +637,7 @@
       "roster": [
         {
           "summoner": "UIC Envy#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "RD Slevin#1612",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC ソニック#0815",
