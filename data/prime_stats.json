@@ -17,11 +17,11 @@
   "global": {
     "matches": 11,
     "wr": 64,
-    "players": 80,
+    "players": 79,
     "radar": [
       {
         "team_key": "EMBER",
-        "date": "2026-05-22T18:00:00+02:00",
+        "date": "2026-05-22T18:30:00+02:00",
         "enemy": "SBH",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163088"
       },
@@ -408,10 +408,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -619,7 +615,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-22T18:00:00+02:00",
+        "date": "2026-05-22T18:30:00+02:00",
         "tag": "SBH",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163088",
         "enemy_roster": []
