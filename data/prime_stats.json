@@ -17,7 +17,7 @@
   "global": {
     "matches": 11,
     "wr": 64,
-    "players": 79,
+    "players": 80,
     "radar": [
       {
         "team_key": "EMBER",
@@ -142,10 +142,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Regentropfen#H2O",
-          "is_captain": false
-        },
-        {
           "summoner": "Nick Halden#1977",
           "is_captain": false
         },
@@ -213,6 +209,10 @@
         "date": "2026-05-19T20:15:00+02:00"
       },
       "roster": [
+        {
+          "summoner": "DAG LingYao#EUW",
+          "is_captain": false
+        },
         {
           "summoner": "UIC Kaoxz#CRNGE",
           "is_captain": true
@@ -340,6 +340,10 @@
         {
           "summoner": "UIC Kamo#tpt",
           "is_captain": true
+        },
+        {
+          "summoner": "UIC Exi#QUAK",
+          "is_captain": false
         },
         {
           "summoner": "UIC Loonz#Coach",
