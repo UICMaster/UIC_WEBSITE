@@ -1,21 +1,5 @@
 [
   {
-    "id": "1506595735372693534",
-    "name": "Ultra Instinct Crew Ember vs. Sublime Black Hawks",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-05-22T16:00:00+00:00",
-    "end": "2026-05-22T18:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1163088",
-    "image": "https://cdn.discordapp.com/guild-events/1506595735372693534/45143017b824d00ff76f9add398c009a.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Ember",
-      "Sublime Black Hawks"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1507151880936226967",
     "name": "Ultra Instinct Crew Eclipse vs. Golden SpaTUler",
     "description": "Keine Beschreibung verfügbar.",
@@ -44,6 +28,22 @@
     "competitors": [
       "Ultra Instinct Crew Eclipse",
       "Capytalisten Schweine"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1507467909029564488",
+    "name": "Ultra Instinct Crew Obsidian vs. OSGG Navy Nova",
+    "description": "gameday 2",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-05-24T17:00:00+00:00",
+    "end": "2026-05-24T19:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1162756",
+    "image": "https://cdn.discordapp.com/guild-events/1507467909029564488/23a958fc18bc17e5f4dd725be7ea9c8d.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Obsidian",
+      "OSGG Navy Nova"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
