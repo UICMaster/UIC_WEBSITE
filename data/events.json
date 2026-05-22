@@ -1,21 +1,5 @@
 [
   {
-    "id": "1507151880936226967",
-    "name": "Ultra Instinct Crew Eclipse vs. Golden SpaTUler",
-    "description": "Keine Beschreibung verfügbar.",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-05-22T18:30:00.519000+00:00",
-    "end": "2026-05-22T20:30:00.519000+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1163112-golden-spatuler-vs-ultra-instinct-crew-eclipse",
-    "image": "https://cdn.discordapp.com/guild-events/1507151880936226967/92d59e89145359c05d8b9955452d0712.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Eclipse",
-      "Golden SpaTUler"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1506999453611982918",
     "name": "Ultra Instinct Crew Eclipse vs. Capytalisten Schweine",
     "description": "gameday 2",
