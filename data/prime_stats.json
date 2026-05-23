@@ -17,7 +17,7 @@
   "global": {
     "matches": 13,
     "wr": 69,
-    "players": 79,
+    "players": 82,
     "radar": [
       {
         "team_key": "ECLIPSE",
@@ -32,12 +32,6 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1161371"
       },
       {
-        "team_key": "CYBER",
-        "date": "2026-05-24T19:00:00+02:00",
-        "enemy": "RSE",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161120"
-      },
-      {
         "team_key": "OBSIDIAN",
         "date": "2026-05-24T19:00:00+02:00",
         "enemy": "OSGG",
@@ -48,6 +42,12 @@
         "date": "2026-05-24T19:30:00+02:00",
         "enemy": "OBRN",
         "link": "https://www.primeleague.gg/de/leagues/matches/1162134"
+      },
+      {
+        "team_key": "PHOENIX",
+        "date": "2026-05-24T20:00:00+02:00",
+        "enemy": "NNN",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160811"
       }
     ]
   },
@@ -111,6 +111,10 @@
         {
           "summoner": "UIC FrozenHands#MID",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -221,6 +225,10 @@
       },
       "roster": [
         {
+          "summoner": "DAG LingYao#EUW",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Kaoxz#CRNGE",
           "is_captain": true
         },
@@ -303,6 +311,10 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -345,6 +357,10 @@
           "is_captain": true
         },
         {
+          "summoner": "UIC Exi#QUAK",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
         },
@@ -354,10 +370,6 @@
         },
         {
           "summoner": "UIC AutumnLeaf#Moo",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         }
       ],
@@ -380,7 +392,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-24T19:00:00+02:00",
+        "date": "2026-05-25T19:30:00+02:00",
         "tag": "RSE",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161120",
         "enemy_roster": []
@@ -407,10 +419,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -463,6 +471,10 @@
         {
           "summoner": "nic30012#Metal",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         },
         {
           "summoner": "UIC Moonlxght#16396",
