@@ -15,8 +15,8 @@
     ]
   },
   "global": {
-    "matches": 15,
-    "wr": 73,
+    "matches": 17,
+    "wr": 76,
     "players": 82,
     "radar": [
       {
@@ -311,12 +311,13 @@
         "div": null
       },
       "stats": {
-        "wins": 2,
+        "wins": 4,
         "losses": 0,
-        "points": 3,
-        "games": 1,
+        "points": 6,
+        "games": 2,
         "win_rate": 100,
         "form": [
+          "W",
           "W"
         ]
       },
@@ -329,8 +330,8 @@
       "last_match": {
         "result": "SIEG",
         "score": "2 - 0",
-        "enemy": "ZSB",
-        "date": "2026-05-13T19:00:00+02:00"
+        "enemy": "NNN",
+        "date": "2026-05-24T20:00:00+02:00"
       },
       "roster": [
         {
@@ -562,13 +563,14 @@
         "div": null
       },
       "stats": {
-        "wins": 0,
+        "wins": 2,
         "losses": 2,
-        "points": 0,
-        "games": 1,
-        "win_rate": 0,
+        "points": 3,
+        "games": 2,
+        "win_rate": 50,
         "form": [
-          "L"
+          "L",
+          "W"
         ]
       },
       "next_match": {
@@ -578,10 +580,10 @@
         "enemy_roster": []
       },
       "last_match": {
-        "result": "NIEDERLAGE",
-        "score": "0 - 2",
-        "enemy": "ExMortis",
-        "date": "2026-05-17T17:00:00+02:00"
+        "result": "SIEG",
+        "score": "2 - 0",
+        "enemy": "OSGG",
+        "date": "2026-05-24T19:00:00+02:00"
       },
       "roster": [
         {
