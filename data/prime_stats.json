@@ -17,7 +17,7 @@
   "global": {
     "matches": 13,
     "wr": 69,
-    "players": 81,
+    "players": 82,
     "radar": [
       {
         "team_key": "ECLIPSE",
@@ -150,6 +150,10 @@
         },
         {
           "summoner": "Autonamed#EUW",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Regentropfen#H2O",
           "is_captain": false
         },
         {
