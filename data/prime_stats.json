@@ -17,7 +17,7 @@
   "global": {
     "matches": 17,
     "wr": 76,
-    "players": 82,
+    "players": 83,
     "radar": [
       {
         "team_key": "CYBER",
@@ -154,6 +154,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Regentropfen#H2O",
+          "is_captain": false
+        },
+        {
           "summoner": "Nick Halden#1977",
           "is_captain": false
         },
@@ -264,7 +268,13 @@
         "date": "2026-05-26T21:00:00+02:00",
         "tag": "BeKFF",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161371",
-        "enemy_roster": []
+        "enemy_roster": [
+          "BeK lucalele#EUW",
+          "BeK TheLines#BeK",
+          "Jon12z65#GLXY",
+          "Accium#EUW",
+          "Gr33nM4n#EUW"
+        ]
       },
       "last_match": {
         "result": "SIEG",
