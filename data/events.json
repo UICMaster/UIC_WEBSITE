@@ -1,21 +1,5 @@
 [
   {
-    "id": "1506999453611982918",
-    "name": "Ultra Instinct Crew Eclipse vs. Capytalisten Schweine",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-05-24T13:00:00+00:00",
-    "end": "2026-05-24T15:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1163117",
-    "image": "https://cdn.discordapp.com/guild-events/1506999453611982918/5a1529a77952c4f12172abd1b83fc747.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Eclipse",
-      "Capytalisten Schweine"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1507467909029564488",
     "name": "Ultra Instinct Crew Obsidian vs. OSGG Navy Nova",
     "description": "gameday 2",
@@ -28,22 +12,6 @@
     "competitors": [
       "Ultra Instinct Crew Obsidian",
       "OSGG Navy Nova"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1506425973246132274",
-    "name": "Ultra Instinct Crew Nova vs. Oberon",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-05-24T17:30:00+00:00",
-    "end": "2026-05-24T19:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1162134",
-    "image": "https://cdn.discordapp.com/guild-events/1506425973246132274/fd592ff0c27c0f7cb96a0a8e61616b9f.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Nova",
-      "Oberon"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
@@ -92,6 +60,22 @@
     "competitors": [
       "Ultra Instinct Crew",
       "Omega intSport"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1508132129647886387",
+    "name": "Ultra Instinct Crew Spark vs. Baltic eSports Kiel e.V. Flötenfische",
+    "description": "gameday 2",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-05-26T19:00:00+00:00",
+    "end": "2026-05-26T21:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1161371",
+    "image": "https://cdn.discordapp.com/guild-events/1508132129647886387/6194a3df1742b5eda0bfc96235d3f6e4.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Spark",
+      "Baltic eSports Kiel e.V. Flötenfische"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
