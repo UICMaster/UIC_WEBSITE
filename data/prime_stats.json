@@ -17,20 +17,8 @@
   "global": {
     "matches": 14,
     "wr": 71,
-    "players": 82,
+    "players": 83,
     "radar": [
-      {
-        "team_key": "OBSIDIAN",
-        "date": "2026-05-24T19:00:00+02:00",
-        "enemy": "OSGG",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162756"
-      },
-      {
-        "team_key": "NOVA",
-        "date": "2026-05-24T19:30:00+02:00",
-        "enemy": "OBRN",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162134"
-      },
       {
         "team_key": "PHOENIX",
         "date": "2026-05-24T20:00:00+02:00",
@@ -48,6 +36,18 @@
         "date": "2026-05-26T20:00:00+02:00",
         "enemy": "O-INT",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159510"
+      },
+      {
+        "team_key": "SPARK",
+        "date": "2026-05-26T21:00:00+02:00",
+        "enemy": "BeKFF",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161371"
+      },
+      {
+        "team_key": "VAKUUM",
+        "date": "2026-05-31T17:00:00+02:00",
+        "enemy": "AUT",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159558"
       }
     ]
   },
@@ -107,10 +107,6 @@
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         },
         {
           "summoner": "UIC FrozenHands#MID",
@@ -312,6 +308,10 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -338,10 +338,10 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1160811",
         "enemy_roster": [
           "Nano#sussy",
-          "FireworksGalaxy1#EUW",
-          "brain was out#EUW",
           "danaut#EUW",
-          "maasteryoda#EUW"
+          "brain was out#EUW",
+          "maasteryoda#EUW",
+          "FireworksGalaxy1#EUW"
         ]
       },
       "last_match": {
@@ -399,11 +399,11 @@
         "tag": "RSE",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161120",
         "enemy_roster": [
-          "neptunyo#okay",
-          "Husonater#EUW",
-          "트로피컬 스낵#Rin",
           "PWSZOCKER#EUW",
-          "Ashiro#Wine"
+          "Ashiro#Wine",
+          "트로피컬 스낵#Rin",
+          "Husonater#EUW",
+          "neptunyo#okay"
         ]
       },
       "last_match": {
@@ -428,6 +428,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -509,9 +513,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-24T19:30:00+02:00",
-        "tag": "OBRN",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162134",
+        "date": "2026-05-31T19:00:00+02:00",
+        "tag": "LUL",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162136",
         "enemy_roster": []
       },
       "last_match": {
@@ -543,7 +547,7 @@
         },
         {
           "summoner": "UIC Excellent C#1997",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC GreatATuin#AUS",
@@ -581,16 +585,10 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-24T19:00:00+02:00",
-        "tag": "OSGG",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162756",
-        "enemy_roster": [
-          "Jayfeather#UwU",
-          "PixelLook#EUW",
-          "BattleBunny#AZB",
-          "BlueBee308#08537",
-          "DeathTerm1nator#EUW"
-        ]
+        "date": "2026-05-31T19:00:00+02:00",
+        "tag": "TNT",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162760",
+        "enemy_roster": []
       },
       "last_match": {
         "result": "NIEDERLAGE",
