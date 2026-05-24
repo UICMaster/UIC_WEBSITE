@@ -17,7 +17,7 @@
   "global": {
     "matches": 14,
     "wr": 71,
-    "players": 81,
+    "players": 82,
     "radar": [
       {
         "team_key": "OBSIDIAN",
@@ -480,6 +480,10 @@
         {
           "summoner": "nic30012#Metal",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         },
         {
           "summoner": "UIC Moonlxght#16396",
