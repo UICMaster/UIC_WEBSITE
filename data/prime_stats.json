@@ -17,7 +17,7 @@
   "global": {
     "matches": 13,
     "wr": 69,
-    "players": 80,
+    "players": 81,
     "radar": [
       {
         "team_key": "ECLIPSE",
@@ -150,10 +150,6 @@
         },
         {
           "summoner": "Autonamed#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Regentropfen#H2O",
           "is_captain": false
         },
         {
@@ -342,7 +338,11 @@
         },
         {
           "summoner": "UIC Kamo#tpt",
-          "is_captain": true
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Exi#QUAK",
+          "is_captain": false
         },
         {
           "summoner": "UIC Loonz#Coach",
@@ -350,11 +350,11 @@
         },
         {
           "summoner": "UIC Ryu Copeland#117",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC AutumnLeaf#Moo",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC Cerberus#GOATZ",
@@ -413,10 +413,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -469,6 +465,10 @@
         {
           "summoner": "nic30012#Metal",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         },
         {
           "summoner": "UIC Moonlxght#16396",
@@ -606,6 +606,10 @@
         },
         {
           "summoner": "UIC Nyx#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
