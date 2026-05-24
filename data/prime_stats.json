@@ -17,14 +17,8 @@
   "global": {
     "matches": 13,
     "wr": 69,
-    "players": 82,
+    "players": 81,
     "radar": [
-      {
-        "team_key": "ECLIPSE",
-        "date": "2026-05-24T15:00:00+02:00",
-        "enemy": "CPS",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163117"
-      },
       {
         "team_key": "SPARK",
         "date": "2026-05-24T19:00:00+02:00",
@@ -48,6 +42,12 @@
         "date": "2026-05-24T20:00:00+02:00",
         "enemy": "NNN",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160811"
+      },
+      {
+        "team_key": "CYBER",
+        "date": "2026-05-25T19:30:00+02:00",
+        "enemy": "RSE",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161120"
       }
     ]
   },
@@ -132,9 +132,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-24T15:00:00+02:00",
-        "tag": "CPS",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163117",
+        "date": "2026-05-31T19:00:00+02:00",
+        "tag": "T4X",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163119",
         "enemy_roster": []
       },
       "last_match": {
@@ -150,10 +150,6 @@
         },
         {
           "summoner": "Autonamed#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Regentropfen#H2O",
           "is_captain": false
         },
         {
