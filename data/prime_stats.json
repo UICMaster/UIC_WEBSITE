@@ -299,6 +299,10 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -323,7 +327,13 @@
         "date": "2026-05-24T20:00:00+02:00",
         "tag": "NNN",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160811",
-        "enemy_roster": []
+        "enemy_roster": [
+          "Nano#sussy",
+          "FireworksGalaxy1#EUW",
+          "brain was out#EUW",
+          "danaut#EUW",
+          "maasteryoda#EUW"
+        ]
       },
       "last_match": {
         "result": "SIEG",
@@ -338,7 +348,7 @@
         },
         {
           "summoner": "UIC Kamo#tpt",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC Exi#QUAK",
@@ -350,11 +360,11 @@
         },
         {
           "summoner": "UIC Ryu Copeland#117",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC AutumnLeaf#Moo",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC Cerberus#GOATZ",
@@ -602,14 +612,10 @@
         },
         {
           "summoner": "UIC Papi Δce#3072",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Nyx#UIC",
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
+          "summoner": "UIC Nyx#UIC",
           "is_captain": false
         },
         {
