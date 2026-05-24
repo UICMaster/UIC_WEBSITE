@@ -1,37 +1,5 @@
 [
   {
-    "id": "1507467909029564488",
-    "name": "Ultra Instinct Crew Obsidian vs. OSGG Navy Nova",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-05-24T17:00:00+00:00",
-    "end": "2026-05-24T19:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1162756",
-    "image": "https://cdn.discordapp.com/guild-events/1507467909029564488/23a958fc18bc17e5f4dd725be7ea9c8d.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Obsidian",
-      "OSGG Navy Nova"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1506376894868750517",
-    "name": "Ultra Instinct Crew Phoenix vs. No Name Needed",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-05-24T18:00:00+00:00",
-    "end": "2026-05-24T20:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1160811",
-    "image": "https://cdn.discordapp.com/guild-events/1506376894868750517/85a730cb7996f715deefab87929f4bcc.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Phoenix",
-      "No Name Needed"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1507626098178134087",
     "name": "Ultra Instinct Crew Cyber vs. Rift Raccoons Sexy Edition",
     "description": "gameday 2",
@@ -76,6 +44,22 @@
     "competitors": [
       "Ultra Instinct Crew Spark",
       "Baltic eSports Kiel e.V. Flötenfische"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1508192457077297223",
+    "name": "Ultra Instinct Crew vs. Concept X",
+    "description": "gameday 3",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-05-31T17:00:00+00:00",
+    "end": "2026-05-31T19:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1159511",
+    "image": "https://cdn.discordapp.com/guild-events/1508192457077297223/c1f5059692510938c7b312bab97a1226.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew",
+      "Concept X"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
