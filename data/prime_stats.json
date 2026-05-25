@@ -15,9 +15,9 @@
     ]
   },
   "global": {
-    "matches": 17,
-    "wr": 76,
-    "players": 81,
+    "matches": 18,
+    "wr": 72,
+    "players": 80,
     "radar": [
       {
         "team_key": "PRIME",
@@ -306,10 +306,6 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -383,12 +379,13 @@
       },
       "stats": {
         "wins": 2,
-        "losses": 1,
+        "losses": 3,
         "points": 2,
-        "games": 1,
-        "win_rate": 100,
+        "games": 2,
+        "win_rate": 50,
         "form": [
-          "W"
+          "W",
+          "L"
         ]
       },
       "next_match": {
@@ -398,10 +395,10 @@
         "enemy_roster": []
       },
       "last_match": {
-        "result": "SIEG",
-        "score": "2 - 1",
-        "enemy": "Pupp",
-        "date": "2026-05-21T18:00:00+02:00"
+        "result": "NIEDERLAGE",
+        "score": "0 - 2",
+        "enemy": "RSE",
+        "date": "2026-05-25T19:30:00+02:00"
       },
       "roster": [
         {
@@ -473,10 +470,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
         }
@@ -501,7 +494,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-31T19:00:00+02:00",
+        "date": "2026-05-31T19:30:00+02:00",
         "tag": "LUL",
         "link": "https://www.primeleague.gg/de/leagues/matches/1162136",
         "enemy_roster": []
@@ -608,6 +601,10 @@
         },
         {
           "summoner": "UIC Nyx#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
