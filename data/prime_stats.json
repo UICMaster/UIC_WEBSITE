@@ -17,14 +17,8 @@
   "global": {
     "matches": 17,
     "wr": 76,
-    "players": 82,
+    "players": 81,
     "radar": [
-      {
-        "team_key": "CYBER",
-        "date": "2026-05-25T19:30:00+02:00",
-        "enemy": "RSE",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161120"
-      },
       {
         "team_key": "PRIME",
         "date": "2026-05-26T20:00:00+02:00",
@@ -48,6 +42,12 @@
         "date": "2026-05-31T17:00:00+02:00",
         "enemy": "TT",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160378"
+      },
+      {
+        "team_key": "ABYSS",
+        "date": "2026-05-31T17:00:00+02:00",
+        "enemy": "CBD",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160220"
       }
     ]
   },
@@ -218,10 +218,6 @@
       },
       "roster": [
         {
-          "summoner": "DAG LingYao#EUW",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Kaoxz#CRNGE",
           "is_captain": true
         },
@@ -269,11 +265,11 @@
         "tag": "BeKFF",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161371",
         "enemy_roster": [
-          "BeK lucalele#EUW",
+          "Gr33nM4n#EUW",
           "BeK TheLines#BeK",
-          "Jon12z65#GLXY",
           "Accium#EUW",
-          "Gr33nM4n#EUW"
+          "Jon12z65#GLXY",
+          "BeK lucalele#EUW"
         ]
       },
       "last_match": {
@@ -396,16 +392,10 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-25T19:30:00+02:00",
-        "tag": "RSE",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161120",
-        "enemy_roster": [
-          "PWSZOCKER#EUW",
-          "Ashiro#Wine",
-          "트로피컬 스낵#Rin",
-          "Husonater#EUW",
-          "neptunyo#okay"
-        ]
+        "date": "2026-05-31T19:00:00+02:00",
+        "tag": "TAG",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161124",
+        "enemy_roster": []
       },
       "last_match": {
         "result": "SIEG",
