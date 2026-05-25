@@ -17,7 +17,7 @@
   "global": {
     "matches": 17,
     "wr": 76,
-    "players": 83,
+    "players": 82,
     "radar": [
       {
         "team_key": "CYBER",
@@ -183,10 +183,6 @@
         },
         {
           "summoner": "UIC NairadAwsm#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Regentropfen#H2O",
           "is_captain": false
         }
       ],
