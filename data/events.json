@@ -1,21 +1,5 @@
 [
   {
-    "id": "1507626098178134087",
-    "name": "Ultra Instinct Crew Cyber vs. Rift Raccoons Sexy Edition",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-05-25T17:30:00+00:00",
-    "end": "2026-05-25T19:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1161120",
-    "image": "https://cdn.discordapp.com/guild-events/1507626098178134087/82db1c7586053e28169dc914eac4cb76.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Cyber",
-      "Rift Raccoons Sexy Edition"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1507071536316682290",
     "name": "Ultra Instinct Crew vs. Omega intSport",
     "description": "gameday 2",
@@ -60,6 +44,22 @@
     "competitors": [
       "Ultra Instinct Crew",
       "Concept X"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1508551219449299045",
+    "name": "Ultra Instinct Crew Nova vs. Lustvolle Langusten",
+    "description": "gameday 3",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-05-31T17:30:00+00:00",
+    "end": "2026-05-31T19:30:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1162136",
+    "image": "https://cdn.discordapp.com/guild-events/1508551219449299045/d6a3b61593c77c8a0053b816a392df6e.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Nova",
+      "Lustvolle Langusten"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
