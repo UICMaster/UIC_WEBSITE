@@ -1,21 +1,5 @@
 [
   {
-    "id": "1507071536316682290",
-    "name": "Ultra Instinct Crew vs. Omega intSport",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-05-26T18:00:00+00:00",
-    "end": "2026-05-26T20:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1159510",
-    "image": "https://cdn.discordapp.com/guild-events/1507071536316682290/cf3ac16d508a4f3fa5fd43077584fa8a.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew",
-      "Omega intSport"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1508132129647886387",
     "name": "Ultra Instinct Crew Spark vs. Baltic eSports Kiel e.V. Flötenfische",
     "description": "gameday 2",
