@@ -15,8 +15,8 @@
     ]
   },
   "global": {
-    "matches": 18,
-    "wr": 72,
+    "matches": 19,
+    "wr": 74,
     "players": 82,
     "radar": [
       {
@@ -263,12 +263,13 @@
         "div": null
       },
       "stats": {
-        "wins": 2,
+        "wins": 4,
         "losses": 1,
-        "points": 2,
-        "games": 1,
+        "points": 5,
+        "games": 2,
         "win_rate": 100,
         "form": [
+          "W",
           "W"
         ]
       },
@@ -280,9 +281,9 @@
       },
       "last_match": {
         "result": "SIEG",
-        "score": "2 - 1",
-        "enemy": "TA",
-        "date": "2026-05-21T20:00:00+02:00"
+        "score": "2 - 0",
+        "enemy": "BeKFF",
+        "date": "2026-05-26T21:00:00+02:00"
       },
       "roster": [
         {
