@@ -17,20 +17,8 @@
   "global": {
     "matches": 18,
     "wr": 72,
-    "players": 81,
+    "players": 82,
     "radar": [
-      {
-        "team_key": "PRIME",
-        "date": "2026-05-26T20:00:00+02:00",
-        "enemy": "O-INT",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159510"
-      },
-      {
-        "team_key": "SPARK",
-        "date": "2026-05-26T21:00:00+02:00",
-        "enemy": "BeKFF",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161371"
-      },
       {
         "team_key": "VAKUUM",
         "date": "2026-05-31T17:00:00+02:00",
@@ -48,6 +36,18 @@
         "date": "2026-05-31T17:00:00+02:00",
         "enemy": "CBD",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160220"
+      },
+      {
+        "team_key": "PRIME",
+        "date": "2026-05-31T19:00:00+02:00",
+        "enemy": "CX",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159511"
+      },
+      {
+        "team_key": "ECLIPSE",
+        "date": "2026-05-31T19:00:00+02:00",
+        "enemy": "T4X",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163119"
       }
     ]
   },
@@ -68,16 +68,10 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-26T20:00:00+02:00",
-        "tag": "O-INT",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159510",
-        "enemy_roster": [
-          "INT Centre#EUW",
-          "INT PlatinPeaker#INT",
-          "INT Kenski#EUW",
-          "INT James Otter#007",
-          "Darroq#Daroq"
-        ]
+        "date": "2026-05-31T19:00:00+02:00",
+        "tag": "CX",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159511",
+        "enemy_roster": []
       },
       "last_match": {
         "result": "SIEG",
@@ -232,6 +226,10 @@
       },
       "roster": [
         {
+          "summoner": "DAG LingYao#EUW",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Kaoxz#CRNGE",
           "is_captain": true
         },
@@ -275,16 +273,10 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-26T21:00:00+02:00",
-        "tag": "BeKFF",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161371",
-        "enemy_roster": [
-          "Gr33nM4n#EUW",
-          "BeK TheLines#BeK",
-          "Accium#EUW",
-          "BeK lucalele#EUW",
-          "Lionidas#001"
-        ]
+        "date": "2026-05-31T19:00:00+02:00",
+        "tag": "GT KHAOS",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161374",
+        "enemy_roster": []
       },
       "last_match": {
         "result": "SIEG",
@@ -320,6 +312,10 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -611,10 +607,6 @@
         },
         {
           "summoner": "UIC Nyx#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
