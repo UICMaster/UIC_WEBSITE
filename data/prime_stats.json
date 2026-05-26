@@ -17,7 +17,7 @@
   "global": {
     "matches": 18,
     "wr": 72,
-    "players": 80,
+    "players": 82,
     "radar": [
       {
         "team_key": "PRIME",
@@ -109,8 +109,16 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC FrozenHands#MID",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -184,6 +192,10 @@
         {
           "summoner": "UIC NairadAwsm#UIC",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Regentropfen#H2O",
+          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208131",
@@ -217,6 +229,10 @@
         "date": "2026-05-19T20:15:00+02:00"
       },
       "roster": [
+        {
+          "summoner": "DAG LingYao#EUW",
+          "is_captain": false
+        },
         {
           "summoner": "UIC Kaoxz#CRNGE",
           "is_captain": true
@@ -353,19 +369,11 @@
           "is_captain": true
         },
         {
-          "summoner": "UIC Exi#QUAK",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Ryu Copeland#117",
           "is_captain": true
         },
         {
           "summoner": "UIC AutumnLeaf#Moo",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         }
       ],
@@ -416,6 +424,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -601,10 +613,6 @@
         },
         {
           "summoner": "UIC Nyx#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
