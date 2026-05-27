@@ -112,6 +112,10 @@
         {
           "summoner": "UIC FrozenHands#MID",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -184,6 +188,10 @@
         },
         {
           "summoner": "UIC NairadAwsm#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Regentropfen#H2O",
           "is_captain": false
         }
       ],
@@ -312,6 +320,10 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -368,10 +380,6 @@
         },
         {
           "summoner": "UIC AutumnLeaf#Moo",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         }
       ],
@@ -474,10 +482,6 @@
         {
           "summoner": "nic30012#Metal",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         },
         {
           "summoner": "UIC Moonlxght#16396",
@@ -611,10 +615,6 @@
         },
         {
           "summoner": "UIC Nyx#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
