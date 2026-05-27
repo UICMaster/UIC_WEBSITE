@@ -1,5 +1,21 @@
 [
   {
+    "id": "1509226791888359666",
+    "name": "Ultra Instinct Crew Cyber vs. Talentvolle Akrobaten der Galaxie",
+    "description": "gameday 3",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-05-29T18:00:00+00:00",
+    "end": "2026-05-29T20:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1161124",
+    "image": "https://cdn.discordapp.com/guild-events/1509226791888359666/ac99a7fd42915934a193ee1f36dca884.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Cyber",
+      "Talentvolle Akrobaten der Galaxie"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
     "id": "1508959706859966506",
     "name": "Ultra Instinct Crew Vakuum vs. Austrian Supremacy",
     "description": "gameday 3",
