@@ -17,7 +17,7 @@
   "global": {
     "matches": 20,
     "wr": 70,
-    "players": 82,
+    "players": 83,
     "radar": [
       {
         "team_key": "CYBER",
@@ -38,16 +38,16 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1160378"
       },
       {
-        "team_key": "ABYSS",
-        "date": "2026-05-31T17:00:00+02:00",
-        "enemy": "CBD",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160220"
-      },
-      {
         "team_key": "PRIME",
         "date": "2026-05-31T19:00:00+02:00",
         "enemy": "CX",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159511"
+      },
+      {
+        "team_key": "ECLIPSE",
+        "date": "2026-05-31T19:00:00+02:00",
+        "enemy": "T4X",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163119"
       }
     ]
   },
@@ -486,6 +486,10 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
@@ -699,10 +703,16 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-31T17:00:00+02:00",
+        "date": "2026-06-01T18:00:00+02:00",
         "tag": "CBD",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160220",
-        "enemy_roster": []
+        "enemy_roster": [
+          "Vilance#snow",
+          "Manatee1706#EUW",
+          "Nikurasu#257",
+          "Robsi#6969",
+          "Scamias#2248"
+        ]
       },
       "last_match": {
         "result": "SIEG",
