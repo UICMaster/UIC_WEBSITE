@@ -38,16 +38,16 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1160378"
       },
       {
-        "team_key": "PRIME",
-        "date": "2026-05-31T19:00:00+02:00",
-        "enemy": "CX",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159511"
-      },
-      {
         "team_key": "ECLIPSE",
         "date": "2026-05-31T19:00:00+02:00",
         "enemy": "T4X",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163119"
+      },
+      {
+        "team_key": "PHOENIX",
+        "date": "2026-05-31T19:00:00+02:00",
+        "enemy": "RD",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160813"
       }
     ]
   },
@@ -69,7 +69,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-31T19:00:00+02:00",
+        "date": "2026-05-31T19:30:00+02:00",
         "tag": "CX",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159511",
         "enemy_roster": []
