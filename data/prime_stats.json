@@ -17,7 +17,7 @@
   "global": {
     "matches": 20,
     "wr": 70,
-    "players": 83,
+    "players": 81,
     "radar": [
       {
         "team_key": "CYBER",
@@ -185,10 +185,6 @@
         {
           "summoner": "UIC NairadAwsm#UIC",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Regentropfen#H2O",
-          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208131",
@@ -229,7 +225,7 @@
       },
       "roster": [
         {
-          "summoner": "DAG LingYao#EUW",
+          "summoner": "DAG LingYao#FES",
           "is_captain": false
         },
         {
@@ -363,10 +359,6 @@
           "is_captain": true
         },
         {
-          "summoner": "UIC Exi#QUAK",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Ryu Copeland#117",
           "is_captain": true
         },
@@ -426,6 +418,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -615,10 +611,6 @@
         },
         {
           "summoner": "UIC Nyx#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
