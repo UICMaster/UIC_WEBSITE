@@ -20,12 +20,6 @@
     "players": 84,
     "radar": [
       {
-        "team_key": "CYBER",
-        "date": "2026-05-29T20:00:00+02:00",
-        "enemy": "TAG",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161124"
-      },
-      {
         "team_key": "VAKUUM",
         "date": "2026-05-31T17:00:00+02:00",
         "enemy": "AUT",
@@ -48,6 +42,12 @@
         "date": "2026-05-31T19:00:00+02:00",
         "enemy": "TNT",
         "link": "https://www.primeleague.gg/de/leagues/matches/1162760"
+      },
+      {
+        "team_key": "EMBER",
+        "date": "2026-05-31T19:00:00+02:00",
+        "enemy": "DKE",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163094"
       }
     ]
   },
@@ -399,16 +399,10 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-29T20:00:00+02:00",
-        "tag": "TAG",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161124",
-        "enemy_roster": [
-          "Drycon#161",
-          "RSKY#TAG",
-          "Erlkönig#Salz",
-          "Selska#PRO",
-          "Pidonkel#EUW"
-        ]
+        "date": "2026-06-07T19:00:00+02:00",
+        "tag": "PESS",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161125",
+        "enemy_roster": []
       },
       "last_match": {
         "result": "NIEDERLAGE",
