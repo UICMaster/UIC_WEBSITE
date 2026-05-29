@@ -17,7 +17,7 @@
   "global": {
     "matches": 20,
     "wr": 70,
-    "players": 85,
+    "players": 84,
     "radar": [
       {
         "team_key": "CYBER",
@@ -32,12 +32,6 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1159558"
       },
       {
-        "team_key": "SAKURA",
-        "date": "2026-05-31T17:00:00+02:00",
-        "enemy": "TT",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160378"
-      },
-      {
         "team_key": "ECLIPSE",
         "date": "2026-05-31T19:00:00+02:00",
         "enemy": "T4X",
@@ -48,6 +42,12 @@
         "date": "2026-05-31T19:00:00+02:00",
         "enemy": "RD",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160813"
+      },
+      {
+        "team_key": "OBSIDIAN",
+        "date": "2026-05-31T19:00:00+02:00",
+        "enemy": "TNT",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162760"
       }
     ]
   },
@@ -108,10 +108,6 @@
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
         },
         {
           "summoner": "UIC FrozenHands#MID",
@@ -320,10 +316,6 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -371,6 +363,10 @@
           "is_captain": true
         },
         {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Exi#QUAK",
           "is_captain": false
         },
@@ -406,7 +402,13 @@
         "date": "2026-05-29T20:00:00+02:00",
         "tag": "TAG",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161124",
-        "enemy_roster": []
+        "enemy_roster": [
+          "Drycon#161",
+          "RSKY#TAG",
+          "Erlkönig#Salz",
+          "Selska#PRO",
+          "Pidonkel#EUW"
+        ]
       },
       "last_match": {
         "result": "NIEDERLAGE",
@@ -430,10 +432,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -455,7 +453,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-31T17:00:00+02:00",
+        "date": "2026-06-03T20:00:00+02:00",
         "tag": "TT",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160378",
         "enemy_roster": []
@@ -627,6 +625,10 @@
         },
         {
           "summoner": "UIC Nyx#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
