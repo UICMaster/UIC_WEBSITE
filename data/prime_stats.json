@@ -17,7 +17,7 @@
   "global": {
     "matches": 21,
     "wr": 71,
-    "players": 84,
+    "players": 85,
     "radar": [
       {
         "team_key": "VAKUUM",
@@ -316,6 +316,10 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -427,6 +431,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -620,10 +628,6 @@
         },
         {
           "summoner": "UIC Nyx#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
