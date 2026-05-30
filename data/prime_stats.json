@@ -17,7 +17,7 @@
   "global": {
     "matches": 21,
     "wr": 71,
-    "players": 85,
+    "players": 84,
     "radar": [
       {
         "team_key": "ECLIPSE",
@@ -376,10 +376,6 @@
         },
         {
           "summoner": "UIC Ryu Copeland#117",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC AutumnLeaf#Moo",
           "is_captain": true
         }
       ],
