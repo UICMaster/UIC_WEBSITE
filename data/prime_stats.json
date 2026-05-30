@@ -17,19 +17,19 @@
   "global": {
     "matches": 21,
     "wr": 71,
-    "players": 84,
+    "players": 85,
     "radar": [
-      {
-        "team_key": "VAKUUM",
-        "date": "2026-05-31T17:00:00+02:00",
-        "enemy": "AUT",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159558"
-      },
       {
         "team_key": "ECLIPSE",
         "date": "2026-05-31T19:00:00+02:00",
         "enemy": "T4X",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163119"
+      },
+      {
+        "team_key": "VAKUUM",
+        "date": "2026-05-31T19:00:00+02:00",
+        "enemy": "AUT",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159558"
       },
       {
         "team_key": "OBSIDIAN",
@@ -210,7 +210,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-31T17:00:00+02:00",
+        "date": "2026-05-31T19:00:00+02:00",
         "tag": "AUT",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159558",
         "enemy_roster": [
@@ -316,6 +316,10 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -427,6 +431,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -620,10 +628,6 @@
         },
         {
           "summoner": "UIC Nyx#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
