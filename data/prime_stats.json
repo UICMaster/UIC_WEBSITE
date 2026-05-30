@@ -32,12 +32,6 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1159558"
       },
       {
-        "team_key": "OBSIDIAN",
-        "date": "2026-05-31T19:00:00+02:00",
-        "enemy": "TNT",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162760"
-      },
-      {
         "team_key": "EMBER",
         "date": "2026-05-31T19:00:00+02:00",
         "enemy": "DKE",
@@ -48,6 +42,12 @@
         "date": "2026-05-31T19:30:00+02:00",
         "enemy": "CX",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159511"
+      },
+      {
+        "team_key": "NOVA",
+        "date": "2026-05-31T19:30:00+02:00",
+        "enemy": "LUL",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162136"
       }
     ]
   },
@@ -316,10 +316,6 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -586,7 +582,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-31T19:00:00+02:00",
+        "date": "2026-06-01T20:30:00+02:00",
         "tag": "TNT",
         "link": "https://www.primeleague.gg/de/leagues/matches/1162760",
         "enemy_roster": []
@@ -624,6 +620,10 @@
         },
         {
           "summoner": "UIC Nyx#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
