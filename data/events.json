@@ -64,6 +64,22 @@
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
+    "id": "1510355713061290014",
+    "name": "Ultra Instinct Crew Obsidian vs. Team No Team",
+    "description": "gameday 3",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-06-01T18:30:00+00:00",
+    "end": "2026-06-01T20:30:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1162760",
+    "image": "https://cdn.discordapp.com/guild-events/1510355713061290014/74cac0f80cd602cd8562f446860b8681.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Obsidian",
+      "Team No Team"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
     "id": "1510019570750980106",
     "name": "Ultra Instinct Crew Phoenix vs. Rising Dawn",
     "description": "gameday 3",
