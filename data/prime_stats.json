@@ -15,8 +15,8 @@
     ]
   },
   "global": {
-    "matches": 22,
-    "wr": 68,
+    "matches": 25,
+    "wr": 64,
     "players": 83,
     "radar": [
       {
@@ -59,12 +59,13 @@
       },
       "stats": {
         "wins": 3,
-        "losses": 2,
+        "losses": 4,
         "points": 4,
-        "games": 2,
-        "win_rate": 50,
+        "games": 3,
+        "win_rate": 33,
         "form": [
           "W",
+          "L",
           "L"
         ]
       },
@@ -76,9 +77,9 @@
       },
       "last_match": {
         "result": "NIEDERLAGE",
-        "score": "1 - 2",
-        "enemy": "O-INT",
-        "date": "2026-05-26T20:00:00+02:00"
+        "score": "0 - 2",
+        "enemy": "CX",
+        "date": "2026-05-31T19:30:00+02:00"
       },
       "roster": [
         {
@@ -88,6 +89,10 @@
         {
           "summoner": "piapiob#187",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         },
         {
           "summoner": "UIC Niki#AMB",
@@ -200,12 +205,13 @@
         "div": null
       },
       "stats": {
-        "wins": 1,
-        "losses": 2,
-        "points": 1,
-        "games": 1,
+        "wins": 2,
+        "losses": 4,
+        "points": 2,
+        "games": 2,
         "win_rate": 0,
         "form": [
+          "L",
           "L"
         ]
       },
@@ -218,8 +224,8 @@
       "last_match": {
         "result": "NIEDERLAGE",
         "score": "1 - 2",
-        "enemy": "MMM",
-        "date": "2026-05-19T20:15:00+02:00"
+        "enemy": "AUT",
+        "date": "2026-05-31T19:00:00+02:00"
       },
       "roster": [
         {
@@ -348,10 +354,6 @@
         "date": "2026-05-24T20:00:00+02:00"
       },
       "roster": [
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
         {
           "summoner": "UIC Hayu#UIC",
           "is_captain": false
@@ -496,12 +498,13 @@
         "div": null
       },
       "stats": {
-        "wins": 4,
+        "wins": 6,
         "losses": 0,
-        "points": 6,
-        "games": 2,
+        "points": 9,
+        "games": 3,
         "win_rate": 100,
         "form": [
+          "W",
           "W",
           "W"
         ]
@@ -515,8 +518,8 @@
       "last_match": {
         "result": "SIEG",
         "score": "2 - 0",
-        "enemy": "OBRN",
-        "date": "2026-05-24T19:30:00+02:00"
+        "enemy": "LUL",
+        "date": "2026-05-31T19:30:00+02:00"
       },
       "roster": [
         {
