@@ -15,9 +15,9 @@
     ]
   },
   "global": {
-    "matches": 21,
-    "wr": 71,
-    "players": 82,
+    "matches": 22,
+    "wr": 68,
+    "players": 83,
     "radar": [
       {
         "team_key": "ABYSS",
@@ -90,10 +90,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Niki#AMB",
           "is_captain": true
         },
@@ -151,10 +147,6 @@
       },
       "roster": [
         {
-          "summoner": "UIC Taiga#UIC",
-          "is_captain": false
-        },
-        {
           "summoner": "Autonamed#EUW",
           "is_captain": false
         },
@@ -168,11 +160,11 @@
         },
         {
           "summoner": "Stafferl#FNC",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "Cedy7#111",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "ToTo#EUWW",
@@ -192,6 +184,10 @@
         },
         {
           "summoner": "UIC NairadAwsm#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Regentropfen#H2O",
           "is_captain": false
         }
       ],
@@ -353,8 +349,16 @@
       },
       "roster": [
         {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Hayu#UIC",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Kamo#tpt",
+          "is_captain": true
         },
         {
           "summoner": "UIC Loonz#Coach",
@@ -537,7 +541,7 @@
         },
         {
           "summoner": "UIC Excellent C#1997",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC GreatATuin#AUS",
@@ -631,13 +635,14 @@
       },
       "stats": {
         "wins": 4,
-        "losses": 1,
+        "losses": 3,
         "points": 5,
-        "games": 2,
-        "win_rate": 100,
+        "games": 3,
+        "win_rate": 67,
         "form": [
           "W",
-          "W"
+          "W",
+          "L"
         ]
       },
       "next_match": {
@@ -647,15 +652,15 @@
         "enemy_roster": []
       },
       "last_match": {
-        "result": "SIEG",
-        "score": "2 - 1",
-        "enemy": "SBH",
-        "date": "2026-05-22T18:30:00+02:00"
+        "result": "NIEDERLAGE",
+        "score": "0 - 2",
+        "enemy": "DKE",
+        "date": "2026-05-31T19:00:00+02:00"
       },
       "roster": [
         {
           "summoner": "UIC Envy#UIC",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC ソニック#0815",
