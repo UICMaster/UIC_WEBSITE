@@ -20,34 +20,34 @@
     "players": 82,
     "radar": [
       {
-        "team_key": "ECLIPSE",
-        "date": "2026-05-31T19:00:00+02:00",
-        "enemy": "T4X",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163119"
+        "team_key": "ABYSS",
+        "date": "2026-06-01T18:00:00+02:00",
+        "enemy": "CBD",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160220"
       },
       {
-        "team_key": "VAKUUM",
-        "date": "2026-05-31T19:00:00+02:00",
-        "enemy": "AUT",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159558"
+        "team_key": "OBSIDIAN",
+        "date": "2026-06-01T20:30:00+02:00",
+        "enemy": "TNT",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162760"
       },
       {
-        "team_key": "EMBER",
-        "date": "2026-05-31T19:00:00+02:00",
-        "enemy": "DKE",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163094"
+        "team_key": "PHOENIX",
+        "date": "2026-06-05T18:00:00+02:00",
+        "enemy": "RD",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160813"
+      },
+      {
+        "team_key": "SAKURA",
+        "date": "2026-06-06T18:00:00+02:00",
+        "enemy": "TT",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160378"
       },
       {
         "team_key": "PRIME",
-        "date": "2026-05-31T19:30:00+02:00",
-        "enemy": "CX",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159511"
-      },
-      {
-        "team_key": "NOVA",
-        "date": "2026-05-31T19:30:00+02:00",
-        "enemy": "LUL",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162136"
+        "date": "2026-06-07T17:00:00+02:00",
+        "enemy": "R4G",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159517"
       }
     ]
   },
@@ -69,9 +69,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-31T19:30:00+02:00",
-        "tag": "CX",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159511",
+        "date": "2026-06-07T17:00:00+02:00",
+        "tag": "R4G",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159517",
         "enemy_roster": []
       },
       "last_match": {
@@ -114,10 +114,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC FrozenHands#MID",
           "is_captain": false
         }
@@ -142,16 +138,10 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-31T19:00:00+02:00",
-        "tag": "T4X",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163119",
-        "enemy_roster": [
-          "i like turtels#Jxs9n",
-          "Tixmex#EUW",
-          "CrasCrafter#11302",
-          "Livian#open",
-          "MILIOnaire#XXXX"
-        ]
+        "date": "2026-06-07T19:00:00+02:00",
+        "tag": "KBB",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163122",
+        "enemy_roster": []
       },
       "last_match": {
         "result": "SIEG",
@@ -203,10 +193,6 @@
         {
           "summoner": "UIC NairadAwsm#UIC",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Regentropfen#H2O",
-          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208131",
@@ -228,16 +214,10 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-31T19:00:00+02:00",
-        "tag": "AUT",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159558",
-        "enemy_roster": [
-          "XxSeChSxX#EUW",
-          "2TA zyo#1412",
-          "Inition#EUW",
-          "Seehaulin#EUW",
-          "Onlyfangs#Feed"
-        ]
+        "date": "2026-06-07T17:00:00+02:00",
+        "tag": "TiT",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159563",
+        "enemy_roster": []
       },
       "last_match": {
         "result": "NIEDERLAGE",
@@ -334,6 +314,10 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -375,10 +359,6 @@
         {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Exi#QUAK",
-          "is_captain": false
         },
         {
           "summoner": "UIC Ryu Copeland#117",
@@ -437,6 +417,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -493,6 +477,10 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
@@ -515,9 +503,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-31T19:30:00+02:00",
-        "tag": "LUL",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162136",
+        "date": "2026-06-07T19:00:00+02:00",
+        "tag": "NRK",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162143",
         "enemy_roster": []
       },
       "last_match": {
@@ -549,7 +537,7 @@
         },
         {
           "summoner": "UIC Excellent C#1997",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC GreatATuin#AUS",
@@ -653,9 +641,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-05-31T19:00:00+02:00",
-        "tag": "DKE",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163094",
+        "date": "2026-06-07T19:00:00+02:00",
+        "tag": "ROY",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163097",
         "enemy_roster": []
       },
       "last_match": {
@@ -667,7 +655,7 @@
       "roster": [
         {
           "summoner": "UIC Envy#UIC",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC ソニック#0815",
