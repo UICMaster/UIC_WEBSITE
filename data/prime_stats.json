@@ -15,9 +15,9 @@
     ]
   },
   "global": {
-    "matches": 25,
-    "wr": 64,
-    "players": 83,
+    "matches": 26,
+    "wr": 65,
+    "players": 82,
     "radar": [
       {
         "team_key": "ABYSS",
@@ -128,12 +128,13 @@
         "div": null
       },
       "stats": {
-        "wins": 4,
-        "losses": 0,
-        "points": 6,
-        "games": 2,
+        "wins": 6,
+        "losses": 1,
+        "points": 8,
+        "games": 3,
         "win_rate": 100,
         "form": [
+          "W",
           "W",
           "W"
         ]
@@ -146,9 +147,9 @@
       },
       "last_match": {
         "result": "SIEG",
-        "score": "2 - 0",
-        "enemy": "CPS",
-        "date": "2026-05-24T15:00:00+02:00"
+        "score": "2 - 1",
+        "enemy": "T4X",
+        "date": "2026-05-31T19:00:00+02:00"
       },
       "roster": [
         {
@@ -189,10 +190,6 @@
         },
         {
           "summoner": "UIC NairadAwsm#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Regentropfen#H2O",
           "is_captain": false
         }
       ],
@@ -316,10 +313,6 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -621,6 +614,10 @@
         },
         {
           "summoner": "UIC Nyx#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
