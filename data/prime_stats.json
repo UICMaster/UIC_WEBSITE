@@ -17,7 +17,7 @@
   "global": {
     "matches": 21,
     "wr": 71,
-    "players": 83,
+    "players": 82,
     "radar": [
       {
         "team_key": "ECLIPSE",
@@ -90,8 +90,8 @@
           "is_captain": false
         },
         {
-          "summoner": "Baumi#123",
-          "is_captain": false
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         },
         {
           "summoner": "UIC Niki#AMB",
@@ -100,6 +100,10 @@
         {
           "summoner": "UIC Speedy#EUW",
           "is_captain": true
+        },
+        {
+          "summoner": "Baumi#123",
+          "is_captain": false
         },
         {
           "summoner": "UIC Baguetto#R3kt",
@@ -137,7 +141,13 @@
         "date": "2026-05-31T19:00:00+02:00",
         "tag": "T4X",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163119",
-        "enemy_roster": []
+        "enemy_roster": [
+          "i like turtels#Jxs9n",
+          "Tixmex#EUW",
+          "CrasCrafter#11302",
+          "Livian#open",
+          "MILIOnaire#XXXX"
+        ]
       },
       "last_match": {
         "result": "SIEG",
@@ -316,6 +326,10 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -351,16 +365,8 @@
       },
       "roster": [
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Hayu#UIC",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Kamo#tpt",
-          "is_captain": true
         },
         {
           "summoner": "UIC Loonz#Coach",
@@ -620,10 +626,6 @@
         },
         {
           "summoner": "UIC Nyx#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
