@@ -1,21 +1,5 @@
 [
   {
-    "id": "1508192457077297223",
-    "name": "Ultra Instinct Crew vs. Concept X",
-    "description": "gameday 3",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-05-31T17:00:00+00:00",
-    "end": "2026-05-31T19:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1159511",
-    "image": "https://cdn.discordapp.com/guild-events/1508192457077297223/c1f5059692510938c7b312bab97a1226.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew",
-      "Concept X"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1508959706859966506",
     "name": "Ultra Instinct Crew Vakuum vs. Austrian Supremacy",
     "description": "gameday 3",
@@ -28,6 +12,22 @@
     "competitors": [
       "Ultra Instinct Crew Vakuum",
       "Austrian Supremacy"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1508192457077297223",
+    "name": "Ultra Instinct Crew vs. Concept X",
+    "description": "gameday 3",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-05-31T17:30:00+00:00",
+    "end": "2026-05-31T20:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1159511",
+    "image": "https://cdn.discordapp.com/guild-events/1508192457077297223/c1f5059692510938c7b312bab97a1226.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew",
+      "Concept X"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
