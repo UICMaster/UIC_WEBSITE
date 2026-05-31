@@ -229,20 +229,20 @@
       },
       "roster": [
         {
+          "summoner": "UIC Kaoxz#CRNGE",
+          "is_captain": true
+        },
+        {
           "summoner": "DAG LingYao#FES",
           "is_captain": false
         },
         {
-          "summoner": "UIC Kaoxz#CRNGE",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Painfull#UIC",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "VTennic#Goat",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "Amtoms#EUW",
