@@ -17,7 +17,7 @@
   "global": {
     "matches": 21,
     "wr": 71,
-    "players": 84,
+    "players": 83,
     "radar": [
       {
         "team_key": "ECLIPSE",
@@ -669,10 +669,6 @@
         },
         {
           "summoner": "UIC ソニック#0815",
-          "is_captain": false
-        },
-        {
-          "summoner": "Aphrodite#KOR",
           "is_captain": false
         },
         {
