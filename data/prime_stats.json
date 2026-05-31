@@ -17,7 +17,7 @@
   "global": {
     "matches": 26,
     "wr": 65,
-    "players": 82,
+    "players": 83,
     "radar": [
       {
         "team_key": "ABYSS",
@@ -190,6 +190,10 @@
         },
         {
           "summoner": "UIC NairadAwsm#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Regentropfen#H2O",
           "is_captain": false
         }
       ],
