@@ -15,22 +15,10 @@
     ]
   },
   "global": {
-    "matches": 26,
-    "wr": 65,
+    "matches": 27,
+    "wr": 63,
     "players": 82,
     "radar": [
-      {
-        "team_key": "ABYSS",
-        "date": "2026-06-01T18:00:00+02:00",
-        "enemy": "CBD",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160220"
-      },
-      {
-        "team_key": "OBSIDIAN",
-        "date": "2026-06-01T20:30:00+02:00",
-        "enemy": "TNT",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162760"
-      },
       {
         "team_key": "PHOENIX",
         "date": "2026-06-05T18:00:00+02:00",
@@ -48,6 +36,18 @@
         "date": "2026-06-07T17:00:00+02:00",
         "enemy": "R4G",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159517"
+      },
+      {
+        "team_key": "VAKUUM",
+        "date": "2026-06-07T17:00:00+02:00",
+        "enemy": "TiT",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159563"
+      },
+      {
+        "team_key": "ABYSS",
+        "date": "2026-06-07T17:00:00+02:00",
+        "enemy": "LES PBD",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160223"
       }
     ]
   },
@@ -309,6 +309,10 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -503,7 +507,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-07T19:00:00+02:00",
+        "date": "2026-06-09T19:00:00+02:00",
         "tag": "NRK",
         "link": "https://www.primeleague.gg/de/leagues/matches/1162143",
         "enemy_roster": []
@@ -576,9 +580,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-01T20:30:00+02:00",
-        "tag": "TNT",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162760",
+        "date": "2026-06-07T19:00:00+02:00",
+        "tag": "HNL",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162763",
         "enemy_roster": []
       },
       "last_match": {
@@ -605,10 +609,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Papi Δce#3072",
-          "is_captain": true
-        },
-        {
           "summoner": "SQUlRTQUEEN#MOMMY",
           "is_captain": false
         },
@@ -617,8 +617,8 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": false
+          "summoner": "UIC Papi Δce#3072",
+          "is_captain": true
         },
         {
           "summoner": "UIC Shockwave#EUW",
@@ -689,32 +689,27 @@
       },
       "stats": {
         "wins": 3,
-        "losses": 2,
+        "losses": 4,
         "points": 4,
-        "games": 2,
-        "win_rate": 50,
+        "games": 3,
+        "win_rate": 33,
         "form": [
           "L",
-          "W"
+          "W",
+          "L"
         ]
       },
       "next_match": {
-        "date": "2026-06-01T18:00:00+02:00",
-        "tag": "CBD",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160220",
-        "enemy_roster": [
-          "Vilance#snow",
-          "Manatee1706#EUW",
-          "Nikurasu#257",
-          "Robsi#6969",
-          "Scamias#2248"
-        ]
+        "date": "2026-06-07T17:00:00+02:00",
+        "tag": "LES PBD",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160223",
+        "enemy_roster": []
       },
       "last_match": {
-        "result": "SIEG",
-        "score": "2 - 0",
-        "enemy": "AKA",
-        "date": "2026-05-21T20:00:00+02:00"
+        "result": "NIEDERLAGE",
+        "score": "0 - 2",
+        "enemy": "CBD",
+        "date": "2026-06-01T18:00:00+02:00"
       },
       "roster": [
         {
