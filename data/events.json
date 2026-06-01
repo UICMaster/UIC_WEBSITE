@@ -1,37 +1,5 @@
 [
   {
-    "id": "1509536817991389194",
-    "name": "Ultra Instinct Crew Abyss vs. Ciabatta Bachata Dancing",
-    "description": "gameday 3",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-01T16:00:00+00:00",
-    "end": "2026-06-01T18:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1160220",
-    "image": "https://cdn.discordapp.com/guild-events/1509536817991389194/2189ad612edfe6fcdf6a29a1e3cb6c75.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Abyss",
-      "Ciabatta Bachata Dancing"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1510355713061290014",
-    "name": "Ultra Instinct Crew Obsidian vs. Team No Team",
-    "description": "gameday 3",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-01T18:30:00+00:00",
-    "end": "2026-06-01T20:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1162760",
-    "image": "https://cdn.discordapp.com/guild-events/1510355713061290014/74cac0f80cd602cd8562f446860b8681.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Obsidian",
-      "Team No Team"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1510019570750980106",
     "name": "Ultra Instinct Crew Phoenix vs. Rising Dawn",
     "description": "gameday 3",
@@ -76,6 +44,22 @@
     "competitors": [
       "Ultra Instinct Crew Spark",
       "Khaos, Academy of Gods and Titans x TPR"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1511054039230451723",
+    "name": "Ultra Instinct Crew Nova vs. NiklatilRabumKalumkum",
+    "description": "gameday 4",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-06-09T17:00:00+00:00",
+    "end": "2026-06-09T19:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1162143",
+    "image": "https://cdn.discordapp.com/guild-events/1511054039230451723/25d9577a7077063f9a412a8cf36229c3.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Nova",
+      "NiklatilRabumKalumkum"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
