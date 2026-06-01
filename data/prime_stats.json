@@ -91,10 +91,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Niki#AMB",
           "is_captain": true
         },
@@ -351,6 +347,10 @@
         "date": "2026-05-24T20:00:00+02:00"
       },
       "roster": [
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
         {
           "summoner": "UIC Hayu#UIC",
           "is_captain": false
