@@ -17,7 +17,7 @@
   "global": {
     "matches": 28,
     "wr": 64,
-    "players": 82,
+    "players": 80,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -309,10 +309,6 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -354,10 +350,6 @@
       },
       "roster": [
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Hayu#UIC",
           "is_captain": false
         },
@@ -366,8 +358,16 @@
           "is_captain": true
         },
         {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
+        },
+        {
+          "summoner": "UIC Exi#QUAK",
+          "is_captain": false
         },
         {
           "summoner": "UIC Ryu Copeland#117",
@@ -426,10 +426,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -486,10 +482,6 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
