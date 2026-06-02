@@ -17,13 +17,19 @@
   "global": {
     "matches": 28,
     "wr": 64,
-    "players": 83,
+    "players": 82,
     "radar": [
       {
         "team_key": "PHOENIX",
         "date": "2026-06-05T18:00:00+02:00",
         "enemy": "RD",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160813"
+      },
+      {
+        "team_key": "OBSIDIAN",
+        "date": "2026-06-05T19:00:00+02:00",
+        "enemy": "HNL",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162763"
       },
       {
         "team_key": "SAKURA",
@@ -42,12 +48,6 @@
         "date": "2026-06-07T17:00:00+02:00",
         "enemy": "TiT",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159563"
-      },
-      {
-        "team_key": "ABYSS",
-        "date": "2026-06-07T17:00:00+02:00",
-        "enemy": "LES PBD",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160223"
       }
     ]
   },
@@ -136,7 +136,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-07T19:00:00+02:00",
+        "date": "2026-06-12T19:30:00+02:00",
         "tag": "KBB",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163122",
         "enemy_roster": []
@@ -313,6 +313,10 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -368,10 +372,6 @@
         {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Exi#QUAK",
-          "is_captain": false
         },
         {
           "summoner": "UIC Ryu Copeland#117",
@@ -430,6 +430,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -486,10 +490,6 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
@@ -587,7 +587,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-07T19:00:00+02:00",
+        "date": "2026-06-05T19:00:00+02:00",
         "tag": "HNL",
         "link": "https://www.primeleague.gg/de/leagues/matches/1162763",
         "enemy_roster": []
@@ -621,10 +621,6 @@
         },
         {
           "summoner": "UIC Nyx#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
