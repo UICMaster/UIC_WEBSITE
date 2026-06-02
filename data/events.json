@@ -16,6 +16,38 @@
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
+    "id": "1511405100315316379",
+    "name": "Ultra Instinct Crew Obsidian vs. Hauptsache nicht Letzter",
+    "description": "gameday 4",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-06-05T17:00:00+00:00",
+    "end": "2026-06-05T19:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1162763",
+    "image": "https://cdn.discordapp.com/guild-events/1511405100315316379/af5d09cb12956043fc232bad7db2d08c.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Obsidian",
+      "Hauptsache nicht Letzter"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1511405227578888239",
+    "name": "Ultra Instinct Crew Obsidian vs. Hauptsache nicht Letzter",
+    "description": "gameday 4",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-06-05T17:00:00+00:00",
+    "end": "2026-06-05T19:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1162763",
+    "image": "https://cdn.discordapp.com/guild-events/1511405227578888239/af5d09cb12956043fc232bad7db2d08c.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Obsidian",
+      "Hauptsache nicht Letzter"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
     "id": "1510023234630717632",
     "name": "Ultra Instinct Crew Sakura vs. Turquoise Titans",
     "description": "gameday 3",
@@ -60,6 +92,22 @@
     "competitors": [
       "Ultra Instinct Crew Nova",
       "NiklatilRabumKalumkum"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1511404648211153120",
+    "name": "Ultra Instinct Crew Eclipse vs. KimmisBedrohlicheBuben",
+    "description": "gameday 4",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-06-12T17:30:00+00:00",
+    "end": "2026-06-12T19:30:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1163122",
+    "image": "https://cdn.discordapp.com/guild-events/1511404648211153120/a458fafbbf561aa3fa94f32f749f8081.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Eclipse",
+      "KimmisBedrohlicheBuben"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
