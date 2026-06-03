@@ -44,10 +44,10 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1160378"
       },
       {
-        "team_key": "PRIME",
+        "team_key": "VAKUUM",
         "date": "2026-06-07T17:00:00+02:00",
-        "enemy": "R4G",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159517"
+        "enemy": "TiT",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159563"
       }
     ]
   },
@@ -70,7 +70,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-07T17:00:00+02:00",
+        "date": "2026-06-07T19:00:00+02:00",
         "tag": "R4G",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159517",
         "enemy_roster": []
