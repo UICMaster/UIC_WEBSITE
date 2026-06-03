@@ -96,6 +96,22 @@
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
+    "id": "1511635237199810591",
+    "name": "Ultra Instinct Crew Phoenix vs. Laugen Legends",
+    "description": "gameday 4",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-06-07T18:00:00+00:00",
+    "end": "2026-06-07T20:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1160820",
+    "image": "https://cdn.discordapp.com/guild-events/1511635237199810591/749086765b6e86470a6f0d7662cd7cb5.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Phoenix",
+      "Laugen Legends"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
     "id": "1511054039230451723",
     "name": "Ultra Instinct Crew Nova vs. NiklatilRabumKalumkum",
     "description": "gameday 4",
