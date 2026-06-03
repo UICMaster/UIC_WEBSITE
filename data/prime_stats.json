@@ -15,16 +15,10 @@
     ]
   },
   "global": {
-    "matches": 28,
-    "wr": 64,
+    "matches": 29,
+    "wr": 66,
     "players": 83,
     "radar": [
-      {
-        "team_key": "CYBER",
-        "date": "2026-06-03T19:30:00+02:00",
-        "enemy": "PESS",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161125"
-      },
       {
         "team_key": "PHOENIX",
         "date": "2026-06-05T18:00:00+02:00",
@@ -48,6 +42,12 @@
         "date": "2026-06-07T17:00:00+02:00",
         "enemy": "TiT",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159563"
+      },
+      {
+        "team_key": "ABYSS",
+        "date": "2026-06-07T17:00:00+02:00",
+        "enemy": "LES PBD",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160223"
       }
     ]
   },
@@ -391,28 +391,29 @@
         "div": null
       },
       "stats": {
-        "wins": 4,
+        "wins": 6,
         "losses": 4,
-        "points": 4,
-        "games": 3,
-        "win_rate": 67,
+        "points": 7,
+        "games": 4,
+        "win_rate": 75,
         "form": [
           "W",
           "L",
+          "W",
           "W"
         ]
       },
       "next_match": {
-        "date": "2026-06-03T19:30:00+02:00",
-        "tag": "PESS",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161125",
+        "date": "2026-06-14T19:00:00+02:00",
+        "tag": "LNCA",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161131",
         "enemy_roster": []
       },
       "last_match": {
         "result": "SIEG",
-        "score": "2 - 1",
-        "enemy": "TAG",
-        "date": "2026-05-29T20:00:00+02:00"
+        "score": "2 - 0",
+        "enemy": "PESS",
+        "date": "2026-06-03T19:30:00+02:00"
       },
       "roster": [
         {
