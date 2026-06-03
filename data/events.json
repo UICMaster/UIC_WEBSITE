@@ -1,21 +1,5 @@
 [
   {
-    "id": "1511442506003517510",
-    "name": "Ultra Instinct Crew Cyber vs. PFÄLZER ESPORTS SLOTHS",
-    "description": "gameday 4",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-03T17:30:00+00:00",
-    "end": "2026-06-03T19:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1161125",
-    "image": "https://cdn.discordapp.com/guild-events/1511442506003517510/4303c77f5f364a8fb3fbf9be058bd719.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Cyber",
-      "PFÄLZER ESPORTS SLOTHS"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1510019570750980106",
     "name": "Ultra Instinct Crew Phoenix vs. Rising Dawn",
     "description": "gameday 3",
