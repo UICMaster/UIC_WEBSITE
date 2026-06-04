@@ -675,6 +675,10 @@
       },
       "roster": [
         {
+          "summoner": "Sophie#meeee",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Envy#UIC",
           "is_captain": true
         },
@@ -684,10 +688,6 @@
         },
         {
           "summoner": "UIC Flare#JND",
-          "is_captain": false
-        },
-        {
-          "summoner": "BlauerKlaus#Blubb",
           "is_captain": false
         },
         {
