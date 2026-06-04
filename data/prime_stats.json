@@ -17,7 +17,7 @@
   "global": {
     "matches": 29,
     "wr": 66,
-    "players": 85,
+    "players": 83,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -101,14 +101,6 @@
         {
           "summoner": "Baumi#123",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
         },
         {
           "summoner": "UIC Baguetto#R3kt",
@@ -295,6 +287,10 @@
       },
       "roster": [
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "Reign#Teach",
           "is_captain": false
         },
@@ -370,6 +366,10 @@
           "is_captain": true
         },
         {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
         },
@@ -435,10 +435,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -678,10 +674,6 @@
         "date": "2026-05-31T19:00:00+02:00"
       },
       "roster": [
-        {
-          "summoner": "Sophie#meeee",
-          "is_captain": false
-        },
         {
           "summoner": "UIC Envy#UIC",
           "is_captain": true
