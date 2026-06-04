@@ -17,7 +17,7 @@
   "global": {
     "matches": 29,
     "wr": 66,
-    "players": 83,
+    "players": 84,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -91,6 +91,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Niki#AMB",
           "is_captain": true
         },
@@ -101,6 +105,10 @@
         {
           "summoner": "Baumi#123",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         },
         {
           "summoner": "UIC Baguetto#R3kt",
@@ -274,7 +282,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-07T19:00:00+02:00",
+        "date": "2026-06-07T20:00:00+02:00",
         "tag": "W2B SE",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161378",
         "enemy_roster": []
@@ -286,10 +294,6 @@
         "date": "2026-05-26T21:00:00+02:00"
       },
       "roster": [
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
         {
           "summoner": "Reign#Teach",
           "is_captain": false
@@ -366,10 +370,6 @@
           "is_captain": true
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
         },
@@ -435,6 +435,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -634,7 +638,7 @@
         },
         {
           "summoner": "UIC Papi Δce#3072",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC Shockwave#EUW",
