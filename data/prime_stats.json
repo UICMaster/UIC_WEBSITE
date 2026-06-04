@@ -17,7 +17,7 @@
   "global": {
     "matches": 29,
     "wr": 66,
-    "players": 84,
+    "players": 85,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -103,6 +103,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         },
@@ -113,10 +117,6 @@
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         },
         {
           "summoner": "UIC FrozenHands#MID",
@@ -347,11 +347,11 @@
         "tag": "RD",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160813",
         "enemy_roster": [
-          "RD RealRagnarök#BhF",
-          "RD Nuokii#072",
           "RD Slevin#1612",
+          "RD RealRagnarök#BhF",
           "RD Dragonfly#UIC",
-          "RD Grauenhaft#zyzz"
+          "RD Grauenhaft#zyzz",
+          "RD Nuokii#072"
         ]
       },
       "last_match": {
@@ -495,6 +495,10 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
