@@ -17,7 +17,7 @@
   "global": {
     "matches": 29,
     "wr": 66,
-    "players": 84,
+    "players": 81,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -191,10 +191,6 @@
         {
           "summoner": "UIC NairadAwsm#UIC",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Regentropfen#H2O",
-          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208131",
@@ -307,10 +303,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "FlashMaster3000#EUW",
           "is_captain": false
         },
@@ -372,10 +364,6 @@
         {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Exi#QUAK",
-          "is_captain": false
         },
         {
           "summoner": "UIC Ryu Copeland#117",
@@ -495,10 +483,6 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
@@ -625,6 +609,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": false
+        },
+        {
           "summoner": "h3x3on#1234",
           "is_captain": false
         },
@@ -638,7 +626,7 @@
         },
         {
           "summoner": "UIC Papi Δce#3072",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC Shockwave#EUW",
