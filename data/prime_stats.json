@@ -15,22 +15,10 @@
     ]
   },
   "global": {
-    "matches": 29,
-    "wr": 66,
-    "players": 82,
+    "matches": 30,
+    "wr": 67,
+    "players": 83,
     "radar": [
-      {
-        "team_key": "PHOENIX",
-        "date": "2026-06-05T18:00:00+02:00",
-        "enemy": "RD",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160813"
-      },
-      {
-        "team_key": "OBSIDIAN",
-        "date": "2026-06-05T19:00:00+02:00",
-        "enemy": "HNL",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162763"
-      },
       {
         "team_key": "SAKURA",
         "date": "2026-06-06T18:00:00+02:00",
@@ -48,6 +36,18 @@
         "date": "2026-06-07T19:00:00+02:00",
         "enemy": "R4G",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159517"
+      },
+      {
+        "team_key": "EMBER",
+        "date": "2026-06-07T19:00:00+02:00",
+        "enemy": "ROY",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163097"
+      },
+      {
+        "team_key": "SPARK",
+        "date": "2026-06-07T20:00:00+02:00",
+        "enemy": "W2B SE",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161378"
       }
     ]
   },
@@ -328,33 +328,28 @@
         "div": null
       },
       "stats": {
-        "wins": 4,
+        "wins": 6,
         "losses": 0,
-        "points": 6,
-        "games": 2,
+        "points": 9,
+        "games": 3,
         "win_rate": 100,
         "form": [
+          "W",
           "W",
           "W"
         ]
       },
       "next_match": {
-        "date": "2026-06-05T18:00:00+02:00",
-        "tag": "RD",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160813",
-        "enemy_roster": [
-          "RD Slevin#1612",
-          "RD RealRagnarök#BhF",
-          "RD Dragonfly#UIC",
-          "RD Grauenhaft#zyzz",
-          "RD Nuokii#072"
-        ]
+        "date": "2026-06-07T20:00:00+02:00",
+        "tag": "LL",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160820",
+        "enemy_roster": []
       },
       "last_match": {
         "result": "SIEG",
         "score": "2 - 0",
-        "enemy": "NNN",
-        "date": "2026-05-24T20:00:00+02:00"
+        "enemy": "RD",
+        "date": "2026-06-05T18:00:00+02:00"
       },
       "roster": [
         {
@@ -435,6 +430,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -596,9 +595,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-05T19:00:00+02:00",
-        "tag": "HNL",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162763",
+        "date": "2026-06-14T19:00:00+02:00",
+        "tag": "NSGW",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162770",
         "enemy_roster": []
       },
       "last_match": {
