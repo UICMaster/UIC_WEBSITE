@@ -91,10 +91,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Niki#AMB",
           "is_captain": true
         },
@@ -309,6 +305,10 @@
         {
           "summoner": "UIC Haselmania#UIC",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         },
         {
           "summoner": "FlashMaster3000#EUW",
