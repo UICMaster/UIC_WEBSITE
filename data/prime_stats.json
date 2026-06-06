@@ -349,6 +349,10 @@
       },
       "roster": [
         {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Hayu#UIC",
           "is_captain": false
         },
@@ -358,10 +362,6 @@
         },
         {
           "summoner": "UIC Loonz#Coach",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         },
         {
