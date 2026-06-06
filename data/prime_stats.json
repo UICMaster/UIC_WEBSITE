@@ -17,14 +17,8 @@
   "global": {
     "matches": 31,
     "wr": 68,
-    "players": 82,
+    "players": 83,
     "radar": [
-      {
-        "team_key": "SAKURA",
-        "date": "2026-06-06T18:00:00+02:00",
-        "enemy": "TT",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160378"
-      },
       {
         "team_key": "VAKUUM",
         "date": "2026-06-07T17:00:00+02:00",
@@ -48,6 +42,12 @@
         "date": "2026-06-07T20:00:00+02:00",
         "enemy": "GT KHAOS",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161374"
+      },
+      {
+        "team_key": "PHOENIX",
+        "date": "2026-06-07T20:00:00+02:00",
+        "enemy": "LL",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160820"
       }
     ]
   },
@@ -101,14 +101,6 @@
         {
           "summoner": "Baumi#123",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
         },
         {
           "summoner": "UIC Baguetto#R3kt",
@@ -365,6 +357,10 @@
           "is_captain": true
         },
         {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
         },
@@ -430,6 +426,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -451,9 +451,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-06T18:00:00+02:00",
-        "tag": "TT",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160378",
+        "date": "2026-06-13T15:00:00+02:00",
+        "tag": "ECO",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160380",
         "enemy_roster": []
       },
       "last_match": {
@@ -614,6 +614,10 @@
         },
         {
           "summoner": "LordZash#1220",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
