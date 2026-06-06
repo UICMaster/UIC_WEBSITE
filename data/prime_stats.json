@@ -17,7 +17,7 @@
   "global": {
     "matches": 31,
     "wr": 68,
-    "players": 83,
+    "players": 81,
     "radar": [
       {
         "team_key": "SAKURA",
@@ -109,6 +109,10 @@
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         },
         {
           "summoner": "UIC FrozenHands#MID",
@@ -303,10 +307,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "FlashMaster3000#EUW",
           "is_captain": false
         },
@@ -363,14 +363,6 @@
         {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Exi#QUAK",
-          "is_captain": false
         },
         {
           "summoner": "UIC Ryu Copeland#117",
@@ -490,10 +482,6 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
@@ -618,6 +606,10 @@
         },
         {
           "summoner": "LordZash#1220",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
