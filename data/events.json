@@ -1,21 +1,5 @@
 [
   {
-    "id": "1510023234630717632",
-    "name": "Ultra Instinct Crew Sakura vs. Turquoise Titans",
-    "description": "gameday 3",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-06T16:00:00+00:00",
-    "end": "2026-06-06T18:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1160378",
-    "image": "https://cdn.discordapp.com/guild-events/1510023234630717632/ab235f51781d883df7dc5a34ed8247ac.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Sakura",
-      "Turquoise Titans"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1511733381304549396",
     "name": "Ultra Instinct Crew vs. R4G | Academy",
     "description": "gameday 4",
