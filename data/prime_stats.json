@@ -15,9 +15,9 @@
     ]
   },
   "global": {
-    "matches": 31,
-    "wr": 68,
-    "players": 83,
+    "matches": 32,
+    "wr": 66,
+    "players": 82,
     "radar": [
       {
         "team_key": "VAKUUM",
@@ -101,6 +101,10 @@
         {
           "summoner": "Baumi#123",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         },
         {
           "summoner": "UIC Baguetto#R3kt",
@@ -307,6 +311,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC BissiBoy#UIC",
           "is_captain": true
         },
@@ -354,10 +362,6 @@
         },
         {
           "summoner": "UIC Kamo#tpt",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         },
         {
@@ -426,10 +430,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -442,11 +442,12 @@
       },
       "stats": {
         "wins": 0,
-        "losses": 2,
+        "losses": 4,
         "points": 0,
-        "games": 1,
+        "games": 2,
         "win_rate": 0,
         "form": [
+          "L",
           "L"
         ]
       },
@@ -459,8 +460,8 @@
       "last_match": {
         "result": "NIEDERLAGE",
         "score": "0 - 2",
-        "enemy": "BOM",
-        "date": "2026-05-18T20:00:00+02:00"
+        "enemy": "TT",
+        "date": "2026-06-06T18:00:00+02:00"
       },
       "roster": [
         {
@@ -614,10 +615,6 @@
         },
         {
           "summoner": "LordZash#1220",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
