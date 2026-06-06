@@ -16,22 +16,6 @@
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
-    "id": "1511499363510390875",
-    "name": "Ultra Instinct Crew Sakura vs. eSports Cologne Beluga Stoer",
-    "description": "gameday 4",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-07T16:00:00+00:00",
-    "end": "2026-06-07T18:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1160380",
-    "image": "https://cdn.discordapp.com/guild-events/1511499363510390875/4cb0b89576fbc694303914f688decad0.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Sakura",
-      "eSports Cologne Beluga Stoer"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1511733381304549396",
     "name": "Ultra Instinct Crew vs. R4G | Academy",
     "description": "gameday 4",
@@ -85,8 +69,8 @@
     "description": "gameday 4",
     "type": "ESPORTS MATCH",
     "highlight": false,
-    "start": "2026-06-07T18:00:00+00:00",
-    "end": "2026-06-07T20:00:00+00:00",
+    "start": "2026-06-08T18:00:00+00:00",
+    "end": "2026-06-08T19:00:00+00:00",
     "location": "https://www.primeleague.gg/de/leagues/matches/1161378",
     "image": "https://cdn.discordapp.com/guild-events/1512224021226328134/118efa86c0fe97a8debb136538e68c45.png?size=1024",
     "competitors": [
@@ -124,6 +108,22 @@
     "competitors": [
       "Ultra Instinct Crew Eclipse",
       "KimmisBedrohlicheBuben"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1511499363510390875",
+    "name": "Ultra Instinct Crew Sakura vs. eSports Cologne Beluga Stoer",
+    "description": "gameday 4",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-06-13T13:00:00+00:00",
+    "end": "2026-06-13T16:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1160380",
+    "image": "https://cdn.discordapp.com/guild-events/1511499363510390875/4cb0b89576fbc694303914f688decad0.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Sakura",
+      "eSports Cologne Beluga Stoer"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
