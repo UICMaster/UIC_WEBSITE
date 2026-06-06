@@ -103,6 +103,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         },
@@ -309,10 +313,6 @@
         {
           "summoner": "FlashMaster3000#EUW",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         },
         {
           "summoner": "UIC BissiBoy#UIC",
