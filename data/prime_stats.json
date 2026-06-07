@@ -15,8 +15,8 @@
     ]
   },
   "global": {
-    "matches": 33,
-    "wr": 64,
+    "matches": 37,
+    "wr": 65,
     "players": 82,
     "radar": [
       {
@@ -58,15 +58,16 @@
         "div": null
       },
       "stats": {
-        "wins": 3,
+        "wins": 5,
         "losses": 4,
-        "points": 4,
-        "games": 3,
-        "win_rate": 33,
+        "points": 7,
+        "games": 4,
+        "win_rate": 50,
         "form": [
           "W",
           "L",
-          "L"
+          "L",
+          "W"
         ]
       },
       "next_match": {
@@ -76,10 +77,10 @@
         "enemy_roster": []
       },
       "last_match": {
-        "result": "NIEDERLAGE",
-        "score": "0 - 2",
-        "enemy": "CX",
-        "date": "2026-05-31T19:30:00+02:00"
+        "result": "SIEG",
+        "score": "2 - 0",
+        "enemy": "R4G",
+        "date": "2026-06-07T19:00:00+02:00"
       },
       "roster": [
         {
@@ -266,12 +267,13 @@
         "div": null
       },
       "stats": {
-        "wins": 4,
+        "wins": 6,
         "losses": 1,
-        "points": 5,
-        "games": 2,
+        "points": 8,
+        "games": 3,
         "win_rate": 100,
         "form": [
+          "W",
           "W",
           "W"
         ]
@@ -285,8 +287,8 @@
       "last_match": {
         "result": "SIEG",
         "score": "2 - 0",
-        "enemy": "BeKFF",
-        "date": "2026-05-26T21:00:00+02:00"
+        "enemy": "GT KHAOS",
+        "date": "2026-06-07T20:00:00+02:00"
       },
       "roster": [
         {
@@ -310,6 +312,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC BissiBoy#UIC",
           "is_captain": true
         },
@@ -327,12 +333,13 @@
         "div": null
       },
       "stats": {
-        "wins": 6,
+        "wins": 8,
         "losses": 0,
-        "points": 9,
-        "games": 3,
+        "points": 12,
+        "games": 4,
         "win_rate": 100,
         "form": [
+          "W",
           "W",
           "W",
           "W"
@@ -347,8 +354,8 @@
       "last_match": {
         "result": "SIEG",
         "score": "2 - 0",
-        "enemy": "RD",
-        "date": "2026-06-05T18:00:00+02:00"
+        "enemy": "LL",
+        "date": "2026-06-07T20:00:00+02:00"
       },
       "roster": [
         {
@@ -617,10 +624,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": false
-        },
-        {
           "summoner": "h3x3on#1234",
           "is_captain": false
         },
@@ -651,13 +654,14 @@
       },
       "stats": {
         "wins": 4,
-        "losses": 3,
+        "losses": 5,
         "points": 5,
-        "games": 3,
-        "win_rate": 67,
+        "games": 4,
+        "win_rate": 50,
         "form": [
           "W",
           "W",
+          "L",
           "L"
         ]
       },
@@ -670,8 +674,8 @@
       "last_match": {
         "result": "NIEDERLAGE",
         "score": "0 - 2",
-        "enemy": "DKE",
-        "date": "2026-05-31T19:00:00+02:00"
+        "enemy": "ROY",
+        "date": "2026-06-07T19:15:00+02:00"
       },
       "roster": [
         {
