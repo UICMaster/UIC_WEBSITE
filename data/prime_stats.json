@@ -87,15 +87,15 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Speedy#EUW",
+          "is_captain": true
+        },
+        {
           "summoner": "piapiob#187",
           "is_captain": false
         },
         {
           "summoner": "UIC Niki#AMB",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Speedy#EUW",
           "is_captain": true
         },
         {
@@ -349,12 +349,16 @@
       },
       "roster": [
         {
-          "summoner": "UIC Hayu#UIC",
-          "is_captain": false
+          "summoner": "UIC Ryu Copeland#117",
+          "is_captain": true
         },
         {
           "summoner": "UIC Kamo#tpt",
           "is_captain": true
+        },
+        {
+          "summoner": "UIC Hayu#UIC",
+          "is_captain": false
         },
         {
           "summoner": "UIC Cerberus#GOATZ",
@@ -367,10 +371,6 @@
         {
           "summoner": "UIC Exi#QUAK",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Copeland#117",
-          "is_captain": true
         },
         {
           "summoner": "UIC AutumnLeaf#Moo",
