@@ -15,16 +15,10 @@
     ]
   },
   "global": {
-    "matches": 32,
-    "wr": 66,
-    "players": 82,
+    "matches": 33,
+    "wr": 64,
+    "players": 81,
     "radar": [
-      {
-        "team_key": "PRIME",
-        "date": "2026-06-07T19:00:00+02:00",
-        "enemy": "R4G",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159517"
-      },
       {
         "team_key": "EMBER",
         "date": "2026-06-07T19:15:00+02:00",
@@ -48,6 +42,12 @@
         "date": "2026-06-09T18:30:00+02:00",
         "enemy": "LES PBD",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160223"
+      },
+      {
+        "team_key": "NOVA",
+        "date": "2026-06-09T19:00:00+02:00",
+        "enemy": "NRK",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162143"
       }
     ]
   },
@@ -70,9 +70,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-07T19:00:00+02:00",
-        "tag": "R4G",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159517",
+        "date": "2026-06-14T17:00:00+02:00",
+        "tag": "BTZ",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159520",
         "enemy_roster": []
       },
       "last_match": {
@@ -211,11 +211,12 @@
       },
       "stats": {
         "wins": 2,
-        "losses": 4,
+        "losses": 6,
         "points": 2,
-        "games": 2,
+        "games": 3,
         "win_rate": 0,
         "form": [
+          "L",
           "L",
           "L"
         ]
@@ -234,14 +235,14 @@
       },
       "last_match": {
         "result": "NIEDERLAGE",
-        "score": "1 - 2",
-        "enemy": "AUT",
-        "date": "2026-05-31T19:00:00+02:00"
+        "score": "0 - 2",
+        "enemy": "TiT",
+        "date": "2026-06-07T17:00:00+02:00"
       },
       "roster": [
         {
           "summoner": "UIC Kaoxz#CRNGE",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "DAG LingYao#FES",
@@ -249,11 +250,11 @@
         },
         {
           "summoner": "UIC Painfull#UIC",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "VTennic#Goat",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "Amtoms#EUW",
@@ -493,10 +494,6 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
