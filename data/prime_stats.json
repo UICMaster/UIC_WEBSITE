@@ -20,12 +20,6 @@
     "players": 82,
     "radar": [
       {
-        "team_key": "VAKUUM",
-        "date": "2026-06-07T17:00:00+02:00",
-        "enemy": "TiT",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159563"
-      },
-      {
         "team_key": "PRIME",
         "date": "2026-06-07T19:00:00+02:00",
         "enemy": "R4G",
@@ -33,7 +27,7 @@
       },
       {
         "team_key": "EMBER",
-        "date": "2026-06-07T19:00:00+02:00",
+        "date": "2026-06-07T19:15:00+02:00",
         "enemy": "ROY",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163097"
       },
@@ -48,6 +42,12 @@
         "date": "2026-06-07T20:00:00+02:00",
         "enemy": "LL",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160820"
+      },
+      {
+        "team_key": "ABYSS",
+        "date": "2026-06-09T18:30:00+02:00",
+        "enemy": "LES PBD",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160223"
       }
     ]
   },
@@ -221,10 +221,16 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-07T17:00:00+02:00",
-        "tag": "TiT",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159563",
-        "enemy_roster": []
+        "date": "2026-06-14T20:00:00+02:00",
+        "tag": "DEA",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159565",
+        "enemy_roster": [
+          "heavens envy#defy",
+          "TITO#DEA",
+          "Bob Tschigerillo#HUB",
+          "Joe Dirt#DVD",
+          "Markus Rühl#HUB"
+        ]
       },
       "last_match": {
         "result": "NIEDERLAGE",
@@ -235,7 +241,7 @@
       "roster": [
         {
           "summoner": "UIC Kaoxz#CRNGE",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "DAG LingYao#FES",
@@ -243,11 +249,11 @@
         },
         {
           "summoner": "UIC Painfull#UIC",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "VTennic#Goat",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "Amtoms#EUW",
@@ -659,7 +665,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-07T19:00:00+02:00",
+        "date": "2026-06-07T19:15:00+02:00",
         "tag": "ROY",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163097",
         "enemy_roster": []
