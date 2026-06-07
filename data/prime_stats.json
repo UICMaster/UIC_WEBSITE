@@ -103,6 +103,14 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Baguetto#R3kt",
           "is_captain": false
         },
@@ -361,10 +369,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
         },
@@ -614,10 +618,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": false
-        },
-        {
           "summoner": "h3x3on#1234",
           "is_captain": false
         },
@@ -705,7 +705,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-10T18:30:00+02:00",
+        "date": "2026-06-09T18:30:00+02:00",
         "tag": "LES PBD",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160223",
         "enemy_roster": []
