@@ -1,21 +1,5 @@
 [
   {
-    "id": "1513195046566891570",
-    "name": "Ultra Instinct Crew Vakuum vs. Tito Tortuga",
-    "description": "gameday 4",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-07T15:00:00+00:00",
-    "end": "2026-06-07T17:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1159563",
-    "image": "https://cdn.discordapp.com/guild-events/1513195046566891570/db2b8ad45614e7604d715008d9c2c296.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Vakuum",
-      "Tito Tortuga"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1511733381304549396",
     "name": "Ultra Instinct Crew vs. R4G | Academy",
     "description": "gameday 4",
@@ -125,6 +109,22 @@
     "competitors": [
       "Ultra Instinct Crew Nova",
       "NiklatilRabumKalumkum"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1513239207731269765",
+    "name": "Ultra Instinct Crew Eclipse vs. Powerzocker",
+    "description": "gameday 5",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-06-09T17:30:00+00:00",
+    "end": "2026-06-09T19:30:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1163126",
+    "image": "https://cdn.discordapp.com/guild-events/1513239207731269765/8f323470aadf38e8f8368ffa1432f882.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Eclipse",
+      "Powerzocker"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
