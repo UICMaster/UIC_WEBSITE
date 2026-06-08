@@ -17,14 +17,8 @@
   "global": {
     "matches": 37,
     "wr": 65,
-    "players": 83,
+    "players": 84,
     "radar": [
-      {
-        "team_key": "SPARK",
-        "date": "2026-06-08T20:00:00+02:00",
-        "enemy": "W2B SE",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161378"
-      },
       {
         "team_key": "ABYSS",
         "date": "2026-06-09T18:30:00+02:00",
@@ -48,6 +42,12 @@
         "date": "2026-06-13T15:00:00+02:00",
         "enemy": "ECO",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160380"
+      },
+      {
+        "team_key": "PRIME",
+        "date": "2026-06-14T17:00:00+02:00",
+        "enemy": "BTZ",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159520"
       }
     ]
   },
@@ -287,9 +287,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-08T20:00:00+02:00",
-        "tag": "W2B SE",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161378",
+        "date": "2026-06-14T19:00:00+02:00",
+        "tag": "MIA",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161383",
         "enemy_roster": []
       },
       "last_match": {
@@ -320,12 +320,8 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC BissiBoy#UIC",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
@@ -501,6 +497,10 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
@@ -625,6 +625,10 @@
         },
         {
           "summoner": "LordZash#1220",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
