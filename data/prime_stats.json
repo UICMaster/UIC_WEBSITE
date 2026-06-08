@@ -17,7 +17,7 @@
   "global": {
     "matches": 37,
     "wr": 65,
-    "players": 82,
+    "players": 83,
     "radar": [
       {
         "team_key": "SPARK",
@@ -102,6 +102,10 @@
         {
           "summoner": "Baumi#123",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         },
         {
           "summoner": "UIC Baguetto#R3kt",
@@ -312,10 +316,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC BissiBoy#UIC",
           "is_captain": true
         },
@@ -381,6 +381,10 @@
         {
           "summoner": "UIC AutumnLeaf#Moo",
           "is_captain": true
+        },
+        {
+          "summoner": "UIC Exi#QUAK",
+          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212473",
