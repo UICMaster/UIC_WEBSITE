@@ -15,9 +15,9 @@
     ]
   },
   "global": {
-    "matches": 37,
-    "wr": 65,
-    "players": 84,
+    "matches": 38,
+    "wr": 66,
+    "players": 83,
     "radar": [
       {
         "team_key": "ABYSS",
@@ -109,14 +109,6 @@
         },
         {
           "summoner": "UIC Giani#999",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC FrozenHands#MID",
           "is_captain": false
         }
       ],
@@ -275,12 +267,13 @@
         "div": null
       },
       "stats": {
-        "wins": 6,
-        "losses": 1,
-        "points": 8,
-        "games": 3,
+        "wins": 8,
+        "losses": 2,
+        "points": 10,
+        "games": 4,
         "win_rate": 100,
         "form": [
+          "W",
           "W",
           "W",
           "W"
@@ -294,9 +287,9 @@
       },
       "last_match": {
         "result": "SIEG",
-        "score": "2 - 0",
-        "enemy": "GT KHAOS",
-        "date": "2026-06-07T20:00:00+02:00"
+        "score": "2 - 1",
+        "enemy": "W2B SE",
+        "date": "2026-06-08T20:00:00+02:00"
       },
       "roster": [
         {
@@ -318,6 +311,10 @@
         {
           "summoner": "FlashMaster3000#EUW",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         },
         {
           "summoner": "UIC BissiBoy#UIC",
@@ -376,6 +373,10 @@
         },
         {
           "summoner": "UIC Loonz#Coach",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         },
         {
@@ -545,10 +546,6 @@
           "is_captain": false
         },
         {
-          "summoner": "Qvy#Wonky",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Kaanto#Nova",
           "is_captain": false
         },
@@ -625,10 +622,6 @@
         },
         {
           "summoner": "LordZash#1220",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
@@ -742,6 +735,10 @@
         "date": "2026-06-01T18:00:00+02:00"
       },
       "roster": [
+        {
+          "summoner": "Qvy#Wonky",
+          "is_captain": false
+        },
         {
           "summoner": "zkanex#ADC",
           "is_captain": true
