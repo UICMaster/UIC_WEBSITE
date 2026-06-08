@@ -17,7 +17,7 @@
   "global": {
     "matches": 37,
     "wr": 65,
-    "players": 83,
+    "players": 82,
     "radar": [
       {
         "team_key": "SPARK",
@@ -116,6 +116,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC FrozenHands#MID",
           "is_captain": false
         }
@@ -191,6 +195,10 @@
         },
         {
           "summoner": "UIC NairadAwsm#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Regentropfen#H2O",
           "is_captain": false
         }
       ],
@@ -371,20 +379,12 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
         },
         {
           "summoner": "UIC AutumnLeaf#Moo",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Exi#QUAK",
-          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212473",
@@ -497,10 +497,6 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
