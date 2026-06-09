@@ -1,38 +1,5 @@
 [
   {
-    "id": "1513145619558957237",
-    "name": "Ultra Instinct Crew Abyss vs. LES PrimeBot Devs",
-    "description": "gameday 4",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-09T16:30:00+00:00",
-    "end": "2026-06-09T18:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1160223",
-    "image": "https://cdn.discordapp.com/guild-events/1513145619558957237/100a686f682718a292b7dd98780be187.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Abyss",
-      "LES PrimeBot De",
-      ""
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1511054039230451723",
-    "name": "Ultra Instinct Crew Nova vs. NiklatilRabumKalumkum",
-    "description": "gameday 4",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-09T17:00:00+00:00",
-    "end": "2026-06-09T19:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1162143",
-    "image": "https://cdn.discordapp.com/guild-events/1511054039230451723/25d9577a7077063f9a412a8cf36229c3.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Nova",
-      "NiklatilRabumKalumkum"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1513239207731269765",
     "name": "Ultra Instinct Crew Eclipse vs. Powerzocker",
     "description": "gameday 5",
