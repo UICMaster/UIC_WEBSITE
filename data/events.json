@@ -111,5 +111,21 @@
       "Dark Earls OrnnHub"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1513911303784108063",
+    "name": "Ultra Instinct Crew Cyber vs. Late Night Canis",
+    "description": "gameday 5",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-06-18T17:30:00+00:00",
+    "end": "2026-06-18T19:30:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1161131",
+    "image": "https://cdn.discordapp.com/guild-events/1513911303784108063/2de099dcd9e92624017b63b14a7733b7.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Cyber",
+      "Late Night Canis"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
 ]
