@@ -1,21 +1,5 @@
 [
   {
-    "id": "1513239207731269765",
-    "name": "Ultra Instinct Crew Eclipse vs. Powerzocker",
-    "description": "gameday 5",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-09T17:30:00+00:00",
-    "end": "2026-06-09T19:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1163126",
-    "image": "https://cdn.discordapp.com/guild-events/1513239207731269765/8f323470aadf38e8f8368ffa1432f882.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Eclipse",
-      "Powerzocker"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1513658642346545384",
     "name": "Ultra Instinct Crew Phoenix vs. LAGGING LEGENDS",
     "description": "gameday 5",
