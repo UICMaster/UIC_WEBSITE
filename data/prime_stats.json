@@ -20,18 +20,6 @@
     "players": 82,
     "radar": [
       {
-        "team_key": "ABYSS",
-        "date": "2026-06-09T18:30:00+02:00",
-        "enemy": "LES PBD",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160223"
-      },
-      {
-        "team_key": "NOVA",
-        "date": "2026-06-09T19:00:00+02:00",
-        "enemy": "NRK",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162143"
-      },
-      {
         "team_key": "ECLIPSE",
         "date": "2026-06-09T19:30:00+02:00",
         "enemy": "PWZR",
@@ -48,6 +36,18 @@
         "date": "2026-06-13T15:00:00+02:00",
         "enemy": "ECO",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160380"
+      },
+      {
+        "team_key": "PRIME",
+        "date": "2026-06-14T17:00:00+02:00",
+        "enemy": "BTZ",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159520"
+      },
+      {
+        "team_key": "ABYSS",
+        "date": "2026-06-14T17:00:00+02:00",
+        "enemy": "W2B FF",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160227"
       }
     ]
   },
@@ -104,10 +104,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Baguetto#R3kt",
           "is_captain": false
         },
@@ -140,7 +136,13 @@
         "date": "2026-06-09T19:30:00+02:00",
         "tag": "PWZR",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163126",
-        "enemy_roster": []
+        "enemy_roster": [
+          "Nícolas#EUW",
+          "Tagajoshi#UWU",
+          "lilBiscuit#LimpB",
+          "sarah#15299",
+          "Λiden#1337"
+        ]
       },
       "last_match": {
         "result": "SIEG",
@@ -406,7 +408,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-14T19:00:00+02:00",
+        "date": "2026-06-18T19:30:00+02:00",
         "tag": "LNCA",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161131",
         "enemy_roster": []
@@ -521,9 +523,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-09T19:00:00+02:00",
-        "tag": "NRK",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162143",
+        "date": "2026-06-14T19:00:00+02:00",
+        "tag": "BAD",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162147",
         "enemy_roster": []
       },
       "last_match": {
@@ -625,6 +627,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": false
+        },
+        {
           "summoner": "h3x3on#1234",
           "is_captain": false
         },
@@ -717,16 +723,10 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-09T18:30:00+02:00",
-        "tag": "LES PBD",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160223",
-        "enemy_roster": [
-          "Kayzio#EUW",
-          "Mörlin#Bier",
-          "Wakomi#Mid",
-          "Grayknife#EUW",
-          "Kurotsch#8733"
-        ]
+        "date": "2026-06-14T17:00:00+02:00",
+        "tag": "W2B FF",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160227",
+        "enemy_roster": []
       },
       "last_match": {
         "result": "NIEDERLAGE",
