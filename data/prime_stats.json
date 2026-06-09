@@ -15,21 +15,21 @@
     ]
   },
   "global": {
-    "matches": 38,
-    "wr": 66,
-    "players": 82,
+    "matches": 40,
+    "wr": 65,
+    "players": 81,
     "radar": [
-      {
-        "team_key": "ECLIPSE",
-        "date": "2026-06-09T19:30:00+02:00",
-        "enemy": "PWZR",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163126"
-      },
       {
         "team_key": "PHOENIX",
         "date": "2026-06-11T19:00:00+02:00",
         "enemy": "LAG",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160824"
+      },
+      {
+        "team_key": "ECLIPSE",
+        "date": "2026-06-12T19:30:00+02:00",
+        "enemy": "KBB",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163122"
       },
       {
         "team_key": "SAKURA",
@@ -104,12 +104,20 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Baguetto#R3kt",
           "is_captain": false
         },
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -133,16 +141,10 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-09T19:30:00+02:00",
-        "tag": "PWZR",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163126",
-        "enemy_roster": [
-          "Nícolas#EUW",
-          "Tagajoshi#UWU",
-          "lilBiscuit#LimpB",
-          "sarah#15299",
-          "Λiden#1337"
-        ]
+        "date": "2026-06-12T19:30:00+02:00",
+        "tag": "KBB",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163122",
+        "enemy_roster": []
       },
       "last_match": {
         "result": "SIEG",
@@ -189,6 +191,10 @@
         },
         {
           "summoner": "UIC NairadAwsm#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Regentropfen#H2O",
           "is_captain": false
         }
       ],
@@ -374,16 +380,8 @@
           "is_captain": true
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC AutumnLeaf#Moo",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Exi#QUAK",
-          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212473",
@@ -496,10 +494,6 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
@@ -511,12 +505,13 @@
         "div": null
       },
       "stats": {
-        "wins": 6,
+        "wins": 8,
         "losses": 0,
-        "points": 9,
-        "games": 3,
+        "points": 12,
+        "games": 4,
         "win_rate": 100,
         "form": [
+          "W",
           "W",
           "W",
           "W"
@@ -531,8 +526,8 @@
       "last_match": {
         "result": "SIEG",
         "score": "2 - 0",
-        "enemy": "LUL",
-        "date": "2026-05-31T19:30:00+02:00"
+        "enemy": "NRK",
+        "date": "2026-06-09T19:00:00+02:00"
       },
       "roster": [
         {
@@ -569,7 +564,7 @@
         },
         {
           "summoner": "UIC adedier#EUWE",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC Rubix Qube#MÖP",
@@ -624,10 +619,6 @@
         },
         {
           "summoner": "LordZash#1220",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
@@ -712,13 +703,14 @@
       },
       "stats": {
         "wins": 3,
-        "losses": 4,
+        "losses": 6,
         "points": 4,
-        "games": 3,
-        "win_rate": 33,
+        "games": 4,
+        "win_rate": 25,
         "form": [
           "L",
           "W",
+          "L",
           "L"
         ]
       },
@@ -731,8 +723,8 @@
       "last_match": {
         "result": "NIEDERLAGE",
         "score": "0 - 2",
-        "enemy": "CBD",
-        "date": "2026-06-01T18:00:00+02:00"
+        "enemy": "LES PBD",
+        "date": "2026-06-09T18:30:00+02:00"
       },
       "roster": [
         {
