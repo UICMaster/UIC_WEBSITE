@@ -17,7 +17,7 @@
   "global": {
     "matches": 41,
     "wr": 66,
-    "players": 81,
+    "players": 82,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -104,12 +104,20 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Baguetto#R3kt",
           "is_captain": false
         },
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -184,6 +192,10 @@
         },
         {
           "summoner": "UIC NairadAwsm#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Regentropfen#H2O",
           "is_captain": false
         }
       ],
@@ -310,10 +322,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC BissiBoy#UIC",
           "is_captain": true
         },
@@ -373,12 +381,12 @@
           "is_captain": true
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
+          "summoner": "UIC AutumnLeaf#Moo",
           "is_captain": true
         },
         {
-          "summoner": "UIC AutumnLeaf#Moo",
-          "is_captain": true
+          "summoner": "UIC Exi#QUAK",
+          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212473",
@@ -491,10 +499,6 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
