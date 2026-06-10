@@ -104,20 +104,12 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Baguetto#R3kt",
           "is_captain": false
         },
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -192,10 +184,6 @@
         },
         {
           "summoner": "UIC NairadAwsm#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Regentropfen#H2O",
           "is_captain": false
         }
       ],
@@ -322,6 +310,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC BissiBoy#UIC",
           "is_captain": true
         },
@@ -378,6 +370,10 @@
         },
         {
           "summoner": "UIC Loonz#Coach",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         },
         {
@@ -495,6 +491,10 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
@@ -565,7 +565,7 @@
         },
         {
           "summoner": "UIC adedier#EUWE",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC Rubix Qube#MÖP",
@@ -627,7 +627,7 @@
           "is_captain": false
         },
         {
-          "summoner": "SQUlRTQUEEN#MOMMY",
+          "summoner": "SANEST GAMER FR#XDD",
           "is_captain": false
         },
         {
