@@ -17,7 +17,7 @@
   "global": {
     "matches": 41,
     "wr": 66,
-    "players": 82,
+    "players": 83,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -467,7 +467,13 @@
         "date": "2026-06-13T15:00:00+02:00",
         "tag": "ECO",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160380",
-        "enemy_roster": []
+        "enemy_roster": [
+          "Czapo#EUW",
+          "Barracuda#ECO",
+          "moabist#EUW",
+          "Proteddybear#eco",
+          "Mad Angel#UwU"
+        ]
       },
       "last_match": {
         "result": "NIEDERLAGE",
@@ -499,6 +505,10 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
