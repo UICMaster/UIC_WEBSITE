@@ -15,8 +15,8 @@
     ]
   },
   "global": {
-    "matches": 41,
-    "wr": 66,
+    "matches": 42,
+    "wr": 67,
     "players": 82,
     "radar": [
       {
@@ -104,20 +104,12 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Baguetto#R3kt",
           "is_captain": false
         },
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -322,6 +314,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC BissiBoy#UIC",
           "is_captain": true
         },
@@ -339,12 +335,13 @@
         "div": null
       },
       "stats": {
-        "wins": 8,
+        "wins": 10,
         "losses": 0,
-        "points": 12,
-        "games": 4,
+        "points": 15,
+        "games": 5,
         "win_rate": 100,
         "form": [
+          "W",
           "W",
           "W",
           "W",
@@ -360,8 +357,8 @@
       "last_match": {
         "result": "SIEG",
         "score": "2 - 0",
-        "enemy": "LL",
-        "date": "2026-06-07T20:00:00+02:00"
+        "enemy": "LAG",
+        "date": "2026-06-11T19:00:00+02:00"
       },
       "roster": [
         {
@@ -378,6 +375,10 @@
         },
         {
           "summoner": "UIC Loonz#Coach",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         },
         {
@@ -438,10 +439,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -505,6 +502,10 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
