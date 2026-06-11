@@ -1,21 +1,5 @@
 [
   {
-    "id": "1513658642346545384",
-    "name": "Ultra Instinct Crew Phoenix vs. LAGGING LEGENDS",
-    "description": "gameday 5",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-11T17:00:00+00:00",
-    "end": "2026-06-11T19:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1160824",
-    "image": "https://cdn.discordapp.com/guild-events/1513658642346545384/87fab77f4229b5bbd8950cca953e9b42.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Phoenix",
-      "LAGGING LEGENDS"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1511404648211153120",
     "name": "Ultra Instinct Crew Eclipse vs. KimmisBedrohlicheBuben",
     "description": "gameday 4",
