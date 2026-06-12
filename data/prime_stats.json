@@ -17,20 +17,8 @@
   "global": {
     "matches": 42,
     "wr": 67,
-    "players": 82,
+    "players": 83,
     "radar": [
-      {
-        "team_key": "ECLIPSE",
-        "date": "2026-06-12T19:30:00+02:00",
-        "enemy": "KBB",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163122"
-      },
-      {
-        "team_key": "EMBER",
-        "date": "2026-06-12T20:00:00+02:00",
-        "enemy": "QMS",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163101"
-      },
       {
         "team_key": "SAKURA",
         "date": "2026-06-13T15:00:00+02:00",
@@ -48,6 +36,18 @@
         "date": "2026-06-14T19:00:00+02:00",
         "enemy": "MIA",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161383"
+      },
+      {
+        "team_key": "NOVA",
+        "date": "2026-06-14T19:00:00+02:00",
+        "enemy": "BAD",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162147"
+      },
+      {
+        "team_key": "OBSIDIAN",
+        "date": "2026-06-14T19:00:00+02:00",
+        "enemy": "NSGW",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162770"
       }
     ]
   },
@@ -134,9 +134,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-12T19:30:00+02:00",
-        "tag": "KBB",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163122",
+        "date": "2026-06-21T19:00:00+02:00",
+        "tag": "RH",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163127",
         "enemy_roster": []
       },
       "last_match": {
@@ -439,6 +439,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -672,16 +676,10 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-12T20:00:00+02:00",
-        "tag": "QMS",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163101",
-        "enemy_roster": [
-          "QMS unitum#EUW",
-          "QMS tillusch#EUW",
-          "QMS Karpkopf#EUW",
-          "Deathmayle#HNF",
-          "QMS Makoa#NOMK"
-        ]
+        "date": "2026-06-21T19:00:00+02:00",
+        "tag": "RISE",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163104",
+        "enemy_roster": []
       },
       "last_match": {
         "result": "NIEDERLAGE",
@@ -691,12 +689,12 @@
       },
       "roster": [
         {
-          "summoner": "UIC Envy#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC ソニック#0815",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Envy#UIC",
+          "is_captain": true
         },
         {
           "summoner": "UIC Flare#JND",
