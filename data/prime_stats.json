@@ -315,10 +315,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC BissiBoy#UIC",
           "is_captain": true
         },
@@ -467,7 +463,7 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1160380",
         "enemy_roster": [
           "Czapo#EUW",
-          "Barracuda#ECO",
+          "Goblin Printer#EUW",
           "moabist#EUW",
           "Proteddybear#eco",
           "Mad Angel#UwU"
@@ -632,6 +628,10 @@
         },
         {
           "summoner": "LordZash#1220",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
