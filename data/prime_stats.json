@@ -15,8 +15,8 @@
     ]
   },
   "global": {
-    "matches": 42,
-    "wr": 67,
+    "matches": 44,
+    "wr": 68,
     "players": 83,
     "radar": [
       {
@@ -121,12 +121,13 @@
         "div": null
       },
       "stats": {
-        "wins": 8,
+        "wins": 10,
         "losses": 2,
-        "points": 10,
-        "games": 4,
+        "points": 13,
+        "games": 5,
         "win_rate": 100,
         "form": [
+          "W",
           "W",
           "W",
           "W",
@@ -141,9 +142,9 @@
       },
       "last_match": {
         "result": "SIEG",
-        "score": "2 - 1",
-        "enemy": "PWZR",
-        "date": "2026-06-09T19:30:00+02:00"
+        "score": "2 - 0",
+        "enemy": "KBB",
+        "date": "2026-06-12T19:30:00+02:00"
       },
       "roster": [
         {
@@ -439,10 +440,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -506,6 +503,10 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
@@ -663,16 +664,17 @@
         "div": null
       },
       "stats": {
-        "wins": 4,
+        "wins": 6,
         "losses": 5,
-        "points": 5,
-        "games": 4,
-        "win_rate": 50,
+        "points": 8,
+        "games": 5,
+        "win_rate": 60,
         "form": [
           "W",
           "W",
           "L",
-          "L"
+          "L",
+          "W"
         ]
       },
       "next_match": {
@@ -682,10 +684,10 @@
         "enemy_roster": []
       },
       "last_match": {
-        "result": "NIEDERLAGE",
-        "score": "0 - 2",
-        "enemy": "ROY",
-        "date": "2026-06-07T19:15:00+02:00"
+        "result": "SIEG",
+        "score": "2 - 0",
+        "enemy": "QMS",
+        "date": "2026-06-12T20:00:00+02:00"
       },
       "roster": [
         {
