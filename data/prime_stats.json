@@ -675,7 +675,13 @@
         "date": "2026-06-12T20:00:00+02:00",
         "tag": "QMS",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163101",
-        "enemy_roster": []
+        "enemy_roster": [
+          "QMS unitum#EUW",
+          "QMS tillusch#EUW",
+          "QMS Karpkopf#EUW",
+          "Deathmayle#HNF",
+          "QMS Makoa#NOMK"
+        ]
       },
       "last_match": {
         "result": "NIEDERLAGE",
