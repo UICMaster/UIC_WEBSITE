@@ -17,7 +17,7 @@
   "global": {
     "matches": 42,
     "wr": 67,
-    "players": 82,
+    "players": 81,
     "radar": [
       {
         "team_key": "ECLIPSE",
@@ -104,10 +104,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Baguetto#R3kt",
           "is_captain": false
         },
@@ -192,10 +188,6 @@
         },
         {
           "summoner": "UIC NairadAwsm#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Regentropfen#H2O",
           "is_captain": false
         }
       ],
@@ -384,10 +376,6 @@
         {
           "summoner": "UIC AutumnLeaf#Moo",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Exi#QUAK",
-          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212473",
@@ -634,6 +622,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": false
+        },
+        {
           "summoner": "h3x3on#1234",
           "is_captain": false
         },
@@ -749,6 +741,10 @@
         },
         {
           "summoner": "SupVsAdc#ratty",
+          "is_captain": false
+        },
+        {
+          "summoner": "Päscl#EUW",
           "is_captain": false
         },
         {
