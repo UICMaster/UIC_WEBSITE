@@ -62,5 +62,21 @@
       "Late Night Canis"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1515342117919002664",
+    "name": "Ultra Instinct Crew Sakura vs. Rot-Weiß Erfurt E-Sport Red",
+    "description": "gameday 5",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-06-27T17:00:00+00:00",
+    "end": "2026-06-27T19:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1160383",
+    "image": "https://cdn.discordapp.com/guild-events/1515342117919002664/ce88b773d1ddb1c1d12f4747c14b4983.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Sakura",
+      "Rot-Weiß Erfurt E-Sport Red"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
 ]
