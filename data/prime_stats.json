@@ -15,8 +15,8 @@
     ]
   },
   "global": {
-    "matches": 44,
-    "wr": 68,
+    "matches": 45,
+    "wr": 69,
     "players": 83,
     "radar": [
       {
@@ -447,14 +447,15 @@
         "div": null
       },
       "stats": {
-        "wins": 0,
-        "losses": 4,
-        "points": 0,
-        "games": 2,
-        "win_rate": 0,
+        "wins": 2,
+        "losses": 5,
+        "points": 2,
+        "games": 3,
+        "win_rate": 33,
         "form": [
           "L",
-          "L"
+          "L",
+          "W"
         ]
       },
       "next_match": {
@@ -464,10 +465,10 @@
         "enemy_roster": []
       },
       "last_match": {
-        "result": "NIEDERLAGE",
-        "score": "0 - 2",
-        "enemy": "TT",
-        "date": "2026-06-06T18:00:00+02:00"
+        "result": "SIEG",
+        "score": "2 - 1",
+        "enemy": "ECO",
+        "date": "2026-06-13T15:00:00+02:00"
       },
       "roster": [
         {
