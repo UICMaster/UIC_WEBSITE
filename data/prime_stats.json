@@ -17,14 +17,8 @@
   "global": {
     "matches": 45,
     "wr": 69,
-    "players": 84,
+    "players": 83,
     "radar": [
-      {
-        "team_key": "ABYSS",
-        "date": "2026-06-14T17:00:00+02:00",
-        "enemy": "W2B FF",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160227"
-      },
       {
         "team_key": "SPARK",
         "date": "2026-06-14T19:00:00+02:00",
@@ -48,6 +42,12 @@
         "date": "2026-06-14T20:00:00+02:00",
         "enemy": "DEA",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159565"
+      },
+      {
+        "team_key": "PRIME",
+        "date": "2026-06-16T19:00:00+02:00",
+        "enemy": "BTZ",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159520"
       }
     ]
   },
@@ -315,6 +315,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC BissiBoy#UIC",
           "is_captain": true
         },
@@ -436,10 +440,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -630,10 +630,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": false
-        },
-        {
           "summoner": "h3x3on#1234",
           "is_captain": false
         },
@@ -728,7 +724,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-14T17:00:00+02:00",
+        "date": "2026-06-17T19:15:00+02:00",
         "tag": "W2B FF",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160227",
         "enemy_roster": []
