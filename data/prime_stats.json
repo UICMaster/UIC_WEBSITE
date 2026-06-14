@@ -315,10 +315,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC BissiBoy#UIC",
           "is_captain": true
         },
@@ -627,6 +623,10 @@
         },
         {
           "summoner": "LordZash#1220",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
