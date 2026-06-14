@@ -20,24 +20,6 @@
     "players": 83,
     "radar": [
       {
-        "team_key": "SPARK",
-        "date": "2026-06-14T19:00:00+02:00",
-        "enemy": "MIA",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161383"
-      },
-      {
-        "team_key": "NOVA",
-        "date": "2026-06-14T19:00:00+02:00",
-        "enemy": "BAD",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162147"
-      },
-      {
-        "team_key": "OBSIDIAN",
-        "date": "2026-06-14T19:00:00+02:00",
-        "enemy": "NSGW",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162770"
-      },
-      {
         "team_key": "VAKUUM",
         "date": "2026-06-14T20:00:00+02:00",
         "enemy": "DEA",
@@ -48,6 +30,24 @@
         "date": "2026-06-16T19:00:00+02:00",
         "enemy": "BTZ",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159520"
+      },
+      {
+        "team_key": "ABYSS",
+        "date": "2026-06-17T19:15:00+02:00",
+        "enemy": "W2B FF",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160227"
+      },
+      {
+        "team_key": "CYBER",
+        "date": "2026-06-18T19:30:00+02:00",
+        "enemy": "LNCA",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161131"
+      },
+      {
+        "team_key": "SAKURA",
+        "date": "2026-06-21T17:00:00+02:00",
+        "enemy": "GwD",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160387"
       }
     ]
   },
@@ -233,7 +233,7 @@
       "roster": [
         {
           "summoner": "UIC Kaoxz#CRNGE",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "DAG LingYao#FES",
@@ -241,22 +241,22 @@
         },
         {
           "summoner": "UIC Painfull#UIC",
-          "is_captain": true
-        },
-        {
-          "summoner": "VTennic#Goat",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "Amtoms#EUW",
           "is_captain": true
         },
         {
-          "summoner": "FirstBlo#EUW",
+          "summoner": "UIC Hunter#UIC",
           "is_captain": false
         },
         {
-          "summoner": "UIC Hunter#UIC",
+          "summoner": "VTennic#Goat",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC FirstBlo#Whack",
           "is_captain": false
         }
       ],
@@ -282,9 +282,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-14T19:00:00+02:00",
-        "tag": "MIA",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161383",
+        "date": "2026-06-21T19:00:00+02:00",
+        "tag": "DJZ",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161386",
         "enemy_roster": []
       },
       "last_match": {
@@ -522,9 +522,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-14T19:00:00+02:00",
-        "tag": "BAD",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162147",
+        "date": "2026-06-21T19:00:00+02:00",
+        "tag": "KUT",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162151",
         "enemy_roster": []
       },
       "last_match": {
@@ -601,9 +601,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-14T19:00:00+02:00",
-        "tag": "NSGW",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162770",
+        "date": "2026-06-21T19:00:00+02:00",
+        "tag": "SIN",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162773",
         "enemy_roster": []
       },
       "last_match": {
@@ -626,11 +626,11 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
+          "summoner": "h3x3on#1234",
           "is_captain": false
         },
         {
-          "summoner": "h3x3on#1234",
+          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
@@ -643,7 +643,7 @@
         },
         {
           "summoner": "UIC Papi Δce#3072",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC Shockwave#EUW",
