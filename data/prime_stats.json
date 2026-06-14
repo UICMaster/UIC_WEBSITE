@@ -15,16 +15,10 @@
     ]
   },
   "global": {
-    "matches": 45,
-    "wr": 69,
-    "players": 83,
+    "matches": 46,
+    "wr": 70,
+    "players": 84,
     "radar": [
-      {
-        "team_key": "VAKUUM",
-        "date": "2026-06-14T20:00:00+02:00",
-        "enemy": "DEA",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159565"
-      },
       {
         "team_key": "PRIME",
         "date": "2026-06-16T19:00:00+02:00",
@@ -42,6 +36,12 @@
         "date": "2026-06-18T19:30:00+02:00",
         "enemy": "LNCA",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161131"
+      },
+      {
+        "team_key": "VAKUUM",
+        "date": "2026-06-21T17:00:00+02:00",
+        "enemy": "NR",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159568"
       },
       {
         "team_key": "SAKURA",
@@ -213,16 +213,10 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-14T20:00:00+02:00",
-        "tag": "DEA",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159565",
-        "enemy_roster": [
-          "heavens envy#defy",
-          "TITO#DEA",
-          "Bob Tschigerillo#HUB",
-          "Joe Dirt#DVD",
-          "Markus Rühl#HUB"
-        ]
+        "date": "2026-06-21T17:00:00+02:00",
+        "tag": "NR",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159568",
+        "enemy_roster": []
       },
       "last_match": {
         "result": "NIEDERLAGE",
@@ -233,15 +227,19 @@
       "roster": [
         {
           "summoner": "UIC Kaoxz#CRNGE",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "DAG LingYao#FES",
           "is_captain": false
         },
         {
+          "summoner": "VTennic#Goat",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Painfull#UIC",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "Amtoms#EUW",
@@ -249,10 +247,6 @@
         },
         {
           "summoner": "UIC Hunter#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "VTennic#Goat",
           "is_captain": false
         },
         {
@@ -315,6 +309,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC BissiBoy#UIC",
           "is_captain": true
         },
@@ -367,15 +365,15 @@
           "is_captain": true
         },
         {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Hayu#UIC",
           "is_captain": false
         },
         {
           "summoner": "UIC Loonz#Coach",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         },
         {
@@ -436,6 +434,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -588,13 +590,14 @@
         "div": null
       },
       "stats": {
-        "wins": 6,
+        "wins": 8,
         "losses": 3,
-        "points": 8,
-        "games": 4,
-        "win_rate": 75,
+        "points": 11,
+        "games": 5,
+        "win_rate": 80,
         "form": [
           "L",
+          "W",
           "W",
           "W",
           "W"
@@ -609,8 +612,8 @@
       "last_match": {
         "result": "SIEG",
         "score": "2 - 0",
-        "enemy": "HNL",
-        "date": "2026-06-05T19:00:00+02:00"
+        "enemy": "NSGW",
+        "date": "2026-06-14T19:00:00+02:00"
       },
       "roster": [
         {
@@ -630,10 +633,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": false
-        },
-        {
           "summoner": "SANEST GAMER FR#XDD",
           "is_captain": false
         },
@@ -643,7 +642,7 @@
         },
         {
           "summoner": "UIC Papi Δce#3072",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC Shockwave#EUW",
