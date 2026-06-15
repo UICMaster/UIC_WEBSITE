@@ -17,7 +17,7 @@
   "global": {
     "matches": 47,
     "wr": 68,
-    "players": 84,
+    "players": 82,
     "radar": [
       {
         "team_key": "PRIME",
@@ -172,7 +172,7 @@
           "is_captain": true
         },
         {
-          "summoner": "KrokoKowski#REDK",
+          "summoner": "Jezu#FNC",
           "is_captain": true
         },
         {
@@ -493,10 +493,6 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
@@ -628,10 +624,6 @@
         {
           "summoner": "Leberkasleatschn#1990",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": false
         },
         {
           "summoner": "SANEST GAMER FR#XDD",
