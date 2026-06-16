@@ -1,21 +1,5 @@
 [
   {
-    "id": "1514251216492695615",
-    "name": "Ultra Instinct Crew vs. Bootz New Dawn",
-    "description": "gameday 5",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-16T17:00:00+00:00",
-    "end": "2026-06-16T19:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1159520",
-    "image": "https://cdn.discordapp.com/guild-events/1514251216492695615/9a7669f38d8bed39532378fb80b8d452.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew",
-      "Bootz New Dawn"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1515648361699479582",
     "name": "Ultra Instinct Crew Abyss vs. Wannabe Fancy Feet Edition",
     "description": "gameday 5",
@@ -44,6 +28,22 @@
     "competitors": [
       "Ultra Instinct Crew Cyber",
       "Late Night Canis"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1516493664627458099",
+    "name": "Ultra Instinct Crew Sakura vs. Oh My GawD",
+    "description": "gameday 6",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-06-21T16:00:00+00:00",
+    "end": "2026-06-21T18:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1160387",
+    "image": "https://cdn.discordapp.com/guild-events/1516493664627458099/b21aba51fbdc321fbeb7eabe3be3c5a1.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Sakura",
+      "Oh My GawD"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
