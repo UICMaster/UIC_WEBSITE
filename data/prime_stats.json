@@ -17,7 +17,7 @@
   "global": {
     "matches": 47,
     "wr": 68,
-    "players": 83,
+    "players": 82,
     "radar": [
       {
         "team_key": "PRIME",
@@ -624,10 +624,6 @@
         {
           "summoner": "Leberkasleatschn#1990",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": false
         },
         {
           "summoner": "SANEST GAMER FR#XDD",
