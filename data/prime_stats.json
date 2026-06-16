@@ -17,7 +17,7 @@
   "global": {
     "matches": 47,
     "wr": 68,
-    "players": 82,
+    "players": 84,
     "radar": [
       {
         "team_key": "PRIME",
@@ -185,6 +185,10 @@
         },
         {
           "summoner": "UIC NairadAwsm#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Regentropfen#H2O",
           "is_captain": false
         }
       ],
@@ -626,6 +630,10 @@
           "is_captain": true
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": false
+        },
+        {
           "summoner": "SANEST GAMER FR#XDD",
           "is_captain": false
         },
@@ -737,10 +745,6 @@
           "is_captain": true
         },
         {
-          "summoner": "SupVsAdc#ratty",
-          "is_captain": false
-        },
-        {
           "summoner": "Päscl#EUW",
           "is_captain": false
         },
@@ -750,6 +754,10 @@
         },
         {
           "summoner": "Random Slytherin#EUW",
+          "is_captain": false
+        },
+        {
+          "summoner": "DuBistGutGenug#Any",
           "is_captain": false
         },
         {
