@@ -1,21 +1,5 @@
 [
   {
-    "id": "1515648361699479582",
-    "name": "Ultra Instinct Crew Abyss vs. Wannabe Fancy Feet Edition",
-    "description": "gameday 5",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-17T17:15:00+00:00",
-    "end": "2026-06-17T19:15:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1160227",
-    "image": "https://cdn.discordapp.com/guild-events/1515648361699479582/ed848839fd66902e1ae0702fb18fd0d2.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Abyss",
-      "Wannabe Fancy Feet Edition"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1513911303784108063",
     "name": "Ultra Instinct Crew Cyber vs. Late Night Canis",
     "description": "gameday 5",
