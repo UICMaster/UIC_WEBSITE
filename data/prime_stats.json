@@ -17,7 +17,7 @@
   "global": {
     "matches": 48,
     "wr": 67,
-    "players": 81,
+    "players": 83,
     "radar": [
       {
         "team_key": "ABYSS",
@@ -315,6 +315,10 @@
           "is_captain": true
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
         }
@@ -373,6 +377,10 @@
         {
           "summoner": "UIC AutumnLeaf#Moo",
           "is_captain": true
+        },
+        {
+          "summoner": "UIC Exi#QUAK",
+          "is_captain": false
         },
         {
           "summoner": "UIC Cerberus#GOATZ",
