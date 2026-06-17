@@ -15,16 +15,10 @@
     ]
   },
   "global": {
-    "matches": 48,
-    "wr": 67,
+    "matches": 49,
+    "wr": 65,
     "players": 83,
     "radar": [
-      {
-        "team_key": "ABYSS",
-        "date": "2026-06-17T19:15:00+02:00",
-        "enemy": "W2B FF",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160227"
-      },
       {
         "team_key": "CYBER",
         "date": "2026-06-18T19:30:00+02:00",
@@ -42,6 +36,12 @@
         "date": "2026-06-21T17:00:00+02:00",
         "enemy": "NR",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159568"
+      },
+      {
+        "team_key": "ABYSS",
+        "date": "2026-06-21T17:00:00+02:00",
+        "enemy": "ABY",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160230"
       },
       {
         "team_key": "SAKURA",
@@ -709,36 +709,33 @@
       },
       "stats": {
         "wins": 3,
-        "losses": 6,
+        "losses": 8,
         "points": 4,
-        "games": 4,
-        "win_rate": 25,
+        "games": 5,
+        "win_rate": 20,
         "form": [
           "L",
           "W",
+          "L",
           "L",
           "L"
         ]
       },
       "next_match": {
-        "date": "2026-06-17T19:15:00+02:00",
-        "tag": "W2B FF",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160227",
+        "date": "2026-06-21T17:00:00+02:00",
+        "tag": "ABY",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160230",
         "enemy_roster": []
       },
       "last_match": {
         "result": "NIEDERLAGE",
         "score": "0 - 2",
-        "enemy": "LES PBD",
-        "date": "2026-06-09T18:30:00+02:00"
+        "enemy": "W2B FF",
+        "date": "2026-06-17T19:15:00+02:00"
       },
       "roster": [
         {
           "summoner": "zkanex#ADC",
-          "is_captain": true
-        },
-        {
-          "summoner": "yShizuu#ÊUW",
           "is_captain": true
         },
         {
@@ -756,6 +753,10 @@
         {
           "summoner": "DuBistGutGenug#Any",
           "is_captain": false
+        },
+        {
+          "summoner": "yShizuu#ÊUW",
+          "is_captain": true
         },
         {
           "summoner": "UIC M Character#UIC",
