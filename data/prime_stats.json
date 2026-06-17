@@ -17,7 +17,7 @@
   "global": {
     "matches": 48,
     "wr": 67,
-    "players": 82,
+    "players": 81,
     "radar": [
       {
         "team_key": "ABYSS",
@@ -621,10 +621,6 @@
         {
           "summoner": "Leberkasleatschn#1990",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": false
         },
         {
           "summoner": "SANEST GAMER FR#XDD",
