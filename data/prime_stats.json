@@ -15,16 +15,10 @@
     ]
   },
   "global": {
-    "matches": 49,
-    "wr": 65,
+    "matches": 50,
+    "wr": 66,
     "players": 83,
     "radar": [
-      {
-        "team_key": "CYBER",
-        "date": "2026-06-18T19:30:00+02:00",
-        "enemy": "LNCA",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161131"
-      },
       {
         "team_key": "PRIME",
         "date": "2026-06-21T17:00:00+02:00",
@@ -48,6 +42,12 @@
         "date": "2026-06-21T17:00:00+02:00",
         "enemy": "ABY",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160230"
+      },
+      {
+        "team_key": "SAKURA",
+        "date": "2026-06-21T18:00:00+02:00",
+        "enemy": "GwD",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160387"
       }
     ]
   },
@@ -396,38 +396,39 @@
         "div": null
       },
       "stats": {
-        "wins": 6,
+        "wins": 8,
         "losses": 4,
-        "points": 7,
-        "games": 4,
-        "win_rate": 75,
+        "points": 10,
+        "games": 5,
+        "win_rate": 80,
         "form": [
           "W",
           "L",
+          "W",
           "W",
           "W"
         ]
       },
       "next_match": {
-        "date": "2026-06-18T19:30:00+02:00",
-        "tag": "LNCA",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161131",
+        "date": "2026-06-21T19:00:00+02:00",
+        "tag": "TK",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161133",
         "enemy_roster": []
       },
       "last_match": {
         "result": "SIEG",
         "score": "2 - 0",
-        "enemy": "PESS",
-        "date": "2026-06-03T19:30:00+02:00"
+        "enemy": "LNCA",
+        "date": "2026-06-18T19:30:00+02:00"
       },
       "roster": [
         {
           "summoner": "UIC Pjure#CYS",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC Rellik#CYS",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC Ðărkø#SAI",
@@ -439,7 +440,7 @@
         },
         {
           "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
+          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
