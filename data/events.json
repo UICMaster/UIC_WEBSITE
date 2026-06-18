@@ -16,6 +16,22 @@
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
+    "id": "1517021364253495427",
+    "name": "Ultra Instinct Crew Obsidian vs. SIN Esport",
+    "description": "gameday 6",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-06-21T15:00:00+00:00",
+    "end": "2026-06-21T17:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1162773",
+    "image": "https://cdn.discordapp.com/guild-events/1517021364253495427/f36a0f5b738b56d5648cd79da1ecd0e9.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Obsidian",
+      "SIN Esport"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
     "id": "1516493664627458099",
     "name": "Ultra Instinct Crew Sakura vs. Oh My GawD",
     "description": "gameday 6",
