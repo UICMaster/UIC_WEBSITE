@@ -320,7 +320,7 @@
         },
         {
           "summoner": "UIC BissiBoy#UIC",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
@@ -424,11 +424,11 @@
       "roster": [
         {
           "summoner": "UIC Pjure#CYS",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC Rellik#CYS",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC Ðărkø#SAI",
@@ -440,7 +440,7 @@
         },
         {
           "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": false
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
