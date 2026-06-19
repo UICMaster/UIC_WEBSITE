@@ -38,16 +38,16 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1162773"
       },
       {
-        "team_key": "ABYSS",
-        "date": "2026-06-21T17:00:00+02:00",
-        "enemy": "ABY",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160230"
-      },
-      {
         "team_key": "SAKURA",
         "date": "2026-06-21T18:00:00+02:00",
         "enemy": "GwD",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160387"
+      },
+      {
+        "team_key": "SPARK",
+        "date": "2026-06-21T19:00:00+02:00",
+        "enemy": "DJZ",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161386"
       }
     ]
   },
@@ -433,10 +433,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -474,7 +470,7 @@
       "roster": [
         {
           "summoner": "UIC SilentCarry#Alune",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "Blauerlupos#EUW",
@@ -495,6 +491,10 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
@@ -719,7 +719,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-21T17:00:00+02:00",
+        "date": "2026-06-21T19:00:00+02:00",
         "tag": "ABY",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160230",
         "enemy_roster": []
