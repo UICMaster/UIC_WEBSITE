@@ -32,6 +32,22 @@
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
+    "id": "1517596196334735524",
+    "name": "Ultra Instinct Crew Abyss vs. Abyssal Veterans",
+    "description": "gameday 6",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-06-21T17:00:00+00:00",
+    "end": "2026-06-21T19:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1160230",
+    "image": "https://cdn.discordapp.com/guild-events/1517596196334735524/0a07daf7f54a34f1c4464794a876bf35.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Abyss",
+      "Abyssal Veterans"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
     "id": "1516904786421743798",
     "name": "Ultra Instinct Crew Eclipse vs. Ryujin Hackmanit",
     "description": "gameday 6",
