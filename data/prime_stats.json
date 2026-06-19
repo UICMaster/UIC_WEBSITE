@@ -26,12 +26,6 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1159525"
       },
       {
-        "team_key": "VAKUUM",
-        "date": "2026-06-21T17:00:00+02:00",
-        "enemy": "NR",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159568"
-      },
-      {
         "team_key": "OBSIDIAN",
         "date": "2026-06-21T17:00:00+02:00",
         "enemy": "SIN",
@@ -48,6 +42,12 @@
         "date": "2026-06-21T19:00:00+02:00",
         "enemy": "DJZ",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161386"
+      },
+      {
+        "team_key": "CYBER",
+        "date": "2026-06-21T19:00:00+02:00",
+        "enemy": "TK",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161133"
       }
     ]
   },
@@ -215,7 +215,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-21T17:00:00+02:00",
+        "date": "2026-06-25T19:00:00+02:00",
         "tag": "NR",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159568",
         "enemy_roster": []
