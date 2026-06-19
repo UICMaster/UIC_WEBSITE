@@ -433,6 +433,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -470,7 +474,7 @@
       "roster": [
         {
           "summoner": "UIC SilentCarry#Alune",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "Blauerlupos#EUW",
@@ -491,10 +495,6 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
