@@ -89,10 +89,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Speedy#EUW",
           "is_captain": true
         },
@@ -363,6 +359,10 @@
       },
       "roster": [
         {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Ryu Copeland#117",
           "is_captain": true
         },
@@ -381,6 +381,10 @@
         {
           "summoner": "UIC AutumnLeaf#Moo",
           "is_captain": true
+        },
+        {
+          "summoner": "UIC Exi#QUAK",
+          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212473",
@@ -433,10 +437,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
