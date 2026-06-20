@@ -126,5 +126,21 @@
       "Rot-Weiß Erfurt E-Sport Red"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1518014779837648976",
+    "name": "Ultra Instinct Crew Sakura vs. Wannabe Cult Lizards",
+    "description": "gameday 7",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-07-04T18:00:00+00:00",
+    "end": "2026-07-04T20:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1160391",
+    "image": "https://cdn.discordapp.com/guild-events/1518014779837648976/cbdcc642d562bc7742e539b6946aafd6.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Sakura",
+      "Wannabe Cult Lizards"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
 ]
