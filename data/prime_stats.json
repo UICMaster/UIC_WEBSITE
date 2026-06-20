@@ -38,16 +38,16 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1160387"
       },
       {
-        "team_key": "SPARK",
-        "date": "2026-06-21T19:00:00+02:00",
-        "enemy": "DJZ",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161386"
-      },
-      {
         "team_key": "CYBER",
         "date": "2026-06-21T19:00:00+02:00",
         "enemy": "TK",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161133"
+      },
+      {
+        "team_key": "NOVA",
+        "date": "2026-06-21T19:00:00+02:00",
+        "enemy": "KUT",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162151"
       }
     ]
   },
@@ -278,7 +278,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-21T19:00:00+02:00",
+        "date": "2026-06-21T20:00:00+02:00",
         "tag": "DJZ",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161386",
         "enemy_roster": []
