@@ -80,6 +80,22 @@
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
+    "id": "1517863683500277821",
+    "name": "Ultra Instinct Crew Phoenix vs. Rock Solid",
+    "description": "gameday 6",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-06-26T19:15:00+00:00",
+    "end": "2026-06-26T21:15:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1160828",
+    "image": "https://cdn.discordapp.com/guild-events/1517863683500277821/e1b5c4fca92107f4b0c6113bb3c2761e.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Phoenix",
+      "Rock Solid"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
     "id": "1515342117919002664",
     "name": "Ultra Instinct Crew Sakura vs. Rot-Weiß Erfurt E-Sport Red",
     "description": "gameday 5",
