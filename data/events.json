@@ -1,53 +1,5 @@
 [
   {
-    "id": "1517021364253495427",
-    "name": "Ultra Instinct Crew Obsidian vs. SIN Esport",
-    "description": "gameday 6",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-21T15:00:00+00:00",
-    "end": "2026-06-21T17:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1162773",
-    "image": "https://cdn.discordapp.com/guild-events/1517021364253495427/f36a0f5b738b56d5648cd79da1ecd0e9.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Obsidian",
-      "SIN Esport"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1518267683450392586",
-    "name": "Ultra Instinct Crew vs. Cortex eSports",
-    "description": "gameday 6",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-21T15:00:00+00:00",
-    "end": "2026-06-21T17:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1159525",
-    "image": "https://cdn.discordapp.com/guild-events/1518267683450392586/a8a9a00dd086d00374c78956ce003f48.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew",
-      "Cortex eSports"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1516493664627458099",
-    "name": "Ultra Instinct Crew Sakura vs. Oh My GawD",
-    "description": "gameday 6",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-21T16:00:00+00:00",
-    "end": "2026-06-21T18:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1160387",
-    "image": "https://cdn.discordapp.com/guild-events/1516493664627458099/b21aba51fbdc321fbeb7eabe3be3c5a1.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Sakura",
-      "Oh My GawD"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1517596196334735524",
     "name": "Ultra Instinct Crew Abyss vs. Abyssal Veterans",
     "description": "gameday 6",
