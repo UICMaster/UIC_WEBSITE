@@ -17,7 +17,7 @@
   "global": {
     "matches": 50,
     "wr": 66,
-    "players": 84,
+    "players": 81,
     "radar": [
       {
         "team_key": "PRIME",
@@ -87,6 +87,10 @@
         {
           "summoner": "UIC Shenycrane#Vugel",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         },
         {
           "summoner": "UIC Speedy#EUW",
@@ -317,6 +321,10 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -355,10 +363,6 @@
       },
       "roster": [
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Ryu Copeland#117",
           "is_captain": true
         },
@@ -377,10 +381,6 @@
         {
           "summoner": "UIC AutumnLeaf#Moo",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Exi#QUAK",
-          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212473",
@@ -433,10 +433,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -495,10 +491,6 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
@@ -637,10 +629,6 @@
         },
         {
           "summoner": "UIC Nyx#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
           "is_captain": false
         },
         {
