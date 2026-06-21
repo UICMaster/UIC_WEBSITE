@@ -1,53 +1,5 @@
 [
   {
-    "id": "1517596196334735524",
-    "name": "Ultra Instinct Crew Abyss vs. Abyssal Veterans",
-    "description": "gameday 6",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-21T17:00:00+00:00",
-    "end": "2026-06-21T19:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1160230",
-    "image": "https://cdn.discordapp.com/guild-events/1517596196334735524/0a07daf7f54a34f1c4464794a876bf35.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Abyss",
-      "Abyssal Veterans"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1516904786421743798",
-    "name": "Ultra Instinct Crew Eclipse vs. Ryujin Hackmanit",
-    "description": "gameday 6",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-21T17:30:00+00:00",
-    "end": "2026-06-21T19:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1163127",
-    "image": "https://cdn.discordapp.com/guild-events/1516904786421743798/1826a8bd6b5e19b309f0db26293198e9.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Eclipse",
-      "Ryujin Hackmanit"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1517984539442413690",
-    "name": "Ultra Instinct Crew Spark vs. Deutsch Jahrndorf Zero",
-    "description": "gameday 6",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-21T18:00:00+00:00",
-    "end": "2026-06-21T20:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1161386",
-    "image": "https://cdn.discordapp.com/guild-events/1517984539442413690/4a46f634cdf133fc61dd1369491caaac.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Spark",
-      "Deutsch Jahrndorf Zero"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1517679614640787536",
     "name": "Ultra Instinct Crew Vakuum vs. Night Raid",
     "description": "gameday 6",
