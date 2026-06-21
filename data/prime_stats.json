@@ -15,9 +15,9 @@
     ]
   },
   "global": {
-    "matches": 54,
-    "wr": 63,
-    "players": 83,
+    "matches": 58,
+    "wr": 62,
+    "players": 84,
     "radar": [
       {
         "team_key": "VAKUUM",
@@ -105,12 +105,20 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Baguetto#R3kt",
           "is_captain": false
         },
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -122,17 +130,17 @@
         "div": null
       },
       "stats": {
-        "wins": 10,
-        "losses": 2,
-        "points": 13,
-        "games": 5,
-        "win_rate": 100,
+        "wins": 11,
+        "losses": 4,
+        "points": 14,
+        "games": 6,
+        "win_rate": 83,
         "form": [
           "W",
           "W",
           "W",
           "W",
-          "W"
+          "L"
         ]
       },
       "next_match": {
@@ -142,10 +150,10 @@
         "enemy_roster": []
       },
       "last_match": {
-        "result": "SIEG",
-        "score": "2 - 0",
-        "enemy": "KBB",
-        "date": "2026-06-12T19:30:00+02:00"
+        "result": "NIEDERLAGE",
+        "score": "1 - 2",
+        "enemy": "RH",
+        "date": "2026-06-21T19:30:00+02:00"
       },
       "roster": [
         {
@@ -265,12 +273,13 @@
         "div": null
       },
       "stats": {
-        "wins": 8,
-        "losses": 2,
-        "points": 10,
-        "games": 4,
+        "wins": 10,
+        "losses": 3,
+        "points": 12,
+        "games": 5,
         "win_rate": 100,
         "form": [
+          "W",
           "W",
           "W",
           "W",
@@ -286,8 +295,8 @@
       "last_match": {
         "result": "SIEG",
         "score": "2 - 1",
-        "enemy": "W2B SE",
-        "date": "2026-06-08T20:00:00+02:00"
+        "enemy": "DJZ",
+        "date": "2026-06-21T20:00:00+02:00"
       },
       "roster": [
         {
@@ -317,10 +326,6 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -371,10 +376,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
         },
@@ -397,16 +398,16 @@
       },
       "stats": {
         "wins": 8,
-        "losses": 4,
+        "losses": 6,
         "points": 10,
-        "games": 5,
-        "win_rate": 80,
+        "games": 6,
+        "win_rate": 67,
         "form": [
-          "W",
           "L",
           "W",
           "W",
-          "W"
+          "W",
+          "L"
         ]
       },
       "next_match": {
@@ -416,10 +417,10 @@
         "enemy_roster": []
       },
       "last_match": {
-        "result": "SIEG",
-        "score": "2 - 0",
-        "enemy": "LNCA",
-        "date": "2026-06-18T19:30:00+02:00"
+        "result": "NIEDERLAGE",
+        "score": "0 - 2",
+        "enemy": "TK",
+        "date": "2026-06-21T19:00:00+02:00"
       },
       "roster": [
         {
@@ -437,6 +438,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -517,12 +522,13 @@
         "div": null
       },
       "stats": {
-        "wins": 8,
-        "losses": 0,
-        "points": 12,
-        "games": 4,
+        "wins": 10,
+        "losses": 1,
+        "points": 14,
+        "games": 5,
         "win_rate": 100,
         "form": [
+          "W",
           "W",
           "W",
           "W",
@@ -537,9 +543,9 @@
       },
       "last_match": {
         "result": "SIEG",
-        "score": "2 - 0",
-        "enemy": "NRK",
-        "date": "2026-06-09T19:00:00+02:00"
+        "score": "2 - 1",
+        "enemy": "KUT",
+        "date": "2026-06-21T19:00:00+02:00"
       },
       "roster": [
         {
