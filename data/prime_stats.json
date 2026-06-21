@@ -15,39 +15,39 @@
     ]
   },
   "global": {
-    "matches": 50,
-    "wr": 66,
-    "players": 83,
+    "matches": 51,
+    "wr": 67,
+    "players": 84,
     "radar": [
       {
+        "team_key": "ECLIPSE",
+        "date": "2026-06-21T19:30:00+02:00",
+        "enemy": "RH",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163127"
+      },
+      {
+        "team_key": "SPARK",
+        "date": "2026-06-21T20:00:00+02:00",
+        "enemy": "DJZ",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161386"
+      },
+      {
+        "team_key": "VAKUUM",
+        "date": "2026-06-25T19:00:00+02:00",
+        "enemy": "NR",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159568"
+      },
+      {
+        "team_key": "PHOENIX",
+        "date": "2026-06-26T21:15:00+02:00",
+        "enemy": "RS",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160828"
+      },
+      {
         "team_key": "SAKURA",
-        "date": "2026-06-21T18:00:00+02:00",
-        "enemy": "GwD",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160387"
-      },
-      {
-        "team_key": "CYBER",
-        "date": "2026-06-21T19:00:00+02:00",
-        "enemy": "TK",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161133"
-      },
-      {
-        "team_key": "NOVA",
-        "date": "2026-06-21T19:00:00+02:00",
-        "enemy": "KUT",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162151"
-      },
-      {
-        "team_key": "EMBER",
-        "date": "2026-06-21T19:00:00+02:00",
-        "enemy": "RISE",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163104"
-      },
-      {
-        "team_key": "ABYSS",
-        "date": "2026-06-21T19:00:00+02:00",
-        "enemy": "ABY",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160230"
+        "date": "2026-06-27T19:00:00+02:00",
+        "enemy": "RWE",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160383"
       }
     ]
   },
@@ -161,10 +161,6 @@
           "is_captain": false
         },
         {
-          "summoner": "Stafferl#FNC",
-          "is_captain": true
-        },
-        {
           "summoner": "Cedy7#111",
           "is_captain": true
         },
@@ -183,6 +179,10 @@
         {
           "summoner": "Aetemis#EUWW",
           "is_captain": true
+        },
+        {
+          "summoner": "Stafferl#FNC",
+          "is_captain": false
         },
         {
           "summoner": "UIC NairadAwsm#UIC",
@@ -410,9 +410,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-21T19:00:00+02:00",
-        "tag": "TK",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161133",
+        "date": "2026-06-28T19:00:00+02:00",
+        "tag": "POA",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161139",
         "enemy_roster": []
       },
       "last_match": {
@@ -460,16 +460,10 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-21T18:00:00+02:00",
-        "tag": "GwD",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160387",
-        "enemy_roster": [
-          "ThreshMyLantern#EUW",
-          "Akaliflower#VEGAN",
-          "Singed#turk",
-          "gabro#ruler",
-          "GwD Wild Turtle#EUW"
-        ]
+        "date": "2026-06-27T19:00:00+02:00",
+        "tag": "RWE",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160383",
+        "enemy_roster": []
       },
       "last_match": {
         "result": "SIEG",
@@ -529,9 +523,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-21T19:00:00+02:00",
-        "tag": "KUT",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162151",
+        "date": "2026-06-28T19:00:00+02:00",
+        "tag": "LEG",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162155",
         "enemy_roster": []
       },
       "last_match": {
@@ -575,7 +569,7 @@
         },
         {
           "summoner": "UIC adedier#EUWE",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC Rubix Qube#MÖP",
@@ -595,13 +589,13 @@
         "div": null
       },
       "stats": {
-        "wins": 8,
+        "wins": 10,
         "losses": 3,
-        "points": 11,
-        "games": 5,
-        "win_rate": 80,
+        "points": 14,
+        "games": 6,
+        "win_rate": 83,
         "form": [
-          "L",
+          "W",
           "W",
           "W",
           "W",
@@ -617,8 +611,8 @@
       "last_match": {
         "result": "SIEG",
         "score": "2 - 0",
-        "enemy": "NSGW",
-        "date": "2026-06-14T19:00:00+02:00"
+        "enemy": "SIN",
+        "date": "2026-06-21T17:00:00+02:00"
       },
       "roster": [
         {
@@ -648,10 +642,6 @@
         {
           "summoner": "UIC Papi Δce#3072",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Shockwave#EUW",
-          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212407",
@@ -677,9 +667,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-21T19:00:00+02:00",
-        "tag": "RISE",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163104",
+        "date": "2026-06-28T19:00:00+02:00",
+        "tag": "ASINT",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163111",
         "enemy_roster": []
       },
       "last_match": {
@@ -703,6 +693,10 @@
         },
         {
           "summoner": "Megiddo#Fist",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Shockwave#EUW",
           "is_captain": false
         }
       ],
@@ -729,9 +723,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-21T19:00:00+02:00",
-        "tag": "ABY",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160230",
+        "date": "2026-06-28T17:00:00+02:00",
+        "tag": "UCQ",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160237",
         "enemy_roster": []
       },
       "last_match": {
@@ -742,8 +736,12 @@
       },
       "roster": [
         {
+          "summoner": "Blaidd#Top",
+          "is_captain": false
+        },
+        {
           "summoner": "zkanex#ADC",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "Päscl#EUW",
@@ -763,7 +761,7 @@
         },
         {
           "summoner": "yShizuu#ÊUW",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC M Character#UIC",
