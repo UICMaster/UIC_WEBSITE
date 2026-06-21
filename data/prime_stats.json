@@ -15,22 +15,10 @@
     ]
   },
   "global": {
-    "matches": 51,
-    "wr": 67,
-    "players": 84,
+    "matches": 54,
+    "wr": 63,
+    "players": 83,
     "radar": [
-      {
-        "team_key": "ECLIPSE",
-        "date": "2026-06-21T19:30:00+02:00",
-        "enemy": "RH",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163127"
-      },
-      {
-        "team_key": "SPARK",
-        "date": "2026-06-21T20:00:00+02:00",
-        "enemy": "DJZ",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161386"
-      },
       {
         "team_key": "VAKUUM",
         "date": "2026-06-25T19:00:00+02:00",
@@ -48,6 +36,18 @@
         "date": "2026-06-27T19:00:00+02:00",
         "enemy": "RWE",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160383"
+      },
+      {
+        "team_key": "PRIME",
+        "date": "2026-06-28T17:00:00+02:00",
+        "enemy": "FTH",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159528"
+      },
+      {
+        "team_key": "ECLIPSE",
+        "date": "2026-06-28T17:00:00+02:00",
+        "enemy": "UFKA",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163249"
       }
     ]
   },
@@ -58,16 +58,16 @@
         "div": null
       },
       "stats": {
-        "wins": 6,
-        "losses": 6,
-        "points": 8,
-        "games": 5,
-        "win_rate": 40,
+        "wins": 7,
+        "losses": 8,
+        "points": 9,
+        "games": 6,
+        "win_rate": 33,
         "form": [
-          "W",
           "L",
           "L",
           "W",
+          "L",
           "L"
         ]
       },
@@ -80,8 +80,8 @@
       "last_match": {
         "result": "NIEDERLAGE",
         "score": "1 - 2",
-        "enemy": "BTZ",
-        "date": "2026-06-16T19:00:00+02:00"
+        "enemy": "CX",
+        "date": "2026-06-21T17:00:00+02:00"
       },
       "roster": [
         {
@@ -136,9 +136,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-21T19:30:00+02:00",
-        "tag": "RH",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163127",
+        "date": "2026-06-28T17:00:00+02:00",
+        "tag": "UFKA",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163249",
         "enemy_roster": []
       },
       "last_match": {
@@ -278,9 +278,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-21T20:00:00+02:00",
-        "tag": "DJZ",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161386",
+        "date": "2026-06-28T19:00:00+02:00",
+        "tag": "LIF",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161390",
         "enemy_roster": []
       },
       "last_match": {
@@ -449,27 +449,34 @@
       },
       "stats": {
         "wins": 2,
-        "losses": 5,
+        "losses": 7,
         "points": 2,
-        "games": 3,
-        "win_rate": 33,
+        "games": 4,
+        "win_rate": 25,
         "form": [
           "L",
           "L",
-          "W"
+          "W",
+          "L"
         ]
       },
       "next_match": {
         "date": "2026-06-27T19:00:00+02:00",
         "tag": "RWE",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160383",
-        "enemy_roster": []
+        "enemy_roster": [
+          "ειツ#hers",
+          "Meta#kekw",
+          "Sol#4517",
+          "Maevix#TTV",
+          "ghostie#scary"
+        ]
       },
       "last_match": {
-        "result": "SIEG",
-        "score": "2 - 1",
-        "enemy": "ECO",
-        "date": "2026-06-13T15:00:00+02:00"
+        "result": "NIEDERLAGE",
+        "score": "0 - 2",
+        "enemy": "GwD",
+        "date": "2026-06-21T18:00:00+02:00"
       },
       "roster": [
         {
@@ -569,7 +576,7 @@
         },
         {
           "summoner": "UIC adedier#EUWE",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC Rubix Qube#MÖP",
@@ -710,13 +717,13 @@
       },
       "stats": {
         "wins": 3,
-        "losses": 8,
+        "losses": 10,
         "points": 4,
-        "games": 5,
-        "win_rate": 20,
+        "games": 6,
+        "win_rate": 17,
         "form": [
-          "L",
           "W",
+          "L",
           "L",
           "L",
           "L"
@@ -731,14 +738,10 @@
       "last_match": {
         "result": "NIEDERLAGE",
         "score": "0 - 2",
-        "enemy": "W2B FF",
-        "date": "2026-06-17T19:15:00+02:00"
+        "enemy": "ABY",
+        "date": "2026-06-21T19:00:00+02:00"
       },
       "roster": [
-        {
-          "summoner": "Blaidd#Top",
-          "is_captain": false
-        },
         {
           "summoner": "zkanex#ADC",
           "is_captain": false
