@@ -17,7 +17,7 @@
   "global": {
     "matches": 58,
     "wr": 62,
-    "players": 84,
+    "players": 81,
     "radar": [
       {
         "team_key": "VAKUUM",
@@ -115,10 +115,6 @@
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -190,7 +186,7 @@
         },
         {
           "summoner": "Stafferl#FNC",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC NairadAwsm#UIC",
@@ -326,6 +322,10 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -382,10 +382,6 @@
         {
           "summoner": "UIC AutumnLeaf#Moo",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Exi#QUAK",
-          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212473",
@@ -438,10 +434,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -507,10 +499,6 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
@@ -630,19 +618,19 @@
       "roster": [
         {
           "summoner": "BlondiXE1#EUW",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "LordZash#1220",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "h3x3on#1234",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "Leberkasleatschn#1990",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "SANEST GAMER FR#XDD",
@@ -750,7 +738,7 @@
       "roster": [
         {
           "summoner": "zkanex#ADC",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "Päscl#EUW",
@@ -770,7 +758,7 @@
         },
         {
           "summoner": "yShizuu#ÊUW",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC M Character#UIC",
