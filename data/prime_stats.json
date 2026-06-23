@@ -469,10 +469,6 @@
       },
       "roster": [
         {
-          "summoner": "UIC SilentCarry#Alune",
-          "is_captain": true
-        },
-        {
           "summoner": "Blauerlupos#EUW",
           "is_captain": false
         },
@@ -489,12 +485,16 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC SilentCarry#Alune",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
         },
         {
           "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
+          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
