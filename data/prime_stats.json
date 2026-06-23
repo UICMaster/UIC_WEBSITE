@@ -17,7 +17,7 @@
   "global": {
     "matches": 58,
     "wr": 62,
-    "players": 83,
+    "players": 82,
     "radar": [
       {
         "team_key": "VAKUUM",
@@ -378,10 +378,6 @@
         {
           "summoner": "UIC AutumnLeaf#Moo",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Exi#QUAK",
-          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212473",
