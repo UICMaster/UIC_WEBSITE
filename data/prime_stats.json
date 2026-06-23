@@ -17,7 +17,7 @@
   "global": {
     "matches": 58,
     "wr": 62,
-    "players": 82,
+    "players": 81,
     "radar": [
       {
         "team_key": "VAKUUM",
@@ -355,10 +355,6 @@
         "date": "2026-06-11T19:00:00+02:00"
       },
       "roster": [
-        {
-          "summoner": "UIC Ryu Copeland#117",
-          "is_captain": true
-        },
         {
           "summoner": "UIC Kamo#tpt",
           "is_captain": true
