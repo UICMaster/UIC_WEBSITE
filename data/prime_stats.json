@@ -17,7 +17,7 @@
   "global": {
     "matches": 58,
     "wr": 62,
-    "players": 81,
+    "players": 82,
     "radar": [
       {
         "team_key": "VAKUUM",
@@ -38,16 +38,16 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1160383"
       },
       {
-        "team_key": "PRIME",
-        "date": "2026-06-28T17:00:00+02:00",
-        "enemy": "FTH",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1159528"
-      },
-      {
         "team_key": "ECLIPSE",
         "date": "2026-06-28T17:00:00+02:00",
         "enemy": "UFKA",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163249"
+      },
+      {
+        "team_key": "ABYSS",
+        "date": "2026-06-28T17:00:00+02:00",
+        "enemy": "UCQ",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160237"
       }
     ]
   },
@@ -72,7 +72,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-28T17:00:00+02:00",
+        "date": "2026-06-30T19:00:00+02:00",
         "tag": "FTH",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159528",
         "enemy_roster": []
@@ -434,6 +434,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
