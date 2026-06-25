@@ -17,7 +17,7 @@
   "global": {
     "matches": 58,
     "wr": 62,
-    "players": 83,
+    "players": 84,
     "radar": [
       {
         "team_key": "VAKUUM",
@@ -32,6 +32,12 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1160828"
       },
       {
+        "team_key": "CYBER",
+        "date": "2026-06-27T19:00:00+02:00",
+        "enemy": "POA",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161139"
+      },
+      {
         "team_key": "SAKURA",
         "date": "2026-06-27T19:00:00+02:00",
         "enemy": "RWE",
@@ -42,12 +48,6 @@
         "date": "2026-06-28T17:00:00+02:00",
         "enemy": "UFKA",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163249"
-      },
-      {
-        "team_key": "ABYSS",
-        "date": "2026-06-28T17:00:00+02:00",
-        "enemy": "UCQ",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160237"
       }
     ]
   },
@@ -411,7 +411,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-28T19:00:00+02:00",
+        "date": "2026-06-27T19:00:00+02:00",
         "tag": "POA",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161139",
         "enemy_roster": []
@@ -425,11 +425,11 @@
       "roster": [
         {
           "summoner": "UIC Pjure#CYS",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC Rellik#CYS",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC Ðărkø#SAI",
@@ -437,6 +437,10 @@
         },
         {
           "summoner": "UIC DANY#RFA40",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
           "is_captain": false
         }
       ],
