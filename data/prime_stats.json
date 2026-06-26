@@ -286,7 +286,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-28T19:00:00+02:00",
+        "date": "2026-07-05T19:00:00+02:00",
         "tag": "LIF",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161390",
         "enemy_roster": []
@@ -364,7 +364,7 @@
       "roster": [
         {
           "summoner": "UIC Kamo#tpt",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC Cerberus#GOATZ",
@@ -376,15 +376,15 @@
         },
         {
           "summoner": "UIC Ryu Copeland#117",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC Loonz#Coach",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC AutumnLeaf#Moo",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC Exi#QUAK",
@@ -615,7 +615,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-28T19:00:00+02:00",
+        "date": "2026-06-28T18:00:00+02:00",
         "tag": "ORI",
         "link": "https://www.primeleague.gg/de/leagues/matches/1162775",
         "enemy_roster": []
