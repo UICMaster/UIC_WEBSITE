@@ -20,12 +20,6 @@
     "players": 83,
     "radar": [
       {
-        "team_key": "PHOENIX",
-        "date": "2026-06-26T21:15:00+02:00",
-        "enemy": "RS",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160828"
-      },
-      {
         "team_key": "CYBER",
         "date": "2026-06-27T19:00:00+02:00",
         "enemy": "POA",
@@ -48,6 +42,12 @@
         "date": "2026-06-28T17:00:00+02:00",
         "enemy": "UCQ",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160237"
+      },
+      {
+        "team_key": "OBSIDIAN",
+        "date": "2026-06-28T18:00:00+02:00",
+        "enemy": "ORI",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1162775"
       }
     ]
   },
@@ -350,9 +350,9 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-26T21:15:00+02:00",
-        "tag": "RS",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160828",
+        "date": "2026-06-30T19:15:00+02:00",
+        "tag": "TLD BP",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160832",
         "enemy_roster": []
       },
       "last_match": {
