@@ -15,8 +15,8 @@
     ]
   },
   "global": {
-    "matches": 59,
-    "wr": 61,
+    "matches": 60,
+    "wr": 62,
     "players": 83,
     "radar": [
       {
@@ -336,10 +336,10 @@
         "div": null
       },
       "stats": {
-        "wins": 10,
+        "wins": 12,
         "losses": 0,
-        "points": 15,
-        "games": 5,
+        "points": 18,
+        "games": 6,
         "win_rate": 100,
         "form": [
           "W",
@@ -358,8 +358,8 @@
       "last_match": {
         "result": "SIEG",
         "score": "2 - 0",
-        "enemy": "LAG",
-        "date": "2026-06-11T19:00:00+02:00"
+        "enemy": "RS",
+        "date": "2026-06-26T21:15:00+02:00"
       },
       "roster": [
         {
