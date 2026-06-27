@@ -26,12 +26,6 @@
         "link": "https://www.primeleague.gg/de/leagues/matches/1163249"
       },
       {
-        "team_key": "ABYSS",
-        "date": "2026-06-28T17:00:00+02:00",
-        "enemy": "UCQ",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160237"
-      },
-      {
         "team_key": "OBSIDIAN",
         "date": "2026-06-28T18:00:00+02:00",
         "enemy": "ORI",
@@ -48,6 +42,12 @@
         "date": "2026-06-30T19:00:00+02:00",
         "enemy": "FTH",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159528"
+      },
+      {
+        "team_key": "PHOENIX",
+        "date": "2026-06-30T19:15:00+02:00",
+        "enemy": "TLD BP",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160832"
       }
     ]
   },
@@ -734,7 +734,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-06-28T17:00:00+02:00",
+        "date": "2026-07-05T19:00:00+02:00",
         "tag": "UCQ",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160237",
         "enemy_roster": []
