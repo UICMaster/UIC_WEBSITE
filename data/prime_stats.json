@@ -17,7 +17,7 @@
   "global": {
     "matches": 60,
     "wr": 62,
-    "players": 83,
+    "players": 84,
     "radar": [
       {
         "team_key": "CYBER",
@@ -323,6 +323,10 @@
           "is_captain": true
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
         }
@@ -364,7 +368,7 @@
       "roster": [
         {
           "summoner": "UIC Kamo#tpt",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC Cerberus#GOATZ",
@@ -376,15 +380,15 @@
         },
         {
           "summoner": "UIC Ryu Copeland#117",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC Loonz#Coach",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC AutumnLeaf#Moo",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC Exi#QUAK",
@@ -510,6 +514,10 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
@@ -642,10 +650,6 @@
         {
           "summoner": "Leberkasleatschn#1990",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": false
         },
         {
           "summoner": "SANEST GAMER FR#XDD",
