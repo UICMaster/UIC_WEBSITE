@@ -15,16 +15,10 @@
     ]
   },
   "global": {
-    "matches": 61,
-    "wr": 62,
+    "matches": 62,
+    "wr": 61,
     "players": 83,
     "radar": [
-      {
-        "team_key": "OBSIDIAN",
-        "date": "2026-06-28T18:00:00+02:00",
-        "enemy": "ORI",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162775"
-      },
       {
         "team_key": "EMBER",
         "date": "2026-06-28T19:00:00+02:00",
@@ -48,6 +42,12 @@
         "date": "2026-07-02T19:00:00+02:00",
         "enemy": "LEG",
         "link": "https://www.primeleague.gg/de/leagues/matches/1162155"
+      },
+      {
+        "team_key": "VAKUUM",
+        "date": "2026-07-02T19:30:00+02:00",
+        "enemy": "ELL",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1159570"
       }
     ]
   },
@@ -123,24 +123,24 @@
       },
       "stats": {
         "wins": 11,
-        "losses": 4,
+        "losses": 6,
         "points": 14,
-        "games": 6,
-        "win_rate": 83,
+        "games": 7,
+        "win_rate": 71,
         "form": [
           "W",
           "W",
           "W",
-          "W",
+          "L",
           "L"
         ]
       },
       "next_match": null,
       "last_match": {
         "result": "NIEDERLAGE",
-        "score": "1 - 2",
-        "enemy": "RH",
-        "date": "2026-06-21T19:30:00+02:00"
+        "score": "0 - 2",
+        "enemy": "UFKA",
+        "date": "2026-06-28T17:00:00+02:00"
       },
       "roster": [
         {
@@ -374,10 +374,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Ryu Copeland#117",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
         },
@@ -505,6 +501,10 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
@@ -609,12 +609,7 @@
           "W"
         ]
       },
-      "next_match": {
-        "date": "2026-06-28T18:00:00+02:00",
-        "tag": "ORI",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1162775",
-        "enemy_roster": []
-      },
+      "next_match": null,
       "last_match": {
         "result": "SIEG",
         "score": "2 - 0",
@@ -628,15 +623,19 @@
         },
         {
           "summoner": "LordZash#1220",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "h3x3on#1234",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "Leberkasleatschn#1990",
           "is_captain": true
+        },
+        {
+          "summoner": "UIC Flare#JND",
+          "is_captain": false
         },
         {
           "summoner": "SANEST GAMER FR#XDD",
@@ -648,7 +647,7 @@
         },
         {
           "summoner": "UIC Papi Δce#3072",
-          "is_captain": true
+          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212407",
@@ -699,10 +698,6 @@
         {
           "summoner": "UIC Envy#UIC",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Flare#JND",
-          "is_captain": false
         },
         {
           "summoner": "Megiddo#Fist",
