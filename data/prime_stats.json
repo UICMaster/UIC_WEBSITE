@@ -17,7 +17,7 @@
   "global": {
     "matches": 64,
     "wr": 61,
-    "players": 83,
+    "players": 82,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -495,16 +495,12 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC SilentCarry#Alune",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
         },
         {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
+          "summoner": "UIC SilentCarry#Alune",
+          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
