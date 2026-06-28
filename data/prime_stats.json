@@ -15,16 +15,10 @@
     ]
   },
   "global": {
-    "matches": 62,
+    "matches": 64,
     "wr": 61,
     "players": 83,
     "radar": [
-      {
-        "team_key": "EMBER",
-        "date": "2026-06-28T19:00:00+02:00",
-        "enemy": "ASINT",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163111"
-      },
       {
         "team_key": "PHOENIX",
         "date": "2026-06-30T19:15:00+02:00",
@@ -48,6 +42,12 @@
         "date": "2026-07-02T19:30:00+02:00",
         "enemy": "ELL",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159570"
+      },
+      {
+        "team_key": "SAKURA",
+        "date": "2026-07-04T20:00:00+02:00",
+        "enemy": "W2B LZ",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1160391"
       }
     ]
   },
@@ -596,11 +596,11 @@
         "div": null
       },
       "stats": {
-        "wins": 10,
+        "wins": 12,
         "losses": 3,
-        "points": 14,
-        "games": 6,
-        "win_rate": 83,
+        "points": 17,
+        "games": 7,
+        "win_rate": 86,
         "form": [
           "W",
           "W",
@@ -613,8 +613,8 @@
       "last_match": {
         "result": "SIEG",
         "score": "2 - 0",
-        "enemy": "SIN",
-        "date": "2026-06-21T17:00:00+02:00"
+        "enemy": "ORI",
+        "date": "2026-06-28T18:00:00+02:00"
       },
       "roster": [
         {
@@ -660,35 +660,24 @@
       },
       "stats": {
         "wins": 6,
-        "losses": 5,
+        "losses": 7,
         "points": 8,
-        "games": 5,
-        "win_rate": 60,
+        "games": 6,
+        "win_rate": 50,
         "form": [
           "W",
+          "L",
+          "L",
           "W",
-          "L",
-          "L",
-          "W"
+          "L"
         ]
       },
-      "next_match": {
-        "date": "2026-06-28T19:00:00+02:00",
-        "tag": "ASINT",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163111",
-        "enemy_roster": [
-          "INT EroKey#IDK",
-          "KDA ADC#KDA",
-          "Lunara#Lumar",
-          "DirkBach Germany#123",
-          "INT aDæmon#PvE"
-        ]
-      },
+      "next_match": null,
       "last_match": {
-        "result": "SIEG",
-        "score": "2 - 0",
-        "enemy": "QMS",
-        "date": "2026-06-12T20:00:00+02:00"
+        "result": "NIEDERLAGE",
+        "score": "0 - 2",
+        "enemy": "ASINT",
+        "date": "2026-06-28T19:00:00+02:00"
       },
       "roster": [
         {
