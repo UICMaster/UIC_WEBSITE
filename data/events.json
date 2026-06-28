@@ -1,21 +1,5 @@
 [
   {
-    "id": "1520121235663491113",
-    "name": "Ultra Instinct Crew Obsidian vs. Senru Void Bloom",
-    "description": "gameday 7",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-28T16:00:00+00:00",
-    "end": "2026-06-28T18:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1162775",
-    "image": "https://cdn.discordapp.com/guild-events/1520121235663491113/5828a771d89227e0b55bd84826e4d846.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Obsidian",
-      "Senru Void Bloom"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1519422926951026801",
     "name": "Ultra Instinct Crew vs. Feather Storm",
     "description": "gameday 7",
