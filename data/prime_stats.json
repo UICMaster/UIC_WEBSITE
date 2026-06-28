@@ -17,7 +17,7 @@
   "global": {
     "matches": 61,
     "wr": 62,
-    "players": 83,
+    "players": 84,
     "radar": [
       {
         "team_key": "ECLIPSE",
@@ -325,6 +325,10 @@
         {
           "summoner": "BrandMachtFeuFeu#Feuer",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -506,6 +510,10 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
@@ -638,10 +646,6 @@
         {
           "summoner": "Leberkasleatschn#1990",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": false
         },
         {
           "summoner": "SANEST GAMER FR#XDD",
