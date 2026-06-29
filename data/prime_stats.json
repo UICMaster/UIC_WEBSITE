@@ -17,7 +17,7 @@
   "global": {
     "matches": 64,
     "wr": 61,
-    "players": 81,
+    "players": 82,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -366,6 +366,10 @@
           "is_captain": true
         },
         {
+          "summoner": "UIC Kuroko#Pass",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         },
@@ -375,7 +379,7 @@
         },
         {
           "summoner": "UIC Ryu Copeland#117",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC Loonz#Coach",
@@ -383,7 +387,7 @@
         },
         {
           "summoner": "UIC AutumnLeaf#Moo",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC Exi#QUAK",
