@@ -17,7 +17,7 @@
   "global": {
     "matches": 64,
     "wr": 61,
-    "players": 82,
+    "players": 83,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -177,7 +177,7 @@
         },
         {
           "summoner": "Stafferl#FNC",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "UIC NairadAwsm#UIC",
@@ -374,6 +374,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Ryu Copeland#117",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
         },
@@ -499,8 +503,12 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC SilentCarry#Alune",
-          "is_captain": false
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
@@ -619,19 +627,15 @@
         },
         {
           "summoner": "LordZash#1220",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "h3x3on#1234",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "Leberkasleatschn#1990",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Flare#JND",
-          "is_captain": false
         },
         {
           "summoner": "SANEST GAMER FR#XDD",
@@ -643,7 +647,7 @@
         },
         {
           "summoner": "UIC Papi Δce#3072",
-          "is_captain": false
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212407",
