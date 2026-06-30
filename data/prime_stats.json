@@ -17,7 +17,7 @@
   "global": {
     "matches": 64,
     "wr": 61,
-    "players": 81,
+    "players": 82,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -503,6 +503,10 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         },
         {
           "summoner": "UIC SilentCarry#Alune",
