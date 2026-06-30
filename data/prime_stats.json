@@ -17,7 +17,7 @@
   "global": {
     "matches": 64,
     "wr": 61,
-    "players": 83,
+    "players": 81,
     "radar": [
       {
         "team_key": "PHOENIX",
@@ -75,7 +75,13 @@
         "date": "2026-06-30T20:30:00+02:00",
         "tag": "FTH",
         "link": "https://www.primeleague.gg/de/leagues/matches/1159528",
-        "enemy_roster": []
+        "enemy_roster": [
+          "Nekow#ORNNY",
+          "FTH Xanilos#FTH",
+          "Renoir Dessendre#EUWW",
+          "FTH Doope#STORM",
+          "FTH Shawk#STORM"
+        ]
       },
       "last_match": {
         "result": "NIEDERLAGE",
@@ -90,7 +96,7 @@
         },
         {
           "summoner": "UIC Speedy#EUW",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "piapiob#187",
@@ -98,7 +104,7 @@
         },
         {
           "summoner": "UIC Niki#AMB",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "Baumi#123",
@@ -435,10 +441,6 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -501,10 +503,6 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         },
         {
           "summoner": "UIC SilentCarry#Alune",
