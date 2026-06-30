@@ -1,37 +1,5 @@
 [
   {
-    "id": "1519426698347544672",
-    "name": "Ultra Instinct Crew Phoenix vs. TLD Blood Petal",
-    "description": "gameday 7",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-30T17:15:00+00:00",
-    "end": "2026-06-30T19:15:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1160832",
-    "image": "https://cdn.discordapp.com/guild-events/1519426698347544672/2389c94063c332b3b2541fb448143ab6.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Phoenix",
-      "TLD Blood Petal"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1519422926951026801",
-    "name": "Ultra Instinct Crew vs. Feather Storm",
-    "description": "gameday 7",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-06-30T18:30:00+00:00",
-    "end": "2026-06-30T20:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1159528",
-    "image": "https://cdn.discordapp.com/guild-events/1519422926951026801/e9fe88eda42aff78f253c17860a56774.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew",
-      "Feather Storm"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1520057014980444363",
     "name": "Ultra Instinct Crew Nova vs. Kreisliga Legenden",
     "description": "gameday 7",
