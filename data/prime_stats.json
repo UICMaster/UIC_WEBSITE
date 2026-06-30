@@ -20,12 +20,6 @@
     "players": 82,
     "radar": [
       {
-        "team_key": "PHOENIX",
-        "date": "2026-06-30T19:15:00+02:00",
-        "enemy": "TLD BP",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160832"
-      },
-      {
         "team_key": "PRIME",
         "date": "2026-06-30T20:30:00+02:00",
         "enemy": "FTH",
@@ -48,6 +42,12 @@
         "date": "2026-07-04T20:00:00+02:00",
         "enemy": "W2B LZ",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160391"
+      },
+      {
+        "team_key": "SPARK",
+        "date": "2026-07-05T19:00:00+02:00",
+        "enemy": "LIF",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1161390"
       }
     ]
   },
@@ -96,7 +96,7 @@
         },
         {
           "summoner": "UIC Speedy#EUW",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "piapiob#187",
@@ -104,7 +104,7 @@
         },
         {
           "summoner": "UIC Niki#AMB",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "Baumi#123",
@@ -354,12 +354,7 @@
           "W"
         ]
       },
-      "next_match": {
-        "date": "2026-06-30T19:15:00+02:00",
-        "tag": "TLD BP",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160832",
-        "enemy_roster": []
-      },
+      "next_match": null,
       "last_match": {
         "result": "SIEG",
         "score": "2 - 0",
