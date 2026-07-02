@@ -15,8 +15,8 @@
     ]
   },
   "global": {
-    "matches": 67,
-    "wr": 61,
+    "matches": 68,
+    "wr": 62,
     "players": 83,
     "radar": [
       {
@@ -487,10 +487,10 @@
         "div": null
       },
       "stats": {
-        "wins": 10,
+        "wins": 12,
         "losses": 1,
-        "points": 14,
-        "games": 5,
+        "points": 17,
+        "games": 6,
         "win_rate": 100,
         "form": [
           "W",
@@ -503,9 +503,9 @@
       "next_match": null,
       "last_match": {
         "result": "SIEG",
-        "score": "2 - 1",
-        "enemy": "KUT",
-        "date": "2026-06-21T19:00:00+02:00"
+        "score": "2 - 0",
+        "enemy": "LEG",
+        "date": "2026-07-02T19:00:00+02:00"
       },
       "roster": [
         {
