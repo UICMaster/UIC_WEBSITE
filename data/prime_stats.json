@@ -17,7 +17,7 @@
   "global": {
     "matches": 66,
     "wr": 62,
-    "players": 83,
+    "players": 82,
     "radar": [
       {
         "team_key": "NOVA",
@@ -491,10 +491,6 @@
         {
           "summoner": "UIC Moonlxght#16396",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         },
         {
           "summoner": "UIC SilentCarry#Alune",
