@@ -15,8 +15,8 @@
     ]
   },
   "global": {
-    "matches": 66,
-    "wr": 62,
+    "matches": 67,
+    "wr": 61,
     "players": 83,
     "radar": [
       {
@@ -185,9 +185,9 @@
       },
       "stats": {
         "wins": 3,
-        "losses": 10,
+        "losses": 12,
         "points": 3,
-        "games": 5,
+        "games": 6,
         "win_rate": 0,
         "form": [
           "L",
@@ -200,9 +200,9 @@
       "next_match": null,
       "last_match": {
         "result": "NIEDERLAGE",
-        "score": "1 - 2",
-        "enemy": "NR",
-        "date": "2026-06-25T19:00:00+02:00"
+        "score": "0 - 2",
+        "enemy": "ELL",
+        "date": "2026-07-02T19:30:00+02:00"
       },
       "roster": [
         {
