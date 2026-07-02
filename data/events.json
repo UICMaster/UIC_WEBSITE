@@ -1,21 +1,5 @@
 [
   {
-    "id": "1520057014980444363",
-    "name": "Ultra Instinct Crew Nova vs. Kreisliga Legenden",
-    "description": "gameday 7",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-07-02T17:00:00+00:00",
-    "end": "2026-07-02T19:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1162155",
-    "image": "https://cdn.discordapp.com/guild-events/1520057014980444363/4623a291b1335486a64a192732e30a4c.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Nova",
-      "Kreisliga Legenden"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1519061163550441735",
     "name": "Ultra Instinct Crew Vakuum vs. Elektrolyse Legion",
     "description": "gameday 7",
