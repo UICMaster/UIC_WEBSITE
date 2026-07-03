@@ -80,10 +80,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Niki#AMB",
           "is_captain": true
         },
@@ -334,6 +330,10 @@
       "roster": [
         {
           "summoner": "UIC Kamo#tpt",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         },
         {
