@@ -20,12 +20,6 @@
     "players": 84,
     "radar": [
       {
-        "team_key": "SAKURA",
-        "date": "2026-07-04T20:00:00+02:00",
-        "enemy": "W2B LZ",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160391"
-      },
-      {
         "team_key": "SPARK",
         "date": "2026-07-05T19:00:00+02:00",
         "enemy": "LIF",
@@ -430,18 +424,7 @@
           "W"
         ]
       },
-      "next_match": {
-        "date": "2026-07-04T20:00:00+02:00",
-        "tag": "W2B LZ",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160391",
-        "enemy_roster": [
-          "W2B Luchacho#W2BLZ",
-          "UIC EX Chronokid#Love",
-          "gabimaru#baki",
-          "FTW Bonobo#jgl",
-          "MeowNaxo#uwu"
-        ]
-      },
+      "next_match": null,
       "last_match": {
         "result": "SIEG",
         "score": "2 - 0",
