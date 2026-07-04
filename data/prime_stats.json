@@ -15,8 +15,8 @@
     ]
   },
   "global": {
-    "matches": 68,
-    "wr": 62,
+    "matches": 69,
+    "wr": 61,
     "players": 84,
     "radar": [
       {
@@ -412,24 +412,24 @@
       },
       "stats": {
         "wins": 4,
-        "losses": 7,
+        "losses": 9,
         "points": 5,
-        "games": 5,
-        "win_rate": 40,
+        "games": 6,
+        "win_rate": 33,
         "form": [
-          "L",
           "L",
           "W",
           "L",
-          "W"
+          "W",
+          "L"
         ]
       },
       "next_match": null,
       "last_match": {
-        "result": "SIEG",
-        "score": "2 - 0",
-        "enemy": "pzh",
-        "date": "2026-06-27T19:00:00+02:00"
+        "result": "NIEDERLAGE",
+        "score": "0 - 2",
+        "enemy": "W2B LZ",
+        "date": "2026-07-04T20:00:00+02:00"
       },
       "roster": [
         {
