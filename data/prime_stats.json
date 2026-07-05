@@ -15,23 +15,10 @@
     ]
   },
   "global": {
-    "matches": 69,
-    "wr": 61,
+    "matches": 70,
+    "wr": 60,
     "players": 84,
-    "radar": [
-      {
-        "team_key": "SPARK",
-        "date": "2026-07-05T19:00:00+02:00",
-        "enemy": "LIF",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161390"
-      },
-      {
-        "team_key": "ABYSS",
-        "date": "2026-07-05T19:00:00+02:00",
-        "enemy": "UCQ",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160237"
-      }
-    ]
+    "radar": []
   },
   "teams": {
     "prime": {
@@ -246,18 +233,7 @@
           "W"
         ]
       },
-      "next_match": {
-        "date": "2026-07-05T19:00:00+02:00",
-        "tag": "LIF",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1161390",
-        "enemy_roster": [
-          "LIF MarkedHelix#187",
-          "LIF Satisfaction#LIF",
-          "LIF Bruzzzla#LIF",
-          "Der Sebo aus NRW#EUW",
-          "Commandcracker#418"
-        ]
-      },
+      "next_match": null,
       "last_match": {
         "result": "SIEG",
         "score": "2 - 1",
@@ -662,35 +638,24 @@
       },
       "stats": {
         "wins": 3,
-        "losses": 10,
+        "losses": 12,
         "points": 4,
-        "games": 6,
-        "win_rate": 17,
+        "games": 7,
+        "win_rate": 14,
         "form": [
-          "W",
+          "L",
           "L",
           "L",
           "L",
           "L"
         ]
       },
-      "next_match": {
-        "date": "2026-07-05T19:00:00+02:00",
-        "tag": "UCQ",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1160237",
-        "enemy_roster": [
-          "FxLiX#Demon",
-          "Gubinak#BRO",
-          "Cobradeer94#EUW",
-          "Jowasi#EUW",
-          "Niwaso#EUW"
-        ]
-      },
+      "next_match": null,
       "last_match": {
         "result": "NIEDERLAGE",
         "score": "0 - 2",
-        "enemy": "ABY",
-        "date": "2026-06-21T19:00:00+02:00"
+        "enemy": "UCQ",
+        "date": "2026-07-05T19:00:00+02:00"
       },
       "roster": [
         {
