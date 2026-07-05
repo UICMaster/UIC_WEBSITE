@@ -250,7 +250,13 @@
         "date": "2026-07-05T19:00:00+02:00",
         "tag": "LIF",
         "link": "https://www.primeleague.gg/de/leagues/matches/1161390",
-        "enemy_roster": []
+        "enemy_roster": [
+          "LIF MarkedHelix#187",
+          "LIF Satisfaction#LIF",
+          "LIF Bruzzzla#LIF",
+          "Der Sebo aus NRW#EUW",
+          "Commandcracker#418"
+        ]
       },
       "last_match": {
         "result": "SIEG",
