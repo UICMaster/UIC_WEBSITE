@@ -672,7 +672,13 @@
         "date": "2026-07-05T19:00:00+02:00",
         "tag": "UCQ",
         "link": "https://www.primeleague.gg/de/leagues/matches/1160237",
-        "enemy_roster": []
+        "enemy_roster": [
+          "FxLiX#Demon",
+          "Gubinak#BRO",
+          "Cobradeer94#EUW",
+          "Jowasi#EUW",
+          "Niwaso#EUW"
+        ]
       },
       "last_match": {
         "result": "NIEDERLAGE",
