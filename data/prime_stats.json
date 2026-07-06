@@ -21,7 +21,7 @@
     "radar": [
       {
         "team_key": "SAKURA",
-        "date": "2026-07-12T19:00:00+02:00",
+        "date": "2026-07-09T20:00:00+02:00",
         "enemy": "ECO",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163806"
       }
@@ -414,7 +414,7 @@
         ]
       },
       "next_match": {
-        "date": "2026-07-12T19:00:00+02:00",
+        "date": "2026-07-09T20:00:00+02:00",
         "tag": "ECO",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163806",
         "enemy_roster": []
