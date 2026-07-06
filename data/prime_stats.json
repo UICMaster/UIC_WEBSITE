@@ -18,7 +18,14 @@
     "matches": 71,
     "wr": 61,
     "players": 84,
-    "radar": []
+    "radar": [
+      {
+        "team_key": "SAKURA",
+        "date": "2026-07-12T19:00:00+02:00",
+        "enemy": "ECO",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163806"
+      }
+    ]
   },
   "teams": {
     "prime": {
@@ -406,7 +413,12 @@
           "L"
         ]
       },
-      "next_match": null,
+      "next_match": {
+        "date": "2026-07-12T19:00:00+02:00",
+        "tag": "ECO",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163806",
+        "enemy_roster": []
+      },
       "last_match": {
         "result": "NIEDERLAGE",
         "score": "0 - 2",
