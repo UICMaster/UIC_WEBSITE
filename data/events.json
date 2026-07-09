@@ -1,21 +1,5 @@
 [
   {
-    "id": "1523786192238411967",
-    "name": "Ultra Instinct Crew Sakura vs. eSports Cologne Beluga Stoer",
-    "description": "tiebreaker match 99",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-07-09T18:00:00+00:00",
-    "end": "2026-07-09T20:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1163806",
-    "image": "https://cdn.discordapp.com/guild-events/1523786192238411967/4cb0b89576fbc694303914f688decad0.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Sakura",
-      "eSports Cologne Beluga Stoer"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1524480373935968256",
     "name": "Ultra Instinct Crew Sakura vs. Turquoise Titans",
     "description": "tiebreaker match 99",
