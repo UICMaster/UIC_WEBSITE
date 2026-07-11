@@ -17,7 +17,7 @@
   "global": {
     "matches": 72,
     "wr": 60,
-    "players": 84,
+    "players": 83,
     "radar": [
       {
         "team_key": "SAKURA",
@@ -273,12 +273,12 @@
           "is_captain": true
         },
         {
-          "summoner": "BrandMachtFeuFeu#Feuer",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Goku#UIC",
           "is_captain": true
+        },
+        {
+          "summoner": "McOffensive#Pils",
+          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -696,10 +696,6 @@
         },
         {
           "summoner": "UIC M Character#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "TheEigeeen#EIGI",
           "is_captain": false
         },
         {
