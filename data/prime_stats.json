@@ -17,7 +17,7 @@
   "global": {
     "matches": 72,
     "wr": 60,
-    "players": 83,
+    "players": 81,
     "radar": [
       {
         "team_key": "SAKURA",
@@ -490,15 +490,7 @@
       },
       "roster": [
         {
-          "summoner": "UIC Boohunter#Boo",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Namorii#Nova",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Qvy#rusty",
           "is_captain": false
         },
         {
