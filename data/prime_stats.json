@@ -2,6 +2,7 @@
   "config": {
     "teamsOrder": [
       "prime",
+      "angels",
       "eclipse",
       "vakuum",
       "spark",
@@ -15,10 +16,17 @@
     ]
   },
   "global": {
-    "matches": 73,
-    "wr": 60,
-    "players": 81,
-    "radar": []
+    "matches": 79,
+    "wr": 63,
+    "players": 90,
+    "radar": [
+      {
+        "team_key": "ANGELS",
+        "date": "2026-07-18T14:00:00+02:00",
+        "enemy": "BTZ",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163843"
+      }
+    ]
   },
   "teams": {
     "prime": {
@@ -79,6 +87,78 @@
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/116000/116908.jpg?1768526642"
+    },
+    "angels": {
+      "meta": {
+        "name": "Ultra Instinct Crew Angels",
+        "div": null
+      },
+      "stats": {
+        "wins": 12,
+        "losses": 1,
+        "points": 17,
+        "games": 6,
+        "win_rate": 100,
+        "form": [
+          "W",
+          "W",
+          "W",
+          "W",
+          "W"
+        ]
+      },
+      "next_match": {
+        "date": "2026-07-18T14:00:00+02:00",
+        "tag": "BTZ",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163843",
+        "enemy_roster": []
+      },
+      "last_match": {
+        "result": "SIEG",
+        "score": "2 - 1",
+        "enemy": "404",
+        "date": "2026-07-05T16:00:00+02:00"
+      },
+      "roster": [
+        {
+          "summoner": "CyroxD#EUW",
+          "is_captain": true
+        },
+        {
+          "summoner": "BARDIE3#0711",
+          "is_captain": true
+        },
+        {
+          "summoner": "Kelle#300",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC stevie#LISA",
+          "is_captain": true
+        },
+        {
+          "summoner": "Webzy#Web",
+          "is_captain": true
+        },
+        {
+          "summoner": "Tempest#Lachs",
+          "is_captain": false
+        },
+        {
+          "summoner": "300 CLOWNFIESTA#COACH",
+          "is_captain": true
+        },
+        {
+          "summoner": "Stark#F10",
+          "is_captain": true
+        },
+        {
+          "summoner": "DMG Symphonie#DONK",
+          "is_captain": false
+        }
+      ],
+      "team_link": "https://www.primeleague.gg/de/leagues/teams/203186",
+      "logo": "https://cdn0.heartbase.gg/league_team_logos/203000/203186.jpg?1783621978"
     },
     "eclipse": {
       "meta": {
