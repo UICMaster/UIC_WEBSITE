@@ -18,7 +18,7 @@
   "global": {
     "matches": 79,
     "wr": 63,
-    "players": 90,
+    "players": 89,
     "radar": [
       {
         "team_key": "ANGELS",
@@ -504,10 +504,6 @@
         },
         {
           "summoner": "zab77#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Kuroko#Pass",
           "is_captain": false
         },
         {
