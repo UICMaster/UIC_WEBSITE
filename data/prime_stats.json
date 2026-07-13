@@ -141,16 +141,16 @@
           "is_captain": true
         },
         {
-          "summoner": "Tempest#Lachs",
-          "is_captain": false
-        },
-        {
           "summoner": "300 CLOWNFIESTA#COACH",
           "is_captain": true
         },
         {
           "summoner": "Stark#F10",
           "is_captain": true
+        },
+        {
+          "summoner": "Tempest#Lachs",
+          "is_captain": false
         },
         {
           "summoner": "DMG Symphonie#DONK",
