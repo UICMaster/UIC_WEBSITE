@@ -18,7 +18,7 @@
   "global": {
     "matches": 79,
     "wr": 63,
-    "players": 89,
+    "players": 88,
     "radar": [
       {
         "team_key": "ANGELS",
@@ -346,12 +346,12 @@
           "is_captain": true
         },
         {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
-        },
-        {
           "summoner": "McOffensive#Pils",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -446,10 +446,6 @@
         {
           "summoner": "UIC Pjure#CYS",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Rellik#CYS",
-          "is_captain": false
         },
         {
           "summoner": "UIC Ðărkø#SAI",
