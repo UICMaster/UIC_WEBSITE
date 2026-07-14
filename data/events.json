@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "1526611650386460822",
+    "name": "Ultra Instinct Crew Angels vs. Bootz New Dawn",
+    "description": "Playoffs Div 3-4 | Upper Bracket Runde 1 | Bo3",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-07-18T12:00:00+00:00",
+    "end": "2026-07-18T14:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1163843-ultra-instinct-crew-angels-vs-bootz-new-dawn",
+    "image": null,
+    "competitors": [
+      "Ultra Instinct Crew Angels",
+      "Bootz New Dawn"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  }
+]
