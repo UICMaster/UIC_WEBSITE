@@ -18,7 +18,7 @@
   "global": {
     "matches": 79,
     "wr": 63,
-    "players": 88,
+    "players": 87,
     "radar": [
       {
         "team_key": "ANGELS",
@@ -125,7 +125,7 @@
           "is_captain": true
         },
         {
-          "summoner": "BARDIE3#0711",
+          "summoner": "UIC Bardie3#0711",
           "is_captain": true
         },
         {
@@ -503,7 +503,7 @@
           "is_captain": false
         },
         {
-          "summoner": "nic30012#Metal",
+          "summoner": "Shoto#Hero4",
           "is_captain": false
         },
         {
@@ -512,10 +512,6 @@
         },
         {
           "summoner": "UIC SilentCarry#Alune",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
           "is_captain": true
         }
       ],
