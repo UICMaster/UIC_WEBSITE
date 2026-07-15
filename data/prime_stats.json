@@ -18,7 +18,7 @@
   "global": {
     "matches": 79,
     "wr": 63,
-    "players": 87,
+    "players": 89,
     "radar": [
       {
         "team_key": "ANGELS",
@@ -507,11 +507,15 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Moonlxght#16396",
+          "summoner": "Moonlxght#16396",
           "is_captain": false
         },
         {
           "summoner": "UIC SilentCarry#Alune",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
           "is_captain": true
         }
       ],
@@ -627,6 +631,10 @@
         {
           "summoner": "Leberkasleatschn#1990",
           "is_captain": true
+        },
+        {
+          "summoner": "UIC Boohunter#Boo",
+          "is_captain": false
         },
         {
           "summoner": "SANEST GAMER FR#XDD",
