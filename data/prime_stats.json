@@ -125,10 +125,6 @@
           "is_captain": true
         },
         {
-          "summoner": "UIC Bardie3#0711",
-          "is_captain": true
-        },
-        {
           "summoner": "Kelle#300",
           "is_captain": true
         },
@@ -151,6 +147,10 @@
         {
           "summoner": "Tempest#Lachs",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Bardie3#0711",
+          "is_captain": true
         },
         {
           "summoner": "DMG Symphonie#DONK",
