@@ -18,7 +18,7 @@
   "global": {
     "matches": 79,
     "wr": 63,
-    "players": 88,
+    "players": 89,
     "radar": [
       {
         "team_key": "ANGELS",
@@ -512,7 +512,11 @@
         },
         {
           "summoner": "UIC SilentCarry#Alune",
-          "is_captain": false
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
