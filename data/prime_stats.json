@@ -19,14 +19,7 @@
     "matches": 79,
     "wr": 63,
     "players": 88,
-    "radar": [
-      {
-        "team_key": "ANGELS",
-        "date": "2026-07-18T14:00:00+02:00",
-        "enemy": "BTZ",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163843"
-      }
-    ]
+    "radar": []
   },
   "teams": {
     "prime": {
@@ -107,18 +100,7 @@
           "W"
         ]
       },
-      "next_match": {
-        "date": "2026-07-18T14:00:00+02:00",
-        "tag": "BTZ",
-        "link": "https://www.primeleague.gg/de/leagues/matches/1163843",
-        "enemy_roster": [
-          "BTZ Jwugi#BTZ",
-          "Jeteys#UWU",
-          "Kritox#sun",
-          "BTZ Schmiddie#BTZ",
-          "Brentoan#EUW"
-        ]
-      },
+      "next_match": null,
       "last_match": {
         "result": "SIEG",
         "score": "2 - 1",
