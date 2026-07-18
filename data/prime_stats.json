@@ -16,8 +16,8 @@
     ]
   },
   "global": {
-    "matches": 80,
-    "wr": 63,
+    "matches": 81,
+    "wr": 62,
     "players": 88,
     "radar": []
   },
@@ -87,25 +87,25 @@
         "div": null
       },
       "stats": {
-        "wins": 12,
-        "losses": 3,
-        "points": 17,
-        "games": 7,
-        "win_rate": 86,
+        "wins": 13,
+        "losses": 5,
+        "points": 18,
+        "games": 8,
+        "win_rate": 75,
         "form": [
           "W",
           "W",
           "W",
-          "W",
+          "L",
           "L"
         ]
       },
       "next_match": null,
       "last_match": {
         "result": "NIEDERLAGE",
-        "score": "0 - 2",
-        "enemy": "BTZ",
-        "date": "2026-07-18T14:00:00+02:00"
+        "score": "1 - 2",
+        "enemy": "DS",
+        "date": "2026-07-18T18:00:00+02:00"
       },
       "roster": [
         {
