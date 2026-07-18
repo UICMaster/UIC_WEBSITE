@@ -16,10 +16,17 @@
     ]
   },
   "global": {
-    "matches": 79,
+    "matches": 80,
     "wr": 63,
     "players": 88,
-    "radar": []
+    "radar": [
+      {
+        "team_key": "ANGELS",
+        "date": "2026-07-18T18:00:00+02:00",
+        "enemy": "DS",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163869"
+      }
+    ]
   },
   "teams": {
     "prime": {
@@ -88,37 +95,38 @@
       },
       "stats": {
         "wins": 12,
-        "losses": 1,
+        "losses": 3,
         "points": 17,
-        "games": 6,
-        "win_rate": 100,
+        "games": 7,
+        "win_rate": 86,
         "form": [
           "W",
           "W",
           "W",
           "W",
-          "W"
+          "L"
         ]
       },
-      "next_match": null,
+      "next_match": {
+        "date": "2026-07-18T18:00:00+02:00",
+        "tag": "DS",
+        "link": "https://www.primeleague.gg/de/leagues/matches/1163869",
+        "enemy_roster": []
+      },
       "last_match": {
-        "result": "SIEG",
-        "score": "2 - 1",
-        "enemy": "404",
-        "date": "2026-07-05T16:00:00+02:00"
+        "result": "NIEDERLAGE",
+        "score": "0 - 2",
+        "enemy": "BTZ",
+        "date": "2026-07-18T14:00:00+02:00"
       },
       "roster": [
-        {
-          "summoner": "CyroxD#EUW",
-          "is_captain": true
-        },
         {
           "summoner": "Kelle#300",
           "is_captain": true
         },
         {
           "summoner": "UIC stevie#LISA",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "Webzy#Web",
@@ -137,8 +145,12 @@
           "is_captain": false
         },
         {
+          "summoner": "CyroxD#EUW",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Bardie3#0711",
-          "is_captain": true
+          "is_captain": false
         },
         {
           "summoner": "UIC Symphonie#ZywOo",
