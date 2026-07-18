@@ -18,7 +18,7 @@
   "global": {
     "matches": 81,
     "wr": 62,
-    "players": 87,
+    "players": 88,
     "radar": []
   },
   "teams": {
@@ -134,6 +134,10 @@
         },
         {
           "summoner": "UIC Bardie3#0711",
+          "is_captain": true
+        },
+        {
+          "summoner": "300 CLOWNFIESTA#COACH",
           "is_captain": true
         },
         {
