@@ -111,7 +111,13 @@
         "date": "2026-07-18T18:00:00+02:00",
         "tag": "DS",
         "link": "https://www.primeleague.gg/de/leagues/matches/1163869",
-        "enemy_roster": []
+        "enemy_roster": [
+          "EmVier#EUW",
+          "DS Davitikus#mark",
+          "DS Sefa#6666",
+          "DS tyberzen#baler",
+          "nice guy#1v9"
+        ]
       },
       "last_match": {
         "result": "NIEDERLAGE",
@@ -126,14 +132,10 @@
         },
         {
           "summoner": "UIC stevie#LISA",
-          "is_captain": false
-        },
-        {
-          "summoner": "Webzy#Web",
           "is_captain": true
         },
         {
-          "summoner": "300 CLOWNFIESTA#COACH",
+          "summoner": "Webzy#Web",
           "is_captain": true
         },
         {
@@ -145,12 +147,16 @@
           "is_captain": false
         },
         {
-          "summoner": "CyroxD#EUW",
-          "is_captain": false
+          "summoner": "UIC Cyrox#Stack",
+          "is_captain": true
         },
         {
           "summoner": "UIC Bardie3#0711",
-          "is_captain": false
+          "is_captain": true
+        },
+        {
+          "summoner": "300 CLOWNFIESTA#COACH",
+          "is_captain": true
         },
         {
           "summoner": "UIC Symphonie#ZywOo",
