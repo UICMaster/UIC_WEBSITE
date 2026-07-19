@@ -137,10 +137,6 @@
           "is_captain": true
         },
         {
-          "summoner": "300 CLOWNFIESTA#COACH",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Symphonie#ZywOo",
           "is_captain": false
         }
@@ -373,11 +369,11 @@
       },
       "roster": [
         {
-          "summoner": "UIC Kamo#tpt",
+          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
+          "summoner": "UIC Kamo#tpt",
           "is_captain": true
         },
         {
@@ -445,7 +441,7 @@
         },
         {
           "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": false
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -500,6 +496,10 @@
         },
         {
           "summoner": "UIC SilentCarry#Alune",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
           "is_captain": true
         }
       ],
