@@ -133,6 +133,10 @@
           "is_captain": true
         },
         {
+          "summoner": "300 CLOWNFIESTA#COACH",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Bardie3#0711",
           "is_captain": true
         },
@@ -496,10 +500,6 @@
         },
         {
           "summoner": "UIC SilentCarry#Alune",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
           "is_captain": true
         }
       ],
