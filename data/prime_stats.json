@@ -133,16 +133,16 @@
           "is_captain": true
         },
         {
-          "summoner": "300 CLOWNFIESTA#COACH",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Bardie3#0711",
           "is_captain": true
         },
         {
           "summoner": "UIC Symphonie#ZywOo",
           "is_captain": false
+        },
+        {
+          "summoner": "300 CLOWNFIESTA#COACH",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/203186",
