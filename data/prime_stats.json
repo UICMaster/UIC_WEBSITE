@@ -139,6 +139,10 @@
         {
           "summoner": "UIC Symphonie#ZywOo",
           "is_captain": false
+        },
+        {
+          "summoner": "300 CLOWNFIESTA#COACH",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/203186",
@@ -496,10 +500,6 @@
         },
         {
           "summoner": "UIC SilentCarry#Alune",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
           "is_captain": true
         }
       ],
