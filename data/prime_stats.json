@@ -18,7 +18,7 @@
   "global": {
     "matches": 81,
     "wr": 62,
-    "players": 88,
+    "players": 89,
     "radar": []
   },
   "teams": {
@@ -369,6 +369,10 @@
       },
       "roster": [
         {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Kamo#tpt",
           "is_captain": true
         },
@@ -386,10 +390,6 @@
         },
         {
           "summoner": "UIC AutumnLeaf#Moo",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         },
         {
@@ -496,6 +496,10 @@
         },
         {
           "summoner": "UIC SilentCarry#Alune",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
           "is_captain": true
         }
       ],
