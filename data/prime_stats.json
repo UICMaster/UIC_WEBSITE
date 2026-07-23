@@ -18,7 +18,7 @@
   "global": {
     "matches": 81,
     "wr": 62,
-    "players": 89,
+    "players": 88,
     "radar": []
   },
   "teams": {
@@ -475,23 +475,15 @@
       },
       "roster": [
         {
-          "summoner": "Blauerlupos#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC lightfire#4667",
-          "is_captain": false
-        },
-        {
           "summoner": "zab77#EUW",
           "is_captain": false
         },
         {
-          "summoner": "Shoto#Hero4",
+          "summoner": "Shapeshifting#EUW",
           "is_captain": false
         },
         {
-          "summoner": "Moonlxght#16396",
+          "summoner": "Shoto#Hero4",
           "is_captain": false
         },
         {
@@ -539,6 +531,10 @@
         },
         {
           "summoner": "UIC Kaanto#Nova",
+          "is_captain": false
+        },
+        {
+          "summoner": "Rex Mortis#1907",
           "is_captain": false
         },
         {
