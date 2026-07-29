@@ -373,11 +373,11 @@
       },
       "roster": [
         {
-          "summoner": "UIC Cerberus#GOATZ",
+          "summoner": "UIC Kamo#tpt",
           "is_captain": true
         },
         {
-          "summoner": "UIC Kamo#tpt",
+          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         },
         {
@@ -534,15 +534,15 @@
       },
       "roster": [
         {
+          "summoner": "UIC Bööööck#UIC",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Namorii#Nova",
           "is_captain": false
         },
         {
           "summoner": "UIC Kaanto#Nova",
-          "is_captain": false
-        },
-        {
-          "summoner": "Rex Mortis#1907",
           "is_captain": false
         },
         {
