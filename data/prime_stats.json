@@ -18,7 +18,7 @@
   "global": {
     "matches": 81,
     "wr": 62,
-    "players": 89,
+    "players": 85,
     "radar": []
   },
   "teams": {
@@ -91,7 +91,7 @@
     },
     "angels": {
       "meta": {
-        "name": "Ultra Instinct Crew Angels",
+        "name": "300 Red",
         "div": null
       },
       "stats": {
@@ -117,11 +117,11 @@
       },
       "roster": [
         {
-          "summoner": "Kelle#300",
-          "is_captain": true
+          "summoner": "1453#2905",
+          "is_captain": false
         },
         {
-          "summoner": "UIC stevie#LISA",
+          "summoner": "Kelle#300",
           "is_captain": true
         },
         {
@@ -129,32 +129,12 @@
           "is_captain": true
         },
         {
-          "summoner": "Stark#F10",
-          "is_captain": true
-        },
-        {
-          "summoner": "Tempest#Lachs",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Cyrox#Stack",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Bardie3#0711",
-          "is_captain": true
-        },
-        {
           "summoner": "300 CLOWNFIESTA#COACH",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Symphonie#ZywOo",
-          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/203186",
-      "logo": "https://cdn0.heartbase.gg/league_team_logos/203000/203186.jpg?1783621978"
+      "logo": "https://cdn0.heartbase.gg/league_team_logos/203000/203186.jpg?1785348729"
     },
     "eclipse": {
       "meta": {
@@ -485,6 +465,10 @@
         {
           "summoner": "zab77#EUW",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         },
         {
           "summoner": "Shoto#Hero4",
