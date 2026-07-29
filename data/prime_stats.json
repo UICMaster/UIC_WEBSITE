@@ -18,7 +18,7 @@
   "global": {
     "matches": 81,
     "wr": 62,
-    "players": 85,
+    "players": 84,
     "radar": []
   },
   "teams": {
@@ -62,10 +62,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Niki#AMB",
           "is_captain": true
         },
@@ -80,10 +76,6 @@
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -358,6 +350,10 @@
       "roster": [
         {
           "summoner": "UIC Kamo#tpt",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         },
         {
