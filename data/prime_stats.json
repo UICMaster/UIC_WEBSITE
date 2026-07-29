@@ -2,7 +2,6 @@
   "config": {
     "teamsOrder": [
       "prime",
-      "angels",
       "eclipse",
       "vakuum",
       "spark",
@@ -16,9 +15,9 @@
     ]
   },
   "global": {
-    "matches": 81,
-    "wr": 62,
-    "players": 84,
+    "matches": 73,
+    "wr": 60,
+    "players": 80,
     "radar": []
   },
   "teams": {
@@ -54,16 +53,16 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Speedy#EUW",
           "is_captain": true
         },
         {
           "summoner": "piapiob#187",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
         },
         {
           "summoner": "UIC Niki#AMB",
@@ -88,53 +87,6 @@
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/116000/116908.jpg?1768526642"
-    },
-    "angels": {
-      "meta": {
-        "name": "300 Red",
-        "div": null
-      },
-      "stats": {
-        "wins": 13,
-        "losses": 5,
-        "points": 18,
-        "games": 8,
-        "win_rate": 75,
-        "form": [
-          "W",
-          "W",
-          "W",
-          "L",
-          "L"
-        ]
-      },
-      "next_match": null,
-      "last_match": {
-        "result": "NIEDERLAGE",
-        "score": "1 - 2",
-        "enemy": "DS",
-        "date": "2026-07-18T18:00:00+02:00"
-      },
-      "roster": [
-        {
-          "summoner": "1453#2905",
-          "is_captain": false
-        },
-        {
-          "summoner": "Kelle#300",
-          "is_captain": true
-        },
-        {
-          "summoner": "Webzy#Web",
-          "is_captain": true
-        },
-        {
-          "summoner": "300 CLOWNFIESTA#COACH",
-          "is_captain": true
-        }
-      ],
-      "team_link": "https://www.primeleague.gg/de/leagues/teams/203186",
-      "logo": "https://cdn0.heartbase.gg/league_team_logos/203000/203186.jpg?1785348729"
     },
     "eclipse": {
       "meta": {
