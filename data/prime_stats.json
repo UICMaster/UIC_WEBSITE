@@ -17,7 +17,7 @@
   "global": {
     "matches": 73,
     "wr": 60,
-    "players": 80,
+    "players": 81,
     "radar": []
   },
   "teams": {
@@ -53,10 +53,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Speedy#EUW",
           "is_captain": true
         },
@@ -71,6 +67,10 @@
         {
           "summoner": "UIC Baumi#123",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         },
         {
           "summoner": "UIC Baguetto#R3kt",
@@ -191,12 +191,12 @@
       },
       "roster": [
         {
-          "summoner": "DAG LingYao#FES",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC VTennic#UIC",
           "is_captain": true
+        },
+        {
+          "summoner": "DAG LingYao#FES",
+          "is_captain": false
         },
         {
           "summoner": "UIC Kaoxz#CRNGE",
@@ -423,6 +423,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
+        },
+        {
           "summoner": "Shoto#Hero4",
           "is_captain": false
         },
@@ -466,15 +470,15 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Namorii#Nova",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Kaanto#Nova",
           "is_captain": false
         },
         {
           "summoner": "UIC Kaetaya#XwX",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Namorii#Nova",
           "is_captain": false
         },
         {
