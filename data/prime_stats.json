@@ -79,10 +79,6 @@
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -563,6 +559,10 @@
         {
           "summoner": "UIC Papi Δce#3072",
           "is_captain": true
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212407",
