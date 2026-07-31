@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "1532798089746841600",
+    "name": "Ultra Instinct Crew Prime vs. Ultra Instinct Crew Basilisk",
+    "description": "Keine Beschreibung verfügbar.",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-07-31T17:15:00.694000+00:00",
+    "end": "2026-07-31T20:00:00.694000+00:00",
+    "location": "https://www.twitch.tv/ultrainstinctcrew",
+    "image": null,
+    "competitors": [],
+    "streamUrl": null
+  }
+]
