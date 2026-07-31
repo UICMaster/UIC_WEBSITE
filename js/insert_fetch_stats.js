@@ -46,14 +46,11 @@ async function loadDynamicHUD() {
                     ? `W/L: ${player.wins}/${player.losses} <span style="color:${wrColor}; font-weight:700;">(${player.winRate}%)</span>` 
                     : '&nbsp;';
 
-                // We normalize the role for the image path (e.g., "HEAD COACH" -> "head_coach")
-                const safeRoleForImage = player.role.toLowerCase().replace(' ', '_');
-
                 gridDiv.innerHTML += `
                     <div class="card card--interactive card--profile">
                         <div class="role-badge">${player.role}</div>
-                        <img src="assets/profile/${teamName}/${teamName}_${safeRoleForImage}.png" 
-                             alt="${player.role}" 
+                        <img src="assets/profile/${player.playerId}.png" 
+                             alt="${player.name}" 
                              class="card-img" 
                              onerror="this.src='assets/profile/profile_placeholder.png'">
                         
