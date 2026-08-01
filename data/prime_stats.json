@@ -17,7 +17,7 @@
   "global": {
     "matches": 73,
     "wr": 60,
-    "players": 78,
+    "players": 81,
     "radar": []
   },
   "teams": {
@@ -268,6 +268,10 @@
         {
           "summoner": "McOffensive#Pils",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -370,6 +374,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -407,8 +415,16 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Stamiii#VRV",
+          "is_captain": false
+        },
+        {
           "summoner": "zab77#EUW",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         },
         {
           "summoner": "Shoto#Hero4",
@@ -555,10 +571,6 @@
         {
           "summoner": "UIC Papi Δce#3072",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212407",
