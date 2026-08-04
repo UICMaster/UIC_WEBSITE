@@ -17,7 +17,7 @@
   "global": {
     "matches": 73,
     "wr": 60,
-    "players": 78,
+    "players": 79,
     "radar": []
   },
   "teams": {
@@ -415,6 +415,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Stamiii#VRV",
+          "is_captain": false
+        },
+        {
           "summoner": "zab77#EUW",
           "is_captain": false
         },
@@ -561,7 +565,7 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Papi Δce#3072",
+          "summoner": "Papi Δce#3072",
           "is_captain": true
         }
       ],
