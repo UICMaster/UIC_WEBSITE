@@ -17,7 +17,7 @@
   "global": {
     "matches": 73,
     "wr": 60,
-    "players": 80,
+    "players": 79,
     "radar": []
   },
   "teams": {
@@ -417,10 +417,6 @@
         {
           "summoner": "UIC Stamiii#VRV",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         },
         {
           "summoner": "zab77#EUW",
