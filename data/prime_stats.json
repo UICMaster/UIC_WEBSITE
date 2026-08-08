@@ -17,7 +17,7 @@
   "global": {
     "matches": 73,
     "wr": 60,
-    "players": 79,
+    "players": 80,
     "radar": []
   },
   "teams": {
@@ -314,6 +314,10 @@
         },
         {
           "summoner": "UIC Hayu#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "ygc#EUW",
           "is_captain": false
         },
         {
