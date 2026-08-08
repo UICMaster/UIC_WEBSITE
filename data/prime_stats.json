@@ -17,7 +17,7 @@
   "global": {
     "matches": 73,
     "wr": 60,
-    "players": 77,
+    "players": 79,
     "radar": []
   },
   "teams": {
@@ -69,12 +69,20 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Baguetto#R3kt",
           "is_captain": false
         },
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -313,10 +321,6 @@
           "is_captain": true
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
         },
@@ -374,6 +378,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -408,6 +416,10 @@
       "roster": [
         {
           "summoner": "UIC Shapeshift#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Stamiii#VRV",
           "is_captain": false
         },
         {
@@ -648,10 +660,6 @@
         },
         {
           "summoner": "Random Slytherin#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "DuBistGutGenug#Any",
           "is_captain": false
         },
         {
