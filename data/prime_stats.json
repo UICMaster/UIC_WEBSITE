@@ -17,7 +17,7 @@
   "global": {
     "matches": 73,
     "wr": 60,
-    "players": 80,
+    "players": 79,
     "radar": []
   },
   "teams": {
@@ -420,10 +420,6 @@
       "roster": [
         {
           "summoner": "UIC Shapeshift#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Stamiii#VRV",
           "is_captain": false
         },
         {
