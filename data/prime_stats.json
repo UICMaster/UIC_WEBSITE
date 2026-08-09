@@ -15,8 +15,8 @@
     ]
   },
   "global": {
-    "matches": 73,
-    "wr": 60,
+    "matches": 7,
+    "wr": 86,
     "players": 80,
     "radar": []
   },
@@ -27,26 +27,15 @@
         "div": null
       },
       "stats": {
-        "wins": 9,
-        "losses": 9,
-        "points": 11,
-        "games": 7,
-        "win_rate": 43,
-        "form": [
-          "L",
-          "W",
-          "L",
-          "L",
-          "W"
-        ]
+        "wins": 0,
+        "losses": 0,
+        "points": 0,
+        "games": 0,
+        "win_rate": 0,
+        "form": []
       },
       "next_match": null,
-      "last_match": {
-        "result": "SIEG",
-        "score": "2 - 1",
-        "enemy": "FTH",
-        "date": "2026-06-30T20:30:00+02:00"
-      },
+      "last_match": null,
       "roster": [
         {
           "summoner": "UIC Shenycrane#Vugel",
@@ -94,26 +83,15 @@
         "div": null
       },
       "stats": {
-        "wins": 11,
-        "losses": 6,
-        "points": 14,
-        "games": 7,
-        "win_rate": 71,
-        "form": [
-          "W",
-          "W",
-          "W",
-          "L",
-          "L"
-        ]
+        "wins": 0,
+        "losses": 0,
+        "points": 0,
+        "games": 0,
+        "win_rate": 0,
+        "form": []
       },
       "next_match": null,
-      "last_match": {
-        "result": "NIEDERLAGE",
-        "score": "0 - 2",
-        "enemy": "UFKA",
-        "date": "2026-06-28T17:00:00+02:00"
-      },
+      "last_match": null,
       "roster": [
         {
           "summoner": "SomalischerLP#Pirat",
@@ -169,26 +147,15 @@
         "div": null
       },
       "stats": {
-        "wins": 3,
-        "losses": 12,
-        "points": 3,
-        "games": 6,
+        "wins": 0,
+        "losses": 0,
+        "points": 0,
+        "games": 0,
         "win_rate": 0,
-        "form": [
-          "L",
-          "L",
-          "L",
-          "L",
-          "L"
-        ]
+        "form": []
       },
       "next_match": null,
-      "last_match": {
-        "result": "NIEDERLAGE",
-        "score": "0 - 2",
-        "enemy": "ELL",
-        "date": "2026-07-02T19:30:00+02:00"
-      },
+      "last_match": null,
       "roster": [
         {
           "summoner": "UIC VTennic#UIC",
@@ -228,26 +195,15 @@
         "div": null
       },
       "stats": {
-        "wins": 12,
-        "losses": 3,
-        "points": 15,
-        "games": 6,
-        "win_rate": 100,
-        "form": [
-          "W",
-          "W",
-          "W",
-          "W",
-          "W"
-        ]
+        "wins": 0,
+        "losses": 0,
+        "points": 0,
+        "games": 0,
+        "win_rate": 0,
+        "form": []
       },
       "next_match": null,
-      "last_match": {
-        "result": "SIEG",
-        "score": "2 - 0",
-        "enemy": "LIF",
-        "date": "2026-07-05T19:00:00+02:00"
-      },
+      "last_match": null,
       "roster": [
         {
           "summoner": "Reign#Teach",
@@ -287,26 +243,15 @@
         "div": null
       },
       "stats": {
-        "wins": 14,
+        "wins": 0,
         "losses": 0,
-        "points": 21,
-        "games": 7,
-        "win_rate": 100,
-        "form": [
-          "W",
-          "W",
-          "W",
-          "W",
-          "W"
-        ]
+        "points": 0,
+        "games": 0,
+        "win_rate": 0,
+        "form": []
       },
       "next_match": null,
-      "last_match": {
-        "result": "SIEG",
-        "score": "2 - 0",
-        "enemy": "TLD BP",
-        "date": "2026-06-30T19:15:00+02:00"
-      },
+      "last_match": null,
       "roster": [
         {
           "summoner": "UIC Kamo#tpt",
@@ -346,26 +291,15 @@
         "div": null
       },
       "stats": {
-        "wins": 8,
-        "losses": 6,
-        "points": 10,
-        "games": 6,
-        "win_rate": 67,
-        "form": [
-          "L",
-          "W",
-          "W",
-          "W",
-          "L"
-        ]
+        "wins": 0,
+        "losses": 0,
+        "points": 0,
+        "games": 0,
+        "win_rate": 0,
+        "form": []
       },
       "next_match": null,
-      "last_match": {
-        "result": "NIEDERLAGE",
-        "score": "0 - 2",
-        "enemy": "TK",
-        "date": "2026-06-21T19:00:00+02:00"
-      },
+      "last_match": null,
       "roster": [
         {
           "summoner": "xauberdave#dlmd",
@@ -397,26 +331,15 @@
         "div": null
       },
       "stats": {
-        "wins": 5,
-        "losses": 10,
-        "points": 5,
-        "games": 8,
-        "win_rate": 38,
-        "form": [
-          "L",
-          "W",
-          "L",
-          "L",
-          "W"
-        ]
+        "wins": 0,
+        "losses": 0,
+        "points": 0,
+        "games": 0,
+        "win_rate": 0,
+        "form": []
       },
       "next_match": null,
-      "last_match": {
-        "result": "SIEG",
-        "score": "1 - 0",
-        "enemy": "TT",
-        "date": "2026-07-12T19:00:00+02:00"
-      },
+      "last_match": null,
       "roster": [
         {
           "summoner": "UIC Shapeshift#UIC",
@@ -448,26 +371,15 @@
         "div": null
       },
       "stats": {
-        "wins": 12,
-        "losses": 1,
-        "points": 17,
-        "games": 6,
-        "win_rate": 100,
-        "form": [
-          "W",
-          "W",
-          "W",
-          "W",
-          "W"
-        ]
+        "wins": 0,
+        "losses": 0,
+        "points": 0,
+        "games": 0,
+        "win_rate": 0,
+        "form": []
       },
       "next_match": null,
-      "last_match": {
-        "result": "SIEG",
-        "score": "2 - 0",
-        "enemy": "LEG",
-        "date": "2026-07-02T19:00:00+02:00"
-      },
+      "last_match": null,
       "roster": [
         {
           "summoner": "UIC Bööööck#UIC",
@@ -586,26 +498,15 @@
         "div": null
       },
       "stats": {
-        "wins": 6,
-        "losses": 7,
-        "points": 8,
-        "games": 6,
-        "win_rate": 50,
-        "form": [
-          "W",
-          "L",
-          "L",
-          "W",
-          "L"
-        ]
+        "wins": 0,
+        "losses": 0,
+        "points": 0,
+        "games": 0,
+        "win_rate": 0,
+        "form": []
       },
       "next_match": null,
-      "last_match": {
-        "result": "NIEDERLAGE",
-        "score": "0 - 2",
-        "enemy": "ASINT",
-        "date": "2026-06-28T19:00:00+02:00"
-      },
+      "last_match": null,
       "roster": [
         {
           "summoner": "UIC ソニック#0815",
@@ -629,26 +530,15 @@
         "div": null
       },
       "stats": {
-        "wins": 3,
-        "losses": 12,
-        "points": 4,
-        "games": 7,
-        "win_rate": 14,
-        "form": [
-          "L",
-          "L",
-          "L",
-          "L",
-          "L"
-        ]
+        "wins": 0,
+        "losses": 0,
+        "points": 0,
+        "games": 0,
+        "win_rate": 0,
+        "form": []
       },
       "next_match": null,
-      "last_match": {
-        "result": "NIEDERLAGE",
-        "score": "0 - 2",
-        "enemy": "UCQ",
-        "date": "2026-07-05T19:00:00+02:00"
-      },
+      "last_match": null,
       "roster": [
         {
           "summoner": "zkanex#ADC",
