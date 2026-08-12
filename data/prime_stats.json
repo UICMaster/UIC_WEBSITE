@@ -18,7 +18,7 @@
   "global": {
     "matches": 7,
     "wr": 86,
-    "players": 82,
+    "players": 81,
     "radar": []
   },
   "teams": {
@@ -225,10 +225,6 @@
         {
           "summoner": "McOffensive#Pils",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
