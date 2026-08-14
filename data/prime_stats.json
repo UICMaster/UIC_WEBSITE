@@ -18,7 +18,7 @@
   "global": {
     "matches": 7,
     "wr": 86,
-    "players": 82,
+    "players": 81,
     "radar": []
   },
   "teams": {
@@ -353,10 +353,6 @@
         {
           "summoner": "zab77#EUW",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         },
         {
           "summoner": "Shoto#Hero4",
