@@ -3,6 +3,7 @@
     "teamsOrder": [
       "prime",
       "basilisk",
+      "baddie",
       "eclipse",
       "vakuum",
       "spark",
@@ -18,7 +19,7 @@
   "global": {
     "matches": 7,
     "wr": 86,
-    "players": 80,
+    "players": 79,
     "radar": []
   },
   "teams": {
@@ -57,6 +58,10 @@
         {
           "summoner": "UIC Baumi#123",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         },
         {
           "summoner": "UIC Baguetto#R3kt",
@@ -225,10 +230,6 @@
         {
           "summoner": "McOffensive#Pils",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -264,10 +265,6 @@
         },
         {
           "summoner": "UIC Ryu Copeland#117",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         },
         {
