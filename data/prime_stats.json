@@ -4,6 +4,7 @@
       "prime",
       "basilisk",
       "baddie",
+      "tempest",
       "eclipse",
       "vakuum",
       "spark",
@@ -19,7 +20,7 @@
   "global": {
     "matches": 7,
     "wr": 86,
-    "players": 80,
+    "players": 83,
     "radar": []
   },
   "teams": {
@@ -78,6 +79,42 @@
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/116000/116908.jpg?1768526642"
+    },
+    "tempest": {
+      "meta": {
+        "name": "Ultra Instinct Crew Tempest",
+        "div": null
+      },
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "points": 0,
+        "games": 0,
+        "win_rate": 0,
+        "form": []
+      },
+      "next_match": null,
+      "last_match": null,
+      "roster": [
+        {
+          "summoner": "Ballas#Potea",
+          "is_captain": false
+        },
+        {
+          "summoner": "LAG Kurt Schluss#1337",
+          "is_captain": true
+        },
+        {
+          "summoner": "LAG Lightning#Uzi",
+          "is_captain": false
+        },
+        {
+          "summoner": "イザナミ#MUCGG",
+          "is_captain": false
+        }
+      ],
+      "team_link": "https://www.primeleague.gg/de/leagues/teams/208606",
+      "logo": "https://cdn0.heartbase.gg/league_team_logos/208000/208606.jpg?1786906544"
     },
     "eclipse": {
       "meta": {
@@ -350,10 +387,6 @@
         {
           "summoner": "zab77#EUW",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         },
         {
           "summoner": "Shoto#Hero4",
