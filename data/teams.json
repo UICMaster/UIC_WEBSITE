@@ -1042,6 +1042,17 @@
         "isCaptain": false
       },
       {
+        "playerId": "0088",
+        "gameName": "BL4CKPINKFAN",
+        "tagLine": "FLOW",
+        "role": "MID",
+        "puuid": "cXIyOPrtDiD0vd-1MrO3P4FThAGg_eUlNzvtRNC-ZNDDnNQCNsf0DHIsfKfo5zmFsMlrl2NZAzOz9g",
+        "trackStats": true,
+        "discordId": "315184207594782730",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
         "playerId": "0077",
         "gameName": "RD Dragonfly",
         "tagLine": "UIC",
