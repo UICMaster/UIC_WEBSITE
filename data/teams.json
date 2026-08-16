@@ -239,8 +239,8 @@
         "gameName": "Ballas",
         "tagLine": "Potea",
         "role": "TOP",
-        "puuid": "",
-        "trackStats": false,
+        "puuid": "GLRQZhI8v8ucVR17uyNFLmq8HOK4J3bYLKBiyT-mc58aITOTqex6MwIuqgE6xs8k8EFK8gIJ6PxjdQ",
+        "trackStats": true,
         "discordId": "241943941572853760",
         "rosterStatus": "starter",
         "isCaptain": false
@@ -251,7 +251,7 @@
         "tagLine": "1337",
         "role": "JGL",
         "puuid": "",
-        "trackStats": false,
+        "trackStats": true,
         "discordId": "524997671916666886",
         "rosterStatus": "starter",
         "isCaptain": true
@@ -261,8 +261,8 @@
         "gameName": "LAG Levin2Go",
         "tagLine": "ATN",
         "role": "MID",
-        "puuid": "",
-        "trackStats": false,
+        "puuid": "Sz4reBn72kgI3iCCC_vA44hUbD0RTWKaTyWgWtr21Spjen3nr6-2oE-MVQmAxiC6f7njxCBmTM9_lA",
+        "trackStats": true,
         "discordId": "399959698062966794",
         "rosterStatus": "starter",
         "isCaptain": false
