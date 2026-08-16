@@ -19,7 +19,7 @@
   "global": {
     "matches": 7,
     "wr": 86,
-    "players": 78,
+    "players": 81,
     "radar": []
   },
   "teams": {
@@ -314,6 +314,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -340,8 +344,16 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Stamiii#VRV",
+          "is_captain": false
+        },
+        {
           "summoner": "zab77#EUW",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         },
         {
           "summoner": "Shoto#Hero4",
