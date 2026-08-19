@@ -20,7 +20,7 @@
   "global": {
     "matches": 7,
     "wr": 86,
-    "players": 85,
+    "players": 83,
     "radar": []
   },
   "teams": {
@@ -93,10 +93,6 @@
           "is_captain": false
         },
         {
-          "summoner": "LAG Levin2Go#ATN",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Kurt Schluss#1337",
           "is_captain": true
         },
@@ -107,22 +103,6 @@
         {
           "summoner": "イザナミ#MUCGG",
           "is_captain": false
-        },
-        {
-          "summoner": "LAG Phântox#ATN",
-          "is_captain": false
-        },
-        {
-          "summoner": "Drb best AD#drb",
-          "is_captain": false
-        },
-        {
-          "summoner": "ATN MukaMukaEyyy#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208606",
@@ -283,6 +263,10 @@
         {
           "summoner": "McOffensive#Pils",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -367,6 +351,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -395,6 +383,10 @@
         {
           "summoner": "zab77#EUW",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         },
         {
           "summoner": "Shoto#Hero4",
