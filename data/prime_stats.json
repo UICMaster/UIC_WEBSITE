@@ -20,7 +20,7 @@
   "global": {
     "matches": 7,
     "wr": 86,
-    "players": 83,
+    "players": 82,
     "radar": []
   },
   "teams": {
@@ -295,10 +295,6 @@
         {
           "summoner": "UIC Kamo#tpt",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Hayu#UIC",
-          "is_captain": false
         },
         {
           "summoner": "ygc#EUW",
