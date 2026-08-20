@@ -349,6 +349,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Keygasza#1337",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
         },
@@ -597,10 +601,6 @@
         },
         {
           "summoner": "UIC M Character#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Keygasza#1337",
           "is_captain": false
         }
       ],
