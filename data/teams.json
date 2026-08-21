@@ -162,24 +162,24 @@
     "tier": "Division 5",
     "roster": [
       {
-        "playerId": "0083",
-        "gameName": "",
-        "tagLine": "",
+        "playerId": "0075",
+        "gameName": "UIC Rayando07",
+        "tagLine": "Help",
         "role": "TOP",
-        "puuid": "",
-        "trackStats": false,
-        "discordId": "",
+        "puuid": "6SLO1ln5FlFBoW1mxcFvhIHwxgbUw1RWHogzDEH4irD5uTWxHfa4yCPzJXEoWQOhlLtEPzv9rmNDCQ",
+        "trackStats": true,
+        "discordId": "855126257859821579",
         "rosterStatus": "starter",
         "isCaptain": false
       },
       {
         "playerId": "0084",
-        "gameName": "",
-        "tagLine": "",
+        "gameName": "TTVXavertseltsam",
+        "tagLine": "Mr X",
         "role": "JGL",
-        "puuid": "",
-        "trackStats": false,
-        "discordId": "",
+        "puuid": "LVBIOhLQvPNK-le_nqzf9bQ5VRtgH-HvY_RnECyVKMIVE5mdjt1y3qeEyGaB9ybbZHoRVFKzIs8MfQ",
+        "trackStats": true,
+        "discordId": "382549209171230731",
         "rosterStatus": "starter",
         "isCaptain": false
       },
@@ -1100,17 +1100,6 @@
         "puuid": "SKxclARQWxiRzKEd4VtPJHTw3jfahqv6-SqOSDxnUUn5bAWCgPjx0MoMnQt64SW_ELtMkPLfSt-2xA",
         "trackStats": true,
         "discordId": "396457449982525451",
-        "rosterStatus": "starter",
-        "isCaptain": false
-      },
-      {
-        "playerId": "0075",
-        "gameName": "UIC Rayando07",
-        "tagLine": "Help",
-        "role": "TOP",
-        "puuid": "6SLO1ln5FlFBoW1mxcFvhIHwxgbUw1RWHogzDEH4irD5uTWxHfa4yCPzJXEoWQOhlLtEPzv9rmNDCQ",
-        "trackStats": true,
-        "discordId": "855126257859821579",
         "rosterStatus": "starter",
         "isCaptain": false
       },
