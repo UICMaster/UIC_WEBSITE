@@ -20,7 +20,7 @@
   "global": {
     "matches": 7,
     "wr": 86,
-    "players": 87,
+    "players": 81,
     "radar": []
   },
   "teams": {
@@ -61,6 +61,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Baguetto#R3kt",
           "is_captain": false
         },
@@ -93,10 +97,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Levin2Go#ATN",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Kurt Schluss#1337",
           "is_captain": true
         },
@@ -106,18 +106,6 @@
         },
         {
           "summoner": "イザナミ#MUCGG",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Phântox#ATN",
-          "is_captain": false
-        },
-        {
-          "summoner": "Drb best AD#drb",
-          "is_captain": false
-        },
-        {
-          "summoner": "ATN MukaMukaEyyy#EUW",
           "is_captain": false
         }
       ],
@@ -279,10 +267,6 @@
         {
           "summoner": "McOffensive#Pils",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -314,10 +298,6 @@
         },
         {
           "summoner": "UIC Ryu Copeland#117",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         },
         {
@@ -365,10 +345,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Keygasza#1337",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
         },
@@ -403,10 +379,6 @@
         {
           "summoner": "zab77#EUW",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         },
         {
           "summoner": "Shoto#Hero4",
@@ -617,6 +589,10 @@
         },
         {
           "summoner": "UIC M Character#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Keygasza#1337",
           "is_captain": false
         }
       ],
