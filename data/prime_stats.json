@@ -20,7 +20,7 @@
   "global": {
     "matches": 7,
     "wr": 86,
-    "players": 81,
+    "players": 82,
     "radar": []
   },
   "teams": {
@@ -71,6 +71,10 @@
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -345,6 +349,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Keygasza#1337",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
         },
@@ -589,10 +597,6 @@
         },
         {
           "summoner": "UIC M Character#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Keygasza#1337",
           "is_captain": false
         }
       ],
