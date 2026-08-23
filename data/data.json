@@ -426,10 +426,10 @@
       "role": "TOP",
       "level": 1337,
       "tier": "DIAMOND II",
-      "lp": 41,
+      "lp": 20,
       "wins": 298,
-      "losses": 317,
-      "winRate": 48.5,
+      "losses": 318,
+      "winRate": 48.4,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/7168.png"
     },
     {
@@ -534,12 +534,12 @@
       "playerId": "0027",
       "name": "UIC Hayu",
       "role": "MID",
-      "level": 949,
+      "level": 950,
       "tier": "MASTER I",
-      "lp": 610,
+      "lp": 579,
       "wins": 326,
-      "losses": 330,
-      "winRate": 49.7,
+      "losses": 331,
+      "winRate": 49.6,
       "icon": "https://ddragon.leagueoflegends.com/cdn/16.16.1/img/profileicon/5954.png"
     },
     {
