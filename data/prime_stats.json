@@ -20,7 +20,7 @@
   "global": {
     "matches": 7,
     "wr": 86,
-    "players": 86,
+    "players": 82,
     "radar": []
   },
   "teams": {
@@ -61,6 +61,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Baguetto#R3kt",
           "is_captain": false
         },
@@ -93,10 +97,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Levin2Go#ATN",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Kurt Schluss#1337",
           "is_captain": true
         },
@@ -107,22 +107,6 @@
         {
           "summoner": "イザナミ#MUCGG",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Phântox#ATN",
-          "is_captain": false
-        },
-        {
-          "summoner": "Drb best AD#drb",
-          "is_captain": false
-        },
-        {
-          "summoner": "ATN MukaMukaEyyy#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Ryu Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208606",
@@ -317,10 +301,6 @@
           "is_captain": true
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
         },
@@ -367,6 +347,10 @@
         {
           "summoner": "UIC DANY#RFA40",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ryu Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
