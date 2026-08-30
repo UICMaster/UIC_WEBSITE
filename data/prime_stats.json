@@ -10,6 +10,7 @@
       "spark",
       "phoenix",
       "cyber",
+      "raiders",
       "sakura",
       "nova",
       "polaris",
@@ -20,7 +21,7 @@
   "global": {
     "matches": 7,
     "wr": 86,
-    "players": 81,
+    "players": 95,
     "radar": []
   },
   "teams": {
@@ -79,6 +80,98 @@
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/116000/116908.jpg?1768526642"
+    },
+    "hydra": {
+      "meta": {
+        "name": "Ultra Instinct Crew Hydra",
+        "div": null
+      },
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "points": 0,
+        "games": 0,
+        "win_rate": 0,
+        "form": []
+      },
+      "next_match": null,
+      "last_match": null,
+      "roster": [
+        {
+          "summoner": "UIC Lanzus#AEGIS",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Nutty#Biggu",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Panger#JGA",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC PeaPuffer#PUFFY",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Voracity#0711",
+          "is_captain": false
+        },
+        {
+          "summoner": "MakZkovich#610",
+          "is_captain": false
+        }
+      ],
+      "team_link": "https://www.primeleague.gg/de/leagues/teams/212586",
+      "logo": "https://cdn0.heartbase.gg/league_team_logos/212000/212586.jpg?1778095909"
+    },
+    "ascend": {
+      "meta": {
+        "name": "Ultra Instinct Crew Ascend",
+        "div": null
+      },
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "points": 0,
+        "games": 0,
+        "win_rate": 0,
+        "form": []
+      },
+      "next_match": null,
+      "last_match": null,
+      "roster": [
+        {
+          "summoner": "TTVXavertseltsam#Mr X",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Qvy#rusty",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC stevie#LISA",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Racialle#EUW",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Rayando07#Help",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Bardie3#0711",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Kili#UIC",
+          "is_captain": false
+        }
+      ],
+      "team_link": "https://www.primeleague.gg/de/leagues/teams/212852",
+      "logo": "https://cdn0.heartbase.gg/league_team_logos/212000/212852.jpg?1787674689"
     },
     "tempest": {
       "meta": {
@@ -366,11 +459,11 @@
       "roster": [
         {
           "summoner": "UIC Shapeshift#UIC",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "Kreuzfeuer#EUW",
-          "is_captain": false
+          "is_captain": true
         },
         {
           "summoner": "zab77#EUW",
@@ -381,8 +474,12 @@
           "is_captain": false
         },
         {
+          "summoner": "Unranked#ADC",
+          "is_captain": true
+        },
+        {
           "summoner": "Daydream#161",
-          "is_captain": false
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208851",
