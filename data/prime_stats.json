@@ -21,7 +21,7 @@
   "global": {
     "matches": 7,
     "wr": 86,
-    "players": 94,
+    "players": 95,
     "radar": []
   },
   "teams": {
@@ -62,20 +62,12 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Baguetto#R3kt",
           "is_captain": false
         },
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -164,6 +156,10 @@
         {
           "summoner": "UIC Bardie3#0711",
           "is_captain": true
+        },
+        {
+          "summoner": "UIC Kili#UIC",
+          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212852",
@@ -340,6 +336,10 @@
         {
           "summoner": "UIC BissiBoy#UIC",
           "is_captain": true
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -371,6 +371,10 @@
         },
         {
           "summoner": "UIC Ryu Copeland#117",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         },
         {
