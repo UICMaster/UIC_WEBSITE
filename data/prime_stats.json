@@ -21,7 +21,7 @@
   "global": {
     "matches": 7,
     "wr": 86,
-    "players": 94,
+    "players": 100,
     "radar": []
   },
   "teams": {
@@ -433,6 +433,54 @@
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/198000/198490.jpg?1774785721"
     },
+    "raiders": {
+      "meta": {
+        "name": "Rift Raiders",
+        "div": null
+      },
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "points": 0,
+        "games": 0,
+        "win_rate": 0,
+        "form": []
+      },
+      "next_match": null,
+      "last_match": null,
+      "roster": [
+        {
+          "summoner": "FattyTeddy#0815",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Angie6875#555",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC SoulxEater#1908",
+          "is_captain": false
+        },
+        {
+          "summoner": "GER spectator#GER",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Schlnken#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "Lynx#XIV",
+          "is_captain": false
+        },
+        {
+          "summoner": "탈리야#zzxo",
+          "is_captain": false
+        }
+      ],
+      "team_link": "https://www.primeleague.gg/de/leagues/teams/211794",
+      "logo": "https://cdn0.heartbase.gg/league_team_logos/211000/211794.jpg?1780253365"
+    },
     "sakura": {
       "meta": {
         "name": "Ultra Instinct Crew Sakura",
@@ -460,10 +508,6 @@
         {
           "summoner": "zab77#EUW",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         },
         {
           "summoner": "Shoto#Hero4",
