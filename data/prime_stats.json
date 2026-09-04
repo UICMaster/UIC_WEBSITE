@@ -21,7 +21,7 @@
   "global": {
     "matches": 7,
     "wr": 86,
-    "players": 98,
+    "players": 100,
     "radar": []
   },
   "teams": {
@@ -336,6 +336,10 @@
         {
           "summoner": "UIC BissiBoy#UIC",
           "is_captain": true
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -468,10 +472,6 @@
         {
           "summoner": "UIC Schlnken#UIC",
           "is_captain": false
-        },
-        {
-          "summoner": "Lynx#XIV",
-          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/211794",
@@ -498,8 +498,16 @@
           "is_captain": true
         },
         {
+          "summoner": "Kreuzfeuer#EUW",
+          "is_captain": true
+        },
+        {
           "summoner": "zab77#EUW",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         },
         {
           "summoner": "Shoto#Hero4",
