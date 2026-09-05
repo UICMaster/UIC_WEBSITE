@@ -21,7 +21,7 @@
   "global": {
     "matches": 7,
     "wr": 86,
-    "players": 100,
+    "players": 99,
     "radar": []
   },
   "teams": {
@@ -156,10 +156,6 @@
         {
           "summoner": "UIC Bardie3#0711",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Kili#UIC",
-          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212852",
