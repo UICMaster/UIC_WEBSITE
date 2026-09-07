@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>💖 JOSHUA KLAS SHRINE 💖 | ULTIMATE CARRY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* =========================================
+           ULTIMATE TRASH LOVE THEME
+        ========================================= */
+        body {
+            font-family: "Impact", "Comic Sans MS", sans-serif !important;
+            background-color: #050505;
+            background-image: radial-gradient(#ff00ff 2px, transparent 2px);
+            background-size: 30px 30px;
+            color: #00ff00;
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+            cursor: url('https://cur.cursors-4u.net/symbols/sym-1/sym46.cur'), auto;
+        }
+
+        /* -----------------------------------------
+           THE ENTRY BARRIER
+        ----------------------------------------- */
+        #enter-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100vw; height: 100vh;
+            background: rgba(0, 0, 0, 0.95);
+            z-index: 999999;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            cursor: pointer;
+            border: 20px solid #ff00ff;
+        }
+        #enter-overlay h1 {
+            font-size: 6rem;
+            color: #ff00ff;
+            text-shadow: 10px 10px 0px #00ff00;
+            animation: pulse-trash 0.3s infinite alternate;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        /* -----------------------------------------
+           NAVBAR
+        ----------------------------------------- */
+        .navbar {
+            background: #000 !important;
+            border-bottom: 5px solid #00ff00 !important;
+        }
+        .navbar .nav-link, .navbar .brand-name, .navbar .brand-sub {
+            font-family: "Impact", sans-serif !important;
+            color: #00ff00 !important;
+            text-shadow: 2px 2px 0px #ff00ff !important;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* -----------------------------------------
+           OPPRESSIVE FULL-SCREEN GIF ZONES
+        ----------------------------------------- */
+        .oppressive-gif-zone {
+            width: 100vw;
+            padding: 80px 20px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #000;
+            border-top: 15px dashed #ff00ff;
+            border-bottom: 15px dashed #ff00ff;
+            box-shadow: 0 0 100px #ff00ff inset;
+            overflow: hidden;
+        }
+        
+        /* The wrapper ensures the GIF is massive but not cropped */
+        .gif-wrapper {
+            width: 95vw;
+            max-width: 900px;
+            margin: 20px auto;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Massive Text overlay above/below GIFs */
+        .oppressive-text {
+            font-size: 6rem;
+            color: yellow;
+            text-shadow: 6px 6px 0px red, -3px -3px 0px black;
+            z-index: 100;
+            pointer-events: none;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 1.1;
+            margin-bottom: 20px;
+        }
+
+        /* -----------------------------------------
+           MAIN SHRINE SECTIONS
+        ----------------------------------------- */
+        .shrine-section {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 80px 20px;
+            text-align: center;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* The Holy Image */
+        .spin-player {
+            width: 450px;
+            height: 450px;
+            border-radius: 50%;
+            border: 25px solid #00ff00;
+            box-shadow: 0 0 100px #00ff00, 0 0 200px #ff00ff;
+            animation: spin 5s linear infinite;
+            margin: 40px 0;
+            object-fit: cover;
+            background: #fff;
+        }
+        @keyframes spin { 100% { transform: rotate(360deg); } }
+        
+        @keyframes pulse-trash {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.05); }
+        }
+
+        /* Blinking Titles */
+        .blinking-trash {
+            font-size: 7rem;
+            color: #ff00ff;
+            text-shadow: 8px 8px 0 #00ff00, -5px -5px 0 #fff;
+            animation: blinker 0.1s linear infinite;
+            margin: 0;
+            text-transform: uppercase;
+        }
+        @keyframes blinker { 50% { opacity: 0; } }
+
+        /* -----------------------------------------
+           GALLERY OF GODHOOD
+        ----------------------------------------- */
+        .gallery-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            max-width: 1400px;
+            margin-top: 50px;
+        }
+        .polaroid {
+            background: #fff;
+            padding: 15px 15px 40px 15px;
+            border: 8px solid #ff00ff;
+            box-shadow: 15px 15px 0px #00ff00;
+            transform: rotate(-10deg);
+            transition: all 0.2s;
+            max-width: 280px;
+        }
+        .polaroid:nth-child(even) { transform: rotate(15deg); border-color: yellow; }
+        .polaroid:hover { transform: scale(1.4) rotate(0deg); z-index: 100; border-color: red; }
+        .polaroid img { width: 100%; height: auto; border: 4px solid #000; }
+        .polaroid p { color: #000; font-family: "Comic Sans MS", cursive; font-size: 1.4rem; font-weight: bold; margin-top: 10px; }
+
+        /* -----------------------------------------
+           BOOK OF EXCUSES
+        ----------------------------------------- */
+        .love-quote-box {
+            background: #000;
+            border: 15px solid #00ff00;
+            padding: 40px;
+            max-width: 1000px;
+            margin: 50px auto;
+            box-shadow: 20px 20px 0 #ff00ff;
+        }
+        .placeholder-quote {
+            background: #111;
+            color: #00ff00;
+            padding: 15px;
+            font-family: monospace;
+            border: 4px dotted #ff00ff;
+            display: block;
+            margin: 20px 0;
+            font-size: 1.5rem;
+        }
+        
+        /* -----------------------------------------
+           SOUNDBOARD BUTTONS
+        ----------------------------------------- */
+        .soundboard {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+            max-width: 1200px;
+        }
+        .btn-love-sound {
+            background: yellow;
+            color: red;
+            border: 8px solid #00ff00;
+            padding: 25px 40px;
+            font-size: 2rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            font-family: "Impact", sans-serif;
+            box-shadow: 10px 10px 0px #ff00ff;
+            cursor: crosshair;
+        }
+        .btn-love-sound:active {
+            transform: translate(10px, 10px);
+            box-shadow: 0px 0px 0px #ff00ff;
+            background: red;
+            color: yellow;
+        }
+
+        .site-footer {
+            background: #000 !important;
+            border-top: 15px dashed #00ff00 !important;
+        }
+        .site-footer p { color: #00ff00 !important; font-size: 1.2rem; font-family: monospace;}
+        
+        .heart-float {
+            position: fixed;
+            font-size: 4rem;
+            z-index: 99999;
+            pointer-events: none;
+            animation: flyBy 2s linear forwards;
+        }
+        @keyframes flyBy {
+            0% { transform: translateY(100vh) scale(0.5) rotate(0deg); opacity: 1; }
+            100% { transform: translateY(-20vh) scale(3) rotate(720deg); opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- AUDIO PLAYER (Hidden) - Updated path to assets/hoshi/ -->
+    <audio id="bg-music" loop>
+        <!-- Replace bg_music.mp3 with your actual background track filename -->
+        <source src="assets/hoshi/aatrox_gyatt.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- ENTRY BARRIER -->
+    <div id="enter-overlay" onclick="startTheChaos()">
+        <h2 style="color: #00ff00; font-size: 3rem; margin-bottom: 20px;">SYSTEM BEREIT...</h2>
+        <h1>💖 KLICKE HIER FÜR DIE LOVE ZONE 💖</h1>
+        <h2 style="color: yellow; font-size: 2rem; margin-top: 20px;">(WARNUNG: MASSIVE TOP LANE DIFF INSIDE)</h2>
+        <img src="assets/hoshi/speedy_froehlich.png" style="width: 250px; margin-top: 40px; border-radius: 50%; border: 15px solid #00ff00; animation: spin 2s infinite linear;">
+    </div>
+
+    <!-- Floating Hearts Container -->
+    <div id="heart-container"></div>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-state" style="display: none;">
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container nav-inner">
+            <a href="#hero" class="logo-module">
+                <div class="logo-text">
+                    <span class="brand-name">UIC</span>
+                    <span class="brand-sub" style="color: #ff00ff;">💖 LOVE ZONE</span>
+                </div>
+            </a>
+            <div class="nav-separator desktop-only"></div>
+            <label for="nav-toggle" class="nav-burger">
+                <span class="line" style="background:#00ff00;"></span>
+                <span class="line" style="background:#00ff00;"></span>
+                <span class="line" style="background:#00ff00;"></span>
+            </label>
+            <div class="nav-deck">
+                <ul class="nav-list">
+                    <li><a href="#shrine" class="nav-link">DER KULT</a></li>
+                    <li><a href="#gallery" class="nav-link">GALERIE</a></li>
+                    <li><a href="#excuses" class="nav-link">AUSREDEN</a></li>
+                    <li><a href="#soundboard" class="nav-link">TRASH TALK</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECTION 1: THE SHRINE -->
+    <main class="shrine-section" id="shrine">
+        <marquee scrollamount="50" style="font-size: 5rem; color: #fff; background: red; border: 10px solid yellow; margin-bottom: 20px; width: 100vw;">
+            🚀💖 DACHDECKEREI WOLLE PRÄSENTIERT 🚀💖 DEN EINZIG WAHREN CARRY 🚀💖 UNSEREN GOTT 💖🚀
+        </marquee>
+
+        <h1 class="blinking-trash">💖 JOSHUA KLAS 💖</h1>
+        <h2 style="color: #00ff00; text-shadow: 4px 4px #ff00ff; font-size: 4rem; background: #000; padding: 10px 40px; border: 10px dashed yellow; margin-top: 10px;">
+            DIE FAUST GOTTES
+        </h2>
+        
+        <!-- Updated onclick with sound file argument -->
+        <img src="assets/hoshi/speedy_brille_zocken.png" alt="Joshua Klas The Legend" class="spin-player" onclick="playSound('ICH HAB 2000 PING! 💖', 'ping_excuse')">
+    </main>
+
+    <!-- OPPRESSIVE ZONE 1: AATROX TWERK -->
+    <div class="oppressive-gif-zone">
+        <div class="oppressive-text">TOP LANE<br>DOMINANCE</div>
+        <div class="gif-wrapper">
+            <div class="tenor-gif-embed" data-postid="2074425090421168839" data-share-method="host" data-aspect-ratio="1" data-width="100%"></div>
+        </div>
+    </div>
+
+    <!-- SECTION 2: GALLERY OF GODHOOD -->
+    <section class="shrine-section" id="gallery">
+        <h1 style="font-size: 6rem; color: yellow; text-shadow: 6px 6px 0px #ff00ff;">📸 GALERIE DER GÖTTLICHKEIT 📸</h1>
+        <div class="gallery-grid">
+            <div class="polaroid">
+                <img src="assets/hoshi/speedy_fussball.png" alt="Sporty Boy">
+                <p>Gamer Focus ⚽</p>
+            </div>
+            <div class="polaroid">
+                <img src="assets/hoshi/speedy_brille.png" alt="Cute">
+                <p>Wenn der Rizz kickt 😎</p>
+            </div>
+            <div class="polaroid">
+                <img src="assets/hoshi/speedy_cool.jpg" alt="Model Material">
+                <p>Frederick Lau?! 🥵</p>
+            </div>
+            <div class="polaroid">
+                <img src="assets/hoshi/image_5bbfc3.jpg" alt="Peaky Blinders">
+                <p>Peaky Toplaner 🎩</p>
+            </div>
+            <div class="polaroid">
+                <img src="assets/hoshi/speedy_schule.jpg" alt="Smart">
+                <p>Mastermind 🧠</p>
+            </div>
+            <div class="polaroid">
+                <img src="assets/hoshi/speedy_froehlich.png" alt="Happy">
+                <p>0/10 Powerspike 🥹</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- OPPRESSIVE ZONE 2: K'SANTE (FULL WIDTH WALL OF TRASH) -->
+    <div class="oppressive-gif-zone" style="background: #0a0a0a; padding: 0;">
+        
+        <!-- Massive Text floating directly OVER K'Sante -->
+        <div class="oppressive-text" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-10deg); color: #00ff00; font-size: 8vw; white-space: nowrap; z-index: 200; margin: 0; text-shadow: 8px 8px 0px #ff00ff, -4px -4px 0px #000;">
+            THIS IS NOT<br>BALANCED
+        </div>
+        
+        <!-- 100vw Wrapper for K'Sante -->
+        <div style="width: 100vw; position: relative; z-index: 10;">
+            <div class="tenor-gif-embed" data-postid="5321623566600918401" data-share-method="host" data-aspect-ratio="1" data-width="100%"></div>
+        </div>
+    </div>
+
+    <!-- SECTION 3: BOOK OF EXCUSES -->
+    <section class="shrine-section" id="excuses">
+        <div class="love-quote-box">
+            <h3 style="color: #ff00ff; font-size: 5rem; text-shadow: 4px 4px #00ff00; margin-bottom: 20px; text-transform: uppercase;">📖 BUCH DER AUSREDEN 📖</h3>
+            <p style="font-size: 3rem; font-weight: bold; margin-bottom: 15px; color: yellow; font-family: Impact;">"IMMER DIESE SCHEISS OTPs" 🙄💖</p>
+            
+            <span class="placeholder-quote">➤ [PLATZHALTER: JOSHUAS BESTE AUSREDE HIER EINFÜGEN. ZB: "DER JUNGLER WAR 5 MAL TOP, WO WAR UNSERER?!"]</span>
+            <span class="placeholder-quote">➤ [PLATZHALTER: SÜSSER SPRUCH ZUM CHAMP POOL. ZB: "OFF-META IST DIE NEUE META WENN ER SPIELT"]</span>
+            
+            <p style="font-size: 2rem; margin-top: 30px; color: #ff00ff;">EGAL WIE TIEF DIE ELO SINKT, WIR LIEBEN DICH! 📉❤️</p>
+        </div>
+    </section>
+
+    <!-- OPPRESSIVE ZONE 3: GNAR & AMBESSA CHAOS -->
+    <div class="oppressive-gif-zone">
+        <div class="oppressive-text" style="color: #ff00ff;">ABSOLUTES KINO</div>
+        
+        <!-- Ambessa -->
+        <div class="gif-wrapper" style="margin-bottom: 50px;">
+            <div class="tenor-gif-embed" data-postid="15384636728765855031" data-share-method="host" data-aspect-ratio="1.77857" data-width="100%"></div>
+        </div>
+
+        <!-- Gnar -->
+        <div class="gif-wrapper">
+            <div class="tenor-gif-embed" data-postid="15281299792726695244" data-share-method="host" data-aspect-ratio="1.02963" data-width="100%"></div>
+        </div>
+    </div>
+
+    <!-- SECTION 4: SOUNDBOARD -->
+    <section class="shrine-section" id="soundboard">
+        <h1 style="font-size: 7rem; color: #fff; text-shadow: 8px 8px 0px #ff0000; margin-bottom: 50px;">🔴 TRASH TALK BOARD 🔴</h1>
+        
+        <!-- Updated buttons to pass the corresponding audio file name from assets/hoshi/ -->
+        <div class="soundboard">
+            <button class="btn-love-sound" onclick="playSound('Wo ist der Gank?! 💘', 'wo_gank')">💘 WO GANK?</button>
+            <button class="btn-love-sound" onclick="playSound('Jungs, vertraut mir, der Pick funktioniert. 💖', 'off_meta')">✨ OFF-META PICK</button>
+            <button class="btn-love-sound" onclick="playSound('Midlane open. 💝', 'mid_open')">💔 MID OPEN</button>
+            <button class="btn-love-sound" onclick="playSound('1v1 Baron Pit! 🤗', '1v1_baron')">⚔️ 1V1 ME BRO</button>
+            <button class="btn-love-sound" onclick="playSound('[PLATZHALTER: LUSTIGES ZITAT VOM DISCORD]', 'discord_zitat')">💬 [PLATZHALTER ZITAT]</button>
+            <button class="btn-love-sound" onclick="playSound('Malerbetrieb Schorn regelt mit Liebe! 🎨💖', 'sponsor')">🎨 SPONSOR SHOUTOUT</button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer section-pad">
+        <div class="container" style="text-align: center;">
+            <marquee scrollamount="20" style="font-size: 3rem; color: #00ff00; font-family: Impact; text-transform: uppercase;">
+                MADE WITH 💖, 0 LP, UND GANZ VIEL TRASH-VIBES 🚀 HODL DEN INHIBITOR 📉 
+            </marquee>
+            <p style="margin-top: 20px;">&copy; 2026 Ultra Instinct Crew - Department of Love & Shitposting.</p>
+        </div>
+    </footer>
+
+    <!-- Tenor Script loaded once at the bottom for all embeds -->
+    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+    <!-- CHAOS JAVASCRIPT -->
+    <script>
+        let hasEntered = false;
+
+        function startTheChaos() {
+            document.getElementById('enter-overlay').style.display = 'none';
+            
+            // Try to play background music
+            const bgm = document.getElementById('bg-music');
+            bgm.volume = 0.8;
+            bgm.play().catch(e => console.log("Audio play failed (no file yet):", e));
+
+            if(!hasEntered) {
+                // Spawn hearts aggressively
+                setInterval(createHeart, 250); 
+                hasEntered = true;
+            }
+        }
+
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.classList.add('heart-float');
+            const hearts = ['💖', '🚀', '💘', '💯', '🔥', '✨', '🦍'];
+            heart.innerText = hearts[Math.floor(Math.random() * hearts.length)];
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.color = Math.random() > 0.5 ? '#ff00ff' : '#00ff00';
+            document.getElementById('heart-container').appendChild(heart);
+            setTimeout(() => { heart.remove(); }, 2000);
+        }
+
+        // Updated function to handle actual audio file playback
+        function playSound(quote, audioFile) {
+            // Play Audio
+            if(audioFile) {
+                const sound = new Audio(`assets/hoshi/${audioFile}.mp3`);
+                sound.play().catch(e => console.log("Missing audio file:", e));
+            }
+
+            // Flash the background color brightly
+            document.body.style.filter = `hue-rotate(${Math.floor(Math.random() * 360)}deg) invert(100%)`;
+            setTimeout(() => { document.body.style.filter = 'none'; }, 150);
+            
+            // Spawn massive text anywhere on the page, fixed to viewport
+            const floatingText = document.createElement('div');
+            floatingText.innerText = "🗣️ " + quote;
+            
+            const colors = ['#00ffff', '#ffff00', '#ff00ff', '#ffffff', '#00ff00'];
+            floatingText.style.position = 'fixed';
+            floatingText.style.left = Math.random() * 20 + '%';
+            floatingText.style.top = Math.random() * 60 + 10 + '%';
+            floatingText.style.color = colors[Math.floor(Math.random() * colors.length)];
+            floatingText.style.fontSize = (Math.random() * 3 + 4) + 'rem';
+            floatingText.style.fontFamily = '"Impact", sans-serif';
+            floatingText.style.textTransform = 'uppercase';
+            floatingText.style.textShadow = '8px 8px 0 #000, -4px -4px 0 #ff0000';
+            floatingText.style.zIndex = '99999';
+            floatingText.style.pointerEvents = 'none'; 
+            floatingText.style.transition = 'all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+            floatingText.style.transform = 'scale(0.1) rotate(-45deg)';
+            
+            document.body.appendChild(floatingText);
+
+            // Pop in animation
+            setTimeout(() => {
+                floatingText.style.transform = `scale(1) translateY(-50px) rotate(${Math.random() * 40 - 20}deg)`;
+            }, 50);
+
+            // Fade out
+            setTimeout(() => {
+                floatingText.style.opacity = '0';
+                floatingText.style.transform = 'translateY(-300px) scale(2)';
+            }, 1000);
+
+            // Clean up
+            setTimeout(() => { floatingText.remove(); }, 1500);
+        }
+    </script>
+</body>
+</html>
