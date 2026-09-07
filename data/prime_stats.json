@@ -12,15 +12,13 @@
       "cyber",
       "raiders",
       "sakura",
-      "nova",
-      "ember",
-      "abyss"
+      "nova"
     ]
   },
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 90,
+    "players": 81,
     "radar": []
   },
   "teams": {
@@ -61,12 +59,20 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Baguetto#R3kt",
           "is_captain": false
         },
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -369,10 +375,6 @@
           "is_captain": true
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
         },
@@ -470,6 +472,10 @@
         },
         {
           "summoner": "Lynx#XIV",
+          "is_captain": false
+        },
+        {
+          "summoner": "탈리야#zzxo",
           "is_captain": false
         }
       ],
@@ -579,90 +585,6 @@
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/203447",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/203000/203447.jpg?1768386652"
-    },
-    "ember": {
-      "meta": {
-        "name": "Ultra Instinct Crew Ember",
-        "div": null
-      },
-      "stats": {
-        "wins": 0,
-        "losses": 0,
-        "points": 0,
-        "games": 0,
-        "win_rate": 0,
-        "form": []
-      },
-      "next_match": null,
-      "last_match": null,
-      "roster": [
-        {
-          "summoner": "UIC ソニック#0815",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Envy#UIC",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Flare#JND",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC Shockwave#EUW",
-          "is_captain": true
-        }
-      ],
-      "team_link": "https://www.primeleague.gg/de/leagues/teams/211165",
-      "logo": "https://cdn0.heartbase.gg/league_team_logos/211000/211165.jpg?1765449081"
-    },
-    "abyss": {
-      "meta": {
-        "name": "Ultra Instinct Crew Abyss",
-        "div": null
-      },
-      "stats": {
-        "wins": 0,
-        "losses": 0,
-        "points": 0,
-        "games": 0,
-        "win_rate": 0,
-        "form": []
-      },
-      "next_match": null,
-      "last_match": null,
-      "roster": [
-        {
-          "summoner": "zkanex#ADC",
-          "is_captain": true
-        },
-        {
-          "summoner": "Päscl#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "N1TOS#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "Random Slytherin#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "yShizuu#ÊUW",
-          "is_captain": true
-        },
-        {
-          "summoner": "UIC M Character#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Keygasza#1337",
-          "is_captain": false
-        }
-      ],
-      "team_link": "https://www.primeleague.gg/de/leagues/teams/191522",
-      "logo": "https://cdn0.heartbase.gg/league_team_logos/191000/191522.jpg?1777659260"
     }
   }
 }
