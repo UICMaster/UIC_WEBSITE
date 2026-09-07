@@ -1,10 +1,10 @@
 [
   {
     "id": "1546542489140203571",
-    "name": "FAQ Event | Turnier der Kraft Summer Split 2026",
+    "name": "FAQ Event | Versammlung | Turnier der Kraft Summer Split 2026",
     "description": "Hier werden alle offenen Fragen zum Turnier der Kraft beantwortet. Am ende wird das Bracket offengelegt.",
-    "type": "TOURNAMENT",
-    "highlight": false,
+    "type": "ORGANIZATION",
+    "highlight": true,
     "start": "2026-09-11T17:15:00+00:00",
     "end": "2026-09-11T19:15:00.000Z",
     "location": "https://discord.gg/ultrainstinctcrew",
