@@ -18,7 +18,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 80,
+    "players": 81,
     "radar": []
   },
   "teams": {
@@ -472,6 +472,10 @@
         },
         {
           "summoner": "Lynx#XIV",
+          "is_captain": false
+        },
+        {
+          "summoner": "탈리야#zzxo",
           "is_captain": false
         }
       ],
