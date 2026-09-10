@@ -12,13 +12,14 @@
       "cyber",
       "raiders",
       "sakura",
-      "nova"
+      "nova",
+      "dinonuggets"
     ]
   },
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 79,
+    "players": 90,
     "radar": []
   },
   "teams": {
@@ -183,6 +184,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Levin2Go#ATN",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Kurt Schluss#1337",
           "is_captain": true
         },
@@ -192,6 +197,18 @@
         },
         {
           "summoner": "イザナミ#MUCGG",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Phântox#ATN",
+          "is_captain": false
+        },
+        {
+          "summoner": "Drb best AD#drb",
+          "is_captain": false
+        },
+        {
+          "summoner": "ATN MukaMukaEyyy#EUW",
           "is_captain": false
         }
       ],
@@ -301,6 +318,10 @@
         {
           "summoner": "UIC Inferno#CLOWN",
           "is_captain": true
+        },
+        {
+          "summoner": "Superior#1110",
+          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/207696",
@@ -332,6 +353,10 @@
         },
         {
           "summoner": "UIC BissiBoy#UIC",
+          "is_captain": true
+        },
+        {
+          "summoner": "UIC Goku#UIC",
           "is_captain": true
         }
       ],
@@ -465,10 +490,6 @@
         {
           "summoner": "UIC Schlnken#UIC",
           "is_captain": false
-        },
-        {
-          "summoner": "Lynx#XIV",
-          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/211794",
@@ -501,6 +522,10 @@
         {
           "summoner": "zab77#EUW",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         },
         {
           "summoner": "Shoto#Hero4",
@@ -577,6 +602,46 @@
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/203447",
       "logo": "https://cdn0.heartbase.gg/league_team_logos/203000/203447.jpg?1768386652"
+    },
+    "dinonuggets": {
+      "meta": {
+        "name": "Ultra Instinct Crew Dinonuggets",
+        "div": null
+      },
+      "stats": {
+        "wins": 0,
+        "losses": 0,
+        "points": 0,
+        "games": 0,
+        "win_rate": 0,
+        "form": []
+      },
+      "next_match": null,
+      "last_match": null,
+      "roster": [
+        {
+          "summoner": "CrintyPlay#EUW",
+          "is_captain": true
+        },
+        {
+          "summoner": "Californium#098",
+          "is_captain": true
+        },
+        {
+          "summoner": "BigSchuetze2#EUW",
+          "is_captain": false
+        },
+        {
+          "summoner": "LK SwissBack#EUW",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC DontMethWith#AMB",
+          "is_captain": false
+        }
+      ],
+      "team_link": "https://www.primeleague.gg/de/leagues/teams/212432",
+      "logo": "https://cdn0.heartbase.gg/league_team_logos/212000/212432.jpg?1788812270"
     }
   }
 }
