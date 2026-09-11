@@ -19,7 +19,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 90,
+    "players": 87,
     "radar": []
   },
   "teams": {
@@ -60,12 +60,20 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Baguetto#R3kt",
           "is_captain": false
         },
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -184,10 +192,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Levin2Go#ATN",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Kurt Schluss#1337",
           "is_captain": true
         },
@@ -197,18 +201,6 @@
         },
         {
           "summoner": "イザナミ#MUCGG",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Phântox#ATN",
-          "is_captain": false
-        },
-        {
-          "summoner": "Drb best AD#drb",
-          "is_captain": false
-        },
-        {
-          "summoner": "ATN MukaMukaEyyy#EUW",
           "is_captain": false
         }
       ],
@@ -354,10 +346,6 @@
         {
           "summoner": "UIC BissiBoy#UIC",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -392,10 +380,6 @@
           "is_captain": true
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Loonz#Coach",
           "is_captain": true
         },
@@ -427,6 +411,10 @@
       "next_match": null,
       "last_match": null,
       "roster": [
+        {
+          "summoner": "Askir#Jhin",
+          "is_captain": false
+        },
         {
           "summoner": "xauberdave#dlmd",
           "is_captain": false
@@ -490,6 +478,10 @@
         {
           "summoner": "UIC Schlnken#UIC",
           "is_captain": false
+        },
+        {
+          "summoner": "Lynx#XIV",
+          "is_captain": false
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/211794",
@@ -522,10 +514,6 @@
         {
           "summoner": "zab77#EUW",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         },
         {
           "summoner": "Shoto#Hero4",
