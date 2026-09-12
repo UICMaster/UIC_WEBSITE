@@ -1,18 +1,5 @@
 [
   {
-    "id": "1546542959216828469",
-    "name": "Day 1 | Turnier der Kraft Summer Split 2026",
-    "description": "Lets fucking go!",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-09-12T11:30:00+00:00",
-    "end": "2026-09-12T12:30:00+00:00",
-    "location": "https://www.twitch.tv/ultrainstinctcrew",
-    "image": null,
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
     "id": "1546543461056913468",
     "name": "Day 2 | Turnier der Kraft Summer Split 2026",
     "description": "Lets fucking go, reloaded!",
