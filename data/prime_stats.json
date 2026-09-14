@@ -19,7 +19,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 87,
+    "players": 88,
     "radar": []
   },
   "teams": {
@@ -70,6 +70,10 @@
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -154,10 +158,6 @@
         {
           "summoner": "UIC Bardie3#0711",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Kili#UIC",
-          "is_captain": false
         },
         {
           "summoner": "UIC proStarII#UIC",
@@ -477,6 +477,10 @@
         },
         {
           "summoner": "Lynx#XIV",
+          "is_captain": false
+        },
+        {
+          "summoner": "탈리야#zzxo",
           "is_captain": false
         }
       ],
