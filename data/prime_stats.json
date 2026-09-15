@@ -19,7 +19,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 86,
+    "players": 88,
     "radar": []
   },
   "teams": {
@@ -60,20 +60,12 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC Baguetto#R3kt",
           "is_captain": false
         },
         {
           "summoner": "UIC Giani#999",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Goku#UIC",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/116908",
@@ -152,12 +144,20 @@
           "is_captain": true
         },
         {
+          "summoner": "UIC Ace#ACE",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Rayando07#Help",
           "is_captain": false
         },
         {
           "summoner": "UIC Bardie3#0711",
           "is_captain": true
+        },
+        {
+          "summoner": "UIC Kili#UIC",
+          "is_captain": false
         },
         {
           "summoner": "UIC proStarII#UIC",
@@ -342,6 +342,10 @@
         {
           "summoner": "UIC BissiBoy#UIC",
           "is_captain": true
+        },
+        {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208694",
@@ -368,11 +372,11 @@
           "is_captain": true
         },
         {
-          "summoner": "UIC Ace#ACE",
-          "is_captain": false
+          "summoner": "UIC Ryu Copeland#117",
+          "is_captain": true
         },
         {
-          "summoner": "UIC Ryu Copeland#117",
+          "summoner": "UIC Cerberus#GOATZ",
           "is_captain": true
         },
         {
@@ -506,6 +510,10 @@
         {
           "summoner": "zab77#EUW",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         },
         {
           "summoner": "Shoto#Hero4",
