@@ -640,15 +640,15 @@
           "is_captain": true
         },
         {
-          "summoner": "BigSchuetze2#EUW",
-          "is_captain": false
-        },
-        {
           "summoner": "LK SwissBack#EUW",
           "is_captain": false
         },
         {
           "summoner": "UIC DontMethWith#AMB",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC BigSchuetze#DINO",
           "is_captain": false
         }
       ],
