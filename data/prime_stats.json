@@ -19,7 +19,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 85,
+    "players": 89,
     "radar": []
   },
   "teams": {
@@ -166,6 +166,10 @@
         {
           "summoner": "UIC Bardie3#0711",
           "is_captain": true
+        },
+        {
+          "summoner": "UIC Kili#UIC",
+          "is_captain": false
         },
         {
           "summoner": "UIC proStarII#UIC",
@@ -468,7 +472,19 @@
           "is_captain": false
         },
         {
+          "summoner": "GER spectator#GER",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Schlnken#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "Lynx#XIV",
+          "is_captain": false
+        },
+        {
+          "summoner": "탈리야#zzxo",
           "is_captain": false
         }
       ],
