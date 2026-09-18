@@ -19,7 +19,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 92,
+    "players": 88,
     "radar": []
   },
   "teams": {
@@ -192,10 +192,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Levin2Go#ATN",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Kurt Schluss#1337",
           "is_captain": true
         },
@@ -206,22 +202,6 @@
         {
           "summoner": "イザナミ#MUCGG",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Phântox#ATN",
-          "is_captain": false
-        },
-        {
-          "summoner": "Drb best AD#drb",
-          "is_captain": false
-        },
-        {
-          "summoner": "ATN MukaMukaEyyy#EUW",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208606",
@@ -454,6 +434,10 @@
         {
           "summoner": "Pavus#Zephr",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
