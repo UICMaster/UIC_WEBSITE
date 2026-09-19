@@ -148,10 +148,6 @@
           "is_captain": true
         },
         {
-          "summoner": "UIC BL4CKPINKFAN#FLOW",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Ace#ACE",
           "is_captain": false
         },
@@ -162,10 +158,6 @@
         {
           "summoner": "UIC Bardie3#0711",
           "is_captain": true
-        },
-        {
-          "summoner": "UIC Kili#UIC",
-          "is_captain": false
         },
         {
           "summoner": "UIC proStarII#UIC",
@@ -196,6 +188,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Levin2Go#ATN",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Kurt Schluss#1337",
           "is_captain": true
         },
@@ -206,6 +202,22 @@
         {
           "summoner": "イザナミ#MUCGG",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Phântox#ATN",
+          "is_captain": false
+        },
+        {
+          "summoner": "Drb best AD#drb",
+          "is_captain": false
+        },
+        {
+          "summoner": "ATN MukaMukaEyyy#EUW",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208606",
@@ -438,10 +450,6 @@
         {
           "summoner": "Pavus#Zephr",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -476,19 +484,7 @@
           "is_captain": false
         },
         {
-          "summoner": "GER spectator#GER",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Schlnken#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "Lynx#XIV",
-          "is_captain": false
-        },
-        {
-          "summoner": "탈리야#zzxo",
           "is_captain": false
         }
       ],
@@ -522,6 +518,10 @@
         {
           "summoner": "zab77#EUW",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         },
         {
           "summoner": "Shoto#Hero4",
