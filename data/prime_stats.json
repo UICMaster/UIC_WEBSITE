@@ -19,7 +19,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 90,
+    "players": 92,
     "radar": []
   },
   "teams": {
@@ -148,6 +148,10 @@
           "is_captain": true
         },
         {
+          "summoner": "UIC BL4CKPINKFAN#FLOW",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Ace#ACE",
           "is_captain": false
         },
@@ -158,6 +162,10 @@
         {
           "summoner": "UIC Bardie3#0711",
           "is_captain": true
+        },
+        {
+          "summoner": "UIC Kili#UIC",
+          "is_captain": false
         },
         {
           "summoner": "UIC proStarII#UIC",
@@ -214,10 +222,6 @@
         {
           "summoner": "ATN MukaMukaEyyy#EUW",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Panda#CSX",
-          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/208606",
@@ -245,10 +249,6 @@
         },
         {
           "summoner": "SomalischerLP#Pirat",
-          "is_captain": false
-        },
-        {
-          "summoner": "Nick Halden#1977",
           "is_captain": false
         },
         {
@@ -450,6 +450,10 @@
         {
           "summoner": "Pavus#Zephr",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Panda#CSX",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/198490",
@@ -484,7 +488,15 @@
           "is_captain": false
         },
         {
+          "summoner": "GER spectator#GER",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC Schlnken#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "탈리야#zzxo",
           "is_captain": false
         }
       ],
@@ -518,10 +530,6 @@
         {
           "summoner": "zab77#EUW",
           "is_captain": false
-        },
-        {
-          "summoner": "UIC Ayumu#LoveK",
-          "is_captain": true
         },
         {
           "summoner": "Shoto#Hero4",
@@ -620,10 +628,6 @@
       "last_match": null,
       "roster": [
         {
-          "summoner": "Californium#098",
-          "is_captain": true
-        },
-        {
           "summoner": "UIC SwissBack#MID",
           "is_captain": false
         },
@@ -638,6 +642,10 @@
         {
           "summoner": "UIC BigSchuetze#DINO",
           "is_captain": false
+        },
+        {
+          "summoner": "Californium#098",
+          "is_captain": true
         }
       ],
       "team_link": "https://www.primeleague.gg/de/leagues/teams/212432",
