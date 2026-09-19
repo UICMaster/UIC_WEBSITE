@@ -628,10 +628,6 @@
       "last_match": null,
       "roster": [
         {
-          "summoner": "UIC SwissBack#MID",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC DontMethWith#AMB",
           "is_captain": false
         },
@@ -641,6 +637,10 @@
         },
         {
           "summoner": "UIC BigSchuetze#DINO",
+          "is_captain": false
+        },
+        {
+          "summoner": "UIC SwissBack#MID",
           "is_captain": false
         },
         {
