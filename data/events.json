@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "1550872683229741057",
+    "name": "Ultra Instinct Crew Cyber vs. Late Night Canis",
+    "description": "match 3",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-09-19T14:20:00+00:00",
+    "end": "2026-09-19T16:20:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1164453",
+    "image": "https://cdn.discordapp.com/guild-events/1550872683229741057/95aeeba0b8abab739c681d702962b7c6.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Cyber",
+      "Late Night Canis"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  }
+]
