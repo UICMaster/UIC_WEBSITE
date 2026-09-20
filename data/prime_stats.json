@@ -19,7 +19,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 92,
+    "players": 91,
     "radar": []
   },
   "teams": {
@@ -149,10 +149,6 @@
         },
         {
           "summoner": "UIC BL4CKPINKFAN#FLOW",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Ace#ACE",
           "is_captain": false
         },
         {
