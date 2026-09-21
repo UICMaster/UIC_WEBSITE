@@ -19,7 +19,7 @@
   "global": {
     "matches": 0,
     "wr": 0,
-    "players": 91,
+    "players": 90,
     "radar": []
   },
   "teams": {
@@ -44,6 +44,10 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Goku#UIC",
+          "is_captain": true
+        },
+        {
           "summoner": "UIC Speedy#EUW",
           "is_captain": true
         },
@@ -58,6 +62,10 @@
         {
           "summoner": "UIC Baumi#123",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Cerberus#GOATZ",
+          "is_captain": true
         },
         {
           "summoner": "UIC Baguetto#R3kt",
@@ -192,10 +200,6 @@
           "is_captain": false
         },
         {
-          "summoner": "UIC Levin2Go#ATN",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Kurt Schluss#1337",
           "is_captain": true
         },
@@ -205,18 +209,6 @@
         },
         {
           "summoner": "イザナミ#MUCGG",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Phântox#ATN",
-          "is_captain": false
-        },
-        {
-          "summoner": "Drb best AD#drb",
-          "is_captain": false
-        },
-        {
-          "summoner": "ATN MukaMukaEyyy#EUW",
           "is_captain": false
         }
       ],
@@ -245,6 +237,10 @@
         },
         {
           "summoner": "SomalischerLP#Pirat",
+          "is_captain": false
+        },
+        {
+          "summoner": "Nick Halden#1977",
           "is_captain": false
         },
         {
@@ -356,6 +352,14 @@
           "is_captain": false
         },
         {
+          "summoner": "UIC Haselmania#UIC",
+          "is_captain": false
+        },
+        {
+          "summoner": "SméagoI#LOL",
+          "is_captain": false
+        },
+        {
           "summoner": "UIC BissiBoy#UIC",
           "is_captain": true
         }
@@ -384,11 +388,11 @@
           "is_captain": true
         },
         {
-          "summoner": "UIC Ryu Copeland#117",
-          "is_captain": true
+          "summoner": "UIC Ace#ACE",
+          "is_captain": false
         },
         {
-          "summoner": "UIC Cerberus#GOATZ",
+          "summoner": "UIC Ryu Copeland#117",
           "is_captain": true
         },
         {
@@ -484,15 +488,7 @@
           "is_captain": false
         },
         {
-          "summoner": "GER spectator#GER",
-          "is_captain": false
-        },
-        {
           "summoner": "UIC Schlnken#UIC",
-          "is_captain": false
-        },
-        {
-          "summoner": "탈리야#zzxo",
           "is_captain": false
         }
       ],
@@ -526,6 +522,10 @@
         {
           "summoner": "zab77#EUW",
           "is_captain": false
+        },
+        {
+          "summoner": "UIC Ayumu#LoveK",
+          "is_captain": true
         },
         {
           "summoner": "Shoto#Hero4",
@@ -569,10 +569,6 @@
         },
         {
           "summoner": "UIC Namorii#Nova",
-          "is_captain": false
-        },
-        {
-          "summoner": "UIC Deavan#UIC",
           "is_captain": false
         },
         {
