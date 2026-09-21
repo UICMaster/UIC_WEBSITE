@@ -1,135 +1,123 @@
 const fs = require('fs');
 const path = require('path');
 
-// --- THE ADAPTER ---
-// Read the new automated database
-const rawTeamsData = JSON.parse(fs.readFileSync('./data/teams.json', 'utf8'));
+// --- PATHS & HEADERS ---
+const INPUT_PATH = path.resolve(process.cwd(), 'data', 'teams.json');
+const OUTPUT_PATH = path.resolve(process.cwd(), 'data', 'golden_prime_league.json');
+const HEADERS = { 'User-Agent': 'UIC-Data-Warehouse/1.0' };
 
-// Transform dictionary to the strict Array format, filtering out empty IDs
-const CONFIG = {
-    teams: Object.entries(rawTeamsData)
-        .filter(([key, teamData]) => teamData.primeLeagueId && teamData.primeLeagueId.trim() !== "")
-        .map(([key, teamData]) => ({
-            key: key.toLowerCase(), 
-            id: String(teamData.primeLeagueId) 
-        }))
-};
+async function buildGoldenJSON() {
+    console.log("🚀 Starting Golden Prime League Sync...");
+    const localTeamsData = JSON.parse(fs.readFileSync(INPUT_PATH, 'utf8'));
+    const goldenDatabase = {};
 
-// Update target output directory to /data
-const OUTPUT_PATH = path.resolve(process.cwd(), 'data', 'prime_stats.json');
-const HEADERS = { 'User-Agent': 'UIC-Dashboard-Bot/4.2' };
-// -------------------
-
-async function getTeamIntel(team) {
-    console.log(`📡 Synchronisiere: ${team.key.toUpperCase()}...`);
-    try {
-        const response = await fetch(`https://primebot.me/api/v1/teams/${team.id}/`, { headers: HEADERS });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const data = await response.json();
+    for (const [teamKey, localTeamInfo] of Object.entries(localTeamsData)) {
+        console.log(`📡 Fetching data for: ${localTeamInfo.teamDisplay || teamKey}...`);
         
-        let mapWins = 0, mapLosses = 0, totalPoints = 0, sWins = 0, sLosses = 0;
-        let formHistory = [], nextMatch = null, lastMatch = null;
-        const validTypes = ['league', 'playoff'];
-        const now = new Date(); 
+        // Initialize the base structure inheriting your local data
+        goldenDatabase[teamKey] = {
+            ...localTeamInfo,
+            api_meta: null,
+            roster: [...localTeamInfo.roster], // Clone to safely mutate
+            matches: []
+        };
 
-        if (data.matches) {
-            const sorted = [...data.matches].sort((a, b) => new Date(a.begin) - new Date(b.begin));
+        const teamId = localTeamInfo.primeLeagueId;
+        
+        // Skip API fetch if no ID is present (e.g., Community team)
+        if (!teamId || teamId.trim() === "") {
+            console.log(`⚠️ Skipping API fetch for ${teamKey} (No Prime League ID).`);
+            continue;
+        }
+
+        try {
+            const response = await fetch(`https://primebot.me/api/v1/teams/${teamId}/`, { headers: HEADERS });
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            const apiData = await response.json();
+
+            // 1. INHERIT API META DATA
+            goldenDatabase[teamKey].api_meta = {
+                id: apiData.id,
+                name: apiData.name,
+                team_tag: apiData.team_tag,
+                division: apiData.division,
+                logo_url: apiData.logo_url,
+                prime_league_link: apiData.prime_league_link,
+                updated_at: apiData.updated_at
+            };
+
+            // 2. MERGE ROSTERS (Local Data + API Data)
+            const apiPlayers = apiData.players || [];
             
-            sorted.forEach(m => {
-                if (!validTypes.includes(m.match_type)) return;
-                const mDate = new Date(m.begin);
+            // Update local roster with API specifics
+            goldenDatabase[teamKey].roster = goldenDatabase[teamKey].roster.map(localPlayer => {
+                const apiMatch = apiPlayers.find(p => p.summoner_name.toLowerCase() === localPlayer.gameName.toLowerCase());
+                return {
+                    ...localPlayer,
+                    api_id: apiMatch ? apiMatch.id : null,
+                    isCaptain: apiMatch ? apiMatch.is_leader : localPlayer.isCaptain,
+                    api_name: apiMatch ? apiMatch.name : null, // The real name if provided to the API
+                    in_api_roster: !!apiMatch
+                };
+            });
 
-                if (m.result && mDate < now) {
-                    const [us, them] = m.result.split(':').map(Number);
-                    if (!isNaN(us)) {
-                        mapWins += us; mapLosses += them;
-                        if (us === 2 && them === 0) totalPoints += 3;
-                        else if (us === 2 && them === 1) totalPoints += 2;
-                        else if (us === 1 && them === 2) totalPoints += 1;
-
-                        if (us > them) { formHistory.push('W'); sWins++; } 
-                        else { formHistory.push('L'); sLosses++; }
-
-                        lastMatch = {
-                            result: us > them ? "SIEG" : "NIEDERLAGE",
-                            score: `${us} - ${them}`,
-                            enemy: m.enemy_team?.team_tag || "OPP",
-                            date: m.begin
-                        };
-                    }
-                }
-                
-                if (!nextMatch && mDate > now) {
-                    const enemyLineup = m.enemy_lineup ? m.enemy_lineup.map(p => p.summoner_name) : [];
-                    nextMatch = { 
-                        date: m.begin, 
-                        tag: m.enemy_team?.team_tag || "TBD", 
-                        link: m.prime_league_link,
-                        enemy_roster: enemyLineup
-                    };
+            // Append players found in API but missing in your local teams.json (Edge Case Safety)
+            apiPlayers.forEach(apiPlayer => {
+                const existsLocally = goldenDatabase[teamKey].roster.find(p => p.gameName.toLowerCase() === apiPlayer.summoner_name.toLowerCase());
+                if (!existsLocally) {
+                    goldenDatabase[teamKey].roster.push({
+                        playerId: "UNKNOWN_LOCAL",
+                        gameName: apiPlayer.summoner_name,
+                        role: "UNKNOWN",
+                        rosterStatus: "api_only",
+                        isCaptain: apiPlayer.is_leader,
+                        api_id: apiPlayer.id,
+                        in_api_roster: true,
+                        missing_in_local: true
+                    });
                 }
             });
-        }
 
-        return {
-            meta: { name: data.name, div: data.division },
-            stats: { wins: mapWins, losses: mapLosses, points: totalPoints, games: (sWins + sLosses), win_rate: (sWins + sLosses) > 0 ? Math.round((sWins / (sWins + sLosses)) * 100) : 0, form: formHistory.slice(-5) },
-            next_match: nextMatch,
-            last_match: lastMatch,
-            roster: (data.players || []).map(p => ({ summoner: p.summoner_name, is_captain: p.is_leader })),
-            team_link: data.prime_league_link,
-            logo: data.logo_url
-        };
-    } catch (e) { 
-        console.error(`❌ Fehler bei ${team.key}:`, e.message);
-        return null; 
-    }
-}
-
-async function start() {
-    let existingData = { teams: {} };
-    if (fs.existsSync(OUTPUT_PATH)) existingData = JSON.parse(fs.readFileSync(OUTPUT_PATH, 'utf8'));
-
-    const results = {};
-    let gMatches = 0, gSeriesWins = 0, gPlayers = new Set();
-    let allUpcomingMatches = [];
-
-    for (const team of CONFIG.teams) {
-        if (team.active === false) continue; 
-        
-        let stats = await getTeamIntel(team);
-        if (!stats && existingData.teams[team.key]) stats = existingData.teams[team.key];
-
-        if (stats) {
-            results[team.key] = stats;
-            gMatches += stats.stats.games;
-            gSeriesWins += Math.round((stats.stats.win_rate / 100) * stats.stats.games);
-            stats.roster.forEach(p => gPlayers.add(p.summoner));
-            
-            if (stats.next_match) {
-                allUpcomingMatches.push({
-                    team_key: team.key.toUpperCase(),
-                    date: stats.next_match.date,
-                    enemy: stats.next_match.tag,
-                    link: stats.next_match.link
+            // 3. INHERIT AND FORMAT ALL MATCHES
+            if (apiData.matches) {
+                goldenDatabase[teamKey].matches = apiData.matches.map(m => {
+                    // Ensure the confirmed flag is explicitly a boolean for downstream scripts
+                    const isConfirmed = m.match_begin_confirmed !== undefined ? Boolean(m.match_begin_confirmed) : false;
+                    
+                    return {
+                        id: m.id,
+                        match_id: m.match_id,
+                        match_type: m.match_type,
+                        match_day: m.match_day,
+                        begin: m.begin,
+                        confirmed: isConfirmed, // <-- The critical flag for your downstream scripts
+                        result: m.result || null,
+                        prime_league_link: m.prime_league_link,
+                        updated_at: m.updated_at,
+                        enemy_team: m.enemy_team ? {
+                            id: m.enemy_team.id,
+                            name: m.enemy_team.name,
+                            team_tag: m.enemy_team.team_tag,
+                            prime_league_link: m.enemy_team.prime_league_link,
+                            logo_url: m.enemy_team.logo_url || null // Included if API provides it here
+                        } : null,
+                        team_lineup: m.team_lineup || [],
+                        enemy_lineup: m.enemy_lineup || []
+                    };
                 });
             }
+
+        } catch (e) {
+            console.error(`❌ Error fetching data for ${teamKey}:`, e.message);
         }
-        await new Promise(r => setTimeout(r, 200)); 
+
+        // Respect API rate limits
+        await new Promise(r => setTimeout(r, 250));
     }
 
-    const globalRadar = allUpcomingMatches
-        .sort((a, b) => new Date(a.date) - new Date(b.date))
-        .slice(0, 5);
-
-    const payload = {
-        config: { teamsOrder: CONFIG.teams.map(t => t.key) },
-        global: { matches: gMatches, wr: gMatches > 0 ? Math.round((gSeriesWins / gMatches) * 100) : 0, players: gPlayers.size, radar: globalRadar },
-        teams: results
-    };
-    
-    fs.writeFileSync(OUTPUT_PATH, JSON.stringify(payload, null, 2));
-    console.log(`✅ Daten erfolgreich gespeichert: ${OUTPUT_PATH}`);
+    // Write the Golden JSON
+    fs.writeFileSync(OUTPUT_PATH, JSON.stringify(goldenDatabase, null, 2));
+    console.log(`✅ Golden Data successfully built: ${OUTPUT_PATH}`);
 }
 
-start();
+buildGoldenJSON();
