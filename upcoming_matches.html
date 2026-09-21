@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UIC Upcoming Matches</title>
+<style>
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;width:200px;height:450px;overflow:hidden;background:transparent}
+  body{font-family:Arial,Helvetica,sans-serif;color:#fff}
+  #overlay{
+    width:200px;height:450px;padding:7px 8px 5px 5px;
+    background:linear-gradient(100deg,rgba(7,8,9,.97),rgba(14,15,16,.91));
+    position:relative;overflow:hidden;
+  }
+  #overlay:before{
+    content:"";position:absolute;inset:0;pointer-events:none;opacity:.14;
+    background:repeating-linear-gradient(135deg,transparent 0 8px,rgba(255,255,255,.05) 9px,transparent 10px 17px);
+  }
+  .brand{position:relative;text-align:left;margin:0 0 5px 5px}
+  .brand-main{font-size:27px;line-height:.9;font-weight:1000;font-style:italic;letter-spacing:-2px}
+  .brand-sub{font-size:6px;letter-spacing:2.1px;margin-top:4px;color:#ddd}
+  .gold{color:#d7aa50}
+  .rule{height:1px;background:linear-gradient(90deg,#d7aa50,#6f6f6f,transparent);margin:5px 0 6px}
+  .heading{position:relative;margin-left:5px;margin-bottom:5px}
+  .heading .up{font-size:15px;font-weight:1000;letter-spacing:.2px}
+  .heading .matches{font-size:20px;font-weight:1000;font-style:italic;letter-spacing:-.7px;color:#d7aa50;line-height:.9}
+  #matches{position:relative;display:flex;flex-direction:column;gap:5px}
+  .match{height:105px;position:relative;border-bottom:1px solid rgba(215,170,80,.72);padding-bottom:4px}
+  .datebar{
+    height:26px;display:flex;align-items:center;gap:10px;padding:0 8px;
+    border-top:1px solid rgba(215,170,80,.85);border-bottom:1px solid rgba(215,170,80,.85);
+    background:linear-gradient(90deg,rgba(30,30,30,.95),rgba(15,15,15,.6));
+    clip-path:polygon(0 0,100% 0,92% 100%,0 100%);
+  }
+  .date{font-size:15px;font-weight:1000}
+  .time{font-size:15px;font-weight:1000;color:#d7aa50}
+  .versus{height:72px;display:grid;grid-template-columns:70px 30px 70px;align-items:center;justify-content:center;gap:2px}
+  .team{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:0}
+  .logo{width:50px;height:50px;object-fit:contain;filter:drop-shadow(0 2px 2px rgba(0,0,0,.8))}
+  .tag{font-size:7px;font-weight:900;letter-spacing:1.8px;margin-top:1px;max-width:68px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .vs{font-size:14px;font-weight:1000;text-align:center}
+  .vs:after{content:"";display:block;width:16px;height:2px;background:#d7aa50;margin:3px auto 0}
+  #status{position:relative;font-size:11px;padding:10px 5px}
+</style>
+</head>
+<body>
+<div id="overlay">
+  <div class="brand">
+    <div class="brand-main">UIC</div>
+    <div class="brand-sub">ULTRA INSTINCT CREW</div>
+  </div>
+  <div class="rule"></div>
+  <div class="heading">
+    <div class="up">UPCOMING</div>
+    <div class="matches">MATCHES</div>
+  </div>
+  <div id="matches"></div>
+  <div id="status"></div>
+</div>
+<script>
+(() => {
+  const matches = document.getElementById("matches");
+  const status = document.getElementById("status");
+  const esc = s => String(s ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+  function parts(iso){
+    const d=new Date(iso);
+    const date=new Intl.DateTimeFormat("de-DE",{timeZone:"Europe/Berlin",day:"2-digit",month:"2-digit"}).format(d);
+    const time=new Intl.DateTimeFormat("de-DE",{timeZone:"Europe/Berlin",hour:"2-digit",minute:"2-digit",hour12:false}).format(d);
+    return {date,time};
+  }
+
+  async function load(){
+    try{
+      const r=await fetch("/api/matches",{cache:"no-store"});
+      const data=await r.json();
+      const list=(data.matches||[]).slice(0,3);
+      if(!list.length){
+        matches.innerHTML="";
+        status.textContent=data.error ? "Daten konnten nicht geladen werden." : "Keine kommenden Matches.";
+        return;
+      }
+      status.textContent="";
+      matches.innerHTML=list.map(m=>{
+        const p=parts(m.startsAt);
+        return `<div class="match">
+          <div class="datebar"><span class="date">${esc(p.date)}</span><span class="time">${esc(p.time)}</span></div>
+          <div class="versus">
+            <div class="team"><img class="logo" src="/uic-logo.png" alt="UIC"><div class="tag">UIC</div></div>
+            <div class="vs">VS</div>
+            <div class="team"><img class="logo" src="${esc(m.opponentLogo)}" alt="${esc(m.opponentAlt)}"><div class="tag">${esc(m.opponentAlt || "OPP")}</div></div>
+          </div>
+        </div>`;
+      }).join("");
+    }catch(e){
+      matches.innerHTML="";
+      status.textContent="Overlay-Server nicht erreichbar.";
+    }
+  }
+  load();
+  setInterval(load,30000);
+})();
+</script>
+</body>
+</html>
