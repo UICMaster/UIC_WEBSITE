@@ -3,7 +3,7 @@ const path = require('path');
 
 // --- PATHS & HEADERS ---
 const INPUT_PATH = path.resolve(process.cwd(), 'data', 'teams.json');
-const OUTPUT_PATH = path.resolve(process.cwd(), 'data', 'golden_prime_league.json');
+const OUTPUT_PATH = path.resolve(process.cwd(), 'data', 'prime_stats.json');
 const HEADERS = { 'User-Agent': 'UIC-Data-Warehouse/1.0' };
 
 async function buildGoldenJSON() {
