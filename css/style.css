@@ -1166,7 +1166,7 @@ img {
 }
 
 /* =========================================
-   11. DATEN CENTER MATRIX (#stats)
+   11. PRIME STATS  (#stats)
    ========================================= */
 
 .telemetry-global-strip {
@@ -1240,6 +1240,11 @@ img {
 .radar-list { display: flex; flex-direction: column; gap: 10px; }
 .radar-row { display: grid; grid-template-columns: 100px 1fr auto; align-items: center; gap: 15px; padding: 12px 15px; background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-left: 2px solid var(--secondary); transition: all 0.3s; }
 .radar-row:hover { background: rgba(0, 240, 255, 0.05); border-left-color: var(--primary); }
+
+/* NEW: Unconfirmed Match Radar State */
+.radar-row.unconfirmed-row { border-left-color: #ffaa00; border-left-style: dashed; }
+.radar-row.unconfirmed-row:hover { border-left-color: #ffcc00; }
+
 .r-date { font-family: var(--font-head); font-size: 0.8rem; color: var(--primary); display: flex; flex-direction: column; }
 .r-matchup { font-family: var(--font-head); font-size: 1.1rem; color: #fff; text-transform: uppercase; }
 
