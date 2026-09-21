@@ -6,6 +6,27 @@ const INPUT_PATH = path.resolve(process.cwd(), 'data', 'teams.json');
 const OUTPUT_PATH = path.resolve(process.cwd(), 'data', 'prime_stats.json');
 const HEADERS = { 'User-Agent': 'UIC-Data-Warehouse/1.0' };
 
+// --- HELPERS ---
+// Helper to safely match Riot IDs between API and Local JSON
+function isSamePlayer(apiSummonerName, localPlayer) {
+    if (!apiSummonerName || !localPlayer || !localPlayer.gameName) return false;
+    
+    const apiClean = apiSummonerName.toLowerCase().trim();
+    const localNameClean = localPlayer.gameName.toLowerCase().trim();
+    const localCombined = `${localPlayer.gameName}#${localPlayer.tagLine || ''}`.toLowerCase().trim();
+
+    // 1. Exact match with full Riot ID (e.g. "uic speedy#euw" === "uic speedy#euw")
+    if (apiClean === localCombined) return true;
+    
+    // 2. Exact match with just gameName (e.g. "uic speedy" === "uic speedy")
+    if (apiClean === localNameClean) return true;
+
+    // 3. API has tag, but we only check the prefix (e.g. "uic speedy#euw" matches "uic speedy")
+    if (apiClean.split('#')[0].trim() === localNameClean) return true;
+
+    return false;
+}
+
 async function buildGoldenJSON() {
     console.log("🚀 Starting Golden Prime League Sync...");
     const localTeamsData = JSON.parse(fs.readFileSync(INPUT_PATH, 'utf8'));
@@ -46,12 +67,12 @@ async function buildGoldenJSON() {
                 updated_at: apiData.updated_at
             };
 
-            // 2. MERGE ROSTERS (Local Data + API Data)
+            // 2. MERGE ROSTERS (Local Data + API Data) using the Riot ID Helper
             const apiPlayers = apiData.players || [];
             
             // Update local roster with API specifics
             goldenDatabase[teamKey].roster = goldenDatabase[teamKey].roster.map(localPlayer => {
-                const apiMatch = apiPlayers.find(p => p.summoner_name.toLowerCase() === localPlayer.gameName.toLowerCase());
+                const apiMatch = apiPlayers.find(p => isSamePlayer(p.summoner_name, localPlayer));
                 return {
                     ...localPlayer,
                     api_id: apiMatch ? apiMatch.id : null,
@@ -63,7 +84,7 @@ async function buildGoldenJSON() {
 
             // Append players found in API but missing in your local teams.json (Edge Case Safety)
             apiPlayers.forEach(apiPlayer => {
-                const existsLocally = goldenDatabase[teamKey].roster.find(p => p.gameName.toLowerCase() === apiPlayer.summoner_name.toLowerCase());
+                const existsLocally = goldenDatabase[teamKey].roster.find(localPlayer => isSamePlayer(apiPlayer.summoner_name, localPlayer));
                 if (!existsLocally) {
                     goldenDatabase[teamKey].roster.push({
                         playerId: "UNKNOWN_LOCAL",
