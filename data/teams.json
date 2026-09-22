@@ -280,6 +280,79 @@
       }
     ]
   },
+  "dynasty": {
+    "primeLeagueId": "206270",
+    "teamDisplay": "UIC Dynasty",
+    "tier": "Division 4",
+    "roster": [
+      {
+        "playerId": "0053",
+        "gameName": "helloitskostas",
+        "tagLine": "alina",
+        "role": "TOP",
+        "puuid": "SaAWi4HhMDY8GDhdd0cv7VqAd8bTbEDbySmXWZDA2hQbGhjE9MRYiSX6WqqSFKGHo-QXt2H0LqnIqA",
+        "trackStats": true,
+        "discordId": "362998422707372033",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0056",
+        "gameName": "Vaugg",
+        "tagLine": "EUW",
+        "role": "JGL",
+        "puuid": "gJcownmL47BoDKBvGZbcXNibfoM9dEIFU4h58J5qJrnLyuYPbyunhFmAIhbZoQtwoomgjBWU_xY7gg",
+        "trackStats": true,
+        "discordId": "242774606266499072",
+        "rosterStatus": "starter",
+        "isCaptain": true
+      },
+      {
+        "playerId": "0057",
+        "gameName": "Kyzero",
+        "tagLine": "EGB",
+        "role": "MID",
+        "puuid": "7dPFblKoQ6uoLWhDENMYo0rIKMP5ygKiDjZXDMpHCYgvSMnMpHzZkpjbzke_aGYAPsW6oAv5SBxGpg",
+        "trackStats": true,
+        "discordId": "182524313629360129",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0058",
+        "gameName": "ATALANTA",
+        "tagLine": "ADC",
+        "role": "BOT",
+        "puuid": "kffwTXfgXkNkaLE9wk7GNCZtNViI6fmYHpIsb0_tmj9o_k_6gEmKBAY0qT_B8bvvvcU-cZ3mz5ccUw",
+        "trackStats": true,
+        "discordId": "1317200411777568793",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0059",
+        "gameName": "legend of leeks",
+        "tagLine": "EUW",
+        "role": "SUP",
+        "puuid": "UUNBCHLya2ZV3E9j7y3EKFjrIyWLpm8_g0tKKnvzH71yr92Sp-agu8PdPOUBp1SwkGVMEABqQblyhw",
+        "trackStats": true,
+        "discordId": "303860734503157760",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
+        "playerId": "0061",
+        "gameName": "GER spectator",
+        "tagLine": "GER",
+        "role": "MNG",
+        "puuid": "Flu-MTx4ZbRpZFxt5fiRnhxAJ8pFmVfRvT-xtFwe3nssj2M3UImpf6COo4r_nZEqcypqWQ7M0r6F5w",
+        "trackStats": true,
+        "discordId": "530753578655023126",
+        "rosterStatus": "staff",
+        "isCaptain": false
+      }
+    ]
+  },
   "eclipse": {
     "primeLeagueId": "208131",
     "teamDisplay": "UIC Eclipse",
