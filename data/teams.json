@@ -151,6 +151,17 @@
         "isCaptain": false
       },
       {
+        "playerId": "9999",
+        "gameName": "UIC Davy",
+        "tagLine": "JGL",
+        "role": "JGL",
+        "puuid": "iHGuc5nUsaonKh269ravoxO5BctQxMI6hMxnQkQQ2bU6RsF6LzTuJXsc_Mx8_S2dH7Pq7NTFhmuahQ",
+        "trackStats": true,
+        "discordId": "415606674120900628",
+        "rosterStatus": "starter",
+        "isCaptain": false
+      },
+      {
         "playerId": "0084",
         "gameName": "UIC Xaverseltsam",
         "tagLine": "TTV",
