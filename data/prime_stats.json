@@ -92,7 +92,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/116000/116908.jpg?1768526642",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/116908",
-      "updated_at": "2026-09-24T03:37:24.309757+02:00"
+      "updated_at": "2026-09-24T08:43:48.994604+02:00"
     },
     "matches": []
   },
@@ -193,7 +193,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/212000/212586.jpg?1778095909",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/212586",
-      "updated_at": "2026-09-24T03:39:23.513758+02:00"
+      "updated_at": "2026-09-24T08:41:53.900765+02:00"
     },
     "matches": []
   },
@@ -328,7 +328,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/212000/212852.jpg?1787674689",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/212852",
-      "updated_at": "2026-09-24T03:41:50.898260+02:00"
+      "updated_at": "2026-09-24T08:46:58.763199+02:00"
     },
     "matches": [
       {
@@ -921,21 +921,21 @@
             "summoner_name": "movement#CN1",
             "name": "movementCN",
             "is_leader": false,
-            "updated_at": "2026-09-24T03:39:35.607526+02:00"
+            "updated_at": "2026-09-24T08:46:53.590137+02:00"
           },
           {
             "id": 2017145,
             "summoner_name": "LISQ#H73",
             "name": "LISQ",
             "is_leader": false,
-            "updated_at": "2026-09-24T03:37:32.482317+02:00"
+            "updated_at": "2026-09-24T08:45:41.011015+02:00"
           },
           {
             "id": 1477916,
             "summoner_name": "WiWiWi Cat#Kitty",
             "name": "LeaUmbreon",
             "is_leader": true,
-            "updated_at": "2026-09-24T03:37:32.477326+02:00"
+            "updated_at": "2026-09-24T08:45:41.006430+02:00"
           }
         ]
       }
@@ -1068,7 +1068,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/208000/208606.jpg?1786906544",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/208606",
-      "updated_at": "2026-09-24T03:41:38.798905+02:00"
+      "updated_at": "2026-09-24T08:43:18.719533+02:00"
     },
     "matches": []
   },
@@ -1189,7 +1189,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/206000/206270.jpg?1790101577",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/206270",
-      "updated_at": "2026-09-24T03:41:55.164100+02:00"
+      "updated_at": "2026-09-24T08:42:03.991467+02:00"
     },
     "matches": []
   },
@@ -1227,18 +1227,18 @@
         "in_api_roster": true
       },
       {
-        "playerId": "0010",
-        "gameName": "UIC Regentropfen",
-        "tagLine": "H2O",
+        "playerId": "0034",
+        "gameName": "UIC Rellik",
+        "tagLine": "CYS",
         "role": "MID",
-        "puuid": "4cqeT6xao6yC3bHq3gxy1urHRIsTjHUwp9jT3FQ3Ip664FyfJsIoIwdzvHq7-SUBqnWOQGIDbRZ02g",
+        "puuid": "fKOByvOyBYcGvcG1VbIDg6bzIbIwrOeh7g06MfvjO2ZQwygs0oRU38SzKEesW3L30zinihHppprPVg",
         "trackStats": true,
-        "discordId": "359390498051457025",
+        "discordId": "201428142898937856",
         "rosterStatus": "starter",
         "isCaptain": false,
-        "api_id": null,
-        "api_name": null,
-        "in_api_roster": false
+        "api_id": 999782,
+        "api_name": "Super_Skunk",
+        "in_api_roster": true
       },
       {
         "playerId": "0011",
@@ -1337,16 +1337,6 @@
         "api_id": 1552739,
         "in_api_roster": true,
         "missing_in_local": true
-      },
-      {
-        "playerId": "UNKNOWN_LOCAL",
-        "gameName": "UIC Rellik#CYS",
-        "role": "UNKNOWN",
-        "rosterStatus": "api_only",
-        "isCaptain": false,
-        "api_id": 999782,
-        "in_api_roster": true,
-        "missing_in_local": true
       }
     ],
     "api_meta": {
@@ -1356,7 +1346,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/208000/208131.jpg?1778157742",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/208131",
-      "updated_at": "2026-09-24T03:42:36.581808+02:00"
+      "updated_at": "2026-09-24T08:40:02.866295+02:00"
     },
     "matches": []
   },
@@ -1463,7 +1453,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/207000/207696.jpg?1774892477",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/207696",
-      "updated_at": "2026-09-24T03:32:20.473482+02:00"
+      "updated_at": "2026-09-24T08:40:51.300181+02:00"
     },
     "matches": []
   },
@@ -1628,7 +1618,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/208000/208694.jpg?1765150033",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/208694",
-      "updated_at": "2026-09-24T03:37:27.422308+02:00"
+      "updated_at": "2026-09-24T08:46:34.514235+02:00"
     },
     "matches": []
   },
@@ -1743,7 +1733,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/212000/212473.jpg?1777401024",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/212473",
-      "updated_at": "2026-09-24T03:38:17.892804+02:00"
+      "updated_at": "2026-09-24T08:44:44.467485+02:00"
     },
     "matches": []
   },
@@ -1781,18 +1771,18 @@
         "in_api_roster": true
       },
       {
-        "playerId": "0034",
-        "gameName": "UIC Rellik",
-        "tagLine": "CYS",
+        "playerId": "0110",
+        "gameName": "xauberdave",
+        "tagLine": "dlmd",
         "role": "MID",
-        "puuid": "fKOByvOyBYcGvcG1VbIDg6bzIbIwrOeh7g06MfvjO2ZQwygs0oRU38SzKEesW3L30zinihHppprPVg",
+        "puuid": "_Fzw8munZSayiskhk4DoEYv6y3bEJkQaTj4MfzChFIB5m77mejL2RZZjdknpqbmvfBfM2RRC9udbRg",
         "trackStats": true,
-        "discordId": "201428142898937856",
+        "discordId": "1296703935427510296",
         "rosterStatus": "starter",
-        "isCaptain": true,
-        "api_id": null,
-        "api_name": null,
-        "in_api_roster": false
+        "isCaptain": false,
+        "api_id": 1601827,
+        "api_name": "xauberdave",
+        "in_api_roster": true
       },
       {
         "playerId": "0035",
@@ -1809,48 +1799,46 @@
         "in_api_roster": true
       },
       {
+        "playerId": "0111",
+        "gameName": "Pavus",
+        "tagLine": "Zephr",
+        "role": "SUP",
+        "puuid": "Git9KCzlNRLtwhmEviCaYnMfrkMZ3g8Nvq6SmuiN-YpwZ7gu2WnA2u4TGhBMQEmgKmVUlkaqDxRDig",
+        "trackStats": true,
+        "discordId": "376114632399650826",
+        "rosterStatus": "starter",
+        "isCaptain": false,
+        "api_id": 2160510,
+        "api_name": "Pavusaurus",
+        "in_api_roster": true
+      },
+      {
+        "playerId": "0112",
+        "gameName": "Askir",
+        "tagLine": "Jhin",
+        "role": "BOT",
+        "puuid": "cNCrXnXZjUKW2o2LEDSqPfKqGvdiLIFlwCsPBgwsjKSuIHkzpAuPzEMah8BZ4fcntfbNOzNaNN09OA",
+        "trackStats": true,
+        "discordId": "127545401204015105",
+        "rosterStatus": "substitute",
+        "isCaptain": false,
+        "api_id": 1648954,
+        "api_name": "Askir",
+        "in_api_roster": true
+      },
+      {
         "playerId": "0036",
         "gameName": "UIC Panda",
         "tagLine": "CSX",
-        "role": "SUP",
+        "role": "MNG",
         "puuid": "H63Ow4JXI3KgT05HWg6q24xi0GeTHrtLN-ypclqi10R452ewY7EXHTBw0paEiyLnYsVNGDSvWsW0hw",
         "trackStats": true,
         "discordId": "465698775638212610",
-        "rosterStatus": "starter",
+        "rosterStatus": "staff",
         "isCaptain": false,
         "api_id": null,
         "api_name": null,
         "in_api_roster": false
-      },
-      {
-        "playerId": "UNKNOWN_LOCAL",
-        "gameName": "Askir#Jhin",
-        "role": "UNKNOWN",
-        "rosterStatus": "api_only",
-        "isCaptain": false,
-        "api_id": 1648954,
-        "in_api_roster": true,
-        "missing_in_local": true
-      },
-      {
-        "playerId": "UNKNOWN_LOCAL",
-        "gameName": "xauberdave#dlmd",
-        "role": "UNKNOWN",
-        "rosterStatus": "api_only",
-        "isCaptain": false,
-        "api_id": 1601827,
-        "in_api_roster": true,
-        "missing_in_local": true
-      },
-      {
-        "playerId": "UNKNOWN_LOCAL",
-        "gameName": "Pavus#Zephr",
-        "role": "UNKNOWN",
-        "rosterStatus": "api_only",
-        "isCaptain": false,
-        "api_id": 2160510,
-        "in_api_roster": true,
-        "missing_in_local": true
       }
     ],
     "api_meta": {
@@ -1860,7 +1848,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/198000/198490.jpg?1774785721",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/198490",
-      "updated_at": "2026-09-24T03:37:54.614228+02:00"
+      "updated_at": "2026-09-24T08:42:32.246720+02:00"
     },
     "matches": [
       {
@@ -2029,7 +2017,7 @@
             "summoner_name": "Soined#77777",
             "name": "Alex17714973",
             "is_leader": true,
-            "updated_at": "2026-09-24T03:41:01.443464+02:00"
+            "updated_at": "2026-09-24T08:44:25.306045+02:00"
           },
           {
             "id": 2329494,
@@ -2708,7 +2696,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/211000/211794.jpg?1780253365",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/211794",
-      "updated_at": "2026-09-24T03:37:46.536834+02:00"
+      "updated_at": "2026-09-24T08:41:09.474699+02:00"
     },
     "matches": []
   },
@@ -2815,7 +2803,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/208000/208851.jpg?1775950554",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/208851",
-      "updated_at": "2026-09-24T03:36:10.654230+02:00"
+      "updated_at": "2026-09-24T08:47:06.690497+02:00"
     },
     "matches": []
   },
@@ -2978,7 +2966,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/203000/203447.jpg?1768386652",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/203447",
-      "updated_at": "2026-09-24T03:42:22.447076+02:00"
+      "updated_at": "2026-09-24T08:46:33.407646+02:00"
     },
     "matches": []
   },
@@ -3065,7 +3053,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/212000/212432.jpg?1789934435",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/212432",
-      "updated_at": "2026-09-24T03:41:59.218695+02:00"
+      "updated_at": "2026-09-24T08:44:18.244700+02:00"
     },
     "matches": [
       {
