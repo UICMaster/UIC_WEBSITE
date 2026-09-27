@@ -11,5 +11,21 @@
     "image": null,
     "competitors": [],
     "streamUrl": null
+  },
+  {
+    "id": "1553763075872526530",
+    "name": "Ultra Instinct Crew Nova vs. Cortisol Maxing",
+    "description": "gameday 1",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-04T18:00:00+00:00",
+    "end": "2026-10-04T20:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1166984",
+    "image": "https://cdn.discordapp.com/guild-events/1553763075872526530/878abf416b9f033edad3e07288086beb.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Nova",
+      "Cortisol Maxing"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
 ]
