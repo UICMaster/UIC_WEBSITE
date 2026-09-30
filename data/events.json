@@ -65,6 +65,22 @@
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
+    "id": "1554884369254981642",
+    "name": "Ultra Instinct Crew vs. ArcticBlaze Main",
+    "description": "gameday 1",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-04T17:00:00+00:00",
+    "end": "2026-10-04T19:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1165661",
+    "image": "https://cdn.discordapp.com/guild-events/1554884369254981642/fd54b7c5346ad5541af7bdc3a0484057.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew",
+      "ArcticBlaze Main"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
     "id": "1553846492362444850",
     "name": "Ultra Instinct Crew Raiders vs. KGE Bloodmoon",
     "description": "gameday 1",
@@ -93,6 +109,22 @@
     "competitors": [
       "Ultra Instinct Crew Nova",
       "Cortisol Maxing"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1554876847752351906",
+    "name": "Ultra Instinct Crew Hydra vs. LUST ASS Edition",
+    "description": "gameday 1",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-04T18:00:00+00:00",
+    "end": "2026-10-04T20:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1165556",
+    "image": "https://cdn.discordapp.com/guild-events/1554876847752351906/40fab64f86ff2339b30bf28a81c9e143.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Hydra",
+      "LUST ASS Edition"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
