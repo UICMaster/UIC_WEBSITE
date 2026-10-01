@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>UIC Clean Match Center (OBS)</title>
+<title>UIC Glassmorphism Match Center (OBS)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
@@ -11,9 +11,15 @@
   :root {
     --cyan: #00F0FF;
     --purple: #B026FF;
-    --dark-bg: #07070A;
-    --panel-bg: #111116;
-    --border-color: #23232f;
+    --bg-base: #030305;
+    
+    /* Glassmorphism Variables */
+    --glass-bg: rgba(18, 18, 24, 0.6);
+    --glass-border: 1px solid rgba(255, 255, 255, 0.08);
+    --glass-edge: inset 0 1px 1px rgba(255, 255, 255, 0.08);
+    --glass-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+    --glass-blur: blur(24px);
+    
     --text-main: #FFFFFF;
     --text-muted: #8A8A9E;
   }
@@ -23,9 +29,23 @@
   html, body {
     margin: 0; padding: 0; width: 100vw; height: 100vh;
     overflow: hidden; 
-    background-color: var(--dark-bg);
+    background-color: var(--bg-base);
     font-family: 'Rajdhani', sans-serif;
     color: var(--text-main);
+  }
+
+  /* The ambient light that makes the glassmorphism visible */
+  body::before, body::after {
+    content: ''; position: absolute; border-radius: 50%;
+    filter: blur(120px); z-index: -1; opacity: 0.4;
+  }
+  body::before {
+    top: -10%; left: -10%; width: 60vw; height: 60vw;
+    background: radial-gradient(circle, rgba(0,240,255,0.2) 0%, transparent 60%);
+  }
+  body::after {
+    bottom: -20%; right: -10%; width: 70vw; height: 70vw;
+    background: radial-gradient(circle, rgba(176,38,255,0.15) 0%, transparent 60%);
   }
   
   #app {
@@ -45,12 +65,19 @@
     background: linear-gradient(to right, var(--cyan), #fff);
     -webkit-background-clip: text; -webkit-text-fill-color: transparent;
     margin-bottom: 50px;
+    filter: drop-shadow(0 4px 20px rgba(0,240,255,0.2));
+  }
+
+  .glass-panel {
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: var(--glass-border);
+    box-shadow: var(--glass-shadow), var(--glass-edge);
+    border-radius: 20px;
   }
 
   .hero-container {
-    background: var(--panel-bg);
-    border: 1px solid var(--border-color);
-    border-left: 4px solid var(--cyan);
     padding: 60px 40px; 
     display: flex; flex-direction: column; align-items: center; justify-content: center;
   }
@@ -58,22 +85,23 @@
   .hero-time {
     font-family: 'Orbitron', sans-serif; font-size: 32px; font-weight: 700;
     color: var(--text-main); margin-bottom: 40px; text-align: center;
-    text-transform: uppercase;
+    text-transform: uppercase; letter-spacing: 1px;
   }
   .hero-time span { color: var(--cyan); }
 
   .hero-matchup { display: flex; align-items: center; justify-content: center; width: 100%; gap: 20px; }
   .hero-team { display: flex; flex-direction: column; align-items: center; flex: 1; min-width: 0; }
-  .hero-logo { width: 160px; height: 160px; object-fit: contain; margin-bottom: 25px; }
+  .hero-logo { width: 160px; height: 160px; object-fit: contain; margin-bottom: 25px; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));}
   .hero-name { 
     font-family: 'Orbitron', sans-serif; font-size: 20px; font-weight: 700; 
     text-align: center; text-transform: uppercase; width: 100%;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    letter-spacing: 1px;
   }
   
   .hero-vs {
     font-family: 'Orbitron', sans-serif; font-size: 36px; font-weight: 900; font-style: italic;
-    color: var(--text-muted); padding: 0 10px;
+    color: rgba(255,255,255,0.2); padding: 0 10px;
   }
 
   /* ================================
@@ -84,27 +112,28 @@
   }
 
   .schedule-list {
-    display: flex; flex-direction: column; gap: 15px; width: 100%;
+    display: flex; flex-direction: column; gap: 16px; width: 100%;
   }
 
   .match-row {
-    display: flex; background: var(--panel-bg);
-    border: 1px solid var(--border-color);
-    border-left: 4px solid var(--cyan);
-    align-items: center; padding: 25px 35px;
+    display: flex; align-items: center; padding: 25px 35px;
+    position: relative; overflow: hidden;
   }
-  .match-row:nth-child(even) { border-left-color: var(--purple); }
+  
+  /* Subtle brand color accents on the left edge */
+  .match-row::before {
+    content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px;
+    background: var(--cyan); border-radius: 4px 0 0 4px;
+  }
+  .match-row:nth-child(even)::before { background: var(--purple); }
 
   .m-datetime {
     display: flex; flex-direction: column; justify-content: center;
-    padding-right: 40px; border-right: 1px solid var(--border-color);
+    padding-right: 40px; border-right: 1px solid rgba(255,255,255,0.08);
     min-width: 160px;
   }
-  .m-date { font-size: 18px; font-weight: 700; color: var(--text-muted); text-transform: uppercase;}
+  .m-date { font-size: 18px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px;}
   .m-time { font-family: 'Orbitron', sans-serif; font-size: 32px; font-weight: 700; color: var(--text-main); }
-  
-  .match-row:nth-child(odd) .m-time { color: var(--cyan); }
-  .match-row:nth-child(even) .m-time { color: var(--purple); }
 
   .m-teams {
     flex: 1; display: grid; grid-template-columns: 1fr 60px 1fr; align-items: center;
@@ -113,15 +142,16 @@
   
   .m-team { display: flex; align-items: center; gap: 25px; min-width: 0; }
   .m-team.right { justify-content: flex-end; text-align: right; }
-  .m-logo { width: 70px; height: 70px; object-fit: contain; flex-shrink: 0;}
+  .m-logo { width: 70px; height: 70px; object-fit: contain; flex-shrink: 0; filter: drop-shadow(0 4px 10px rgba(0,0,0,0.3));}
   .m-name { 
     font-family: 'Orbitron', sans-serif; font-size: 24px; font-weight: 700; 
     text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; 
+    letter-spacing: 1px;
   }
 
   .m-vs {
     font-family: 'Orbitron', sans-serif; font-size: 20px; font-weight: 900; font-style: italic;
-    color: var(--text-muted); text-align: center;
+    color: rgba(255,255,255,0.15); text-align: center;
   }
 
   .empty-state {
@@ -156,8 +186,8 @@
   const scheduleList = document.getElementById("schedule-list");
   const esc = s => String(s ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
-  // Generic Team Shield silhouette (clean grey)
-  const fallbackLogo = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2323232f'%3E%3Cpath d='M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z'/%3E%3C/svg%3E";
+  // Sleek Shield Silhouette for Missing Logos
+  const fallbackLogo = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='rgba(255,255,255,0.05)' stroke='rgba(255,255,255,0.1)' stroke-width='0.5'%3E%3Cpath d='M12 2L4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3z'/%3E%3C/svg%3E";
 
   function formatRelativeTime(iso) {
     const d = new Date(iso);
@@ -216,7 +246,7 @@
       const hEnemyLogo = hero.opponentLogo ? esc(hero.opponentLogo) : fallbackLogo;
 
       heroCard.innerHTML = `
-        <div class="hero-container">
+        <div class="glass-panel hero-container">
           <div class="hero-time">${hTime.dayStr} <span style="margin: 0 15px;">//</span> <span>${hTime.timeStr} UHR</span></div>
           <div class="hero-matchup">
             <div class="hero-team">
@@ -244,7 +274,7 @@
           const eLogo = m.opponentLogo ? esc(m.opponentLogo) : fallbackLogo;
 
           return `
-            <div class="match-row">
+            <div class="glass-panel match-row">
               <div class="m-datetime">
                 <div class="m-date">${time.dayStr}</div>
                 <div class="m-time">${time.timeStr}</div>
