@@ -6,11 +6,9 @@
 <title>UIC Upcoming Matches (OBS)</title>
 <style>
   *{box-sizing:border-box}
-  /* 1. Fluid Viewport instead of fixed 200x450 */
   html,body{margin:0;padding:0;width:100vw;height:100vh;overflow:hidden;background:transparent}
   body{font-family:Arial,Helvetica,sans-serif;color:#fff}
   
-  /* 2. Overlay fills 100% of the given OBS Browser Source space */
   #overlay{
     width:100%;height:100%;padding:10px;
     background:linear-gradient(100deg,rgba(7,8,9,.97),rgba(14,15,16,.91));
@@ -35,19 +33,18 @@
   
   #matches{position:relative;display:flex;flex-direction:column;gap:8px;flex-grow:1;min-height:0}
   
-  /* 3. Matches now use flex: 1 to evenly distribute available vertical space */
   .match{flex:1;position:relative;display:flex;flex-direction:column;border-bottom:1px solid rgba(215,170,80,.72);padding-bottom:4px;min-height:0}
   
+  /* FIX 2: Increased right padding from 8px to 25px to clear the slanted clip-path */
   .datebar{
-    height:24px;flex-shrink:0;display:flex;align-items:center;justify-content:space-between;padding:0 8px;
+    height:24px;flex-shrink:0;display:flex;align-items:center;justify-content:space-between;padding:0 25px 0 8px;
     border-top:1px solid rgba(215,170,80,.85);border-bottom:1px solid rgba(215,170,80,.85);
     background:linear-gradient(90deg,rgba(30,30,30,.95),rgba(15,15,15,.6));
     clip-path:polygon(0 0,100% 0,95% 100%,0 100%);
   }
   .date{font-size:14px;font-weight:1000;color:#eee}
-  .time{font-size:14px;font-weight:1000;color:#d7aa50;text-shadow:0 0 5px rgba(215,170,80,0.6);margin-right:8px}
+  .time{font-size:14px;font-weight:1000;color:#d7aa50;text-shadow:0 0 5px rgba(215,170,80,0.6)}
   
-  /* 4. Versus block expands to fill the remaining space inside the match card */
   .versus{flex-grow:1;display:grid;grid-template-columns:1fr 20px 1fr;align-items:center;padding-top:4px}
   .team{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:0}
   .logo{width:100%;max-width:55px;height:55px;object-fit:contain;filter:drop-shadow(0 2px 4px rgba(0,0,0,.9))}
@@ -79,6 +76,9 @@
   const status = document.getElementById("status");
   const esc = s => String(s ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
+  // FIX 1: Built-in Base64 Placeholder Image (a sleek, dark transparent box with a '?')
+  const fallbackLogo = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='55' height='55' viewBox='0 0 55 55'%3E%3Crect width='55' height='55' fill='rgba(255,255,255,0.05)' rx='8'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='rgba(255,255,255,0.2)' font-family='Arial' font-size='20' font-weight='bold'%3E?%3C/text%3E%3C/svg%3E";
+
   function parts(iso){
     const d = new Date(iso);
     const date = new Intl.DateTimeFormat("de-DE",{timeZone:"Europe/Berlin",day:"2-digit",month:"2-digit"}).format(d);
@@ -103,7 +103,7 @@
           if (m.confirmed === true && !m.result && mDate > now) {
             upcomingMatches.push({
               startsAt: m.begin,
-              uicTeamName: teamKey,
+              uicTeamName: teamData.teamDisplay || `UIC ${teamKey.toUpperCase()}`,
               uicLogo: teamData.api_meta?.logo_url || "", 
               opponentLogo: m.enemy_team?.logo_url || "",
               opponentTag: m.enemy_team?.team_tag || "TBD"
@@ -125,16 +125,22 @@
       
       matches.innerHTML = list.map(m => {
         const p = parts(m.startsAt);
+        
+        // FIX 1: If logo is missing, use the fallback SVG instead of "assets/placeholder.png"
+        const uicLogoSrc = m.uicLogo ? esc(m.uicLogo) : fallbackLogo;
+        const enemyLogoSrc = m.opponentLogo ? esc(m.opponentLogo) : fallbackLogo;
+
+        // Also changed onerror to use the fallback just in case the API link is a dead image link
         return `<div class="match">
-          <div class="datebar"><span class="date">${esc(p.date)}</span><span class="time">${esc(p.time)}</span></div>
+          <div class="datebar"><span class="date">${esc(p.date)}</span><span class="time">${esc(p.time)} UHR</span></div>
           <div class="versus">
             <div class="team">
-              <img class="logo" src="${esc(m.uicLogo)}" alt="UIC" onerror="this.style.opacity='0'">
+              <img class="logo" src="${uicLogoSrc}" alt="UIC" onerror="this.src='${fallbackLogo}'; this.onerror=null;">
               <div class="tag">${esc(m.uicTeamName)}</div>
             </div>
             <div class="vs">VS</div>
             <div class="team">
-              <img class="logo" src="${esc(m.opponentLogo)}" alt="${esc(m.opponentTag)}" onerror="this.style.opacity='0'">
+              <img class="logo" src="${enemyLogoSrc}" alt="${esc(m.opponentTag)}" onerror="this.src='${fallbackLogo}'; this.onerror=null;">
               <div class="tag">${esc(m.opponentTag)}</div>
             </div>
           </div>
