@@ -13,7 +13,12 @@ function isSamePlayer(apiSummonerName, localPlayer) {
     
     const apiClean = apiSummonerName.toLowerCase().trim();
     const localNameClean = localPlayer.gameName.toLowerCase().trim();
-    const localCombined = `${localPlayer.gameName}#${localPlayer.tagLine || ''}`.toLowerCase().trim();
+    
+    // Fix: Safely construct tag combinations
+    const hasTag = !!localPlayer.tagLine;
+    const localCombined = hasTag 
+        ? `${localPlayer.gameName}#${localPlayer.tagLine}`.toLowerCase().trim()
+        : localNameClean;
 
     // 1. Exact match with full Riot ID (e.g. "uic speedy#euw" === "uic speedy#euw")
     if (apiClean === localCombined) return true;
@@ -45,8 +50,8 @@ async function buildGoldenJSON() {
 
         const teamId = localTeamInfo.primeLeagueId;
         
-        // Skip API fetch if no ID is present (e.g., Community team)
-        if (!teamId || teamId.trim() === "") {
+        // Fix: Convert to string safely before using .trim()
+        if (!teamId || String(teamId).trim() === "") {
             console.log(`⚠️ Skipping API fetch for ${teamKey} (No Prime League ID).`);
             continue;
         }
@@ -101,17 +106,38 @@ async function buildGoldenJSON() {
 
             // 3. INHERIT AND FORMAT ALL MATCHES
             if (apiData.matches) {
-                goldenDatabase[teamKey].matches = apiData.matches.map(m => {
-                    // Ensure the confirmed flag is explicitly a boolean for downstream scripts
-                    const isConfirmed = m.match_begin_confirmed !== undefined ? Boolean(m.match_begin_confirmed) : false;
-                    
-                    return {
+                const enrichedMatches = [];
+                
+                // Fix: Switch to async for...of loop to fetch missing 'match_begin_confirmed' flags
+                for (const m of apiData.matches) {
+                    let isConfirmed = false;
+
+                    // If the match has a result, it happened in the past and is inherently confirmed
+                    if (m.result) {
+                        isConfirmed = true;
+                    } 
+                    // If it has NO result, it's upcoming. Fetch the match detail endpoint to get the confirmed flag.
+                    else {
+                        try {
+                            const matchResponse = await fetch(`https://primebot.me/api/v1/matches/${m.id}/`, { headers: HEADERS });
+                            if (matchResponse.ok) {
+                                const matchDetail = await matchResponse.json();
+                                isConfirmed = matchDetail.match_begin_confirmed === true;
+                            }
+                            // Respect API rate limits on these secondary calls
+                            await new Promise(r => setTimeout(r, 200));
+                        } catch (err) {
+                            console.error(`⚠️ Could not fetch confirmation status for match ${m.id}`);
+                        }
+                    }
+
+                    enrichedMatches.push({
                         id: m.id,
                         match_id: m.match_id,
                         match_type: m.match_type,
                         match_day: m.match_day,
                         begin: m.begin,
-                        confirmed: isConfirmed, // <-- The critical flag for your downstream scripts
+                        confirmed: isConfirmed, // Pulled correctly via the detail endpoint
                         result: m.result || null,
                         prime_league_link: m.prime_league_link,
                         updated_at: m.updated_at,
@@ -120,19 +146,21 @@ async function buildGoldenJSON() {
                             name: m.enemy_team.name,
                             team_tag: m.enemy_team.team_tag,
                             prime_league_link: m.enemy_team.prime_league_link,
-                            logo_url: m.enemy_team.logo_url || null // Included if API provides it here
+                            logo_url: m.enemy_team.logo_url || null
                         } : null,
                         team_lineup: m.team_lineup || [],
                         enemy_lineup: m.enemy_lineup || []
-                    };
-                });
+                    });
+                }
+                
+                goldenDatabase[teamKey].matches = enrichedMatches;
             }
 
         } catch (e) {
             console.error(`❌ Error fetching data for ${teamKey}:`, e.message);
         }
 
-        // Respect API rate limits
+        // Respect API rate limits between team calls
         await new Promise(r => setTimeout(r, 250));
     }
 
@@ -141,4 +169,8 @@ async function buildGoldenJSON() {
     console.log(`✅ Golden Data successfully built: ${OUTPUT_PATH}`);
 }
 
-buildGoldenJSON();
+// Fix: Execute with error catching to prevent Unhandled Promise Rejections
+buildGoldenJSON().catch(err => {
+    console.error("💥 Fatal Error:", err);
+    process.exit(1);
+});
