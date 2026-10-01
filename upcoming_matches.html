@@ -3,87 +3,136 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>UIC Upcoming Matches (OBS)</title>
+<title>UIC Upcoming Schedule (OBS)</title>
 <style>
-  *{box-sizing:border-box}
-  html,body{margin:0;padding:0;width:100vw;height:100vh;overflow:hidden;background:transparent}
-  body{font-family:Arial,Helvetica,sans-serif;color:#fff}
-  
-  #overlay{
-    width:100%;height:100%;padding:10px;
-    background:linear-gradient(100deg,rgba(7,8,9,.97),rgba(14,15,16,.91));
-    position:relative;overflow:hidden;
-    display:flex;flex-direction:column;
-  }
-  #overlay:before{
-    content:"";position:absolute;inset:0;pointer-events:none;opacity:.14;
-    background:repeating-linear-gradient(135deg,transparent 0 8px,rgba(255,255,255,.05) 9px,transparent 10px 17px);
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;0,900;1,900&display=swap');
+
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0; width: 100vw; height: 100vh;
+    overflow: hidden; background: transparent;
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #fff;
   }
   
-  .brand{position:relative;text-align:left;margin-bottom:5px;flex-shrink:0}
-  .brand-main{font-size:28px;line-height:.9;font-weight:1000;font-style:italic;letter-spacing:-2px;text-shadow:0 0 5px rgba(255,255,255,0.2)}
-  .brand-sub{font-size:6px;letter-spacing:2.5px;margin-top:4px;color:#ddd}
-  
-  .gold{color:#d7aa50}
-  .rule{height:1px;background:linear-gradient(90deg,#d7aa50,#6f6f6f,transparent);margin:8px 0;flex-shrink:0}
-  
-  .heading{position:relative;margin-bottom:10px;flex-shrink:0}
-  .heading .up{font-size:15px;font-weight:1000;letter-spacing:.5px}
-  .heading .matches{font-size:22px;font-weight:1000;font-style:italic;letter-spacing:-1px;color:#d7aa50;line-height:.9;text-shadow:0 0 10px rgba(215,170,80,0.5)}
-  
-  #matches{position:relative;display:flex;flex-direction:column;gap:8px;flex-grow:1;min-height:0}
-  
-  .match{flex:1;position:relative;display:flex;flex-direction:column;border-bottom:1px solid rgba(215,170,80,.72);padding-bottom:4px;min-height:0}
-  
-  /* FIX 2: Increased right padding from 8px to 25px to clear the slanted clip-path */
-  .datebar{
-    height:24px;flex-shrink:0;display:flex;align-items:center;justify-content:space-between;padding:0 25px 0 8px;
-    border-top:1px solid rgba(215,170,80,.85);border-bottom:1px solid rgba(215,170,80,.85);
-    background:linear-gradient(90deg,rgba(30,30,30,.95),rgba(15,15,15,.6));
-    clip-path:polygon(0 0,100% 0,95% 100%,0 100%);
+  /* OBS Container */
+  #overlay {
+    width: 100%; height: 100%; padding: 15px;
+    background: linear-gradient(135deg, rgba(10,10,12,0.95) 0%, rgba(20,20,24,0.98) 100%);
+    position: relative; display: flex; flex-direction: column;
+    border-top: 4px solid #d7aa50;
+    box-shadow: inset 0 0 50px rgba(0,0,0,0.8);
   }
-  .date{font-size:14px;font-weight:1000;color:#eee}
-  .time{font-size:14px;font-weight:1000;color:#d7aa50;text-shadow:0 0 5px rgba(215,170,80,0.6)}
   
-  .versus{flex-grow:1;display:grid;grid-template-columns:1fr 20px 1fr;align-items:center;padding-top:4px}
-  .team{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:0}
-  .logo{width:100%;max-width:55px;height:55px;object-fit:contain;filter:drop-shadow(0 2px 4px rgba(0,0,0,.9))}
-  .tag{font-size:10px;font-weight:900;letter-spacing:1px;margin-top:4px;max-width:75px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-transform:uppercase}
+  /* Background Texture */
+  #overlay:before {
+    content: ""; position: absolute; inset: 0; pointer-events: none; opacity: 0.05;
+    background-image: repeating-linear-gradient(45deg, #ffffff 0, #ffffff 1px, transparent 1px, transparent 10px);
+  }
+
+  /* BRANDING HEADER */
+  .brand-header {
+    display: flex; justify-content: space-between; align-items: flex-end;
+    margin-bottom: 20px; position: relative; z-index: 2; flex-shrink: 0;
+  }
+  .brand-title {
+    font-size: 26px; font-weight: 900; font-style: italic; line-height: 0.85;
+    text-transform: uppercase; letter-spacing: -1px; text-shadow: 2px 2px 0px rgba(0,0,0,0.5);
+  }
+  .brand-subtitle { font-size: 9px; letter-spacing: 3px; color: #888; margin-top: 5px; }
+  .brand-radar {
+    font-size: 12px; font-weight: 800; color: #d7aa50; letter-spacing: 1px;
+    padding: 3px 8px; border: 1px solid rgba(215, 170, 80, 0.3);
+    clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
+    background: rgba(215, 170, 80, 0.1);
+  }
+
+  /* LIST CONTAINER */
+  #content-area { 
+    display: flex; flex-direction: column; gap: 10px; 
+    flex-grow: 1; min-height: 0; overflow: hidden;
+  }
+
+  /* MATCH ROW */
+  .match-row {
+    display: flex; flex-shrink: 0;
+    background: linear-gradient(90deg, rgba(30,30,35,0.9), rgba(15,15,18,0.9));
+    border: 1px solid rgba(255,255,255,0.05);
+    border-left: 3px solid #d7aa50;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  }
+
+  .m-time {
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    padding: 10px 12px; min-width: 75px; flex-shrink: 0;
+    background: rgba(255,255,255,0.03);
+    border-right: 1px solid rgba(255,255,255,0.05);
+  }
+  .m-date { font-size: 10px; font-weight: 800; color: #aaa; text-transform: uppercase; letter-spacing: 0.5px; }
+  .m-hour { font-size: 15px; font-weight: 900; color: #d7aa50; text-shadow: 0 0 8px rgba(215,170,80,0.4); }
+
+  .m-teams {
+    flex-grow: 1; display: grid; grid-template-columns: 1fr 20px 1fr; 
+    align-items: center; padding: 5px 12px; gap: 5px; min-width: 0;
+  }
   
-  .vs{font-size:13px;font-weight:1000;text-align:center;color:#ccc;display:flex;flex-direction:column;align-items:center;justify-content:center;margin-top:-15px}
-  .vs:after{content:"";display:block;width:14px;height:2px;background:#d7aa50;margin-top:4px;box-shadow:0 0 4px #d7aa50}
+  .m-team { display: flex; align-items: center; gap: 8px; overflow: hidden; }
+  .m-team.right { justify-content: flex-end; text-align: right; }
   
-  #status{position:absolute;bottom:5px;left:10px;font-size:9px;color:rgba(255,255,255,0.4);text-transform:uppercase;letter-spacing:1px;z-index:10}
+  .m-logo { 
+    width: 28px; height: 28px; object-fit: contain; flex-shrink: 0;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+  }
+  .m-name { 
+    font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+
+  .m-vs { font-size: 11px; font-weight: 900; font-style: italic; color: #555; text-align: center; }
+
+  #status { position: absolute; bottom: 5px; left: 15px; font-size: 9px; color: rgba(255,255,255,0.3); font-weight: 800; letter-spacing: 1px; }
 </style>
 </head>
 <body>
 <div id="overlay">
-  <div class="brand">
-    <div class="brand-main">UIC</div>
-    <div class="brand-sub">ULTRA INSTINCT CREW</div>
+  <div class="brand-header">
+    <div>
+      <div class="brand-title">UIC</div>
+      <div class="brand-subtitle">MATCH SCHEDULE</div>
+    </div>
+    <div class="brand-radar">LIVE</div>
   </div>
-  <div class="rule"></div>
-  <div class="heading">
-    <div class="up">UPCOMING</div>
-    <div class="matches">MATCHES</div>
-  </div>
-  <div id="matches"></div>
+
+  <div id="content-area"></div>
   <div id="status"></div>
 </div>
+
 <script>
 (() => {
-  const matches = document.getElementById("matches");
+  const contentArea = document.getElementById("content-area");
   const status = document.getElementById("status");
   const esc = s => String(s ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
-  // FIX 1: Built-in Base64 Placeholder Image (a sleek, dark transparent box with a '?')
-  const fallbackLogo = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='55' height='55' viewBox='0 0 55 55'%3E%3Crect width='55' height='55' fill='rgba(255,255,255,0.05)' rx='8'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='rgba(255,255,255,0.2)' font-family='Arial' font-size='20' font-weight='bold'%3E?%3C/text%3E%3C/svg%3E";
+  // Fallback SVG for missing logos
+  const fallbackLogo = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'%3E%3Crect width='28' height='28' fill='rgba(255,255,255,0.05)' rx='6'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='rgba(255,255,255,0.2)' font-family='Arial' font-size='14' font-weight='bold'%3E?%3C/text%3E%3C/svg%3E";
 
-  function parts(iso){
+  function formatRelativeTime(iso) {
     const d = new Date(iso);
-    const date = new Intl.DateTimeFormat("de-DE",{timeZone:"Europe/Berlin",day:"2-digit",month:"2-digit"}).format(d);
-    const time = new Intl.DateTimeFormat("de-DE",{timeZone:"Europe/Berlin",hour:"2-digit",minute:"2-digit",hour12:false}).format(d);
-    return {date, time};
+    const now = new Date();
+    const timeStr = new Intl.DateTimeFormat("de-DE",{timeZone:"Europe/Berlin",hour:"2-digit",minute:"2-digit"}).format(d);
+    
+    // Normalize to midnight for day calculation
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const matchDay = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+    const diffDays = Math.round((matchDay - today) / (1000 * 60 * 60 * 24));
+
+    let dayStr = "";
+    if (diffDays === 0) dayStr = "HEUTE";
+    else if (diffDays === 1) dayStr = "MORGEN";
+    else dayStr = new Intl.DateTimeFormat("de-DE",{timeZone:"Europe/Berlin",day:"2-digit",month:"2-digit"}).format(d);
+
+    return { dayStr, timeStr };
   }
 
   async function load(){
@@ -97,7 +146,6 @@
 
       for (const [teamKey, teamData] of Object.entries(data)) {
         if (!teamData.matches) continue;
-        
         teamData.matches.forEach(m => {
           const mDate = new Date(m.begin);
           if (m.confirmed === true && !m.result && mDate > now) {
@@ -113,49 +161,53 @@
       }
 
       upcomingMatches.sort((a, b) => new Date(a.startsAt) - new Date(b.startsAt));
-      const list = upcomingMatches.slice(0, 3); 
+      
+      // Fetch up to 6 matches since the design is now flatter and more compact
+      const list = upcomingMatches.slice(0, 6); 
 
       if(!list.length){
-        matches.innerHTML = "";
-        status.textContent = "Keine bestätigten Matches.";
+        contentArea.innerHTML = `<div style="text-align:center; color:#888; font-weight:800; font-size: 14px; margin-top: 50px;">DERZEIT KEINE BESTÄTIGTEN MATCHES</div>`;
+        status.textContent = "Standby.";
         return;
       }
       
       status.textContent = "";
       
-      matches.innerHTML = list.map(m => {
-        const p = parts(m.startsAt);
-        
-        // FIX 1: If logo is missing, use the fallback SVG instead of "assets/placeholder.png"
+      contentArea.innerHTML = list.map(m => {
+        const timeData = formatRelativeTime(m.startsAt);
         const uicLogoSrc = m.uicLogo ? esc(m.uicLogo) : fallbackLogo;
         const enemyLogoSrc = m.opponentLogo ? esc(m.opponentLogo) : fallbackLogo;
 
-        // Also changed onerror to use the fallback just in case the API link is a dead image link
-        return `<div class="match">
-          <div class="datebar"><span class="date">${esc(p.date)}</span><span class="time">${esc(p.time)} UHR</span></div>
-          <div class="versus">
-            <div class="team">
-              <img class="logo" src="${uicLogoSrc}" alt="UIC" onerror="this.src='${fallbackLogo}'; this.onerror=null;">
-              <div class="tag">${esc(m.uicTeamName)}</div>
+        return `
+          <div class="match-row">
+            <div class="m-time">
+              <div class="m-date">${timeData.dayStr}</div>
+              <div class="m-hour">${timeData.timeStr}</div>
             </div>
-            <div class="vs">VS</div>
-            <div class="team">
-              <img class="logo" src="${enemyLogoSrc}" alt="${esc(m.opponentTag)}" onerror="this.src='${fallbackLogo}'; this.onerror=null;">
-              <div class="tag">${esc(m.opponentTag)}</div>
+            <div class="m-teams">
+              <div class="m-team">
+                <img class="m-logo" src="${uicLogoSrc}" alt="UIC" onerror="this.src='${fallbackLogo}'; this.onerror=null;">
+                <span class="m-name">${esc(m.uicTeamName)}</span>
+              </div>
+              <div class="m-vs">VS</div>
+              <div class="m-team right">
+                <span class="m-name" style="color: #ccc;">${esc(m.opponentTag)}</span>
+                <img class="m-logo" src="${enemyLogoSrc}" alt="${esc(m.opponentTag)}" onerror="this.src='${fallbackLogo}'; this.onerror=null;">
+              </div>
             </div>
           </div>
-        </div>`;
+        `;
       }).join("");
       
     } catch(e) {
-      matches.innerHTML = "";
-      status.textContent = "Data Lake offline.";
+      contentArea.innerHTML = "";
+      status.textContent = "Verbindung zum Data Lake getrennt.";
       console.error("OBS Fetch Error:", e);
     }
   }
 
   load();
-  setInterval(load, 300000); 
+  setInterval(load, 120000); // Update every 2 minutes
 })();
 </script>
 </body>
