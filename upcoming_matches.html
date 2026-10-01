@@ -3,126 +3,245 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>UIC Upcoming Schedule (OBS)</title>
+<title>UIC Fullscreen Match Center (OBS)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;0,900;1,900&display=swap');
-
+  :root {
+    /* Official UIC Brand Colors */
+    --cyan: #00F0FF;
+    --purple: #B026FF;
+    --dark-bg: #07070A;
+    --panel-bg: rgba(15, 15, 20, 0.85);
+    --text-main: #FFFFFF;
+    --text-muted: #8A8A9E;
+  }
+  
   * { box-sizing: border-box; }
+  
   html, body {
     margin: 0; padding: 0; width: 100vw; height: 100vh;
-    overflow: hidden; background: transparent;
-    font-family: 'Montserrat', Arial, sans-serif;
-    color: #fff;
+    overflow: hidden; 
+    background-color: var(--dark-bg);
+    background-image: 
+      radial-gradient(circle at 15% 50%, rgba(0, 240, 255, 0.08), transparent 50%),
+      radial-gradient(circle at 85% 30%, rgba(176, 38, 255, 0.08), transparent 50%);
+    font-family: 'Rajdhani', sans-serif;
+    color: var(--text-main);
+  }
+
+  /* Grid background pattern for Esports/Cyber aesthetic */
+  body::before {
+    content: ''; position: absolute; inset: 0; z-index: -1;
+    background-image: 
+      linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    opacity: 0.5;
   }
   
-  /* OBS Container */
-  #overlay {
-    width: 100%; height: 100%; padding: 15px;
-    background: linear-gradient(135deg, rgba(10,10,12,0.95) 0%, rgba(20,20,24,0.98) 100%);
-    position: relative; display: flex; flex-direction: column;
-    border-top: 4px solid #d7aa50;
-    box-shadow: inset 0 0 50px rgba(0,0,0,0.8);
+  /* TV Broadcast Scanlines */
+  body::after {
+    content: ''; position: absolute; inset: 0; z-index: 9999;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 50%, rgba(0,0,0,0.1) 50%);
+    background-size: 100% 4px; pointer-events: none;
   }
   
-  /* Background Texture */
-  #overlay:before {
-    content: ""; position: absolute; inset: 0; pointer-events: none; opacity: 0.05;
-    background-image: repeating-linear-gradient(45deg, #ffffff 0, #ffffff 1px, transparent 1px, transparent 10px);
-  }
-
-  /* BRANDING HEADER */
-  .brand-header {
-    display: flex; justify-content: space-between; align-items: flex-end;
-    margin-bottom: 20px; position: relative; z-index: 2; flex-shrink: 0;
-  }
-  .brand-title {
-    font-size: 26px; font-weight: 900; font-style: italic; line-height: 0.85;
-    text-transform: uppercase; letter-spacing: -1px; text-shadow: 2px 2px 0px rgba(0,0,0,0.5);
-  }
-  .brand-subtitle { font-size: 9px; letter-spacing: 3px; color: #888; margin-top: 5px; }
-  .brand-radar {
-    font-size: 12px; font-weight: 800; color: #d7aa50; letter-spacing: 1px;
-    padding: 3px 8px; border: 1px solid rgba(215, 170, 80, 0.3);
-    clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
-    background: rgba(215, 170, 80, 0.1);
-  }
-
-  /* LIST CONTAINER */
-  #content-area { 
-    display: flex; flex-direction: column; gap: 10px; 
-    flex-grow: 1; min-height: 0; overflow: hidden;
-  }
-
-  /* MATCH ROW */
-  .match-row {
-    display: flex; flex-shrink: 0;
-    background: linear-gradient(90deg, rgba(30,30,35,0.9), rgba(15,15,18,0.9));
-    border: 1px solid rgba(255,255,255,0.05);
-    border-left: 3px solid #d7aa50;
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-  }
-
-  .m-time {
-    display: flex; flex-direction: column; justify-content: center; align-items: center;
-    padding: 10px 12px; min-width: 75px; flex-shrink: 0;
-    background: rgba(255,255,255,0.03);
-    border-right: 1px solid rgba(255,255,255,0.05);
-  }
-  .m-date { font-size: 10px; font-weight: 800; color: #aaa; text-transform: uppercase; letter-spacing: 0.5px; }
-  .m-hour { font-size: 15px; font-weight: 900; color: #d7aa50; text-shadow: 0 0 8px rgba(215,170,80,0.4); }
-
-  .m-teams {
-    flex-grow: 1; display: grid; grid-template-columns: 1fr 20px 1fr; 
-    align-items: center; padding: 5px 12px; gap: 5px; min-width: 0;
+  /* Layout: 1920x1080 Container */
+  #app {
+    display: flex; width: 100%; height: 100%; padding: 60px; gap: 60px;
   }
   
-  .m-team { display: flex; align-items: center; gap: 8px; overflow: hidden; }
-  .m-team.right { justify-content: flex-end; text-align: right; }
-  
-  .m-logo { 
-    width: 28px; height: 28px; object-fit: contain; flex-shrink: 0;
-    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+  /* ================================
+     LEFT PANEL: BRANDING & HERO
+     ================================ */
+  .left-panel {
+    flex: 0 0 35%; display: flex; flex-direction: column; position: relative;
   }
-  .m-name { 
-    font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;
+  
+  .brand-header { margin-bottom: auto; }
+  .brand-logo { 
+    font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 72px; 
+    line-height: 1; letter-spacing: 2px;
+    background: linear-gradient(to right, var(--cyan), #fff);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 15px rgba(0, 240, 255, 0.3));
+  }
+  .brand-sub {
+    font-family: 'Rajdhani', sans-serif; font-size: 20px; font-weight: 700;
+    letter-spacing: 8px; color: var(--purple); text-transform: uppercase;
+    margin-top: 5px; text-shadow: 0 0 10px rgba(176, 38, 255, 0.4);
+  }
+
+  .hero-container {
+    background: var(--panel-bg);
+    border: 1px solid rgba(0, 240, 255, 0.2);
+    border-top: 4px solid var(--cyan);
+    padding: 50px 40px; position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 40px), calc(100% - 40px) 100%, 0 100%);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .hero-label {
+    position: absolute; top: -14px; left: 30px;
+    background: var(--cyan); color: #000;
+    font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 16px;
+    padding: 6px 25px; letter-spacing: 2px;
+    box-shadow: 0 0 15px var(--cyan);
+  }
+
+  .hero-time {
+    font-family: 'Orbitron', sans-serif; font-size: 32px; font-weight: 700;
+    color: var(--text-main); margin-bottom: 40px; text-align: center;
+    text-transform: uppercase;
+  }
+  .hero-time span { color: var(--cyan); }
+
+  .hero-matchup { display: flex; align-items: center; justify-content: center; width: 100%; gap: 20px; }
+  .hero-team { display: flex; flex-direction: column; align-items: center; flex: 1; min-width: 0; }
+  .hero-logo { width: 150px; height: 150px; object-fit: contain; margin-bottom: 20px; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.8)); }
+  .hero-name { 
+    font-family: 'Orbitron', sans-serif; font-size: 20px; font-weight: 700; 
+    text-align: center; text-transform: uppercase; width: 100%;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
   }
+  
+  .hero-vs {
+    font-family: 'Orbitron', sans-serif; font-size: 42px; font-weight: 900; font-style: italic;
+    color: var(--purple); text-shadow: 0 0 20px var(--purple);
+    animation: pulse 3s infinite ease-in-out;
+  }
 
-  .m-vs { font-size: 11px; font-weight: 900; font-style: italic; color: #555; text-align: center; }
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); filter: brightness(1); }
+    50% { transform: scale(1.1); filter: brightness(1.3); }
+  }
 
-  #status { position: absolute; bottom: 5px; left: 15px; font-size: 9px; color: rgba(255,255,255,0.3); font-weight: 800; letter-spacing: 1px; }
+  /* ================================
+     RIGHT PANEL: THE SCHEDULE QUEUE
+     ================================ */
+  .right-panel {
+    flex: 1; display: flex; flex-direction: column;
+    background: var(--panel-bg);
+    border: 1px solid rgba(176, 38, 255, 0.2);
+    border-top: 4px solid var(--purple);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), calc(100% - 50px) 100%, 0 100%);
+    padding: 40px 50px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+  }
+
+  .panel-title {
+    font-family: 'Orbitron', sans-serif; font-size: 38px; font-weight: 900; 
+    color: var(--text-main); text-transform: uppercase; letter-spacing: 2px;
+    margin-bottom: 40px; display: flex; justify-content: space-between; align-items: center;
+  }
+  .panel-title::after {
+    content: ''; flex: 1; height: 2px; background: linear-gradient(90deg, var(--purple), transparent);
+    margin-left: 30px; opacity: 0.5;
+  }
+
+  .schedule-list {
+    display: flex; flex-direction: column; gap: 20px; flex: 1; overflow: hidden;
+  }
+
+  /* Alternating borders for the UIC Identity */
+  .match-row {
+    display: flex; background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.05);
+    border-left: 5px solid var(--cyan);
+    align-items: center; padding: 20px 30px;
+  }
+  .match-row:nth-child(even) { border-left-color: var(--purple); }
+
+  .m-datetime {
+    display: flex; flex-direction: column; justify-content: center;
+    padding-right: 40px; border-right: 1px solid rgba(255,255,255,0.1);
+    min-width: 160px;
+  }
+  .m-date { font-family: 'Rajdhani', sans-serif; font-size: 18px; font-weight: 700; color: var(--text-muted); text-transform: uppercase;}
+  .m-time { font-family: 'Orbitron', sans-serif; font-size: 32px; font-weight: 700; color: var(--text-main); }
+  
+  .match-row:nth-child(odd) .m-time { color: var(--cyan); text-shadow: 0 0 10px rgba(0,240,255,0.3); }
+  .match-row:nth-child(even) .m-time { color: var(--purple); text-shadow: 0 0 10px rgba(176,38,255,0.3); }
+
+  .m-teams {
+    flex: 1; display: grid; grid-template-columns: 1fr 60px 1fr; align-items: center;
+    padding-left: 40px; gap: 20px; min-width: 0;
+  }
+  
+  .m-team { display: flex; align-items: center; gap: 20px; min-width: 0; }
+  .m-team.right { justify-content: flex-end; text-align: right; }
+  .m-logo { width: 65px; height: 65px; object-fit: contain; filter: drop-shadow(0 5px 10px rgba(0,0,0,0.5)); flex-shrink: 0;}
+  .m-name { 
+    font-family: 'Orbitron', sans-serif; font-size: 24px; font-weight: 700; 
+    text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; 
+  }
+
+  .m-vs {
+    font-family: 'Orbitron', sans-serif; font-size: 20px; font-weight: 900; font-style: italic;
+    color: var(--text-muted); text-align: center;
+  }
+
+  .status-bar {
+    position: absolute; bottom: 60px; left: 60px;
+    font-family: 'Rajdhani', sans-serif; font-size: 16px; font-weight: 600; color: var(--text-muted);
+    letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  .empty-state {
+    text-align: center; font-family: 'Orbitron', sans-serif; font-size: 24px;
+    color: var(--text-muted); padding: 50px; border: 1px dashed rgba(255,255,255,0.1);
+  }
 </style>
 </head>
 <body>
-<div id="overlay">
-  <div class="brand-header">
-    <div>
-      <div class="brand-title">UIC</div>
-      <div class="brand-subtitle">MATCH SCHEDULE</div>
+<div id="app">
+  
+  <!-- LEFT COLUMN -->
+  <div class="left-panel">
+    <div class="brand-header">
+      <div class="brand-logo">UIC</div>
+      <div class="brand-sub">ULTRA INSTINCT CREW</div>
     </div>
-    <div class="brand-radar">LIVE</div>
+    
+    <div class="hero-container" id="hero-card">
+       <!-- Populated by JS -->
+    </div>
+    
+    <div class="status-bar" id="status-bar">LADE DATENLAKE...</div>
   </div>
 
-  <div id="content-area"></div>
-  <div id="status"></div>
+  <!-- RIGHT COLUMN -->
+  <div class="right-panel">
+    <div class="panel-title">MATCH CENTER</div>
+    <div class="schedule-list" id="schedule-list">
+       <!-- Populated by JS -->
+    </div>
+  </div>
+
 </div>
 
 <script>
 (() => {
-  const contentArea = document.getElementById("content-area");
-  const status = document.getElementById("status");
+  const heroCard = document.getElementById("hero-card");
+  const scheduleList = document.getElementById("schedule-list");
+  const statusBar = document.getElementById("status-bar");
+  
   const esc = s => String(s ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
-  // Fallback SVG for missing logos
-  const fallbackLogo = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'%3E%3Crect width='28' height='28' fill='rgba(255,255,255,0.05)' rx='6'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='rgba(255,255,255,0.2)' font-family='Arial' font-size='14' font-weight='bold'%3E?%3C/text%3E%3C/svg%3E";
+  // Scalable SVG Placeholders matching the exact dark aesthetic
+  const svgTpl = (size, fontSize) => `data:image/svg+xml;charset=UTF-8,` + encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}"><rect width="${size}" height="${size}" fill="rgba(255,255,255,0.05)" rx="10"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-family="sans-serif" font-size="${fontSize}" font-weight="bold">?</text></svg>`);
+  const heroFallback = svgTpl(150, 50);
+  const rowFallback = svgTpl(65, 25);
 
   function formatRelativeTime(iso) {
     const d = new Date(iso);
     const now = new Date();
     const timeStr = new Intl.DateTimeFormat("de-DE",{timeZone:"Europe/Berlin",hour:"2-digit",minute:"2-digit"}).format(d);
     
-    // Normalize to midnight for day calculation
     const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
     const matchDay = new Date(d.getFullYear(), d.getMonth(), d.getDate());
     const diffDays = Math.round((matchDay - today) / (1000 * 60 * 60 * 24));
@@ -154,7 +273,7 @@
               uicTeamName: teamData.teamDisplay || `UIC ${teamKey.toUpperCase()}`,
               uicLogo: teamData.api_meta?.logo_url || "", 
               opponentLogo: m.enemy_team?.logo_url || "",
-              opponentTag: m.enemy_team?.team_tag || "TBD"
+              opponentName: m.enemy_team?.name || m.enemy_team?.team_tag || "TBD" // Prioritize full name since we have space
             });
           }
         });
@@ -162,52 +281,79 @@
 
       upcomingMatches.sort((a, b) => new Date(a.startsAt) - new Date(b.startsAt));
       
-      // Fetch up to 6 matches since the design is now flatter and more compact
-      const list = upcomingMatches.slice(0, 6); 
+      // Update Status Bar
+      statusBar.textContent = `TELEMETRY SYNCED // ${new Date().toLocaleTimeString('de-DE')}`;
 
-      if(!list.length){
-        contentArea.innerHTML = `<div style="text-align:center; color:#888; font-weight:800; font-size: 14px; margin-top: 50px;">DERZEIT KEINE BESTÄTIGTEN MATCHES</div>`;
-        status.textContent = "Standby.";
+      // Handle completely empty schedule
+      if(!upcomingMatches.length){
+        heroCard.innerHTML = `<div class="empty-state">OFF SEASON<br><span style="font-size:16px;">STANDBY MODE</span></div>`;
+        scheduleList.innerHTML = `<div class="empty-state">KEINE BESTÄTIGTEN MATCHES IN DER DATENBANK</div>`;
         return;
       }
       
-      status.textContent = "";
-      
-      contentArea.innerHTML = list.map(m => {
-        const timeData = formatRelativeTime(m.startsAt);
-        const uicLogoSrc = m.uicLogo ? esc(m.uicLogo) : fallbackLogo;
-        const enemyLogoSrc = m.opponentLogo ? esc(m.opponentLogo) : fallbackLogo;
+      // --- 1. RENDER HERO (Match [0]) ---
+      const hero = upcomingMatches[0];
+      const hTime = formatRelativeTime(hero.startsAt);
+      const hUicLogo = hero.uicLogo ? esc(hero.uicLogo) : heroFallback;
+      const hEnemyLogo = hero.opponentLogo ? esc(hero.opponentLogo) : heroFallback;
 
-        return `
-          <div class="match-row">
-            <div class="m-time">
-              <div class="m-date">${timeData.dayStr}</div>
-              <div class="m-hour">${timeData.timeStr}</div>
-            </div>
-            <div class="m-teams">
-              <div class="m-team">
-                <img class="m-logo" src="${uicLogoSrc}" alt="UIC" onerror="this.src='${fallbackLogo}'; this.onerror=null;">
-                <span class="m-name">${esc(m.uicTeamName)}</span>
-              </div>
-              <div class="m-vs">VS</div>
-              <div class="m-team right">
-                <span class="m-name" style="color: #ccc;">${esc(m.opponentTag)}</span>
-                <img class="m-logo" src="${enemyLogoSrc}" alt="${esc(m.opponentTag)}" onerror="this.src='${fallbackLogo}'; this.onerror=null;">
-              </div>
-            </div>
+      heroCard.innerHTML = `
+        <div class="hero-label">NEXT MATCH</div>
+        <div class="hero-time">${hTime.dayStr} <span style="margin: 0 10px;">//</span> <span>${hTime.timeStr} UHR</span></div>
+        <div class="hero-matchup">
+          <div class="hero-team">
+            <img class="hero-logo" src="${hUicLogo}" alt="UIC" onerror="this.src='${heroFallback}';">
+            <div class="hero-name">${esc(hero.uicTeamName)}</div>
           </div>
-        `;
-      }).join("");
+          <div class="hero-vs">VS</div>
+          <div class="hero-team">
+            <img class="hero-logo" src="${hEnemyLogo}" alt="Enemy" onerror="this.src='${heroFallback}';">
+            <div class="hero-name">${esc(hero.opponentName)}</div>
+          </div>
+        </div>
+      `;
+
+      // --- 2. RENDER SCHEDULE QUEUE (Matches [1] to [6]) ---
+      const queue = upcomingMatches.slice(1, 7);
       
+      if(!queue.length){
+        scheduleList.innerHTML = `<div class="empty-state">KEINE WEITEREN MATCHES GEPLANT</div>`;
+      } else {
+        scheduleList.innerHTML = queue.map(m => {
+          const time = formatRelativeTime(m.startsAt);
+          const uLogo = m.uicLogo ? esc(m.uicLogo) : rowFallback;
+          const eLogo = m.opponentLogo ? esc(m.opponentLogo) : rowFallback;
+
+          return `
+            <div class="match-row">
+              <div class="m-datetime">
+                <div class="m-date">${time.dayStr}</div>
+                <div class="m-time">${time.timeStr}</div>
+              </div>
+              <div class="m-teams">
+                <div class="m-team">
+                  <img class="m-logo" src="${uLogo}" onerror="this.src='${rowFallback}';">
+                  <div class="m-name">${esc(m.uicTeamName)}</div>
+                </div>
+                <div class="m-vs">VS</div>
+                <div class="m-team right">
+                  <div class="m-name" style="color: var(--text-muted);">${esc(m.opponentName)}</div>
+                  <img class="m-logo" src="${eLogo}" onerror="this.src='${rowFallback}';">
+                </div>
+              </div>
+            </div>
+          `;
+        }).join("");
+      }
+
     } catch(e) {
-      contentArea.innerHTML = "";
-      status.textContent = "Verbindung zum Data Lake getrennt.";
+      statusBar.textContent = "VERBINDUNG ZUM DATA LAKE GETRENNT.";
       console.error("OBS Fetch Error:", e);
     }
   }
 
   load();
-  setInterval(load, 120000); // Update every 2 minutes
+  setInterval(load, 120000); // 2 min sync
 })();
 </script>
 </body>
