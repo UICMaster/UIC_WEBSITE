@@ -21,22 +21,33 @@ function computeTeamStats(matches) {
 
     sorted.forEach(m => {
         if (!validTypes.includes(m.match_type)) return;
-        const mDate = new Date(m.begin);
+        
+        // FIX: Handle missing dates properly (so unscheduled matches don't evaluate to 1970)
+        const mDate = m.begin ? new Date(m.begin) : null;
 
         // Past Matches (Results)
-        if (m.result && mDate < now) {
+        if (m.result && mDate && mDate < now) {
             const [us, them] = m.result.split(':').map(Number);
             if (!isNaN(us)) {
                 mapWins += us; mapLosses += them;
+                
+                // FIX: Properly handle Best of 2 Draws
                 if (us === 2 && them === 0) totalPoints += 3;
                 else if (us === 2 && them === 1) totalPoints += 2;
+                else if (us === 1 && them === 1) totalPoints += 1; // 1:1 Draw gives 1 point
                 else if (us === 1 && them === 2) totalPoints += 1;
 
-                if (us > them) { formHistory.push('W'); sWins++; } 
-                else { formHistory.push('L'); sLosses++; }
+                // FIX: Properly log Draws in Form History
+                if (us > them) { 
+                    formHistory.push('W'); sWins++; 
+                } else if (us === them) {
+                    formHistory.push('D'); // Track Draws
+                } else { 
+                    formHistory.push('L'); sLosses++; 
+                }
 
                 lastMatch = {
-                    result: us > them ? "SIEG" : "NIEDERLAGE",
+                    result: us > them ? "SIEG" : (us === them ? "UNENTSCHIEDEN" : "NIEDERLAGE"),
                     score: `${us} - ${them}`,
                     enemy: m.enemy_team?.team_tag || "OPP",
                     date: m.begin
@@ -45,24 +56,33 @@ function computeTeamStats(matches) {
         }
         
         // Upcoming Matches
-        if (!m.result && mDate > now) {
+        // FIX: Allow matches with NO date yet (!mDate) to be pushed to upcoming
+        if (!m.result && (!mDate || mDate > now)) {
             upcomingMatches.push(m);
         }
     });
 
-    const games = sWins + sLosses;
+    const draws = formHistory.filter(f => f === 'D').length;
+    const games = sWins + sLosses + draws; // Ensure draws count towards total games played
+    
     return {
         wins: mapWins,
         losses: mapLosses,
         points: totalPoints,
         games: games,
         seriesWins: sWins,
-        win_rate: games > 0 ? Math.round((sWins / games) * 100) : 0,
+        win_rate: games > 0 ? Math.round(((sWins + (draws * 0.5)) / games) * 100) : 0, // Draws count as 50% win rate
         form: formHistory.slice(-5),
         lastMatch: lastMatch,
         allUpcoming: upcomingMatches // Pass full schedule to UI
     };
 }
+
+// Helper to safely set DOM text content without crashing if element is missing
+const safeSetText = (id, text) => {
+    const el = document.getElementById(id);
+    if (el) el.innerText = text;
+};
 
 async function loadPrimeStats() {
     try {
@@ -70,7 +90,7 @@ async function loadPrimeStats() {
         if (!response.ok) throw new Error("Golden JSON Missing");
         const rawData = await response.json();
         
-        let gMatches = 0, gSeriesWins = 0, gPlayers = new Set();
+        let gMatches = 0, gSeriesWins = 0, gDraws = 0, gPlayers = new Set();
         let allGlobalUpcoming = [];
         
         primeDataCache = { teams: {} };
@@ -91,6 +111,7 @@ async function loadPrimeStats() {
 
             gMatches += computed.games;
             gSeriesWins += computed.seriesWins;
+            gDraws += computed.form.filter(f => f === 'D').length;
             teamData.roster.forEach(p => gPlayers.add(p.gameName));
             
             computed.allUpcoming.forEach(m => {
@@ -106,48 +127,59 @@ async function loadPrimeStats() {
 
         primeDataCache.global = {
             matches: gMatches,
-            wr: gMatches > 0 ? Math.round((gSeriesWins / gMatches) * 100) : 0,
+            wr: gMatches > 0 ? Math.round(((gSeriesWins + (gDraws * 0.5)) / gMatches) * 100) : 0,
             players: gPlayers.size,
-            radar: allGlobalUpcoming.sort((a, b) => new Date(a.date) - new Date(b.date)).slice(0, 8)
+            // Sort, placing null dates (TBD) at the end
+            radar: allGlobalUpcoming.sort((a, b) => {
+                if (!a.date) return 1;
+                if (!b.date) return -1;
+                return new Date(a.date) - new Date(b.date);
+            }).slice(0, 8)
         };
 
-        // UI Updates
-        document.getElementById('stat-matches').innerText = primeDataCache.global.matches;
-        document.getElementById('stat-wr').innerText = primeDataCache.global.wr + '%';
-        document.getElementById('stat-players').innerText = primeDataCache.global.players;
+        // FIX: Safe UI Updates
+        safeSetText('stat-matches', primeDataCache.global.matches);
+        safeSetText('stat-wr', primeDataCache.global.wr + '%');
+        safeSetText('stat-players', primeDataCache.global.players);
 
         const tabsContainer = document.getElementById('stats-team-tabs');
-        const teamsOrder = Object.keys(primeDataCache.teams);
-        
-        let tabsHTML = `<button class="matrix-btn active" data-team="GLOBAL">[ ORGANISATION ]</button>`;
-        tabsHTML += teamsOrder.map(key => `<button class="matrix-btn" data-team="${key}">UIC ${key.toUpperCase()}</button>`).join('');
-        tabsContainer.innerHTML = tabsHTML;
+        if (tabsContainer) {
+            const teamsOrder = Object.keys(primeDataCache.teams);
+            
+            let tabsHTML = `<button class="matrix-btn active" data-team="GLOBAL">[ ORGANISATION ]</button>`;
+            tabsHTML += teamsOrder.map(key => `<button class="matrix-btn" data-team="${key}">UIC ${key.toUpperCase()}</button>`).join('');
+            tabsContainer.innerHTML = tabsHTML;
+
+            tabsContainer.addEventListener('click', (e) => {
+                if (e.target.classList.contains('matrix-btn')) {
+                    document.querySelectorAll('.matrix-btn').forEach(b => b.classList.remove('active'));
+                    e.target.classList.add('active');
+                    
+                    const target = e.target.dataset.team;
+                    if (target === 'GLOBAL') {
+                        renderGlobalRadar();
+                    } else {
+                        renderTeamTelemetry(target);
+                    }
+                }
+            });
+        }
 
         renderGlobalRadar();
 
-        tabsContainer.addEventListener('click', (e) => {
-            if (e.target.classList.contains('matrix-btn')) {
-                document.querySelectorAll('.matrix-btn').forEach(b => b.classList.remove('active'));
-                e.target.classList.add('active');
-                
-                const target = e.target.dataset.team;
-                if (target === 'GLOBAL') {
-                    renderGlobalRadar();
-                } else {
-                    renderTeamTelemetry(target);
-                }
-            }
-        });
-
     } catch (e) { 
         console.error("Daten-Ladefehler:", e);
-        document.getElementById('telemetry-output').innerHTML = `<div class="terminal-loader" style="color: #ff0055;">> VERBINDUNGSFEHLER ZUM DATA LAKE</div>`;
+        const outputArea = document.getElementById('telemetry-output');
+        if (outputArea) {
+            outputArea.innerHTML = `<div class="terminal-loader" style="color: #ff0055;">> VERBINDUNGSFEHLER ZUM DATA LAKE</div>`;
+        }
     }
 }
 
 function renderGlobalRadar() {
     const radarData = primeDataCache.global.radar || [];
     const outputArea = document.getElementById('telemetry-output');
+    if (!outputArea) return;
 
     if (radarData.length === 0) {
         outputArea.innerHTML = `<div class="wire-card"><div style="color: var(--text-muted);">Keine anstehenden Spiele gefunden.</div></div>`;
@@ -155,10 +187,11 @@ function renderGlobalRadar() {
     }
 
     const radarRows = radarData.map(m => {
-        const d = new Date(m.date);
-        const dateStr = d.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit' });
-        // Mask time if unconfirmed
-        const timeStr = m.confirmed 
+        const d = m.date ? new Date(m.date) : null;
+        const dateStr = d ? d.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit' }) : 'TBD';
+        
+        // Mask time if unconfirmed or null
+        const timeStr = (m.confirmed && d) 
             ? `<span style="color: #00ff88;">${d.toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit' })} UHR</span>` 
             : `<span style="color: #ffaa00; font-size: 0.7rem;">TIME TBD</span>`;
 
@@ -188,6 +221,8 @@ function renderTeamTelemetry(teamKey) {
     if (!t) return;
 
     const outputArea = document.getElementById('telemetry-output');
+    if (!outputArea) return;
+
     const totalMaps = t.stats.wins + t.stats.losses;
     const winRatio = totalMaps > 0 ? (t.stats.wins / totalMaps) * 100 : 0;
     const lossRatio = totalMaps > 0 ? (t.stats.losses / totalMaps) * 100 : 0;
@@ -196,6 +231,7 @@ function renderTeamTelemetry(teamKey) {
         const result = t.stats.form[i];
         if (result === 'W') return `<div class="form-block w">S</div>`;
         if (result === 'L') return `<div class="form-block l">N</div>`;
+        if (result === 'D') return `<div class="form-block d" style="color: #ffaa00; border-color: #ffaa00;">U</div>`; // Added Draw render
         return `<div class="form-block empty">-</div>`;
     }).join('');
 
@@ -206,8 +242,8 @@ function renderTeamTelemetry(teamKey) {
         const nextThree = t.stats.allUpcoming.slice(0, 3);
         
         upcomingScheduleHTML = `<div style="display: flex; flex-direction: column; gap: 10px;">` + nextThree.map(m => {
-            const d = new Date(m.begin);
-            const dateStr = d.toLocaleDateString('de-DE');
+            const d = m.begin ? new Date(m.begin) : null;
+            const dateStr = d ? d.toLocaleDateString('de-DE') : 'TBD';
             
             // Generate Roster Chips if enemy lineup is available
             let enemyRosterChips = '';
@@ -219,7 +255,7 @@ function renderTeamTelemetry(teamKey) {
                 `;
             }
             
-            if (m.confirmed) {
+            if (m.confirmed && d) {
                 return `
                     <div style="display: flex; justify-content: space-between; align-items: flex-start; background: rgba(0, 255, 136, 0.05); border: 1px solid rgba(0, 255, 136, 0.2); padding: 10px 15px; border-radius: 4px;">
                         <div>
@@ -304,7 +340,7 @@ function renderTeamTelemetry(teamKey) {
                     </div>
                     <div class="hud-stat-row" style="border: none; padding-bottom: 0;">
                         <span class="hud-lbl">ERGEBNIS</span>
-                        <span class="hud-val" style="color: ${t.last_match.result === 'SIEG' ? '#00ff88' : '#ff0055'};">${t.last_match.result} <span style="color: #fff; font-size: 0.9rem;">[${t.last_match.score}]</span></span>
+                        <span class="hud-val" style="color: ${t.last_match.result === 'SIEG' ? '#00ff88' : (t.last_match.result === 'UNENTSCHIEDEN' ? '#ffaa00' : '#ff0055')};">${t.last_match.result} <span style="color: #fff; font-size: 0.9rem;">[${t.last_match.score}]</span></span>
                     </div>
                     <div style="font-size: 0.6rem; color: var(--text-muted); margin-top: 10px; text-align: right;">DATUM // ${new Date(t.last_match.date).toLocaleDateString('de-DE')}</div>
                 ` : '<div style="color: var(--text-muted); font-size: 0.8rem;">KEINE DATEN VERFÜGBAR</div>'}
