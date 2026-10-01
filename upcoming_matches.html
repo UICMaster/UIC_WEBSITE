@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>UIC Glassmorphism Match Center (OBS)</title>
+<title>UIC Match Schedule (OBS)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
     --glass-border: 1px solid rgba(255, 255, 255, 0.08);
     --glass-edge: inset 0 1px 1px rgba(255, 255, 255, 0.08);
     --glass-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
-    --glass-blur: blur(24px);
+    --glass-blur: blur(30px);
     
     --text-main: #FFFFFF;
     --text-muted: #8A8A9E;
@@ -34,156 +34,144 @@
     color: var(--text-main);
   }
 
-  /* The ambient light that makes the glassmorphism visible */
+  /* Ambient glowing orbs to refract through the glass */
   body::before, body::after {
     content: ''; position: absolute; border-radius: 50%;
-    filter: blur(120px); z-index: -1; opacity: 0.4;
+    filter: blur(140px); z-index: -1; opacity: 0.35;
   }
   body::before {
     top: -10%; left: -10%; width: 60vw; height: 60vw;
-    background: radial-gradient(circle, rgba(0,240,255,0.2) 0%, transparent 60%);
+    background: radial-gradient(circle, rgba(0,240,255,0.25) 0%, transparent 60%);
   }
   body::after {
     bottom: -20%; right: -10%; width: 70vw; height: 70vw;
-    background: radial-gradient(circle, rgba(176,38,255,0.15) 0%, transparent 60%);
+    background: radial-gradient(circle, rgba(176,38,255,0.2) 0%, transparent 60%);
   }
   
   #app {
-    display: flex; width: 100%; height: 100%; padding: 60px; gap: 60px;
+    display: flex; flex-direction: column; width: 100%; height: 100%; 
+    padding: 60px 80px; gap: 40px;
   }
-  
+
   /* ================================
-     LEFT PANEL: HERO
+     HEADER
      ================================ */
-  .left-panel {
-    flex: 0 0 35%; display: flex; flex-direction: column; justify-content: center;
+  .header-bar {
+    display: flex; justify-content: space-between; align-items: flex-end;
+    flex-shrink: 0;
   }
-  
   .brand-logo { 
-    font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 72px; 
+    font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 64px; 
     line-height: 1; letter-spacing: 2px;
     background: linear-gradient(to right, var(--cyan), #fff);
     -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-    margin-bottom: 50px;
     filter: drop-shadow(0 4px 20px rgba(0,240,255,0.2));
   }
+  .brand-sub {
+    font-size: 22px; font-weight: 700; letter-spacing: 8px; 
+    color: var(--text-muted); text-transform: uppercase; margin-top: 8px;
+  }
+  .status-text {
+    font-size: 16px; font-weight: 600; color: rgba(255,255,255,0.3);
+    letter-spacing: 2px; text-transform: uppercase;
+  }
 
-  .glass-panel {
+  /* ================================
+     OPTIMIZED GRID (Auto-Centering)
+     ================================ */
+  .schedule-grid {
+    flex: 1; display: grid; 
+    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+    gap: 40px; 
+    align-content: center; /* Centers the whole grid if few matches exist */
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  /* ================================
+     GLASS CARDS
+     ================================ */
+  .glass-card {
     background: var(--glass-bg);
     backdrop-filter: var(--glass-blur);
     -webkit-backdrop-filter: var(--glass-blur);
     border: var(--glass-border);
     box-shadow: var(--glass-shadow), var(--glass-edge);
     border-radius: 20px;
-  }
-
-  .hero-container {
-    padding: 60px 40px; 
-    display: flex; flex-direction: column; align-items: center; justify-content: center;
-  }
-
-  .hero-time {
-    font-family: 'Orbitron', sans-serif; font-size: 32px; font-weight: 700;
-    color: var(--text-main); margin-bottom: 40px; text-align: center;
-    text-transform: uppercase; letter-spacing: 1px;
-  }
-  .hero-time span { color: var(--cyan); }
-
-  .hero-matchup { display: flex; align-items: center; justify-content: center; width: 100%; gap: 20px; }
-  .hero-team { display: flex; flex-direction: column; align-items: center; flex: 1; min-width: 0; }
-  .hero-logo { width: 160px; height: 160px; object-fit: contain; margin-bottom: 25px; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));}
-  .hero-name { 
-    font-family: 'Orbitron', sans-serif; font-size: 20px; font-weight: 700; 
-    text-align: center; text-transform: uppercase; width: 100%;
-    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-    letter-spacing: 1px;
-  }
-  
-  .hero-vs {
-    font-family: 'Orbitron', sans-serif; font-size: 36px; font-weight: 900; font-style: italic;
-    color: rgba(255,255,255,0.2); padding: 0 10px;
-  }
-
-  /* ================================
-     RIGHT PANEL: SCHEDULE
-     ================================ */
-  .right-panel {
-    flex: 1; display: flex; flex-direction: column; justify-content: center;
-  }
-
-  .schedule-list {
-    display: flex; flex-direction: column; gap: 16px; width: 100%;
-  }
-
-  .match-row {
-    display: flex; align-items: center; padding: 25px 35px;
+    display: flex; flex-direction: column;
+    padding: 30px 40px;
     position: relative; overflow: hidden;
   }
-  
-  /* Subtle brand color accents on the left edge */
-  .match-row::before {
-    content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px;
-    background: var(--cyan); border-radius: 4px 0 0 4px;
-  }
-  .match-row:nth-child(even)::before { background: var(--purple); }
 
-  .m-datetime {
-    display: flex; flex-direction: column; justify-content: center;
-    padding-right: 40px; border-right: 1px solid rgba(255,255,255,0.08);
-    min-width: 160px;
+  /* Alternating side stripes */
+  .glass-card::before {
+    content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 6px;
+    background: var(--cyan);
   }
-  .m-date { font-size: 18px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px;}
-  .m-time { font-family: 'Orbitron', sans-serif; font-size: 32px; font-weight: 700; color: var(--text-main); }
+  .glass-card:nth-child(even)::before { background: var(--purple); }
 
-  .m-teams {
-    flex: 1; display: grid; grid-template-columns: 1fr 60px 1fr; align-items: center;
-    padding-left: 40px; gap: 20px; min-width: 0;
+  .c-header {
+    display: flex; justify-content: space-between; align-items: flex-end;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    padding-bottom: 15px; margin-bottom: 25px;
+  }
+  .c-date { font-size: 22px; font-weight: 700; color: var(--text-muted); letter-spacing: 1px;}
+  .c-time { font-family: 'Orbitron', sans-serif; font-size: 28px; font-weight: 700; color: var(--text-main); }
+  
+  .glass-card:nth-child(odd) .c-time { color: var(--cyan); text-shadow: 0 0 15px rgba(0,240,255,0.3); }
+  .glass-card:nth-child(even) .c-time { color: var(--purple); text-shadow: 0 0 15px rgba(176,38,255,0.3); }
+
+  .c-body {
+    display: flex; align-items: center; justify-content: space-between; width: 100%;
   }
   
-  .m-team { display: flex; align-items: center; gap: 25px; min-width: 0; }
-  .m-team.right { justify-content: flex-end; text-align: right; }
-  .m-logo { width: 70px; height: 70px; object-fit: contain; flex-shrink: 0; filter: drop-shadow(0 4px 10px rgba(0,0,0,0.3));}
-  .m-name { 
+  .c-team { display: flex; align-items: center; gap: 20px; flex: 1; min-width: 0; }
+  .c-team.right { justify-content: flex-end; text-align: right; flex-direction: row-reverse; }
+  
+  .c-logo { 
+    width: 80px; height: 80px; object-fit: contain; flex-shrink: 0;
+    filter: drop-shadow(0 5px 15px rgba(0,0,0,0.4));
+  }
+  .c-name { 
     font-family: 'Orbitron', sans-serif; font-size: 24px; font-weight: 700; 
     text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; 
     letter-spacing: 1px;
   }
 
-  .m-vs {
-    font-family: 'Orbitron', sans-serif; font-size: 20px; font-weight: 900; font-style: italic;
-    color: rgba(255,255,255,0.15); text-align: center;
+  .c-vs {
+    font-family: 'Orbitron', sans-serif; font-size: 24px; font-weight: 900; font-style: italic;
+    color: rgba(255,255,255,0.1); padding: 0 25px;
   }
 
   .empty-state {
-    text-align: left; font-family: 'Orbitron', sans-serif; font-size: 24px;
-    color: var(--text-muted); padding: 50px 0;
+    grid-column: span 2; text-align: center; font-family: 'Orbitron', sans-serif; font-size: 28px;
+    color: var(--text-muted); padding: 100px;
   }
 </style>
 </head>
 <body>
 <div id="app">
   
-  <!-- LEFT COLUMN -->
-  <div class="left-panel">
-    <div class="brand-logo">UIC</div>
-    <div id="hero-card">
-       <!-- Populated by JS -->
+  <!-- HEADER -->
+  <div class="header-bar">
+    <div>
+      <div class="brand-logo">UIC</div>
+      <div class="brand-sub">MATCH SCHEDULE</div>
     </div>
+    <div class="status-text" id="status-bar">LADE DATENLAKE...</div>
   </div>
 
-  <!-- RIGHT COLUMN -->
-  <div class="right-panel">
-    <div class="schedule-list" id="schedule-list">
-       <!-- Populated by JS -->
-    </div>
+  <!-- AUTO-CENTERING GRID -->
+  <div class="schedule-grid" id="schedule-grid">
+     <!-- Populated by JS -->
   </div>
 
 </div>
 
 <script>
 (() => {
-  const heroCard = document.getElementById("hero-card");
-  const scheduleList = document.getElementById("schedule-list");
+  const scheduleGrid = document.getElementById("schedule-grid");
+  const statusBar = document.getElementById("status-bar");
   const esc = s => String(s ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
   // Sleek Shield Silhouette for Missing Logos
@@ -232,71 +220,46 @@
       }
 
       upcomingMatches.sort((a, b) => new Date(a.startsAt) - new Date(b.startsAt));
+      statusBar.textContent = `TELEMETRY SYNCED // ${new Date().toLocaleTimeString('de-DE')}`;
 
-      if(!upcomingMatches.length){
-        heroCard.innerHTML = ``;
-        scheduleList.innerHTML = `<div class="empty-state">KEINE MATCHES GEPLANT</div>`;
+      // Cap at 6 matches to guarantee a beautiful 2x3 grid. 
+      // If there are less than 6, CSS `align-content: center` handles centering automatically.
+      const list = upcomingMatches.slice(0, 6);
+
+      if(!list.length){
+        scheduleGrid.innerHTML = `<div class="empty-state">KEINE BESTÄTIGTEN MATCHES GEPLANT</div>`;
         return;
       }
       
-      // --- 1. RENDER HERO (Match [0]) ---
-      const hero = upcomingMatches[0];
-      const hTime = formatRelativeTime(hero.startsAt);
-      const hUicLogo = hero.uicLogo ? esc(hero.uicLogo) : fallbackLogo;
-      const hEnemyLogo = hero.opponentLogo ? esc(hero.opponentLogo) : fallbackLogo;
+      scheduleGrid.innerHTML = list.map(m => {
+        const time = formatRelativeTime(m.startsAt);
+        const uLogo = m.uicLogo ? esc(m.uicLogo) : fallbackLogo;
+        const eLogo = m.opponentLogo ? esc(m.opponentLogo) : fallbackLogo;
 
-      heroCard.innerHTML = `
-        <div class="glass-panel hero-container">
-          <div class="hero-time">${hTime.dayStr} <span style="margin: 0 15px;">//</span> <span>${hTime.timeStr} UHR</span></div>
-          <div class="hero-matchup">
-            <div class="hero-team">
-              <img class="hero-logo" src="${hUicLogo}" alt="UIC" onerror="this.src='${fallbackLogo}';">
-              <div class="hero-name">${esc(hero.uicTeamName)}</div>
+        return `
+          <div class="glass-card">
+            <div class="c-header">
+              <span class="c-date">${time.dayStr}</span>
+              <span class="c-time">${time.timeStr} UHR</span>
             </div>
-            <div class="hero-vs">VS</div>
-            <div class="hero-team">
-              <img class="hero-logo" src="${hEnemyLogo}" alt="Enemy" onerror="this.src='${fallbackLogo}';">
-              <div class="hero-name">${esc(hero.opponentName)}</div>
+            <div class="c-body">
+              <div class="c-team">
+                <img class="c-logo" src="${uLogo}" onerror="this.src='${fallbackLogo}';">
+                <div class="c-name">${esc(m.uicTeamName)}</div>
+              </div>
+              <div class="c-vs">VS</div>
+              <div class="c-team right">
+                <div class="c-name" style="color: var(--text-muted);">${esc(m.opponentName)}</div>
+                <img class="c-logo" src="${eLogo}" onerror="this.src='${fallbackLogo}';">
+              </div>
             </div>
           </div>
-        </div>
-      `;
-
-      // --- 2. RENDER SCHEDULE QUEUE (Matches [1] to [5]) ---
-      const queue = upcomingMatches.slice(1, 6);
-      
-      if(!queue.length){
-        scheduleList.innerHTML = ``;
-      } else {
-        scheduleList.innerHTML = queue.map(m => {
-          const time = formatRelativeTime(m.startsAt);
-          const uLogo = m.uicLogo ? esc(m.uicLogo) : fallbackLogo;
-          const eLogo = m.opponentLogo ? esc(m.opponentLogo) : fallbackLogo;
-
-          return `
-            <div class="glass-panel match-row">
-              <div class="m-datetime">
-                <div class="m-date">${time.dayStr}</div>
-                <div class="m-time">${time.timeStr}</div>
-              </div>
-              <div class="m-teams">
-                <div class="m-team">
-                  <img class="m-logo" src="${uLogo}" onerror="this.src='${fallbackLogo}';">
-                  <div class="m-name">${esc(m.uicTeamName)}</div>
-                </div>
-                <div class="m-vs">VS</div>
-                <div class="m-team right">
-                  <div class="m-name" style="color: var(--text-muted);">${esc(m.opponentName)}</div>
-                  <img class="m-logo" src="${eLogo}" onerror="this.src='${fallbackLogo}';">
-                </div>
-              </div>
-            </div>
-          `;
-        }).join("");
-      }
+        `;
+      }).join("");
 
     } catch(e) {
-      scheduleList.innerHTML = `<div class="empty-state">VERBINDUNG FEHLGESCHLAGEN</div>`;
+      scheduleGrid.innerHTML = `<div class="empty-state">VERBINDUNG FEHLGESCHLAGEN</div>`;
+      statusBar.textContent = "OFFLINE";
       console.error("OBS Fetch Error:", e);
     }
   }
