@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>UIC Fullscreen Match Center (OBS)</title>
+<title>UIC Clean Match Center (OBS)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    /* Official UIC Brand Colors */
     --cyan: #00F0FF;
     --purple: #B026FF;
     --dark-bg: #07070A;
-    --panel-bg: rgba(15, 15, 20, 0.85);
+    --panel-bg: #111116;
+    --border-color: #23232f;
     --text-main: #FFFFFF;
     --text-muted: #8A8A9E;
   }
@@ -24,73 +24,35 @@
     margin: 0; padding: 0; width: 100vw; height: 100vh;
     overflow: hidden; 
     background-color: var(--dark-bg);
-    background-image: 
-      radial-gradient(circle at 15% 50%, rgba(0, 240, 255, 0.08), transparent 50%),
-      radial-gradient(circle at 85% 30%, rgba(176, 38, 255, 0.08), transparent 50%);
     font-family: 'Rajdhani', sans-serif;
     color: var(--text-main);
   }
-
-  /* Grid background pattern for Esports/Cyber aesthetic */
-  body::before {
-    content: ''; position: absolute; inset: 0; z-index: -1;
-    background-image: 
-      linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
-    background-size: 40px 40px;
-    opacity: 0.5;
-  }
   
-  /* TV Broadcast Scanlines */
-  body::after {
-    content: ''; position: absolute; inset: 0; z-index: 9999;
-    background: linear-gradient(to bottom, rgba(255,255,255,0) 50%, rgba(0,0,0,0.1) 50%);
-    background-size: 100% 4px; pointer-events: none;
-  }
-  
-  /* Layout: 1920x1080 Container */
   #app {
     display: flex; width: 100%; height: 100%; padding: 60px; gap: 60px;
   }
   
   /* ================================
-     LEFT PANEL: BRANDING & HERO
+     LEFT PANEL: HERO
      ================================ */
   .left-panel {
-    flex: 0 0 35%; display: flex; flex-direction: column; position: relative;
+    flex: 0 0 35%; display: flex; flex-direction: column; justify-content: center;
   }
   
-  .brand-header { margin-bottom: auto; }
   .brand-logo { 
     font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 72px; 
     line-height: 1; letter-spacing: 2px;
     background: linear-gradient(to right, var(--cyan), #fff);
     -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-    filter: drop-shadow(0 0 15px rgba(0, 240, 255, 0.3));
-  }
-  .brand-sub {
-    font-family: 'Rajdhani', sans-serif; font-size: 20px; font-weight: 700;
-    letter-spacing: 8px; color: var(--purple); text-transform: uppercase;
-    margin-top: 5px; text-shadow: 0 0 10px rgba(176, 38, 255, 0.4);
+    margin-bottom: 50px;
   }
 
   .hero-container {
     background: var(--panel-bg);
-    border: 1px solid rgba(0, 240, 255, 0.2);
-    border-top: 4px solid var(--cyan);
-    padding: 50px 40px; position: relative;
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 40px), calc(100% - 40px) 100%, 0 100%);
-    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+    border: 1px solid var(--border-color);
+    border-left: 4px solid var(--cyan);
+    padding: 60px 40px; 
     display: flex; flex-direction: column; align-items: center; justify-content: center;
-    margin-bottom: 20px;
-  }
-  
-  .hero-label {
-    position: absolute; top: -14px; left: 30px;
-    background: var(--cyan); color: #000;
-    font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 16px;
-    padding: 6px 25px; letter-spacing: 2px;
-    box-shadow: 0 0 15px var(--cyan);
   }
 
   .hero-time {
@@ -102,7 +64,7 @@
 
   .hero-matchup { display: flex; align-items: center; justify-content: center; width: 100%; gap: 20px; }
   .hero-team { display: flex; flex-direction: column; align-items: center; flex: 1; min-width: 0; }
-  .hero-logo { width: 150px; height: 150px; object-fit: contain; margin-bottom: 20px; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.8)); }
+  .hero-logo { width: 160px; height: 160px; object-fit: contain; margin-bottom: 25px; }
   .hero-name { 
     font-family: 'Orbitron', sans-serif; font-size: 20px; font-weight: 700; 
     text-align: center; text-transform: uppercase; width: 100%;
@@ -110,71 +72,48 @@
   }
   
   .hero-vs {
-    font-family: 'Orbitron', sans-serif; font-size: 42px; font-weight: 900; font-style: italic;
-    color: var(--purple); text-shadow: 0 0 20px var(--purple);
-    animation: pulse 3s infinite ease-in-out;
-  }
-
-  @keyframes pulse {
-    0%, 100% { transform: scale(1); filter: brightness(1); }
-    50% { transform: scale(1.1); filter: brightness(1.3); }
+    font-family: 'Orbitron', sans-serif; font-size: 36px; font-weight: 900; font-style: italic;
+    color: var(--text-muted); padding: 0 10px;
   }
 
   /* ================================
-     RIGHT PANEL: THE SCHEDULE QUEUE
+     RIGHT PANEL: SCHEDULE
      ================================ */
   .right-panel {
-    flex: 1; display: flex; flex-direction: column;
-    background: var(--panel-bg);
-    border: 1px solid rgba(176, 38, 255, 0.2);
-    border-top: 4px solid var(--purple);
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), calc(100% - 50px) 100%, 0 100%);
-    padding: 40px 50px;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
-  }
-
-  .panel-title {
-    font-family: 'Orbitron', sans-serif; font-size: 38px; font-weight: 900; 
-    color: var(--text-main); text-transform: uppercase; letter-spacing: 2px;
-    margin-bottom: 40px; display: flex; justify-content: space-between; align-items: center;
-  }
-  .panel-title::after {
-    content: ''; flex: 1; height: 2px; background: linear-gradient(90deg, var(--purple), transparent);
-    margin-left: 30px; opacity: 0.5;
+    flex: 1; display: flex; flex-direction: column; justify-content: center;
   }
 
   .schedule-list {
-    display: flex; flex-direction: column; gap: 20px; flex: 1; overflow: hidden;
+    display: flex; flex-direction: column; gap: 15px; width: 100%;
   }
 
-  /* Alternating borders for the UIC Identity */
   .match-row {
-    display: flex; background: rgba(255,255,255,0.02);
-    border: 1px solid rgba(255,255,255,0.05);
-    border-left: 5px solid var(--cyan);
-    align-items: center; padding: 20px 30px;
+    display: flex; background: var(--panel-bg);
+    border: 1px solid var(--border-color);
+    border-left: 4px solid var(--cyan);
+    align-items: center; padding: 25px 35px;
   }
   .match-row:nth-child(even) { border-left-color: var(--purple); }
 
   .m-datetime {
     display: flex; flex-direction: column; justify-content: center;
-    padding-right: 40px; border-right: 1px solid rgba(255,255,255,0.1);
+    padding-right: 40px; border-right: 1px solid var(--border-color);
     min-width: 160px;
   }
-  .m-date { font-family: 'Rajdhani', sans-serif; font-size: 18px; font-weight: 700; color: var(--text-muted); text-transform: uppercase;}
+  .m-date { font-size: 18px; font-weight: 700; color: var(--text-muted); text-transform: uppercase;}
   .m-time { font-family: 'Orbitron', sans-serif; font-size: 32px; font-weight: 700; color: var(--text-main); }
   
-  .match-row:nth-child(odd) .m-time { color: var(--cyan); text-shadow: 0 0 10px rgba(0,240,255,0.3); }
-  .match-row:nth-child(even) .m-time { color: var(--purple); text-shadow: 0 0 10px rgba(176,38,255,0.3); }
+  .match-row:nth-child(odd) .m-time { color: var(--cyan); }
+  .match-row:nth-child(even) .m-time { color: var(--purple); }
 
   .m-teams {
     flex: 1; display: grid; grid-template-columns: 1fr 60px 1fr; align-items: center;
     padding-left: 40px; gap: 20px; min-width: 0;
   }
   
-  .m-team { display: flex; align-items: center; gap: 20px; min-width: 0; }
+  .m-team { display: flex; align-items: center; gap: 25px; min-width: 0; }
   .m-team.right { justify-content: flex-end; text-align: right; }
-  .m-logo { width: 65px; height: 65px; object-fit: contain; filter: drop-shadow(0 5px 10px rgba(0,0,0,0.5)); flex-shrink: 0;}
+  .m-logo { width: 70px; height: 70px; object-fit: contain; flex-shrink: 0;}
   .m-name { 
     font-family: 'Orbitron', sans-serif; font-size: 24px; font-weight: 700; 
     text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; 
@@ -185,15 +124,9 @@
     color: var(--text-muted); text-align: center;
   }
 
-  .status-bar {
-    position: absolute; bottom: 60px; left: 60px;
-    font-family: 'Rajdhani', sans-serif; font-size: 16px; font-weight: 600; color: var(--text-muted);
-    letter-spacing: 2px; text-transform: uppercase;
-  }
-
   .empty-state {
-    text-align: center; font-family: 'Orbitron', sans-serif; font-size: 24px;
-    color: var(--text-muted); padding: 50px; border: 1px dashed rgba(255,255,255,0.1);
+    text-align: left; font-family: 'Orbitron', sans-serif; font-size: 24px;
+    color: var(--text-muted); padding: 50px 0;
   }
 </style>
 </head>
@@ -202,21 +135,14 @@
   
   <!-- LEFT COLUMN -->
   <div class="left-panel">
-    <div class="brand-header">
-      <div class="brand-logo">UIC</div>
-      <div class="brand-sub">ULTRA INSTINCT CREW</div>
-    </div>
-    
-    <div class="hero-container" id="hero-card">
+    <div class="brand-logo">UIC</div>
+    <div id="hero-card">
        <!-- Populated by JS -->
     </div>
-    
-    <div class="status-bar" id="status-bar">LADE DATENLAKE...</div>
   </div>
 
   <!-- RIGHT COLUMN -->
   <div class="right-panel">
-    <div class="panel-title">MATCH CENTER</div>
     <div class="schedule-list" id="schedule-list">
        <!-- Populated by JS -->
     </div>
@@ -228,14 +154,10 @@
 (() => {
   const heroCard = document.getElementById("hero-card");
   const scheduleList = document.getElementById("schedule-list");
-  const statusBar = document.getElementById("status-bar");
-  
   const esc = s => String(s ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
-  // Scalable SVG Placeholders matching the exact dark aesthetic
-  const svgTpl = (size, fontSize) => `data:image/svg+xml;charset=UTF-8,` + encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}"><rect width="${size}" height="${size}" fill="rgba(255,255,255,0.05)" rx="10"/><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-family="sans-serif" font-size="${fontSize}" font-weight="bold">?</text></svg>`);
-  const heroFallback = svgTpl(150, 50);
-  const rowFallback = svgTpl(65, 25);
+  // Generic Team Shield silhouette (clean grey)
+  const fallbackLogo = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2323232f'%3E%3Cpath d='M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z'/%3E%3C/svg%3E";
 
   function formatRelativeTime(iso) {
     const d = new Date(iso);
@@ -273,56 +195,53 @@
               uicTeamName: teamData.teamDisplay || `UIC ${teamKey.toUpperCase()}`,
               uicLogo: teamData.api_meta?.logo_url || "", 
               opponentLogo: m.enemy_team?.logo_url || "",
-              opponentName: m.enemy_team?.name || m.enemy_team?.team_tag || "TBD" // Prioritize full name since we have space
+              opponentName: m.enemy_team?.name || m.enemy_team?.team_tag || "TBD" 
             });
           }
         });
       }
 
       upcomingMatches.sort((a, b) => new Date(a.startsAt) - new Date(b.startsAt));
-      
-      // Update Status Bar
-      statusBar.textContent = `TELEMETRY SYNCED // ${new Date().toLocaleTimeString('de-DE')}`;
 
-      // Handle completely empty schedule
       if(!upcomingMatches.length){
-        heroCard.innerHTML = `<div class="empty-state">OFF SEASON<br><span style="font-size:16px;">STANDBY MODE</span></div>`;
-        scheduleList.innerHTML = `<div class="empty-state">KEINE BESTÄTIGTEN MATCHES IN DER DATENBANK</div>`;
+        heroCard.innerHTML = ``;
+        scheduleList.innerHTML = `<div class="empty-state">KEINE MATCHES GEPLANT</div>`;
         return;
       }
       
       // --- 1. RENDER HERO (Match [0]) ---
       const hero = upcomingMatches[0];
       const hTime = formatRelativeTime(hero.startsAt);
-      const hUicLogo = hero.uicLogo ? esc(hero.uicLogo) : heroFallback;
-      const hEnemyLogo = hero.opponentLogo ? esc(hero.opponentLogo) : heroFallback;
+      const hUicLogo = hero.uicLogo ? esc(hero.uicLogo) : fallbackLogo;
+      const hEnemyLogo = hero.opponentLogo ? esc(hero.opponentLogo) : fallbackLogo;
 
       heroCard.innerHTML = `
-        <div class="hero-label">NEXT MATCH</div>
-        <div class="hero-time">${hTime.dayStr} <span style="margin: 0 10px;">//</span> <span>${hTime.timeStr} UHR</span></div>
-        <div class="hero-matchup">
-          <div class="hero-team">
-            <img class="hero-logo" src="${hUicLogo}" alt="UIC" onerror="this.src='${heroFallback}';">
-            <div class="hero-name">${esc(hero.uicTeamName)}</div>
-          </div>
-          <div class="hero-vs">VS</div>
-          <div class="hero-team">
-            <img class="hero-logo" src="${hEnemyLogo}" alt="Enemy" onerror="this.src='${heroFallback}';">
-            <div class="hero-name">${esc(hero.opponentName)}</div>
+        <div class="hero-container">
+          <div class="hero-time">${hTime.dayStr} <span style="margin: 0 15px;">//</span> <span>${hTime.timeStr} UHR</span></div>
+          <div class="hero-matchup">
+            <div class="hero-team">
+              <img class="hero-logo" src="${hUicLogo}" alt="UIC" onerror="this.src='${fallbackLogo}';">
+              <div class="hero-name">${esc(hero.uicTeamName)}</div>
+            </div>
+            <div class="hero-vs">VS</div>
+            <div class="hero-team">
+              <img class="hero-logo" src="${hEnemyLogo}" alt="Enemy" onerror="this.src='${fallbackLogo}';">
+              <div class="hero-name">${esc(hero.opponentName)}</div>
+            </div>
           </div>
         </div>
       `;
 
-      // --- 2. RENDER SCHEDULE QUEUE (Matches [1] to [6]) ---
-      const queue = upcomingMatches.slice(1, 7);
+      // --- 2. RENDER SCHEDULE QUEUE (Matches [1] to [5]) ---
+      const queue = upcomingMatches.slice(1, 6);
       
       if(!queue.length){
-        scheduleList.innerHTML = `<div class="empty-state">KEINE WEITEREN MATCHES GEPLANT</div>`;
+        scheduleList.innerHTML = ``;
       } else {
         scheduleList.innerHTML = queue.map(m => {
           const time = formatRelativeTime(m.startsAt);
-          const uLogo = m.uicLogo ? esc(m.uicLogo) : rowFallback;
-          const eLogo = m.opponentLogo ? esc(m.opponentLogo) : rowFallback;
+          const uLogo = m.uicLogo ? esc(m.uicLogo) : fallbackLogo;
+          const eLogo = m.opponentLogo ? esc(m.opponentLogo) : fallbackLogo;
 
           return `
             <div class="match-row">
@@ -332,13 +251,13 @@
               </div>
               <div class="m-teams">
                 <div class="m-team">
-                  <img class="m-logo" src="${uLogo}" onerror="this.src='${rowFallback}';">
+                  <img class="m-logo" src="${uLogo}" onerror="this.src='${fallbackLogo}';">
                   <div class="m-name">${esc(m.uicTeamName)}</div>
                 </div>
                 <div class="m-vs">VS</div>
                 <div class="m-team right">
                   <div class="m-name" style="color: var(--text-muted);">${esc(m.opponentName)}</div>
-                  <img class="m-logo" src="${eLogo}" onerror="this.src='${rowFallback}';">
+                  <img class="m-logo" src="${eLogo}" onerror="this.src='${fallbackLogo}';">
                 </div>
               </div>
             </div>
@@ -347,7 +266,7 @@
       }
 
     } catch(e) {
-      statusBar.textContent = "VERBINDUNG ZUM DATA LAKE GETRENNT.";
+      scheduleList.innerHTML = `<div class="empty-state">VERBINDUNG FEHLGESCHLAGEN</div>`;
       console.error("OBS Fetch Error:", e);
     }
   }
