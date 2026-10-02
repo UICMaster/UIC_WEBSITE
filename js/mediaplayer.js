@@ -2,7 +2,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const playlist = [
         { 
-            title: "UIC HYMNE - 2026",    
+            title: "UIC HYMNE - 2026 Q4",    
+            src: "assets/audio/ULTRA_INSTINCT_CREW_ORGA_HYMNE_2026_2.mp3",
+            type: "audio",
+            art: "",
+            artist: "Ultra Instinct Crew"
+        },
+        { 
+            title: "UIC HYMNE - 2026 Lagerfeuer",    
+            src: "assets/audio/ULTRA_INSTINCT_CREW_ORGA_HYMNE_2026_FAM.mp3",
+            type: "audio",
+            art: "",
+            artist: "Ultra Instinct Crew"
+        },
+        { 
+            title: "UIC HYMNE - 2026 Q2",    
             src: "assets/video/ULTRA_INSTINCT_CREW_ORGA_HYMNE_VIDEO_2026.webm",
             type: "video",
             art: "",
