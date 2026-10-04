@@ -1,21 +1,5 @@
 [
   {
-    "id": "1555620678558814279",
-    "name": "Ultra Instinct Crew Ascend vs. Off Role",
-    "description": "gameday 1",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-04T10:00:00+00:00",
-    "end": "2026-10-04T12:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1165463",
-    "image": "https://cdn.discordapp.com/guild-events/1555620678558814279/56bac005e599af2e1cb56b6447a1567e.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Ascend",
-      "Off Role"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1554393009133457449",
     "name": "Ultra Instinct Crew Sakura vs. LES PrimeBot Devs",
     "description": "gameday 1",
