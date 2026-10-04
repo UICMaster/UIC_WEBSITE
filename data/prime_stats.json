@@ -122,7 +122,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/116000/116908.jpg?1768526642",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/116908",
-      "updated_at": "2026-10-04T22:05:30.081025+02:00"
+      "updated_at": "2026-10-04T22:35:47.715952+02:00"
     },
     "matches": [
       {
@@ -174,7 +174,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165669",
-        "updated_at": "2026-10-04T21:40:00.149160+02:00",
+        "updated_at": "2026-10-04T22:39:48.405473+02:00",
         "enemy_team": {
           "id": 209216,
           "name": "The Selected x Elektrolyse",
@@ -1550,16 +1550,6 @@
       },
       {
         "playerId": "UNKNOWN_LOCAL",
-        "gameName": "イザナミ#MUCGG",
-        "role": "UNKNOWN",
-        "rosterStatus": "api_only",
-        "isCaptain": false,
-        "api_id": 2026457,
-        "in_api_roster": true,
-        "missing_in_local": true
-      },
-      {
-        "playerId": "UNKNOWN_LOCAL",
         "gameName": "Drb best AD#drb",
         "role": "UNKNOWN",
         "rosterStatus": "api_only",
@@ -1922,7 +1912,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165696",
-        "updated_at": "2026-10-04T21:53:41.134177+02:00",
+        "updated_at": "2026-10-04T22:38:00.796341+02:00",
         "enemy_team": {
           "id": 207881,
           "name": "Senru",
@@ -2842,7 +2832,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1166042",
-        "updated_at": "2026-10-04T21:53:53.265134+02:00",
+        "updated_at": "2026-10-04T22:38:10.873977+02:00",
         "enemy_team": {
           "id": 135200,
           "name": "Lunar Eclipse Azure",
@@ -2862,7 +2852,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1166045",
-        "updated_at": "2026-10-04T21:53:57.227510+02:00",
+        "updated_at": "2026-10-04T22:38:14.886451+02:00",
         "enemy_team": {
           "id": 211963,
           "name": "Dynamo Aufbier",
@@ -3038,7 +3028,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165877",
-        "updated_at": "2026-10-04T21:53:46.197123+02:00",
+        "updated_at": "2026-10-04T22:38:04.843019+02:00",
         "enemy_team": {
           "id": 212417,
           "name": "Elektrolyse &amp; Söhne",
@@ -3503,7 +3493,7 @@
             "summoner_name": "Soined#77777",
             "name": "Alex17714973",
             "is_leader": true,
-            "updated_at": "2026-10-04T21:36:55.077693+02:00"
+            "updated_at": "2026-10-04T22:36:43.242776+02:00"
           },
           {
             "id": 2329494,
@@ -4102,7 +4092,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167333",
-        "updated_at": "2026-10-04T21:54:46.574823+02:00",
+        "updated_at": "2026-10-04T22:39:01.179986+02:00",
         "enemy_team": {
           "id": 208761,
           "name": "Prismatic Rose",
@@ -4274,7 +4264,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167323",
-        "updated_at": "2026-10-04T21:52:55.920115+02:00",
+        "updated_at": "2026-10-04T22:39:05.213054+02:00",
         "enemy_team": {
           "id": 210897,
           "name": "Bonsai War Council",
@@ -4452,7 +4442,7 @@
         "confirmed": true,
         "result": "2:0",
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1168049",
-        "updated_at": "2026-10-04T21:41:15.750122+02:00",
+        "updated_at": "2026-10-04T22:41:02.876173+02:00",
         "enemy_team": {
           "id": 212919,
           "name": "KGE Bloodmoon",
@@ -4564,7 +4554,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1168052",
-        "updated_at": "2026-10-04T21:41:16.750146+02:00",
+        "updated_at": "2026-10-04T22:41:04.913730+02:00",
         "enemy_team": {
           "id": 212480,
           "name": "Primeless",
@@ -4700,9 +4690,9 @@
         "discordId": "643892930431549477",
         "rosterStatus": "starter",
         "isCaptain": true,
-        "api_id": 2269385,
-        "api_name": "Ayumu",
-        "in_api_roster": true
+        "api_id": null,
+        "api_name": null,
+        "in_api_roster": false
       },
       {
         "playerId": "0040",
@@ -4873,7 +4863,7 @@
             "summoner_name": "Ayumu#AEX",
             "name": "Ayumu",
             "is_leader": true,
-            "updated_at": "2026-10-04T20:21:31.073341+02:00"
+            "updated_at": "2026-10-04T22:36:19.036812+02:00"
           },
           {
             "id": 2000267,
@@ -4944,7 +4934,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165822",
-        "updated_at": "2026-10-04T21:53:45.216570+02:00",
+        "updated_at": "2026-10-04T22:38:03.819412+02:00",
         "enemy_team": {
           "id": 212127,
           "name": "Aim High",
@@ -5266,9 +5256,9 @@
         "match_day": 1,
         "begin": "2026-10-04T20:00:00+02:00",
         "confirmed": true,
-        "result": null,
+        "result": "1:2",
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1166984",
-        "updated_at": "2026-10-04T21:53:38.155141+02:00",
+        "updated_at": "2026-10-04T22:39:37.394414+02:00",
         "enemy_team": {
           "id": 212517,
           "name": "Cortisol Maxing",
@@ -6194,7 +6184,7 @@
         "confirmed": true,
         "result": "2:0",
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167014",
-        "updated_at": "2026-10-04T21:55:03.677541+02:00",
+        "updated_at": "2026-10-04T22:39:25.320614+02:00",
         "enemy_team": {
           "id": 206671,
           "name": "Williwilli Gaming",
@@ -6286,7 +6276,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167017",
-        "updated_at": "2026-10-04T21:52:45.860687+02:00",
+        "updated_at": "2026-10-04T22:39:18.278043+02:00",
         "enemy_team": {
           "id": 212420,
           "name": "Andromeda Nova",
