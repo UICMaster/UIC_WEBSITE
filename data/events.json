@@ -1,38 +1,5 @@
 [
   {
-    "id": "1554393009133457449",
-    "name": "Ultra Instinct Crew Sakura vs. LES PrimeBot Devs",
-    "description": "gameday 1",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-04T12:00:00+00:00",
-    "end": "2026-10-04T14:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1165807",
-    "image": "https://cdn.discordapp.com/guild-events/1554393009133457449/4cbae60247bc2268c70024522d3bfa01.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Sakura",
-      "LES PrimeBot De",
-      ""
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1553887121578659911",
-    "name": "Ultra Instinct Crew Tempest vs. E-Sport Cybernetics",
-    "description": "gameday 1",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-04T14:45:00+00:00",
-    "end": "2026-10-04T16:45:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1166354",
-    "image": "https://cdn.discordapp.com/guild-events/1553887121578659911/b8d65601106fc8815eb5e96a1395bd83.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Tempest",
-      "E-Sport Cybernetics"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1554208444217557123",
     "name": "Ultra Instinct Crew Cyber vs. Bee Happy GmbH",
     "description": "gameday 1",
