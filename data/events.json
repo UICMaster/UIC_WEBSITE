@@ -1,21 +1,5 @@
 [
   {
-    "id": "1556088102659817492",
-    "name": "Ultra Instinct Crew Vakuum vs. Die Rentner Reunion",
-    "description": "gameday 1",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-06T17:30:00+00:00",
-    "end": "2026-10-06T19:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1167039",
-    "image": "https://cdn.discordapp.com/guild-events/1556088102659817492/6a04577add12b3e9133df2f5958465d9.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Vakuum",
-      "Die Rentner Reunion"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1555676780881252473",
     "name": "Ultra Instinct Crew Cyber vs. Bonsai War Council",
     "description": "gameday 2",
@@ -60,6 +44,22 @@
     "competitors": [
       "UIC Dynasty",
       "Good Chi Flip Flops"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1557122270609154068",
+    "name": "Ultra Instinct Crew Vakuum vs. Good Vibes Esport Blue",
+    "description": "gameday 2",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-11T15:30:00+00:00",
+    "end": "2026-10-11T17:30:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1167044",
+    "image": "https://cdn.discordapp.com/guild-events/1557122270609154068/23a0e35d98633366900aa6fe1c04d8fd.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Vakuum",
+      "Good Vibes Esport Blue"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
