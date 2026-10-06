@@ -1281,18 +1281,18 @@ img {
 }
 
 .partner-logo {
+    width: 100%; /* Added: Forces the SVG to take up space and not disappear */
+    height: auto; /* Added: Keeps the SVG proportions correct */
     max-width: 120px;
-    opacity: 0.5;
-    filter: grayscale(100%); /* Start black & white */
     transition: all 0.4s ease;
     cursor: pointer;
+    /* Removed: opacity and grayscale */
 }
 
 .partner-logo:hover {
-    opacity: 1;
-    filter: grayscale(0%); /* Full color on hover */
     transform: scale(1.1);
-    filter: drop-shadow(0 0 10px var(--primary)); /* Glow effect */
+    filter: drop-shadow(0 0 10px var(--primary)); 
+    /* Removed: opacity and the conflicting second filter */
 }
 
 /* =========================================
