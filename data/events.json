@@ -62,5 +62,21 @@
       "Good Chi Flip Flops"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1557001947289231383",
+    "name": "Ultra Instinct Crew Nova vs. Devils Gate eSports",
+    "description": "gameday 2",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-11T16:00:00+00:00",
+    "end": "2026-10-11T18:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1166987",
+    "image": "https://cdn.discordapp.com/guild-events/1557001947289231383/d8c8af68f8940e71ab570d35e2a7c550.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Nova",
+      "Devils Gate eSports"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
 ]
