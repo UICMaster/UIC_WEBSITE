@@ -141,7 +141,10 @@
   .m-logo { width: 36px; height: 36px; object-fit: contain; filter: drop-shadow(0 0 5px rgba(255,255,255,0.1)); }
   .m-name { font-family: 'Orbitron', sans-serif; font-size: 17px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; }
 
-  .m-vs { font-size: 16px; font-weight: 900; color: var(--purple); margin: 0 8px; font-style: italic; font-family: 'Orbitron', sans-serif; }
+  .m-vs { 
+    font-size: 16px; font-weight: 900; color: var(--purple); 
+    margin: 0 8px; font-style: italic; font-family: 'Orbitron', sans-serif; 
+  }
 
   .system-message {
     padding: 0 30px; font-family: 'Orbitron', sans-serif;
@@ -165,139 +168,153 @@
 </div>
 
 <script>
-(() => {
-  const tickerTrack = document.getElementById("ticker-track");
-  const esc = s => String(s ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-  const fallbackLogo = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='rgba(255,255,255,0.03)' stroke='rgba(0,229,255,0.4)' stroke-width='1'%3E%3Cpath d='M12 2L4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3z'/%3E%3C/svg%3E";
+(function() {
+  var tickerTrack = document.getElementById("ticker-track");
+  var esc = function(s) {
+    if (s === null || s === undefined) s = "";
+    return String(s).replace(/[&<>"']/g, function(c) {
+      return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
+    });
+  };
 
-  let lastDataHash = "";
-  const TICKER_SPEED_PX_PER_SEC = 65; 
+  // Neues Placeholder Logo: Neutraler geometrischer Cyber-Knotenpunkt anstelle des Fehler-Schilds
+  var fallbackLogo = "data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='rgba(255,255,255,0.02)' stroke='rgba(255,255,255,0.2)' stroke-width='1'%3E%3Cpolygon points='12 2 22 8 22 16 12 22 2 16 2 8'/%3E%3Ccircle cx='12' cy='12' r='4'/%3E%3Cline x1='12' y1='2' x2='12' y2='8'/%3E%3Cline x1='12' y1='16' x2='12' y2='22'/%3E%3Cline x1='2' y1='8' x2='7.5' y2='11'/%3E%3Cline x1='16.5' y1='13' x2='22' y2='16'/%3E%3Cline x1='2' y1='16' x2='7.5' y2='13'/%3E%3Cline x1='16.5' y1='11' x2='22' y2='8'/%3E%3C/svg%3E";
 
-  // Formatierung von Datum & Uhrzeit
+  var lastDataHash = "";
+  var TICKER_SPEED_PX_PER_SEC = 65; 
+
   function formatRelativeTime(iso) {
     if (!iso) return { label: "TBD", isToday: false };
-    const d = new Date(iso);
-    const now = new Date();
-    const timeStr = new Intl.DateTimeFormat("de-DE",{timeZone:"Europe/Berlin",hour:"2-digit",minute:"2-digit"}).format(d) + " UHR";
+    var d = new Date(iso);
+    var now = new Date();
+    var timeStr = new Intl.DateTimeFormat("de-DE",{timeZone:"Europe/Berlin",hour:"2-digit",minute:"2-digit"}).format(d) + " UHR";
     
-    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-    const matchDay = new Date(d.getFullYear(), d.getMonth(), d.getDate());
-    const diffDays = Math.round((matchDay - today) / (1000 * 60 * 60 * 24));
+    var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    var matchDay = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+    var diffDays = Math.round((matchDay - today) / (1000 * 60 * 60 * 24));
 
-    let dayStr = "";
-    let isToday = false;
+    var dayStr = "";
+    var isToday = false;
     
     if (diffDays === 0) { dayStr = "HEUTE"; isToday = true; }
     else if (diffDays === 1) { dayStr = "MORGEN"; }
     else { dayStr = new Intl.DateTimeFormat("de-DE",{timeZone:"Europe/Berlin",day:"2-digit",month:"2-digit"}).format(d); }
 
-    return { label: `${dayStr} ${timeStr}`, isToday };
+    return { label: dayStr + " " + timeStr, isToday: isToday };
   }
 
-  // Generiert das HTML für ein einzelnes Match im Ticker
   function generateMatchHTML(m) {
-    const time = formatRelativeTime(m.startsAt);
-    const uLogo = m.uicLogo ? esc(m.uicLogo) : fallbackLogo;
-    const eLogo = m.opponentLogo ? esc(m.opponentLogo) : fallbackLogo;
-    const badgeClass = time.isToday ? "m-time-badge heute" : "m-time-badge";
+    var time = formatRelativeTime(m.startsAt);
+    var uLogo = m.uicLogo ? esc(m.uicLogo) : fallbackLogo;
+    var eLogo = m.opponentLogo ? esc(m.opponentLogo) : fallbackLogo;
+    var badgeClass = time.isToday ? "m-time-badge heute" : "m-time-badge";
 
-    return `
-      <div class="match-item">
-        <div class="${badgeClass}">${time.label}</div>
-        
-        <div class="m-team">
-          <img class="m-logo" src="${uLogo}" onerror="this.src='${fallbackLogo}';">
-          <span class="m-name">${esc(m.uicTeamName)}</span>
-        </div>
-        
-        <span class="m-vs">//</span>
-        
-        <div class="m-team">
-          <span class="m-name">${esc(m.opponentName)}</span>
-          <img class="m-logo" src="${eLogo}" onerror="this.src='${fallbackLogo}';">
-        </div>
-      </div>
-    `;
+    return '' +
+      '<div class="match-item">' +
+        '<div class="' + badgeClass + '">' + time.label + '</div>' +
+        '<div class="m-team">' +
+          '<img class="m-logo" src="' + uLogo + '" onerror="this.src=\'' + fallbackLogo + '\';">' +
+          '<span class="m-name">' + esc(m.uicTeamName) + '</span>' +
+        '</div>' +
+        '<span class="m-vs">VS</span>' +
+        '<div class="m-team">' +
+          '<span class="m-name">' + esc(m.opponentName) + '</span>' +
+          '<img class="m-logo" src="' + eLogo + '" onerror="this.src=\'' + fallbackLogo + '\';">' +
+        '</div>' +
+      '</div>';
   }
 
-  async function load() {
-    try {
-      const response = await fetch(`data/prime_stats.json?t=${Date.now()}`, {cache: "no-store"});
-      if (!response.ok) throw new Error("JSON Missing");
-      const rawData = await response.json();
+  function load() {
+    var fetchUrl = "data/prime_stats.json?t=" + new Date().getTime();
 
-      let upcomingMatches = [];
-      const now = new Date();
+    fetch(fetchUrl, {cache: "no-store"})
+      .then(function(r) {
+        if (!r.ok) throw new Error("JSON 404");
+        return r.json();
+      })
+      .then(function(data) {
+        var upcomingMatches = [];
+        var now = new Date();
 
-      // EXAKT DEINE FUNKTIONIERENDE LOGIK:
-      for (const [key, teamData] of Object.entries(rawData)) {
-        if (!teamData.api_meta) continue; // Überspringt Community & Leere Teams
-        if (!teamData.matches) continue;
-
-        teamData.matches.forEach(m => {
-          const mDate = m.begin ? new Date(m.begin) : null;
+        for (var teamKey in data) {
+          if (!data.hasOwnProperty(teamKey)) continue;
+          if (teamKey.toLowerCase() === "community") continue;
           
-          // STRICT FILTER: Confirmed, kein Ergebnis vorhanden, Datum in der Zukunft (oder TBD)
-          if (m.confirmed === true && !m.result && (!mDate || mDate > now)) {
-            upcomingMatches.push({
-              startsAt: m.begin,
-              uicTeamName: teamData.teamDisplay || `UIC ${key.toUpperCase()}`,
-              uicLogo: teamData.api_meta?.logo_url || "", 
-              opponentLogo: m.enemy_team?.logo_url || "",
-              opponentName: m.enemy_team?.name || m.enemy_team?.team_tag || "TBD" 
-            });
+          var teamData = data[teamKey];
+          if (!teamData.api_meta || !teamData.matches || !Array.isArray(teamData.matches)) continue;
+
+          for (var i = 0; i < teamData.matches.length; i++) {
+            var m = teamData.matches[i];
+            var mDate = m.begin ? new Date(m.begin) : null;
+            
+            // STRICT FILTER: Confirmed, kein Ergebnis, Datum in Zukunft
+            if (m.confirmed === true && (!m.result) && (!mDate || mDate > now)) {
+              
+              var teamDisplayName = teamData.teamDisplay ? teamData.teamDisplay : "UIC " + teamKey.toUpperCase();
+              var uicLogoStr = (teamData.api_meta && teamData.api_meta.logo_url) ? teamData.api_meta.logo_url : "";
+              var enemyLogoStr = (m.enemy_team && m.enemy_team.logo_url) ? m.enemy_team.logo_url : "";
+              var enemyNameStr = "TBD";
+              
+              if (m.enemy_team) {
+                enemyNameStr = m.enemy_team.name ? m.enemy_team.name : (m.enemy_team.team_tag ? m.enemy_team.team_tag : "TBD");
+              }
+
+              upcomingMatches.push({
+                startsAt: m.begin,
+                uicTeamName: teamDisplayName,
+                uicLogo: uicLogoStr,
+                opponentLogo: enemyLogoStr,
+                opponentName: enemyNameStr
+              });
+            }
           }
+        }
+
+        upcomingMatches.sort(function(a, b) {
+          if (!a.startsAt) return 1;
+          if (!b.startsAt) return -1;
+          return new Date(a.startsAt) - new Date(b.startsAt);
         });
-      }
 
-      // Sortieren: Nächstes Spiel zuerst
-      upcomingMatches.sort((a, b) => {
-        if (!a.startsAt) return 1;
-        if (!b.startsAt) return -1;
-        return new Date(a.startsAt) - new Date(b.startsAt);
-      });
+        // Limitieren auf 15 Einträge für Ticker-Performance
+        var list = upcomingMatches.slice(0, 15);
 
-      const list = upcomingMatches.slice(0, 15); // Performance Limit
+        var currentHash = JSON.stringify(list);
+        if (currentHash === lastDataHash) return; 
+        lastDataHash = currentHash;
 
-      // State Diffing: Ticker nur neu rendern, wenn sich die Daten wirklich geändert haben
-      const currentHash = JSON.stringify(list);
-      if (currentHash === lastDataHash) return; 
-      lastDataHash = currentHash;
+        if (list.length === 0) {
+          tickerTrack.style.animation = "none";
+          tickerTrack.innerHTML = '<div class="system-message">KEINE BESTÄTIGTEN MATCHES GEPLANT // STANDBY</div>';
+          return;
+        }
 
-      if (!list.length) {
+        var displayList = list.slice(0);
+        while (displayList.length < 6) {
+          displayList = displayList.concat(list);
+        }
+
+        var blockHTML = displayList.map(generateMatchHTML).join("");
+        tickerTrack.innerHTML = blockHTML + blockHTML;
+
         tickerTrack.style.animation = "none";
-        tickerTrack.innerHTML = `<div class="system-message">KEINE BESTÄTIGTEN MATCHES GEPLANT // STANDBY</div>`;
-        return;
-      }
+        
+        requestAnimationFrame(function() {
+          var totalWidth = tickerTrack.scrollWidth;
+          var duration = totalWidth / TICKER_SPEED_PX_PER_SEC;
+          tickerTrack.style.animation = "scrollTicker " + duration + "s linear infinite";
+        });
 
-      // Ticker Endless Loop Engine: Liste solange kopieren, bis der Bildschirm gefüllt ist
-      let displayList = [...list];
-      while (displayList.length < 6) {
-        displayList = displayList.concat(list);
-      }
-
-      const blockHTML = displayList.map(generateMatchHTML).join("");
-      
-      // HTML zweimal einfügen für den nahtlosen CSS Scroll Loop
-      tickerTrack.innerHTML = blockHTML + blockHTML;
-
-      // Animation berechnen und starten
-      tickerTrack.style.animation = "none";
-      requestAnimationFrame(() => {
-        const totalWidth = tickerTrack.scrollWidth;
-        const duration = totalWidth / TICKER_SPEED_PX_PER_SEC;
-        tickerTrack.style.animation = `scrollTicker ${duration}s linear infinite`;
+      })
+      .catch(function(e) {
+        console.error("OBS Ticker Fetch Error:", e);
+        tickerTrack.style.animation = "none";
+        tickerTrack.innerHTML = '<div class="system-message" style="color:#ff2a2a;">VERBINDUNGSFEHLER ZUM DATA LAKE</div>';
       });
-
-    } catch(e) {
-      tickerTrack.style.animation = "none";
-      tickerTrack.innerHTML = `<div class="system-message" style="color:#ff2a2a;">VERBINDUNGSFEHLER ZUM DATA LAKE</div>`;
-      console.error("OBS Fetch Error:", e);
-    }
   }
 
   load();
-  setInterval(load, 120000); // 2 Minuten Sync
+  setInterval(load, 120000); 
 })();
 </script>
 </body>
