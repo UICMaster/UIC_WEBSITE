@@ -1,37 +1,5 @@
 [
   {
-    "id": "1555676780881252473",
-    "name": "Ultra Instinct Crew Cyber vs. Bonsai War Council",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-07T17:30:00+00:00",
-    "end": "2026-10-07T19:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1167323",
-    "image": "https://cdn.discordapp.com/guild-events/1555676780881252473/e4f07354fe50e89bea2762c9f0029fa4.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Cyber",
-      "Bonsai War Council"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1555903507708645467",
-    "name": "Ultra Instinct Crew Eclipse vs. Ghost Impact Gaming Scuttles",
-    "description": "gameday 1",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-07T18:00:00+00:00",
-    "end": "2026-10-07T20:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1167406",
-    "image": "https://cdn.discordapp.com/guild-events/1555903507708645467/2b974b808699f4208f45d5814940d953.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Eclipse",
-      "Ghost Impact Gaming Scuttles"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1557157165888704583",
     "name": "Ultra Instinct Crew Ascend vs. Phoenixfury",
     "description": "gameday 2",
@@ -60,6 +28,22 @@
     "competitors": [
       "UIC Dynasty",
       "Good Chi Flip Flops"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1557465809750859881",
+    "name": "Ultra Instinct Crew Sakura vs. Dortmund eSports",
+    "description": "gameday 2",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-11T13:00:00+00:00",
+    "end": "2026-10-11T15:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1165812",
+    "image": "https://cdn.discordapp.com/guild-events/1557465809750859881/f44f2fca7c9ceec910cb5cf20315e64f.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Sakura",
+      "Dortmund eSports"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
