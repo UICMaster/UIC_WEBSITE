@@ -1,21 +1,5 @@
 [
   {
-    "id": "1557157165888704583",
-    "name": "Ultra Instinct Crew Ascend vs. Phoenixfury",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-08T17:00:00+00:00",
-    "end": "2026-10-08T19:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1169569",
-    "image": "https://cdn.discordapp.com/guild-events/1557157165888704583/c889eef4eb1caaf0f12bc4d59ad9803b.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Ascend",
-      "Phoenixfury"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1554604669764898928",
     "name": "UIC Dynasty vs. Good Chi Flip Flops",
     "description": "gameday 1",
@@ -156,6 +140,22 @@
     "competitors": [
       "Ultra Instinct Crew Raiders",
       "Primeless"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1557836067124682754",
+    "name": "Ultra Instinct Crew Phoenix vs. Kaiserstuhl AG",
+    "description": "gameday 2",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-14T18:00:00+00:00",
+    "end": "2026-10-14T20:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1165870",
+    "image": "https://cdn.discordapp.com/guild-events/1557836067124682754/bd14811e1f06fa1af8f825ffc61dbf07.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Phoenix",
+      "Kaiserstuhl AG"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
