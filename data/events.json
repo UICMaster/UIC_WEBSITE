@@ -78,5 +78,21 @@
       "Devils Gate eSports"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1557659132272574555",
+    "name": "Ultra Instinct Crew Raiders vs. Primeless",
+    "description": "gameday 2",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-11T18:30:00+00:00",
+    "end": "2026-10-11T20:30:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1168052",
+    "image": "https://cdn.discordapp.com/guild-events/1557659132272574555/a8369379752eeaef8e0f2703658e5406.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Raiders",
+      "Primeless"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
 ]
