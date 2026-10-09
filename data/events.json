@@ -1,21 +1,5 @@
 [
   {
-    "id": "1554604669764898928",
-    "name": "UIC Dynasty vs. Good Chi Flip Flops",
-    "description": "gameday 1",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-09T17:00:00+00:00",
-    "end": "2026-10-09T19:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1165684",
-    "image": "https://cdn.discordapp.com/guild-events/1554604669764898928/2eb2323f8b0d1d3db498281f98962c5d.png?size=1024",
-    "competitors": [
-      "UIC Dynasty",
-      "Good Chi Flip Flops"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1557771811217735750",
     "name": "Ultra Instinct Crew Dinonuggets vs. Andromeda Nova",
     "description": "gameday 2",
