@@ -1,21 +1,5 @@
 [
   {
-    "id": "1557771811217735750",
-    "name": "Ultra Instinct Crew Dinonuggets vs. Andromeda Nova",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-10T16:00:00+00:00",
-    "end": "2026-10-10T18:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1167017",
-    "image": "https://cdn.discordapp.com/guild-events/1557771811217735750/bd7417cbe27ca209c9d311455971df8a.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Dinonuggets",
-      "Andromeda Nova"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1557465809750859881",
     "name": "Ultra Instinct Crew Sakura vs. Dortmund eSports",
     "description": "gameday 2",
