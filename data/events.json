@@ -1,69 +1,5 @@
 [
   {
-    "id": "1557767604918165615",
-    "name": "Ultra Instinct Crew Tempest vs. LVM E-Sports",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-11T15:00:00+00:00",
-    "end": "2026-10-11T17:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1166357",
-    "image": "https://cdn.discordapp.com/guild-events/1557767604918165615/3d4d6f17cc98ecd466b2fd4c80fa76c2.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Tempest",
-      "LVM E-Sports"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1557767950038073434",
-    "name": "UIC Dynasty vs. Second Time Alive Eclipse",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-11T15:00:00+00:00",
-    "end": "2026-10-11T17:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1165687",
-    "image": "https://cdn.discordapp.com/guild-events/1557767950038073434/55c108fe5399acf071f1b77cb1e49dc6.png?size=1024",
-    "competitors": [
-      "UIC Dynasty",
-      "Second Time Alive Eclipse"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1557122270609154068",
-    "name": "Ultra Instinct Crew Vakuum vs. Good Vibes Esport Blue",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-11T15:30:00+00:00",
-    "end": "2026-10-11T17:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1167044",
-    "image": "https://cdn.discordapp.com/guild-events/1557122270609154068/23a0e35d98633366900aa6fe1c04d8fd.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Vakuum",
-      "Good Vibes Esport Blue"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1557001947289231383",
-    "name": "Ultra Instinct Crew Nova vs. Devils Gate eSports",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-11T16:00:00+00:00",
-    "end": "2026-10-11T18:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1166987",
-    "image": "https://cdn.discordapp.com/guild-events/1557001947289231383/d8c8af68f8940e71ab570d35e2a7c550.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Nova",
-      "Devils Gate eSports"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1557659132272574555",
     "name": "Ultra Instinct Crew Raiders vs. Primeless",
     "description": "gameday 2",
@@ -124,6 +60,22 @@
     "competitors": [
       "Ultra Instinct Crew Eclipse",
       "Salem's Knights🗡"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1558908364916924567",
+    "name": "Ultra Instinct Crew Nova vs. OBLIVION",
+    "description": "gameday 3",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-18T18:15:00+00:00",
+    "end": "2026-10-18T20:15:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1166994",
+    "image": "https://cdn.discordapp.com/guild-events/1558908364916924567/7b2baf00cca27791d069dd196a298bc9.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Nova",
+      "OBLIVION"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
