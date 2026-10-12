@@ -16,6 +16,22 @@
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
+    "id": "1559180272388411402",
+    "name": "Ultra Instinct Crew Hydra vs. WeSports",
+    "description": "gameday 3",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-14T17:30:00+00:00",
+    "end": "2026-10-14T19:30:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1165561",
+    "image": "https://cdn.discordapp.com/guild-events/1559180272388411402/cf806b882ff39eb7460bfcc374cb1728.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Hydra",
+      "WeSports"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
     "id": "1557836067124682754",
     "name": "Ultra Instinct Crew Phoenix vs. Kaiserstuhl AG",
     "description": "gameday 2",
@@ -44,6 +60,38 @@
     "competitors": [
       "Ultra Instinct Crew Eclipse",
       "Salem's Knights🗡"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1559191360433823834",
+    "name": "Ultra Instinct Crew Cyber vs. BAGF",
+    "description": "gameday 3",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-18T17:00:00+00:00",
+    "end": "2026-10-18T19:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1167330",
+    "image": "https://cdn.discordapp.com/guild-events/1559191360433823834/d96e4bf7e3bf8b25bf8cb745fcd2602a.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Cyber",
+      "BAGF"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1559232769136009266",
+    "name": "Ultra Instinct Crew Phoenix vs. Deutsch Jahrndorf Five",
+    "description": "gameday 3",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-18T17:00:00+00:00",
+    "end": "2026-10-18T19:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1165871",
+    "image": "https://cdn.discordapp.com/guild-events/1559232769136009266/f71493d04f14459dd1e58d2b078a7176.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Phoenix",
+      "Deutsch Jahrndorf Five"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
