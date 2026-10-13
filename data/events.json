@@ -1,21 +1,5 @@
 [
   {
-    "id": "1558794688297963531",
-    "name": "Ultra Instinct Crew Spark vs. Wannabe Cult Lizards",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-13T17:15:00+00:00",
-    "end": "2026-10-13T19:15:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1166035",
-    "image": "https://cdn.discordapp.com/guild-events/1558794688297963531/9901547ade1ccabf5f846bca7e4bdfe2.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Spark",
-      "Wannabe Cult Lizards"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1559180272388411402",
     "name": "Ultra Instinct Crew Hydra vs. WeSports",
     "description": "gameday 3",
@@ -60,6 +44,38 @@
     "competitors": [
       "Ultra Instinct Crew Eclipse",
       "Salem's Knights🗡"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1559629444904259648",
+    "name": "Ultra Instinct Crew vs. BS eSports Effortless",
+    "description": "gameday 3",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-18T13:00:00+00:00",
+    "end": "2026-10-18T15:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1165668",
+    "image": "https://cdn.discordapp.com/guild-events/1559629444904259648/414fff2a96a1de0e126b9d7ccd837d40.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew",
+      "BS eSports Effortless"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1559659216833351770",
+    "name": "Ultra Instinct Crew Spark vs. Lunar Eclipse Azure",
+    "description": "gameday 3",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-18T14:00:00+00:00",
+    "end": "2026-10-18T16:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1166042",
+    "image": "https://cdn.discordapp.com/guild-events/1559659216833351770/b3d40f97da94fca8066f44fd18ff82aa.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Spark",
+      "Lunar Eclipse Azure"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
