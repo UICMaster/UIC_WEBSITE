@@ -1,37 +1,5 @@
 [
   {
-    "id": "1559180272388411402",
-    "name": "Ultra Instinct Crew Hydra vs. WeSports",
-    "description": "gameday 3",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-14T17:30:00+00:00",
-    "end": "2026-10-14T19:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1165561",
-    "image": "https://cdn.discordapp.com/guild-events/1559180272388411402/cf806b882ff39eb7460bfcc374cb1728.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Hydra",
-      "WeSports"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1557836067124682754",
-    "name": "Ultra Instinct Crew Phoenix vs. Kaiserstuhl AG",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-14T18:00:00+00:00",
-    "end": "2026-10-14T20:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1165870",
-    "image": "https://cdn.discordapp.com/guild-events/1557836067124682754/bd14811e1f06fa1af8f825ffc61dbf07.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Phoenix",
-      "Kaiserstuhl AG"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1559954466269167687",
     "name": "Ultra Instinct Crew Ascend vs. EvolupeGG",
     "description": "gameday 3",
