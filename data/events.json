@@ -1,21 +1,5 @@
 [
   {
-    "id": "1559954466269167687",
-    "name": "Ultra Instinct Crew Ascend vs. EvolupeGG",
-    "description": "gameday 3",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-15T17:00:00+00:00",
-    "end": "2026-10-15T19:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1169629",
-    "image": "https://cdn.discordapp.com/guild-events/1559954466269167687/9e6d48376950cc11a6e3897b1df4c67c.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Ascend",
-      "EvolupeGG"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1558840324409917570",
     "name": "Ultra Instinct Crew Eclipse vs. Salem's Knights🗡",
     "description": "gameday 2",
