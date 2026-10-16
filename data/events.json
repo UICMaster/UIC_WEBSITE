@@ -1,37 +1,5 @@
 [
   {
-    "id": "1558840324409917570",
-    "name": "Ultra Instinct Crew Eclipse vs. Salem's Knights🗡",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-16T18:00:00+00:00",
-    "end": "2026-10-16T20:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1167410",
-    "image": "https://cdn.discordapp.com/guild-events/1558840324409917570/09d34a2bfb0c1132034a6a349aa4db80.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Eclipse",
-      "Salem's Knights🗡"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1559957079278485574",
-    "name": "Ultra Instinct Crew Tempest vs. T2 Vod@fone",
-    "description": "gameday 3",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-16T18:00:00+00:00",
-    "end": "2026-10-16T20:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1166364",
-    "image": "https://cdn.discordapp.com/guild-events/1559957079278485574/82d5d26ded6dde1a8e18a7975bcbd6a9.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Tempest",
-      "T2 Vod@fone"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1559844461800984576",
     "name": "Ultra Instinct Crew Dinonuggets vs. Personal Space Invader",
     "description": "gameday 3",
@@ -165,8 +133,8 @@
     "description": "gameday 3",
     "type": "ESPORTS MATCH",
     "highlight": false,
-    "start": "2026-10-18T18:15:00+00:00",
-    "end": "2026-10-18T20:15:00+00:00",
+    "start": "2026-10-20T18:00:00+00:00",
+    "end": "2026-10-20T19:30:00+00:00",
     "location": "https://www.primeleague.gg/de/leagues/matches/1166994",
     "image": "https://cdn.discordapp.com/guild-events/1558908364916924567/7b2baf00cca27791d069dd196a298bc9.png?size=1024",
     "competitors": [
