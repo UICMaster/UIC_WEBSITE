@@ -104,7 +104,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165664",
-        "updated_at": "2026-10-17T22:25:42.034968+02:00",
+        "updated_at": "2026-10-18T01:25:51.508061+02:00",
         "enemy_team": {
           "id": 208311,
           "name": "Blue Balls",
@@ -124,7 +124,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165668",
-        "updated_at": "2026-10-17T22:25:44.086406+02:00",
+        "updated_at": "2026-10-18T01:25:54.412710+02:00",
         "enemy_team": {
           "id": 200038,
           "name": "BS eSports Effortless",
@@ -144,7 +144,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165669",
-        "updated_at": "2026-10-17T22:25:45.112095+02:00",
+        "updated_at": "2026-10-18T01:25:55.501249+02:00",
         "enemy_team": {
           "id": 209216,
           "name": "The Selected x Elektrolyse",
@@ -164,7 +164,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165674",
-        "updated_at": "2026-10-17T22:25:46.113394+02:00",
+        "updated_at": "2026-10-18T01:25:55.595129+02:00",
         "enemy_team": {
           "id": 206091,
           "name": "Demon King Impulse",
@@ -490,7 +490,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165558",
-        "updated_at": "2026-10-17T22:55:17.229369+02:00",
+        "updated_at": "2026-10-18T01:10:13.738564+02:00",
         "enemy_team": {
           "id": 190230,
           "name": "Bootz not Bach",
@@ -622,7 +622,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165565",
-        "updated_at": "2026-10-17T22:55:19.234692+02:00",
+        "updated_at": "2026-10-18T01:10:15.753056+02:00",
         "enemy_team": {
           "id": 197022,
           "name": "Lausanne Esports Helvetia",
@@ -1814,7 +1814,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1166369",
-        "updated_at": "2026-10-17T22:37:24.545782+02:00",
+        "updated_at": "2026-10-18T01:07:24.507875+02:00",
         "enemy_team": {
           "id": 112154,
           "name": "1. ECF Rainbow",
@@ -2058,7 +2058,7 @@
         "confirmed": true,
         "result": "1:2",
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1166364",
-        "updated_at": "2026-10-17T22:52:33.120864+02:00",
+        "updated_at": "2026-10-18T01:22:33.734189+02:00",
         "enemy_team": {
           "id": 207176,
           "name": "T2 Vod@fone",
@@ -2150,7 +2150,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1166367",
-        "updated_at": "2026-10-17T22:52:36.152734+02:00",
+        "updated_at": "2026-10-18T01:22:36.793249+02:00",
         "enemy_team": {
           "id": 185869,
           "name": "TeamPermaMad",
@@ -2270,7 +2270,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/206000/206270.jpg?1790101577",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/206270",
-      "updated_at": "2026-10-17T22:51:52.685849+02:00"
+      "updated_at": "2026-10-18T01:21:43.937079+02:00"
     },
     "matches": [
       {
@@ -2282,7 +2282,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165696",
-        "updated_at": "2026-10-17T22:24:07.456576+02:00",
+        "updated_at": "2026-10-18T01:24:17.608583+02:00",
         "enemy_team": {
           "id": 207881,
           "name": "Senru",
@@ -2302,7 +2302,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165700",
-        "updated_at": "2026-10-17T22:24:10.465189+02:00",
+        "updated_at": "2026-10-18T01:24:20.626334+02:00",
         "enemy_team": {
           "id": 202638,
           "name": "Neko Elite Allstars",
@@ -2470,7 +2470,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165689",
-        "updated_at": "2026-10-17T22:24:09.492518+02:00",
+        "updated_at": "2026-10-18T01:24:19.782611+02:00",
         "enemy_team": {
           "id": 201246,
           "name": "Project Zenith",
@@ -2760,7 +2760,7 @@
         "confirmed": true,
         "result": "2:0",
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167410",
-        "updated_at": "2026-10-17T22:55:34.334898+02:00",
+        "updated_at": "2026-10-18T01:10:29.846132+02:00",
         "enemy_team": {
           "id": 211173,
           "name": "Salem's Knights🗡",
@@ -2836,7 +2836,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167414",
-        "updated_at": "2026-10-17T22:55:16.188970+02:00",
+        "updated_at": "2026-10-18T01:10:12.725136+02:00",
         "enemy_team": {
           "id": 206617,
           "name": "SSP Arctic Edition",
@@ -2856,7 +2856,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167415",
-        "updated_at": "2026-10-17T22:55:41.339998+02:00",
+        "updated_at": "2026-10-18T01:10:35.806719+02:00",
         "enemy_team": {
           "id": 212966,
           "name": "Skill Issue e.V.",
@@ -2876,7 +2876,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167421",
-        "updated_at": "2026-10-17T22:55:18.227641+02:00",
+        "updated_at": "2026-10-18T01:10:14.727765+02:00",
         "enemy_team": {
           "id": 211049,
           "name": "Helm",
@@ -3098,7 +3098,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/207000/207696.jpg?1774892477",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/207696",
-      "updated_at": "2026-10-17T22:21:19.080385+02:00"
+      "updated_at": "2026-10-18T01:21:28.740714+02:00"
     },
     "matches": [
       {
@@ -3253,7 +3253,7 @@
             "summoner_name": "GVE Fulltank#Prime",
             "name": "Fulltank",
             "is_leader": true,
-            "updated_at": "2026-10-17T22:51:31.428619+02:00"
+            "updated_at": "2026-10-18T01:21:23.658855+02:00"
           },
           {
             "id": 2111026,
@@ -3274,14 +3274,14 @@
             "summoner_name": "GVE Shinyo#FF10",
             "name": "Shinyo",
             "is_leader": true,
-            "updated_at": "2026-10-11T20:51:12.108816+02:00"
+            "updated_at": "2026-10-17T23:51:14.394779+02:00"
           },
           {
             "id": 1770298,
             "summoner_name": "GVE Milchmann#Milk",
             "name": "Techbengel",
             "is_leader": true,
-            "updated_at": "2026-10-11T20:51:12.115338+02:00"
+            "updated_at": "2026-10-17T23:51:14.403238+02:00"
           }
         ]
       },
@@ -3334,7 +3334,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167049",
-        "updated_at": "2026-10-17T22:23:25.177074+02:00",
+        "updated_at": "2026-10-18T01:23:35.300322+02:00",
         "enemy_team": {
           "id": 211157,
           "name": "Weiß ich nicht",
@@ -3354,7 +3354,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167054",
-        "updated_at": "2026-10-17T22:23:26.182483+02:00",
+        "updated_at": "2026-10-18T01:23:36.330545+02:00",
         "enemy_team": {
           "id": 212624,
           "name": "Hobby Horsing Heroes",
@@ -3374,7 +3374,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167055",
-        "updated_at": "2026-10-17T22:23:27.205289+02:00",
+        "updated_at": "2026-10-18T01:23:37.253700+02:00",
         "enemy_team": {
           "id": 210929,
           "name": "Arbeitszeit Betrug",
@@ -3726,7 +3726,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1166042",
-        "updated_at": "2026-10-17T22:24:20.540844+02:00",
+        "updated_at": "2026-10-18T01:24:30.710997+02:00",
         "enemy_team": {
           "id": 135200,
           "name": "Lunar Eclipse Azure",
@@ -3818,7 +3818,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1166045",
-        "updated_at": "2026-10-17T22:24:21.538301+02:00",
+        "updated_at": "2026-10-18T01:24:31.801968+02:00",
         "enemy_team": {
           "id": 211963,
           "name": "Dynamo Aufbier",
@@ -3838,7 +3838,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1166047",
-        "updated_at": "2026-10-17T22:24:40.710089+02:00",
+        "updated_at": "2026-10-18T01:24:52.069443+02:00",
         "enemy_team": {
           "id": 204538,
           "name": "The GG Friends",
@@ -3962,7 +3962,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/212000/212473.jpg?1777401024",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/212473",
-      "updated_at": "2026-10-17T22:21:39.276756+02:00"
+      "updated_at": "2026-10-18T01:21:50.040993+02:00"
     },
     "matches": [
       {
@@ -3994,7 +3994,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165877",
-        "updated_at": "2026-10-17T22:26:05.197334+02:00",
+        "updated_at": "2026-10-18T01:26:14.585330+02:00",
         "enemy_team": {
           "id": 212417,
           "name": "Elektrolyse &amp; Söhne",
@@ -4014,7 +4014,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165880",
-        "updated_at": "2026-10-17T22:26:16.317490+02:00",
+        "updated_at": "2026-10-18T01:26:26.790952+02:00",
         "enemy_team": {
           "id": 192942,
           "name": "1. ECF Facecheck",
@@ -4146,7 +4146,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165871",
-        "updated_at": "2026-10-17T22:24:15.512315+02:00",
+        "updated_at": "2026-10-18T01:24:25.684194+02:00",
         "enemy_team": {
           "id": 117718,
           "name": "Deutsch Jahrndorf Five",
@@ -4362,7 +4362,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/198000/198490.jpg?1774785721",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/198490",
-      "updated_at": "2026-10-17T22:51:37.515983+02:00"
+      "updated_at": "2026-10-18T01:06:32.783404+02:00"
     },
     "matches": [
       {
@@ -4531,7 +4531,7 @@
             "summoner_name": "Soined#77777",
             "name": "Alex17714973",
             "is_leader": true,
-            "updated_at": "2026-10-17T22:21:46.393411+02:00"
+            "updated_at": "2026-10-18T01:21:57.123154+02:00"
           },
           {
             "id": 2329494,
@@ -5110,7 +5110,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167330",
-        "updated_at": "2026-10-17T22:53:53.647222+02:00",
+        "updated_at": "2026-10-18T01:08:48.096165+02:00",
         "enemy_team": {
           "id": 207969,
           "name": "BAGF",
@@ -5202,7 +5202,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167333",
-        "updated_at": "2026-10-17T22:53:54.655348+02:00",
+        "updated_at": "2026-10-18T01:08:49.113488+02:00",
         "enemy_team": {
           "id": 208761,
           "name": "Prismatic Rose",
@@ -5222,7 +5222,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167335",
-        "updated_at": "2026-10-17T22:53:55.664629+02:00",
+        "updated_at": "2026-10-18T01:08:50.122795+02:00",
         "enemy_team": {
           "id": 212322,
           "name": "Schmerz mit Merz",
@@ -5576,7 +5576,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/211000/211794.jpg?1790878967",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/211794",
-      "updated_at": "2026-10-17T22:51:35.520349+02:00"
+      "updated_at": "2026-10-18T01:06:30.789929+02:00"
     },
     "matches": [
       {
@@ -5616,7 +5616,7 @@
             "summoner_name": "UIC Angie6875#555",
             "name": "Angie6875",
             "is_leader": true,
-            "updated_at": "2026-10-11T20:51:17.161355+02:00"
+            "updated_at": "2026-10-18T01:06:30.797086+02:00"
           },
           {
             "id": 2192699,
@@ -5630,7 +5630,7 @@
             "summoner_name": "UIC Lynx#XIV",
             "name": "Dirty Binding",
             "is_leader": false,
-            "updated_at": "2026-10-17T22:51:35.528381+02:00"
+            "updated_at": "2026-10-18T01:06:30.803422+02:00"
           }
         ],
         "enemy_lineup": [
@@ -5680,7 +5680,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1168066",
-        "updated_at": "2026-10-17T22:56:27.677530+02:00",
+        "updated_at": "2026-10-18T01:11:22.150677+02:00",
         "enemy_team": {
           "id": 207997,
           "name": "Noot Noot",
@@ -5728,7 +5728,7 @@
             "summoner_name": "UIC Angie6875#555",
             "name": "Angie6875",
             "is_leader": true,
-            "updated_at": "2026-10-11T20:51:17.161355+02:00"
+            "updated_at": "2026-10-18T01:06:30.797086+02:00"
           },
           {
             "id": 2192699,
@@ -5742,7 +5742,7 @@
             "summoner_name": "UIC Lynx#XIV",
             "name": "Dirty Binding",
             "is_leader": false,
-            "updated_at": "2026-10-17T22:51:35.528381+02:00"
+            "updated_at": "2026-10-18T01:06:30.803422+02:00"
           }
         ],
         "enemy_lineup": [
@@ -5832,7 +5832,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1168056",
-        "updated_at": "2026-10-17T22:56:28.672447+02:00",
+        "updated_at": "2026-10-18T01:11:23.185322+02:00",
         "enemy_team": {
           "id": 169158,
           "name": "HS8x Kleinganoven",
@@ -5840,7 +5840,43 @@
           "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/169158",
           "logo_url": null
         },
-        "team_lineup": [],
+        "team_lineup": [
+          {
+            "id": 1881159,
+            "summoner_name": "UIC Schlnken#UIC",
+            "name": "Schinkenowo",
+            "is_leader": false,
+            "updated_at": "2026-09-24T13:56:12.237284+02:00"
+          },
+          {
+            "id": 810479,
+            "summoner_name": "UIC Keygasza#1337",
+            "name": "Keygasza",
+            "is_leader": false,
+            "updated_at": "2026-10-18T01:06:30.793123+02:00"
+          },
+          {
+            "id": 2315892,
+            "summoner_name": "UIC SoulxEater#1908",
+            "name": "Soul_Eater190",
+            "is_leader": false,
+            "updated_at": "2026-09-24T13:56:12.242776+02:00"
+          },
+          {
+            "id": 2316693,
+            "summoner_name": "UIC Angie6875#555",
+            "name": "Angie6875",
+            "is_leader": true,
+            "updated_at": "2026-10-18T01:06:30.797086+02:00"
+          },
+          {
+            "id": 1486717,
+            "summoner_name": "UIC Lynx#XIV",
+            "name": "Dirty Binding",
+            "is_leader": false,
+            "updated_at": "2026-10-18T01:06:30.803422+02:00"
+          }
+        ],
         "enemy_lineup": []
       },
       {
@@ -5852,7 +5888,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1168059",
-        "updated_at": "2026-10-17T22:56:31.706471+02:00",
+        "updated_at": "2026-10-18T01:11:26.219037+02:00",
         "enemy_team": {
           "id": 212644,
           "name": "Good Vibes Esport Red",
@@ -5908,9 +5944,9 @@
         "discordId": "643892930431549477",
         "rosterStatus": "starter",
         "isCaptain": true,
-        "api_id": null,
-        "api_name": null,
-        "in_api_roster": false
+        "api_id": 2269385,
+        "api_name": "Ayumu",
+        "in_api_roster": true
       },
       {
         "playerId": "0040",
@@ -5968,7 +6004,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/208000/208851.jpg?1792259989",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/208851",
-      "updated_at": "2026-10-17T22:21:40.282756+02:00"
+      "updated_at": "2026-10-18T01:21:51.091120+02:00"
     },
     "matches": [
       {
@@ -6112,7 +6148,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165823",
-        "updated_at": "2026-10-17T22:24:03.403940+02:00",
+        "updated_at": "2026-10-18T01:24:12.797262+02:00",
         "enemy_team": {
           "id": 115345,
           "name": "Gurkis",
@@ -6153,7 +6189,7 @@
             "summoner_name": "Ayumu#AEX",
             "name": "Ayumu",
             "is_leader": true,
-            "updated_at": "2026-10-17T22:36:48.114358+02:00"
+            "updated_at": "2026-10-18T01:21:51.099843+02:00"
           },
           {
             "id": 2000267,
@@ -6224,7 +6260,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165822",
-        "updated_at": "2026-10-17T22:24:08.466776+02:00",
+        "updated_at": "2026-10-18T01:24:18.688902+02:00",
         "enemy_team": {
           "id": 212127,
           "name": "Aim High",
@@ -6244,7 +6280,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165817",
-        "updated_at": "2026-10-17T22:24:04.441004+02:00",
+        "updated_at": "2026-10-18T01:24:14.556429+02:00",
         "enemy_team": {
           "id": 203804,
           "name": "ArcticBlaze Subzero",
@@ -6265,7 +6301,7 @@
             "summoner_name": "Ayumu#AEX",
             "name": "Ayumu",
             "is_leader": true,
-            "updated_at": "2026-10-17T22:36:48.114358+02:00"
+            "updated_at": "2026-10-18T01:21:51.099843+02:00"
           },
           {
             "id": 2000267,
@@ -6464,7 +6500,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1166994",
-        "updated_at": "2026-10-17T22:54:29.907460+02:00",
+        "updated_at": "2026-10-18T01:09:25.373815+02:00",
         "enemy_team": {
           "id": 212614,
           "name": "OBLIVION",
@@ -6520,7 +6556,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1166997",
-        "updated_at": "2026-10-17T22:54:30.908234+02:00",
+        "updated_at": "2026-10-18T01:09:26.407027+02:00",
         "enemy_team": {
           "id": 211881,
           "name": "Renim Academy",
@@ -6540,7 +6576,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1166999",
-        "updated_at": "2026-10-17T22:39:43.446449+02:00",
+        "updated_at": "2026-10-18T00:54:37.957873+02:00",
         "enemy_team": {
           "id": 206095,
           "name": "Hässle Black",
@@ -7792,7 +7828,7 @@
         "confirmed": true,
         "result": "2:0",
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167019",
-        "updated_at": "2026-10-17T22:54:15.795426+02:00",
+        "updated_at": "2026-10-18T01:09:09.293826+02:00",
         "enemy_team": {
           "id": 196674,
           "name": "Personal Space Invader",
@@ -7884,7 +7920,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167026",
-        "updated_at": "2026-10-17T22:54:16.800548+02:00",
+        "updated_at": "2026-10-18T01:09:11.233387+02:00",
         "enemy_team": {
           "id": 212126,
           "name": "HoopMonarchs",
@@ -7904,7 +7940,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167030",
-        "updated_at": "2026-10-17T22:54:19.838139+02:00",
+        "updated_at": "2026-10-18T01:09:14.295161+02:00",
         "enemy_team": {
           "id": 211045,
           "name": "Team RADICAL",
