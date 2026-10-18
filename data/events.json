@@ -112,6 +112,22 @@
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
+    "id": "1561236945345056859",
+    "name": "UIC Dynasty vs. Project Zenith",
+    "description": "gameday 3",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-19T17:00:00+00:00",
+    "end": "2026-10-19T19:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1165689",
+    "image": "https://cdn.discordapp.com/guild-events/1561236945345056859/8a622506cb9f7fa8d0561978ab57c1ec.png?size=1024",
+    "competitors": [
+      "UIC Dynasty",
+      "Project Zenith"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
     "id": "1558908364916924567",
     "name": "Ultra Instinct Crew Nova vs. OBLIVION",
     "description": "gameday 3",
