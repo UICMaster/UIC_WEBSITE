@@ -1,37 +1,5 @@
 [
   {
-    "id": "1559629444904259648",
-    "name": "Ultra Instinct Crew vs. BS eSports Effortless",
-    "description": "gameday 3",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-18T13:00:00+00:00",
-    "end": "2026-10-18T15:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1165668",
-    "image": "https://cdn.discordapp.com/guild-events/1559629444904259648/414fff2a96a1de0e126b9d7ccd837d40.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew",
-      "BS eSports Effortless"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1559659216833351770",
-    "name": "Ultra Instinct Crew Spark vs. Lunar Eclipse Azure",
-    "description": "gameday 3",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-18T14:00:00+00:00",
-    "end": "2026-10-18T16:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1166042",
-    "image": "https://cdn.discordapp.com/guild-events/1559659216833351770/b3d40f97da94fca8066f44fd18ff82aa.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Spark",
-      "Lunar Eclipse Azure"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1559191360433823834",
     "name": "Ultra Instinct Crew Cyber vs. BAGF",
     "description": "gameday 3",
@@ -60,22 +28,6 @@
     "competitors": [
       "Ultra Instinct Crew Phoenix",
       "Deutsch Jahrndorf Five"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1559319279910780998",
-    "name": "Ultra Instinct Crew Sakura vs. ArcticBlaze Subzero",
-    "description": "gameday 3",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-18T17:00:00+00:00",
-    "end": "2026-10-18T19:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1165817",
-    "image": "https://cdn.discordapp.com/guild-events/1559319279910780998/02f479e7e3a2356fcaa06e60d1843ab1.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Sakura",
-      "ArcticBlaze Subzero"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
@@ -156,6 +108,22 @@
     "competitors": [
       "Ultra Instinct Crew Eclipse",
       "SSP Arctic Edition"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1561392226586726481",
+    "name": "Ultra Instinct Crew Hydra vs. Bootz not Bach",
+    "description": "gameday 2",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-25T18:00:00+00:00",
+    "end": "2026-10-25T20:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1165558",
+    "image": "https://cdn.discordapp.com/guild-events/1561392226586726481/1fa2d63210eeb32947cb2888aa7c9555.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Hydra",
+      "Bootz not Bach"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
