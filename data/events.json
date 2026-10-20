@@ -1,5 +1,21 @@
 [
   {
+    "id": "1562210093653692527",
+    "name": "BS eSports Effortless VS Ultra Instinct Crew Prime",
+    "description": "Keine Beschreibung verfügbar.",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-21T17:00:00.351000+00:00",
+    "end": "2026-10-21T20:00:00.351000+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1165668-bs-esports-effortless-vs-ultra-instinct-crew",
+    "image": null,
+    "competitors": [
+      "BS eSports Effortless",
+      "Ultra Instinct Crew Prime"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
     "id": "1559950109347684415",
     "name": "Ultra Instinct Crew Eclipse vs. SSP Arctic Edition",
     "description": "gameday 3",
