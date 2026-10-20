@@ -1,37 +1,5 @@
 [
   {
-    "id": "1561633736536100869",
-    "name": "Ultra Instinct Crew vs. Blue Balls",
-    "description": "gameday 2",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-20T17:00:00+00:00",
-    "end": "2026-10-20T19:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1165664",
-    "image": "https://cdn.discordapp.com/guild-events/1561633736536100869/ad3e141081da4129885716fa0e87db73.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew",
-      "Blue Balls"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1558908364916924567",
-    "name": "Ultra Instinct Crew Nova vs. OBLIVION",
-    "description": "gameday 3",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-20T18:00:00+00:00",
-    "end": "2026-10-20T19:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1166994",
-    "image": "https://cdn.discordapp.com/guild-events/1558908364916924567/7b2baf00cca27791d069dd196a298bc9.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Nova",
-      "OBLIVION"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1559950109347684415",
     "name": "Ultra Instinct Crew Eclipse vs. SSP Arctic Edition",
     "description": "gameday 3",
