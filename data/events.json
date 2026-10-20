@@ -48,6 +48,22 @@
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
+    "id": "1561928558698569748",
+    "name": "Ultra Instinct Crew Ascend vs. CRUSHED SIX HAVOC",
+    "description": "gameday 4",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-21T18:15:00+00:00",
+    "end": "2026-10-21T20:15:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1169763",
+    "image": "https://cdn.discordapp.com/guild-events/1561928558698569748/299e58cb0c0cbff23854285e0dcc43ed.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Ascend",
+      "CRUSHED SIX HAVOC"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
     "id": "1561392226586726481",
     "name": "Ultra Instinct Crew Hydra vs. Bootz not Bach",
     "description": "gameday 2",
