@@ -78,5 +78,21 @@
       "Prismatic Rose"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1562354147649388594",
+    "name": "Ultra Instinct Crew Phoenix vs. Elektrolyse &amp; Söhne",
+    "description": "gameday 4",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-25T19:15:00+00:00",
+    "end": "2026-10-25T21:15:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1165877",
+    "image": "https://cdn.discordapp.com/guild-events/1562354147649388594/1dffd6cb980defe1ba6724d8ba6c6c90.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Phoenix",
+      "Elektrolyse &amp; Söhne"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
 ]
