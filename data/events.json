@@ -64,6 +64,38 @@
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
+    "id": "1562527826710765679",
+    "name": "Ultra Instinct Crew Vakuum vs. Hobby Horsing Heroes",
+    "description": "gameday 4",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-25T18:00:00+00:00",
+    "end": "2026-10-25T20:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1167054",
+    "image": "https://cdn.discordapp.com/guild-events/1562527826710765679/d6f5438c28598a17c9193eb65ae3cb4c.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Vakuum",
+      "Hobby Horsing Heroes"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1562535305557311581",
+    "name": "Ultra Instinct Crew Tempest vs. TeamPermaMad",
+    "description": "gameday 4",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-25T18:00:00+00:00",
+    "end": "2026-10-25T20:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1166367",
+    "image": "https://cdn.discordapp.com/guild-events/1562535305557311581/d7a0f9e2876f0649daf959306cad342b.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Tempest",
+      "TeamPermaMad"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
     "id": "1561482569093226618",
     "name": "Ultra Instinct Crew Cyber vs. Prismatic Rose",
     "description": "gameday 4",
@@ -92,6 +124,22 @@
     "competitors": [
       "Ultra Instinct Crew Phoenix",
       "Elektrolyse &amp; Söhne"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1562513640211619891",
+    "name": "Ultra Instinct Crew Raiders vs. Good Vibes Esport Red",
+    "description": "gameday 4",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-26T19:00:00+00:00",
+    "end": "2026-10-26T21:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1168059",
+    "image": "https://cdn.discordapp.com/guild-events/1562513640211619891/9add61a5dfac665562e9497273b32ea9.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Raiders",
+      "Good Vibes Esport Red"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
