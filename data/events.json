@@ -1,5 +1,21 @@
 [
   {
+    "id": "1562894195964903586",
+    "name": "UIC Dynasty vs. Neko Elite Allstars",
+    "description": "gameday 5",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-10-25T17:00:00+00:00",
+    "end": "2026-10-25T19:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1165700",
+    "image": "https://cdn.discordapp.com/guild-events/1562894195964903586/4af60b5e4d2619dbce55fd0694b79ec8.png?size=1024",
+    "competitors": [
+      "UIC Dynasty",
+      "Neko Elite Allstars"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
     "id": "1561392226586726481",
     "name": "Ultra Instinct Crew Hydra vs. Bootz not Bach",
     "description": "gameday 2",
