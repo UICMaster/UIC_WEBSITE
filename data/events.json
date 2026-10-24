@@ -158,5 +158,21 @@
       "Dynamo Aufbier"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1563562993218752593",
+    "name": "Ultra Instinct Crew Hydra vs. Lausanne Esports Helvetia",
+    "description": "gameday 4",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-11-01T18:00:00+00:00",
+    "end": "2026-11-01T20:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1165565",
+    "image": "https://cdn.discordapp.com/guild-events/1563562993218752593/6891e2b340b1b43d824755610db23869.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Hydra",
+      "Lausanne Esports Helvetia"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
 ]
