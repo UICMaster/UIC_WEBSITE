@@ -6,7 +6,7 @@
 <title>ULTRA INSTINCT CREW - OBS Broadcast Backdrop & Live Ticker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Orbitron:wght@500;600;700;800;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
     --cyan: #00E5FF;
@@ -35,7 +35,7 @@
   }
 
   /* ==========================================================================
-     1. ANIMATED ESPORTS BACKGROUND (CLEAN CENTER FOR WEBCAMS & OVERLAYS)
+     1. ANIMATED ESPORTS BACKGROUND (DIAGONAL 45-DEGREE GEOMETRY)
      ========================================================================== */
   #esports-bg {
     position: fixed;
@@ -44,21 +44,21 @@
     height: 100vh;
     z-index: 0;
     overflow: hidden;
-    /* Deep, low-distraction center vignette so cams & overlays pop */
-    background: radial-gradient(ellipse at 50% 48%, #0C1220 0%, #070A10 62%, #05070B 100%);
+    background: radial-gradient(ellipse at 45% 52%, #0C1220 0%, #070A10 62%, #05070B 100%);
   }
 
-  /* Subtle corner ambient glow spots (kept away from center) */
+  /* Subtle corner ambient glow spots */
   .ambient-glow {
     position: absolute;
     border-radius: 50%;
     filter: blur(120px);
     opacity: 0.22;
     pointer-events: none;
+    transition: opacity 0.4s ease;
   }
   .ambient-glow.tl {
     width: 48vw; height: 48vw;
-    top: -22vw; left: -18vw;
+    top: -20vw; left: -18vw;
     background: linear-gradient(135deg, var(--cyan), var(--blue));
     animation: pulseGlow 9s ease-in-out infinite alternate;
   }
@@ -74,7 +74,7 @@
     100% { opacity: 0.26; transform: scale(1.06); }
   }
 
-  /* Subtle Hex/Tech Grid Pattern restricted to outer edges via radial mask */
+  /* Subtle Tech Grid restricted to outer edges */
   .bg-tech-grid {
     position: absolute;
     inset: 0;
@@ -82,14 +82,14 @@
       linear-gradient(to right, rgba(0, 229, 255, 0.03) 1px, transparent 1px),
       linear-gradient(to bottom, rgba(138, 43, 226, 0.03) 1px, transparent 1px);
     background-size: 48px 48px;
-    mask-image: radial-gradient(circle at 50% 48%, transparent 35%, black 95%);
-    -webkit-mask-image: radial-gradient(circle at 50% 48%, transparent 35%, black 95%);
+    mask-image: radial-gradient(circle at 45% 52%, transparent 35%, black 95%);
+    -webkit-mask-image: radial-gradient(circle at 45% 52%, transparent 35%, black 95%);
     pointer-events: none;
     z-index: 1;
   }
 
   /* ==========================================================================
-     IDEA 1: DIAGONAL KINETIC MARQUEE RIBBONS (-45 DEG GHOST TYPOGRAPHY)
+     DIAGONAL KINETIC MARQUEE RIBBONS (-45 DEG "ULTRA INSTINCT CREW")
      ========================================================================== */
   #kinetic-ribbons {
     position: absolute;
@@ -115,17 +115,16 @@
     pointer-events: none;
   }
 
-  /* Positioned to frame the top-left and bottom-right without cluttering center */
   .diagonal-marquee-lane.lane-1 {
-    top: 12%;
+    top: 15%;
     left: -95%;
-    opacity: 0.045;
+    opacity: 0.04;
   }
 
   .diagonal-marquee-lane.lane-2 {
     top: 82%;
     left: -65%;
-    opacity: 0.045;
+    opacity: 0.04;
   }
 
   .diagonal-marquee-track {
@@ -133,26 +132,26 @@
     width: max-content;
     font-family: 'Orbitron', sans-serif;
     font-weight: 900;
-    font-size: 66px;
-    letter-spacing: 10px;
+    font-size: 64px;
+    letter-spacing: 12px;
     text-transform: uppercase;
     color: transparent;
     -webkit-text-stroke: 1.5px rgba(0, 229, 255, 0.75);
-    animation: scrollDiagText 55s linear infinite;
+    animation: scrollDiagText 60s linear infinite;
   }
 
   .diagonal-marquee-lane.lane-2 .diagonal-marquee-track {
     -webkit-text-stroke: 1.5px rgba(138, 43, 226, 0.85);
     animation-direction: reverse;
-    animation-duration: 65s;
+    animation-duration: 70s;
   }
 
   .diagonal-marquee-track span {
-    padding: 0 35px;
+    padding: 0 40px;
   }
 
   .diagonal-marquee-track .solid-accent {
-    color: rgba(255, 255, 255, 0.35);
+    color: rgba(255, 255, 255, 0.28);
     -webkit-text-stroke: 0;
   }
 
@@ -162,7 +161,7 @@
   }
 
   /* ==========================================================================
-     FULL-SCREEN SVG VECTOR LAYER (NOTCHED 45-DEG GEOMETRY & MICRO-BRANDING)
+     FULL-SCREEN SVG VECTOR LAYER (NOTCHED 45-DEG GEOMETRY)
      ========================================================================== */
   .bg-svg-layer {
     position: absolute;
@@ -171,9 +170,13 @@
     height: 100%;
     pointer-events: none;
     z-index: 2;
+    transition: opacity 0.4s ease;
   }
 
-  /* Animated floating motions along the -45deg diagonal axis */
+  body.wings-subtle .bg-svg-layer {
+    opacity: 0.48;
+  }
+
   .diag-float-slow {
     animation: slideDiagSlow 10s ease-in-out infinite alternate;
   }
@@ -197,14 +200,6 @@
     100% { transform: translate(34px, -34px); }
   }
 
-  /* Toggle for Diagonal Edge Micro-Branding inside SVG */
-  .edge-micro-branding {
-    transition: opacity 0.35s ease;
-  }
-  body.hide-micro .edge-micro-branding {
-    opacity: 0;
-  }
-
   /* Canvas for dynamic 45-degree glowing light streaks & cyber dust */
   #streak-canvas {
     position: absolute;
@@ -216,373 +211,205 @@
   }
 
   /* ==========================================================================
-     IDEA 2: SLEEK TOP BROADCAST HEADER / TELEMETRY HUD BAR
+     2. PRODUCTION STAGE FRAMES (CLEAN CHAT AREA & OPTIONAL CAM FRAMES)
+        100% FREE OF ANY PLACEHOLDER TEXT OR LABELS
      ========================================================================== */
-  #top-broadcast-hud {
+  #broadcast-stage {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 48px;
+    top: calc(var(--ticker-height) + 34px);
+    bottom: 36px;
+    left: 44px;
+    right: 44px;
     z-index: 10;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 32px;
     pointer-events: none;
-    transition: transform 0.4s ease, opacity 0.4s ease;
+    transition: top 0.35s ease, bottom 0.35s ease;
   }
 
-  body.hide-top-hud #top-broadcast-hud {
-    transform: translateY(-100%);
-    opacity: 0;
+  /* Adjust stage vertical bounds if ticker is at the bottom or hidden */
+  body.ticker-bottom #broadcast-stage {
+    top: 36px;
+    bottom: calc(var(--ticker-height) + 34px);
+  }
+  body.ticker-hidden #broadcast-stage {
+    top: 36px;
+    bottom: 36px;
   }
 
-  .hud-top-plate {
-    position: relative;
+  /* Left/Center Content Area (for Cams or Open Backdrop) */
+  #cam-stage-area {
+    flex: 1;
     display: flex;
-    align-items: center;
-    gap: 24px;
-    height: 40px;
-    padding: 0 42px;
-    background: linear-gradient(180deg, rgba(10, 15, 26, 0.92) 0%, rgba(7, 10, 16, 0.82) 100%);
-    clip-path: polygon(0 0, 100% 0, calc(100% - 22px) 100%, 22px 100%);
-    border-bottom: 2px solid rgba(0, 229, 255, 0.45);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
-  }
-
-  .hud-top-plate::before,
-  .hud-top-plate::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    width: 65px;
-    height: 2px;
-    background: var(--purple);
-    box-shadow: 0 0 10px var(--purple);
-  }
-  .hud-top-plate::before { left: 25px; }
-  .hud-top-plate::after { right: 25px; }
-
-  .hud-crew-tag {
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 900;
-    font-size: 14px;
-    letter-spacing: 3.5px;
-    color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    text-shadow: 0 0 10px rgba(0, 229, 255, 0.35);
-  }
-
-  .hud-pulse-diamond {
-    width: 8px;
-    height: 8px;
-    background: var(--cyan);
-    transform: rotate(45deg);
-    box-shadow: 0 0 10px var(--cyan);
-    animation: blink 1.6s infinite ease-in-out;
-  }
-
-  .hud-divider {
-    width: 2px;
-    height: 16px;
-    background: rgba(255, 255, 255, 0.14);
-    transform: skewX(-20deg);
-  }
-
-  .hud-sub-meta {
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 700;
-    font-size: 13px;
-    letter-spacing: 2px;
-    color: var(--cyan);
-    text-transform: uppercase;
-  }
-
-  .hud-clock {
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 700;
-    font-size: 13px;
-    letter-spacing: 1.5px;
-    color: var(--text-muted);
-  }
-
-  /* ==========================================================================
-     IDEA 3: SUBTLE AMBIENT CORNER WATERMARK & OPTIONAL CAM PREVIEW GUIDES
-     ========================================================================== */
-  #ambient-corner-badges {
-    position: fixed;
-    inset: 0;
-    bottom: var(--ticker-height);
-    pointer-events: none;
-    z-index: 4;
-    transition: opacity 0.35s ease;
-  }
-
-  body.hide-micro #ambient-corner-badges {
-    opacity: 0;
-  }
-
-  /* Bottom-Left Tactical Watermark (away from the colored bars in TL & BR) */
-  .corner-telemetry-bl {
-    position: absolute;
-    bottom: 22px;
-    left: 28px;
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-    padding-left: 12px;
-    border-left: 2px solid rgba(0, 229, 255, 0.35);
-  }
-
-  .telemetry-title {
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 800;
-    font-size: 12px;
-    letter-spacing: 3px;
-    color: rgba(255, 255, 255, 0.42);
-  }
-
-  .telemetry-bars {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    margin-top: 2px;
-  }
-
-  .telemetry-bars span {
-    display: inline-block;
-    height: 3px;
-    background: var(--cyan);
-    opacity: 0.4;
-    transform: skewX(-30deg);
-  }
-  .telemetry-bars span:nth-child(1) { width: 22px; }
-  .telemetry-bars span:nth-child(2) { width: 10px; background: var(--purple); opacity: 0.55; }
-  .telemetry-bars span:nth-child(3) { width: 6px; }
-
-  .telemetry-sub {
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 600;
-    font-size: 11px;
-    letter-spacing: 2px;
-    color: rgba(142, 142, 159, 0.45);
-  }
-
-  /* Top-Right Subtle Corner Bracket */
-  .corner-telemetry-tr {
-    position: absolute;
-    top: 22px;
-    right: 28px;
-    text-align: right;
-    padding-right: 12px;
-    border-right: 2px solid rgba(138, 43, 226, 0.4);
-  }
-
-  /* ==========================================================================
-     OPTIONAL OBS CAM LAYOUT SIMULATOR (FOR TESTING FOREGROUND PLACEMENT)
-     ========================================================================== */
-  #cam-preview-layer {
-    position: fixed;
-    inset: 55px 40px calc(var(--ticker-height) + 25px) 40px;
-    z-index: 8;
-    pointer-events: none;
-    display: none;
     align-items: center;
     justify-content: center;
     gap: 28px;
+    height: 100%;
   }
 
-  #cam-preview-layer.mode-dual,
-  #cam-preview-layer.mode-gameplay,
-  #cam-preview-layer.mode-quad {
-    display: flex;
-  }
-
-  .mock-cam-box {
-    position: relative;
-    background: rgba(10, 15, 26, 0.55);
-    border: 2px dashed rgba(0, 229, 255, 0.55);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.65), inset 0 0 30px rgba(0, 229, 255, 0.06);
-    backdrop-filter: blur(4px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: rgba(255, 255, 255, 0.75);
-    font-family: 'Orbitron', sans-serif;
-    text-align: center;
-    clip-path: polygon(16px 0, 100% 0, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0 100%, 0 16px);
-  }
-
-  .mock-cam-box::after {
-    content: 'OBS PLACEHOLDER (VORSCHAU)';
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 12px;
-    letter-spacing: 2px;
-    color: var(--cyan);
-    margin-top: 6px;
-    opacity: 0.85;
-  }
-
-  /* Mode: Dual Caster Cams (2x 16:9 side-by-side) */
-  #cam-preview-layer.mode-dual .mock-cam-box {
-    width: 44%;
-    aspect-ratio: 16 / 9;
-  }
-
-  /* Mode: Gameplay + Facecam */
-  #cam-preview-layer.mode-gameplay .mock-cam-box.main-game {
-    width: 68%;
-    aspect-ratio: 16 / 9;
-    border-color: rgba(138, 43, 226, 0.65);
-  }
-  #cam-preview-layer.mode-gameplay .mock-cam-box.side-cam {
-    width: 25%;
-    aspect-ratio: 16 / 9;
-  }
-
-  /* Mode: 4-Way Analyst Grid */
-  #cam-preview-layer.mode-quad {
-    flex-wrap: wrap;
-    max-width: 1280px;
-    margin: 0 auto;
-    gap: 20px;
-  }
-  #cam-preview-layer.mode-quad .mock-cam-box {
-    width: 45%;
-    aspect-ratio: 16 / 9;
-  }
-
-  /* ==========================================================================
-     AUTO-HIDING OBS CONTROL PANEL (TOP RIGHT - HIDES AFTER 2.5S IDLE)
-     ========================================================================== */
-  #obs-controls {
-    position: fixed;
-    top: 18px;
-    right: 18px;
-    z-index: 100;
-    background: rgba(10, 15, 26, 0.94);
-    border: 1px solid rgba(0, 229, 255, 0.4);
-    border-left: 4px solid var(--cyan);
-    border-radius: 8px;
-    padding: 14px 18px;
-    width: 325px;
-    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 229, 255, 0.15);
-    backdrop-filter: blur(12px);
-    transition: opacity 0.35s ease, transform 0.35s ease;
-    font-family: 'Rajdhani', sans-serif;
-  }
-
-  #obs-controls.idle-hidden {
+  /* Hide cam frames when in "chat-only" or "none" layout */
+  #broadcast-stage.layout-chat-only #cam-stage-area,
+  #broadcast-stage.layout-none #cam-stage-area {
     opacity: 0;
+  }
+
+  /* Sleek Cyber Frame Box (shared visual aesthetic for Cam & Chat frames) */
+  .cyber-frame {
+    position: relative;
+    background: linear-gradient(160deg, rgba(10, 15, 26, 0.72) 0%, rgba(6, 9, 15, 0.84) 100%);
+    border: 1px solid rgba(0, 229, 255, 0.32);
+    box-shadow: 
+      0 20px 50px rgba(0, 0, 0, 0.75),
+      0 0 25px rgba(0, 229, 255, 0.08),
+      inset 0 0 35px rgba(0, 229, 255, 0.03);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    clip-path: polygon(
+      18px 0, 
+      100% 0, 
+      100% calc(100% - 18px), 
+      calc(100% - 18px) 100%, 
+      0 100%, 
+      0 18px
+    );
+  }
+
+  /* Top Cyan Accent Bar on Frames */
+  .cyber-frame::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    width: 95px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--cyan), transparent);
+    box-shadow: 0 0 12px var(--cyan);
+  }
+
+  /* Bottom-Right Purple Accent Bar on Frames */
+  .cyber-frame::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 18px;
+    width: 95px;
+    height: 3px;
+    background: linear-gradient(270deg, var(--purple), transparent);
+    box-shadow: 0 0 12px var(--purple);
+  }
+
+  /* Subtle angled corner notch highlight */
+  .frame-corner-accent {
+    position: absolute;
+    inset: 0;
     pointer-events: none;
-    transform: translateY(-8px);
+  }
+  .frame-corner-accent::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 36px;
+    height: 36px;
+    border-top: 2px solid var(--cyan);
+    border-right: 2px solid var(--cyan);
+    opacity: 0.75;
+  }
+  .frame-corner-accent::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 36px;
+    height: 36px;
+    border-bottom: 2px solid var(--purple);
+    border-left: 2px solid var(--purple);
+    opacity: 0.75;
   }
 
-  .ctrl-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 1.5px;
-    color: var(--cyan);
-    margin-bottom: 10px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  /* Cam Frame Sizing depending on selected mode */
+  .cam-frame {
+    display: none;
+    aspect-ratio: 16 / 9;
   }
 
-  .ctrl-badge {
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 11px;
-    color: var(--text-muted);
-    background: rgba(255, 255, 255, 0.07);
-    padding: 2px 7px;
-    border-radius: 4px;
-  }
-
-  .ctrl-group {
-    margin-bottom: 10px;
-  }
-
-  .ctrl-group label {
+  /* 1x Cam + Chat */
+  #broadcast-stage.layout-cam-1 .cam-frame.cam-1 {
     display: block;
-    font-size: 13px;
-    font-weight: 600;
-    color: #CBD5E1;
-    margin-bottom: 4px;
-    letter-spacing: 0.5px;
-  }
-
-  .ctrl-select, .ctrl-input {
     width: 100%;
-    background: rgba(7, 10, 16, 0.95);
-    border: 1px solid rgba(255, 255, 255, 0.16);
-    color: #fff;
-    padding: 6px 10px;
-    border-radius: 5px;
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    outline: none;
+    max-height: 100%;
   }
 
-  .ctrl-select:focus, .ctrl-input:focus {
-    border-color: var(--cyan);
+  /* 2x Cams + Chat */
+  #broadcast-stage.layout-cam-2 .cam-frame.cam-1,
+  #broadcast-stage.layout-cam-2 .cam-frame.cam-2 {
+    display: block;
+    width: 48.5%;
+    max-height: 100%;
   }
 
-  .ctrl-toggles {
+  /* Dedicated Default Chat Area on the Right */
+  #chat-frame {
+    width: 350px;
+    height: 100%;
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    gap: 6px;
-    margin-top: 8px;
+    transition: opacity 0.35s ease, transform 0.35s ease;
   }
 
-  .ctrl-check-label {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 14px;
-    font-weight: 600;
-    color: #E2E8F0;
-    cursor: pointer;
+  /* Subtle top accent line inside the chat frame */
+  .chat-top-trim {
+    height: 6px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0, 229, 255, 0.35) 0%, rgba(138, 43, 226, 0.35) 100%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
   }
 
-  .ctrl-check-label input {
-    accent-color: var(--cyan);
-    width: 15px;
-    height: 15px;
-    cursor: pointer;
-  }
-
-  .ctrl-hint {
-    font-size: 11px;
-    color: var(--text-muted);
-    margin-top: 10px;
-    line-height: 1.35;
-    border-top: 1px solid rgba(255,255,255,0.08);
-    padding-top: 7px;
+  body.hide-chat #chat-frame,
+  #broadcast-stage.layout-none #chat-frame {
+    display: none;
   }
 
   /* ==========================================================================
-     ORIGINAL UIC TICKER CONTAINER (100% UNCHANGED)
+     3. TOP-MOUNTED TICKER & ACCOUNT HEADER ("ULTRA INSTINCT CREW")
+        TICKER TRACK & JS LOGIC ARE 100% UNCHANGED
      ========================================================================== */
   #ticker-container {
     position: fixed;
-    bottom: 0; left: 0; width: 100vw; height: var(--ticker-height);
+    top: 0;
+    bottom: auto;
+    left: 0;
+    width: 100vw;
+    height: var(--ticker-height);
     background: var(--dark-bg);
-    display: flex; align-items: center; overflow: hidden;
-    border-top: 3px solid var(--cyan);
-    box-shadow: 0 -5px 25px rgba(0, 229, 255, 0.15);
-    z-index: 20;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-bottom: 3px solid var(--cyan);
+    border-top: none;
+    box-shadow: 0 6px 28px rgba(0, 229, 255, 0.18);
+    z-index: 30;
     transition: transform 0.35s ease;
   }
 
+  /* Optional Bottom Position via Radio Button */
+  body.ticker-bottom #ticker-container {
+    top: auto;
+    bottom: 0;
+    border-bottom: none;
+    border-top: 3px solid var(--cyan);
+    box-shadow: 0 -5px 25px rgba(0, 229, 255, 0.15);
+  }
+
+  /* Optional Hidden State */
   body.ticker-hidden #ticker-container {
-    transform: translateY(100%);
+    transform: translateY(-110%);
+  }
+  body.ticker-bottom.ticker-hidden #ticker-container {
+    transform: translateY(110%);
   }
 
   #ticker-container::before {
@@ -603,7 +430,7 @@
   }
 
   /* ================================
-     BRANDING BLOCK (Links)
+     BRANDING BLOCK (Links - Unchanged)
      ================================ */
   .ticker-brand {
     position: relative; z-index: 10; height: 100%;
@@ -636,12 +463,62 @@
   }
 
   /* ================================
-     SCROLLING TRACK
+     RIGHT ACCOUNT WING ("ULTRA INSTINCT CREW")
+     ================================ */
+  .ticker-crew-wing {
+    position: relative;
+    z-index: 10;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 0 28px 0 44px;
+    background: linear-gradient(225deg, var(--deep-blue) 0%, #150A2A 100%);
+    clip-path: polygon(25px 0, 100% 0, 100% 100%, 0% 100%);
+    border-left: 4px solid var(--purple);
+  }
+
+  .ticker-crew-wing::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: var(--purple);
+    box-shadow: 2px 0 10px var(--purple);
+  }
+
+  .crew-wing-diamond {
+    width: 9px;
+    height: 9px;
+    background: var(--cyan);
+    transform: rotate(45deg);
+    box-shadow: 0 0 10px var(--cyan);
+    flex-shrink: 0;
+  }
+
+  .crew-wing-name {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 3.5px;
+    color: var(--text-main);
+    white-space: nowrap;
+    text-shadow: 0 0 12px rgba(0, 229, 255, 0.3);
+  }
+
+  body.hide-crew-wing .ticker-crew-wing {
+    display: none;
+  }
+
+  /* ================================
+     SCROLLING TRACK (Unchanged)
      ================================ */
   .ticker-viewport {
     flex: 1; height: 100%; overflow: hidden; position: relative; z-index: 1;
-    mask-image: linear-gradient(to right, transparent, black 3%, black 98%, transparent);
-    -webkit-mask-image: linear-gradient(to right, transparent, black 3%, black 98%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 3%, black 97%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 3%, black 97%, transparent);
   }
 
   .ticker-track {
@@ -654,7 +531,7 @@
   }
 
   /* ================================
-     MATCH ITEM COMPONENT
+     MATCH ITEM COMPONENT (Unchanged)
      ================================ */
   .match-item {
     display: flex; align-items: center; height: 100%; padding: 0 35px;
@@ -692,34 +569,178 @@
     padding: 0 30px; font-family: 'Orbitron', sans-serif;
     color: var(--cyan); display: flex; align-items: center; height: 100%; letter-spacing: 2px;
   }
+
+  /* ==========================================================================
+     4. OBS INTERACT CONTROL PANEL (RADIO BUTTONS ONLY - NO DROPDOWNS!)
+        AUTO-HIDES AFTER 3 SECONDS OF INACTIVITY
+     ========================================================================== */
+  #obs-controls {
+    position: fixed;
+    top: calc(var(--ticker-height) + 18px);
+    left: 24px;
+    z-index: 200;
+    background: rgba(10, 15, 26, 0.96);
+    border: 1px solid rgba(0, 229, 255, 0.45);
+    border-left: 4px solid var(--cyan);
+    border-radius: 8px;
+    padding: 16px 18px;
+    width: 360px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.85), 0 0 25px rgba(0, 229, 255, 0.15);
+    backdrop-filter: blur(14px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+  body.ticker-bottom #obs-controls,
+  body.ticker-hidden #obs-controls {
+    top: 24px;
+  }
+
+  #obs-controls.idle-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+  }
+
+  .ctrl-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    color: var(--cyan);
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .ctrl-badge {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 11px;
+    color: var(--text-muted);
+    background: rgba(255, 255, 255, 0.08);
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+
+  .ctrl-section {
+    margin-bottom: 12px;
+  }
+
+  .ctrl-section-title {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #94A3B8;
+    margin-bottom: 6px;
+  }
+
+  /* Radio Button Pill Grid (Works natively in OBS Browser Source Interact!) */
+  .radio-pill-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+  }
+
+  .radio-pill-grid.cols-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .radio-pill {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+  }
+
+  .radio-pill input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .radio-pill span {
+    width: 100%;
+    text-align: center;
+    padding: 7px 10px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #CBD5E1;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 5px;
+    transition: all 0.18s ease;
+  }
+
+  .radio-pill:hover span {
+    border-color: rgba(0, 229, 255, 0.45);
+    color: #FFFFFF;
+  }
+
+  .radio-pill input[type="radio"]:checked + span {
+    background: linear-gradient(135deg, rgba(0, 229, 255, 0.22), rgba(138, 43, 226, 0.28));
+    border-color: var(--cyan);
+    color: #FFFFFF;
+    box-shadow: 0 0 12px rgba(0, 229, 255, 0.25);
+  }
+
+  .ctrl-toggles {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .ctrl-check-label {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: #E2E8F0;
+    cursor: pointer;
+  }
+
+  .ctrl-check-label input {
+    accent-color: var(--cyan);
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+  }
 </style>
 </head>
 <body>
 
 <!-- ======================================================================
-     1. ANIMATED ESPORTS BACKGROUND (NO CENTER LOGO/TEXT - READY FOR CAMS)
+     1. ANIMATED ESPORTS BACKGROUND (DIAGONAL 45-DEGREE GEOMETRY)
      ====================================================================== -->
 <div id="esports-bg">
   <div class="ambient-glow tl"></div>
   <div class="ambient-glow br"></div>
   <div class="bg-tech-grid"></div>
 
-  <!-- IDEA 1: Subtle -45deg Kinetic Typography Ribbons in the dark backdrop -->
+  <!-- Subtle -45deg Kinetic Typography Ribbons ("ULTRA INSTINCT CREW") -->
   <div id="kinetic-ribbons">
     <div class="diagonal-marquee-lane lane-1">
       <div class="diagonal-marquee-track">
-        <span>ULTRA INSTINCT CREW</span><span class="solid-accent">// UIC ESPORTS //</span>
-        <span>ULTRA INSTINCT CREW</span><span class="solid-accent">// BROADCAST NETWORK //</span>
-        <span>ULTRA INSTINCT CREW</span><span class="solid-accent">// UIC ESPORTS //</span>
-        <span>ULTRA INSTINCT CREW</span><span class="solid-accent">// BROADCAST NETWORK //</span>
+        <span>ULTRA INSTINCT CREW</span><span class="solid-accent">UIC</span>
+        <span>ULTRA INSTINCT CREW</span><span class="solid-accent">UIC</span>
+        <span>ULTRA INSTINCT CREW</span><span class="solid-accent">UIC</span>
+        <span>ULTRA INSTINCT CREW</span><span class="solid-accent">UIC</span>
       </div>
     </div>
     <div class="diagonal-marquee-lane lane-2">
       <div class="diagonal-marquee-track">
-        <span>ULTRA INSTINCT CREW</span><span class="solid-accent">// COMPETITIVE DIVISION //</span>
-        <span>ULTRA INSTINCT CREW</span><span class="solid-accent">// UIC LIVE //</span>
-        <span>ULTRA INSTINCT CREW</span><span class="solid-accent">// COMPETITIVE DIVISION //</span>
-        <span>ULTRA INSTINCT CREW</span><span class="solid-accent">// UIC LIVE //</span>
+        <span>ULTRA INSTINCT CREW</span><span class="solid-accent">UIC</span>
+        <span>ULTRA INSTINCT CREW</span><span class="solid-accent">UIC</span>
+        <span>ULTRA INSTINCT CREW</span><span class="solid-accent">UIC</span>
+        <span>ULTRA INSTINCT CREW</span><span class="solid-accent">UIC</span>
       </div>
     </div>
   </div>
@@ -727,27 +748,23 @@
   <!-- Crisp Vector Geometric Shapes with Stepped/Notched Edges (-45 deg) -->
   <svg class="bg-svg-layer" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
     <defs>
-      <!-- Top-Left Main Ribbon Gradient (Cyan -> Blue -> Purple) -->
       <linearGradient id="grad-ribbon-tl" x1="0%" y1="100%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#3FE8FF" />
         <stop offset="52%" stop-color="#4B80F5" />
         <stop offset="100%" stop-color="#7C4DFF" />
       </linearGradient>
 
-      <!-- Bottom-Right Main Ribbon Gradient (Cyan -> Blue -> Vivid Purple) -->
       <linearGradient id="grad-ribbon-br" x1="0%" y1="100%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#38E4FF" />
         <stop offset="48%" stop-color="#4A7BF7" />
         <stop offset="100%" stop-color="#9438FF" />
       </linearGradient>
 
-      <!-- Pure Cyan Corner Accent -->
       <linearGradient id="grad-cyan-solid" x1="0%" y1="0%" x2="100%" y2="100%">
         <stop offset="0%" stop-color="#60F0FF" />
         <stop offset="100%" stop-color="#2BB6E8" />
       </linearGradient>
 
-      <!-- Purple/Blue Accent Strip -->
       <linearGradient id="grad-purple-strip" x1="0%" y1="100%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#3B82F6" stop-opacity="0" />
         <stop offset="35%" stop-color="#6366F1" stop-opacity="0.9" />
@@ -760,7 +777,6 @@
         <stop offset="100%" stop-color="#7C4DFF" stop-opacity="0" />
       </linearGradient>
 
-      <!-- Subtle Dark Navy Background Stripes -->
       <linearGradient id="grad-dark-band" x1="0%" y1="100%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#121A29" stop-opacity="0.6" />
         <stop offset="50%" stop-color="#0B101B" stop-opacity="0.35" />
@@ -768,9 +784,7 @@
       </linearGradient>
     </defs>
 
-    <!-- ============================================================
-         DARK DIAGONAL BACKGROUND ARCHITECTURAL BANDS (-45 DEG)
-         ============================================================ -->
+    <!-- Dark Diagonal Background Architectural Bands (-45 deg) -->
     <g class="diag-float-slow">
       <polygon points="-250,620 620,-250 760,-250 -250,760" fill="url(#grad-dark-band)" />
       <polygon points="-100,1180 1180,-100 1350,-100 70,1180" fill="url(#grad-dark-band)" />
@@ -779,14 +793,11 @@
       <polygon points="1160,1180 2180,160 2320,160 1300,1180" fill="url(#grad-dark-band)" />
     </g>
 
-    <!-- ============================================================
-         TOP-LEFT GEOMETRIC CYBER CLUSTER
-         ============================================================ -->
+    <!-- Top-Left Geometric Cyber Cluster -->
     <g class="diag-float-slow">
       <polygon points="-60,-60 220,-60 -60,220" fill="url(#grad-cyan-solid)" />
     </g>
 
-    <!-- Top-Left Main Stepped/Notched Ribbon -->
     <g class="diag-float-med">
       <polygon points="
         -120,760 
@@ -806,40 +817,20 @@
         90,732 
         -120,942
       " fill="url(#grad-ribbon-tl)" />
-
-      <!-- Diagonal Edge Micro-Branding etched along the Top-Left Cyber Ribbon -->
-      <g class="edge-micro-branding" transform="translate(295, 578) rotate(-45)">
-        <text x="0" y="0" fill="rgba(0, 229, 255, 0.55)" font-family="'Orbitron', sans-serif" font-weight="800" font-size="11" letter-spacing="5">
-          ULTRA INSTINCT CREW // SYS.01
-        </text>
-        <rect x="-45" y="-9" width="32" height="2" fill="#00E5FF" opacity="0.6" />
-      </g>
     </g>
 
-    <!-- Top-Left Secondary Floating Parallelograms / Strips -->
     <g class="diag-float-fast">
       <polygon points="285,125 465,-55 492,-55 312,125" fill="#9A42FF" />
       <polygon points="285,125 312,125 298,139 285,139" fill="#6366F1" />
-
-      <polygon points="
-        185,805 
-        465,525 
-        495,525 
-        200,820 
-        185,820
-      " fill="url(#grad-cyan-strip)" />
-
+      <polygon points="185,805 465,525 495,525 200,820 185,820" fill="url(#grad-cyan-strip)" />
       <polygon points="410,1100 560,950 588,950 438,1100" fill="url(#grad-purple-strip)" />
     </g>
 
-    <!-- ============================================================
-         BOTTOM-RIGHT GEOMETRIC CYBER CLUSTER
-         ============================================================ -->
+    <!-- Bottom-Right Geometric Cyber Cluster -->
     <g class="diag-float-slow">
       <polygon points="1980,860 1980,1140 1700,1140" fill="url(#grad-cyan-solid)" />
     </g>
 
-    <!-- Bottom-Right Main Stepped/Notched Ribbon -->
     <g class="diag-float-med">
       <polygon points="
         1040,1140 
@@ -861,27 +852,11 @@
         1250,1105 
         1215,1140
       " fill="url(#grad-ribbon-br)" />
-
-      <!-- Diagonal Edge Micro-Branding etched along the Bottom-Right Cyber Ribbon -->
-      <g class="edge-micro-branding" transform="translate(1365, 790) rotate(-45)">
-        <text x="0" y="0" fill="rgba(168, 85, 247, 0.65)" font-family="'Orbitron', sans-serif" font-weight="800" font-size="11" letter-spacing="5">
-          UIC BROADCAST // ULTRA INSTINCT CREW
-        </text>
-        <rect x="335" y="-9" width="32" height="2" fill="#A855F7" opacity="0.7" />
-      </g>
     </g>
 
-    <!-- Bottom-Right Secondary Floating Parallelograms / Strips -->
     <g class="diag-float-fast">
       <polygon points="1260,310 1465,105 1492,105 1287,310" fill="url(#grad-purple-strip)" />
-
-      <polygon points="
-        1445,550 
-        1740,255 
-        1740,290 
-        1475,550
-      " fill="url(#grad-ribbon-tl)" />
-
+      <polygon points="1445,550 1740,255 1740,290 1475,550" fill="url(#grad-ribbon-tl)" />
       <polygon points="1810,765 2010,565 2028,583 1828,783" fill="#9D4EDD" />
     </g>
   </svg>
@@ -891,88 +866,29 @@
 </div>
 
 <!-- ======================================================================
-     2. IDEA 2: SLEEK TOP BROADCAST HEADER BAR ("ULTRA INSTINCT CREW")
+     2. PRODUCTION STAGE FRAMES (CHAT AREA BY DEFAULT + OPTIONAL CAM FRAMES)
+        ZERO TEXT / ZERO PLACEHOLDERS ON OVERLAY
      ====================================================================== -->
-<div id="top-broadcast-hud">
-  <div class="hud-top-plate">
-    <div class="hud-crew-tag">
-      <span class="hud-pulse-diamond"></span>
-      <span>ULTRA INSTINCT CREW</span>
+<div id="broadcast-stage" class="layout-chat-only">
+  <!-- Left/Center Area for Optional Clean 16:9 Cam Frames -->
+  <div id="cam-stage-area">
+    <div class="cyber-frame cam-frame cam-1">
+      <div class="frame-corner-accent"></div>
     </div>
-    <div class="hud-divider"></div>
-    <div class="hud-sub-meta">OFFICIAL BROADCAST</div>
-    <div class="hud-divider"></div>
-    <div class="hud-clock" id="hud-live-clock">20:00 CET</div>
-  </div>
-</div>
-
-<!-- ======================================================================
-     3. IDEA 3: SUBTLE CORNER TELEMETRY & CAM LAYOUT PREVIEW GUIDES
-     ====================================================================== -->
-<div id="ambient-corner-badges">
-  <div class="corner-telemetry-bl">
-    <div class="telemetry-title">ULTRA INSTINCT CREW</div>
-    <div class="telemetry-bars">
-      <span></span><span></span><span></span>
+    <div class="cyber-frame cam-frame cam-2">
+      <div class="frame-corner-accent"></div>
     </div>
-    <div class="telemetry-sub">UIC // MULTICAM FEED READY</div>
   </div>
 
-  <div class="corner-telemetry-tr">
-    <div class="telemetry-title">UIC // ESPORTS</div>
-    <div class="telemetry-sub">1080P60 // OVERLAY SYNC</div>
-  </div>
-</div>
-
-<!-- Optional Cam Preview Layer (Off by default - helps check how cams look on top) -->
-<div id="cam-preview-layer"></div>
-
-<!-- ======================================================================
-     4. AUTO-HIDING OBS CONFIGURATION HUD (TOP RIGHT)
-     ====================================================================== -->
-<div id="obs-controls">
-  <div class="ctrl-header">
-    <span>UIC BACKDROP CONFIG</span>
-    <span class="ctrl-badge">Auto-Hide</span>
-  </div>
-
-  <div class="ctrl-group">
-    <label for="cam-preview-select">OBS Cam-Layout Vorschau (Test):</label>
-    <select id="cam-preview-select" class="ctrl-select">
-      <option value="off" selected>Aus (Reiner Hintergrund für OBS)</option>
-      <option value="dual">Dual Caster Cams (2x 16:9)</option>
-      <option value="gameplay">Gameplay + Caster Cam</option>
-      <option value="quad">4er Analysten-Desk</option>
-    </select>
-  </div>
-
-  <div class="ctrl-toggles">
-    <label class="ctrl-check-label">
-      <input type="checkbox" id="toggle-top-hud" checked>
-      Top Header („ULTRA INSTINCT CREW“)
-    </label>
-    <label class="ctrl-check-label">
-      <input type="checkbox" id="toggle-kinetic" checked>
-      Diagonale Kinetic-Textstreifen (45°)
-    </label>
-    <label class="ctrl-check-label">
-      <input type="checkbox" id="toggle-micro" checked>
-      Eck-Telemetrie &amp; Micro-Branding
-    </label>
-    <label class="ctrl-check-label">
-      <input type="checkbox" id="toggle-ticker" checked>
-      UIC Live-Ticker unten
-    </label>
-  </div>
-
-  <div class="ctrl-hint">
-    Die Bildschirmmitte ist komplett frei für deine Cams &amp; Szenen in OBS. Dieses Menü blendet sich nach 2,5s ohne Mausbewegung automatisch aus.<br>
-    URL-Parameter: <code>?header=0&amp;kinetic=0&amp;micro=0&amp;ticker=1</code>
+  <!-- Right-Side Default Chat Area (Clean Cyber Frame, No Labels) -->
+  <div id="chat-frame" class="cyber-frame">
+    <div class="chat-top-trim"></div>
+    <div class="frame-corner-accent"></div>
   </div>
 </div>
 
 <!-- ======================================================================
-     5. EXISTING UIC TICKER (100% UNCHANGED HTML)
+     3. TOP TICKER & ACCOUNT HEADER BAR (100% UNCHANGED TICKER TRACK)
      ====================================================================== -->
 <div id="ticker-container">
   <div class="ticker-brand">
@@ -985,9 +901,100 @@
       <div class="system-message">LADE DATA LAKE...</div>
     </div>
   </div>
+
+  <!-- Clean Account Wing on the right side of the Top Ticker -->
+  <div class="ticker-crew-wing">
+    <span class="crew-wing-diamond"></span>
+    <span class="crew-wing-name">ULTRA INSTINCT CREW</span>
+  </div>
 </div>
 
-<!-- Background Animation & Scene Control Script -->
+<!-- ======================================================================
+     4. OBS INTERACT CONTROL PANEL (RADIO BUTTONS ONLY - NO DROPDOWNS)
+     ====================================================================== -->
+<div id="obs-controls">
+  <div class="ctrl-header">
+    <span>ULTRA INSTINCT CREW</span>
+    <span class="ctrl-badge">Auto-Hide</span>
+  </div>
+
+  <!-- Radio Group 1: Stage Layout -->
+  <div class="ctrl-section">
+    <span class="ctrl-section-title">Szenen-Rahmen (Layout)</span>
+    <div class="radio-pill-grid">
+      <label class="radio-pill">
+        <input type="radio" name="stage-layout" value="chat-only" checked>
+        <span>Nur Chat (Standard)</span>
+      </label>
+      <label class="radio-pill">
+        <input type="radio" name="stage-layout" value="cam-1">
+        <span>1x Rahmen + Chat</span>
+      </label>
+      <label class="radio-pill">
+        <input type="radio" name="stage-layout" value="cam-2">
+        <span>2x Rahmen + Chat</span>
+      </label>
+      <label class="radio-pill">
+        <input type="radio" name="stage-layout" value="none">
+        <span>Nur Hintergrund</span>
+      </label>
+    </div>
+  </div>
+
+  <!-- Radio Group 2: Ticker Position -->
+  <div class="ctrl-section">
+    <span class="ctrl-section-title">Ticker-Position</span>
+    <div class="radio-pill-grid cols-3">
+      <label class="radio-pill">
+        <input type="radio" name="ticker-pos" value="top" checked>
+        <span>Oben</span>
+      </label>
+      <label class="radio-pill">
+        <input type="radio" name="ticker-pos" value="bottom">
+        <span>Unten</span>
+      </label>
+      <label class="radio-pill">
+        <input type="radio" name="ticker-pos" value="off">
+        <span>Aus</span>
+      </label>
+    </div>
+  </div>
+
+  <!-- Radio Group 3: Corner Geometry Intensity -->
+  <div class="ctrl-section">
+    <span class="ctrl-section-title">45° Eck-Design Intensität</span>
+    <div class="radio-pill-grid">
+      <label class="radio-pill">
+        <input type="radio" name="wings-intensity" value="full" checked>
+        <span>Standard (Kräftig)</span>
+      </label>
+      <label class="radio-pill">
+        <input type="radio" name="wings-intensity" value="subtle">
+        <span>Dezent</span>
+      </label>
+    </div>
+  </div>
+
+  <!-- Quick Checkboxes -->
+  <div class="ctrl-toggles">
+    <label class="ctrl-check-label">
+      <input type="checkbox" id="toggle-chat-box" checked>
+      Chat-Bereich rechts anzeigen
+    </label>
+    <label class="ctrl-check-label">
+      <input type="checkbox" id="toggle-crew-wing" checked>
+      „ULTRA INSTINCT CREW“ im Ticker-Header
+    </label>
+    <label class="ctrl-check-label">
+      <input type="checkbox" id="toggle-kinetic" checked>
+      Diagonale Hintergrund-Schrift (45°)
+    </label>
+  </div>
+</div>
+
+<!-- ======================================================================
+     5. BACKGROUND PARTICLES & OBS RADIO CONTROLS SCRIPT
+     ====================================================================== -->
 <script>
 (function() {
   /* ----------------------------------------------------------------------
@@ -1057,7 +1064,6 @@
   function renderBackgroundParticles() {
     ctx.clearRect(0, 0, width, height);
 
-    // 1. Subtle Ambient Cyber Dust
     for (var j = 0; j < sparks.length; j++) {
       var sp = sparks[j];
       sp.x += sp.vx;
@@ -1081,7 +1087,6 @@
       ctx.restore();
     }
 
-    // 2. Diagonal 45-Degree Glowing Light Streaks
     for (var i = 0; i < streaks.length; i++) {
       var s = streaks[i];
       s.x += s.speed * INV_SQRT2;
@@ -1125,104 +1130,93 @@
   requestAnimationFrame(renderBackgroundParticles);
 
   /* ----------------------------------------------------------------------
-     B. LIVE BROADCAST CLOCK (EUROPE/BERLIN)
-     ---------------------------------------------------------------------- */
-  var clockEl = document.getElementById("hud-live-clock");
-  function updateClock() {
-    var now = new Date();
-    var timeStr = new Intl.DateTimeFormat("de-DE", {
-      timeZone: "Europe/Berlin",
-      hour: "2-digit",
-      minute: "2-digit",
-      second: "2-digit"
-    }).format(now);
-    clockEl.textContent = timeStr + " UHR";
-  }
-  updateClock();
-  setInterval(updateClock, 1000);
-
-  /* ----------------------------------------------------------------------
-     C. OBS CONFIGURATION CONTROLS & URL PARAMS
+     B. OBS INTERACT RADIO BUTTONS & TOGGLES
      ---------------------------------------------------------------------- */
   var obsControls = document.getElementById("obs-controls");
-  var camPreviewSelect = document.getElementById("cam-preview-select");
-  var camPreviewLayer = document.getElementById("cam-preview-layer");
-  var toggleTopHud = document.getElementById("toggle-top-hud");
+  var broadcastStage = document.getElementById("broadcast-stage");
+  var toggleChatBox = document.getElementById("toggle-chat-box");
+  var toggleCrewWing = document.getElementById("toggle-crew-wing");
   var toggleKinetic = document.getElementById("toggle-kinetic");
-  var toggleMicro = document.getElementById("toggle-micro");
-  var toggleTicker = document.getElementById("toggle-ticker");
 
-  function renderCamPreview(mode) {
-    camPreviewLayer.className = "";
-    camPreviewLayer.innerHTML = "";
-    if (mode === "dual") {
-      camPreviewLayer.classList.add("mode-dual");
-      camPreviewLayer.innerHTML =
-        '<div class="mock-cam-box"><span>CASTER CAM 1 (16:9)</span></div>' +
-        '<div class="mock-cam-box"><span>CASTER CAM 2 (16:9)</span></div>';
-    } else if (mode === "gameplay") {
-      camPreviewLayer.classList.add("mode-gameplay");
-      camPreviewLayer.innerHTML =
-        '<div class="mock-cam-box main-game"><span>MAIN GAMEPLAY / MATCH FEED (16:9)</span></div>' +
-        '<div class="mock-cam-box side-cam"><span>FACECAM</span></div>';
-    } else if (mode === "quad") {
-      camPreviewLayer.classList.add("mode-quad");
-      camPreviewLayer.innerHTML =
-        '<div class="mock-cam-box"><span>CAM 1</span></div>' +
-        '<div class="mock-cam-box"><span>CAM 2</span></div>' +
-        '<div class="mock-cam-box"><span>CAM 3</span></div>' +
-        '<div class="mock-cam-box"><span>CAM 4</span></div>';
+  function setStageLayout(mode) {
+    broadcastStage.className = "layout-" + mode;
+  }
+
+  function setTickerPosition(pos) {
+    document.body.classList.remove("ticker-bottom", "ticker-hidden");
+    if (pos === "bottom") {
+      document.body.classList.add("ticker-bottom");
+    } else if (pos === "off") {
+      document.body.classList.add("ticker-hidden");
     }
   }
 
-  camPreviewSelect.addEventListener("change", function() {
-    renderCamPreview(camPreviewSelect.value);
+  // Bind Stage Layout Radio Buttons
+  var layoutRadios = document.querySelectorAll('input[name="stage-layout"]');
+  for (var i = 0; i < layoutRadios.length; i++) {
+    layoutRadios[i].addEventListener("change", function(e) {
+      if (e.target.checked) setStageLayout(e.target.value);
+    });
+  }
+
+  // Bind Ticker Position Radio Buttons
+  var tickerRadios = document.querySelectorAll('input[name="ticker-pos"]');
+  for (var j = 0; j < tickerRadios.length; j++) {
+    tickerRadios[j].addEventListener("change", function(e) {
+      if (e.target.checked) setTickerPosition(e.target.value);
+    });
+  }
+
+  // Bind Corner Wings Intensity Radio Buttons
+  var wingRadios = document.querySelectorAll('input[name="wings-intensity"]');
+  for (var k = 0; k < wingRadios.length; k++) {
+    wingRadios[k].addEventListener("change", function(e) {
+      if (e.target.checked) {
+        document.body.classList.toggle("wings-subtle", e.target.value === "subtle");
+      }
+    });
+  }
+
+  // Bind Checkboxes
+  toggleChatBox.addEventListener("change", function() {
+    document.body.classList.toggle("hide-chat", !toggleChatBox.checked);
   });
 
-  toggleTopHud.addEventListener("change", function() {
-    document.body.classList.toggle("hide-top-hud", !toggleTopHud.checked);
+  toggleCrewWing.addEventListener("change", function() {
+    document.body.classList.toggle("hide-crew-wing", !toggleCrewWing.checked);
   });
 
   toggleKinetic.addEventListener("change", function() {
     document.body.classList.toggle("hide-kinetic", !toggleKinetic.checked);
   });
 
-  toggleMicro.addEventListener("change", function() {
-    document.body.classList.toggle("hide-micro", !toggleMicro.checked);
-  });
-
-  toggleTicker.addEventListener("change", function() {
-    document.body.classList.toggle("ticker-hidden", !toggleTicker.checked);
-  });
-
-  // URL Parameter Overrides for OBS Browser Source
+  // URL Parameter Overrides (optional convenience for OBS scenes)
   var params = new URLSearchParams(window.location.search);
-  if (params.get("header") === "0") {
-    toggleTopHud.checked = false;
-    document.body.classList.add("hide-top-hud");
+  if (params.get("layout")) {
+    var lVal = params.get("layout");
+    setStageLayout(lVal);
+    var lRadio = document.querySelector('input[name="stage-layout"][value="' + lVal + '"]');
+    if (lRadio) lRadio.checked = true;
   }
-  if (params.get("kinetic") === "0") {
-    toggleKinetic.checked = false;
-    document.body.classList.add("hide-kinetic");
+  if (params.get("ticker")) {
+    var tVal = params.get("ticker");
+    setTickerPosition(tVal);
+    var tRadio = document.querySelector('input[name="ticker-pos"][value="' + tVal + '"]');
+    if (tRadio) tRadio.checked = true;
   }
-  if (params.get("micro") === "0") {
-    toggleMicro.checked = false;
-    document.body.classList.add("hide-micro");
-  }
-  if (params.get("ticker") === "0") {
-    toggleTicker.checked = false;
-    document.body.classList.add("ticker-hidden");
+  if (params.get("chat") === "0") {
+    toggleChatBox.checked = false;
+    document.body.classList.add("hide-chat");
   }
 
-  // Auto-hide control panel after 2.5 seconds of mouse inactivity
+  // Auto-hide control panel after 3 seconds of mouse inactivity
   var hideTimeout = null;
   function wakeControls() {
     obsControls.classList.remove("idle-hidden");
     if (hideTimeout) clearTimeout(hideTimeout);
     hideTimeout = setTimeout(function() {
-      if (document.activeElement && obsControls.contains(document.activeElement)) return;
       obsControls.classList.add("idle-hidden");
-    }, 2500);
+    }, 3000);
   }
 
   window.addEventListener("mousemove", wakeControls);
