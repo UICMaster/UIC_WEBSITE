@@ -1,21 +1,5 @@
 [
   {
-    "id": "1562513640211619891",
-    "name": "Ultra Instinct Crew Raiders vs. Good Vibes Esport Red",
-    "description": "gameday 4",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-26T19:00:00+00:00",
-    "end": "2026-10-26T21:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1168059",
-    "image": "https://cdn.discordapp.com/guild-events/1562513640211619891/9add61a5dfac665562e9497273b32ea9.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Raiders",
-      "Good Vibes Esport Red"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1563090701103665244",
     "name": "Ultra Instinct Crew Nova vs. Randoms",
     "description": "gameday 4",
@@ -76,6 +60,22 @@
     "competitors": [
       "Ultra Instinct Crew Hydra",
       "Lausanne Esports Helvetia"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1564389520303063221",
+    "name": "Ultra Instinct Crew vs. The Selected x Elektrolyse",
+    "description": "gameday 4",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-11-04T18:00:00+00:00",
+    "end": "2026-11-04T20:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1165669",
+    "image": "https://cdn.discordapp.com/guild-events/1564389520303063221/d53a0352d3a7a2b247be88844616dd5f.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew",
+      "The Selected x Elektrolyse"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
