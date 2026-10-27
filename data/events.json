@@ -1,21 +1,5 @@
 [
   {
-    "id": "1563090701103665244",
-    "name": "Ultra Instinct Crew Nova vs. Randoms",
-    "description": "gameday 4",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-27T19:00:00+00:00",
-    "end": "2026-10-27T21:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1166997",
-    "image": "https://cdn.discordapp.com/guild-events/1563090701103665244/f8e663747ae36fb221665840e5d7cb2b.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Nova",
-      "Randoms"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1563452947537338398",
     "name": "Ultra Instinct Crew Eclipse vs. Skill Issue e.V.",
     "description": "gameday 4",
