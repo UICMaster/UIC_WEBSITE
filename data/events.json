@@ -1,21 +1,5 @@
 [
   {
-    "id": "1563452947537338398",
-    "name": "Ultra Instinct Crew Eclipse vs. Skill Issue e.V.",
-    "description": "gameday 4",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-29T18:00:00+00:00",
-    "end": "2026-10-29T20:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1167415",
-    "image": "https://cdn.discordapp.com/guild-events/1563452947537338398/2599258299b1bdffec28cfe7653915cf.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Eclipse",
-      "Skill Issue e.V."
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1565325463944175697",
     "name": "Ultra Instinct Crew Hydra vs. TSV Hamelspringe Dorsch",
     "description": "gameday 6",
@@ -76,6 +60,22 @@
     "competitors": [
       "Ultra Instinct Crew Vakuum",
       "Arbeitszeit Betrug"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1565445891991797950",
+    "name": "Ultra Instinct Crew Ascend vs. Demon King Apocalypse",
+    "description": "gameday 5",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-11-01T22:45:00+00:00",
+    "end": "2026-11-02T00:45:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1169832",
+    "image": "https://cdn.discordapp.com/guild-events/1565445891991797950/0e195657b586a32b3c24784d5f099e91.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Ascend",
+      "Demon King Apocalypse"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
