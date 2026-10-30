@@ -112,6 +112,22 @@
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
+    "id": "1565635109951111218",
+    "name": "Ultra Instinct Crew Nova vs. Hässle Black",
+    "description": "gameday 5",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-11-04T20:00:00+00:00",
+    "end": "2026-11-04T22:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1166999",
+    "image": "https://cdn.discordapp.com/guild-events/1565635109951111218/1f500298d91197c56fb8466a37fa3efd.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Nova",
+      "Hässle Black"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
     "id": "1565125057842258001",
     "name": "Ultra Instinct Crew Vakuum vs. Game of Throws",
     "description": "gameday 6",
@@ -140,6 +156,22 @@
     "competitors": [
       "Ultra Instinct Crew Raiders",
       "Noot Noot"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1565660853141905509",
+    "name": "Ultra Instinct Crew Tempest vs. 1. ECF Rainbow",
+    "description": "gameday 5",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-11-08T18:00:00+00:00",
+    "end": "2026-11-08T20:00:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1166369",
+    "image": "https://cdn.discordapp.com/guild-events/1565660853141905509/0064bc97be8dbae7560553f15dedc735.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Tempest",
+      "1. ECF Rainbow"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
