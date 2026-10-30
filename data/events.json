@@ -1,37 +1,5 @@
 [
   {
-    "id": "1565325463944175697",
-    "name": "Ultra Instinct Crew Hydra vs. TSV Hamelspringe Dorsch",
-    "description": "gameday 6",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-30T19:00:00+00:00",
-    "end": "2026-10-30T21:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1165572",
-    "image": "https://cdn.discordapp.com/guild-events/1565325463944175697/e637effee556ad547df5fae18cc4da82.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Hydra",
-      "TSV Hamelspringe Dorsch"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1563328274292150335",
-    "name": "Ultra Instinct Crew Spark vs. Dynamo Aufbier",
-    "description": "gameday 4",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-10-30T20:00:00+00:00",
-    "end": "2026-10-30T22:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1166045",
-    "image": "https://cdn.discordapp.com/guild-events/1563328274292150335/bc39ea2a7aafe0e43adc6014081d836c.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Spark",
-      "Dynamo Aufbier"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1563562993218752593",
     "name": "Ultra Instinct Crew Hydra vs. Lausanne Esports Helvetia",
     "description": "gameday 4",
