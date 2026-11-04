@@ -1,69 +1,5 @@
 [
   {
-    "id": "1564389520303063221",
-    "name": "Ultra Instinct Crew vs. The Selected x Elektrolyse",
-    "description": "gameday 4",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-11-04T18:00:00+00:00",
-    "end": "2026-11-04T20:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1165669",
-    "image": "https://cdn.discordapp.com/guild-events/1564389520303063221/d53a0352d3a7a2b247be88844616dd5f.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew",
-      "The Selected x Elektrolyse"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1566178369123655780",
-    "name": "Ultra Instinct Crew Spark vs. The GG Friends",
-    "description": "gameday 5",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-11-04T18:15:00+00:00",
-    "end": "2026-11-04T20:15:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1166047",
-    "image": "https://cdn.discordapp.com/guild-events/1566178369123655780/f8acb14812f06e57b6e943761dfbd762.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Spark",
-      "The GG Friends"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1567239600303374497",
-    "name": "Ultra Instinct Crew Dinonuggets vs. Late Night GrandParents",
-    "description": "gameday 6",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-11-04T18:30:00+00:00",
-    "end": "2026-11-04T20:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1167034",
-    "image": "https://cdn.discordapp.com/guild-events/1567239600303374497/9af8c6f6bedf1400c9aa788f78fc760d.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Dinonuggets",
-      "Late Night GrandParents"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1567235535599182016",
-    "name": "Ultra Instinct Crew Phoenix vs. 1. ECF Facecheck",
-    "description": "gameday 5",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-11-04T19:00:00+00:00",
-    "end": "2026-11-04T21:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1165880",
-    "image": "https://cdn.discordapp.com/guild-events/1567235535599182016/bbf410fddde7f03623032537c464db62.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Phoenix",
-      "1. ECF Facecheck"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1565635109951111218",
     "name": "Ultra Instinct Crew Nova vs. Hässle Black",
     "description": "gameday 5",
@@ -80,36 +16,56 @@
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
-    "id": "1565125057842258001",
-    "name": "Ultra Instinct Crew Vakuum vs. Game of Throws",
-    "description": "gameday 6",
-    "type": "ESPORTS MATCH",
+    "id": "1567641861999304715",
+    "name": "UIC Vakuum vs. Game of Throws · Spieltag 6",
+    "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167060",
+    "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-05T19:30:00+00:00",
-    "end": "2026-11-05T21:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1167060",
-    "image": "https://cdn.discordapp.com/guild-events/1565125057842258001/291cc5e95dbe3dabd0993d6eea614822.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Vakuum",
-      "Game of Throws"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+    "end": "2026-11-05T22:30:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1567641861999304715/d0d12eae378f9de26e636b8a1a7f05e0.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
   },
   {
-    "id": "1567273544117915648",
-    "name": "Ultra Instinct Crew Eclipse vs. Helm",
-    "description": "gameday 5",
-    "type": "ESPORTS MATCH",
+    "id": "1567641867032600688",
+    "name": "UIC Eclipse vs. Helm · Spieltag 5",
+    "description": "Prime League, Spieltag 5. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167421",
+    "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-06T04:00:00+00:00",
-    "end": "2026-11-06T06:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1167421",
-    "image": "https://cdn.discordapp.com/guild-events/1567273544117915648/6d041307a1ba4babe39147550e24b2c6.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Eclipse",
-      "Helm"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+    "end": "2026-11-06T07:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1567641867032600688/36413e30b32f8e8032d4d16864afd9d4.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
+    "id": "1567641873621717122",
+    "name": "UIC Phoenix vs. Team SpieltEinfach · Spieltag 6",
+    "description": "Prime League, Spieltag 6. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165885",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-08T16:00:00+00:00",
+    "end": "2026-11-08T19:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1567641873621717122/c291314526ff492d6cc5e2b4494dc072.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
+    "id": "1567641879200276610",
+    "name": "UIC Tempest vs. OGC ekonomikings · Spieltag 6",
+    "description": "Prime League, Spieltag 6. Termin noch offen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1166376",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-08T16:00:00+00:00",
+    "end": "2026-11-08T19:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1567641879200276610/6f5cd303a226134374c7201be868e183.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
   },
   {
     "id": "1564548247874310186",
@@ -144,6 +100,97 @@
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
+    "id": "1567641884787089469",
+    "name": "UIC Tempest vs. 1. ECF Rainbow · Spieltag 5",
+    "description": "Prime League, Spieltag 5. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1166369",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-08T18:00:00+00:00",
+    "end": "2026-11-08T21:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1567641884787089469/e21d812dd0af416f9b1208d6add1fdb6.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
+    "id": "1567641913274925177",
+    "name": "UIC Nova vs. EKO Budgies · Spieltag 6",
+    "description": "Prime League, Spieltag 6. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167006",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-08T18:00:00+00:00",
+    "end": "2026-11-08T21:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1567641913274925177/a4ee044dd5d4bfe8bed5f7574e03ffb0.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
+    "id": "1567641963535274004",
+    "name": "UIC Raiders vs. VGS Void IX · Spieltag 6",
+    "description": "Prime League, Spieltag 6. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1168069",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-08T18:00:00+00:00",
+    "end": "2026-11-08T21:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1567641963535274004/b15c294663f07f735cfc4de836ce5ecc.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
+    "id": "1567642124281847900",
+    "name": "UIC Cyber vs. Trümmertruppe · Spieltag 6",
+    "description": "Prime League, Spieltag 6. Termin noch offen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167342",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-08T18:00:00+00:00",
+    "end": "2026-11-08T21:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1567642124281847900/067ce106a8200750dfe0328385723e63.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
+    "id": "1567642130028040312",
+    "name": "UIC Strawhats vs. Freaky Blinders · Spieltag 6",
+    "description": "Prime League, Spieltag 6. Termin noch offen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167370",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-08T18:00:00+00:00",
+    "end": "2026-11-08T21:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1567642130028040312/68c5b76d3bbb365ff02b7f665fabf592.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
+    "id": "1567642135136698600",
+    "name": "UIC Raiders vs. Noot Noot · Spieltag 5",
+    "description": "Prime League, Spieltag 5. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1168066",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-08T18:00:00+00:00",
+    "end": "2026-11-08T21:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1567642135136698600/d504e352def2368b45975f7d80dc1016.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
+    "id": "1567642165222449323",
+    "name": "UIC Ascend vs. Scaling Scuttles · Spieltag 6",
+    "description": "Prime League, Spieltag 6. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1169896",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-08T18:00:00+00:00",
+    "end": "2026-11-08T21:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1567642165222449323/9c5926776255ffdd1a89243367588d88.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
     "id": "1567533740236869785",
     "name": "Ultra Instinct Crew Spark vs. Porofessionals",
     "description": "gameday 6",
@@ -176,6 +223,19 @@
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
+    "id": "1567643377745404047",
+    "name": "UIC Spark vs. Porofessionals · Spieltag 6",
+    "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1166054",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-08T18:30:00+00:00",
+    "end": "2026-11-08T21:30:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1567643377745404047/42ab159c8fe0b5eb17318ad7f76cb529.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
     "id": "1567273566037352509",
     "name": "Ultra Instinct Crew Eclipse vs. Andromeda Aszendent",
     "description": "gameday 6",
@@ -190,6 +250,19 @@
       "Andromeda Aszendent"
     ],
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1567643383240069130",
+    "name": "UIC Eclipse vs. Andromeda Aszendent · Spieltag 6",
+    "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167423",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-09T18:00:00+00:00",
+    "end": "2026-11-09T21:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1567643383240069130/a580193498e82bb146ec9e6e782cf638.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
   },
   {
     "id": "1567269325897990329",
