@@ -144,6 +144,38 @@
     "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
+    "id": "1567533740236869785",
+    "name": "Ultra Instinct Crew Spark vs. Porofessionals",
+    "description": "gameday 6",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-11-08T18:30:00+00:00",
+    "end": "2026-11-08T20:30:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1166054",
+    "image": "https://cdn.discordapp.com/guild-events/1567533740236869785/357de0e62efa7485ecb419c5f9a6de43.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Spark",
+      "Porofessionals"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
+    "id": "1567533863587024959",
+    "name": "Ultra Instinct Crew Spark vs. Porofessionals",
+    "description": "gameday 6",
+    "type": "ESPORTS MATCH",
+    "highlight": false,
+    "start": "2026-11-08T18:30:00+00:00",
+    "end": "2026-11-08T20:30:00+00:00",
+    "location": "https://www.primeleague.gg/de/leagues/matches/1166054",
+    "image": "https://cdn.discordapp.com/guild-events/1567533863587024959/357de0e62efa7485ecb419c5f9a6de43.png?size=1024",
+    "competitors": [
+      "Ultra Instinct Crew Spark",
+      "Porofessionals"
+    ],
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+  },
+  {
     "id": "1567273566037352509",
     "name": "Ultra Instinct Crew Eclipse vs. Andromeda Aszendent",
     "description": "gameday 6",
