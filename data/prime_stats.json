@@ -13,7 +13,7 @@
         "trackStats": true,
         "discordId": "272748138974937088",
         "rosterStatus": "starter",
-        "isCaptain": false,
+        "isCaptain": true,
         "api_id": 751249,
         "api_name": "HGG SPEEDY",
         "in_api_roster": true
@@ -27,7 +27,7 @@
         "trackStats": true,
         "discordId": "419797941599862785",
         "rosterStatus": "starter",
-        "isCaptain": false,
+        "isCaptain": true,
         "api_id": 1406501,
         "api_name": "NikiLothra",
         "in_api_roster": true
@@ -122,7 +122,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/116000/116908.jpg?1768526642",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/116908",
-      "updated_at": "2026-11-04T23:20:30.321477+01:00"
+      "updated_at": "2026-11-05T04:51:24.717109+01:00"
     },
     "matches": [
       {
@@ -134,7 +134,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165678",
-        "updated_at": "2026-11-05T00:55:50.146058+01:00",
+        "updated_at": "2026-11-05T05:24:48.873834+01:00",
         "enemy_team": {
           "id": 204880,
           "name": "Feather Storm",
@@ -154,7 +154,7 @@
         "confirmed": true,
         "result": "0:2",
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165669",
-        "updated_at": "2026-11-05T00:55:46.094049+01:00",
+        "updated_at": "2026-11-05T05:24:47.797123+01:00",
         "enemy_team": {
           "id": 209216,
           "name": "The Selected x Elektrolyse",
@@ -174,8 +174,8 @@
             "id": 1406501,
             "summoner_name": "UIC Niki#AMB",
             "name": "NikiLothra",
-            "is_leader": false,
-            "updated_at": "2026-11-04T23:25:41.776835+01:00"
+            "is_leader": true,
+            "updated_at": "2026-11-05T03:21:16.005760+01:00"
           },
           {
             "id": 2029061,
@@ -188,8 +188,8 @@
             "id": 751249,
             "summoner_name": "UIC Speedy#EUW",
             "name": "HGG SPEEDY",
-            "is_leader": false,
-            "updated_at": "2026-11-04T23:25:41.771955+01:00"
+            "is_leader": true,
+            "updated_at": "2026-11-05T03:21:16.008953+01:00"
           },
           {
             "id": 1674876,
@@ -204,8 +204,8 @@
             "id": 2297250,
             "summoner_name": "TS Adonis#goat",
             "name": "Bayrischer Adonis",
-            "is_leader": false,
-            "updated_at": "2026-11-04T23:25:41.756092+01:00"
+            "is_leader": true,
+            "updated_at": "2026-11-05T03:21:38.283891+01:00"
           },
           {
             "id": 2196272,
@@ -348,7 +348,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165575",
-        "updated_at": "2026-11-05T00:55:28.036441+01:00",
+        "updated_at": "2026-11-05T05:52:12.160448+01:00",
         "enemy_team": {
           "id": 192610,
           "name": "eSports Cologne Senioren",
@@ -403,10 +403,10 @@
         "trackStats": true,
         "discordId": "315184207594782730",
         "rosterStatus": "starter",
-        "isCaptain": true,
-        "api_id": 1432161,
-        "api_name": "IPM Flow",
-        "in_api_roster": true
+        "isCaptain": false,
+        "api_id": null,
+        "api_name": null,
+        "in_api_roster": false
       },
       {
         "playerId": "0086",
@@ -549,9 +549,9 @@
         "discordId": "399959698062966794",
         "rosterStatus": "starter",
         "isCaptain": false,
-        "api_id": 1916010,
-        "api_name": "Levin2Go",
-        "in_api_roster": true
+        "api_id": null,
+        "api_name": null,
+        "in_api_roster": false
       },
       {
         "playerId": "0092",
@@ -577,9 +577,9 @@
         "discordId": "252742177401077761",
         "rosterStatus": "starter",
         "isCaptain": false,
-        "api_id": 1949531,
-        "api_name": "xPhantox",
-        "in_api_roster": true
+        "api_id": null,
+        "api_name": null,
+        "in_api_roster": false
       },
       {
         "playerId": "0036",
@@ -590,10 +590,10 @@
         "trackStats": true,
         "discordId": "465698775638212610",
         "rosterStatus": "staff",
-        "isCaptain": true,
-        "api_id": 1557329,
-        "api_name": "RyuPanda",
-        "in_api_roster": true
+        "isCaptain": false,
+        "api_id": null,
+        "api_name": null,
+        "in_api_roster": false
       },
       {
         "playerId": "UNKNOWN_LOCAL",
@@ -602,26 +602,6 @@
         "rosterStatus": "api_only",
         "isCaptain": false,
         "api_id": 2026457,
-        "in_api_roster": true,
-        "missing_in_local": true
-      },
-      {
-        "playerId": "UNKNOWN_LOCAL",
-        "gameName": "Drb best AD#drb",
-        "role": "UNKNOWN",
-        "rosterStatus": "api_only",
-        "isCaptain": false,
-        "api_id": 1811338,
-        "in_api_roster": true,
-        "missing_in_local": true
-      },
-      {
-        "playerId": "UNKNOWN_LOCAL",
-        "gameName": "ATN MukaMukaEyyy#EUW",
-        "role": "UNKNOWN",
-        "rosterStatus": "api_only",
-        "isCaptain": false,
-        "api_id": 2022857,
         "in_api_roster": true,
         "missing_in_local": true
       }
@@ -633,7 +613,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/208000/208606.jpg?1786906544",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/208606",
-      "updated_at": "2026-11-05T00:50:50.944127+01:00"
+      "updated_at": "2026-11-05T04:26:26.033896+01:00"
     },
     "matches": [
       {
@@ -645,7 +625,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1166369",
-        "updated_at": "2026-11-05T00:52:11.829716+01:00",
+        "updated_at": "2026-11-05T05:38:10.542736+01:00",
         "enemy_team": {
           "id": 112154,
           "name": "1. ECF Rainbow",
@@ -685,8 +665,8 @@
             "id": 1916010,
             "summoner_name": "UIC Levin2Go#ATN",
             "name": "Levin2Go",
-            "is_leader": false,
-            "updated_at": "2026-11-04T04:40:50.797235+01:00"
+            "is_leader": true,
+            "updated_at": "2026-11-05T04:40:41.194002+01:00"
           },
           {
             "id": 1568882,
@@ -706,8 +686,8 @@
             "id": 1949531,
             "summoner_name": "UIC Phântox#ATN",
             "name": "xPhantox",
-            "is_leader": false,
-            "updated_at": "2026-11-04T04:40:50.791746+01:00"
+            "is_leader": true,
+            "updated_at": "2026-11-05T04:40:41.204432+01:00"
           }
         ],
         "enemy_lineup": [
@@ -777,8 +757,8 @@
             "id": 1916010,
             "summoner_name": "UIC Levin2Go#ATN",
             "name": "Levin2Go",
-            "is_leader": false,
-            "updated_at": "2026-11-04T04:40:50.797235+01:00"
+            "is_leader": true,
+            "updated_at": "2026-11-05T04:40:41.194002+01:00"
           },
           {
             "id": 1568882,
@@ -798,8 +778,8 @@
             "id": 1949531,
             "summoner_name": "UIC Phântox#ATN",
             "name": "xPhantox",
-            "is_leader": false,
-            "updated_at": "2026-11-04T04:40:50.791746+01:00"
+            "is_leader": true,
+            "updated_at": "2026-11-05T04:40:41.204432+01:00"
           }
         ],
         "enemy_lineup": [
@@ -849,7 +829,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1166376",
-        "updated_at": "2026-11-05T00:37:06.169279+01:00",
+        "updated_at": "2026-11-05T05:38:11.539506+01:00",
         "enemy_team": {
           "id": 212926,
           "name": "OGC ekonomikings",
@@ -869,7 +849,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1166377",
-        "updated_at": "2026-11-05T00:37:07.204365+01:00",
+        "updated_at": "2026-11-05T05:38:12.449511+01:00",
         "enemy_team": {
           "id": 179487,
           "name": "Hamburger Wale",
@@ -909,8 +889,8 @@
             "id": 1916010,
             "summoner_name": "UIC Levin2Go#ATN",
             "name": "Levin2Go",
-            "is_leader": false,
-            "updated_at": "2026-11-04T04:40:50.797235+01:00"
+            "is_leader": true,
+            "updated_at": "2026-11-05T04:40:41.194002+01:00"
           },
           {
             "id": 1568882,
@@ -930,8 +910,8 @@
             "id": 1949531,
             "summoner_name": "UIC Phântox#ATN",
             "name": "xPhantox",
-            "is_leader": false,
-            "updated_at": "2026-11-04T04:40:50.791746+01:00"
+            "is_leader": true,
+            "updated_at": "2026-11-05T04:40:41.204432+01:00"
           }
         ],
         "enemy_lineup": [
@@ -939,8 +919,8 @@
             "id": 2265509,
             "summoner_name": "Feeex#1904",
             "name": "GEtreueFelix",
-            "is_leader": false,
-            "updated_at": "2026-11-04T19:07:12.170681+01:00"
+            "is_leader": true,
+            "updated_at": "2026-11-05T03:06:50.822410+01:00"
           },
           {
             "id": 2235761,
@@ -967,8 +947,8 @@
             "id": 2258744,
             "summoner_name": "Potti#ggwp",
             "name": "Pottiggwp",
-            "is_leader": false,
-            "updated_at": "2026-11-04T19:07:12.174866+01:00"
+            "is_leader": true,
+            "updated_at": "2026-11-05T03:06:50.825834+01:00"
           }
         ]
       },
@@ -1001,8 +981,8 @@
             "id": 1916010,
             "summoner_name": "UIC Levin2Go#ATN",
             "name": "Levin2Go",
-            "is_leader": false,
-            "updated_at": "2026-11-04T04:40:50.797235+01:00"
+            "is_leader": true,
+            "updated_at": "2026-11-05T04:40:41.194002+01:00"
           },
           {
             "id": 1568882,
@@ -1022,8 +1002,8 @@
             "id": 1949531,
             "summoner_name": "UIC Phântox#ATN",
             "name": "xPhantox",
-            "is_leader": false,
-            "updated_at": "2026-11-04T04:40:50.791746+01:00"
+            "is_leader": true,
+            "updated_at": "2026-11-05T04:40:41.204432+01:00"
           }
         ],
         "enemy_lineup": [
@@ -1247,7 +1227,7 @@
         "trackStats": true,
         "discordId": "262628424135213056",
         "rosterStatus": "starter",
-        "isCaptain": false,
+        "isCaptain": true,
         "api_id": 1545098,
         "api_name": "Stafferl",
         "in_api_roster": true
@@ -1320,7 +1300,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/208000/208131.jpg?1778157742",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/208131",
-      "updated_at": "2026-11-04T20:21:13.885479+01:00"
+      "updated_at": "2026-11-05T04:39:26.135337+01:00"
     },
     "matches": [
       {
@@ -1332,7 +1312,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167429",
-        "updated_at": "2026-11-05T00:55:18.950526+01:00",
+        "updated_at": "2026-11-05T05:26:38.840389+01:00",
         "enemy_team": {
           "id": 178531,
           "name": "Friendly Fire",
@@ -1352,7 +1332,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167423",
-        "updated_at": "2026-11-05T00:55:21.949231+01:00",
+        "updated_at": "2026-11-05T05:26:39.707006+01:00",
         "enemy_team": {
           "id": 212296,
           "name": "Andromeda Aszendent",
@@ -1462,7 +1442,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/207000/207696.jpg?1774892477",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/207696",
-      "updated_at": "2026-11-04T20:21:32.982384+01:00"
+      "updated_at": "2026-11-05T04:53:00.116893+01:00"
     },
     "matches": [
       {
@@ -1474,7 +1454,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167060",
-        "updated_at": "2026-11-05T00:52:57.106474+01:00",
+        "updated_at": "2026-11-05T05:23:27.060613+01:00",
         "enemy_team": {
           "id": 170595,
           "name": "Game of Throws",
@@ -1495,8 +1475,8 @@
             "id": 2304935,
             "summoner_name": "GOT ReD StaR#YUUMI",
             "name": "ReD StaR",
-            "is_leader": false,
-            "updated_at": "2026-11-04T23:22:50.259828+01:00"
+            "is_leader": true,
+            "updated_at": "2026-11-05T03:22:17.657580+01:00"
           },
           {
             "id": 2275820,
@@ -1833,10 +1813,10 @@
         "trackStats": true,
         "discordId": "465698775638212610",
         "rosterStatus": "staff",
-        "isCaptain": false,
-        "api_id": null,
-        "api_name": null,
-        "in_api_roster": false
+        "isCaptain": true,
+        "api_id": 1557329,
+        "api_name": "RyuPanda",
+        "in_api_roster": true
       }
     ],
     "api_meta": {
@@ -1846,7 +1826,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/198000/198490.jpg?1774785721",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/198490",
-      "updated_at": "2026-11-04T08:21:16.477118+01:00"
+      "updated_at": "2026-11-05T04:56:36.449183+01:00"
     },
     "matches": [
       {
@@ -2015,7 +1995,7 @@
             "summoner_name": "Soined#77777",
             "name": "Alex17714973",
             "is_leader": true,
-            "updated_at": "2026-11-05T00:35:57.186001+01:00"
+            "updated_at": "2026-11-05T04:54:12.215073+01:00"
           },
           {
             "id": 2329494,
@@ -2870,7 +2850,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167342",
-        "updated_at": "2026-11-05T00:54:13.553775+01:00",
+        "updated_at": "2026-11-05T05:24:09.424874+01:00",
         "enemy_team": {
           "id": 212996,
           "name": "Trümmertruppe",
@@ -2890,7 +2870,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167343",
-        "updated_at": "2026-11-05T00:54:16.591634+01:00",
+        "updated_at": "2026-11-05T05:24:11.466886+01:00",
         "enemy_team": {
           "id": 189490,
           "name": "Baltic eSports Kiel e.V. Flötenfische",
@@ -3130,9 +3110,9 @@
         "discordId": "146378040006410240",
         "rosterStatus": "starter",
         "isCaptain": false,
-        "api_id": 2192699,
-        "api_name": "trancegodzx",
-        "in_api_roster": true
+        "api_id": null,
+        "api_name": null,
+        "in_api_roster": false
       },
       {
         "playerId": "0097",
@@ -3158,9 +3138,9 @@
         "discordId": "187645586739167233",
         "rosterStatus": "starter",
         "isCaptain": false,
-        "api_id": 1486717,
-        "api_name": "UIC Lynx",
-        "in_api_roster": true
+        "api_id": null,
+        "api_name": null,
+        "in_api_roster": false
       },
       {
         "playerId": "0099",
@@ -3224,7 +3204,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/211000/211794.jpg?1790878967",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/211794",
-      "updated_at": "2026-11-05T00:06:29.955706+01:00"
+      "updated_at": "2026-11-05T04:53:01.227911+01:00"
     },
     "matches": []
   },
@@ -3298,7 +3278,7 @@
         "trackStats": true,
         "discordId": "527835964043689984",
         "rosterStatus": "starter",
-        "isCaptain": false,
+        "isCaptain": true,
         "api_id": 2325347,
         "api_name": "Togpflanze",
         "in_api_roster": true
@@ -3354,7 +3334,7 @@
         "trackStats": true,
         "discordId": "544199512445419520",
         "rosterStatus": "starter",
-        "isCaptain": false,
+        "isCaptain": true,
         "api_id": 698495,
         "api_name": "Excellent C",
         "in_api_roster": true
@@ -3387,7 +3367,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/203000/203447.jpg?1768386652",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/203447",
-      "updated_at": "2026-11-04T21:05:40.581576+01:00"
+      "updated_at": "2026-11-05T04:52:35.763493+01:00"
     },
     "matches": [
       {
@@ -3399,7 +3379,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167006",
-        "updated_at": "2026-11-05T00:54:47.781265+01:00",
+        "updated_at": "2026-11-05T05:26:28.679230+01:00",
         "enemy_team": {
           "id": 163587,
           "name": "EKO Budgies",
@@ -3419,7 +3399,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167007",
-        "updated_at": "2026-11-05T00:54:49.806957+01:00",
+        "updated_at": "2026-11-05T05:26:29.715451+01:00",
         "enemy_team": {
           "id": 211214,
           "name": "Exhaustion Gaming",
@@ -3524,7 +3504,7 @@
         "trackStats": true,
         "discordId": "1019682077794381974",
         "rosterStatus": "starter",
-        "isCaptain": false,
+        "isCaptain": true,
         "api_id": 2325521,
         "api_name": "CrintyPlay",
         "in_api_roster": true
@@ -3566,7 +3546,7 @@
         "trackStats": true,
         "discordId": "",
         "rosterStatus": "starter",
-        "isCaptain": false,
+        "isCaptain": true,
         "api_id": 1674832,
         "api_name": "AI Cherry",
         "in_api_roster": true
@@ -3579,7 +3559,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/212000/212432.jpg?1789934435",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/212432",
-      "updated_at": "2026-11-04T04:55:02.397789+01:00"
+      "updated_at": "2026-11-05T04:40:18.819830+01:00"
     },
     "matches": []
   },
