@@ -1,21 +1,5 @@
 [
   {
-    "id": "1565635109951111218",
-    "name": "Ultra Instinct Crew Nova vs. Hässle Black",
-    "description": "gameday 5",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-11-04T20:00:00+00:00",
-    "end": "2026-11-04T22:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1166999",
-    "image": "https://cdn.discordapp.com/guild-events/1565635109951111218/1f500298d91197c56fb8466a37fa3efd.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Nova",
-      "Hässle Black"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1567641861999304715",
     "name": "UIC Vakuum vs. Game of Throws · Spieltag 6",
     "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167060",
@@ -42,19 +26,6 @@
     "streamUrl": null
   },
   {
-    "id": "1567641873621717122",
-    "name": "UIC Phoenix vs. Team SpieltEinfach · Spieltag 6",
-    "description": "Prime League, Spieltag 6. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165885",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-08T16:00:00+00:00",
-    "end": "2026-11-08T19:00:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1567641873621717122/c291314526ff492d6cc5e2b4494dc072.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
     "id": "1567641879200276610",
     "name": "UIC Tempest vs. OGC ekonomikings · Spieltag 6",
     "description": "Prime League, Spieltag 6. Termin noch offen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1166376",
@@ -66,38 +37,6 @@
     "image": "https://cdn.discordapp.com/guild-events/1567641879200276610/6f5cd303a226134374c7201be868e183.png?size=1024",
     "competitors": [],
     "streamUrl": null
-  },
-  {
-    "id": "1564548247874310186",
-    "name": "Ultra Instinct Crew Raiders vs. Noot Noot",
-    "description": "gameday 5",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-11-08T18:00:00+00:00",
-    "end": "2026-11-08T20:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1168066",
-    "image": "https://cdn.discordapp.com/guild-events/1564548247874310186/7e8bbcbd5ab8ba474546f169f885fa76.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Raiders",
-      "Noot Noot"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1565660853141905509",
-    "name": "Ultra Instinct Crew Tempest vs. 1. ECF Rainbow",
-    "description": "gameday 5",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-11-08T18:00:00+00:00",
-    "end": "2026-11-08T20:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1166369",
-    "image": "https://cdn.discordapp.com/guild-events/1565660853141905509/0064bc97be8dbae7560553f15dedc735.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Tempest",
-      "1. ECF Rainbow"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
     "id": "1567641884787089469",
@@ -191,38 +130,6 @@
     "streamUrl": null
   },
   {
-    "id": "1567533740236869785",
-    "name": "Ultra Instinct Crew Spark vs. Porofessionals",
-    "description": "gameday 6",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-11-08T18:30:00+00:00",
-    "end": "2026-11-08T20:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1166054",
-    "image": "https://cdn.discordapp.com/guild-events/1567533740236869785/357de0e62efa7485ecb419c5f9a6de43.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Spark",
-      "Porofessionals"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
-    "id": "1567533863587024959",
-    "name": "Ultra Instinct Crew Spark vs. Porofessionals",
-    "description": "gameday 6",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-11-08T18:30:00+00:00",
-    "end": "2026-11-08T20:30:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1166054",
-    "image": "https://cdn.discordapp.com/guild-events/1567533863587024959/357de0e62efa7485ecb419c5f9a6de43.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Spark",
-      "Porofessionals"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1567643377745404047",
     "name": "UIC Spark vs. Porofessionals · Spieltag 6",
     "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1166054",
@@ -236,22 +143,6 @@
     "streamUrl": null
   },
   {
-    "id": "1567273566037352509",
-    "name": "Ultra Instinct Crew Eclipse vs. Andromeda Aszendent",
-    "description": "gameday 6",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-11-09T18:00:00+00:00",
-    "end": "2026-11-09T20:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1167423",
-    "image": "https://cdn.discordapp.com/guild-events/1567273566037352509/3785787c923f1527f038702f24072e03.png?size=1024",
-    "competitors": [
-      "Ultra Instinct Crew Eclipse",
-      "Andromeda Aszendent"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1567643383240069130",
     "name": "UIC Eclipse vs. Andromeda Aszendent · Spieltag 6",
     "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167423",
@@ -263,21 +154,5 @@
     "image": "https://cdn.discordapp.com/guild-events/1567643383240069130/a580193498e82bb146ec9e6e782cf638.png?size=1024",
     "competitors": [],
     "streamUrl": null
-  },
-  {
-    "id": "1567269325897990329",
-    "name": "UIC Dynasty vs. TSV Hamelspringe Wels",
-    "description": "gameday 6",
-    "type": "ESPORTS MATCH",
-    "highlight": false,
-    "start": "2026-11-14T13:00:00+00:00",
-    "end": "2026-11-14T15:00:00+00:00",
-    "location": "https://www.primeleague.gg/de/leagues/matches/1165704",
-    "image": "https://cdn.discordapp.com/guild-events/1567269325897990329/a773567fdf8c4c715bab5bda44598b00.png?size=1024",
-    "competitors": [
-      "UIC Dynasty",
-      "TSV Hamelspringe Wels"
-    ],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   }
 ]
