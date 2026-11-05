@@ -1,18 +1,5 @@
 [
   {
-    "id": "1567641861999304715",
-    "name": "UIC Vakuum vs. Game of Throws · Spieltag 6",
-    "description": "Prime League, Spieltag 6. Termin bestätigt.\nLive gecastet von proStarII.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167060",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-05T19:30:00+00:00",
-    "end": "2026-11-05T22:30:00+00:00",
-    "location": "https://www.twitch.tv/ultrainstinctcrew",
-    "image": "https://cdn.discordapp.com/guild-events/1567641861999304715/d0d12eae378f9de26e636b8a1a7f05e0.png?size=1024",
-    "competitors": [],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1567641867032600688",
     "name": "UIC Eclipse vs. Helm · Spieltag 5",
     "description": "Prime League, Spieltag 5. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167421",
@@ -148,10 +135,10 @@
     "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167423",
     "type": "TOURNAMENT",
     "highlight": false,
-    "start": "2026-11-09T18:00:00+00:00",
-    "end": "2026-11-09T21:00:00+00:00",
+    "start": "2026-11-09T18:30:00+00:00",
+    "end": "2026-11-09T21:30:00+00:00",
     "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1567643383240069130/a580193498e82bb146ec9e6e782cf638.png?size=1024",
+    "image": "https://cdn.discordapp.com/guild-events/1567643383240069130/4fa28e5d7c7c01abd13f4fbf14acdcd0.png?size=1024",
     "competitors": [],
     "streamUrl": null
   }
