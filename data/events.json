@@ -2,15 +2,15 @@
   {
     "id": "1567641861999304715",
     "name": "UIC Vakuum vs. Game of Throws · Spieltag 6",
-    "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167060",
+    "description": "Prime League, Spieltag 6. Termin bestätigt.\nLive gecastet von proStarII.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167060",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-05T19:30:00+00:00",
     "end": "2026-11-05T22:30:00+00:00",
-    "location": "Prime League",
+    "location": "https://www.twitch.tv/ultrainstinctcrew",
     "image": "https://cdn.discordapp.com/guild-events/1567641861999304715/d0d12eae378f9de26e636b8a1a7f05e0.png?size=1024",
     "competitors": [],
-    "streamUrl": null
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
     "id": "1567641867032600688",
