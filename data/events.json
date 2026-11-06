@@ -1,29 +1,16 @@
 [
   {
-    "id": "1567641867032600688",
-    "name": "UIC Eclipse vs. Helm · Spieltag 5",
-    "description": "Prime League, Spieltag 5. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167421",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-06T04:00:00+00:00",
-    "end": "2026-11-06T07:00:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1567641867032600688/36413e30b32f8e8032d4d16864afd9d4.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
     "id": "1567641879200276610",
     "name": "UIC Tempest vs. OGC ekonomikings · Spieltag 6",
-    "description": "Prime League, Spieltag 6. Termin noch offen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1166376",
+    "description": "Prime League, Spieltag 6. Termin noch offen.\nLive gecastet von proStarII.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1166376",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-08T16:00:00+00:00",
     "end": "2026-11-08T19:00:00+00:00",
-    "location": "Prime League",
+    "location": "https://www.twitch.tv/ultrainstinctcrew",
     "image": "https://cdn.discordapp.com/guild-events/1567641879200276610/6f5cd303a226134374c7201be868e183.png?size=1024",
     "competitors": [],
-    "streamUrl": null
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
     "id": "1567641884787089469",
@@ -35,19 +22,6 @@
     "end": "2026-11-08T21:00:00+00:00",
     "location": "Prime League",
     "image": "https://cdn.discordapp.com/guild-events/1567641884787089469/e21d812dd0af416f9b1208d6add1fdb6.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
-    "id": "1567641913274925177",
-    "name": "UIC Nova vs. EKO Budgies · Spieltag 6",
-    "description": "Prime League, Spieltag 6. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167006",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-08T18:00:00+00:00",
-    "end": "2026-11-08T21:00:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1567641913274925177/a4ee044dd5d4bfe8bed5f7574e03ffb0.png?size=1024",
     "competitors": [],
     "streamUrl": null
   },
@@ -119,15 +93,15 @@
   {
     "id": "1567643377745404047",
     "name": "UIC Spark vs. Porofessionals · Spieltag 6",
-    "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1166054",
+    "description": "Prime League, Spieltag 6. Termin bestätigt.\nLive gecastet von proStarII.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1166054",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-08T18:30:00+00:00",
     "end": "2026-11-08T21:30:00+00:00",
-    "location": "Prime League",
+    "location": "https://www.twitch.tv/ultrainstinctcrew",
     "image": "https://cdn.discordapp.com/guild-events/1567643377745404047/42ab159c8fe0b5eb17318ad7f76cb529.png?size=1024",
     "competitors": [],
-    "streamUrl": null
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
     "id": "1567643383240069130",
@@ -139,6 +113,19 @@
     "end": "2026-11-09T21:30:00+00:00",
     "location": "Prime League",
     "image": "https://cdn.discordapp.com/guild-events/1567643383240069130/4fa28e5d7c7c01abd13f4fbf14acdcd0.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
+    "id": "1567641913274925177",
+    "name": "UIC Nova vs. EKO Budgies · Spieltag 6",
+    "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167006",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-10T18:30:00+00:00",
+    "end": "2026-11-10T21:30:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1567641913274925177/252b74de94495e9acf18ac8b5fdc0d45.png?size=1024",
     "competitors": [],
     "streamUrl": null
   }
