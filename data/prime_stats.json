@@ -134,7 +134,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165678",
-        "updated_at": "2026-11-06T22:40:37.558259+01:00",
+        "updated_at": "2026-11-07T02:10:28.445840+01:00",
         "enemy_team": {
           "id": 204880,
           "name": "Feather Storm",
@@ -348,7 +348,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165575",
-        "updated_at": "2026-11-06T22:25:14.300159+01:00",
+        "updated_at": "2026-11-07T01:55:06.776919+01:00",
         "enemy_team": {
           "id": 192610,
           "name": "eSports Cologne Senioren",
@@ -633,7 +633,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/208000/208606.jpg?1786906544",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/208606",
-      "updated_at": "2026-11-06T22:36:10.727583+01:00"
+      "updated_at": "2026-11-07T02:06:02.468019+01:00"
     },
     "matches": [
       {
@@ -645,7 +645,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1166369",
-        "updated_at": "2026-11-06T22:37:35.909919+01:00",
+        "updated_at": "2026-11-07T02:07:26.344932+01:00",
         "enemy_team": {
           "id": 112154,
           "name": "1. ECF Rainbow",
@@ -849,7 +849,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1166376",
-        "updated_at": "2026-11-06T22:37:33.869190+01:00",
+        "updated_at": "2026-11-07T02:07:24.332595+01:00",
         "enemy_team": {
           "id": 212926,
           "name": "OGC ekonomikings",
@@ -869,7 +869,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1166377",
-        "updated_at": "2026-11-06T22:37:34.903943+01:00",
+        "updated_at": "2026-11-07T02:07:25.330024+01:00",
         "enemy_team": {
           "id": 179487,
           "name": "Hamburger Wale",
@@ -1332,7 +1332,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167429",
-        "updated_at": "2026-11-06T22:25:10.290577+01:00",
+        "updated_at": "2026-11-07T01:55:02.724329+01:00",
         "enemy_team": {
           "id": 178531,
           "name": "Friendly Fire",
@@ -1352,7 +1352,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167423",
-        "updated_at": "2026-11-06T22:25:11.239016+01:00",
+        "updated_at": "2026-11-07T01:55:03.724336+01:00",
         "enemy_team": {
           "id": 212296,
           "name": "Andromeda Aszendent",
@@ -1462,7 +1462,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/207000/207696.jpg?1774892477",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/207696",
-      "updated_at": "2026-11-06T22:21:16.389878+01:00"
+      "updated_at": "2026-11-07T01:51:09.037444+01:00"
     },
     "matches": [
       {
@@ -1474,7 +1474,7 @@
         "confirmed": true,
         "result": "2:0",
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167060",
-        "updated_at": "2026-11-06T22:22:47.319699+01:00",
+        "updated_at": "2026-11-07T01:52:39.872957+01:00",
         "enemy_team": {
           "id": 170595,
           "name": "Game of Throws",
@@ -2051,7 +2051,7 @@
             "summoner_name": "Soined#77777",
             "name": "Alex17714973",
             "is_leader": true,
-            "updated_at": "2026-11-06T22:36:59.393302+01:00"
+            "updated_at": "2026-11-07T02:06:50.972769+01:00"
           },
           {
             "id": 2329494,
@@ -2906,7 +2906,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167342",
-        "updated_at": "2026-11-06T22:39:47.118499+01:00",
+        "updated_at": "2026-11-07T02:09:38.131018+01:00",
         "enemy_team": {
           "id": 212996,
           "name": "Trümmertruppe",
@@ -2926,7 +2926,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167343",
-        "updated_at": "2026-11-06T22:39:48.102201+01:00",
+        "updated_at": "2026-11-07T02:09:39.123055+01:00",
         "enemy_team": {
           "id": 189490,
           "name": "Baltic eSports Kiel e.V. Flötenfische",
@@ -3471,7 +3471,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167006",
-        "updated_at": "2026-11-06T22:24:38.075660+01:00",
+        "updated_at": "2026-11-07T01:54:30.515160+01:00",
         "enemy_team": {
           "id": 163587,
           "name": "EKO Budgies",
@@ -3491,7 +3491,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167007",
-        "updated_at": "2026-11-06T22:24:39.036322+01:00",
+        "updated_at": "2026-11-07T01:54:31.526183+01:00",
         "enemy_team": {
           "id": 211214,
           "name": "Exhaustion Gaming",
@@ -3661,7 +3661,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/212000/212432.jpg?1789934435",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/212432",
-      "updated_at": "2026-11-06T22:36:58.386289+01:00"
+      "updated_at": "2026-11-07T02:06:49.954010+01:00"
     },
     "matches": []
   },
