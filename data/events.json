@@ -1,5 +1,18 @@
 [
   {
+    "id": "1567641963535274004",
+    "name": "UIC Raiders vs. VGS Void IX · Spieltag 6",
+    "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1168069",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-08T15:00:00+00:00",
+    "end": "2026-11-08T18:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1567641963535274004/fcf0e1f1fe4b0e1c0efa946978067f13.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
     "id": "1567641879200276610",
     "name": "UIC Tempest vs. OGC ekonomikings · Spieltag 6",
     "description": "Prime League, Spieltag 6. Termin noch offen.\nLive gecastet von proStarII.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1166376",
@@ -22,19 +35,6 @@
     "end": "2026-11-08T21:00:00+00:00",
     "location": "Prime League",
     "image": "https://cdn.discordapp.com/guild-events/1567641884787089469/e21d812dd0af416f9b1208d6add1fdb6.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
-    "id": "1567641963535274004",
-    "name": "UIC Raiders vs. VGS Void IX · Spieltag 6",
-    "description": "Prime League, Spieltag 6. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1168069",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-08T18:00:00+00:00",
-    "end": "2026-11-08T21:00:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1567641963535274004/b15c294663f07f735cfc4de836ce5ecc.png?size=1024",
     "competitors": [],
     "streamUrl": null
   },
