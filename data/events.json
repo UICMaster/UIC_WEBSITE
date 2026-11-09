@@ -1,18 +1,5 @@
 [
   {
-    "id": "1567643377745404047",
-    "name": "UIC Spark vs. Porofessionals · Spieltag 6",
-    "description": "Prime League, Spieltag 6. Termin bestätigt.\nLive gecastet von proStarII.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1166054",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-08T18:30:00+00:00",
-    "end": "2026-11-08T21:30:00+00:00",
-    "location": "https://www.twitch.tv/ultrainstinctcrew",
-    "image": "https://cdn.discordapp.com/guild-events/1567643377745404047/42ab159c8fe0b5eb17318ad7f76cb529.png?size=1024",
-    "competitors": [],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1567643383240069130",
     "name": "UIC Eclipse vs. Andromeda Aszendent · Spieltag 6",
     "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167423",
@@ -143,6 +130,19 @@
     "streamUrl": null
   },
   {
+    "id": "1569048916157137106",
+    "name": "UIC Cyber vs. Baltic eSports Kiel e.V. Flötenfische · Spieltag 7",
+    "description": "Prime League, Spieltag 7. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167343",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-15T16:00:00+00:00",
+    "end": "2026-11-15T19:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1569048916157137106/301cd284a202f1ad552b4a780caf317a.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
     "id": "1569041355907272764",
     "name": "UIC Vakuum vs. POA Lumi · Spieltag 7",
     "description": "Prime League, Spieltag 7. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167065",
@@ -178,19 +178,6 @@
     "end": "2026-11-15T21:00:00+00:00",
     "location": "Prime League",
     "image": "https://cdn.discordapp.com/guild-events/1569048909408633049/21b085c20b85f20857cffeb0757c620a.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
-    "id": "1569048916157137106",
-    "name": "UIC Cyber vs. Baltic eSports Kiel e.V. Flötenfische · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167343",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-15T18:00:00+00:00",
-    "end": "2026-11-15T21:00:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1569048916157137106/93879ff5be228ac2efadd7c4b5c11615.png?size=1024",
     "competitors": [],
     "streamUrl": null
   },
