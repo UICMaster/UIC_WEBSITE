@@ -2,13 +2,26 @@
   {
     "id": "1567643383240069130",
     "name": "UIC Eclipse vs. Andromeda Aszendent · Spieltag 6",
-    "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167423",
+    "description": "Prime League, Spieltag 6. Termin bestätigt.\nLive gecastet von FullSpoon.\nStream: https://www.twitch.tv/full_spoon\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167423",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-09T18:30:00+00:00",
     "end": "2026-11-09T21:30:00+00:00",
-    "location": "Prime League",
+    "location": "https://www.twitch.tv/full_spoon",
     "image": "https://cdn.discordapp.com/guild-events/1567643383240069130/4fa28e5d7c7c01abd13f4fbf14acdcd0.png?size=1024",
+    "competitors": [],
+    "streamUrl": "https://www.twitch.tv/full_spoon"
+  },
+  {
+    "id": "1569018719139799204",
+    "name": "UIC Phoenix vs. Teemokopfkeeno · Spieltag 7",
+    "description": "Prime League, Spieltag 7. Termin bestätigt.\nLive gecastet von proStarII.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165888",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-10T17:00:00+00:00",
+    "end": "2026-11-10T20:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1569018719139799204/e1b0e5b97a2be21501e8515d33a1de2f.png?size=1024",
     "competitors": [],
     "streamUrl": null
   },
@@ -28,7 +41,7 @@
   {
     "id": "1568611010661584987",
     "name": "UIC Dynasty vs. TSV Hamelspringe Wels · Spieltag 6",
-    "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165704",
+    "description": "Prime League, Spieltag 6. Termin bestätigt.\nLive gecastet von proStarII.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165704",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-14T13:00:00+00:00",
@@ -91,19 +104,6 @@
     "streamUrl": null
   },
   {
-    "id": "1569018719139799204",
-    "name": "UIC Phoenix vs. Teemokopfkeeno · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165888",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-15T16:00:00+00:00",
-    "end": "2026-11-15T19:00:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1569018719139799204/64a374ce861b3632394101eefa63c733.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
     "id": "1569018726827819184",
     "name": "UIC Spark vs. Feather Stanka · Spieltag 7",
     "description": "Prime League, Spieltag 7. Termin noch offen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1166055",
@@ -113,19 +113,6 @@
     "end": "2026-11-15T19:00:00+00:00",
     "location": "Prime League",
     "image": "https://cdn.discordapp.com/guild-events/1569018726827819184/980668139d8d89c674171c465d4a30f3.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
-    "id": "1569018749871198378",
-    "name": "UIC Tempest vs. Hamburger Wale · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1166377",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-15T16:00:00+00:00",
-    "end": "2026-11-15T19:00:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1569018749871198378/44c7a6d29282b0d3e513453cf8aa37bc.png?size=1024",
     "competitors": [],
     "streamUrl": null
   },
@@ -171,7 +158,7 @@
   {
     "id": "1569048909408633049",
     "name": "UIC Dinonuggets vs. Elysion Flora Fatalis · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167038",
+    "description": "Prime League, Spieltag 7. Termin noch offen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167038",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-15T18:00:00+00:00",
