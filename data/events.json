@@ -1,55 +1,42 @@
 [
   {
-    "id": "1569018719139799204",
-    "name": "UIC Phoenix vs. Teemokopfkeeno · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165888",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-10T17:00:00+00:00",
-    "end": "2026-11-10T20:00:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1569018719139799204/e1b0e5b97a2be21501e8515d33a1de2f.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
     "id": "1567641913274925177",
     "name": "UIC Nova vs. EKO Budgies · Spieltag 6",
-    "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167006",
+    "description": "Prime League, Spieltag 6. Termin bestätigt.\nLive gecastet von proStarII.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167006",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-10T18:30:00+00:00",
     "end": "2026-11-10T21:30:00+00:00",
-    "location": "Prime League",
+    "location": "https://www.twitch.tv/ultrainstinctcrew",
     "image": "https://cdn.discordapp.com/guild-events/1567641913274925177/252b74de94495e9acf18ac8b5fdc0d45.png?size=1024",
     "competitors": [],
-    "streamUrl": null
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
     "id": "1568611010661584987",
     "name": "UIC Dynasty vs. TSV Hamelspringe Wels · Spieltag 6",
-    "description": "Prime League, Spieltag 6. Termin bestätigt.\nLive gecastet von proStarII.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165704",
+    "description": "Prime League, Spieltag 6. Termin bestätigt.\nLive gecastet von proStarII.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165704",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-14T13:00:00+00:00",
     "end": "2026-11-14T16:00:00+00:00",
-    "location": "Prime League",
+    "location": "https://www.twitch.tv/ultrainstinctcrew",
     "image": "https://cdn.discordapp.com/guild-events/1568611010661584987/d35261d5dc98ade01768e7ec9c0e4c00.png?size=1024",
     "competitors": [],
-    "streamUrl": null
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
     "id": "1568988502119555264",
     "name": "UIC Phoenix vs. Team SpieltEinfach · Spieltag 6",
-    "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165885",
+    "description": "Prime League, Spieltag 6. Termin bestätigt.\nLive gecastet von proStarII.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165885",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-15T14:00:00+00:00",
     "end": "2026-11-15T17:00:00+00:00",
-    "location": "Prime League",
+    "location": "https://www.twitch.tv/ultrainstinctcrew",
     "image": "https://cdn.discordapp.com/guild-events/1568988502119555264/dbaf5b280c1a10567927ad10c4649cd7.png?size=1024",
     "competitors": [],
-    "streamUrl": null
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
     "id": "1569018698755477655",
@@ -67,7 +54,7 @@
   {
     "id": "1569018705440940204",
     "name": "UIC Prime vs. Feather Storm · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin noch offen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165678",
+    "description": "Prime League, Spieltag 7. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165678",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-15T16:00:00+00:00",
@@ -130,19 +117,6 @@
     "streamUrl": null
   },
   {
-    "id": "1569048903016513536",
-    "name": "UIC Nova vs. Exhaustion Gaming · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167007",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-15T18:00:00+00:00",
-    "end": "2026-11-15T21:00:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1569048903016513536/418bd13c7823e0605b180d84855f89fd.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
     "id": "1569048909408633049",
     "name": "UIC Dinonuggets vs. Elysion Flora Fatalis · Spieltag 7",
     "description": "Prime League, Spieltag 7. Termin noch offen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167038",
@@ -158,15 +132,15 @@
   {
     "id": "1569048922234560574",
     "name": "UIC Strawhats vs. dRift Arcade · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin noch offen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167371",
+    "description": "Prime League, Spieltag 7. Termin noch offen.\nLive gecastet von proStarII.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167371",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-15T18:00:00+00:00",
     "end": "2026-11-15T21:00:00+00:00",
-    "location": "Prime League",
+    "location": "https://www.twitch.tv/ultrainstinctcrew",
     "image": "https://cdn.discordapp.com/guild-events/1569048922234560574/380bd29e6ff6bbd9c4a563f3d2319b7e.png?size=1024",
     "competitors": [],
-    "streamUrl": null
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
     "id": "1569048947304169482",
@@ -197,13 +171,39 @@
   {
     "id": "1569540890815373413",
     "name": "UIC Ascend vs. Ghost Impact Gaming Goats · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1169961",
+    "description": "Prime League, Spieltag 7. Termin noch offen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1169961",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-15T18:00:00+00:00",
     "end": "2026-11-15T21:00:00+00:00",
     "location": "Prime League",
     "image": "https://cdn.discordapp.com/guild-events/1569540890815373413/f19193b66a66774121d6e3fa0e83b7fc.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
+    "id": "1569788772588195890",
+    "name": "UIC Tempest vs. Hamburger Wale · Spieltag 7",
+    "description": "Prime League, Spieltag 7. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1166377",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-17T19:00:00+00:00",
+    "end": "2026-11-17T22:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1569788772588195890/cce7b75e373ff066c290cf637a14da15.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
+    "id": "1569788779017928774",
+    "name": "UIC Nova vs. Exhaustion Gaming · Spieltag 7",
+    "description": "Prime League, Spieltag 7. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167007",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-17T19:00:00+00:00",
+    "end": "2026-11-17T22:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1569788779017928774/4ea09666f3b54e9e369b9c058ed6681a.png?size=1024",
     "competitors": [],
     "streamUrl": null
   }
