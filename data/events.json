@@ -1,18 +1,5 @@
 [
   {
-    "id": "1567643383240069130",
-    "name": "UIC Eclipse vs. Andromeda Aszendent · Spieltag 6",
-    "description": "Prime League, Spieltag 6. Termin bestätigt.\nLive gecastet von FullSpoon.\nStream: https://www.twitch.tv/full_spoon\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167423",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-09T18:30:00+00:00",
-    "end": "2026-11-09T21:30:00+00:00",
-    "location": "https://www.twitch.tv/full_spoon",
-    "image": "https://cdn.discordapp.com/guild-events/1567643383240069130/4fa28e5d7c7c01abd13f4fbf14acdcd0.png?size=1024",
-    "competitors": [],
-    "streamUrl": "https://www.twitch.tv/full_spoon"
-  },
-  {
     "id": "1569018719139799204",
     "name": "UIC Phoenix vs. Teemokopfkeeno · Spieltag 7",
     "description": "Prime League, Spieltag 7. Termin bestätigt.\nLive gecastet von proStarII.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165888",
@@ -204,6 +191,19 @@
     "end": "2026-11-15T21:00:00+00:00",
     "location": "Prime League",
     "image": "https://cdn.discordapp.com/guild-events/1569048954862047363/1aeb5d2cedebb67de6be5d235c2e2259.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
+    "id": "1569540890815373413",
+    "name": "UIC Ascend vs. Ghost Impact Gaming Goats · Spieltag 7",
+    "description": "Prime League, Spieltag 7. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1169961",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-15T18:00:00+00:00",
+    "end": "2026-11-15T21:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1569540890815373413/f19193b66a66774121d6e3fa0e83b7fc.png?size=1024",
     "competitors": [],
     "streamUrl": null
   }
