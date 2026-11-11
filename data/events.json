@@ -93,15 +93,15 @@
   {
     "id": "1569041355907272764",
     "name": "UIC Vakuum vs. POA Lumi · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167065",
+    "description": "Prime League, Spieltag 7. Termin bestätigt.\nLive gecastet von proStarII.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167065",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-15T17:30:00+00:00",
     "end": "2026-11-15T20:30:00+00:00",
-    "location": "Prime League",
+    "location": "https://www.twitch.tv/ultrainstinctcrew",
     "image": "https://cdn.discordapp.com/guild-events/1569041355907272764/461f6ef3805a88394f69484e7a6c8219.png?size=1024",
     "competitors": [],
-    "streamUrl": null
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
     "id": "1569048909408633049",
@@ -119,15 +119,15 @@
   {
     "id": "1569048922234560574",
     "name": "UIC Strawhats vs. dRift Arcade · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin noch offen.\nLive gecastet von proStarII.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167371",
+    "description": "Prime League, Spieltag 7. Termin noch offen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167371",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-15T18:00:00+00:00",
     "end": "2026-11-15T21:00:00+00:00",
-    "location": "https://www.twitch.tv/ultrainstinctcrew",
+    "location": "Prime League",
     "image": "https://cdn.discordapp.com/guild-events/1569048922234560574/380bd29e6ff6bbd9c4a563f3d2319b7e.png?size=1024",
     "competitors": [],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+    "streamUrl": null
   },
   {
     "id": "1569048947304169482",
