@@ -1,83 +1,5 @@
 [
   {
-    "id": "1569018698755477655",
-    "name": "UIC Hydra vs. eSports Cologne Senioren · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165575",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-15T16:00:00+00:00",
-    "end": "2026-11-15T19:00:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1569018698755477655/4a97f0ba7fd1edf5c80200b772cf8222.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
-    "id": "1569018711485055207",
-    "name": "UIC Dynasty vs. SSP Overdrive · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165708",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-15T16:00:00+00:00",
-    "end": "2026-11-15T19:00:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1569018711485055207/8af6a283f1b3490ccea8234f08ce6a5a.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
-    "id": "1569048916157137106",
-    "name": "UIC Cyber vs. Baltic eSports Kiel e.V. Flötenfische · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167343",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-15T16:00:00+00:00",
-    "end": "2026-11-15T19:00:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1569048916157137106/301cd284a202f1ad552b4a780caf317a.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
-    "id": "1569041355907272764",
-    "name": "UIC Vakuum vs. POA Lumi · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167065",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-15T17:30:00+00:00",
-    "end": "2026-11-15T20:30:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1569041355907272764/461f6ef3805a88394f69484e7a6c8219.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
-    "id": "1569048922234560574",
-    "name": "UIC Strawhats vs. dRift Arcade · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin noch offen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167371",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-15T18:00:00+00:00",
-    "end": "2026-11-15T21:00:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1569048922234560574/380bd29e6ff6bbd9c4a563f3d2319b7e.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
-    "id": "1569540890815373413",
-    "name": "UIC Ascend vs. Ghost Impact Gaming Goats · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin noch offen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1169961",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-15T18:00:00+00:00",
-    "end": "2026-11-15T21:00:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1569540890815373413/f19193b66a66774121d6e3fa0e83b7fc.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
     "id": "1568988502119555264",
     "name": "UIC Phoenix vs. Team SpieltEinfach · Spieltag 6",
     "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165885",
@@ -139,6 +61,19 @@
     "end": "2026-11-21T21:00:00+00:00",
     "location": "Prime League",
     "image": "https://cdn.discordapp.com/guild-events/1571223232395083911/74eedae14b53785e5bd9da3237b08db6.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
+    "id": "1571585613734613083",
+    "name": "UIC Eclipse vs. Friendly Fire · Spieltag 7",
+    "description": "Prime League, Spieltag 7. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167429",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-22T18:30:00+00:00",
+    "end": "2026-11-22T21:30:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1571585613734613083/c0a4b80a940844aa9cce47fb8f6c3b62.png?size=1024",
     "competitors": [],
     "streamUrl": null
   }
