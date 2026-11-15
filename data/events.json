@@ -2,15 +2,15 @@
   {
     "id": "1569018698755477655",
     "name": "UIC Hydra vs. eSports Cologne Senioren · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin vorgeschlagen.\nLive gecastet von proStarII.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165575",
+    "description": "Prime League, Spieltag 7. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165575",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-15T16:00:00+00:00",
     "end": "2026-11-15T19:00:00+00:00",
-    "location": "https://www.twitch.tv/ultrainstinctcrew",
+    "location": "Prime League",
     "image": "https://cdn.discordapp.com/guild-events/1569018698755477655/4a97f0ba7fd1edf5c80200b772cf8222.png?size=1024",
     "competitors": [],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
+    "streamUrl": null
   },
   {
     "id": "1569018711485055207",
@@ -48,19 +48,6 @@
     "end": "2026-11-15T20:30:00+00:00",
     "location": "Prime League",
     "image": "https://cdn.discordapp.com/guild-events/1569041355907272764/461f6ef3805a88394f69484e7a6c8219.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
-    "id": "1569048909408633049",
-    "name": "UIC Dinonuggets vs. Elysion Flora Fatalis · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin noch offen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167038",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-15T18:00:00+00:00",
-    "end": "2026-11-15T21:00:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1569048909408633049/21b085c20b85f20857cffeb0757c620a.png?size=1024",
     "competitors": [],
     "streamUrl": null
   },
