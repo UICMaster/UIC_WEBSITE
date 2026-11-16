@@ -1,18 +1,5 @@
 [
   {
-    "id": "1568988502119555264",
-    "name": "UIC Phoenix vs. Team SpieltEinfach · Spieltag 6",
-    "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165885",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-16T17:00:00+00:00",
-    "end": "2026-11-16T20:00:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1568988502119555264/29ac9cb15dec6eb4afd360fa8b300cf8.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
     "id": "1569788772588195890",
     "name": "UIC Tempest vs. Hamburger Wale · Spieltag 7",
     "description": "Prime League, Spieltag 7. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1166377",
@@ -61,6 +48,19 @@
     "end": "2026-11-21T21:00:00+00:00",
     "location": "Prime League",
     "image": "https://cdn.discordapp.com/guild-events/1571223232395083911/74eedae14b53785e5bd9da3237b08db6.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
+    "id": "1568988502119555264",
+    "name": "UIC Phoenix vs. Team SpieltEinfach · Spieltag 6",
+    "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165885",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-22T17:00:00+00:00",
+    "end": "2026-11-22T20:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1568988502119555264/fc8aa36e773b6b0b1daa8bfc6a48b92d.png?size=1024",
     "competitors": [],
     "streamUrl": null
   },
