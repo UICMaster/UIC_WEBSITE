@@ -2,15 +2,15 @@
   {
     "id": "1569018705440940204",
     "name": "UIC Prime vs. Feather Storm · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin bestätigt.\nLive gecastet von proStarII.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165678",
+    "description": "Prime League, Spieltag 7. Termin bestätigt.\nLive gecastet von proStarII.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165678",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-18T18:30:00+00:00",
     "end": "2026-11-18T21:30:00+00:00",
-    "location": "Prime League",
+    "location": "https://www.twitch.tv/ultrainstinctcrew",
     "image": "https://cdn.discordapp.com/guild-events/1569018705440940204/4a20ec648c367a2e98eb6d51d124cd70.png?size=1024",
     "competitors": [],
-    "streamUrl": null
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
     "id": "1571223232395083911",
@@ -28,7 +28,7 @@
   {
     "id": "1568988502119555264",
     "name": "UIC Phoenix vs. Team SpieltEinfach · Spieltag 6",
-    "description": "Prime League, Spieltag 6. Termin bestätigt.\nLive gecastet von proStarII.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165885",
+    "description": "Prime League, Spieltag 6. Termin bestätigt.\nLive gecastet von proStarII und UIC FrozenHands | Alex.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165885",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-22T17:00:00+00:00",
