@@ -1,34 +1,8 @@
 [
   {
-    "id": "1569788772588195890",
-    "name": "UIC Tempest vs. Hamburger Wale · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1166377",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-17T19:00:00+00:00",
-    "end": "2026-11-17T22:00:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1569788772588195890/cce7b75e373ff066c290cf637a14da15.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
-    "id": "1569788779017928774",
-    "name": "UIC Nova vs. Exhaustion Gaming · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1167007",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-17T19:00:00+00:00",
-    "end": "2026-11-17T22:00:00+00:00",
-    "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1569788779017928774/4ea09666f3b54e9e369b9c058ed6681a.png?size=1024",
-    "competitors": [],
-    "streamUrl": null
-  },
-  {
     "id": "1569018705440940204",
     "name": "UIC Prime vs. Feather Storm · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165678",
+    "description": "Prime League, Spieltag 7. Termin bestätigt.\nLive gecastet von proStarII.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165678",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-18T18:30:00+00:00",
@@ -54,15 +28,15 @@
   {
     "id": "1568988502119555264",
     "name": "UIC Phoenix vs. Team SpieltEinfach · Spieltag 6",
-    "description": "Prime League, Spieltag 6. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165885",
+    "description": "Prime League, Spieltag 6. Termin bestätigt.\nLive gecastet von proStarII.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165885",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-22T17:00:00+00:00",
     "end": "2026-11-22T20:00:00+00:00",
-    "location": "Prime League",
+    "location": "https://www.twitch.tv/ultrainstinctcrew",
     "image": "https://cdn.discordapp.com/guild-events/1568988502119555264/fc8aa36e773b6b0b1daa8bfc6a48b92d.png?size=1024",
     "competitors": [],
-    "streamUrl": null
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
     "id": "1572077619833208843",
