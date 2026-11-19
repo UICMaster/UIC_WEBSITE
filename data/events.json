@@ -1,18 +1,5 @@
 [
   {
-    "id": "1569018705440940204",
-    "name": "UIC Prime vs. Feather Storm · Spieltag 7",
-    "description": "Prime League, Spieltag 7. Termin bestätigt.\nLive gecastet von proStarII.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1165678",
-    "type": "TOURNAMENT",
-    "highlight": false,
-    "start": "2026-11-18T18:30:00+00:00",
-    "end": "2026-11-18T21:30:00+00:00",
-    "location": "https://www.twitch.tv/ultrainstinctcrew",
-    "image": "https://cdn.discordapp.com/guild-events/1569018705440940204/4a20ec648c367a2e98eb6d51d124cd70.png?size=1024",
-    "competitors": [],
-    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
-  },
-  {
     "id": "1571223232395083911",
     "name": "UIC Raiders vs. Ghost Impact Gaming Duckies · Spieltag 7",
     "description": "Prime League, Spieltag 7. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1168071",
@@ -41,13 +28,13 @@
   {
     "id": "1572077619833208843",
     "name": "UIC Ascend vs. Fennec Five · Spieltag 8",
-    "description": "Prime League, Spieltag 8. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1170029",
+    "description": "Prime League, Spieltag 8. Termin bestätigt.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1170029",
     "type": "TOURNAMENT",
     "highlight": false,
-    "start": "2026-11-22T18:00:00+00:00",
-    "end": "2026-11-22T21:00:00+00:00",
+    "start": "2026-11-22T17:00:00+00:00",
+    "end": "2026-11-22T20:00:00+00:00",
     "location": "Prime League",
-    "image": "https://cdn.discordapp.com/guild-events/1572077619833208843/9b583e5b638a719e8079da7b11b33d18.png?size=1024",
+    "image": "https://cdn.discordapp.com/guild-events/1572077619833208843/9f4e3b87729d4840d0050c673acf06b1.png?size=1024",
     "competitors": [],
     "streamUrl": null
   },
