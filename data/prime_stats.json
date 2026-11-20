@@ -104,7 +104,7 @@
         "confirmed": true,
         "result": "2:1",
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165678",
-        "updated_at": "2026-11-20T14:38:21.371968+01:00",
+        "updated_at": "2026-11-20T19:23:32.868234+01:00",
         "enemy_team": {
           "id": 204880,
           "name": "Feather Storm",
@@ -2638,7 +2638,7 @@
             "summoner_name": "GIG Leon#SXY",
             "name": "Leon_Gaming9",
             "is_leader": true,
-            "updated_at": "2026-11-20T14:36:09.208796+01:00"
+            "updated_at": "2026-11-20T22:21:22.454827+01:00"
           },
           {
             "id": 2288682,
@@ -2672,7 +2672,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1170029",
-        "updated_at": "2026-11-20T14:37:59.244264+01:00",
+        "updated_at": "2026-11-20T22:23:03.354566+01:00",
         "enemy_team": {
           "id": 213105,
           "name": "Fennec Five",
@@ -4228,7 +4228,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167429",
-        "updated_at": "2026-11-20T14:38:10.275484+01:00",
+        "updated_at": "2026-11-20T22:23:16.447775+01:00",
         "enemy_team": {
           "id": 178531,
           "name": "Friendly Fire",
@@ -5761,7 +5761,7 @@
             "summoner_name": "Shiekåh#Skint",
             "name": "3ID Shiekah",
             "is_leader": false,
-            "updated_at": "2026-09-24T13:22:11.268090+02:00"
+            "updated_at": "2026-11-20T19:21:12.471010+01:00"
           },
           {
             "id": 1621358,
@@ -6294,7 +6294,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/212000/212473.jpg?1777401024",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/212473",
-      "updated_at": "2026-11-20T14:36:50.630545+01:00"
+      "updated_at": "2026-11-20T22:22:03.819529+01:00"
     },
     "matches": [
       {
@@ -6858,7 +6858,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165885",
-        "updated_at": "2026-11-20T14:37:37.094914+01:00",
+        "updated_at": "2026-11-20T22:22:45.225138+01:00",
         "enemy_team": {
           "id": 211953,
           "name": "Team SpieltEinfach",
@@ -7123,7 +7123,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/211000/211794.jpg?1790878967",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/211794",
-      "updated_at": "2026-11-20T14:36:31.493266+01:00"
+      "updated_at": "2026-11-20T22:21:42.638686+01:00"
     },
     "matches": [
       {
@@ -7411,7 +7411,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1168071",
-        "updated_at": "2026-11-20T14:37:36.098725+01:00",
+        "updated_at": "2026-11-20T22:22:43.229212+01:00",
         "enemy_team": {
           "id": 212733,
           "name": "Ghost Impact Gaming Duckies",
