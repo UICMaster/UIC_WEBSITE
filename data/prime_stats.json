@@ -2638,7 +2638,7 @@
             "summoner_name": "GIG Leon#SXY",
             "name": "Leon_Gaming9",
             "is_leader": true,
-            "updated_at": "2026-11-21T11:06:25.148508+01:00"
+            "updated_at": "2026-11-21T18:36:10.068854+01:00"
           },
           {
             "id": 2288682,
@@ -2672,7 +2672,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1170029",
-        "updated_at": "2026-11-21T11:08:07.232245+01:00",
+        "updated_at": "2026-11-21T18:37:51.358972+01:00",
         "enemy_team": {
           "id": 213105,
           "name": "Fennec Five",
@@ -4228,7 +4228,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167429",
-        "updated_at": "2026-11-21T11:08:20.332296+01:00",
+        "updated_at": "2026-11-21T18:38:04.451935+01:00",
         "enemy_team": {
           "id": 178531,
           "name": "Friendly Fire",
@@ -4814,9 +4814,9 @@
         "discordId": "478557851921416202",
         "rosterStatus": "starter",
         "isCaptain": false,
-        "api_id": 1917754,
-        "api_name": "Kampfdrache",
-        "in_api_roster": true
+        "api_id": null,
+        "api_name": null,
+        "in_api_roster": false
       },
       {
         "playerId": "0017",
@@ -4880,7 +4880,7 @@
             "summoner_name": "UIC Hunter#UIC",
             "name": "Kampfdrache",
             "is_leader": false,
-            "updated_at": "2026-11-07T19:21:57.960263+01:00"
+            "updated_at": "2026-11-21T16:53:51.092088+01:00"
           },
           {
             "id": 2088630,
@@ -4972,7 +4972,7 @@
             "summoner_name": "UIC Hunter#UIC",
             "name": "Kampfdrache",
             "is_leader": false,
-            "updated_at": "2026-11-07T19:21:57.960263+01:00"
+            "updated_at": "2026-11-21T16:53:51.092088+01:00"
           },
           {
             "id": 2088630,
@@ -5064,7 +5064,7 @@
             "summoner_name": "UIC Hunter#UIC",
             "name": "Kampfdrache",
             "is_leader": false,
-            "updated_at": "2026-11-07T19:21:57.960263+01:00"
+            "updated_at": "2026-11-21T16:53:51.092088+01:00"
           },
           {
             "id": 2088630,
@@ -5156,7 +5156,7 @@
             "summoner_name": "UIC Hunter#UIC",
             "name": "Kampfdrache",
             "is_leader": false,
-            "updated_at": "2026-11-07T19:21:57.960263+01:00"
+            "updated_at": "2026-11-21T16:53:51.092088+01:00"
           },
           {
             "id": 2088630,
@@ -5248,7 +5248,7 @@
             "summoner_name": "UIC Hunter#UIC",
             "name": "Kampfdrache",
             "is_leader": false,
-            "updated_at": "2026-11-07T19:21:57.960263+01:00"
+            "updated_at": "2026-11-21T16:53:51.092088+01:00"
           },
           {
             "id": 2088630,
@@ -5340,7 +5340,7 @@
             "summoner_name": "UIC Hunter#UIC",
             "name": "Kampfdrache",
             "is_leader": false,
-            "updated_at": "2026-11-07T19:21:57.960263+01:00"
+            "updated_at": "2026-11-21T16:53:51.092088+01:00"
           },
           {
             "id": 2088630,
@@ -5432,7 +5432,7 @@
             "summoner_name": "UIC Hunter#UIC",
             "name": "Kampfdrache",
             "is_leader": false,
-            "updated_at": "2026-11-07T19:21:57.960263+01:00"
+            "updated_at": "2026-11-21T16:53:51.092088+01:00"
           },
           {
             "id": 2088630,
@@ -6294,7 +6294,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/212000/212473.jpg?1777401024",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/212473",
-      "updated_at": "2026-11-21T11:07:06.535423+01:00"
+      "updated_at": "2026-11-21T18:36:52.528419+01:00"
     },
     "matches": [
       {
@@ -6858,7 +6858,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165885",
-        "updated_at": "2026-11-21T11:07:49.048349+01:00",
+        "updated_at": "2026-11-21T18:37:33.177540+01:00",
         "enemy_team": {
           "id": 211953,
           "name": "Team SpieltEinfach",
@@ -7042,7 +7042,7 @@
         "trackStats": true,
         "discordId": "487236534924476416",
         "rosterStatus": "starter",
-        "isCaptain": true,
+        "isCaptain": false,
         "api_id": 2316693,
         "api_name": "Angie6875",
         "in_api_roster": true
@@ -7097,6 +7097,16 @@
       },
       {
         "playerId": "UNKNOWN_LOCAL",
+        "gameName": "Eshylop#EUW",
+        "role": "UNKNOWN",
+        "rosterStatus": "api_only",
+        "isCaptain": false,
+        "api_id": 1577923,
+        "in_api_roster": true,
+        "missing_in_local": true
+      },
+      {
+        "playerId": "UNKNOWN_LOCAL",
         "gameName": "UIC Alexander#UIC",
         "role": "UNKNOWN",
         "rosterStatus": "api_only",
@@ -7123,7 +7133,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/211000/211794.jpg?1790878967",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/211794",
-      "updated_at": "2026-11-21T11:06:46.409269+01:00"
+      "updated_at": "2026-11-21T18:36:30.379774+01:00"
     },
     "matches": [
       {
@@ -7176,8 +7186,8 @@
             "id": 2316693,
             "summoner_name": "UIC Angie6875#555",
             "name": "Angie6875",
-            "is_leader": true,
-            "updated_at": "2026-11-09T03:21:42.622916+01:00"
+            "is_leader": false,
+            "updated_at": "2026-11-21T18:37:31.174285+01:00"
           }
         ],
         "enemy_lineup": [
@@ -7268,8 +7278,8 @@
             "id": 2316693,
             "summoner_name": "UIC Angie6875#555",
             "name": "Angie6875",
-            "is_leader": true,
-            "updated_at": "2026-11-09T03:21:42.622916+01:00"
+            "is_leader": false,
+            "updated_at": "2026-11-21T18:37:31.174285+01:00"
           }
         ],
         "enemy_lineup": [
@@ -7360,8 +7370,8 @@
             "id": 2316693,
             "summoner_name": "UIC Angie6875#555",
             "name": "Angie6875",
-            "is_leader": true,
-            "updated_at": "2026-11-09T03:21:42.622916+01:00"
+            "is_leader": false,
+            "updated_at": "2026-11-21T18:37:31.174285+01:00"
           }
         ],
         "enemy_lineup": [
@@ -7411,7 +7421,7 @@
         "confirmed": true,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1168071",
-        "updated_at": "2026-11-21T11:07:47.030333+01:00",
+        "updated_at": "2026-11-21T18:37:31.186143+01:00",
         "enemy_team": {
           "id": 212733,
           "name": "Ghost Impact Gaming Duckies",
@@ -7419,8 +7429,80 @@
           "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/212733",
           "logo_url": null
         },
-        "team_lineup": [],
-        "enemy_lineup": []
+        "team_lineup": [
+          {
+            "id": 1486717,
+            "summoner_name": "UIC Lynx#XIV",
+            "name": "UIC Lynx",
+            "is_leader": false,
+            "updated_at": "2026-11-21T07:06:28.826473+01:00"
+          },
+          {
+            "id": 1577923,
+            "summoner_name": "Eshylop#EUW",
+            "name": "Eshylop",
+            "is_leader": false,
+            "updated_at": "2026-11-21T18:37:31.181406+01:00"
+          },
+          {
+            "id": 1881159,
+            "summoner_name": "UIC Schlnken#UIC",
+            "name": "Schinkenowo",
+            "is_leader": false,
+            "updated_at": "2026-11-08T03:22:00.497260+01:00"
+          },
+          {
+            "id": 2192699,
+            "summoner_name": "UIC trance#zzxo",
+            "name": "trancegodzx",
+            "is_leader": false,
+            "updated_at": "2026-11-21T04:53:23.657067+01:00"
+          },
+          {
+            "id": 2316693,
+            "summoner_name": "UIC Angie6875#555",
+            "name": "Angie6875",
+            "is_leader": false,
+            "updated_at": "2026-11-21T18:37:31.174285+01:00"
+          }
+        ],
+        "enemy_lineup": [
+          {
+            "id": 2065514,
+            "summoner_name": "LostGenesis#01871",
+            "name": "LostGenesis",
+            "is_leader": false,
+            "updated_at": "2026-11-21T18:36:10.078158+01:00"
+          },
+          {
+            "id": 2200427,
+            "summoner_name": "VaIerion#EUW",
+            "name": "Valerion757",
+            "is_leader": false,
+            "updated_at": "2026-09-24T13:32:36.917490+02:00"
+          },
+          {
+            "id": 2273081,
+            "summoner_name": "R4G ByLuca#Ahri",
+            "name": "ByLuca",
+            "is_leader": true,
+            "updated_at": "2026-11-21T17:51:21.353225+01:00"
+          },
+          {
+            "id": 2279294,
+            "summoner_name": "Tic Tac Nautilus#GIG",
+            "name": "Tic Tac Gum",
+            "is_leader": true,
+            "updated_at": "2026-11-21T17:51:21.356723+01:00"
+          },
+          {
+            "id": 2282489,
+            "summoner_name": "Khada Jhin#Foon",
+            "name": "AP Foon",
+            "is_leader": true,
+            "updated_at": "2026-11-21T17:51:21.345500+01:00"
+          }
+        ]
       },
       {
         "id": 44758,
@@ -7472,8 +7554,8 @@
             "id": 2316693,
             "summoner_name": "UIC Angie6875#555",
             "name": "Angie6875",
-            "is_leader": true,
-            "updated_at": "2026-11-09T03:21:42.622916+01:00"
+            "is_leader": false,
+            "updated_at": "2026-11-21T18:37:31.174285+01:00"
           }
         ],
         "enemy_lineup": [
@@ -7564,8 +7646,8 @@
             "id": 2316693,
             "summoner_name": "UIC Angie6875#555",
             "name": "Angie6875",
-            "is_leader": true,
-            "updated_at": "2026-11-09T03:21:42.622916+01:00"
+            "is_leader": false,
+            "updated_at": "2026-11-21T18:37:31.174285+01:00"
           }
         ],
         "enemy_lineup": [
@@ -7656,8 +7738,8 @@
             "id": 2316693,
             "summoner_name": "UIC Angie6875#555",
             "name": "Angie6875",
-            "is_leader": true,
-            "updated_at": "2026-11-09T03:21:42.622916+01:00"
+            "is_leader": false,
+            "updated_at": "2026-11-21T18:37:31.174285+01:00"
           }
         ],
         "enemy_lineup": [
