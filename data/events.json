@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "1574402923973312633",
+    "name": "UIC Phoenix vs. Elektrolyse & Söhne · Spieltag 99",
+    "description": "Prime League, Spieltag 99. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1170184",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-29T16:00:00+00:00",
+    "end": "2026-11-29T19:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1574402923973312633/50ef2cd2974a26d247a24d5c2e8e6bbd.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  },
+  {
+    "id": "1574402929186709608",
+    "name": "UIC Raiders vs. Ghost Impact Gaming Duckies · Spieltag 99",
+    "description": "Prime League, Spieltag 99. Termin noch offen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1170170",
+    "type": "TOURNAMENT",
+    "highlight": false,
+    "start": "2026-11-29T18:00:00+00:00",
+    "end": "2026-11-29T21:00:00+00:00",
+    "location": "Prime League",
+    "image": "https://cdn.discordapp.com/guild-events/1574402929186709608/f98afaa7301a505fe31d6b76f4c48557.png?size=1024",
+    "competitors": [],
+    "streamUrl": null
+  }
+]
