@@ -1408,7 +1408,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/212000/212852.jpg?1792708654",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/212852",
-      "updated_at": "2026-11-24T13:51:30.026449+01:00"
+      "updated_at": "2026-11-24T17:51:22.270898+01:00"
     },
     "matches": [
       {
@@ -2638,7 +2638,7 @@
             "summoner_name": "GIG Leon#SXY",
             "name": "Leon_Gaming9",
             "is_leader": true,
-            "updated_at": "2026-11-24T13:51:00.731565+01:00"
+            "updated_at": "2026-11-24T23:51:14.937058+01:00"
           },
           {
             "id": 2288682,
@@ -2672,7 +2672,7 @@
         "confirmed": true,
         "result": "2:1",
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1170029",
-        "updated_at": "2026-11-24T13:52:16.544444+01:00",
+        "updated_at": "2026-11-24T17:52:05.961072+01:00",
         "enemy_team": {
           "id": 213105,
           "name": "Fennec Five",
@@ -4055,7 +4055,7 @@
             "summoner_name": "FiZZi#245",
             "name": "FIZZi",
             "is_leader": true,
-            "updated_at": "2026-11-24T13:51:33.063502+01:00"
+            "updated_at": "2026-11-24T23:50:27.246877+01:00"
           },
           {
             "id": 1594981,
@@ -4076,7 +4076,7 @@
             "summoner_name": "TFT Emperor#dia2",
             "name": "emperortop",
             "is_leader": true,
-            "updated_at": "2026-11-24T07:06:32.703465+01:00"
+            "updated_at": "2026-11-24T23:50:27.251278+01:00"
           },
           {
             "id": 2330074,
@@ -4172,7 +4172,7 @@
       },
       {
         "playerId": "0008",
-        "gameName": "UIC Stafferl",
+        "gameName": "L8 Stafferl",
         "tagLine": "FNC",
         "role": "SUP",
         "puuid": "BHku01UvPCM0XHTSiZfGdR16RsnGgAd2RvA-B7ZoJbGIOYNFwAjM9e67CqZ2tMF4yW7plzCFT3Akmw",
@@ -4180,9 +4180,9 @@
         "discordId": "262628424135213056",
         "rosterStatus": "starter",
         "isCaptain": true,
-        "api_id": 1545098,
-        "api_name": "Stafferl",
-        "in_api_roster": true
+        "api_id": null,
+        "api_name": null,
+        "in_api_roster": false
       },
       {
         "playerId": "UNKNOWN_LOCAL",
@@ -4243,6 +4243,16 @@
         "api_id": 2326238,
         "in_api_roster": true,
         "missing_in_local": true
+      },
+      {
+        "playerId": "UNKNOWN_LOCAL",
+        "gameName": "UIC Stafferl#FNC",
+        "role": "UNKNOWN",
+        "rosterStatus": "api_only",
+        "isCaptain": true,
+        "api_id": 1545098,
+        "in_api_roster": true,
+        "missing_in_local": true
       }
     ],
     "api_meta": {
@@ -4252,7 +4262,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/208000/208131.jpg?1778157742",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/208131",
-      "updated_at": "2026-11-24T13:51:03.915143+01:00"
+      "updated_at": "2026-11-24T19:20:43.697566+01:00"
     },
     "matches": [
       {
@@ -4264,7 +4274,7 @@
         "confirmed": true,
         "result": "0:2",
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1167429",
-        "updated_at": "2026-11-24T13:52:25.611420+01:00",
+        "updated_at": "2026-11-24T19:21:40.384956+01:00",
         "enemy_team": {
           "id": 178531,
           "name": "Friendly Fire",
@@ -6402,7 +6412,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/212000/212473.jpg?1777401024",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/212473",
-      "updated_at": "2026-11-24T13:51:47.199920+01:00"
+      "updated_at": "2026-11-24T23:51:12.917368+01:00"
     },
     "matches": [
       {
@@ -6598,7 +6608,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1170184",
-        "updated_at": "2026-11-24T13:52:40.694791+01:00",
+        "updated_at": "2026-11-24T23:51:31.233751+01:00",
         "enemy_team": {
           "id": 212417,
           "name": "Elektrolyse &amp; Söhne",
@@ -6986,7 +6996,7 @@
         "confirmed": true,
         "result": "2:1",
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1165885",
-        "updated_at": "2026-11-24T13:52:06.470459+01:00",
+        "updated_at": "2026-11-24T17:51:57.893879+01:00",
         "enemy_team": {
           "id": 211953,
           "name": "Team SpieltEinfach",
@@ -7323,7 +7333,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/211000/211794.jpg?1790878967",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/211794",
-      "updated_at": "2026-11-24T13:51:24.975910+01:00"
+      "updated_at": "2026-11-24T23:50:47.578863+01:00"
     },
     "matches": [
       {
@@ -7611,7 +7621,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1170170",
-        "updated_at": "2026-11-24T13:52:38.686455+01:00",
+        "updated_at": "2026-11-24T23:51:29.224018+01:00",
         "enemy_team": {
           "id": 212733,
           "name": "Ghost Impact Gaming Duckies",
