@@ -15,14 +15,14 @@
   {
     "id": "1574402929186709608",
     "name": "UIC Raiders vs. Ghost Impact Gaming Duckies · Spieltag 99",
-    "description": "Prime League, Spieltag 99. Termin vorgeschlagen.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1170170",
+    "description": "Prime League, Spieltag 99. Termin vorgeschlagen.\nLive gecastet von FullSpoon.\nStream: https://www.twitch.tv/full_spoon\nSpiel: https://www.primeleague.gg/de/leagues/matches/1170170",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-29T18:00:00+00:00",
     "end": "2026-11-29T21:00:00+00:00",
-    "location": "Prime League",
+    "location": "https://www.twitch.tv/full_spoon",
     "image": "https://cdn.discordapp.com/guild-events/1574402929186709608/f98afaa7301a505fe31d6b76f4c48557.png?size=1024",
     "competitors": [],
-    "streamUrl": null
+    "streamUrl": "https://www.twitch.tv/full_spoon"
   }
 ]
