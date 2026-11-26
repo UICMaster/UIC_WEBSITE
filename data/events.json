@@ -2,15 +2,15 @@
   {
     "id": "1574402923973312633",
     "name": "UIC Phoenix vs. Elektrolyse & Söhne · Spieltag 99",
-    "description": "Prime League, Spieltag 99. Termin vorgeschlagen.\nLive gecastet von proStarII.\nSpiel: https://www.primeleague.gg/de/leagues/matches/1170184",
+    "description": "Prime League, Spieltag 99. Termin vorgeschlagen.\nLive gecastet von proStarII.\nStream: https://www.twitch.tv/ultrainstinctcrew\nSpiel: https://www.primeleague.gg/de/leagues/matches/1170184",
     "type": "TOURNAMENT",
     "highlight": false,
     "start": "2026-11-29T16:00:00+00:00",
     "end": "2026-11-29T19:00:00+00:00",
-    "location": "Prime League",
+    "location": "https://www.twitch.tv/ultrainstinctcrew",
     "image": "https://cdn.discordapp.com/guild-events/1574402923973312633/50ef2cd2974a26d247a24d5c2e8e6bbd.png?size=1024",
     "competitors": [],
-    "streamUrl": null
+    "streamUrl": "https://www.twitch.tv/ultrainstinctcrew"
   },
   {
     "id": "1574402929186709608",
