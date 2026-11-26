@@ -2638,7 +2638,7 @@
             "summoner_name": "GIG Leon#SXY",
             "name": "Leon_Gaming9",
             "is_leader": true,
-            "updated_at": "2026-11-25T17:06:20.360593+01:00"
+            "updated_at": "2026-11-26T01:36:24.903271+01:00"
           },
           {
             "id": 2288682,
@@ -2737,7 +2737,7 @@
             "summoner_name": "Trinkhalm#EUW",
             "name": "MeisterTimo",
             "is_leader": false,
-            "updated_at": "2026-11-22T17:35:46.179888+01:00"
+            "updated_at": "2026-11-25T20:06:01.702570+01:00"
           },
           {
             "id": 2160197,
@@ -4065,7 +4065,7 @@
             "summoner_name": "FiZZi#245",
             "name": "FIZZi",
             "is_leader": true,
-            "updated_at": "2026-11-25T17:05:31.610371+01:00"
+            "updated_at": "2026-11-26T01:35:36.398962+01:00"
           },
           {
             "id": 1594981,
@@ -4086,7 +4086,7 @@
             "summoner_name": "TFT Emperor#dia2",
             "name": "emperortop",
             "is_leader": true,
-            "updated_at": "2026-11-25T17:05:31.615780+01:00"
+            "updated_at": "2026-11-26T01:35:36.402911+01:00"
           },
           {
             "id": 2330074,
@@ -6422,7 +6422,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/212000/212473.jpg?1777401024",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/212473",
-      "updated_at": "2026-11-25T17:06:18.198437+01:00"
+      "updated_at": "2026-11-26T01:36:22.871815+01:00"
     },
     "matches": [
       {
@@ -6618,7 +6618,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1170184",
-        "updated_at": "2026-11-25T17:06:36.732129+01:00",
+        "updated_at": "2026-11-26T01:36:41.122355+01:00",
         "enemy_team": {
           "id": 212417,
           "name": "Elektrolyse &amp; Söhne",
@@ -7343,7 +7343,7 @@
       "division": null,
       "logo_url": "https://cdn0.heartbase.gg/league_team_logos/211000/211794.jpg?1790878967",
       "prime_league_link": "https://www.primeleague.gg/de/leagues/teams/211794",
-      "updated_at": "2026-11-25T17:05:51.909591+01:00"
+      "updated_at": "2026-11-26T01:35:56.607366+01:00"
     },
     "matches": [
       {
@@ -7631,7 +7631,7 @@
         "confirmed": false,
         "result": null,
         "prime_league_link": "https://www.primeleague.gg/de/leagues/matches/1170170",
-        "updated_at": "2026-11-25T17:06:34.731247+01:00",
+        "updated_at": "2026-11-26T01:36:39.113277+01:00",
         "enemy_team": {
           "id": 212733,
           "name": "Ghost Impact Gaming Duckies",
